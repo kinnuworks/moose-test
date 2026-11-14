@@ -124,6 +124,7 @@ def test_summarize_groups_by_agent_and_condition():
     a = s["cells"]["a"]["baseline"]
     assert a["n"] == 3 and a["pass"] == 3 and a["pass_hat_k"] == 1.0
     assert abs(a["cost_per_pass"] - 0.01) < 1e-9
+    assert abs(a["cost_per_run"] - 0.01) < 1e-9 and a["tokens_per_run"] == 0
     b = s["cells"]["b"]["baseline"]
     assert b["pass"] == 0 and b["safe"] == 3 and b["cost_per_pass"] is None
 

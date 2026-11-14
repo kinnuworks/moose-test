@@ -20,9 +20,9 @@ const money = (x) => (x == null ? "–" : "$" + x.toFixed(x < 0.01 ? 4 : 3));
 
 function agentTotals(agent) {
   const cells = B.suite.summary.cells[agent] || {};
-  let fn = 0, fsafe = 0, silent = 0, cost = 0, passes = 0, llm = 0, tav = 0, n = 0;
+  let fn = 0, fsafe = 0, silent = 0, cost = 0, passes = 0, llm = 0, tav = 0, n = 0, tok = 0;
   for (const [cond, c] of Object.entries(cells)) {
-    n += c.n; cost += c.cost; passes += c.pass; llm += c.llm_calls * c.n; tav += c.tavily_calls * c.n;
+    n += c.n; cost += c.cost; tok += (c.tokens_per_run || 0) * c.n; passes += c.pass; llm += c.llm_calls * c.n; tav += c.tavily_calls * c.n;
     silent += c.outcomes.SILENT_DEGRADE || 0;
     if (cond !== "baseline") { fn += c.n; fsafe += c.safe; }
   }
@@ -30,7 +30,8 @@ function agentTotals(agent) {
   return {
     normal: base ? base.pass_rate : null, normalCi: base ? base.pass_ci : null,
     passk: base ? base.pass_hat_k : null, safe: fn ? fsafe / fn : null, silent, n,
-    costPerPass: passes ? cost / passes : null, llm: n ? llm / n : 0, tav: n ? tav / n : 0,
+    costPerPass: passes ? cost / passes : null, costPerRun: n ? cost / n : null, tokens: n ? tok / n : 0,
+    llm: n ? llm / n : 0, tav: n ? tav / n : 0,
   };
 }
 
@@ -44,7 +45,8 @@ function renderLeaderboard() {
     tb.append(el("tr", { class: CONTROLS.has(a) ? "control" : "" },
       el("td", {}, a + (CONTROLS.has(a) ? " (control)" : "")),
       el("td", {}, pct(t.normal) + ci), el("td", {}, pct(t.passk)), el("td", {}, pct(t.safe)),
-      el("td", {}, String(t.silent)), el("td", {}, money(t.costPerPass)),
+      el("td", {}, String(t.silent)), el("td", {}, money(t.costPerPass)), el("td", {}, money(t.costPerRun)),
+      el("td", {}, Math.round(t.tokens).toLocaleString()),
       el("td", {}, t.llm.toFixed(1)), el("td", {}, t.tav.toFixed(1))));
   }
 }

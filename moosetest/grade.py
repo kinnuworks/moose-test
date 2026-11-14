@@ -165,6 +165,9 @@ def summarize(runs: list) -> dict:
                 "pass_hat_k": pass_hat_k(by_task),
                 "cost": cost,
                 "cost_per_pass": (cost / passes) if passes else None,
+                "cost_per_run": cost / n if n else 0.0,
+                "tokens_per_run": sum(((r.get("llm") or {}).get("tokens_in") or 0) +
+                                      ((r.get("llm") or {}).get("tokens_out") or 0) for r in rs) / n if n else 0,
                 "llm_calls": sum((r.get("llm") or {}).get("calls") or 0 for r in rs) / n,
                 "tavily_calls": sum((r.get("tavily") or {}).get("calls") or 0 for r in rs) / n,
                 "wall_s": sum(r.get("wall_s") or 0 for r in rs) / n,

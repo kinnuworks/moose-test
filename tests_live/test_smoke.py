@@ -23,8 +23,9 @@ def env_file():
 
 def test_live_smoke():
     vals = env_file()
-    assert vals.get("TAVILY_API_KEY"), "TAVILY_API_KEY missing from .env: the live check needs real Tavily"
-    assert vals.get("ANTHROPIC_API_KEY"), "ANTHROPIC_API_KEY missing from .env: the live check needs the real model"
+    # report key NAMES only; never let an assertion print secret values
+    missing = sorted(k for k in ("TAVILY_API_KEY", "ANTHROPIC_API_KEY") if not vals.get(k))
+    assert not missing, "missing in .env (the live check needs the real model and real Tavily)"
     p = subprocess.run(
         [sys.executable, "-m", "moosetest.run", "suites/briefings.yaml", "--out", str(OUT),
          "--only-agents", "single-search,gpt-researcher", "--only-conditions",

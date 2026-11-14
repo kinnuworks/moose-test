@@ -25,3 +25,7 @@ __pycache__/
 .proxy.log
 .bifrost/
 logs/
+results/dev/
+results/smoke/
+results/briefings/
+results/rough-cut/

@@ -51,14 +51,21 @@ def diagnose(run: dict, base_url: str, key: str, model: str, timeout=60):
         return None
     r = requests.post(f"{base_url.rstrip('/')}/chat/completions", timeout=timeout,
                       headers={"authorization": f"Bearer {key}", "content-type": "application/json"},
-                      json={"model": model, "max_tokens": 200, "temperature": 0,
+                      json={"model": model, "max_tokens": 400, "temperature": 0,
                             "messages": [{"role": "system", "content": SYSTEM},
                                          {"role": "user", "content": build_prompt(run)}]})
     r.raise_for_status()
-    content = (r.json()["choices"][0]["message"]["content"] or "").strip()
+    return parse_reply(r.json()["choices"][0]["message"]["content"] or "", model)
+
+
+def parse_reply(content: str, model: str) -> dict:
+    content = content.strip()
+    start, end = content.find("{"), content.rfind("}")
     try:
-        obj = json.loads(content.strip("`").removeprefix("json").strip())
-        cat = obj.get("category") if obj.get("category") in CATEGORIES else "other"
-        return {"diagnosis": str(obj.get("diagnosis", ""))[:300], "category": cat, "written_by": model}
+        obj = json.loads(content[start:end + 1]) if start != -1 and end > start else None
     except ValueError:
+        obj = None
+    if not isinstance(obj, dict) or not obj.get("diagnosis"):
         return {"diagnosis": content[:300], "category": "unparsed", "written_by": model}
+    cat = obj.get("category") if obj.get("category") in CATEGORIES else "other"
+    return {"diagnosis": str(obj["diagnosis"])[:300], "category": cat, "written_by": model}

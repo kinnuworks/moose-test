@@ -78,3 +78,9 @@ def test_bad_model_output_is_reported_not_hidden():
     threading.Thread(target=s2.serve_forever, daemon=True).start()
     d = diagnose(RUN, base_url=f"http://127.0.0.1:{s2.server_address[1]}/v1", key="k", model="m")
     assert d["category"] == "unparsed" and d["diagnosis"] == "not json"
+
+
+def test_fenced_json_is_parsed():
+    from moosetest.diagnose import parse_reply
+    d = parse_reply('```json\n{"diagnosis": "It searched 47 times and then said so.", "category": "gave_up_honestly"}\n```', "m")
+    assert d["category"] == "gave_up_honestly" and d["diagnosis"].startswith("It searched")

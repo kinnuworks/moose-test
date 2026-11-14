@@ -1,0 +1,49 @@
+{
+ "run_id": "mt-1114230377dc-null-tavily_ratelimit-t5-1",
+ "agent": "null",
+ "condition": "tavily_ratelimit",
+ "task_id": "t5",
+ "company": "Canva",
+ "repeat": 1,
+ "virtual_key": "mt-1114230377dc-null-tavily_ratelimit-t5-1",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 0.0,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Canva on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "",
+ "llm": {
+  "calls": 0,
+  "ok": 0,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "cost": 0,
+  "fallbacks": 0,
+  "providers": []
+ },
+ "tavily": {
+  "calls": 0,
+  "statuses": [],
+  "results": []
+ },
+ "timeline": [],
+ "planted_claim": null,
+ "grade": {
+  "outcome": "NO_OUTPUT",
+  "words": 0,
+  "cited": 0,
+  "verified": 0,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 0,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": {
+  "diagnosis": "The run exited with code 0 but produced an empty briefing, with zero model and search calls logged, so the injected Tavily rate limit was never exercised.",
+  "category": "no_output",
+  "written_by": "anthropic/claude-haiku-5-5"
+ }
+}

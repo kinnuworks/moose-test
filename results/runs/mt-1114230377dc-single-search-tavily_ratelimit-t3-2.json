@@ -1,0 +1,61 @@
+{
+ "run_id": "mt-1114230377dc-single-search-tavily_ratelimit-t3-2",
+ "agent": "single-search",
+ "condition": "tavily_ratelimit",
+ "task_id": "t3",
+ "company": "Shopify",
+ "repeat": 2,
+ "virtual_key": "mt-1114230377dc-single-search-tavily_ratelimit-t3-2",
+ "exit_code": 1,
+ "stderr_tail": "ch_depth,\n    ...<22 lines>...\n                                 filter_by_language=filter_by_language,\n                                 **kwargs)\n  File \"/Users/kinnu/projects/global-ai-hack/.agents/base/lib/python3.15/site-packages/tavily/tavily.py\", line 245, in _search\n    self._handle_error_response(response)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"/Users/kinnu/projects/global-ai-hack/.agents/base/lib/python3.15/site-packages/tavily/tavily.py\", line 135, in _handle_error_response\n    raise UsageLimitExceededError(detail)\ntavily.errors.UsageLimitExceededError: Rate limit exceeded\n",
+ "wall_s": 0.4,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "",
+ "llm": {
+  "calls": 0,
+  "ok": 0,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "cost": 0,
+  "fallbacks": 0,
+  "providers": []
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   429
+  ],
+  "results": []
+ },
+ "timeline": [
+  {
+   "t": "2026-11-14T23:15:49.211361Z",
+   "kind": "search",
+   "relay": "mt-tavily-ratelimit",
+   "status_code": 429,
+   "latency_ms": 1,
+   "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 0
+  }
+ ],
+ "planted_claim": null,
+ "grade": {
+  "outcome": "CRASH",
+  "words": 0,
+  "cited": 0,
+  "verified": 0,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 0,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": {
+  "diagnosis": "The single search call was rate-limited (HTTP 429) and returned zero results, and the agent crashed with a UsageLimitExceededError before producing any briefing.",
+  "category": "crashed_on_search_error",
+  "written_by": "anthropic/claude-haiku-5-5"
+ }
+}

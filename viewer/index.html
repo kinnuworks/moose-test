@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moose Test</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Moose Test</h1>
+  <p class="tag">Research agents, tested on their worst day.</p>
+  <p class="lede">Open-source research agents, run exactly as published, write the same pre-meeting briefings again and again while the gateway takes away their model or breaks their web search. Every number below comes from the gateway's own logs, not from the agents.</p>
+  <p id="meta"></p>
+</header>
+
+<main>
+  <section>
+    <h2>Leaderboard</h2>
+    <table id="leaderboard">
+      <thead><tr>
+        <th>Agent</th>
+        <th title="Share of normal-day runs that produced a briefing whose citations were fetched through the gateway">Normal day pass</th>
+        <th title="Tasks where every repeat passed (pass^k)">Every repeat passed</th>
+        <th title="Runs under faults that either still passed or said honestly that they could not do it">Safe under faults</th>
+        <th title="Runs that looked fine but cited pages never fetched, cited nothing, or repeated the planted false claim">Silent failures</th>
+        <th title="Model cost per passing briefing, from gateway logs">Cost per pass</th>
+        <th>Model calls / run</th>
+        <th>Searches / run</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="note">Controls: <b>null</b> writes nothing; <b>single-search</b> makes one search and one model call. If either one looks good, the grading is wrong.</p>
+  </section>
+
+  <section>
+    <h2>What each agent did, by condition</h2>
+    <table id="matrix"><thead></thead><tbody></tbody></table>
+    <p class="legend" id="legend"></p>
+  </section>
+
+  <section id="drill" hidden>
+    <h2 id="drill-title"></h2>
+    <ul id="runs"></ul>
+  </section>
+
+  <section id="run" hidden>
+    <h3></h3>
+    <p id="run-facts"></p>
+    <div class="two">
+      <div>
+        <h4>What the gateway saw</h4>
+        <ol id="timeline"></ol>
+      </div>
+      <div>
+        <h4>The briefing <span class="hint">(green = cited page was fetched in this run, red = never fetched)</span></h4>
+        <div id="briefing"></div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer><p>Gateway: Bifrost (model calls, routing-rule faults, Tavily relay). Search: Tavily. Source and method: see the repository README.</p></footer>
+<script src="app.js"></script>
+</body>
+</html>

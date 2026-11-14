@@ -1,0 +1,15 @@
+{
+  "providers": {
+    "anthropic": {
+      "keys": [ { "name": "anthropic-main", "value": "env.ANTHROPIC_API_KEY", "models": ["*"], "weight": 1.0 } ]
+    },
+    "ollama": {
+      "keys": [ { "name": "ollama-local", "value": "", "models": ["*"], "weight": 1.0,
+                  "ollama_key_config": { "url": "http://localhost:11434" } } ]
+    }
+  },
+  "governance": {
+    "auth_config": { "is_enabled": true, "admin_username": "env.BIFROST_ADMIN_USERNAME",
+                     "admin_password": "env.BIFROST_ADMIN_PASSWORD", "disable_auth_on_inference": false }
+  }
+}

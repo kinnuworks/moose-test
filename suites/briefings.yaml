@@ -1,0 +1,81 @@
+model: anthropic/claude-haiku-5-5
+embedding: ollama/nomic-embed-text
+repeats: 3
+agents:
+- name: gpt-researcher
+  cmd:
+  - .agents/gptr/bin/python
+  - agents/gpt_researcher/run.py
+  timeout: 900
+  env:
+    FAST_LLM: openai:{model}
+    SMART_LLM: openai:{model}
+    STRATEGIC_LLM: openai:{model}
+    EMBEDDING: openai:{embedding}
+    RETRIEVER: tavily
+- name: open-deep-research
+  cmd:
+  - .agents/odr/bin/python
+  - agents/open_deep_research/run.py
+  timeout: 1200
+  env: {}
+- name: single-search
+  cmd:
+  - .agents/base/bin/python
+  - agents/baseline/run.py
+  timeout: 300
+  env: {}
+- name: 'null'
+  cmd:
+  - .agents/base/bin/python
+  - agents/null/run.py
+  timeout: 60
+  env: {}
+conditions:
+- baseline
+- model_down
+- model_down_fallback
+- tavily_ratelimit
+- tavily_empty
+- tavily_misleading
+tasks:
+- id: t1
+  company: Nvidia
+  meeting_date: '2026-11-17'
+  query: Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with
+    three open questions to ask.
+- id: t2
+  company: Stripe
+  meeting_date: '2026-11-17'
+  query: Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with
+    three open questions to ask.
+- id: t3
+  company: Shopify
+  meeting_date: '2026-11-17'
+  query: Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with
+    three open questions to ask.
+- id: t4
+  company: Databricks
+  meeting_date: '2026-11-17'
+  query: Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with
+    three open questions to ask.
+- id: t5
+  company: Canva
+  meeting_date: '2026-11-17'
+  query: Prepare a one-page briefing for a meeting with Canva on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three
+    open questions to ask.
+- id: t6
+  company: Razorpay
+  meeting_date: '2026-11-17'
+  query: Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with
+    three open questions to ask.
+- id: t7
+  company: Infosys
+  meeting_date: '2026-11-17'
+  query: Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with
+    three open questions to ask.
+- id: t8
+  company: Zepto
+  meeting_date: '2026-11-17'
+  query: Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three
+    open questions to ask.

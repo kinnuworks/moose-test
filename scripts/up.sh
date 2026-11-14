@@ -11,7 +11,7 @@ cp bifrost/config.json .bifrost/config.json
 if ! curl -sf -o /dev/null http://localhost:11434/api/tags; then (ollama serve > logs/ollama.log 2>&1 &); sleep 2; fi
 ollama list | grep -q nomic-embed-text || ollama pull nomic-embed-text
 if ! curl -sf -o /dev/null http://localhost:8080/health; then
-  (npx -y @maximhq/bifrost@${BIFROST_VERSION:-2.5.1} -app-dir ./.bifrost -port 8080 -log-style json > logs/bifrost.log 2>&1 &)
+  (npx -y @maximhq/bifrost@1.6.3 --transport-version v${BIFROST_VERSION:-2.5.1} -app-dir ./.bifrost -port 8080 -log-style json > logs/bifrost.log 2>&1 &)
   for i in $(seq 1 60); do curl -sf -o /dev/null http://localhost:8080/health && break; sleep 1; done
 fi
 curl -sf -o /dev/null http://localhost:8080/health || { echo "Bifrost did not start; see logs/bifrost.log"; exit 1; }

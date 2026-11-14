@@ -155,7 +155,7 @@ fetch("data/bundle.json").then((r) => r.json()).then((b) => {
   B = b;
   const s = b.suite;
   $("#meta").textContent = `${s.n_runs} runs · ${s.agents.length} agents · ${s.conditions.length} conditions · ` +
-    `${s.tasks.length} briefing tasks · model held constant: ${s.model} · last run ${s.created.slice(0, 16).replace("T", " ")} UTC`;
+    `${s.tasks.length} briefing tasks · conditions run so far: ${s.conditions.map((c) => s.condition_labels[c] || c).join(", ")} · model held constant: ${s.model} · last run ${s.created.slice(0, 16).replace("T", " ")} UTC`;
   renderLeaderboard();
   renderMatrix();
 });

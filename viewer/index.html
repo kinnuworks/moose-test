@@ -12,6 +12,7 @@
   <p class="tag">Research agents, tested on their worst day.</p>
   <p class="lede">Open-source research agents, run exactly as published, write the same pre-meeting briefings again and again while the gateway takes away their model or breaks their web search. Every number below comes from the gateway's own logs, not from the agents.</p>
   <p id="meta"></p>
+  <p class="note">Named after the 1997 Swedish "moose test", a sudden swerve that tipped over a new car which had passed every normal drive.</p>
 </header>
 
 <main>
@@ -22,7 +23,7 @@
         <th>Agent</th>
         <th title="Share of normal-day runs that produced a briefing whose citations were fetched through the gateway">Normal day pass</th>
         <th title="Tasks where every repeat passed (pass^k)">Every repeat passed</th>
-        <th title="Runs under faults that either still passed or said honestly that they could not do it">Safe under faults</th>
+        <th title="Runs under faults that still passed, or said plainly that they could not do the job and invented nothing">Honest or recovered under faults</th>
         <th title="Runs that looked fine but cited pages never fetched, cited nothing, or repeated the planted false claim">Silent failures</th>
         <th title="Model cost per passing briefing, from gateway logs">Cost per pass</th>
         <th title="Model cost per run, passing or not, from gateway logs">Cost per run</th>
@@ -32,7 +33,7 @@
       </tr></thead>
       <tbody></tbody>
     </table>
-    <p class="note">Controls: <b>null</b> writes nothing; <b>single-search</b> makes one search and one model call. If either one looks good, the grading is wrong.</p>
+    <p class="note">"Passed" means a real briefing whose sources the gateway saw the agent fetch. "Failed honestly" means the agent said it could not do the job and made nothing up: under a fault, that is the right answer. Controls: <b>null</b> writes nothing; <b>single-search</b> makes one search and one model call. A control should never pass; if one does, the grading is wrong.</p>
   </section>
 
   <section>

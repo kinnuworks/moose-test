@@ -24,6 +24,7 @@ import yaml
 from moosetest.bifrost import Bifrost
 from moosetest.conditions import CONDITIONS, DEAD_PROVIDER, RELAY_MODES, relay_for, routing_rule_for
 from moosetest.faults import make_server
+from moosetest.diagnose import diagnose
 from moosetest.grade import grade_run, summarize
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -78,6 +79,8 @@ class Runner:
         self.embed_keys = self.b.provider_keys("ollama") if self.suite.get("embedding", "").startswith("ollama/") else []
         if not self.map_file.exists():
             self.map_file.write_text("{}")
+        self.diag_vk = self.b.create_vk(f"mt-diagnosis-{secrets.token_hex(3)}", self._provider_configs()[:1],
+                                        description="Moose Test failure diagnosis (kept apart from agent runs)")
 
     def _provider_configs(self):
         model = self.suite["model"].split("/", 1)[1]
@@ -140,6 +143,11 @@ class Runner:
             "planted_claim": PLANTED_MARK if condition == "tavily_misleading" else None,
         }
         rec["grade"] = grade_run(rec)
+        try:
+            rec["diagnosis"] = diagnose(rec, f"{os.environ.get('BIFROST_URL', 'http://localhost:8080').rstrip('/')}/v1",
+                                        self.diag_vk["value"], self.suite["model"])
+        except Exception as e:  # visible in the record and the viewer; never changes the grade
+            rec["diagnosis"] = {"diagnosis": f"diagnosis failed: {e}", "category": "error", "written_by": None}
         (self.out_dir / "runs").mkdir(exist_ok=True)
         (self.out_dir / "runs" / f"{name}.json").write_text(json.dumps(rec, indent=1))
         print(f"{name}: {rec['grade']['outcome']} exit={exit_code} llm={llm['calls']} tavily={tavily['calls']} "

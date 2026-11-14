@@ -103,6 +103,12 @@ function openRun(r) {
     `${r.tavily.calls} searches, ${g.cited} cited links (${g.verified} fetched in this run, ${g.unverified} never fetched)` +
     (g.echoed_planted_claim ? ", repeated the planted false claim" : "") +
     `, ${r.wall_s}s, ${money(r.llm.cost)} model cost, exit code ${r.exit_code}.`;
+  const dg = $("#diagnosis");
+  if (r.diagnosis && r.diagnosis.diagnosis) {
+    dg.hidden = false;
+    dg.replaceChildren(el("b", {}, "AI-written diagnosis: "), r.diagnosis.diagnosis,
+      el("span", { class: "hint" }, ` (${r.diagnosis.written_by || "no model"}, from this run's gateway log; the outcome above is graded without AI)`));
+  } else dg.hidden = true;
   const ol = $("#timeline");
   ol.replaceChildren();
   if (!r.timeline.length) ol.append(el("li", {}, "No calls reached the gateway."));

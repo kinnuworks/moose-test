@@ -26,3 +26,7 @@ td.cell:hover, td.cell:focus { background: #f4f4f4; outline: none; }
 #briefing .text { white-space: pre-wrap; font-size: 14px; border: 1px solid var(--line); padding: 12px; max-height: 560px; overflow: auto; }
 a.ver { color: #2e7d32; } a.unver { color: #c62828; text-decoration: line-through; }
 .empty { color: var(--muted); font-style: italic; }
+
+ul.support { padding-left: 1.2em; }
+ul.support li { margin: 0.35em 0; }
+.v-supported b { color: #2e7d32; } .v-contradicted b { color: #c62828; } .v-not_in_source b { color: #607d8b; }

@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from moosetest.grade import grade_run, summarize  # noqa: E402
+from moosetest.support import summarize_support  # noqa: E402
 
 
 def main(paths):
@@ -40,7 +41,7 @@ def main(paths):
     suite = {"model": first["model"], "agents": agents, "conditions": conds, "condition_labels": labels,
              "tasks": list(tasks.values()), "run_tags": [s["run_tag"] for s in suites],
              "created": max(s["created"] for s in suites), "n_runs": len(runs),
-             "summary": summarize(runs)}
+             "summary": summarize(runs), "support": summarize_support(runs)}
     out = ROOT / "viewer" / "data" / "bundle.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(json.dumps({"suite": suite, "runs": runs}))

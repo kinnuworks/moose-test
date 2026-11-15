@@ -30,10 +30,11 @@
         <th title="Model tokens per run, from gateway logs">Tokens per run</th>
         <th>Model calls / run</th>
         <th>Searches / run</th>
+        <th title="AI check of each fetched citation against the text the search returned for that page, through the gateway. Separate from the grade.">Contradicted by source (AI check)</th>
       </tr></thead>
       <tbody></tbody>
     </table>
-    <p class="note">"Passed" means a real briefing whose sources the gateway saw the agent fetch. "Failed honestly" means the agent said it could not do the job and made nothing up: under a fault, that is the right answer. Controls: <b>null</b> writes nothing, so it must never pass; if it did, the grading would be wrong. <b>single-search</b> makes one search and one model call: the simplest agent that can pass, and the cost and failure baseline the real agents are measured against.</p>
+    <p class="note">"Passed" means a real briefing whose sources the gateway saw the agent fetch. "Failed honestly" means the agent said it could not do the job and made nothing up: under a fault, that is the right answer. Controls: <b>null</b> writes nothing, so it must never pass; if it did, the grading would be wrong. <b>single-search</b> makes one search and one model call: the simplest agent that can pass, and the cost and failure baseline the real agents are measured against. "Contradicted by source" is an AI check, not part of the grade: for each citation the gateway saw fetched, a model compares the citing line with the page text the search returned. A claim the text does not cover counts as neither, since an agent may read more of a page than the gateway sees.</p>
   </section>
 
   <section>
@@ -51,6 +52,7 @@
     <h3></h3>
     <p id="run-facts"></p>
     <p id="diagnosis" hidden></p>
+    <div id="support" hidden></div>
     <div class="two">
       <div>
         <h4>What the gateway saw</h4>

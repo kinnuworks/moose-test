@@ -47,8 +47,36 @@ function renderLeaderboard() {
       el("td", {}, pct(t.normal) + ci), el("td", {}, pct(t.passk)), el("td", {}, pct(t.safe)),
       el("td", {}, String(t.silent)), el("td", {}, money(t.costPerPass)), el("td", {}, money(t.costPerRun)),
       el("td", {}, Math.round(t.tokens).toLocaleString()),
-      el("td", {}, t.llm.toFixed(1)), el("td", {}, t.tav.toFixed(1))));
+      el("td", {}, t.llm.toFixed(1)), el("td", {}, t.tav.toFixed(1)), el("td", {}, supportText(a))));
   }
+}
+
+function supportText(agent) {
+  const cells = (B.suite.support || {})[agent] || {};
+  let checked = 0, bad = 0;
+  for (const c of Object.values(cells)) { checked += c.checked; bad += c.contradicted; }
+  return checked ? `${bad} of ${checked} (${(100 * bad / checked).toFixed(1)}%)` : "–";
+}
+
+const VERDICT_TEXT = { supported: "supported", not_in_source: "not in the returned text", contradicted: "contradicted" };
+
+function renderSupport(r) {
+  const box = $("#support");
+  const s = r.support;
+  if (!s) { box.hidden = true; return; }
+  box.hidden = false;
+  if (s.error) { box.replaceChildren(el("p", { class: "bad" }, "AI source check failed: " + s.error)); return; }
+  const c = s.counts;
+  const ul = el("ul", { class: "support" });
+  for (const it of s.items) {
+    ul.append(el("li", { class: "v-" + it.verdict },
+      el("b", {}, VERDICT_TEXT[it.verdict] + ": "), it.claim, " ",
+      el("span", { class: "hint" }, "(" + it.reason + ")")));
+  }
+  box.replaceChildren(
+    el("h4", {}, `Do the sources back the briefing? ${c.supported} supported, ${c.contradicted} contradicted, ${c.not_in_source} not in the returned text`),
+    el("p", { class: "hint" }, `AI-written by ${s.written_by}, comparing each citing line with the page text the search returned through the gateway. It does not change the outcome above.`),
+    ul);
 }
 
 function renderMatrix() {
@@ -111,6 +139,7 @@ function openRun(r) {
     dg.replaceChildren(el("b", {}, "AI-written diagnosis: "), r.diagnosis.diagnosis,
       el("span", { class: "hint" }, ` (${r.diagnosis.written_by || "no model"}, from this run's gateway log; the outcome above is graded without AI)`));
   } else dg.hidden = true;
+  renderSupport(r);
   const ol = $("#timeline");
   ol.replaceChildren();
   if (!r.timeline.length) ol.append(el("li", {}, "No calls reached the gateway."));

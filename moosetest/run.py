@@ -22,6 +22,8 @@ from pathlib import Path
 import yaml
 
 from moosetest.bifrost import Bifrost
+from moosetest.support import check_support
+from moosetest.grade import normalize_url
 from moosetest.conditions import CONDITIONS, DEAD_PROVIDER, RELAY_MODES, relay_for, routing_rule_for
 from moosetest.faults import make_server
 from moosetest.diagnose import diagnose
@@ -152,6 +154,14 @@ class Runner:
             "attempt": attempt,
         }
         rec["grade"] = grade_run(rec)
+        sources = {normalize_url(x["url"]): x.pop("_text", "") for x in rec["tavily"]["results"] if x.get("url")}
+        rec["support"] = None
+        if rec["grade"]["verified"] and rec["grade"]["outcome"] != "INVALID":
+            try:
+                rec["support"] = check_support(rec, sources, f"{os.environ.get('BIFROST_URL', 'http://localhost:8080').rstrip('/')}/v1",
+                                               self.diag_vk["value"], self.suite["model"])
+            except Exception as e:  # visible in the record and the viewer; never changes the grade
+                rec["support"] = {"error": f"support check failed: {e}", "items": [], "counts": None}
         try:
             rec["diagnosis"] = diagnose(rec, f"{os.environ.get('BIFROST_URL', 'http://localhost:8080').rstrip('/')}/v1",
                                         self.diag_vk["value"], self.suite["model"])
@@ -225,7 +235,9 @@ class Runner:
                 body = json.loads(d.get("response_body") or "{}")
                 for x in body.get("results") or []:
                     results.append({"url": x.get("url"), "title": x.get("title"),
-                                    "published_date": x.get("published_date")})
+                                    "published_date": x.get("published_date"),
+                                    # page text the gateway saw; used by the support check, not saved
+                                    "_text": (x.get("raw_content") or x.get("content") or "")[:1500]})
                 n = len(body.get("results") or [])
             except ValueError:
                 pass

@@ -6,6 +6,8 @@ Moose Test runs open-source research agents exactly as they are published (GPT R
 
 **Why Bifrost and Tavily:** the agents never know they are being tested. Their model calls go to [Bifrost](https://github.com/maximhq/bifrost) through an ordinary API key, which is a Bifrost virtual key. Their Tavily searches go through a Bifrost relay. So Bifrost can count every call, price it, inject the failure (a model outage, a rate-limited or empty search, a planted false result) and record exactly which pages each agent fetched. A citation counts only if the gateway saw the agent fetch that page.
 
+**Where AI does the work:** the grade itself is deterministic, but two jobs need a model, and both run through Bifrost on their own virtual key. First, a model checks every fetched citation against the page text Tavily returned and says whether that text supports the line, contradicts it, or doesn't cover it. In GPT Researcher's briefings, 28 of 501 citations were contradicted (5.6%); we re-read all 30 contradictions and 24 held up. Second, for every run that did not pass, a model reads the run's gateway timeline and writes one sentence on what went wrong. Both are labelled as AI-written in the viewer.
+
 ![The viewer's demo path on real runs: the agent x condition table, a run that failed honestly with its gateway timeline, then a passing run with its source check](docs/demo.gif)
 
 _Recorded by the browser test as it walks the viewer over the committed runs._

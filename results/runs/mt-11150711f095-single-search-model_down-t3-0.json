@@ -1,0 +1,125 @@
+{
+ "run_id": "mt-11150711f095-single-search-model_down-t3-0",
+ "agent": "single-search",
+ "condition": "model_down",
+ "task_id": "t3",
+ "company": "Shopify",
+ "repeat": 0,
+ "virtual_key": "mt-11150711f095-single-search-model_down-t3-0",
+ "exit_code": 1,
+ "stderr_tail": "hon3.15/site-packages/openai/_base_client.py\", line 1474, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/kinnu/projects/global-ai-hack/.agents/base/lib/python3.15/site-packages/openai/_base_client.py\", line 1248, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.InternalServerError: Error code: 502 - network error occurred while connecting to provider API (DNS lookup, connection refused, etc.)\n",
+ "wall_s": 5.4,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "",
+ "llm": {
+  "calls": 3,
+  "ok": 0,
+  "errors": 3,
+  "embedding_calls": 0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "cost": 0,
+  "fallbacks": 0,
+  "providers": [
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.demandsage.com/shopify-free-trial",
+    "title": "Shopify Free Trial 2026 [NOV]: 3 Months At $1/MO",
+    "published_date": "Fri, 06 Nov 2026 11:04:10 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/news/shopify-q3-2026-financial-results",
+    "title": "Shopify Sustains Rapid Growth with Revenue Up 32% and Free Cash Flow Margin of 22%",
+    "published_date": "Sun, 08 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow",
+    "title": "Shopify Sustains Rapid Growth with Revenue Up 32% and Free Cash Flow Margin of 22%",
+    "published_date": "Wed, 21 Oct 2026 08:48:00 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-merchant",
+    "title": "Exponential: Shopify's Fall '26 Edition",
+    "published_date": "Sun, 01 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/yIg9BumgrtmF",
+    "title": "Shopify",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:11:32.032436Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3399,
+   "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:11:35.478511Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:11:35.958895Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:11:36.916714Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "CRASH",
+  "words": 0,
+  "cited": 0,
+  "verified": 0,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 0,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": {
+  "diagnosis": "The run crashed with exit code 1 because all three model calls to claude-haiku-5-5 failed with a provider-unreachable error, so no briefing was produced after the single successful search.",
+  "category": "crashed_on_model_error",
+  "written_by": "anthropic/claude-haiku-5-5"
+ }
+}

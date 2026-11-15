@@ -1,0 +1,140 @@
+{
+ "run_id": "mt-11150711f095-single-search-model_down-t8-2",
+ "agent": "single-search",
+ "condition": "model_down",
+ "task_id": "t8",
+ "company": "Zepto",
+ "repeat": 2,
+ "virtual_key": "mt-11150711f095-single-search-model_down-t8-2",
+ "exit_code": 1,
+ "stderr_tail": "hon3.15/site-packages/openai/_base_client.py\", line 1474, in post\n    return cast(ResponseT, self.request(cast_to, opts, stream=stream, stream_cls=stream_cls))\n                           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/Users/kinnu/projects/global-ai-hack/.agents/base/lib/python3.15/site-packages/openai/_base_client.py\", line 1248, in request\n    raise self._make_status_error_from_response(err.response) from None\nopenai.InternalServerError: Error code: 502 - network error occurred while connecting to provider API (DNS lookup, connection refused, etc.)\n",
+ "wall_s": 2.4,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "",
+ "llm": {
+  "calls": 3,
+  "ok": 0,
+  "errors": 3,
+  "embedding_calls": 0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "cost": 0,
+  "fallbacks": 0,
+  "providers": [
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.news18.com/viral/zeptos-diwali-bonus-video-goes-viral-delivery-partner-gets-cash-like-coupons-instead-of-money-peanuts-in-the-name-of-a-bonus-ws-l-10418467.html",
+    "title": "Zepto's Diwali Bonus Video Goes Viral, Delivery Partner Gets 'Cash-Like Coupons' Instead Of Money: 'Peanuts In The Name Of A Bonus' | Viral News - News18",
+    "published_date": "Mon, 09 Nov 2026 07:45:22 GMT"
+   },
+   {
+    "url": "https://indiabusinesstrade.in/dhanteras-2026-zepto-delivers-over-14000-gold-and-silver-coins-in-one-hour.htm",
+    "title": "Dhanteras 2026: Zepto Delivers Over 14,000 Gold and Silver Coins in One Hour \u2013 India Business Trade",
+    "published_date": "Sun, 08 Nov 2026 11:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/YT08vmcifB58",
+    "title": "Zepto",
+    "published_date": null
+   },
+   {
+    "url": "https://m.economictimes.com/news/company/corporate-trends/india-inc-lights-up-diwali-with-longer-weekends-flexible-work-and-extra-pay-for-festive-shifts/articleshow/135618893.cms",
+    "title": "India Inc lights up Diwali with longer weekends, flexible work and extra pay for festive shifts - The Economic Times",
+    "published_date": "Sun, 08 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.moneycontrol.com/science/what-is-the-zeptoverse-cern-scientists-find-evidence-of-rare-particle-decay-after-42-years-article-14068760.html",
+    "title": "What is the \"Zeptoverse\"? CERN scientists find evidence of rare particle decay after 42 years",
+    "published_date": "Wed, 04 Nov 2026 05:26:23 GMT"
+   },
+   {
+    "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026",
+    "title": "Indian Startup IPO Tracker 2026",
+    "published_date": "Sun, 18 Oct 2026 01:18:54 GMT"
+   },
+   {
+    "url": "https://www.nacionale.com/en/articles/zeptoverse-lhcb-b0-muon-decay-discovery-or-evidence-3-sigma-history",
+    "title": "Is the zeptoverse result a discovery? Not yet: the 40-year hunt behind LHCb's 3.2-sigma decay",
+    "published_date": "Sun, 08 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.animationxpress.com/latest-news/zepto-lands-in-seoul-street-anime-india-is-up-next-the-fans-got-there-years-ago",
+    "title": "Zepto lands in Seoul Street; Anime India is up next. The fans got there years ago -",
+    "published_date": "Wed, 21 Oct 2026 07:32:19 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:31:59.779905Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 233,
+   "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:32:00.072365Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:32:00.545048Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 2,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:32:01.449802Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "CRASH",
+  "words": 0,
+  "cited": 0,
+  "verified": 0,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 0,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": {
+  "diagnosis": "The search succeeded with 8 results, but all three model calls failed with provider-unreachable errors, so the agent crashed with exit code 1 and produced no briefing.",
+  "category": "crashed_on_model_error",
+  "written_by": "anthropic/claude-haiku-5-5"
+ }
+}

@@ -1,0 +1,258 @@
+{
+ "run_tag": "11150711f095",
+ "model": "anthropic/claude-haiku-5-5",
+ "created": "2026-11-15T07:34:24.252485+00:00",
+ "agents": [
+  "gpt-researcher",
+  "open-deep-research",
+  "single-search",
+  "null"
+ ],
+ "conditions": [
+  "model_down"
+ ],
+ "condition_labels": {
+  "model_down": "Model down"
+ },
+ "tasks": [
+  {
+   "id": "t1",
+   "company": "Nvidia",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t2",
+   "company": "Stripe",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t3",
+   "company": "Shopify",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t4",
+   "company": "Databricks",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t5",
+   "company": "Canva",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t6",
+   "company": "Razorpay",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t7",
+   "company": "Infosys",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t8",
+   "company": "Zepto",
+   "meeting_date": "2026-11-17"
+  }
+ ],
+ "repeats": 3,
+ "summary": {
+  "cells": {
+   "gpt-researcher": {
+    "model_down": {
+     "n": 24,
+     "invalid": 0,
+     "pass": 0,
+     "safe": 0,
+     "outcomes": {
+      "CRASH": 24
+     },
+     "pass_rate": 0.0,
+     "pass_ci": [
+      0.0,
+      0.13798057582897535
+     ],
+     "pass_hat_k": 0.0,
+     "cost": 0,
+     "cost_per_pass": null,
+     "cost_per_run": 0.0,
+     "tokens_per_run": 0.0,
+     "llm_calls": 120.0,
+     "tavily_calls": 1.0,
+     "wall_s": 275.8875
+    }
+   },
+   "open-deep-research": {
+    "model_down": {
+     "n": 24,
+     "invalid": 0,
+     "pass": 0,
+     "safe": 0,
+     "outcomes": {
+      "CRASH": 24
+     },
+     "pass_rate": 0.0,
+     "pass_ci": [
+      0.0,
+      0.13798057582897535
+     ],
+     "pass_hat_k": 0.0,
+     "cost": 0,
+     "cost_per_pass": null,
+     "cost_per_run": 0.0,
+     "tokens_per_run": 0.0,
+     "llm_calls": 9.0,
+     "tavily_calls": 0.0,
+     "wall_s": 9.279166666666667
+    }
+   },
+   "single-search": {
+    "model_down": {
+     "n": 24,
+     "invalid": 0,
+     "pass": 0,
+     "safe": 0,
+     "outcomes": {
+      "CRASH": 24
+     },
+     "pass_rate": 0.0,
+     "pass_ci": [
+      0.0,
+      0.13798057582897535
+     ],
+     "pass_hat_k": 0.0,
+     "cost": 0,
+     "cost_per_pass": null,
+     "cost_per_run": 0.0,
+     "tokens_per_run": 0.0,
+     "llm_calls": 3.0,
+     "tavily_calls": 1.0,
+     "wall_s": 3.2416666666666667
+    }
+   },
+   "null": {
+    "model_down": {
+     "n": 24,
+     "invalid": 0,
+     "pass": 0,
+     "safe": 0,
+     "outcomes": {
+      "NO_OUTPUT": 24
+     },
+     "pass_rate": 0.0,
+     "pass_ci": [
+      0.0,
+      0.13798057582897535
+     ],
+     "pass_hat_k": 0.0,
+     "cost": 0,
+     "cost_per_pass": null,
+     "cost_per_run": 0.0,
+     "tokens_per_run": 0.0,
+     "llm_calls": 0.0,
+     "tavily_calls": 0.0,
+     "wall_s": 0.0
+    }
+   }
+  }
+ },
+ "runs": [
+  "mt-11150711f095-gpt-researcher-model_down-t1-0",
+  "mt-11150711f095-open-deep-research-model_down-t1-0",
+  "mt-11150711f095-single-search-model_down-t1-0",
+  "mt-11150711f095-null-model_down-t1-0",
+  "mt-11150711f095-gpt-researcher-model_down-t2-0",
+  "mt-11150711f095-open-deep-research-model_down-t2-0",
+  "mt-11150711f095-single-search-model_down-t2-0",
+  "mt-11150711f095-null-model_down-t2-0",
+  "mt-11150711f095-gpt-researcher-model_down-t3-0",
+  "mt-11150711f095-open-deep-research-model_down-t3-0",
+  "mt-11150711f095-single-search-model_down-t3-0",
+  "mt-11150711f095-null-model_down-t3-0",
+  "mt-11150711f095-gpt-researcher-model_down-t4-0",
+  "mt-11150711f095-open-deep-research-model_down-t4-0",
+  "mt-11150711f095-single-search-model_down-t4-0",
+  "mt-11150711f095-null-model_down-t4-0",
+  "mt-11150711f095-gpt-researcher-model_down-t5-0",
+  "mt-11150711f095-open-deep-research-model_down-t5-0",
+  "mt-11150711f095-single-search-model_down-t5-0",
+  "mt-11150711f095-null-model_down-t5-0",
+  "mt-11150711f095-gpt-researcher-model_down-t6-0",
+  "mt-11150711f095-open-deep-research-model_down-t6-0",
+  "mt-11150711f095-single-search-model_down-t6-0",
+  "mt-11150711f095-null-model_down-t6-0",
+  "mt-11150711f095-gpt-researcher-model_down-t7-0",
+  "mt-11150711f095-open-deep-research-model_down-t7-0",
+  "mt-11150711f095-single-search-model_down-t7-0",
+  "mt-11150711f095-null-model_down-t7-0",
+  "mt-11150711f095-gpt-researcher-model_down-t8-0",
+  "mt-11150711f095-open-deep-research-model_down-t8-0",
+  "mt-11150711f095-single-search-model_down-t8-0",
+  "mt-11150711f095-null-model_down-t8-0",
+  "mt-11150711f095-gpt-researcher-model_down-t1-1",
+  "mt-11150711f095-open-deep-research-model_down-t1-1",
+  "mt-11150711f095-single-search-model_down-t1-1",
+  "mt-11150711f095-null-model_down-t1-1",
+  "mt-11150711f095-gpt-researcher-model_down-t2-1",
+  "mt-11150711f095-open-deep-research-model_down-t2-1",
+  "mt-11150711f095-single-search-model_down-t2-1",
+  "mt-11150711f095-null-model_down-t2-1",
+  "mt-11150711f095-gpt-researcher-model_down-t3-1",
+  "mt-11150711f095-open-deep-research-model_down-t3-1",
+  "mt-11150711f095-single-search-model_down-t3-1",
+  "mt-11150711f095-null-model_down-t3-1",
+  "mt-11150711f095-gpt-researcher-model_down-t4-1",
+  "mt-11150711f095-open-deep-research-model_down-t4-1",
+  "mt-11150711f095-single-search-model_down-t4-1",
+  "mt-11150711f095-null-model_down-t4-1",
+  "mt-11150711f095-gpt-researcher-model_down-t5-1",
+  "mt-11150711f095-open-deep-research-model_down-t5-1",
+  "mt-11150711f095-single-search-model_down-t5-1",
+  "mt-11150711f095-null-model_down-t5-1",
+  "mt-11150711f095-gpt-researcher-model_down-t6-1",
+  "mt-11150711f095-open-deep-research-model_down-t6-1",
+  "mt-11150711f095-single-search-model_down-t6-1",
+  "mt-11150711f095-null-model_down-t6-1",
+  "mt-11150711f095-gpt-researcher-model_down-t7-1",
+  "mt-11150711f095-open-deep-research-model_down-t7-1",
+  "mt-11150711f095-single-search-model_down-t7-1",
+  "mt-11150711f095-null-model_down-t7-1",
+  "mt-11150711f095-gpt-researcher-model_down-t8-1",
+  "mt-11150711f095-open-deep-research-model_down-t8-1",
+  "mt-11150711f095-single-search-model_down-t8-1",
+  "mt-11150711f095-null-model_down-t8-1",
+  "mt-11150711f095-gpt-researcher-model_down-t1-2",
+  "mt-11150711f095-open-deep-research-model_down-t1-2",
+  "mt-11150711f095-single-search-model_down-t1-2",
+  "mt-11150711f095-null-model_down-t1-2",
+  "mt-11150711f095-gpt-researcher-model_down-t2-2",
+  "mt-11150711f095-open-deep-research-model_down-t2-2",
+  "mt-11150711f095-single-search-model_down-t2-2",
+  "mt-11150711f095-null-model_down-t2-2",
+  "mt-11150711f095-gpt-researcher-model_down-t3-2",
+  "mt-11150711f095-open-deep-research-model_down-t3-2",
+  "mt-11150711f095-single-search-model_down-t3-2",
+  "mt-11150711f095-null-model_down-t3-2",
+  "mt-11150711f095-gpt-researcher-model_down-t4-2",
+  "mt-11150711f095-open-deep-research-model_down-t4-2",
+  "mt-11150711f095-single-search-model_down-t4-2",
+  "mt-11150711f095-null-model_down-t4-2",
+  "mt-11150711f095-gpt-researcher-model_down-t5-2",
+  "mt-11150711f095-open-deep-research-model_down-t5-2",
+  "mt-11150711f095-single-search-model_down-t5-2",
+  "mt-11150711f095-null-model_down-t5-2",
+  "mt-11150711f095-gpt-researcher-model_down-t6-2",
+  "mt-11150711f095-open-deep-research-model_down-t6-2",
+  "mt-11150711f095-single-search-model_down-t6-2",
+  "mt-11150711f095-null-model_down-t6-2",
+  "mt-11150711f095-gpt-researcher-model_down-t7-2",
+  "mt-11150711f095-open-deep-research-model_down-t7-2",
+  "mt-11150711f095-single-search-model_down-t7-2",
+  "mt-11150711f095-null-model_down-t7-2",
+  "mt-11150711f095-gpt-researcher-model_down-t8-2",
+  "mt-11150711f095-open-deep-research-model_down-t8-2",
+  "mt-11150711f095-single-search-model_down-t8-2",
+  "mt-11150711f095-null-model_down-t8-2"
+ ]
+}

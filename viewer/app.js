@@ -238,8 +238,15 @@ function start() {
       B = b;
       showStatus("");
       const s = b.suite;
-      $("#meta").textContent = `${s.n_runs} runs · ${s.agents.length} agents · ${s.conditions.length} conditions · ` +
-        `${s.tasks.length} briefing tasks · conditions run so far: ${s.conditions.map((c) => s.condition_labels[c] || c).join(", ")} · model held constant: ${s.model} · last run ${s.created.slice(0, 16).replace("T", " ")} UTC`;
+      const order = ["baseline", "model_down_fallback", "model_down", "tavily_empty", "tavily_ratelimit", "tavily_misleading"];
+      s.conditions.sort((a, b) => (order.indexOf(a) + 1 || 99) - (order.indexOf(b) + 1 || 99));
+      const real = s.agents.filter((a) => !CONTROLS.has(a)).length;
+      const pill = $("#pill");
+      pill.textContent = `${s.n_runs} real runs, graded from gateway logs`;
+      pill.hidden = false;
+      $("#meta").textContent = `${s.n_runs} runs of ${real} research agents and ${s.agents.length - real} control agents, on ${s.tasks.length} briefing tasks, ` +
+        `under ${s.conditions.length} conditions: ${s.conditions.map((c) => s.condition_labels[c] || c).join(", ")}. ` +
+        `The model is the same for every agent: ${s.model}. Last run ${s.created.slice(0, 16).replace("T", " ")} UTC.`;
       renderLeaderboard();
       renderMatrix();
       const m = $("#matrix");

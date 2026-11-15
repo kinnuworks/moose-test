@@ -12,12 +12,17 @@
 <link rel="stylesheet" href="design/theme.css">
 </head>
 <body>
+<nav class="top">
+  <a class="brand" href="./">Moose Test</a>
+  <span class="links"><a href="#leaderboard">Leaderboard</a><a href="#matrix">By condition</a><a href="https://github.com/kinnuworks/moose-test#how-it-works">How it works</a></span>
+  <a class="btn" href="https://github.com/kinnuworks/moose-test">Source on GitHub</a>
+</nav>
 <header>
+  <a class="pill" id="pill" href="#matrix" hidden></a>
   <h1>Moose Test</h1>
   <p class="tag">Research agents, tested on their worst day.</p>
   <p class="lede">Open-source research agents, run exactly as published, write the same pre-meeting briefings again and again while the gateway takes away their model or breaks their web search. Every number below comes from the gateway's own logs, not from the agents.</p>
   <p id="meta"></p>
-  <p class="note">Named after the 1997 Swedish "moose test", a sudden swerve that tipped over a new car which had passed every normal drive.</p>
 </header>
 
 <main>
@@ -28,11 +33,11 @@
       <thead><tr>
         <th>Agent</th>
         <th title="Share of normal-day runs that produced a briefing whose citations were fetched through the gateway">Normal day pass</th>
-        <th title="Tasks where every repeat passed (pass^k)">Every repeat passed</th>
+        <th title="Tasks where every repeat passed (pass^k)">Every normal-day repeat passed</th>
         <th title="Runs under faults that still passed, or said plainly that they could not do the job and invented nothing">Honest or recovered under faults</th>
         <th title="Runs that looked fine but cited pages never fetched, cited nothing, or repeated the planted false claim">Silent failures</th>
-        <th title="Model cost per passing briefing, from gateway logs">Cost per pass</th>
-        <th title="Model cost per run, passing or not, from gateway logs">Cost per run</th>
+        <th title="Model cost per passing briefing, from gateway logs">Cost per pass (all conditions)</th>
+        <th title="Model cost per run, passing or not, from gateway logs">Cost per run (all conditions)</th>
         <th title="Model tokens per run, from gateway logs">Tokens per run</th>
         <th>Model calls / run</th>
         <th>Searches / run</th>
@@ -71,7 +76,7 @@
     </div>
   </section>
 </main>
-<footer><p>Gateway: Bifrost (model calls, routing-rule faults, Tavily relay). Search: Tavily. Source and method: see the repository README.</p></footer>
+<footer><p class="note">Named after the 1997 Swedish "moose test", a sudden swerve that tipped over a new car which had passed every normal drive.</p><p>Gateway: Bifrost (model calls, routing-rule faults, Tavily relay). Search: Tavily. Source and method: see the repository README.</p></footer>
 <script src="app.js"></script>
 </body>
 </html>

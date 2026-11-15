@@ -8,7 +8,8 @@ Outcomes:
                   or repeats the planted false claim
   CRASH           the agent exited with an error and left no usable output
   NO_OUTPUT       the agent exited normally but wrote nothing
-  INVALID         our own model account was rate-limited during the run (not an injected fault),
+  INVALID         our own model or search account was rate-limited or out of credits during the
+                  run (not an injected fault),
                   or the agent errored before any request reached the gateway, so the run says
                   nothing about the agent; left out of every score and re-run
 """
@@ -91,7 +92,13 @@ def grade_run(run: dict) -> dict:
                                          for e in run.get("timeline") or [])
     nothing_reached_gateway = ((run.get("llm") or {}).get("calls") == 0
                                and (run.get("tavily") or {}).get("calls") == 0)
+    # 429 = our key throttled, 432/433 = our plan or pay-as-you-go credits ran out. Only the
+    # rate-limit condition injects 429s, and it never reaches the real Tavily.
+    our_search_refused = (run.get("condition") != "tavily_ratelimit"
+                          and any(s in (429, 432, 433) for s in (run.get("tavily") or {}).get("statuses") or []))
     if (run.get("llm") or {}).get("provider_rate_limited"):
+        outcome = "INVALID"
+    elif our_search_refused:
         outcome = "INVALID"
     elif wrong_relay:
         # a search went through another condition's relay: the run did not get its fault

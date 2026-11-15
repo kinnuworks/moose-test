@@ -53,9 +53,10 @@ function renderLeaderboard() {
 
 function supportText(agent) {
   const cells = (B.suite.support || {})[agent] || {};
-  let checked = 0, bad = 0;
-  for (const c of Object.values(cells)) { checked += c.checked; bad += c.contradicted; }
-  return checked ? `${bad} of ${checked} (${(100 * bad / checked).toFixed(1)}%)` : "–";
+  let checked = 0, bad = 0, errored = 0;
+  for (const c of Object.values(cells)) { checked += c.checked; bad += c.contradicted; errored += c.errored_runs || 0; }
+  const err = errored ? `; ${errored} run${errored > 1 ? "s" : ""} could not be checked` : "";
+  return checked ? `${bad} of ${checked} (${(100 * bad / checked).toFixed(1)}%)${err}` : (errored ? `${errored} runs could not be checked` : "–");
 }
 
 const VERDICT_TEXT = { supported: "supported", not_in_source: "not in the returned text", contradicted: "contradicted" };

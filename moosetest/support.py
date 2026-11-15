@@ -15,7 +15,7 @@ import requests
 from moosetest.grade import URL_RE, normalize_url
 
 VERDICTS = ("supported", "not_in_source", "contradicted")
-MAX_ITEMS = 12
+MAX_ITEMS = 60  # a guard on prompt size; no committed run has more than 60 fetched citations
 MAX_SOURCE_CHARS = 1500
 SENTENCE_RE = re.compile(r"(?<=[.!?])\s+(?=[A-Z0-9\[(])")
 
@@ -73,7 +73,9 @@ def parse_reply(content: str, n: int):
     for x in arr:
         if isinstance(x, dict) and isinstance(x.get("i"), int) and 0 <= x["i"] < n:
             v = x.get("verdict")
-            by_i[x["i"]] = {"verdict": v if v in VERDICTS else "not_in_source",
+            if v not in VERDICTS:
+                return None  # an unknown verdict is a parse error, never a guess
+            by_i[x["i"]] = {"verdict": v,
                             "reason": str(x.get("reason") or "")[:160]}
     if len(by_i) != n:
         return None
@@ -93,7 +95,9 @@ def check_support(run: dict, sources: dict, base_url: str, key: str, model: str,
     items = parse_reply(r.json()["choices"][0]["message"]["content"] or "", len(pairs))
     if items is None:  # visible in the record and the viewer, never guessed
         return {"error": "reply could not be parsed", "written_by": model, "items": [], "counts": None}
-    out = [{"url": u, "claim": c, "source_excerpt": s[:400], **v} for (u, c, s), v in zip(pairs, items)]
+    # keep the whole source text (up to 1,500 chars) for contradictions, so they can be audited
+    out = [{"url": u, "claim": c, "source_excerpt": s if v["verdict"] == "contradicted" else s[:400], **v}
+           for (u, c, s), v in zip(pairs, items)]
     counts = {k: sum(1 for x in out if x["verdict"] == k) for k in VERDICTS}
     return {"written_by": model, "items": out, "counts": counts}
 
@@ -101,11 +105,16 @@ def check_support(run: dict, sources: dict, base_url: str, key: str, model: str,
 def summarize_support(runs: list) -> dict:
     out = defaultdict(dict)
     for r in runs:
-        c = (r.get("support") or {}).get("counts")
-        if not c or r["grade"]["outcome"] == "INVALID":
+        sup = r.get("support")
+        if not sup or r["grade"]["outcome"] == "INVALID":
             continue
         cell = out[r["agent"]].setdefault(r["condition"], {"checked": 0, "supported": 0, "not_in_source": 0,
-                                                           "contradicted": 0, "runs_with_contradiction": 0})
+                                                           "contradicted": 0, "runs_with_contradiction": 0,
+                                                           "errored_runs": 0})
+        c = sup.get("counts")
+        if not c:
+            cell["errored_runs"] += 1
+            continue
         for k in VERDICTS:
             cell[k] += c.get(k, 0)
             cell["checked"] += c.get(k, 0)

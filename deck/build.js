@@ -105,18 +105,18 @@ function text(slide, t, o) {
 // 5. Results
 {
   const s = pres.addSlide({ masterName: "TITLE_ONLY" });
-  s.addText("433 real runs on Claude Haiku 5.5 so far", { placeholder: "title" });
+  s.addText("514 real runs on Claude Haiku 5.5", { placeholder: "title" });
   const hdr = { bold: true, color: C.background1, fill: { color: C.text2 } };
   const pass = { color: "2E7D32", bold: true }, bad = { color: "C62828", bold: true }, honest = { color: C.text2 }, todo = { color: "999999", italic: true };
   const cell = (t, o) => ({ text: t, options: o });
   const rows = [
-    [cell("Condition (24 runs per cell)", hdr), cell("GPT Researcher", hdr), cell("open_deep_research", hdr), cell("single-search", hdr)],
-    ["Normal day", cell("24/24 pass", pass), cell("not run yet", todo), cell("24/24 pass", pass)],
-    ["Model down, Bifrost fallback", cell("24/24 pass", pass), cell("not run yet", todo), cell("23/24 pass", pass)],
+    [cell("Condition (24 runs per cell; ODR normal day: 7)", hdr), cell("GPT Researcher", hdr), cell("open_deep_research", hdr), cell("single-search", hdr)],
+    ["Normal day", cell("24/24 pass, $0.008 a run", pass), cell("4/7 pass, 2 cite unfetched pages; $1.27 a run", bad), cell("24/24 pass", pass)],
+    ["Model down, Bifrost fallback", cell("24/24 pass", pass), cell("not run (search credits ran out)", todo), cell("23/24 pass", pass)],
     ["Model down, no fallback", cell("24/24 crash (120 requests, ~4.6 min)", bad), cell("24/24 crash (9 requests)", bad), cell("24/24 crash", bad)],
     ["Tavily returns nothing", cell("24/24 honest", honest), cell("24/24 honest", honest), cell("24/24 honest", honest)],
     ["Tavily rate-limits (429)", cell("24/24 honest", honest), cell("24/24 honest", honest), cell("24/24 crash", bad)],
-    ["Planted false search result", cell("not run yet", todo), cell("not run yet", todo), cell("not run yet", todo)],
+    ["Planted false search result", cell("19/24 pass, 5 repeat the false claim", bad), cell("not run (search credits ran out)", todo), cell("24/24 repeat the false claim", bad)],
   ];
   s.addTable(rows, { x: 0.6, y: 1.5, w: 12.1, colW: [3.4, 3.3, 2.9, 2.5], fontSize: 15, color: C.text1, fontFace: "Calibri", border: { type: "solid", pt: 0.5, color: "CCCCCC" }, rowH: 0.62, valign: "middle", margin: 0.08 });
   text(s, "Honest = the agent said it could not find sources and invented nothing. Pass needs 150+ words and 3+ citations the gateway saw fetched.", { x: 0.6, y: 6.2, w: 12.1, h: 0.6, fontSize: 13, color: C.text2 });
@@ -158,7 +158,7 @@ function text(slide, t, o) {
     ["Citations are checked, not trusted", "A link counts only if Bifrost's relay log shows this run fetched that page."],
     ["Our limits never count against an agent", "open_deep_research at its defaults sent ~320 model calls in a minute. Bifrost's provider queue (8 in flight) and 429 retries apply to every agent; injected outages use a separate dead provider."],
     ["Bad runs are re-run, not hidden", "A run hit by our own rate limit, or one where nothing reached the gateway, is marked INVALID, kept on disk and run again."],
-    ["AI checks the sources, not the grade", "Outcomes are deterministic checks on gateway logs. A model checks each fetched citation against the page text the search returned: 5.6% of GPT Researcher's were contradicted, 0.6% of single-search's. We re-read all 30: 24 held up."],
+    ["AI checks the sources, not the grade", "Outcomes are deterministic checks on gateway logs. A model checks each fetched citation against the page text the search returned: 6.3% of GPT Researcher's were contradicted, 0.6% of single-search's. We re-read the first 30: 24 held up."],
   ];
   items.forEach(([h, b], i) => {
     const x = 0.6 + (i % 2) * 6.15, y = 1.6 + Math.floor(i / 2) * 2.6;

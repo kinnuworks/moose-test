@@ -64,6 +64,10 @@ def test_every_state_opens_from_the_url():
         page.goto(url + "/?state=run-sourcecheck")
         expect(page.locator("#support li")).to_have_count(len(checked[0]["support"]["items"]))
 
+        # "result" is the design tools' name for the finished-result screen: a run with its source check
+        page.goto(url + "/?state=result")
+        expect(page.locator("#support li").first).to_be_visible()
+
         page.goto(url + f"/?run={runs[0]['run_id']}")
         expect(page.locator("#run h3")).to_contain_text(runs[0]["agent"])
 

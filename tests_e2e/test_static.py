@@ -20,3 +20,12 @@ def test_index_html_has_the_results_without_javascript():
     assert str(bundle["suite"]["n_runs"]) in html[html.index('id="tiles"'):html.index('id="tiles"') + 3000]
     # the baked copy matches the bundle it was built from
     assert re.search(r'data-baked-runs="%d"' % bundle["suite"]["n_runs"], html)
+
+
+def test_index_html_has_one_run_step_by_step_without_javascript():
+    # a judge or a text reader sees a single run's gateway timeline without clicking anything
+    html = (VIEWER / "index.html").read_text()
+    run = html[html.index('<section id="run"'):]
+    run = run[:run.index("</section>")]
+    assert "hidden" not in run[:run.index(">")]
+    assert run.count("<li") >= 3 and "search 200" in run and "model success" in run

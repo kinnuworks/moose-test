@@ -18,6 +18,14 @@ _Recorded by the browser test as it walks the viewer over the committed runs._
 
 Open https://moose-test.vercel.app, scroll past the leaderboard to "What each agent did, by condition", click any cell, then a run. You see the gateway's timeline for that run and the briefing, with each cited link marked fetched or never fetched.
 
+Or open the same results on your own machine, with no keys and nothing to install beyond Python:
+
+```bash
+git clone https://github.com/kinnuworks/moose-test && python3 -m http.server -d moose-test/viewer 8000
+```
+
+Then go to http://localhost:8000.
+
 ## What we found
 
 514 runs on Claude Haiku 5.5, every agent on the same 8 briefing tasks, 3 times each (24 runs per cell). The one exception is open_deep_research on a normal day: one run per task, because each run makes about 88 searches and our search credits ran out, so that cell has 7 scored runs. 3 runs hit our own account limits and are left out of every score. Pass rates have 95% Wilson intervals; with 24 out of 24, the interval is 0.86 to 1.00.
@@ -53,7 +61,7 @@ scripts/setup_agents.sh          # installs each agent under test, unmodified, i
 echo "ANTHROPIC_API_KEY=..." >> .env && echo "TAVILY_API_KEY=..." >> .env
 scripts/up.sh                    # Bifrost on :8080, Tavily proxy on :8899, Ollama for embeddings
 .venv/bin/python -m moosetest.run suites/briefings.yaml --repeats 3
-.venv/bin/python scripts/build_viewer.py results/suite-*.json && python3 -m http.server -d viewer
+.venv/bin/python scripts/build_viewer.py results/suite-*.json && .venv/bin/python scripts/prerender.py && python3 -m http.server -d viewer
 ```
 
 Checks: `.venv/bin/playwright install chromium` once, then `./check.sh` (unit tests, the viewer's demo path in a real browser, and a live smoke test through Bifrost with the real model and real Tavily).

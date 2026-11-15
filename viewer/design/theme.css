@@ -1,120 +1,109 @@
-/* Theme: Ghost's system (ghost.org), measured 15 Nov 2026. Inter 700 display with -0.025em
-   tracking, a centred hero, a large dark #15171a card with 24px corners holding the product,
-   #334155 body on white, 16px corners on secondary panels. */
-:root {
-  --fg: #112220; --muted: #64748b; --line: #e5e5e5; --bg: #ffffff;
-}
-body { font: 400 17px/1.5 "Inter", sans-serif; color: #334155; }
-header, footer { max-width: 1100px; text-align: center; }
-main { max-width: 1392px; padding: 0 24px; }
-header { padding-top: 96px; padding-bottom: 64px; }
-h1 { font: 700 96px/1 "Inter", sans-serif; letter-spacing: -0.025em; color: #112220; margin: 0; }
-.tag { font: 700 36px/1.2 "Inter", sans-serif; letter-spacing: -0.025em; color: #112220; margin: 16px 0 24px; }
-.lede { font-size: 17px; color: #334155; margin: 0 auto 16px; max-width: 760px; }
-#meta, header .note { font-size: 15px; color: #64748b; max-width: 820px; margin: 8px auto; }
-main > section:not(#run):not(#drill) { background: #15171a; color: #cbd5e1; border-radius: 24px; padding: 40px; margin: 0 0 24px; }
-main > section h2 { font: 700 36px/1.1 "Inter", sans-serif; letter-spacing: -0.025em; margin: 0 0 24px; }
-main > section:not(#run):not(#drill) h2 { color: #ffffff; }
-main > section:not(#run):not(#drill) .note,
-main > section:not(#run):not(#drill) .legend,
-main > section:not(#run):not(#drill) .small { color: #94a3b8; font-size: 15px; }
-main > section:not(#run):not(#drill) th { color: #94a3b8; font-weight: 600; font-size: 15px; border-bottom: 1px solid #1f2937; }
-main > section:not(#run):not(#drill) td,
-main > section:not(#run):not(#drill) tbody th { color: #ffffff; border-bottom: 1px solid #1f2937; font-size: 15px; padding: 12px 8px; }
-main > section:not(#run):not(#drill) tr.control td { color: #94a3b8; }
-main > section:not(#run):not(#drill) b { color: #fff; }
-td.cell:hover, td.cell:focus { background: #1f2329; }
-.bar { height: 10px; border-radius: 999px; background: #2a2e35; }
-.key { border-radius: 999px; }
-.PASS { background: #30cf43; } .HONEST_FAIL { background: #94a3b8; }
-.WEAK { background: #fec137; } .SILENT_DEGRADE { background: #f8b1e2; }
-.CRASH { background: #a78bfa; } .NO_OUTPUT { background: #475569; }
-#drill, #run { padding: 40px 0; }
-#drill h2, #run h3 { color: #112220; }
-#run h3 { font: 700 30px/1.2 "Inter", sans-serif; letter-spacing: -0.025em; }
-#run h4 { color: #112220; font-weight: 600; }
-#timeline { background: #15171a; color: #cbd5e1; border-radius: 16px; padding: 24px 24px 24px 48px; font: 13px/1.7 "IBM Plex Mono", monospace; }
-#timeline .t { color: #94a3b8; }
-#timeline li.bad { color: #f8b1e2; }
-#briefing .text { border: 1px solid #e5e5e5; border-radius: 16px; padding: 24px; font-size: 15px; color: #112220;
-  box-shadow: 0 0 1px rgb(0 0 0 / 0.1), 0 2px 6px rgb(0 0 0 / 0.03); }
-a { color: #2862ae; }
-a.ver { color: #1a7f2b; } a.unver { color: #b4235f; }
-#status { text-align: center; font-size: 18px; color: #112220; padding: 16px 0; }
+/* Theme: Ghost (ghost.org), measured 15 Nov 2026, built slot for slot: header with logo, links and a dark
+   6px button; yellow pill; 96px Inter 700 headline, centred, nothing under it; a dark 24px-corner
+   dashboard with a sidebar and stat tiles; Ghost's big bold paragraph, a grey band and a dark footer band.
+   Outcome colours come from Ghost's own :root palette. */
 
-/* ---- polish on top of the measured system ---- */
-h1 { font-size: clamp(56px, 8vw, 96px); }
-.tag { font-size: clamp(26px, 3.2vw, 36px); }
-header { padding-left: 24px; padding-right: 24px; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+#status[hidden], .pill[hidden] { display: none !important; }
+table { border-collapse: collapse; width: 100%; }
+th, td { text-align: left; vertical-align: top; }
 td { font-variant-numeric: tabular-nums; }
-main > section:not(#run):not(#drill) tbody td:first-child, #matrix tbody th { white-space: nowrap; font-variant-numeric: normal; }
-main > section:not(#run):not(#drill) tbody td:first-child { font-weight: 600; }
-main > section:not(#run):not(#drill) thead th { vertical-align: bottom; }
-#leaderboard tbody td:nth-child(2) { font-weight: 700; color: #ffffff; }
-#matrix tbody th { font-weight: 600; white-space: nowrap; }
-td.cell { border-radius: 12px; transition: background 0.3s; }
-td.cell .small { margin-top: 8px; }
-#matrix .bar { height: 12px; }
-.legend { margin-top: 20px; line-height: 2; }
-.legend .key { width: 12px; height: 12px; margin-left: 12px; }
-.legend .key:first-child { margin-left: 0; }
-.note { line-height: 1.6; }
-
-/* states */
-#status { display: inline-block; margin: 0 auto 24px; padding: 8px 16px; border-radius: 999px;
-  background: #fec137; color: #000; font-size: 15px; font-weight: 600; }
-main { text-align: left; }
-main > #status { display: block; width: fit-content; margin: 0 auto 24px; }
-#drill, #run { border: 1px solid #e5e5e5; border-radius: 24px; padding: 40px !important; margin: 0 0 24px;
-  box-shadow: 0 0 1px rgb(0 0 0 / 0.1), 0 2px 6px rgb(0 0 0 / 0.03); }
-#drill h2 { font-size: 30px; }
+td.cell { cursor: pointer; min-width: 110px; }
+.bar { display: flex; overflow: hidden; }
+.seg, .key { display: inline-block; }
+.key { width: 12px; height: 12px; vertical-align: -1px; margin-left: 12px; }
+.key:first-child { margin-left: 0; }
+.two { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; }
+#briefing .text { white-space: pre-wrap; max-height: 560px; overflow: auto; }
+a.unver { text-decoration: line-through; }
 #runs { list-style: none; padding: 0; columns: 2 320px; column-gap: 32px; }
-#runs li { break-inside: avoid; padding: 8px 0; border-bottom: 1px solid #e5e5e5; }
-#runs li.empty { font-style: normal; border: 0; }
-#run-facts { font-size: 18px; color: #112220; }
-#diagnosis { background: #f1f5f9; border-radius: 16px; padding: 16px 20px; }
-#support { background: #f1f5f9; border-radius: 16px; padding: 20px 24px; margin: 16px 0 24px; }
-#support h4 { margin: 0 0 4px; color: #112220; }
-.v-supported b { color: #15803d; } .v-contradicted b { color: #be123c; } .v-not_in_source b { color: #475569; }
-.two { gap: 32px; }
-footer { padding: 48px 24px 64px; color: #64748b; font-size: 15px; }
-
-/* signature moment: when the results load, each agent's outcome bars grow into place, row by row */
+#runs li { break-inside: avoid; padding: 8px 0; }
+.window-main > section, #drill, #run, .about { overflow-x: auto; }
 @keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
 #matrix .bar { transform-origin: left center; }
 html[data-js] #matrix.reveal .bar { animation: grow 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
 html[data-js] #matrix.reveal tr:nth-child(2) .bar { animation-delay: 0.12s; }
 html[data-js] #matrix.reveal tr:nth-child(3) .bar { animation-delay: 0.24s; }
 html[data-js] #matrix.reveal tr:nth-child(4) .bar { animation-delay: 0.36s; }
-html[data-record] #matrix.reveal .bar { animation-duration: 1.35s; }
 html[data-motion="reduce"] #matrix.reveal .bar { animation: none; }
+@media (max-width: 800px) { .two { grid-template-columns: 1fr; } }
 
-@media (max-width: 700px) {
-  header { padding-top: 56px; padding-bottom: 40px; }
-  main { padding: 0 12px; }
-  main > section:not(#run):not(#drill) { padding: 24px 16px; border-radius: 20px; }
-  #drill, #run { padding: 24px 16px !important; border-radius: 20px; }
-  main > section h2 { font-size: 28px; }
-}
-
-#status[hidden] { display: none; }
-#support .hint, #diagnosis .hint, #run .hint { color: #475569; }
-
-/* Ghost's header and pill */
-nav.top { max-width: 1392px; margin: 0 auto; padding: 24px; display: flex; align-items: center; gap: 40px; }
-nav.top .brand { font: 700 17px/1 "Inter", sans-serif; letter-spacing: -0.02em; color: #15171a; text-decoration: none; }
-nav.top .links { display: flex; gap: 28px; flex: 1; }
-nav.top .links a { color: #334155; text-decoration: none; font-size: 15px; font-weight: 500; }
-nav.top .links a:hover { color: #15171a; }
-nav.top .btn { background: #15171a; color: #fff; border-radius: 6px; padding: 10px 16px; font-size: 15px; font-weight: 600;
-  text-decoration: none; box-shadow: 0 1px 2px rgb(0 0 0 / 0.1); }
-header .pill { display: inline-block; background: #fec137; color: #000; border-radius: 999px; padding: 8px 16px;
-  font-size: 15px; font-weight: 600; text-decoration: none; margin-bottom: 28px; }
-header .pill[hidden] { display: none; }
-main > section:not(#run):not(#drill) { box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); }
-footer .note { margin: 0 0 8px; }
-@media (max-width: 700px) {
-  nav.top { gap: 12px; padding: 16px 12px; }
-  nav.top .links { display: none; }
+body { background: #ffffff; color: #334155; font: 400 17px/1.5 "Inter", sans-serif; }
+nav.top { max-width: 1440px; margin: 0 auto; height: 94px; padding: 0 24px; display: flex; align-items: center; gap: 48px; }
+nav.top .brand { font: 700 22px/1 "Inter", sans-serif; letter-spacing: -0.025em; color: #15171a; text-decoration: none; }
+nav.top .links { display: flex; gap: 36px; flex: 1; }
+nav.top .links a { color: #15171a; text-decoration: none; font: 500 15px/1 "Inter", sans-serif; }
+nav.top .btn { background: #15171a; color: #fff; border-radius: 6px; padding: 0 16px; height: 39px; line-height: 39px;
+  font: 600 14px/39px "Inter", sans-serif; text-decoration: none; box-shadow: 0 1px 2px rgb(0 0 0 / 0.1); }
+.hero { text-align: center; padding: 70px 24px 72px; }
+.pill { display: inline-block; background: #fec137; color: #000; border-radius: 999px; height: 39px; line-height: 39px; padding: 0 16px;
+  font: 600 14px/39px "Inter", sans-serif; text-decoration: none; margin-bottom: 28px; }
+.hero h1 { font: 700 96px/1 "Inter", sans-serif; letter-spacing: -0.025em; color: #112220; margin: 0 auto; max-width: 860px; }
+main { max-width: 1440px; margin: 0 auto; padding: 0 24px; }
+.window { background: #15171a; border-radius: 24px; display: grid; grid-template-columns: 220px 1fr; overflow: hidden;
+  box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1); color: #cbd5e1; }
+.sidebar { border-right: 1px solid #1f2937; padding: 28px 20px; display: flex; flex-direction: column; gap: 4px; }
+.side-brand { color: #fff; font: 700 16px/1 "Inter", sans-serif; margin: 0 0 24px; }
+.sidebar a { color: #cbd5e1; text-decoration: none; font-size: 15px; padding: 6px 0; display: block; }
+.side-h { color: #94a3b8; font-size: 14px; margin: 24px 0 4px; }
+#side-agents { list-style: none; padding: 0; margin: 0; }
+.window-main { padding: 32px 40px 36px; min-width: 0; }
+.tiles { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0; border: 1px solid #1f2937; border-radius: 12px; margin-bottom: 36px; }
+.tile { padding: 18px 20px; border-left: 1px solid #1f2937; }
+.tile:first-child { border-left: 0; }
+.tile p { margin: 0; }
+.tile-label { color: #cbd5e1; font-size: 14px; font-weight: 600; }
+.tile-value { color: #fff; font: 700 30px/1.3 "Inter", sans-serif; letter-spacing: -0.025em; margin: 6px 0 !important; }
+.tile-note { color: #94a3b8; font-size: 14px; }
+.window h2 { color: #fff; font: 700 30px/1.1 "Inter", sans-serif; letter-spacing: -0.025em; margin: 0 0 20px; }
+.window th { color: #94a3b8; font-weight: 600; font-size: 14px; border-bottom: 1px solid #1f2937; padding: 8px; vertical-align: bottom; }
+.window td, .window tbody th { color: #fff; font-size: 15px; border-bottom: 1px solid #1f2937; padding: 12px 8px; }
+.window tbody td:first-child, #matrix tbody th { font-weight: 600; white-space: nowrap; }
+.window tr.control td { color: #94a3b8; }
+.window .note, .window .legend, .window .small { color: #94a3b8; font-size: 14px; }
+.window b { color: #fff; }
+#sec-matrix { margin-top: 36px; }
+td.cell { border-radius: 12px; }
+td.cell:hover, td.cell:focus { background: #1f2329; outline: none; }
+.bar { height: 10px; border-radius: 999px; background: #2a2e35; }
+.key { border-radius: 999px; }
+/* Ghost's own palette (its :root variables): green, yellow, blue, midgrey, darkgrey, lightgrey */
+.PASS { background: #5dcf1f; } .HONEST_FAIL { background: #3eb0ef; }
+.WEAK { background: #fec137; } .SILENT_DEGRADE { background: #f8b1e2; }
+.CRASH { background: #c5d2d9; } .NO_OUTPUT { background: #343f44; }
+.about { padding: 99px 108px; text-align: left; }
+.about .lede { font: 700 40px/1.25 "Inter", sans-serif; letter-spacing: -0.025em; color: #15171a; max-width: 1100px; margin: 0 0 24px; }
+#meta { font-size: 17px; color: #334155; max-width: 900px; }
+#drill, #run { background: #e2e8f0; border-radius: 24px; padding: 40px; margin-top: 24px; }
+#drill h2, #run h3 { font: 700 30px/1.2 "Inter", sans-serif; letter-spacing: -0.025em; color: #15171a; margin: 0 0 16px; }
+#runs li { border-bottom: 1px solid #cbd5e1; }
+#run h4 { color: #15171a; }
+#run-facts { font-size: 17px; color: #15171a; }
+#diagnosis, #support { background: #fff; border-radius: 16px; padding: 16px 20px; }
+.hint { color: #475569; font-size: 14px; }
+#timeline { background: #15171a; color: #cbd5e1; border-radius: 16px; padding: 24px 24px 24px 48px; font: 13px/1.7 "IBM Plex Mono", monospace; }
+#timeline .t { color: #94a3b8; } #timeline li.bad { color: #f8b1e2; }
+#briefing .text { background: #fff; border-radius: 16px; padding: 24px; font-size: 15px; color: #15171a; }
+a { color: #2862ae; } a.ver { color: #15803d; } a.unver { color: #be123c; }
+footer { background: #15171a; color: #94a3b8; padding: 80px 108px; margin-top: 72px; font-size: 15px; }
+footer .big { color: #fff; font: 700 72px/1.05 "Inter", sans-serif; letter-spacing: -0.025em; margin: 0 0 32px; max-width: 1100px; }
+#status { text-align: center; font-size: 17px; color: #112220; }
+@media (max-width: 800px) {
+  nav.top { gap: 12px; height: 72px; } nav.top .links { display: none; }
   nav.top .brand { flex: 1; }
+  .hero h1 { font-size: 48px; }
+  .window { grid-template-columns: 1fr; border-radius: 20px; }
+  .sidebar { display: none; }
+  .window-main { padding: 24px 16px; }
+  .tiles { grid-template-columns: 1fr 1fr; }
+  .tile:nth-child(3) { border-left: 0; }
+  .about { padding: 56px 8px; } .about .lede { font-size: 28px; }
+  footer { padding: 48px 20px; } footer .big { font-size: 40px; }
 }
+
+/* ---- slot-for-slot fixes after shoot.mjs check ---- */
+nav.top .brand { font-size: 24px; }
+.tile-value { font-size: 24px; }
+.window h2 { font-size: 24px; }
+.hero h1 { max-width: 1240px; }

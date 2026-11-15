@@ -260,6 +260,10 @@ function renderExtras() {
 function start() {
   const params = new URLSearchParams(location.search);
   const state = params.get("state");
+  if (state === "loading" || state === "error") {
+    // index.html carries a baked copy of the results; these two states show the page without it
+    for (const sel of ["#leaderboard tbody", "#matrix", "#tiles", "#legend"]) { const e = $(sel); if (e) e.replaceChildren(); }
+  }
   if (state === "loading") return showStatus("Loading the results…");
   if (state === "error") return showStatus("The results could not be loaded (data/bundle.json). Reload the page, or build them with scripts/build_viewer.py.");
   showStatus("Loading the results…");

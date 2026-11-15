@@ -8,26 +8,39 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <script src="design/runtime.js"></script>
-<link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="design/theme.css">
 </head>
-<body>
+<body data-baked-runs="514">
 <nav class="top">
   <a class="brand" href="./">Moose Test</a>
-  <span class="links"><a href="#leaderboard">Leaderboard</a><a href="#matrix">By condition</a><a href="https://github.com/kinnuworks/moose-test#how-it-works">How it works</a></span>
+  <span class="links">
+    <a href="#sec-leaderboard">Leaderboard</a>
+    <a href="#sec-matrix">By condition</a>
+    <a href="https://github.com/kinnuworks/moose-test#how-it-works">How it works</a>
+  </span>
   <a class="btn" href="https://github.com/kinnuworks/moose-test">Source on GitHub</a>
 </nav>
-<header>
-  <a class="pill" id="pill" href="#matrix" hidden></a>
-  <h1>Moose Test</h1>
-  <p class="tag">Research agents, tested on their worst day.</p>
-  <p class="lede">Open-source research agents, run exactly as published, write the same pre-meeting briefings again and again while the gateway takes away their model or breaks their web search. Every number below comes from the gateway's own logs, not from the agents.</p>
-  <p id="meta"></p>
+
+<header class="hero">
+  <a class="pill" id="pill" href="#sec-matrix">514 real runs, graded from gateway logs</a>
+  <h1>
+    Research agents, tested on their worst day.
+  </h1>
 </header>
 
 <main>
   <p id="status" role="status" hidden></p>
-  <section>
+  <div class="window" id="window">
+    <aside class="sidebar">
+      <p class="side-brand">Moose Test</p>
+      <a href="#sec-leaderboard">Leaderboard</a>
+      <a href="#sec-matrix">By condition</a>
+      <p class="side-h">Agents</p>
+      <ul id="side-agents"><li><a href="#sec-matrix">gpt-researcher</a></li><li><a href="#sec-matrix">open-deep-research</a></li><li><a href="#sec-matrix">single-search (control)</a></li><li><a href="#sec-matrix">null (control)</a></li></ul>
+    </aside>
+    <div class="window-main">
+      <div class="tiles" id="tiles"><div class="tile"><p class="tile-label">Runs graded from gateway logs</p><p class="tile-value">514</p><p class="tile-note">8 tasks, 6 conditions</p></div><div class="tile"><p class="tile-label">GPT Researcher, normal day</p><p class="tile-value">24/24 passed</p><p class="tile-note">$0.0079 a run</p></div><div class="tile"><p class="tile-label">Silent failures, all agents</p><p class="tile-value">31</p><p class="tile-note">looked fine, but cited unfetched pages or the planted claim</p></div><div class="tile"><p class="tile-label">Contradicted by source (AI check)</p><p class="tile-value">6.3%</p><p class="tile-note">GPT Researcher, 47 of 749 citations</p></div></div>
+  <section id="sec-leaderboard">
     <h2>Leaderboard</h2>
     <table id="leaderboard">
       <thead><tr>
@@ -43,17 +56,17 @@
         <th>Searches / run</th>
         <th title="AI check of each fetched citation against the text the search returned for that page, through the gateway. Separate from the grade.">Contradicted by source (AI check)</th>
       </tr></thead>
-      <tbody></tbody>
+      <tbody><tr class=""><td>gpt-researcher</td><td>100% (86%–100%)</td><td>100%</td><td>76%</td><td>5</td><td>$0.0087</td><td>$0.0040</td><td>16,117</td><td>22.7</td><td>4.3</td><td>47 of 749 (6.3%)</td></tr><tr class=""><td>open-deep-research</td><td>57% (25%–84%)</td><td>57%</td><td>67%</td><td>2</td><td>$2.482</td><td>$0.126</td><td>659,232</td><td>71.7</td><td>39.4</td><td>1 of 32 (3.1%)</td></tr><tr class="control"><td>single-search (control)</td><td>100% (86%–100%)</td><td>100%</td><td>39%</td><td>24</td><td>$0.0026</td><td>$0.0008</td><td>2,822</td><td>1.3</td><td>1.0</td><td>3 of 489 (0.6%)</td></tr><tr class="control"><td>null (control)</td><td>0% (0%–14%)</td><td>0%</td><td>0%</td><td>0</td><td>–</td><td>$0.0000</td><td>0</td><td>0.0</td><td>0.0</td><td>–</td></tr></tbody>
     </table>
     <p class="note">"Passed" means a real briefing whose sources the gateway saw the agent fetch. "Failed honestly" means the agent said it could not do the job and made nothing up: under a fault, that is the right answer. Controls: <b>null</b> writes nothing, so it must never pass; if it did, the grading would be wrong. <b>single-search</b> makes one search and one model call: the simplest agent that can pass, and the cost and failure baseline the real agents are measured against. "Contradicted by source" is an AI check, not part of the grade: for each citation the gateway saw fetched, a model compares the citing line with the page text the search returned. A claim the text does not cover counts as neither, since an agent may read more of a page than the gateway sees.</p>
   </section>
-
-  <section>
+  <section id="sec-matrix">
     <h2>What each agent did, by condition</h2>
-    <table id="matrix"><thead></thead><tbody></tbody></table>
-    <p class="legend" id="legend"></p>
+    <table id="matrix"><thead><tr><th>Agent</th><th>Normal day</th><th>Model down, gateway fallback</th><th>Model down, no fallback</th><th>Search returns nothing</th><th>Search rate-limited (429)</th><th>Planted false search result</th></tr></thead><tbody><tr><th>gpt-researcher</th><td class="cell" data-agent="gpt-researcher" data-cond="baseline" tabindex="0"><div class="bar"><span class="seg PASS" title="24 passed" style="flex: 24 1 0%;"></span></div><div class="small">24/24 passed</div></td><td class="cell" data-agent="gpt-researcher" data-cond="model_down_fallback" tabindex="0"><div class="bar"><span class="seg PASS" title="24 passed" style="flex: 24 1 0%;"></span></div><div class="small">24/24 passed</div></td><td class="cell" data-agent="gpt-researcher" data-cond="model_down" tabindex="0"><div class="bar"><span class="seg CRASH" title="24 crashed" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="gpt-researcher" data-cond="tavily_empty" tabindex="0"><div class="bar"><span class="seg HONEST_FAIL" title="24 failed honestly" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="gpt-researcher" data-cond="tavily_ratelimit" tabindex="0"><div class="bar"><span class="seg HONEST_FAIL" title="24 failed honestly" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="gpt-researcher" data-cond="tavily_misleading" tabindex="0"><div class="bar"><span class="seg PASS" title="19 passed" style="flex: 19 1 0%;"></span><span class="seg SILENT_DEGRADE" title="5 failed silently" style="flex: 5 1 0%;"></span></div><div class="small">19/24 passed</div></td></tr><tr><th>open-deep-research</th><td class="cell" data-agent="open-deep-research" data-cond="baseline" tabindex="0"><div class="bar"><span class="seg PASS" title="4 passed" style="flex: 4 1 0%;"></span><span class="seg WEAK" title="1 too thin" style="flex: 1 1 0%;"></span><span class="seg SILENT_DEGRADE" title="2 failed silently" style="flex: 2 1 0%;"></span></div><div class="small">4/7 passed</div></td><td class="cell" data-agent="open-deep-research" data-cond="model_down_fallback" tabindex="0"><span class="small">not run yet</span></td><td class="cell" data-agent="open-deep-research" data-cond="model_down" tabindex="0"><div class="bar"><span class="seg CRASH" title="24 crashed" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="open-deep-research" data-cond="tavily_empty" tabindex="0"><div class="bar"><span class="seg HONEST_FAIL" title="24 failed honestly" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="open-deep-research" data-cond="tavily_ratelimit" tabindex="0"><div class="bar"><span class="seg HONEST_FAIL" title="24 failed honestly" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="open-deep-research" data-cond="tavily_misleading" tabindex="0"><span class="small">not run yet</span></td></tr><tr><th>single-search</th><td class="cell" data-agent="single-search" data-cond="baseline" tabindex="0"><div class="bar"><span class="seg PASS" title="24 passed" style="flex: 24 1 0%;"></span></div><div class="small">24/24 passed</div></td><td class="cell" data-agent="single-search" data-cond="model_down_fallback" tabindex="0"><div class="bar"><span class="seg PASS" title="23 passed" style="flex: 23 1 0%;"></span><span class="seg WEAK" title="1 too thin" style="flex: 1 1 0%;"></span></div><div class="small">23/24 passed</div></td><td class="cell" data-agent="single-search" data-cond="model_down" tabindex="0"><div class="bar"><span class="seg CRASH" title="24 crashed" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="single-search" data-cond="tavily_empty" tabindex="0"><div class="bar"><span class="seg HONEST_FAIL" title="24 failed honestly" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="single-search" data-cond="tavily_ratelimit" tabindex="0"><div class="bar"><span class="seg CRASH" title="24 crashed" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="single-search" data-cond="tavily_misleading" tabindex="0"><div class="bar"><span class="seg SILENT_DEGRADE" title="24 failed silently" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td></tr><tr><th>null</th><td class="cell" data-agent="null" data-cond="baseline" tabindex="0"><div class="bar"><span class="seg NO_OUTPUT" title="24 wrote nothing" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="null" data-cond="model_down_fallback" tabindex="0"><div class="bar"><span class="seg NO_OUTPUT" title="24 wrote nothing" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="null" data-cond="model_down" tabindex="0"><div class="bar"><span class="seg NO_OUTPUT" title="24 wrote nothing" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="null" data-cond="tavily_empty" tabindex="0"><div class="bar"><span class="seg NO_OUTPUT" title="24 wrote nothing" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="null" data-cond="tavily_ratelimit" tabindex="0"><div class="bar"><span class="seg NO_OUTPUT" title="24 wrote nothing" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td><td class="cell" data-agent="null" data-cond="tavily_misleading" tabindex="0"><div class="bar"><span class="seg NO_OUTPUT" title="24 wrote nothing" style="flex: 24 1 0%;"></span></div><div class="small">0/24 passed</div></td></tr></tbody></table>
+    <p class="legend" id="legend"><span class="key PASS"></span> passed  <span class="key HONEST_FAIL"></span> failed honestly  <span class="key WEAK"></span> too thin  <span class="key SILENT_DEGRADE"></span> failed silently  <span class="key CRASH"></span> crashed  <span class="key NO_OUTPUT"></span> wrote nothing  <span class="key INVALID"></span> not counted: our own rate limit, re-run  </p>
   </section>
-
+    </div>
+  </div>
   <section id="drill" hidden>
     <h2 id="drill-title"></h2>
     <ul id="runs"></ul>
@@ -75,8 +88,17 @@
       </div>
     </div>
   </section>
+
+  <section class="about" id="about">
+    <p class="lede">Open-source research agents, run exactly as published, write the same pre-meeting briefings again and again while the gateway takes away their model or breaks their web search. Every number on this page comes from the gateway's own logs, not from the agents.</p>
+    <p id="meta">514 runs of 2 research agents and 2 control agents, on 8 briefing tasks, under 6 conditions: Normal day, Model down, gateway fallback, Model down, no fallback, Search returns nothing, Search rate-limited (429), Planted false search result. The model is the same for every agent: anthropic/claude-haiku-5-5. Last run 2026-11-15 14:40 UTC.</p>
+  </section>
 </main>
-<footer><p class="note">Named after the 1997 Swedish "moose test", a sudden swerve that tipped over a new car which had passed every normal drive.</p><p>Gateway: Bifrost (model calls, routing-rule faults, Tavily relay). Search: Tavily. Source and method: see the repository README.</p></footer>
+<footer>
+  <p class="big" id="bignum">514 runs. Every number from the gateway, none from the agents.</p>
+  <p class="note">Named after the 1997 Swedish "moose test", a sudden swerve that tipped over a new car which had passed every normal drive.</p>
+  <p>Gateway: Bifrost (model calls, routing-rule faults, Tavily relay). Search: Tavily. Source and method: see the repository README.</p>
+</footer>
 <script src="app.js"></script>
 </body>
 </html>

@@ -90,3 +90,24 @@ def test_invalid_runs_are_retried_and_agent_cap_holds(tmp_path, monkeypatch):
     assert ("heavy", 1) in seen and sum(1 for s in seen if s[1] == 1) == 1
     c = res["summary"]["cells"]["heavy"]["baseline"]
     assert c["n"] == 4 and c["pass"] == 4 and c["invalid"] == 1
+
+
+def test_gateway_limits_are_applied_without_touching_keys():
+    from moosetest.bifrost import Bifrost
+    b = object.__new__(Bifrost)
+    sent = []
+    current = {"network_config": {"default_request_timeout_in_seconds": 300, "max_retries": 0},
+               "concurrency_and_buffer_size": {"concurrency": 1000, "buffer_size": 5000}}
+
+    def _req(method, path, ok=(200, 201), json=None, **kw):
+        sent.append((method, path, json))
+        return current
+    b._req = _req
+    b.set_provider_limits("anthropic", concurrency=8, buffer_size=5000, max_retries=4,
+                          backoff_initial_ms=2000, backoff_max_ms=30000)
+    method, path, body = sent[-1]
+    assert (method, path) == ("PUT", "/api/providers/anthropic")
+    assert body["concurrency_and_buffer_size"] == {"concurrency": 8, "buffer_size": 5000}
+    assert body["network_config"]["max_retries"] == 4
+    assert body["network_config"]["default_request_timeout_in_seconds"] == 300  # kept
+    assert "keys" not in body

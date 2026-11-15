@@ -84,9 +84,10 @@ def test_bad_reply_is_reported_not_hidden():
     assert items is None
 
 
-def test_unknown_verdicts_become_not_in_source():
+def test_unknown_verdict_is_a_parse_error_not_a_quiet_not_in_source():
+    # review found the old behaviour turned an unknown verdict into "not_in_source" silently
     items = parse_reply('[{"i": 0, "verdict": "maybe", "reason": "x"}, {"i": 1, "verdict": "contradicted", "reason": "y"}]', 2)
-    assert [x["verdict"] for x in items] == ["not_in_source", "contradicted"]
+    assert items is None
 
 
 def test_summary_over_runs():

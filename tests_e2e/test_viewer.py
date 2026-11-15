@@ -34,7 +34,9 @@ def test_demo_path():
         page.on("pageerror", lambda e: errors.append(str(e)))
         page.goto(url)
         # first screen: the leaderboard from real committed results, no empty state
-        expect(page.get_by_role("heading", name="Moose Test")).to_be_visible()
+        # the name sits in the header and the tagline is the headline (the picked layout)
+        expect(page.locator("nav.top .brand")).to_have_text("Moose Test")
+        expect(page.get_by_role("heading", level=1)).to_have_text("Research agents, tested on their worst day.")
         rows = page.locator("#leaderboard tbody tr")
         expect(rows).to_have_count(len(agents))
         expect(page.locator("#meta")).to_contain_text(bundle["suite"]["model"])

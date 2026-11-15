@@ -16,7 +16,7 @@ td.cell:hover, td.cell:focus { background: #f4f4f4; outline: none; }
 .seg, .key { display: inline-block; }
 .key { width: 12px; height: 12px; border-radius: 2px; vertical-align: -1px; }
 .PASS { background: #2e7d32; } .HONEST_FAIL { background: #90a4ae; } .WEAK { background: #fbc02d; }
-.SILENT_DEGRADE { background: #c62828; } .CRASH { background: #6a1b9a; } .NO_OUTPUT { background: #bdbdbd; }
+.SILENT_DEGRADE { background: #c62828; } .CRASH { background: #6a1b9a; } .NO_OUTPUT { background: #bdbdbd; } .INVALID { background: repeating-linear-gradient(45deg,#eee,#eee 4px,#ccc 4px,#ccc 8px); }
 #runs li { margin: 4px 0; }
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
 @media (max-width: 800px) { .two { grid-template-columns: 1fr; } }

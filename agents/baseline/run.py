@@ -26,7 +26,7 @@ def main(query: str, out: str):
     msg = llm.chat.completions.create(
         model=os.environ["MOOSETEST_MODEL"],
         messages=[{"role": "user", "content": PROMPT.format(query=query, results="\n".join(lines) or "(none)")}],
-        max_tokens=1500,
+        max_tokens=8000,  # the model reasons first; 1500 was all spent on reasoning, leaving no answer
     )
     with open(out, "w") as f:
         f.write(msg.choices[0].message.content or "")

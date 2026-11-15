@@ -90,20 +90,27 @@ class Bifrost:
             "routes": [{"method": "POST", "path": p} for p in routes]})
 
     # logs ----------------------------------------------------------------
-    def llm_logs(self, vk_id, limit=500):
-        d = self._req("GET", "/api/logs", params={"virtual_key_ids": vk_id, "limit": limit})
-        return d.get("logs") or []
+    def _all_pages(self, path, params, page=500):
+        """Read every page; the server reports total_count and may cap the page size."""
+        out = []
+        while True:
+            d = self._req("GET", path, params={**params, "limit": page, "offset": len(out)})
+            rows = d.get("logs") or []
+            out.extend(rows)
+            total = (d.get("pagination") or {}).get("total_count")
+            if not rows or total is None or len(out) >= total:
+                return out
+
+    def llm_logs(self, vk_id):
+        return self._all_pages("/api/logs", {"virtual_key_ids": vk_id})
 
     def llm_log(self, log_id):
         d = self._req("GET", f"/api/logs/{log_id}")
         return d.get("log", d)
 
-    def relay_logs(self, vk_id=None, limit=500):
-        params = {"limit": limit}
-        if vk_id:
-            params["virtual_key_ids"] = vk_id
-        d = self._req("GET", "/api/relay-logs", params=params)
-        logs = d.get("logs") or []
+    def relay_logs(self, vk_id=None):
+        params = {"virtual_key_ids": vk_id} if vk_id else {}
+        logs = self._all_pages("/api/relay-logs", params)
         # older builds ignore the filter; enforce it here
         return [l for l in logs if not vk_id or l.get("virtual_key_id") == vk_id]
 

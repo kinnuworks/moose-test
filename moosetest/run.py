@@ -27,6 +27,8 @@ from moosetest.faults import make_server
 from moosetest.diagnose import diagnose
 from moosetest.grade import grade_run, summarize
 
+RETRY_ROUNDS = 3
+RETRY_WAIT_S = 90
 ROOT = Path(__file__).resolve().parent.parent
 PLANTED_MARK = "Globex Corporation"
 
@@ -105,8 +107,8 @@ class Runner:
             self.map_file.write_text(json.dumps(m))
 
     # one run -------------------------------------------------------------
-    def run_one(self, agent, condition, task, rep, run_tag):
-        name = f"mt-{run_tag}-{agent['name']}-{condition}-{task['id']}-{rep}"
+    def run_one(self, agent, condition, task, rep, run_tag, attempt=0):
+        name = f"mt-{run_tag}-{agent['name']}-{condition}-{task['id']}-{rep}" + (f"-retry{attempt}" if attempt else "")
         vk = self.b.create_vk(name, self._provider_configs(), relay_names=list(RELAY_MODES),
                               description="Moose Test run")
         rule_id = None
@@ -141,6 +143,7 @@ class Runner:
             "stderr_tail": stderr[-600:], "wall_s": round(wall, 1), "meeting_date": task["meeting_date"],
             "query": query, "briefing": briefing, "llm": llm, "tavily": tavily, "timeline": timeline,
             "planted_claim": PLANTED_MARK if condition == "tavily_misleading" else None,
+            "attempt": attempt,
         }
         rec["grade"] = grade_run(rec)
         try:
@@ -184,11 +187,23 @@ class Runner:
             "fallbacks": sum(1 for r in chat if (r.get("fallback_index") or 0) > 0),
             "providers": sorted({r.get("provider") or "" for r in chat}),
         }
+        # errors from a real provider: read the details of up to 25, so a rate limit on our own
+        # account (not an injected fault) is caught and the run marked INVALID instead of scored
+        errs = {}
+        real_errors = [r for r in chat if r.get("status") != "success" and r.get("provider") != DEAD_PROVIDER]
+        for r in real_errors[:25]:
+            d = (self.b.llm_log(r["id"]) or {}).get("error_details") or {}
+            e = d.get("error") or {}
+            errs[r["id"]] = (d.get("status_code"), f"{d.get('status_code')} {e.get('type') or ''} {e.get('message') or ''}".strip())
+        llm["provider_rate_limited"] = sum(1 for code, _ in errs.values() if code == 429)
+        llm["provider_errors_checked"] = len(errs)
         timeline = [{"t": r["timestamp"], "kind": "embedding" if r.get("object") == "embedding" else "model",
                      "status": r.get("status"), "provider": r.get("provider"), "model": r.get("model"),
                      "fallback_index": r.get("fallback_index"), "latency_ms": round(r.get("latency") or 0),
                      "tokens": (r.get("token_usage") or {}).get("total_tokens"),
-                     "error": (r.get("content_summary") or "")[-160:] if r.get("status") != "success" else None}
+                     "error": (errs[r["id"]][1][:160] if r["id"] in errs else
+                               ("provider unreachable (injected)" if r.get("provider") == DEAD_PROVIDER else "error"))
+                     if r.get("status") != "success" else None}
                     for r in rows]
         results, rcalls, statuses = [], 0, []
         for r in self.b.relay_logs(vk_id):
@@ -220,9 +235,27 @@ class Runner:
         tag = datetime.now(timezone.utc).strftime("%m%d%H%M") + secrets.token_hex(2)
         jobs = [(a, c, t, r) for r in range(repeats) for t in tasks for c in conditions for a in agents]
         print(f"run {tag}: {len(jobs)} runs", flush=True)
+        # an agent may cap its own concurrency (open_deep_research alone can use our account's
+        # whole per-minute token limit); the cap is per agent, the pool is shared
+        self.agent_slots = {a["name"]: threading.Semaphore(a.get("max_parallel") or parallel) for a in agents}
         with ThreadPoolExecutor(max_workers=parallel) as ex:
             recs = list(ex.map(lambda j: self._safe(j, tag), jobs))
         recs = [r for r in recs if r]
+        # runs INVALID because our own account was rate-limited are kept on disk (and listed),
+        # left out of every score, and re-run one at a time after a pause
+        by_key = {(r["agent"], r["condition"], r["task_id"], r["repeat"]): r for r in recs}
+        for attempt in range(1, RETRY_ROUNDS + 1):
+            redo = [j for j in jobs if by_key.get((j[0]["name"], j[1], j[2]["id"], j[3]), {})
+                    .get("grade", {}).get("outcome") == "INVALID"]
+            if not redo:
+                break
+            print(f"retry round {attempt}: {len(redo)} runs hit our own rate limit; waiting {RETRY_WAIT_S}s",
+                  flush=True)
+            time.sleep(RETRY_WAIT_S)
+            for j in redo:
+                rec = self._safe(j, tag, attempt)
+                recs.append(rec)
+                by_key[(j[0]["name"], j[1], j[2]["id"], j[3])] = rec
         result = {"run_tag": tag, "model": self.suite["model"], "created": datetime.now(timezone.utc).isoformat(),
                   "agents": [a["name"] for a in agents], "conditions": conditions,
                   "condition_labels": {c: CONDITIONS[c]["label"] for c in conditions},
@@ -233,9 +266,13 @@ class Runner:
         print(f"wrote {self.out_dir}/suite-{tag}.json", flush=True)
         return result
 
-    def _safe(self, job, tag):
+    def _safe(self, job, tag, attempt=0):
+        slot = getattr(self, "agent_slots", {}).get(job[0]["name"])
         try:
-            return self.run_one(*job, tag)
+            if slot:
+                with slot:
+                    return self.run_one(*job, tag, attempt)
+            return self.run_one(*job, tag, attempt)
         except Exception as e:  # a harness error must be loud, never a silent pass
             print(f"HARNESS ERROR {job[0]['name']} {job[1]} {job[2]['id']} {job[3]}: {e}", file=sys.stderr, flush=True)
             raise

@@ -1,7 +1,7 @@
-const OUTCOMES = ["PASS", "HONEST_FAIL", "WEAK", "SILENT_DEGRADE", "CRASH", "NO_OUTPUT"];
+const OUTCOMES = ["PASS", "HONEST_FAIL", "WEAK", "SILENT_DEGRADE", "CRASH", "NO_OUTPUT", "INVALID"];
 const OUTCOME_TEXT = {
   PASS: "passed", HONEST_FAIL: "failed honestly", WEAK: "too thin",
-  SILENT_DEGRADE: "failed silently", CRASH: "crashed", NO_OUTPUT: "wrote nothing",
+  SILENT_DEGRADE: "failed silently", CRASH: "crashed", NO_OUTPUT: "wrote nothing", INVALID: "not counted: our own rate limit, re-run",
 };
 const CONTROLS = new Set(["null", "single-search"]);
 let B = null;

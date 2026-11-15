@@ -35,6 +35,12 @@ ROOT = Path(__file__).resolve().parent.parent
 PLANTED_MARK = "Globex Corporation"
 
 
+def redact_home(text: str, home: str = None) -> str:
+    """Published run records must not carry the local user's home path (it names the account)."""
+    home = (home or str(Path.home())).rstrip("/")
+    return (text or "").replace(home, "~")
+
+
 def load_env_file(path=ROOT / ".env"):
     if path.exists():
         for line in path.read_text().splitlines():
@@ -148,7 +154,7 @@ class Runner:
         rec = {
             "run_id": name, "agent": agent["name"], "condition": condition, "task_id": task["id"],
             "company": task["company"], "repeat": rep, "virtual_key": name, "exit_code": exit_code,
-            "stderr_tail": stderr[-600:], "wall_s": round(wall, 1), "meeting_date": task["meeting_date"],
+            "stderr_tail": redact_home(stderr[-600:]), "wall_s": round(wall, 1), "meeting_date": task["meeting_date"],
             "query": query, "briefing": briefing, "llm": llm, "tavily": tavily, "timeline": timeline,
             "planted_claim": PLANTED_MARK if condition == "tavily_misleading" else None,
             "attempt": attempt,

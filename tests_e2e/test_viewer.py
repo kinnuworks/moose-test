@@ -48,6 +48,16 @@ def test_demo_path():
         expect(page.locator("#run h3")).to_be_visible()
         expect(page.locator("#timeline li").first).to_be_visible()
         expect(page.locator("#briefing")).to_be_visible()
+        # the AI source check: a leaderboard column, and on a passing run a labelled list of verdicts
+        expect(page.locator("#leaderboard thead")).to_contain_text("Contradicted by source")
+        checked = [r for r in bundle["runs"] if (r.get("support") or {}).get("items")]
+        assert checked, "no run in the bundle has a source check"
+        r = checked[0]
+        page.locator(f'#matrix td.cell[data-agent="{r["agent"]}"][data-cond="{r["condition"]}"]').click()
+        page.locator(f'#runs li a[href="#{r["run_id"]}"]').click()
+        expect(page.locator("#support")).to_be_visible()
+        expect(page.locator("#support")).to_contain_text("AI-written")
+        expect(page.locator("#support li")).to_have_count(len(r["support"]["items"]))
         page.wait_for_timeout(800)
         ctx.close()
         browser.close()

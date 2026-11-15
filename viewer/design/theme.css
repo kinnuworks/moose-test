@@ -1,0 +1,101 @@
+/* Theme: Ghost's system (ghost.org), measured 15 Nov 2026. Inter 700 display with -0.025em
+   tracking, a centred hero, a large dark #15171a card with 24px corners holding the product,
+   #334155 body on white, 16px corners on secondary panels. */
+:root {
+  --fg: #112220; --muted: #64748b; --line: #e5e5e5; --bg: #ffffff;
+}
+body { font: 400 17px/1.5 "Inter", sans-serif; color: #334155; }
+header, footer { max-width: 1100px; text-align: center; }
+main { max-width: 1392px; padding: 0 24px; }
+header { padding-top: 96px; padding-bottom: 64px; }
+h1 { font: 700 96px/1 "Inter", sans-serif; letter-spacing: -0.025em; color: #112220; margin: 0; }
+.tag { font: 700 36px/1.2 "Inter", sans-serif; letter-spacing: -0.025em; color: #112220; margin: 16px 0 24px; }
+.lede { font-size: 17px; color: #334155; margin: 0 auto 16px; max-width: 760px; }
+#meta, header .note { font-size: 15px; color: #64748b; max-width: 820px; margin: 8px auto; }
+main > section:not(#run):not(#drill) { background: #15171a; color: #cbd5e1; border-radius: 24px; padding: 40px; margin: 0 0 24px; }
+main > section h2 { font: 700 36px/1.1 "Inter", sans-serif; letter-spacing: -0.025em; margin: 0 0 24px; }
+main > section:not(#run):not(#drill) h2 { color: #ffffff; }
+main > section:not(#run):not(#drill) .note,
+main > section:not(#run):not(#drill) .legend,
+main > section:not(#run):not(#drill) .small { color: #94a3b8; font-size: 15px; }
+main > section:not(#run):not(#drill) th { color: #94a3b8; font-weight: 600; font-size: 15px; border-bottom: 1px solid #1f2937; }
+main > section:not(#run):not(#drill) td,
+main > section:not(#run):not(#drill) tbody th { color: #ffffff; border-bottom: 1px solid #1f2937; font-size: 15px; padding: 12px 8px; }
+main > section:not(#run):not(#drill) tr.control td { color: #94a3b8; }
+main > section:not(#run):not(#drill) b { color: #fff; }
+td.cell:hover, td.cell:focus { background: #1f2329; }
+.bar { height: 10px; border-radius: 999px; background: #2a2e35; }
+.key { border-radius: 999px; }
+.PASS { background: #30cf43; } .HONEST_FAIL { background: #94a3b8; }
+.WEAK { background: #fec137; } .SILENT_DEGRADE { background: #f8b1e2; }
+.CRASH { background: #a78bfa; } .NO_OUTPUT { background: #475569; }
+#drill, #run { padding: 40px 0; }
+#drill h2, #run h3 { color: #112220; }
+#run h3 { font: 700 30px/1.2 "Inter", sans-serif; letter-spacing: -0.025em; }
+#run h4 { color: #112220; font-weight: 600; }
+#timeline { background: #15171a; color: #cbd5e1; border-radius: 16px; padding: 24px 24px 24px 48px; font: 13px/1.7 "IBM Plex Mono", monospace; }
+#timeline .t { color: #94a3b8; }
+#timeline li.bad { color: #f8b1e2; }
+#briefing .text { border: 1px solid #e5e5e5; border-radius: 16px; padding: 24px; font-size: 15px; color: #112220;
+  box-shadow: 0 0 1px rgb(0 0 0 / 0.1), 0 2px 6px rgb(0 0 0 / 0.03); }
+a { color: #2862ae; }
+a.ver { color: #1a7f2b; } a.unver { color: #b4235f; }
+#status { text-align: center; font-size: 18px; color: #112220; padding: 16px 0; }
+
+/* ---- polish on top of the measured system ---- */
+h1 { font-size: clamp(56px, 8vw, 96px); }
+.tag { font-size: clamp(26px, 3.2vw, 36px); }
+header { padding-left: 24px; padding-right: 24px; }
+td { font-variant-numeric: tabular-nums; }
+main > section:not(#run):not(#drill) tbody td:first-child, #matrix tbody th { white-space: nowrap; font-variant-numeric: normal; }
+main > section:not(#run):not(#drill) tbody td:first-child { font-weight: 600; }
+main > section:not(#run):not(#drill) thead th { vertical-align: bottom; }
+#leaderboard tbody td:nth-child(2) { font-weight: 700; color: #ffffff; }
+#matrix tbody th { font-weight: 600; white-space: nowrap; }
+td.cell { border-radius: 12px; transition: background 0.3s; }
+td.cell .small { margin-top: 8px; }
+#matrix .bar { height: 12px; }
+.legend { margin-top: 20px; line-height: 2; }
+.legend .key { width: 12px; height: 12px; margin-left: 12px; }
+.legend .key:first-child { margin-left: 0; }
+.note { line-height: 1.6; }
+
+/* states */
+#status { display: inline-block; margin: 0 auto 24px; padding: 8px 16px; border-radius: 999px;
+  background: #fec137; color: #000; font-size: 15px; font-weight: 600; }
+main { text-align: left; }
+main > #status { display: block; width: fit-content; margin: 0 auto 24px; }
+#drill, #run { border: 1px solid #e5e5e5; border-radius: 24px; padding: 40px !important; margin: 0 0 24px;
+  box-shadow: 0 0 1px rgb(0 0 0 / 0.1), 0 2px 6px rgb(0 0 0 / 0.03); }
+#drill h2 { font-size: 30px; }
+#runs { list-style: none; padding: 0; columns: 2 320px; column-gap: 32px; }
+#runs li { break-inside: avoid; padding: 8px 0; border-bottom: 1px solid #e5e5e5; }
+#runs li.empty { font-style: normal; border: 0; }
+#run-facts { font-size: 18px; color: #112220; }
+#diagnosis { background: #f1f5f9; border-radius: 16px; padding: 16px 20px; }
+#support { background: #f1f5f9; border-radius: 16px; padding: 20px 24px; margin: 16px 0 24px; }
+#support h4 { margin: 0 0 4px; color: #112220; }
+.v-supported b { color: #15803d; } .v-contradicted b { color: #be123c; } .v-not_in_source b { color: #475569; }
+.two { gap: 32px; }
+footer { padding: 48px 24px 64px; color: #64748b; font-size: 15px; }
+
+/* signature moment: when the results load, each agent's outcome bars grow into place, row by row */
+@keyframes grow { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+#matrix .bar { transform-origin: left center; }
+html[data-js] #matrix.reveal .bar { animation: grow 0.9s cubic-bezier(0.2, 0.7, 0.2, 1) both; }
+html[data-js] #matrix.reveal tr:nth-child(2) .bar { animation-delay: 0.12s; }
+html[data-js] #matrix.reveal tr:nth-child(3) .bar { animation-delay: 0.24s; }
+html[data-js] #matrix.reveal tr:nth-child(4) .bar { animation-delay: 0.36s; }
+html[data-record] #matrix.reveal .bar { animation-duration: 1.35s; }
+html[data-motion="reduce"] #matrix.reveal .bar { animation: none; }
+
+@media (max-width: 700px) {
+  header { padding-top: 56px; padding-bottom: 40px; }
+  main { padding: 0 12px; }
+  main > section:not(#run):not(#drill) { padding: 24px 16px; border-radius: 20px; }
+  #drill, #run { padding: 24px 16px !important; border-radius: 20px; }
+  main > section h2 { font-size: 28px; }
+}
+
+#status[hidden] { display: none; }
+#support .hint, #diagnosis .hint, #run .hint { color: #475569; }

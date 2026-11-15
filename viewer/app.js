@@ -242,6 +242,9 @@ function start() {
         `${s.tasks.length} briefing tasks · conditions run so far: ${s.conditions.map((c) => s.condition_labels[c] || c).join(", ")} · model held constant: ${s.model} · last run ${s.created.slice(0, 16).replace("T", " ")} UTC`;
       renderLeaderboard();
       renderMatrix();
+      const m = $("#matrix");
+      m.classList.add("reveal");
+      if (window.design && design.onReplay) design.onReplay(() => { m.classList.remove("reveal"); void m.offsetWidth; m.classList.add("reveal"); });
       openState(params);
     })
     .catch(() => showStatus("The results could not be loaded (data/bundle.json). Reload the page, or build them with scripts/build_viewer.py."));

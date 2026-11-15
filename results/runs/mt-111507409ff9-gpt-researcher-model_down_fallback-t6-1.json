@@ -291,5 +291,92 @@
   "undated": 11,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://razorpay.com/newsroom/press",
+    "claim": "- **Only one verified development falls inside the 30-day window.** Razorpay received its final IFSCA licence for GIFT City on 3 November 2026 ([Razorpay, 2026](https://razorpay.com/newsroom/press)).",
+    "source_excerpt": "[](\n\nTechnology  \n\n## \u200b\u200bSay Goodbye to OTPs: Razorpay, along with Mastercard and Visa, Launches RBI-Compliant Biometric \u2018Passkey\u2019\n\nEnables instant, device-based authentication using fingerprint or face recognition, removing OTP dependencies Cuts OTP-related failures by 35%, driving up to 95% transaction success  INDIA, Bengaluru \u2013 31st March 2026: Razorpay,\u2026\n\nRead More\n\nLoad More [...] [](\n\nTechno",
+    "verdict": "not_in_source",
+    "reason": "Source shows the IFSCA licence headline only, with no date given."
+   },
+   {
+    "url": "https://mitchellake.com/intelligence/wire/razorpay-strategic-hiring-2026-08-08",
+    "claim": "- **No deal, acquisition, or senior hire dated inside the window appears in the sources.** The most recent leadership and AI hiring news is dated 8 August 2026 ([MitchelLake, 2026](https://mitchellake.com/intelligence/wire/razorpay-strategic-hiring-2026-08-08)).",
+    "source_excerpt": "fintechc suite\n\nWho\n:   Razorpay \u00b7 Fintech \u00b7 India\n\nWhat happened\n:   Razorpay strengthened AI leadership by appointing Sudhir Reddy (from Divyam.ai), Abhishek Agarwal (from Microsoft), Bhavya Shivaprakash (from Salesforce), and Anuj Mathur (from CRED)\n\nWhen\n:   2026-08-08\n\nSource\n:   Entrackr\n\nSo what\n:   A deliberate hiring build-out is a statement of intent about Razorpay's next phase in Fintec",
+    "verdict": "supported",
+    "reason": "Source lists the hiring item as dated 2026-08-08."
+   },
+   {
+    "url": "https://razorpay.com/newsroom/razorpay-becomes-the-india-payments-partner-for-replits-global-ai-platform",
+    "claim": "| 17 Feb 2026 | Partnership | Payments partner for Replit's global AI platform, targeting India-based AI builders | [Razorpay, 2026](https://razorpay.com/newsroom/razorpay-becomes-the-india-payments-partner-for-replits-global-ai-platform) |",
+    "source_excerpt": "razorpayrazorpay-replit-partnership\n\n0\n\n#### Related Posts\n\n \n\n### Razorpay Receives Final IFSCA Licence for GIFT City to Power Cross-Border Money Movement\n\n \n\n### Razorpay Partners With OpenAI to Expand ChatGPT Ads In India\n\n \n\n### Razorpay Merchants Can Now Accept Apple Pay Online and In-Store, With No Card Entry or OTPs\n\nLast Updated on June 15, 2026 by Anu Saraswat [...] Razorpay Newsroom\n\n Fa",
+    "verdict": "not_in_source",
+    "reason": "Source shows the Replit partnership title with no 17 Feb 2026 date."
+   },
+   {
+    "url": "https://www.linkedin.com/posts/analytics-india-magazine_razorpay-ai-fintech-activity-7490353347590311936-jESz",
+    "claim": "- **Stated purpose:** Analytics India Magazine reports that CTO and Co-founder Shashank Kumar said the hires would help build \"AI-native financial infrastructure for businesses worldwide.\" Reddy is positioned to lead AI and data architecture ([Analytics India Magazine, n.d.](https://www.linkedin.com/posts/analytics-india-magazine_razorpay-ai-fintech-activity-7490353347590311936-jESz)).",
+    "source_excerpt": "Microsoft veteran, Bhavya S., formerly of Salesforce, and Anuj Mathur, formerly of CRED. CTO and Co-founder Shashank Kumar said the hires will help accelerate Razorpay's ambition to build AI-native financial infrastructure for businesses worldwide. The hires follow Praburam Rambadran's arrival as Senior Vice President of Engineering in September 2025, since which Razorpay has shipped Agentic Payme",
+    "verdict": "not_in_source",
+    "reason": "CTO quote is supported, but Reddy's AI and data architecture role is not in the excerpt."
+   },
+   {
+    "url": "https://razorpay.com/newsroom/razorpay-strengthens-tech-leadership-appoints-ex-google-leader-prabu-rambadran-as-sr-vice-president-engineering",
+    "claim": "- **Engineering leadership:** Praburam (Prabu) Rambadran joined as Senior Vice President of Engineering in September 2025 ([Razorpay, n.d.](https://razorpay.com/newsroom/razorpay-strengthens-tech-leadership-appoints-ex-google-leader-prabu-rambadran-as-sr-vice-president-engineering); [Analytics India Magazine, n.d.](https://www.linkedin.com/posts/analytics-india-magazine_razorpay-ai-fintech-activit",
+    "source_excerpt": "Last Updated on June 15, 2026 by Anu Saraswat [...] Razorpay Newsroom\n\n Facebook\n Twitter\n Instagram\n\nIn People \n\n# Razorpay Strengthens Tech Leadership, Appoints ex-Google Leader Prabu Rambadran as Sr. Vice President, Engineering\n\n3 Mins Read\n\n \n\n### Razorpay Receives Final IFSCA Licence for GIFT City to Power Cross-Border Money Movement\n\n \n\n### Razorpay Partners With OpenAI to Expand ChatGPT Ads",
+    "verdict": "not_in_source",
+    "reason": "Razorpay excerpt gives the appointment headline but no September 2025 date."
+   },
+   {
+    "url": "https://www.wenhamcarter.com/razorpay-appoints-ceo-north-america-to-spearhead-expansion-redefining-payments-and-financial-services-for-u-s-smbs",
+    "claim": "- **North America:** A CEO for North America was announced in September 2025 to lead the U.S. SMB expansion ([Wenham Carter, 2025](https://www.wenhamcarter.com/razorpay-appoints-ceo-north-america-to-spearhead-expansion-redefining-payments-and-financial-services-for-u-s-smbs)).",
+    "source_excerpt": "Published:\n\nRazorpay, Asia\u2019s largest payments and neobanking startup processing $150B+ annually for over 10M businesses, is appointing an industry leader and seasoned entrepreneur as CEO, North America. This strategic hire supports Razorpay\u2019s entry into the U.S. payments market, leveraging its expertise in real-time payments, cross-border commerce, and embedded financial solutions. [...] With $750",
+    "verdict": "not_in_source",
+    "reason": "Wenham Carter excerpt has a 'Published:' label with no date shown."
+   },
+   {
+    "url": "https://builtin.com/company/razorpay/faq/leadership-management",
+    "claim": "| Headquarters | Bengaluru, India | [Built In, 2026](https://builtin.com/company/razorpay/faq/leadership-management) |",
+    "source_excerpt": "Strategic Vision & Planning: Leadership consistently frames the company as a full\u2011stack, AI\u2011first financial solutions platform anchored around omnichannel payments, RazorpayX, and an India\u2011domiciled, IPO\u2011ready posture. Product expansions and targeted acquisitions reinforce a roadmap to manage end\u2011to\u2011end money movement for businesses. [...] Executive clarity (AI\u2011first, full\u2011stack, IPO/India\u2011domicil",
+    "verdict": "not_in_source",
+    "reason": "Source says India-domiciled but does not state Bengaluru headquarters."
+   },
+   {
+    "url": "https://builtin.com/company/razorpay/faq/stability-growth",
+    "claim": "| SEA footprint | Malaysia (2022), Singapore (March 2025); plans for 3 to 4 more SEA markets by end-2026 | [Built In, n.d.](https://builtin.com/company/razorpay/faq/stability-growth) |",
+    "source_excerpt": "Innovation-Driven Growth: Multiple industry-first launches (e.g., TokenHQ, support for credit cards on UPI, ENGAGE, RAY, and Payment Gateway 3.0 with an AI engine) are cited as improving conversions and opening new growth avenues. Product breadth across payments, banking, payroll, and marketing tools expands the addressable opportunity. [...] License-First Market Entry \u2014 RBI Payment Aggregator lic",
+    "verdict": "supported",
+    "reason": "Source gives Malaysia 2022, Singapore March 2025, and 3\u20134 more markets by end-2026."
+   },
+   {
+    "url": "https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026",
+    "claim": "- **Eligibility:** KYC and activation must be completed on or after 1 July 2026 (Clause 1) ([Razorpay, n.d.](https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026)).",
+    "source_excerpt": "## What Is Razorpay\u2019s 0% Platform Fee Offer and How Does It Actually Work?\n\nRazorpay\u2019s 0% platform fee offer waives the platform fee charged on eligible successful domestic transactions for new merchants for their first 90 days. It is a temporary promotional waiver of Razorpay\u2019s own technology and service fee, separate from the RBI-mandated zero MDR on BHIM-UPI and RuPay debit card transactions. E",
+    "verdict": "supported",
+    "reason": "Source says offer applies to accounts activated on or after 1 July 2026; Clause 1 not shown."
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=dxIAx-syEGo",
+    "claim": "- **Potential IPO:** A YouTube video titled \"Upcoming IPO in November 2026\" is in the source set ([Stock Market Tak, n.d.](https://www.youtube.com/watch?v=dxIAx-syEGo)). The excerpt contains only the title and platform boilerplate. Built In describes an \"IPO-ready posture\" ([Built In, 2026](https://builtin.com/company/razorpay/faq/leadership-management)). **We could not verify any IPO filing, date",
+    "source_excerpt": "[1:08] \u0915\u0902\u092a\u0928\u0940 \u0915\u0940 \u0932\u0917\u092d\u0917 500 \u092c\u093f\u0932\u093f\u092f\u0928 \u0921\u0949\u0932\u0930 \u0915\u0940 \u0907\u0938 \u0915\u0902\u092a\u0928\u0940 \u0915\u0940 \u0907\u0936\u0942 \u0938\u093e\u0907\u091c \u0915\u0902\u092a\u0928\u0940 \u0915\u0940 \u0935\u0948\u0932\u094d\u092f\u0942\u094d\u092f\u0942\u090f\u0936\u0928 \u0939\u094b\u0928\u0947 \u0935\u093e\u0932\u0940 \u0939\u0948\u0964 \u091c\u093f\u0938 \u0907\u0938 \u0915\u0902\u092a\u0928\u0940 \u0915\u0940 \u0907\u0936\u0942 \u0938\u093e\u0907\u091c\n[1:15] \u0932\u0917\u092d\u0917 600 \u092e\u093f\u0932\u093f\u092f\u0928 \u0924\u0915 \u0915\u0940 \u0907\u0938 \u0915\u0902\u092a\u0928\u0940 \u0915\u0940 \u092f\u0939\u093e\u0902 \u092a\u0947 \u0907\u0936\u0942 \u0938\u093e\u0907\u091c \u0926\u0947\u0916\u0940 \u091c\u093e\u090f\u0917\u0940\u0964 \u0915\u0902\u092a\u0928\u0940 \u0915\u0947 \u092c\u093e\u0930\u0947 \u092e\u0947\u0902 \u092c\u093e\u0924 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902 \u0924\u094b \u0915\u0902\u092a\u0928\u0940 \u0935\u093e\u0908 \u0915\u0949\u092e\u094d\u092c\u093f\u0928\u0947\u091f\u0930\n[1:22] \u0915\u0940 \u092c\u093e\u0924 \u0915\u0930\u0924\u0947 \u0939\u0948\u0902\u0964 fintech \u092f\u0942\u0928\u093f\u0915\u0949\u0930\u094d\u0928 \u091c\u094b \u092f\u0939\u093e\u0902 \u092a\u0947 \u0930\u0947\u091c\u0930 \u092a\u0947 \u0906\u0908\u092a\u0940\u0913 \u0939\u0948 \u0909\u0928\u0915\u094b \u092f\u0939\u093e\u0902 \u092a\u0947 \u092a\u0948\u0915 \u0915\u0930\u0940 \u0917\u0908 \u0939\u0948\u0964 \u0938\u093e\u0925-\u0938\u093e\u0925 \u0938\u093f\u0915\u094d\u092f\u094b\u0930\u093f\u091f\u0940 \u090f\u0902\u0921\n[1:30] \u090f\u0915\u094d\u0938\u091a\u0947\u0902\u091c \u092c\u094b\u0930\u094d\u0921 \u0911\u092b \u0907\u0902\u0921\u093f\u092f\u093e ",
+    "verdict": "contradicted",
+    "reason": "Excerpt is a Hindi transcript discussing a Razorpay IPO, not just title and boilerplate."
+   },
+   {
+    "url": "https://razorpay.com/m/gff2026",
+    "claim": "- **Events:** Razorpay's GFF 2026 presence (9 to 11 September) featured an SME Connect Platform with IndusInd Bank and an AI account manager on WhatsApp ([Razorpay, n.d.](https://razorpay.com/m/gff2026)). These are older and already covered above.",
+    "source_excerpt": "PRODUCT LAUNCHES\n\nPRODUCT LAUNCHES\n\n## Key Launches at a glance\n\n## Key Launches at a glance\n\nKey Launches   \nat a glance\n\n \n\n  Agentic Commerce Stack\n\n  Brands can now make their product catalogs fully shoppable on WhatsApp. Razorpay's Agentic Commerce Stack seamlessly orchestrates discovery, protocol translation, and instant in-chat checkouts to turn everyday conversational messages into high-co",
+    "verdict": "not_in_source",
+    "reason": "Source lists SME Connect and Ray on WhatsApp but no IndusInd Bank or GFF dates."
+   }
+  ],
+  "counts": {
+   "supported": 3,
+   "not_in_source": 7,
+   "contradicted": 1
+  }
+ }
 }

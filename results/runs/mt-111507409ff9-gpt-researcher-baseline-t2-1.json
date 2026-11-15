@@ -257,5 +257,64 @@
   "undated": 7,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.jobzmall.com/news/stripe-adds-14-roles-across-global-offices",
+    "claim": "- **The last 30 days are thin on verified Stripe-specific news.** The only dated, in-window item in the provided material is a hiring signal of 14 roles reported on 5 November 2026 ([JobzMall, 2026](https://www.jobzmall.com/news/stripe-adds-14-roles-across-global-offices)).",
+    "source_excerpt": "Skip to content\n\n \n\nSign in Sign Up\n\nAll updates\n\nStripe\n\nStripe\n\nNov 5, 2026 | 7 days ago\n\n# Stripe Adds 14 Roles Across Global Offices\n\nStripe posted 14 new roles across sales, engineering, product, and analytics in multiple locations worldwide.\n\nStripe announced a hiring push on November 5, 2026, with 14 new roles across its global teams. Open positions span North America, Europe, Asia, and rem",
+    "verdict": "supported",
+    "reason": "Source dates the 14-role hiring push to November 5, 2026."
+   },
+   {
+    "url": "https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition",
+    "claim": "- **The most significant recent deal fell just outside the window.** Stripe agreed to acquire Parafin on 2 October 2026, with closing expected \"in the coming months\" ([Bignell, 2026](https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition)). Closing status is not confirmed in the material reviewed.",
+    "source_excerpt": "FinTech Futures: Top five news stories of the week \u2013 13 November 2026FinTech Futures: Top five news stories of the week \u2013 13 November 2026\n\nbyTyler Pathe\n\nNov 13, 2026\n\n4 Min Read\n\nPayTech keyboard_arrow_down\n\n#### Related Topics\n\n   Digital Payments\n   Instant & Real-Time Payments\n   Cross-Border Payments\n   BNPL Payments\n   B2B/B2C Payments\n\n   Contactless Payments\n   Tokenisation\n   Remittances",
+    "verdict": "not_in_source",
+    "reason": "Source excerpt is a FinTech Futures news page with no mention of Parafin."
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/sessions-2026",
+    "claim": "- **The largest product event was Stripe Sessions on 29 April 2026**, which included 288 launches, a Google partnership, and agent wallets ([Stripe, 2026](https://stripe.com/newsroom/news/sessions-2026)). This is context, not a 30-day development.",
+    "source_excerpt": "Stripe also announced 14 new partners for Stripe Projects, including Render, Twilio, Sentry, WorkOS, Browserbase, GitLab, and ElevenLabs. These partners join existing Projects partners for a total of 32 providers including Vercel, Clerk, Supabase, Hugging Face, and Cloudflare. [...] \u201cVibe coding is so 2025. The leading edge is now in vibe deploying, and Stripe Projects lets you do just that,\u201d said",
+    "verdict": "not_in_source",
+    "reason": "Source confirms 288 launches but gives no April 29 date and no agent wallets."
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "claim": "- **Stripe remains privately held** as of November 2026 ([Bonenkamp, 2026](https://blog.mean.ceo/stripe-news-november-2026)).",
+    "source_excerpt": "US$5.1 billion in revenue (2024), according to the Stripe, Inc. Wikipedia entry.\n About 8,500 employees (2025), also according to Wikipedia.\n 1,665,531 LinkedIn followers, according to a public company data record. That is more people than the entire population of Munich.\n 249 job signals tracked by GlobalData, which means Stripe is still hiring.\n 61 patents listed in GlobalData\u2019s signals.\n 6 deal",
+    "verdict": "supported",
+    "reason": "Source describes Stripe as a private, still-hiring payments company in November 2026."
+   },
+   {
+    "url": "https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features",
+    "claim": "- **288 new products and features**, framed as building \"the economic infrastructure for AI\" ([Stripe, 2026](https://stripe.com/newsroom/news/sessions-2026)). FX News Group carried the same headline, which is a secondary repost of the Stripe release ([FX News Group, n.d.](https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-p",
+    "source_excerpt": "Facebook\n Twitter\n LinkedIn\n rss\n\nFX News Group\n\nForex CFDs and trading\n\n### Breaking News\n\nStripe announces multiyear global partnership with Mercedes-AMG PETRONAS F1 Team\n\nCrypto.com inks deal with prime broker River Markets to bring OG.com prediction markets to institutional traders\n\nWebull schedules launch of perpetual futures for November 2026\n\nTradingView welcomes DKTE\u2019s Textile & Engineerin",
+    "verdict": "supported",
+    "reason": "Source reports 288 products and features at Stripe Sessions; URL carries the AI infrastructure headline."
+   },
+   {
+    "url": "https://www.paymentsdive.com/news/stripe-google-partner-on-agentic-commerce/818915",
+    "claim": "- **Google partnership:** Businesses will be able to sell inside AI Mode and the Gemini app. Quince, Fanatics, and JD Sports are named as coming soon. Stripe describes this as following similar partnerships with OpenAI, Microsoft, and Meta ([Stripe, 2026](https://stripe.com/newsroom/news/sessions-2026)). Payments Dive covered the same partnership under the headline \"Stripe, Google partner on agent",
+    "source_excerpt": "## Company Announcements\n\nView all\n| Post a press release\n\nPhotonPay Strengthens North American Regulatory Footprint with Canada\u2019s RPAA Registration\n\nFrom PhotonPay\n\nNovember 09, 2026\n\nPhotonPay logo\nIXOPAY Announces IXO One, a Modular Payments Platform Built for an Era of Fluid Commerce\n\nFrom IXOPAY\n\nNovember 03, 2026\n\nIXOPAY logo\nLiquidity Services Inc. Implements Flywire to Process Domestic and",
+    "verdict": "supported",
+    "reason": "Source states Gemini/AI Mode selling, names Quince, Fanatics, JD Sports, and prior OpenAI, Microsoft, Meta deals."
+   },
+   {
+    "url": "https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572",
+    "claim": "Payments Dive ran an article titled \"Stripe tips toward staying private,\" but the material reviewed shows only the headline, so its content and date cannot be confirmed ([Payments Dive, n.d.](https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572)).",
+    "source_excerpt": "Zingtree Launches First Agentic Governance and Orchestration Platform Built for Contact Center\u2026 From Zingtree November 10, 2026 Image 61: Zingtree logoPhotonPay Strengthens North American Regulatory Footprint with Canada\u2019s RPAA Registration From PhotonPay November 09, 2026 Image 62: PhotonPay logoIXOPAY Announces IXO One, a Modular Payments Platform Built for an Era of Fluid Commerce From IXOPAY N",
+    "verdict": "not_in_source",
+    "reason": "Excerpt shows only sidebar text; the article title and content are not stated."
+   }
+  ],
+  "counts": {
+   "supported": 4,
+   "not_in_source": 3,
+   "contradicted": 0
+  }
+ }
 }

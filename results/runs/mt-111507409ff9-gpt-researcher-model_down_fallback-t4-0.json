@@ -291,5 +291,99 @@
   "undated": 12,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex",
+    "claim": "- **Product:** Databricks launched a second-generation, always-on Genie on 11 November 2026, alongside Genie Ontology and Genie Search ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)). Its Genie One assistant expanded to Chrome, desktop, mobile, and email workflows in the same window ([Releasebot, 2026](http",
+    "source_excerpt": "SAN FRANCISCO \u2014 November 11, 2026 \u2014 Databricks, the Data and AI company, today announced the second generation of Genie that changes how people get work done: Genie is now an always-on, autonomous agent for enterprise work. Employees can give Genie a goal and trust it to keep work moving. Genie takes ownership of the work, delegates to subagents when needed, tracks progress, follows up on missing ",
+    "verdict": "not_in_source",
+    "reason": "Press release confirms second-gen Genie on Nov 11, 2026, but not Genie Ontology or Genie Search."
+   },
+   {
+    "url": "https://releasebot.io/updates/databricks",
+    "claim": "- **Product:** Databricks launched a second-generation, always-on Genie on 11 November 2026, alongside Genie Ontology and Genie Search ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)). Its Genie One assistant expanded to Chrome, desktop, mobile, and email workflows in the same window ([Releasebot, 2026](http",
+    "source_excerpt": "Original source\n Nov 12, 2026 \n  + Date parsed from source:\n\n    Nov 12, 2026\n  + First seen by Releasebot:\n\n    Nov 14, 2026\n\n  Databricks logo\n\n  Databricks\n\n  ## Postgres 18.7, 17.12, and 16.16 now available\n\n  Databricks updates Lakebase with the latest PostgreSQL minor versions, bringing upstream bug fixes and security patches to users. [...] 54 release notes \u00b7 Latest Nov 13, 2026\n Nov 12, 20",
+    "verdict": "not_in_source",
+    "reason": "Source confirms macOS desktop app only; no Chrome, mobile, or email expansion."
+   },
+   {
+    "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming",
+    "claim": "- **Deadline:** The Genie One MCP Beta endpoint reaches end of life on 30 November 2026, two weeks after the meeting ([Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming)).",
+    "source_excerpt": "Databricksplans to support Tableau and Sigma as external knowledge sources.\n\nSee External knowledge sources.\n\n## Genie Code tasks in Lakeflow Jobs are available by default for workspaces with the compliance security profile enabled starting in November 2026\u200b\n\nStarting in November 2026, Genie Codetasks in Lakeflow Jobs are available by default for workspaces with the compliance security profile ena",
+    "verdict": "not_in_source",
+    "reason": "Source does not mention an MCP Beta endpoint or a 30 November 2026 end-of-life date."
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming",
+    "claim": "The \"What's coming?\" page lists several dated items relevant to customers ([Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming)); the Azure edition is last updated 13 November 2026 and lists the same MCP deadline ([Microsoft, 2026](https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming)).",
+    "source_excerpt": "# What's coming?\n\nLearn about features and behavioral changes in upcoming Azure Databricks releases.\n\n## Serverless GPU in clean rooms will soon be on by default for accounts where it's turned off\n\nStarting on or after November 26, 2026, serverless GPU in clean rooms will be on by default for accounts on the Enterprise or Premium pricing tier.\n\nUntil then, an account admin can turn on Clean Rooms ",
+    "verdict": "not_in_source",
+    "reason": "Azure page excerpt shows no MCP deadline or 13 November 2026 update date."
+   },
+   {
+    "url": "https://app.fundz.net/products/databricks-product-launch-917146",
+    "claim": "- **Analyst commentary:** A Fundz product-launch page describes the second-generation Genie as an \"always-on autonomous AI assistant for enterprise work\" ([Fundz, 2026](https://app.fundz.net/products/databricks-product-launch-917146)). Fundz is a sales-intelligence vendor, so this is a secondary and promotional description.",
+    "source_excerpt": "See plan options\n\nTrusted byOracleSnowflakeCloudflareLinkedInGoogleSalesforce\u2605\u2605\u2605\u2605\u2605 4.8/5 on G2\n\n# LaunchDatabricks launched the second-generation Genie, an always-on autonomous AI assistant for enterprise work.\n\nNov 11, 2026\n\nSan FranciscoInformation TechnologySoftwareArtificial IntelligenceAnalyticsinformation technology & services\n\n### Product Description [...] The new Genie autonomously manages",
+    "verdict": "supported",
+    "reason": "Fundz page describes it as an always-on autonomous AI assistant for enterprise work."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Databricks",
+    "claim": "| Dec 2025 | Series L round of more than $4 billion at a $134 billion valuation | [Wikipedia, n.d.](https://en.wikipedia.org/wiki/Databricks) |",
+    "source_excerpt": "In July 2026, Coatue Management led a funding round for a $3 billion investment in Databricks, making the company's overall valuation $188 billion. The funding round closed at $5 billion in August 2026, with a $190 billion post-money valuation and $7 billion revenue run rate \"Run rate (accounting)\"). In addition to Coatue Management, Blackstone Inc., MGX, T. Rowe Price and Sixth Street Growth were",
+    "verdict": "not_in_source",
+    "reason": "Source describes July/August 2026 rounds at $188B and $190B, not a Dec 2025 Series L."
+   },
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-databricks/__h71WlGEvmuefCzSdZogxaGihmuCYu0rBKj3hkmJQF7M",
+    "claim": "| Sep 2026 | Acquisition of Row Zero, a cloud-based spreadsheet provider | [Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-databricks/__h71WlGEvmuefCzSdZogxaGihmuCYu0rBKj3hkmJQF7M) |",
+    "source_excerpt": "| Acquired on | Acquired Company | Acquisition Price | Facilitators | Stake Acquired | Acquisition Multiple |\n ---  ---  --- |\n| Sep 24, 2026 | Row Zero | vbdf | fdsw | 45 | 440 |\n| Aug 12, 2026 | Electric | o{fw | vkei | 98 | 641 |\n| Jun 16, 2026 | Panther | rlfe | um{x | 94 | 302 |\n| Mar 24, 2026 | Antimatter | fksv | xkxp | 43 | 192 |\n| Mar 24, 2026 | SiftD (acquired by Databricks) | jvbp | acs",
+    "verdict": "supported",
+    "reason": "Tracxn lists Row Zero acquisition on Sep 24, 2026; describes it as cloud spreadsheet software."
+   },
+   {
+    "url": "https://community.databricks.com/t5/community-articles/dais-2026-the-databricks-announcements-i-think-clients-should/td-p/159914",
+    "claim": "A commentary article on the 2026 Data + AI Summit notes that Databricks is exploring \"OpenSharing,\" which would allow organizations to share Genie Agents, a model in which providers could sell governed natural-language access to proprietary data ([Databricks Community, n.d.](https://community.databricks.com/t5/community-articles/dais-2026-the-databricks-announcements-i-think-clients-should/td-p/15",
+    "source_excerpt": "### My takeaway\n\nDAIS 2026 showed Databricks moving toward a more complete operating foundation for enterprise AI.\n\nThe common thread I saw across the announcements was this: [...] This is why I found this year\u2019s announcements interesting. They were not only about adding more capability. They were about reducing the distance between data, context, AI, governance, and action.\n\n### Context is becomi",
+    "verdict": "not_in_source",
+    "reason": "Source mentions OpenSharing announcements but not sharing Genie Agents or selling governed access."
+   },
+   {
+    "url": "https://iteuropa.com/news/databricks-hires-former-docusign-exec-svp-and-general-counsel",
+    "claim": "- **General counsel:** Databricks appointed Tr\u00e2m Phi as senior vice president and general counsel. She joins from DocuSign, where she was SVP and general counsel ([iteuropa, n.d.](https://iteuropa.com/news/databricks-hires-former-docusign-exec-svp-and-general-counsel)). The article does not state a date, so it cannot be confirmed as falling within the 30-day window. The article also alternates bet",
+    "source_excerpt": "Phi, who has decades of experience scaling high-growth companies, both public and private, will join the firm\u2019s executive leadership team. [...] Jobs Board: Channel sees key hires \u2013 Databricks, WEKA, Clio, Precisely\u2026\n\nPeople\n\n## Jobs Board: Channel sees key hires \u2013 Databricks, WEKA, Clio, Precisely\u2026\n\nCopyright \u00a9 2026 IT Europa Media and Intelligence Limited. All rights reserved.\n\n## Legal\n\n Cookie",
+    "verdict": "not_in_source",
+    "reason": "Excerpt shows Phi's appointment but not her DocuSign background."
+   },
+   {
+    "url": "https://www.workzil.com/companies/databricks/team",
+    "claim": "- **Org chart:** A Workzil page updated on 4 November 2026 lists Ali Ghodsi as CEO and Co-Founder and Dave Conte as CFO ([Workzil, 2026](https://www.workzil.com/companies/databricks/team)). Derrick's data is more detailed but dated August 2026 ([Derrick, 2026](https://derrick-app.com/company/databricks/executives)).",
+    "source_excerpt": "1. Home\n2. Companies\n3. Databricks\n4. Team\n\n# DatabricksOrg Chart (November 2026)\n\nDatabricks\u2019s leadership team and key executives, mapped by function.Ali Ghodsi serves as CEO and Co-Founder since 2016. Sourced from SEC filings and official company about pages.\n\nWorkzil Editorial\n\nByWorkzil Editorial \u00b7 Career Research Team\n\nUpdated November 4, 2026 [...] Functions covered\n\nGhodsi\n\nCEO\n\nMonthly\n\nUp",
+    "verdict": "supported",
+    "reason": "Workzil page updated November 4, 2026 lists Ghodsi as CEO and Conte as CFO."
+   },
+   {
+    "url": "https://derrick-app.com/company/databricks/executives",
+    "claim": "- **Org chart:** A Workzil page updated on 4 November 2026 lists Ali Ghodsi as CEO and Co-Founder and Dave Conte as CFO ([Workzil, 2026](https://www.workzil.com/companies/databricks/team)). Derrick's data is more detailed but dated August 2026 ([Derrick, 2026](https://derrick-app.com/company/databricks/executives)).",
+    "source_excerpt": "+\n\nDatabricks's tracked executive team includes Ali Ghodsi (Co-founder and Chief Executive Officer), David Conte (Chief Financial Officer), Matei Zaharia (Co-founder and Chief Technology Officer), Rick Schultz (Chief Marketing Officer), Hatim Shafique (Chief Operating Officer), Ion Stoica (Co-founder and Executive Chair), and others (as of August 2026). See the full list and org chart above.\n\n### ",
+    "verdict": "supported",
+    "reason": "Derrick page states data as of August 2026 and lists Ghodsi and Conte."
+   },
+   {
+    "url": "https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi",
+    "claim": "**6. Several claims remain unverified.** Vendor and commentary sources describe Databricks' capital position and hiring in more bullish terms than the official sources do. One LinkedIn post cites a $4.8 billion raise, while Wikipedia reports a Series L of more than $4 billion at a $134 billion valuation ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Databricks)). The LinkedIn post shows an age o",
+    "source_excerpt": "6. Apps Fuel Snowflake Competition: With both companies approaching $5B revenue run-rate, Databricks Apps development directly targets Snowflake's application layer. 7. Real-Time Infrastructure: Tecton and Mooncake acquisitions + Confluent partnership = major investment in streaming data and AI application latency reduction. 8. Data Governance Moat: OneTrust, BigID, Collibra partnerships + hiring ",
+    "verdict": "supported",
+    "reason": "LinkedIn post states Databricks just raised $4.8B."
+   }
+  ],
+  "counts": {
+   "supported": 5,
+   "not_in_source": 7,
+   "contradicted": 0
+  }
+ }
 }

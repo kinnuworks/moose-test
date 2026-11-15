@@ -291,5 +291,64 @@
   "undated": 7,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.finalroundai.com/blog/canva-layoffs",
+    "claim": "Sources indicate that the 1,271 figure is not a count of exits, since it includes redundancies, changed roles, and relocation requests ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)).",
+    "source_excerpt": "Canva announced on November 4, 2026 that 1,271 roles, about 22% of staff across 37 countries, are affected by a restructure that includes layoffs, role changes and relocations to Sydney.\n Canva has not split the 1,271 into redundancies versus role changes, so 1,271 is a ceiling on job losses rather than a count, and the real figure will not be known until relocation decisions are made. [...] Augus",
+    "verdict": "supported",
+    "reason": "Source says 1,271 is a ceiling covering layoffs, role changes and relocations, not a count."
+   },
+   {
+    "url": "https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life",
+    "claim": "It said: \"After months of thinking through how to set Canva up for the next chapter, we have made the incredibly hard decision to make significant changes to how we're organised, where some of our teams are based and the roles and skills we need for the future\" ([Varley, 2026](https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life)).",
+    "source_excerpt": "Silicon Republic\n\n TECHNOLOGY\n\n  BUSINESS ENTERPRISE COMMS START-UPS ALL\n SCIENCE\n\n  INNOVATION MACHINES CLIMATE ALL\n CAREERS\n\n  ADVICE PEOPLE EMPLOYERS JOBS NEWS ALL\n AI\n MORE\n\n  AI POLICY ADVERTISE FOLLOW US CONTACT ABOUT COOKIE & PRIVACY POLICY\n\nBUSINESS ENTERPRISE COMMS START-UPS ALL\n\n# Canva announces major job cuts and restructuring of its workforce\n\nby Laura Varley\n\n4 Nov 2026\n\nWooden pegs ",
+    "verdict": "supported",
+    "reason": "Source quotes Perkins with the same wording in the same memo context."
+   },
+   {
+    "url": "https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations",
+    "claim": "Management layers will be simplified, and more teams will be concentrated in Sydney ([Niehues, 2026](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations)).",
+    "source_excerpt": "## Canva is restructuring 1,271 roles after growth slowed for the first time in a decade\n\nCanva is changing the roles of 1,271 people because growth slowed in 2026 for the first time in a decade and, in its CEO's words, small changes are no longer enough. In the note \u201cAn important update on our team\u201d of 3 November 2026 in Canva's newsroom, Perkins writes that 22 percent of Canva is affected. Canva",
+    "verdict": "supported",
+    "reason": "Source states management layers will be simplified and more teams concentrated in Sydney."
+   },
+   {
+    "url": "https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand",
+    "claim": "Some describes \"1,271 employees affected\" ([CTO Magazine, 2026](https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand)), while others specify roles.",
+    "source_excerpt": "On November 4, Canva published a message from co-founder and CEO Melanie Perkins titled An Important Update on Our Team. The update mentioned that 1,271 employees, roughly 22% of the workforce, will be affected by a major reorganization.\n\nAccording to the memo, not everyone affected will lose their jobs. Some employees will move into different roles, while others will be asked to relocate to centr",
+    "verdict": "supported",
+    "reason": "CTO Magazine says the memo cites 1,271 employees affected, with some changing roles."
+   },
+   {
+    "url": "https://qz.com/tech-layoff-severance-packages",
+    "claim": "| Base pay | At least six months' base pay for all affected staff worldwide ([Quartz/HR Brew, n.d.](https://qz.com/tech-layoff-severance-packages)) | 16-week benchmark for major tech firms ([Quartz/HR Brew, n.d.](https://qz.com/tech-layoff-severance-packages)) |",
+    "source_excerpt": "Against that yardstick, HR Brew treats three parts of Canva's November 2026 package as outliers. The first is the floor of at least six months of base pay for every affected employee worldwide. The others are the decision to let staff keep their company-issued MacBooks and the $10,000 grants for startup or community ventures. [...] Canva promised every employee affected by its November 2026 layoff",
+    "verdict": "not_in_source",
+    "reason": "Six-month floor is supported, but the 16-week benchmark is not stated in the excerpt."
+   },
+   {
+    "url": "https://amazingworkplaces.co/canva-layoffs-2026",
+    "claim": "| Vesting | One-year vesting cliff removed ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs); [Amazing Workplaces, n.d.](https://amazingworkplaces.co/canva-layoffs-2026)) | Quartz/HR Brew notes that unvested equity treatment is often unreported ([Quartz/HR Brew, n.d.](https://qz.com/tech-layoff-severance-packages)) |",
+    "source_excerpt": "At Amazing Workplaces\u00ae, we\u2019ve surveyed over 60,000 employees, and our 3E model (Evaluate, Enrich, Endorse) starts with measuring how people actually feel before a crisis forces the question. If you want a baseline on your own people practices, our workplace survey and certification is the place to start.\n\n## Canva layoffs: quick answers\n\n### How many people did Canva lay off?\n\nCanva laid off 1,271",
+    "verdict": "supported",
+    "reason": "Amazing Workplaces says staff who joined within the last year get their vesting cliff removed."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Canva",
+    "claim": "A discrepancy needs checking: Wikipedia cites a TechCrunch article dated 30 October 2025 on Canva launching its own design model ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Canva)).",
+    "source_excerpt": "In February 2026, Canva acquired two startups: Cavalry, which specializes in animation software, and MangoAI, which aims to optimize advertising performance.\n\nIn April 2026, Canva acquired Simtheory, an AI Workflow Tool, and Ortto, a marketing automation tool.\n\n## Philanthropy\n\n[edit]\n\nCanva's co-founders, Melanie Perkins and Cliff Obrecht, have said they intend to donate a significant part of the",
+    "verdict": "contradicted",
+    "reason": "Wikipedia's cited TechCrunch article is dated 24 February 2026, not 30 October 2025."
+   }
+  ],
+  "counts": {
+   "supported": 5,
+   "not_in_source": 1,
+   "contradicted": 1
+  }
+ }
 }

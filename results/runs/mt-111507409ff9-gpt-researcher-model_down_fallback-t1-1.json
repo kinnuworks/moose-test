@@ -291,5 +291,85 @@
   "undated": 10,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "claim": "- **Leadership change:** Jensen Huang resigned as President, CEO and board member with immediate effect. CFO Colette Kress is interim CEO while keeping her CFO role, and the board is searching for a permanent successor ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition); [Data Centre Magazine, 2026](https://datacentremagazine.com/news/nvidia-ceo-jensen-huan",
+    "source_excerpt": "NVIDIA in Brief\n   Exec Bios\n   NVIDIA Blog\n   Podcast\n   Media Assets\n   In the News\n   Press Contacts\n   Online Press Kits\n\nPress Release \n\nShare\n\nTweet Twitter\n\nShare LinkedIn\n\nShare Facebook\n\nEmail\n\n# NVIDIA Announces CEO Transition\n\n November 12, 2026 \n\n   _Jensen Huang Resigns_\n   _Colette Kress, Executive Vice President and Chief Financial Officer, Appointed Interim CEO_\n   _Harvey C. Jones",
+    "verdict": "supported",
+    "reason": "NVIDIA release confirms Huang's resignation, Kress as interim CEO keeping CFO role, and board search."
+   },
+   {
+    "url": "https://datacentremagazine.com/news/nvidia-ceo-jensen-huang-resigns-as-colette-kress-steps-in",
+    "claim": "- **Leadership change:** Jensen Huang resigned as President, CEO and board member with immediate effect. CFO Colette Kress is interim CEO while keeping her CFO role, and the board is searching for a permanent successor ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition); [Data Centre Magazine, 2026](https://datacentremagazine.com/news/nvidia-ceo-jensen-huan",
+    "source_excerpt": "Jensen Huang resigned as President, CEO and board member with immediate effect, with the board accepting his resignation on 11 November\n Colette Kress becomes interim CEO while remaining EVP and CFO, a role she has held since September 2013\n Harvey C. Jones is NVIDIA\u2019s first-ever board chair and has been a director since 1993\n NVIDIA shares fell more than 13% in early trading on 12 November, accur",
+    "verdict": "supported",
+    "reason": "Data Centre Magazine states immediate resignation, Kress's interim CEO role, and the board search."
+   },
+   {
+    "url": "https://tickeron.com/blogs/nvidia-nvda-slides-18-6-over-30-days-what-the-sell-off-means-for-investors-32753",
+    "claim": "- **Market reaction:** Shares fell more than 13% in early trading on 12 November ([Data Centre Magazine, 2026](https://datacentremagazine.com/news/nvidia-ceo-jensen-huang-resigns-as-colette-kress-steps-in)). The stock closed at $162.85 on 13 November, about 32% below the record close of $239.24 on 6 October ([Tickeron, 2026](https://tickeron.com/blogs/nvidia-nvda-slides-18-6-over-30-days-what-the-",
+    "source_excerpt": "Following a 3-day decline, the stock is projected to fall further. Considering past instances where NVDA declined for three days, the price rose further in 50 of 62 cases within the following month. The odds of a continued downward trend are 69%.\n\nThe Aroon Indicator for NVDA entered a downward trend on November 06, 2026. This could indicate a strong downward move is ahead for the stock. Traders m",
+    "verdict": "not_in_source",
+    "reason": "The 13% early-trading drop is supported, but the $162.85 close is not in the source."
+   },
+   {
+    "url": "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout",
+    "claim": "- **Regulatory overhang:** The Justice Department and Commerce Department are investigating whether a Singaporean company bought advanced Nvidia chips to send to China ([CNN, 2026](https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout)).",
+    "source_excerpt": "Thank You!\n\nYour effort and contribution in providing this feedback is much appreciated.\n\nAd Feedback\n\n## Jensen Huang scandal\n\n CEO summoned to testify before Congress\n Video AI industry\u2019s dependence on Nvidia tech 1:23\n US intelligence community\n\nLive Updates\n\n# Jensen Huang summoned to testify before Congress after resigning as Nvidia CEO\n\nPresident Donald Trump had encouraged him to fight call",
+    "verdict": "not_in_source",
+    "reason": "CNN excerpt does not mention Justice or Commerce investigating a Singaporean company."
+   },
+   {
+    "url": "https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo",
+    "claim": "| Board chair | Harvey C. Jones, the company's first-ever chair | [Mashable, 2026](https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo) |",
+    "source_excerpt": "For now, the job will go to CFO of Nvidia, Colette Kress, who has run Nvidia's finances since 2013. She'll stay on as chief financial officer while serving as interim CEO, and the board will look both inside and outside the company for a permanent replacement. The board also picked longtime director Harvey C. Jones to serve as its first chair.\n\n You May Also Like \n\n--- [...] 21 October 2026, Berli",
+    "verdict": "supported",
+    "reason": "Mashable states Harvey C. Jones was picked as the board's first chair."
+   },
+   {
+    "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress",
+    "claim": "| Permanent CEO | Not named; search underway, with internal and external candidates | [Al Jazeera, 2026](https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress) |",
+    "source_excerpt": "In a statement following her appointment, Kress said she was committed to building on the foundation Huang had created over the past 33 years.\n\nThis undated handout photo from Nvidia obtained on November 12, 2026, shows Nvidia Chief Financial Officer Colette Kress, who has been named interim CEO following the resignation of Nvidia CEO Jensen Huang. [...] This undated handout photo from Nvidia obta",
+    "verdict": "supported",
+    "reason": "Al Jazeera says the board is searching for a permanent CEO, considering internal and external candidates."
+   },
+   {
+    "url": "https://www.oanda.com/eu-en/blog/NVIDIA-q3-earnings-preview-nov-2026",
+    "claim": "| Revenue guidance | $108.0 billion \u00b12% (about $105.84\u2013110.16 billion) | [OANDA, 2026](https://www.oanda.com/eu-en/blog/NVIDIA-q3-earnings-preview-nov-2026) |",
+    "source_excerpt": "### The market expects more than meeting guidance\n\nNVIDIA will report its results for the third quarter of fiscal 2027 on Tuesday, November 17. The report will cover the period ended October 25, 2026. The company has guided for revenue of $108 billion, plus or minus 2%, implying a range of $105.84 billion to $110.16 billion. The guidance excludes sales of Data Center compute chips to China. [...] ",
+    "verdict": "supported",
+    "reason": "OANDA states $108 billion guidance, plus or minus 2%, range $105.84\u2013110.16 billion."
+   },
+   {
+    "url": "https://www.cmelitegroup.com/knowledge-hub/nvidia-earnings-date",
+    "claim": "| Gross margin guidance | 74.0% \u00b150 basis points | [CapitalMEG, 2026](https://www.cmelitegroup.com/knowledge-hub/nvidia-earnings-date) |",
+    "source_excerpt": "Skip to content\n\nCapmeg Logo Tm\n\nOpen Account\n\nLog in\n\n###### October 21st, 2026\n\n# Nvidia Earnings Date: Fiscal Q3 2027 Report Time, Guidance and Expected Move\n\nBy the Capital Markets Elite Group education team\n\nNvidia will report fiscal third-quarter 2027 results on Tuesday 17 November 2026, after the US close. The conference call starts at 5:00 p.m. ET (2:00 p.m. PT). Nvidia confirmed the date ",
+    "verdict": "not_in_source",
+    "reason": "Excerpt gives no 74.0% gross margin guidance; only revenue guidance details appear."
+   },
+   {
+    "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-huang-resigns-amid-affair-scandals-board-names-cfo-colette-kress-interim-ceo-135801377.html",
+    "claim": "Yahoo Finance reports that Huang acknowledged a separate relationship with a woman whom US intelligence officials believe is a Chinese spy ([Howley, 2026](https://finance.yahoo.com/technology/article/nvidia-ceo-huang-resigns-amid-affair-scandals-board-names-cfo-colette-kress-interim-ceo-135801377.html)).",
+    "source_excerpt": "CEO Jensen Huang is stepping down as CEO following reports that he had an affair with a fellow executive at the AI giant and after he admitted to having a separate affair with a woman whom US intelligence officials believe is a Chinese spy.\n\nCFO Colette Kress will succeed Huang as interim CEO until the company names a permanent CEO.\n\nNvidia stock plunged more than 10% in pre-market action. [...] \"",
+    "verdict": "supported",
+    "reason": "Yahoo Finance reports Huang admitted a separate affair with a woman US intelligence believes is a Chinese spy."
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-erases-2026-gains-republicans-204550552.html",
+    "claim": "- **Congressional pressure:** House Foreign Affairs Committee Chairman Brian Mast said he was prepared to subpoena Huang unless he responded by 11 November to a request for a closed-door briefing. No subpoena had been issued at the time of reporting ([Lanz, 2026](https://finance.yahoo.com/markets/stocks/articles/nvidia-erases-2026-gains-republicans-204550552.html)). A CNN headline indicates Huang ",
+    "source_excerpt": "Nvidia is scheduled to report quarterly earnings on November 17, one day before the congressional briefing requested by House Republicans. Mast's deadline for Huang to respond comes first, on November 11.\n\nTerms  and Privacy Policy\n\nPrivacy Dashboard\n\nMore Info\n\n## Recommended Stories [...] The selloff accelerated as congressional Republicans threatened to subpoena CEO Jensen Huang over his report",
+    "verdict": "supported",
+    "reason": "Source gives Mast's November 11 deadline for Huang to respond; subpoena status is only partly covered."
+   }
+  ],
+  "counts": {
+   "supported": 7,
+   "not_in_source": 3,
+   "contradicted": 0
+  }
+ }
 }

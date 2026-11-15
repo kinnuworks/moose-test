@@ -158,7 +158,7 @@ function text(slide, t, o) {
     ["Citations are checked, not trusted", "A link counts only if Bifrost's relay log shows this run fetched that page."],
     ["Our limits never count against an agent", "open_deep_research at its defaults sent ~320 model calls in a minute. Bifrost's provider queue (8 in flight) and 429 retries apply to every agent; injected outages use a separate dead provider."],
     ["Bad runs are re-run, not hidden", "A run hit by our own rate limit, or one where nothing reached the gateway, is marked INVALID, kept on disk and run again."],
-    ["The grader uses no AI", "Outcomes are deterministic checks on gateway logs. A one-line AI-written diagnosis is shown beside failed runs and never changes the grade."],
+    ["AI checks the sources, not the grade", "Outcomes are deterministic checks on gateway logs. A model checks each fetched citation against the page text the search returned: 5.8% of GPT Researcher's were contradicted, 1.0% of single-search's."],
   ];
   items.forEach(([h, b], i) => {
     const x = 0.6 + (i % 2) * 6.15, y = 1.6 + Math.floor(i / 2) * 2.6;
@@ -174,7 +174,7 @@ function text(slide, t, o) {
   s.addText("Limits, and how to try it", { placeholder: "title" });
   text(s, [
     { text: "One model for all agents, so results compare agents, not models.", options: { bullet: true, breakLine: true } },
-    { text: "Citations are checked for being fetched, not for supporting the sentence.", options: { bullet: true, breakLine: true } },
+    { text: "Source support is checked against the page text the search returned, not the full page.", options: { bullet: true, breakLine: true } },
     { text: "Tavily's published_date is its best estimate, so recency is approximate.", options: { bullet: true } },
   ], { x: 0.6, y: 1.6, w: 6.0, h: 3.0, fontSize: 17, paraSpaceAfter: 10 });
   s.addShape(pres.ShapeType.roundRect, { x: 7.0, y: 1.6, w: 5.7, h: 3.6, rectRadius: 0.12, fill: { color: C.text2 }, line: { type: "none" }, objectName: "try" });

@@ -257,5 +257,85 @@
   "undated": 10,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.news18.com/viral/canva-announces-first-major-layoffs-in-13-years-over-1200-employees-to-face-job-cuts-or-relocation-ws-l-10411859.html",
+    "claim": "The company describes this as the first major restructuring in its 13-year history ([Buzz Staff, 2026](https://www.news18.com/viral/canva-announces-first-major-layoffs-in-13-years-over-1200-employees-to-face-job-cuts-or-relocation-ws-l-10411859.html)).",
+    "source_excerpt": "English Edition\n\n \u0939\u093f\u0928\u094d\u0926\u0940 (Hindi)\n \u09ac\u09be\u0982\u09b2\u09be (Bengali)\n \u092e\u0930\u093e\u0920\u0940 (Marathi)\n \u0a97\u0ac1\u0a9c\u0ab0\u0abe\u0aa4\u0ac0 (Gujarati)\n \u0c95\u0ca8\u0ccd\u0ca8\u0ca1 (Kannada)\n \u0ba4\u0bae\u0bbf\u0bb4\u0bcd (Tamil)\n \u0d2e\u0d32\u0d2f\u0d3e\u0d33\u0d02 (Malayalam)\n \u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 (Telugu)\n \u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40 (Punjabi)\n \u0627\u0631\u062f\u0648 (Urdu)\n \u0985\u09b8\u09ae\u09c0\u09af\u09bc\u09be (Assam)\n \u0b13\u0b21\u0b3c\u0b3f\u0b06 (Odia)\n\nWed, Nov 11, 2026 | 12:49 AM\n\nDownload News18 APPWatch LIVE TV\")\n\nCanva has announced plans to impact over 1,200 employees as part of its first significant restructuring in 13 years",
+    "verdict": "supported",
+    "reason": "Source says the restructuring marks Canva's first major overhaul in its 13-year history."
+   },
+   {
+    "url": "https://x.com/theinformation/status/2086158004525699220",
+    "claim": "The change follows a more consequential financial signal from August 2026, when the company cut its 2026 revenue growth forecast from 30% to 20% after AI costs rose faster than expected ([The Information, 2026](https://x.com/theinformation/status/2086158004525699220); [Schulze, 2026](https://startupfortune.com/canva-slashed-its-2026-growth-forecast-after-ai-costs-blew-past-expectations)).",
+    "source_excerpt": "7\n @floinkus\n\n  cole benefield@floinkus\n\n  Aug 9\n\n  revenue and costs are unrelated who writes this garbage?\n\n  5\n @Suhail\n\n  @Suhail\n\n  Aug 9\n\n  Better article:\n\n  \n\n  Canva Cuts Revenue Forecast Following AI Cost BlowoutFrom bandt.com.au [...] Canva cut its 2026 revenue growth forecast to 20% after unexpectedly heavy AI use drove up costs. The company is now trying to make its AI products cheape",
+    "verdict": "supported",
+    "reason": "Source says Canva cut its 2026 growth forecast to 20% after AI costs rose; the 30% figure is absent."
+   },
+   {
+    "url": "https://startupfortune.com/canva-slashed-its-2026-growth-forecast-after-ai-costs-blew-past-expectations",
+    "claim": "The change follows a more consequential financial signal from August 2026, when the company cut its 2026 revenue growth forecast from 30% to 20% after AI costs rose faster than expected ([The Information, 2026](https://x.com/theinformation/status/2086158004525699220); [Schulze, 2026](https://startupfortune.com/canva-slashed-its-2026-growth-forecast-after-ai-costs-blew-past-expectations)).",
+    "source_excerpt": "Home \u203a Ai\n\n# Canva Slashed Its 2026 Growth Forecast After AI Costs Blew Past Expectations\n\nCanva cut its 2026 revenue growth forecast from 30% to 20% after AI feature demand outran the company's cost expectations, CEO Melanie Perkins told Fortune. The company has since cut AI servicing costs by roughly 90% through in-house models, even as Figma faces a similar cost crunch of its own.\n\nWalter Schul",
+    "verdict": "supported",
+    "reason": "Source says the forecast was cut from 30% to 20% after AI demand outran cost expectations."
+   },
+   {
+    "url": "https://www.bbc.com/news/articles/cw77pg7neydmo",
+    "claim": "Co-founder and CEO Melanie Perkins said that 1,271 people would \"either lose their jobs, be asked to relocate or change roles\" ([Livingstone, 2026](https://www.bbc.com/news/articles/cw77pg7neydmo)).",
+    "source_excerpt": "\"For some people, this will mean changes to their roles or being asked to relocate to centralised hubs. Sadly, it will also mean saying goodbye to teammates and friends who have helped build Canva into what it is today.\"\n\nThe company, which has staff in 37 countries, said Sydney would become the \"primary home\" for more of its product teams and that as of next year hybrid workers would be expected ",
+    "verdict": "supported",
+    "reason": "BBC source quotes Perkins saying 1,271 people would lose jobs, relocate or change roles."
+   },
+   {
+    "url": "https://www.linkedin.com/news/story/canva-announces-restructuring-affecting-over-1200-jobs-7754140",
+    "claim": "- Product, Growth and Platform are being merged into one organisation ([LinkedIn News, 2026](https://www.linkedin.com/news/story/canva-announces-restructuring-affecting-over-1200-jobs-7754140)).",
+    "source_excerpt": "the company it is today without their hard work, and we want to do everything we can to help set them up well for their next chapter. We have created an opt-in alumni directory for departing Canvanauts to hear about new opportunities. If you\u2019re hiring, please reach out to me at mel@canva.com, and we\u2019ll do our best to help make those connections. I know many people will have questions following tod",
+    "verdict": "not_in_source",
+    "reason": "LinkedIn excerpt does not mention Product, Growth and Platform being merged."
+   },
+   {
+    "url": "https://www.finalroundai.com/blog/canva-layoffs",
+    "claim": "| Base severance | At least six months' salary, including statutory entitlements | [Final Round AI, 2026](https://www.finalroundai.com/blog/canva-layoffs) |",
+    "source_excerpt": "August 2026: Canva cut its 2026 revenue growth forecast from 30% to 20% after slowing AI product rollouts to manage computing costs, according to Startup Daily.\n October 2026: Canva released Craft, its first in-house image generation model, built to make AI features cheaper to serve.\n November 3 and 4, 2026: Canva announced the restructure affecting 1,271 roles, about 22% of staff. [...] Perkins t",
+    "verdict": "not_in_source",
+    "reason": "Final Round AI excerpt does not mention base severance terms."
+   },
+   {
+    "url": "https://www.peoplematters.in/news/strategic-hr/canva-layoffs-in-november-company-reportedly-weighs-job-cuts-or-hiring-freeze-53137",
+    "claim": "On 3 November, Capital Brief reported that Canva could announce another round of redundancies or a company-wide hiring freeze in November ([Srivastava, 2026](https://www.peoplematters.in/news/strategic-hr/canva-layoffs-in-november-company-reportedly-weighs-job-cuts-or-hiring-freeze-53137)). **This is unverified.** It is a report of a report, and I could not locate the original Capital Brief articl",
+    "source_excerpt": "The company ended 2025 with more than 265 million monthly active users and over 31 million paid users, reporting 20% growth in monthly active users during the year.\n\nHowever, a separate report by Startup Daily said Canva had reduced its 2026 revenue growth forecast from 30% to 20%, a reduction of one-third in its projected growth rate.\n\nIn a message to investors, CEO Melanie Perkins acknowledged t",
+    "verdict": "supported",
+    "reason": "Source reports Capital Brief said redundancies or a November hiring freeze could come; the 3 November date is not shown."
+   },
+   {
+    "url": "https://www.distillintelligence.com/news/canva",
+    "claim": "| Canva AI 2.0, a conversational platform, research preview | 16 April 2026 | Outside window | [Distill, 2026](https://www.distillintelligence.com/news/canva) |",
+    "source_excerpt": "It transforms Canva into a conversational platform powered by the Canva Design Model, generating editable designs from prompts with new workflows like connectors and scheduling. Available as research preview.\n\nCanva\n\n#### Canva launches Offline, Pro Design, Learn Grid, Print Shop\n\nCanva Offline enables editing without internet. Professional suite expands with free Cavalry, Affinity integrations. L",
+    "verdict": "supported",
+    "reason": "Source describes Canva AI 2.0 as a research preview and dates the Canva Create launch to April 16, 2026."
+   },
+   {
+    "url": "https://www.canva.com/newsroom/news/whats-new-may-2026",
+    "claim": "| \"What's New\" product roundup (Meta catalogue video tools, chart library, short links, colour themes, presenter notes) | May 2026 | Outside window | [Canva, 2026](https://www.canva.com/newsroom/news/whats-new-may-2026) |",
+    "source_excerpt": "We're rolling out sharper AI tools, a growing suite of publishing integrations that connect Canva to the platforms you already rely on, and a collection of workflow improvements that came directly from conversations with our community. Some of these updates are big, some are small, but all of them are designed to make the journey from idea to impact feel a little more like flow and a little less l",
+    "verdict": "not_in_source",
+    "reason": "Excerpt mentions only the Meta Muse headline; other listed What's New items are not stated."
+   },
+   {
+    "url": "https://orm-tech.com/news/20260813-canva-cuts-2026-growth-forecast-by-a-third-on-ai-costs",
+    "claim": "- **ORM News** states that Canva reached \"approximately $3.6B in value.\" This conflicts with the A$49\u201360 billion valuation range reported by the BBC and is most likely a data error. I have not used it for valuation ([ORM News, 2026](https://orm-tech.com/news/20260813-canva-cuts-2026-growth-forecast-by-a-third-on-ai-costs)).",
+    "source_excerpt": "Canva reduced its 2026 growth forecast from 30% to 20% after reporting roughly $3B in GAAP revenue the prior year. The company entered the year targeting 30% growth before Melanie Perkins disclosed the revised 20% figure mid-year. AI feature costs drove the change, as subsidizing frontier model calls for a prosumer base proved expensive.\n\n## Canva Growth Revision Details [...] Jason estimated Canv",
+    "verdict": "supported",
+    "reason": "ORM source states Canva reached approximately $3.6B in value while growing at 20%."
+   }
+  ],
+  "counts": {
+   "supported": 7,
+   "not_in_source": 3,
+   "contradicted": 0
+  }
+ }
 }

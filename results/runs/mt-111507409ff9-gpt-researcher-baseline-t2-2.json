@@ -257,5 +257,71 @@
   "undated": 8,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "claim": "The most recent Stripe-related update in the sources is the Mean CEO November 2026 edition, which describes Stripe as privately held and notes that public financial disclosures are not published on a regular schedule ([Bonenkamp, 2026](https://blog.mean.ceo/stripe-news-november-2026)).",
+    "source_excerpt": "US$5.1 billion in revenue (2024), according to the Stripe, Inc. Wikipedia entry.\n About 8,500 employees (2025), also according to Wikipedia.\n 1,665,531 LinkedIn followers, according to a public company data record. That is more people than the entire population of Munich.\n 249 job signals tracked by GlobalData, which means Stripe is still hiring.\n 61 patents listed in GlobalData\u2019s signals.\n 6 deal",
+    "verdict": "not_in_source",
+    "reason": "Source calls Stripe private but says nothing about financial disclosure schedules."
+   },
+   {
+    "url": "https://www.pravinkumar.co/blog/stripe-sessions-2026-agentic-commerce-webflow-b2b-saas-6e885",
+    "claim": "Pravin Kumar reports that Stripe shipped 288 products and features across the two-day keynote, grouped into four themes ([Kumar, n.d.](https://www.pravinkumar.co/blog/stripe-sessions-2026-agentic-commerce-webflow-b2b-saas-6e885)).",
+    "source_excerpt": "Stripe shipped 288 products and features across the two-day Sessions 2026 keynote. The announcements clustered around four themes. The Agentic Commerce Suite expanded to Wix, BigCommerce, and WooCommerce. The Link agent wallet now serves over 250 million users with one-time-use cards per agent task. Streaming payments launched with Metronome plus Tempo blockchain micropayments. And the Google part",
+    "verdict": "supported",
+    "reason": "Source states 288 products and features across four themes."
+   },
+   {
+    "url": "https://www.linkedin.com/posts/chiweilin131_agenteconomy-ai-stripe-activity-7455455418673180672-_o9C",
+    "claim": "A LinkedIn attendee post describes the same event as launching \"30+ products\" focused on AI, and reports a live demonstration in which two agents autonomously closed a $2 transaction on stage ([Lin, n.d.](https://www.linkedin.com/posts/chiweilin131_agenteconomy-ai-stripe-activity-7455455418673180672-_o9C)).",
+    "source_excerpt": "I just got back from Stripe Sessions 2026. This wasn't a product launch. Stripe actually launched 30+ products revolving the AI business and their payments. Stripe founder and CEO Patrick Collison kept describing 2026 as the singularity year. Here I list 4 announcements that is the most impactful for years to come: 1. Settle: Streaming Payments. Pay-as-burned billing demoed live, thousands of sub-",
+    "verdict": "not_in_source",
+    "reason": "Source mentions 30+ AI products but describes a different demo, not a $2 transaction."
+   },
+   {
+    "url": "https://www.recruitingfromscratch.com/blog/stripe-hiring-2026",
+    "claim": "Dublin (44), Bengaluru (33), and San Francisco (27) are the top listed locations ([Recruiting From Scratch, 2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)).",
+    "source_excerpt": "Stripe\u2019s hiring data reveals crucial insights into its current strategy and future direction. With 496 open roles, including 149 added in the last month, this signals a strong growth trajectory aimed at expanding its engineering, operations, and product teams. The breakdown shows a significant focus on engineering (103 roles), product (58 roles), and operations (59 roles). This signals that Stripe",
+    "verdict": "not_in_source",
+    "reason": "Source names Dublin and Bengaluru as hubs but gives no location counts."
+   },
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
+    "claim": "The most recent is Parafin, acquired in September 2026 ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)).",
+    "source_excerpt": "| Year | # Acquisitions |\n --- |\n| 2026 | 4 |\n| 2025 | 2 |\n| 2024 | 2 |\n| 2023 | 1 |\n| 2022 | 1 |\n| 2021 | 4 |\n| 2020 | 1 |\n| 2019 | 1 |\n| 2018 | 1 |\n| 2017 | 2 |\n| 2016 | 1 |\n| 2015 | 1 |\n| 2013 | 1 |\n\n### Recent acquisitions by Stripe\n\nStripe's most recent acquisition - Parafin is a Provider of cloud-based platform for revenue-based financing, founded in 2020 and located in San Francisco. Stripe",
+    "verdict": "supported",
+    "reason": "Source lists Parafin as Stripe's most recent acquisition, September 2026."
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin",
+    "claim": "On 30 September 2026, Stripe announced it had agreed to acquire Parafin, an embedded financial products platform that provides credit to small businesses on platforms such as DoorDash, Gusto, Jobber, and Mindbody ([Stripe, 2026](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin)).",
+    "source_excerpt": "# Company\n\n   About\n   Product roadmap\n   Careers\n   Newsroom\n   Stripe Press\n   Contact sales\n\n# Support\n\n   Get support\n   Managed support plans\n   CA residents:+1 888 926 2289\n\nSign in\n\n    \u00a9 2026 Stripe, LLC [...] Image 15: GBDenmark\n       English\n\n   Image 16: GBEstonia\n       English\n\n   Image 17: GBFinland\n       English\n       Svenska\n\n   Image 18: GBFrance\n       Fran\u00e7ais\n       English\n",
+    "verdict": "not_in_source",
+    "reason": "Source is navigation boilerplate; no announcement date or business details shown."
+   },
+   {
+    "url": "https://www.airwallex.com/en-us/blog/paypal-acquisition",
+    "claim": "| Jul 15, 2026 | Stripe and Advent bid $60.50/share for PayPal | Deal | No | [Airwallex, 2026](https://www.airwallex.com/en-us/blog/paypal-acquisition) |",
+    "source_excerpt": "JPMorgan and Morgan Stanley. [...] A Stripe and PayPal stablecoin merger is likely if the deal happens. Stripe's Tempo blockchain could end up as the rails for PayPal's PYUSD, putting a single dollar-backed token across both a merchant processor and a consumer wallet.\n\n### Will regulators block a Stripe and PayPal merger? [...] Expect remedies rather than a block. Braintree is the obvious divestit",
+    "verdict": "not_in_source",
+    "reason": "Source mentions a Stripe and Advent consortium but no July 15 date or $60.50 bid."
+   },
+   {
+    "url": "https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features",
+    "claim": "[https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features](https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features)",
+    "source_excerpt": "Facebook\n Twitter\n LinkedIn\n rss\n\nFX News Group\n\nForex CFDs and trading\n\n### Breaking News\n\nStripe announces multiyear global partnership with Mercedes-AMG PETRONAS F1 Team\n\nCrypto.com inks deal with prime broker River Markets to bring OG.com prediction markets to institutional traders\n\nWebull schedules launch of perpetual futures for November 2026\n\nTradingView welcomes DKTE\u2019s Textile & Engineerin",
+    "verdict": "supported",
+    "reason": "Cited article is titled around unveiling 288 new products and features."
+   }
+  ],
+  "counts": {
+   "supported": 3,
+   "not_in_source": 5,
+   "contradicted": 0
+  }
+ }
 }

@@ -257,5 +257,92 @@
   "undated": 11,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports",
+    "claim": "- **Leadership change.** Co-founder Jensen Huang resigned as CEO, president, and board member with immediate effect on 12 November 2026. CFO Colette Kress became interim CEO while keeping the CFO role ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports); [Mashable, 2026](https://mashable.com/tech/jensen-huang-",
+    "source_excerpt": "Nvidia CEO Jensen Huang resigned effective immediately on November 12, 2026, with Colette Kress taking over as interim chief executive, CNBC reported. His departure ends his tenure leading the chipmaker he co-founded 33 years ago and puts its finance chief in charge of the company during the search for a permanent successor. [...] ## Story brief\n\n3 key points\n\nNvidia\u2019s next major investor update i",
+    "verdict": "supported",
+    "reason": "Source confirms Huang resigned effective immediately on Nov 12 and Kress became interim CEO."
+   },
+   {
+    "url": "https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo",
+    "claim": "- **Leadership change.** Co-founder Jensen Huang resigned as CEO, president, and board member with immediate effect on 12 November 2026. CFO Colette Kress became interim CEO while keeping the CFO role ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports); [Mashable, 2026](https://mashable.com/tech/jensen-huang-",
+    "source_excerpt": "21 October 2026, Berlin: Jensen Huang, co-founder and CEO of Nvidia, speaks during GTC Berlin. The U.S. chipmaker held its AI conference from October 20 to 22, 2026. \n\nCredit: Soeren Stache/Getty Images\n\nFor the first time in its 33-year history, Nvidia has a new CEO. Jensen Huang, who co-founded the chipmaker in 1993 and led it through the AI boom, resigned Thursday. He also stepped down as presi",
+    "verdict": "supported",
+    "reason": "Mashable confirms immediate resignation as CEO, president and director, with Kress interim while staying CFO."
+   },
+   {
+    "url": "https://www.facebook.com/ailabwire/videos/nvidia-just-lost-the-ceo-who-built-it-jensen-huang-resigned-as-ceo-and-board-mem/2162287428010668",
+    "claim": "- **Unexplained departure.** Nvidia gave no reason for the departure. A board statement dated 8 November described the board's confidence in Huang, and a separate report describes an independent investigation whose scope has not been confirmed in the official materials ([AI Lab Wire, n.d.](https://www.facebook.com/ailabwire/videos/nvidia-just-lost-the-ceo-who-built-it-jensen-huang-resigned-as-ceo-",
+    "source_excerpt": "Like\n\nComment\n\nShare\n\n[](\n\n## AI Lab Wire\n\na day ago\n\nFriday, November 13, 2026 at 2:00 AM\n\n1d \u00b7 \n\nFollow\n\nNvidia just lost the CEO who built it. Jensen Huang resigned as CEO and board member, effective imme\u2026\n\nSee more\n\n## Comments\n\n## Related videos\n\nImage 2: Video thumbnail 0:37\n\n[]( [...] related. The Nov 8 statement said the board had no reason to believe national security or Nvidia secrets we",
+    "verdict": "not_in_source",
+    "reason": "Source mentions the Nov 8 statement on secrets, but not board confidence in Huang or an investigation."
+   },
+   {
+    "url": "https://www.cmelitegroup.com/knowledge-hub/nvidia-earnings-date",
+    "claim": "- **Earnings on schedule.** Q3 FY2027 results are scheduled for Tuesday 17 November, with guidance of $108.0 billion (\u00b12%) in revenue and a 74.0% gross margin (\u00b150 basis points) ([CapitalMEG, 2026](https://www.cmelitegroup.com/knowledge-hub/nvidia-earnings-date)).",
+    "source_excerpt": "Nvidia returned about $26.0 billion to shareholders in the quarter through buybacks and dividends. About $99.0 billion remained under its repurchase authorisation. The quarterly dividend is $0.25 per share.\n\n## Five things traders will watch\n\n1. Revenue against the $108.0 billion guide. Nvidia has set a $105.8 billion to $110.2 billion range. A result above the top of that range would point to str",
+    "verdict": "supported",
+    "reason": "Source gives $108.0B \u00b12% revenue guide and 74.0% \u00b150bp margin; Nov 17 is a Tuesday."
+   },
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "claim": "| 8 Nov | Newsroom posts \"Statement From NVIDIA Board of Directors\" and \"A Message to Our Company\" | [NVIDIA, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) |",
+    "source_excerpt": "NVIDIA in Brief\n   Exec Bios\n   NVIDIA Blog\n   Podcast\n   Media Assets\n   In the News\n   Press Contacts\n   Online Press Kits\n\nPress Release \n\nShare\n\nTweet Twitter\n\nShare LinkedIn\n\nShare Facebook\n\nEmail\n\n# NVIDIA Announces CEO Transition\n\n November 12, 2026 \n\n   _Jensen Huang Resigns_\n   _Colette Kress, Executive Vice President and Chief Financial Officer, Appointed Interim CEO_\n   _Harvey C. Jones",
+    "verdict": "supported",
+    "reason": "Source lists both the board statement and 'A Message to Our Company' dated November 8, 2026."
+   },
+   {
+    "url": "https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728",
+    "claim": "| 12 Nov | Kress named interim CEO, retaining CFO role until a permanent successor is named | [Quantisnow, n.d.](https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728); [CNN, 2026](https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns) |",
+    "source_excerpt": "| Session | Earlier headline | NVDA | SPY |\n ---  --- |\n| Nov 11, 2026 | NVIDIA downgraded by Robert W. Baird with a new price target | +2.9% | +1.3% |\n| Nov 10, 2026 | Statement from the Independent Members of the NVIDIA Board | -5.5% | -0.4% |\n| Nov 9, 2026 | NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusionand 1 other headl",
+    "verdict": "supported",
+    "reason": "Source states Kress named interim CEO while retaining CFO role until successor named."
+   },
+   {
+    "url": "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns",
+    "claim": "| 12 Nov | Kress named interim CEO, retaining CFO role until a permanent successor is named | [Quantisnow, n.d.](https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728); [CNN, 2026](https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns) |",
+    "source_excerpt": "Chief Financial Officer Colette Kress has been appointed interim chief executive, Nvidia\u2019s board said Thursday, as it considers internal and external candidates as a permanent replacement.\n\nThe announcement ends several days of whirlwind speculation about Huang\u2019s future in the wake of a stunning corporate scandal. [...] Kress will also continue to serve in her current role executive vice president",
+    "verdict": "supported",
+    "reason": "CNN text states Kress appointed interim CEO and keeps her EVP and CFO role."
+   },
+   {
+    "url": "https://aibusinessweekly.net/p/nov-13-2026-nvidia-sudden-ceo-change",
+    "claim": "- **Competitive pressure (13 November).** Luminal raised $23 million to challenge Nvidia's software advantage with a compiler for optimizing model inference, and its inference cloud reportedly handles more than 45 trillion tokens a month ([AI Business Weekly, 2026](https://aibusinessweekly.net/p/nov-13-2026-nvidia-sudden-ceo-change)).",
+    "source_excerpt": "Today's stories are about who controls the money and machinery behind AI, and how quickly that can change. Nvidia, whose investments reach from OpenAI to CoreWeave, is now led on an interim basis by its finance chief, while Nebius showed how much of the AI cloud build-out rests on customer prepayments and on partners finishing sites on time. Capital keeps arriving anyway: Agile Robots raised $500 ",
+    "verdict": "not_in_source",
+    "reason": "Source gives the $23 million raise but not the compiler focus or 45 trillion tokens figure."
+   },
+   {
+    "url": "https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html",
+    "claim": "The most recent dated items are the July 2026 Spectrum-X Ethernet platform, which Nvidia positions for \"gigascale\" AI factories connecting millions of GPUs, and the Open Secure AI Alliance, which includes more than 30 partners (though OpenAI is not listed) ([Network World, 2026](https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html)).",
+    "source_excerpt": "Aug. 11, 2026: Nvidia and six financial partners are creating a $500 billion investment pool to help Nvidia customers including frontier AI labs, AI clouds, and other enterprises buy its chips on credit.\n\n### Nvidia moves to accelerate storage access, boost industry cooperation [...] ### Nvidia launches Nemotron 3 Super to power enterprise AI agents\n\nMarch 12, 2026: Nvidia introduced a new reasoni",
+    "verdict": "contradicted",
+    "reason": "Source contains dated items from August 2026 (Aug. 4 and Aug. 11), later than July."
+   },
+   {
+    "url": "https://www.lightreading.com/finance/nvidia-tips-3-5b-into-mediatek-in-latest-tech-partnership",
+    "claim": "- **Investment commitments.** Nvidia committed $3.5 billion to MediaTek bonds on 1 September 2026 as part of a broader collaboration ([Clark, 2026](https://www.lightreading.com/finance/nvidia-tips-3-5b-into-mediatek-in-latest-tech-partnership)).",
+    "source_excerpt": "Finance\n AI & Machine Learning\n Semiconductors\n News\n\n# Nvidia tips $3.5B into MediaTek in latest tech partnership\n\nNvidia strengthens collaboration with MediaTek and brings it into its data center ecosystem with a commitment to buy $3.5 billion in its bonds.\n\nPicture of Robert Clark\n\nRobert Clark,Contributing Editor,Light Reading\n\nSeptember 1, 2026\n\n2 Min Read\n\nNvidia logo on a sign outside a bui",
+    "verdict": "supported",
+    "reason": "Light Reading dated September 1, 2026 reports the $3.5 billion MediaTek bond commitment."
+   },
+   {
+    "url": "https://x.com/SeekingAlpha/status/2121230366044455304",
+    "claim": "- Seeking Alpha published an earnings preview on 13 November, but the materials contain only the post header and no substantive analysis ([Seeking Alpha, 2026](https://x.com/SeekingAlpha/status/2121230366044455304)).",
+    "source_excerpt": "Nvidia Earnings Preview: Q3 2027From seekingalpha.com\n\n  1:15 PM \u00b7 Nov 13, 2026\u00b73,418\n\n  Views\n\n  2\n @keita_okamoto_\n\n  @keita\\_okamoto\\_\n\n  Nov 13\n\n  Solid preview. Watching NVDA guidance closely\u2014@AdamJohnstph usually breaks down these earnings setups well. [...] Log inSign up\n\n## Post\n\nLog inSign up\n\n# Seeking Alpha on X: \"Nvidia Earnings Preview: Q3 2027 $NVDA #business #stocks #economy \n\n## Co",
+    "verdict": "supported",
+    "reason": "Source is an X post dated Nov 13 showing only the preview headline, no analysis."
+   }
+  ],
+  "counts": {
+   "supported": 8,
+   "not_in_source": 2,
+   "contradicted": 1
+  }
+ }
 }

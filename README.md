@@ -31,6 +31,8 @@ When search came back empty, both real agents told the truth. They differ in wha
 
 With the model gone and no fallback, GPT Researcher's own client kept retrying for about 4.6 minutes (120 requests, none of them retried by Bifrost) before it crashed. With Bifrost's fallback switched on, the same agent passed all 24 runs.
 
+Do the cited pages back the briefing? For every citation the gateway saw fetched, a model compares the line that cites it with the page text Tavily returned through Bifrost. In GPT Researcher's briefings, 28 of 484 checked citations were contradicted by that text (5.8%); for single-search it was 3 of 313 (1.0%). GPT Researcher also has far more claims the returned text doesn't cover (224 against 34), which fits it reading whole pages outside the gateway. This check is AI-written and kept apart from the grade.
+
 The `null` control writes nothing and is graded NO_OUTPUT every time, which checks that the grader cannot be passed by an empty run.
 
 ## Run it yourself
@@ -61,10 +63,10 @@ Bifrost also keeps the test fair. Our model account has per-minute and concurren
 ## Limits
 
 - One model for all agents in a run, so results compare agents, not models.
-- Briefing quality beyond citations (are the facts important?) is not scored. Citations are checked for having been fetched, not for whether the page supports the sentence.
+- Briefing quality beyond citations (are the facts important?) is not scored. Whether a page supports the sentence is checked by a model against the page text the search returned, not the full page; a claim that text does not cover counts as neither supported nor contradicted.
 - Tavily's `published_date` is its "best estimate", so recency shares are approximate and undated sources are counted separately.
 - Bifrost logs are written asynchronously; the runner waits for them to settle before reading.
 
 ## Use of AI
 
-The agents under test are AI research agents. The grader uses no AI: every outcome comes from deterministic checks against gateway logs. For each run that did not pass, the model writes one sentence saying what went wrong, from that run's gateway timeline; the viewer labels it as AI-written, and it never changes the grade. Parts of this repository were written with an AI coding assistant.
+The agents under test are AI research agents. The grader uses no AI: every outcome comes from deterministic checks against gateway logs. For runs with fetched citations, the model checks each citing line against the page text the search returned (supported, contradicted, or not covered). For each run that did not pass, the model writes one sentence saying what went wrong, from that run's gateway timeline; the viewer labels it as AI-written, and neither changes the grade. Parts of this repository were written with an AI coding assistant.

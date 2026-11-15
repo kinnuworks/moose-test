@@ -122,5 +122,57 @@
   "undated": 6,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.thehindu.com/business/indian-fintech-firm-razorpay-gets-regulatory-nod-for-ipo/article71698143.ece",
+    "claim": "- India's market regulator, SEBI, gave Razorpay its approval for an IPO, according to a SEBI document reported on Friday, 13 November 2026. The firm had confidentially filed draft papers in June for an IPO sized at about $600 million, per Reuters. (https://www.thehindu.com/business/indian-fintech-firm-razorpay-gets-regulatory-nod-for-ipo/article71698143.ece)",
+    "source_excerpt": "SEE ALL  Remove\n\nRepresentational image.\n\nIndian fintech \u200bfirm Razorpay has received the market \u200cregulator's approval for its initial \u200bpublic offering, \u2060a document from the Securities and Exchange Board of India \u200cshowed on Friday (November 13, 2026).\n\nIn June, the Bengaluru-based \u200cfirm confidentially filed draft \u200cpapers \u2060for IPO likely \u2060sized at around $600 million, Reuters had reported. [...] Ind",
+    "verdict": "supported",
+    "reason": "Source says SEBI approval document showed on Friday, November 13, 2026; June $600M draft filing matches."
+   },
+   {
+    "url": "https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms",
+    "claim": "- SEBI issued its final observations on Razorpay's draft offer documents on 3 November. (https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms)",
+    "source_excerpt": "The market regulator issued its final observations on Razorpay's draft offer documents on November 3, clearing the way for the company to proceed with the next stages of its listing process. Renewable energy independent power producer Sembcorp Green Infra also received Sebi's approval, on November 13, the update showed. [...] Razorpay's shareholders have approved a fresh issue of shares worth Rs 2",
+    "verdict": "supported",
+    "reason": "Source states SEBI issued final observations on November 3."
+   },
+   {
+    "url": "https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%E2%82%B96000-cr-ipo",
+    "claim": "- Inc42 headlined the approval as a \u20b96,000 crore IPO. (https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%E2%82%B96000-cr-ipo)",
+    "source_excerpt": "+ []( GROWTHD2C founders scaling from \u20b91 Cr to \u20b910 Cr. Learn from India's top 1% D2C founders and experts through 40+ expert-led sessions, 1:1 mentorship and a personalised growth strategy. It closes with an in-person convocation and investor pitching. [...] Skip to content\n\n MEDIA\n DATALABS\n REPORTS\n IRL & Events\n PROGRAMS\n\n  ### INC42 PROGRAMMES [...] + []( by Inc42 is a 6-month, invite-only bra",
+    "verdict": "not_in_source",
+    "reason": "Source text is site navigation boilerplate; the \u20b96,000 crore headline is not shown."
+   },
+   {
+    "url": "https://upstox.com/news/market-news/ipo/upcoming-ip-os-mahanadi-coalfields-oyo-cult-fit-carlsberg-india-are-among-big-ticket-ip-os-expected-after-jio-platforms-listing/article-202719",
+    "claim": "- Before approval, Upstox reported an expected raise of \u20b95,000 to \u20b96,000 crore, with price band and structure to follow the RHP filing. (https://upstox.com/news/market-news/ipo/upcoming-ip-os-mahanadi-coalfields-oyo-cult-fit-carlsberg-india-are-among-big-ticket-ip-os-expected-after-jio-platforms-listing/article-202719)",
+    "source_excerpt": "## Razorpay IPO\n\nRazorpay has filed its IPO papers through the confidential route with market regulator, SEBI. Currently, the IPO filing is under regulatory review. The company is expected to raise between \u20b95,000 and \u20b96,000 crore through this offering. However, more details on issue price band and offer structure will be available once the company files its RHP.\n\n## Acko IPO [...] | Mahanadi Coalf",
+    "verdict": "supported",
+    "reason": "Source gives \u20b95,000\u20136,000 crore expected raise; price band awaits RHP filing."
+   },
+   {
+    "url": "https://www.business-standard.com/markets/news/ifsca-proposes-model-portfolios-in-gift-city-by-research-entities-126110900766_1.html",
+    "claim": "- Razorpay received a final licence to expand cross-border payments from GIFT City. The source is a Business Standard page listing headlines, so the date and details come from that headline only. (https://www.business-standard.com/markets/news/ifsca-proposes-model-portfolios-in-gift-city-by-research-entities-126110900766_1.html)",
+    "source_excerpt": "## NSEIX extends trading to 23.5 hours, offers near round-the-clock access\n\nRazorpay\n\n## Razorpay gets final licence to expand cross-border payments from GIFT City\n\nSammaan Capital\n\n## Sammaan Capital promoter raises stake to 33.32% after warrant conversion\n\nGujarat International Finance Tec-City (GIFT City) in Gandhinagar in Gandhinagar\")\n\n## GIFT City funds' tax-related hurdles being ironed out,",
+    "verdict": "supported",
+    "reason": "Headline in source: 'Razorpay gets final licence to expand cross-border payments from GIFT City.'"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/aJrBNen1btW7",
+    "claim": "- A company profile (undated) lists headcount at 4,033, down 16 over the year (-0.4%), down 23 over the quarter, and up 2 in the latest month. (https://tavily.com/knowledge/company/aJrBNen1btW7)",
+    "source_excerpt": "# Razorpay\nID: aJrBNen1btW7\nWebsite: www.razorpay.com\nLegal name: Razorpay, Inc.\nHeadquarters: Bangalore, Karnataka, India\nLinkedIn: www.linkedin.com/company/razorpay \u00b7 1,304,553 followers\nIndustry: Software Development\nCompany type: Privately Held\nBusiness model: B2B\nSaaS: yes\nSocial profiles: www.facebook.com/razorpay, www.twitter.com/razorpay, www.crunchbase.com/organization/razorpay, www.insta",
+    "verdict": "supported",
+    "reason": "Source shows 4,033 headcount, -16 yearly (-0.4%), -23 quarterly, +2 monthly."
+   }
+  ],
+  "counts": {
+   "supported": 5,
+   "not_in_source": 1,
+   "contradicted": 0
+  }
+ }
 }

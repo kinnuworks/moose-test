@@ -291,5 +291,78 @@
   "undated": 9,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "claim": "The Stripe-focused blog post titled \"Stripe News | November, 2026\" states that public figures for a private company \"age quickly\" and that \"the newest revenue figure in public sources is from 2024\" ([Bonenkamp, 2026](https://blog.mean.ceo/stripe-news-november-2026)).",
+    "source_excerpt": "US$5.1 billion in revenue (2024), according to the Stripe, Inc. Wikipedia entry.\n About 8,500 employees (2025), also according to Wikipedia.\n 1,665,531 LinkedIn followers, according to a public company data record. That is more people than the entire population of Munich.\n 249 job signals tracked by GlobalData, which means Stripe is still hiring.\n 61 patents listed in GlobalData\u2019s signals.\n 6 deal",
+    "verdict": "not_in_source",
+    "reason": "Source gives the 2024 revenue figure but not the quoted phrases \"age quickly\" or the \"newest revenue figure\" wording."
+   },
+   {
+    "url": "https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572",
+    "claim": "A Payments Dive headline, \"Stripe tips toward staying private,\" was located, but the article text and date were not available in the material ([Payments Dive, n.d.](https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572)).",
+    "source_excerpt": "Zingtree Launches First Agentic Governance and Orchestration Platform Built for Contact Center\u2026 From Zingtree November 10, 2026 Image 61: Zingtree logoPhotonPay Strengthens North American Regulatory Footprint with Canada\u2019s RPAA Registration From PhotonPay November 09, 2026 Image 62: PhotonPay logoIXOPAY Announces IXO One, a Modular Payments Platform Built for an Era of Fluid Commerce From IXOPAY N",
+    "verdict": "not_in_source",
+    "reason": "The headline \"Stripe tips toward staying private\" does not appear in the source text."
+   },
+   {
+    "url": "https://www.kucoin.com/news/flash/stripe-sessions-2026-unveils-288-product-updates-focused-on-ai-agents-and-global-crypto-infrastructure",
+    "claim": "It cites the Agentic Commerce Suite, Link Agent Wallet, enhanced Radar fraud protection, and new stablecoin tools ([ChainCatcher, 2026](https://www.kucoin.com/news/flash/stripe-sessions-2026-unveils-288-product-updates-focused-on-ai-agents-and-global-crypto-infrastructure)).",
+    "source_excerpt": "The Stripe App allows you to view your account balance, transaction history, bank cards, and spending details in real time on mobile.\n   Launch in Australia and Canada by the end of the year; add stablecoin deposit and settlement support for 41 additional markets.\n   The treasury balance will soon be integrated with Privy's non-custodial wallet, enabling instant cross-border fund transfers across ",
+    "verdict": "supported",
+    "reason": "Source names Agentic Commerce Suite, Link Agent Wallet, enhanced Radar, and new stablecoin tools."
+   },
+   {
+    "url": "https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features",
+    "claim": "A separate FX News Group headline uses the same 288 figure, but the page itself showed only sidebar content and no article date, so it provides corroboration of the headline rather than independent verification ([FX News Group, n.d.](https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features)).",
+    "source_excerpt": "Facebook\n Twitter\n LinkedIn\n rss\n\nFX News Group\n\nForex CFDs and trading\n\n### Breaking News\n\nStripe announces multiyear global partnership with Mercedes-AMG PETRONAS F1 Team\n\nCrypto.com inks deal with prime broker River Markets to bring OG.com prediction markets to institutional traders\n\nWebull schedules launch of perpetual futures for November 2026\n\nTradingView welcomes DKTE\u2019s Textile & Engineerin",
+    "verdict": "supported",
+    "reason": "The URL headline contains the 288 figure; the body shows some article text, so the sidebar-only detail is shaky."
+   },
+   {
+    "url": "https://createwith.com/tool/stripe/updates/stripe-unveils-over-200-product-updates-at-sessions",
+    "claim": "These are attributed to Stripe's own announcement ([Create With, n.d.](https://createwith.com/tool/stripe/updates/stripe-unveils-over-200-product-updates-at-sessions)).",
+    "source_excerpt": "Title: Stripe Unveils Over 200 Product Updates at Sessions\n# Stripe Unveils Over 200 Product Updates at Sessions. Stripe announced more than 200 product launches at Stripe Sessions, highlighting growth to $1.9T in annual payment volume. Stripe says it introduced more than 200 product updates at Stripe Sessions, alongside new scale metrics that show the size of its payments network. In the announce",
+    "verdict": "supported",
+    "reason": "Source says Stripe itself announced more than 200 product updates at Sessions."
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin",
+    "claim": "**Parafin (outside window, status unclear).** Stripe's newsroom announced on 30 September 2026 that it had \"agreed to acquire\" Parafin, an embedded financial products platform. Parafin supports credit offerings for platforms including DoorDash, Gusto, Jobber, and Mindbody ([Stripe, 2026](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin)). FinTech Futures reported on 2 October 2026",
+    "source_excerpt": "# Company\n\n   About\n   Product roadmap\n   Careers\n   Newsroom\n   Stripe Press\n   Contact sales\n\n# Support\n\n   Get support\n   Managed support plans\n   CA residents:+1 888 926 2289\n\nSign in\n\n    \u00a9 2026 Stripe, LLC [...] Image 15: GBDenmark\n       English\n\n   Image 16: GBEstonia\n       English\n\n   Image 17: GBFinland\n       English\n       Svenska\n\n   Image 18: GBFrance\n       Fran\u00e7ais\n       English\n",
+    "verdict": "not_in_source",
+    "reason": "The Stripe newsroom text is only navigation and footer; no announcement date or Parafin details."
+   },
+   {
+    "url": "https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition",
+    "claim": "**Parafin (outside window, status unclear).** Stripe's newsroom announced on 30 September 2026 that it had \"agreed to acquire\" Parafin, an embedded financial products platform. Parafin supports credit offerings for platforms including DoorDash, Gusto, Jobber, and Mindbody ([Stripe, 2026](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin)). FinTech Futures reported on 2 October 2026",
+    "source_excerpt": "FinTech Futures: Top five news stories of the week \u2013 13 November 2026FinTech Futures: Top five news stories of the week \u2013 13 November 2026\n\nbyTyler Pathe\n\nNov 13, 2026\n\n4 Min Read\n\nPayTech keyboard_arrow_down\n\n#### Related Topics\n\n   Digital Payments\n   Instant & Real-Time Payments\n   Cross-Border Payments\n   BNPL Payments\n   B2B/B2C Payments\n\n   Contactless Payments\n   Tokenisation\n   Remittances",
+    "verdict": "not_in_source",
+    "reason": "FinTech Futures page is dated 13 November 2026; no 2 October report is shown."
+   },
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
+    "claim": "**Parafin (outside window, status unclear).** Stripe's newsroom announced on 30 September 2026 that it had \"agreed to acquire\" Parafin, an embedded financial products platform. Parafin supports credit offerings for platforms including DoorDash, Gusto, Jobber, and Mindbody ([Stripe, 2026](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin)). FinTech Futures reported on 2 October 2026",
+    "source_excerpt": "| Year | # Acquisitions |\n --- |\n| 2026 | 4 |\n| 2025 | 2 |\n| 2024 | 2 |\n| 2023 | 1 |\n| 2022 | 1 |\n| 2021 | 4 |\n| 2020 | 1 |\n| 2019 | 1 |\n| 2018 | 1 |\n| 2017 | 2 |\n| 2016 | 1 |\n| 2015 | 1 |\n| 2013 | 1 |\n\n### Recent acquisitions by Stripe\n\nStripe's most recent acquisition - Parafin is a Provider of cloud-based platform for revenue-based financing, founded in 2020 and located in San Francisco. Stripe",
+    "verdict": "not_in_source",
+    "reason": "Tracxn lists Parafin as acquired in September 2026, but not the 30 September announcement or partner platforms."
+   },
+   {
+    "url": "https://www.airwallex.com/en-us/blog/paypal-acquisition",
+    "claim": "In mid-August, the Wall Street Journal reported that the parties were negotiating a higher price, and PYPL closed at $62.30 on 20 August 2026 ([Airwallex Editorial Team, 2026](https://www.airwallex.com/en-us/blog/paypal-acquisition)).",
+    "source_excerpt": "JPMorgan and Morgan Stanley. [...] A Stripe and PayPal stablecoin merger is likely if the deal happens. Stripe's Tempo blockchain could end up as the rails for PayPal's PYUSD, putting a single dollar-backed token across both a merchant processor and a consumer wallet.\n\n### Will regulators block a Stripe and PayPal merger? [...] Expect remedies rather than a block. Braintree is the obvious divestit",
+    "verdict": "not_in_source",
+    "reason": "Airwallex excerpt discusses a possible Stripe-PayPal deal but has no WSJ report or PYPL closing price."
+   }
+  ],
+  "counts": {
+   "supported": 3,
+   "not_in_source": 6,
+   "contradicted": 0
+  }
+ }
 }

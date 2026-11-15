@@ -291,5 +291,78 @@
   "undated": 9,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin",
+    "claim": "| Stripe newsroom ([Stripe, 2026](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin)) | Primary (company) | High | Only primary company disclosure provided |",
+    "source_excerpt": "# Company\n\n   About\n   Product roadmap\n   Careers\n   Newsroom\n   Stripe Press\n   Contact sales\n\n# Support\n\n   Get support\n   Managed support plans\n   CA residents:+1 888 926 2289\n\nSign in\n\n    \u00a9 2026 Stripe, LLC [...] Image 15: GBDenmark\n       English\n\n   Image 16: GBEstonia\n       English\n\n   Image 17: GBFinland\n       English\n       Svenska\n\n   Image 18: GBFrance\n       Fran\u00e7ais\n       English\n",
+    "verdict": "not_in_source",
+    "reason": "Source is Stripe newsroom page chrome and footer; no Parafin acquisition text."
+   },
+   {
+    "url": "https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland",
+    "claim": "| Silicon Republic ([Srinivasaragavan, 2026](https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland)) | Established trade press | Medium\u2013high | Dated 10 Feb 2026, but internal references suggest older content; see discrepancies |",
+    "source_excerpt": "In November, Swedish fintech giant Klarna become the first bank to launch a stablecoin on Tempo with KlarnaUSD. The coin is set to launch this year. Meanwhile, in December, Stripe said that it would acquire Metronome, a US-based software developer in the billing and invoice space, for an undisclosed amount. [...] Business\n\n### Stripe, Advent\u2019s PayPal acquisition plans reportedly fall through\n\n28 A",
+    "verdict": "not_in_source",
+    "reason": "No 10 Feb 2026 date appears; sidebar dates run to Aug 2026."
+   },
+   {
+    "url": "https://www.dlnews.com/articles/markets/paypal-and-stripe-amond-fintechs-muscling-into-crypto-in-2026",
+    "claim": "| DL News ([Gilbert, 2025](https://www.dlnews.com/articles/markets/paypal-and-stripe-amond-fintechs-muscling-into-crypto-in-2026)) | Established trade press | Medium | Dated October 2025, outside the window; used only for context |",
+    "source_excerpt": "Hello! This chart will be available in a few moments\n\nStablecoin market shares, according to DefiLlama.\n\n## Stripe\n\nStripe is expected to roll out Tempo, its highly anticipated layer 1 blockchain, in 2026, following its December launch on a public testnet.\n\nIt\u2019s a bold move for the $106 billion fintech firm, which revealed its crypto ambitions in 2024 through a $1.1 billion acquisition of the stab",
+    "verdict": "not_in_source",
+    "reason": "No October 2025 date appears in the source text."
+   },
+   {
+    "url": "https://www.forrester.com/blogs/stripe-sessions-2026-stripe-is-rearchitecting-payments-for-an-agentic-ai-economy",
+    "claim": "| Forrester ([Forrester Research, 2026](https://www.forrester.com/blogs/stripe-sessions-2026-stripe-is-rearchitecting-payments-for-an-agentic-ai-economy)) | Analyst research | Medium\u2013high | Analytical commentary on Sessions 2026 |",
+    "source_excerpt": "Stripe\u2019s stablecoin strategy reflects a clear shift from seeing crypto as alternative financial rails to embedding them within existing payment and financial workflows. By assembling a unified stack across Tempo (a blockchain purpose-built for payments), Privy (wallets, accounts), Bridge (orchestration, stablecoin issuance), and Stripe (on- and off-ramps, payments, payouts, cards), Stripe removes ",
+    "verdict": "supported",
+    "reason": "Forrester analytical commentary explicitly on Stripe Sessions 2026."
+   },
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
+    "claim": "| Tracxn ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)) | Aggregator database | Medium\u2013low | Last updated 1 Nov 2026; price fields are garbled and some dates conflict with other sources |",
+    "source_excerpt": "Here is the list of all acquisitions by Stripe sorted by the latest acquisition date:\n\n| Acquired on | Acquired Company | Acquisition Price | Facilitators | Stake Acquired | Acquisition Multiple |\n ---  ---  --- |\n| Sep 2026 | Parafin | tawk | tpgk | 61 | 316 |\n| Sep 01, 2026 | Clerky | yjon | tfad | 35 | 431 |\n| Aug 17, 2026 | OpenRouter | mhmo | onnm | 18 | 401 |\n| Jan 15, 2026 | Metronome | nxg",
+    "verdict": "supported",
+    "reason": "Table has garbled price fields and dated acquisitions; 'last updated 1 Nov 2026' is not shown, though."
+   },
+   {
+    "url": "https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards",
+    "claim": "| BlockEden ([BlockEden, 2026](https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards)) | Crypto-news blog | Low\u2013medium | Contains evaluative claims; not corroborated by primary sources |",
+    "source_excerpt": "Tempo went live in March 2026 as a payments-optimized chain with dedicated lanes for stablecoin transfers, native compliance hooks, and a Machine Payments Protocol that lets autonomous software pay other software without human-in-the-loop confirmation at each step. DoorDash, Visa, Nubank, Shopify, and Klarna are running pilots. With Sessions 2026, Tempo stopped being a research project and started",
+    "verdict": "supported",
+    "reason": "Blog contains evaluative, promotional claims about Tempo and Sessions 2026."
+   },
+   {
+    "url": "https://www.recruitingfromscratch.com/blog/stripe-hiring-2026",
+    "claim": "| Recruiting From Scratch ([Recruiting From Scratch, 2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)) | Recruiting blog | Low for current data | Dated June 2026; metrics come from an unnamed job-data tracker |",
+    "source_excerpt": "## Quick Answer\n\nAs of 2026, Stripe is actively hiring for 496 open roles, indicating aggressive growth and expansion in multiple departments. The high volume of new roles, with 149 added in the last 29 days, reflects Stripe's strategy to enhance its engineering, operations, and product capabilities. This hiring surge signifies a competitive landscape for talent, especially for firms in the fintec",
+    "verdict": "not_in_source",
+    "reason": "Shows 496 roles and 149 added, but no publication date or tracker named."
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "claim": "| Mean CEO ([Bonenkamp, 2026](https://blog.mean.ceo/stripe-news-november-2026)) | Founder blog | Low\u2013medium | Relays Wikipedia and GlobalData figures without primary verification |",
+    "source_excerpt": "US$5.1 billion in revenue (2024), according to the Stripe, Inc. Wikipedia entry.\n About 8,500 employees (2025), also according to Wikipedia.\n 1,665,531 LinkedIn followers, according to a public company data record. That is more people than the entire population of Munich.\n 249 job signals tracked by GlobalData, which means Stripe is still hiring.\n 61 patents listed in GlobalData\u2019s signals.\n 6 deal",
+    "verdict": "supported",
+    "reason": "Relays Wikipedia revenue and employee figures and GlobalData signals."
+   },
+   {
+    "url": "https://www.linkedin.com/posts/marcelvanoost_all-stripe-sessions-2026-updates-in-12-minutes-activity-7456328897970761728-oOze",
+    "claim": "| LinkedIn post ([van Oost, n.d.](https://www.linkedin.com/posts/marcelvanoost_all-stripe-sessions-2026-updates-in-12-minutes-activity-7456328897970761728-oOze)) | Social media | Low | Influencer summary; used only for corroborating Sessions 2026 scale |",
+    "source_excerpt": "specifically for payments. As far as we know, no one's actually done this before. So we're going to launch the world. First ever tokens paid as burned. Business model right here on stage. We're gonna do it by streaming stable coins on tempo. So if you pull this off, we can say we've launched America's Next Top Model. The world's top new business model. OK, so I'm going to set these agents off. We'",
+    "verdict": "supported",
+    "reason": "Post summarises Sessions 2026 announcements in a recap format."
+   }
+  ],
+  "counts": {
+   "supported": 5,
+   "not_in_source": 4,
+   "contradicted": 0
+  }
+ }
 }

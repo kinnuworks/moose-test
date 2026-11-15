@@ -110,5 +110,71 @@
   "undated": 8,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.computerworld.com/article/3816579/tech-layoffs-this-year-a-timeline.html",
+    "claim": "- Canva is cutting 22% of its workforce, about 1,271 employees, as it flattens its org chart and consolidates teams (https://www.computerworld.com/article/3816579/tech-layoffs-this-year-a-timeline.html; https://m.economictimes.com/news/international/world-news/canva-layoffs-2026-meet-ceo-melanie-perkins-who-plans-to-give-away-80-of-her-billion-dollar-fortune-as-1271-jobs-are-cut/articleshow/135575",
+    "source_excerpt": "Canva\n Oracle (again)\n Monday.com\n Microsoft\n Meta\n Cisco\n Cloudflare\n Oracle\n Atlassian\n Salesforce\n Amazon\n Ericsson\n\n### Nov. 3, 2026: Canva lays off 22% of staff as it flattens org chart and consolidates teams [...] Canva didn\u2019t explicitly blame AI for a massive round of lay-offs that will see 1,271 staff, over one-fifth of its workforce, lose their jobs, but CEO Melanie Perkins did give a nod",
+    "verdict": "supported",
+    "reason": "Source confirms 22%, 1,271 staff, flattened org chart and consolidated teams."
+   },
+   {
+    "url": "https://m.economictimes.com/news/international/world-news/canva-layoffs-2026-meet-ceo-melanie-perkins-who-plans-to-give-away-80-of-her-billion-dollar-fortune-as-1271-jobs-are-cut/articleshow/135575689.cms",
+    "claim": "- Canva is cutting 22% of its workforce, about 1,271 employees, as it flattens its org chart and consolidates teams (https://www.computerworld.com/article/3816579/tech-layoffs-this-year-a-timeline.html; https://m.economictimes.com/news/international/world-news/canva-layoffs-2026-meet-ceo-melanie-perkins-who-plans-to-give-away-80-of-her-billion-dollar-fortune-as-1271-jobs-are-cut/articleshow/135575",
+    "source_excerpt": "Canva, one of Australia's best known start-ups, has announced a shake up of the business that will affect 22% of its workers, including job cuts. Canva is offering an unusually generous severance package to ease the impact of layoffs affecting 1,271 employees. Those losing their jobs can keep their company-issued MacBooks and receive a free year of LinkedIn Premium, along with several other benefi",
+    "verdict": "supported",
+    "reason": "Source states layoffs affect 22% of workers and 1,271 employees."
+   },
+   {
+    "url": "https://tech.yahoo.com/general/breaking-news/article/tech-layoffs-tracker-2026-all-the-job-losses-across-canva-squarespace-amazon-microsoft-apple-meta-and-others-141507340.html",
+    "claim": "- The company is merging its product, growth and platform teams and reducing \"subspecialisation,\" which may leave remaining staff with broader roles (https://tech.yahoo.com/general/breaking-news/article/tech-layoffs-tracker-2026-all-the-job-losses-across-canva-squarespace-amazon-microsoft-apple-meta-and-others-141507340.html).",
+    "source_excerpt": "### Canva\n\nDesign software company Canva's recent layoffs will impact 22% of its staff, or just over 1,200 employees. According to reports, the company is reorganizing its business and merging its product, growth and platform teams. Canva is also looking to reduce \"subspecialisation,\" which could result in remaining employees taking on more responsibilities.\n\n### Block [...] ### Squarespace\n\nSquar",
+    "verdict": "supported",
+    "reason": "Source reports merging product, growth and platform teams and reducing subspecialisation, with broader roles for remaining staff."
+   },
+   {
+    "url": "https://www.abc.net.au/news/2026-11-04/canva-restructure-job-losses/107344304",
+    "claim": "- CEO Melanie Perkins said \"small changes won't be enough\" and that Canva needs to \"re-found\" itself around small, empowered teams (https://www.abc.net.au/news/2026-11-04/canva-restructure-job-losses/107344304).",
+    "source_excerpt": "Canva will also offer $US10,000 grants through a new fund for departing employees who want to start a business or pursue a community project.\n\nThe company said it had explored a range of alternatives and had come to the \"difficult conclusion that small changes won't be enough\".\n\n\"We need to re-found Canva, getting back to our roots of small, empowered teams with the freedom to make decisions, take",
+    "verdict": "supported",
+    "reason": "Source quotes Perkins saying small changes won't be enough and to re-found Canva."
+   },
+   {
+    "url": "https://www.startupdaily.net/topic/business/canva-doubles-downw-with-openai-just-days-after-launching-its-2nd-in-house-ai-model",
+    "claim": "- Capital Brief reported previously unreported finance-division cuts in January, with 32 roles made redundant (https://www.startupdaily.net/topic/business/canva-doubles-downw-with-openai-just-days-after-launching-its-2nd-in-house-ai-model).",
+    "source_excerpt": "The deal gives Canva broader access to OpenAI\u2019s GPT-6 Astra and GPT-5.6 models. The two companies will work on making them more economical to run, although no savings or costs were disclosed. OpenAI already powers features including Canva Code, which lets users build interactive designs, websites and apps by describing what they want. [...] Meanwhile, Capital Brief today revealed previously unrepo",
+    "verdict": "supported",
+    "reason": "Source says Capital Brief revealed finance-division cuts in January, with 32 roles made redundant."
+   },
+   {
+    "url": "https://www.peoplematters.in/news/strategic-hr/canva-layoffs-in-november-company-reportedly-weighs-job-cuts-or-hiring-freeze-53137",
+    "claim": "- Reports say Canva could make further redundancies or impose a hiring freeze in November, against a revised revenue growth outlook. Canva has not confirmed this (https://www.peoplematters.in/news/strategic-hr/canva-layoffs-in-november-company-reportedly-weighs-job-cuts-or-hiring-freeze-53137).",
+    "source_excerpt": "### Strategic HR\n\n# Canva layoffs in November? Company reportedly weighs job cuts or hiring freeze\n\n\n\nSamriddhi Srivastava\u2022Join UsGoogle News\n\nLinkedIn|\n\nJoin UsGoogle News\n\nArticle cover image\n\nCanva could announce another round of redundancies or introduce a hiring freeze in November, according to a Capital Brief report, as the design platform accelerates its AI strategy amid a revised revenue g",
+    "verdict": "supported",
+    "reason": "Source reports possible November redundancies or hiring freeze, unconfirmed by Canva, after revised growth outlook."
+   },
+   {
+    "url": "https://www.mediapost.com/publications/article/419113/canva-unveils-campaign-by-new-agency-gsp.html",
+    "claim": "- Canva launched a North America brand platform, \"What Will You Canva Today?\", created by agency GS&P (Goodby's first work). The campaign opened with TV spots, the first airing during NBC Sunday Night Football on 1 November (https://www.mediapost.com/publications/article/419113/canva-unveils-campaign-by-new-agency-gsp.html).",
+    "source_excerpt": "Goodby's first work debuts today, via a new North America brand platform titled,\"What Will You Canva Today?\"\n\nThe campaign kicks off with three comedic TV spots, the first airing this Sunday, Nov. 1, during NBC Sunday Night Football. Out-of-home and social media work are also part of the campaign.\n\nEach video spot turns a real-life moment into a short comedy:\n\n   Erase Your Ex: A woman edits her e",
+    "verdict": "supported",
+    "reason": "Source describes the GS&P campaign, its tagline, and first airing on NBC Sunday Night Football, Nov. 1."
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/wafeqPWRLzYp",
+    "claim": "- **Acquisitions:** The only dated acquisitions in the sources are older than 30 days: Ortto (1 Apr 2026), Doohly ($30.00M USD, 1 Mar 2026), Scene Group and MangoAI (both 1 Feb 2026) (https://tavily.com/knowledge/company/wafeqPWRLzYp). No new deals in the window were found.",
+    "source_excerpt": "# Canva\nID: wafeqPWRLzYp\nWebsite: www.canva.com\nLegal name: Canva Pty Ltd\nHeadquarters: Surry Hills, New South Wales, Australia\nLinkedIn: www.linkedin.com/company/canva \u00b7 2,830,746 followers\nIndustry: Software Development\nIndustry codes: SIC 27, 275, NAICS 32, 323\nCompany type: Privately Held\nFounded: 2012\nBusiness model: B2B, B2C\nSaaS: yes [...] ## M&A\n- Ortto (2026-04-01)\n- SimTheory Pty., Ltd. ",
+    "verdict": "supported",
+    "reason": "Source M&A list matches the dates and Doohly $30M figure; the 30-day window claim is interpretive."
+   }
+  ],
+  "counts": {
+   "supported": 8,
+   "not_in_source": 0,
+   "contradicted": 0
+  }
+ }
 }

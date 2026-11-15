@@ -291,5 +291,71 @@
   "undated": 8,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://finance.biggo.com/news/US_INFY_2026-10-23",
+    "claim": "Large-deal bookings reached $5.2 billion and AI revenue reached 10.5% of total revenue ([BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23); [InsiderFinance, 2026](https://www.insiderfinance.io/news/infosys-q2-results-ai-up-guidance-cut)).",
+    "source_excerpt": "On talent, Infosys added 4,000 net employees in the quarter, including 8,000 college graduates, and remains on track to hire approximately 20,000 freshers for the full year. Utilization stood at 85%, which management considers optimal, and attrition was around 13%. Sanghrajka said the U.S. employee mix is majority local hires, insulating the company from PERM suspension and H-1B changes. \"We don't",
+    "verdict": "not_in_source",
+    "reason": "Source excerpt covers talent, utilization, and outlook; it does not give $5.2B deals or 10.5% AI revenue."
+   },
+   {
+    "url": "https://www.insiderfinance.io/news/infosys-q2-results-ai-up-guidance-cut",
+    "claim": "Large-deal bookings reached $5.2 billion and AI revenue reached 10.5% of total revenue ([BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23); [InsiderFinance, 2026](https://www.insiderfinance.io/news/infosys-q2-results-ai-up-guidance-cut)).",
+    "source_excerpt": "Infosys narrowed its fiscal 2027 constant-currency revenue-growth guidance to 1.0%\u20132.0% from 1.5%\u20133.0%, while keeping operating-margin guidance at 20.0%\u201322.0%. Management cited cautious client spending, uneven technology-spending recovery, delayed decision-making, and pricing competition as factors limiting growth. It highlighted AI services and large-deal execution as key growth drivers. [...] ##",
+    "verdict": "supported",
+    "reason": "Source states large-deal bookings of $5.2 billion and AI revenue at 10.5% of sales."
+   },
+   {
+    "url": "https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu",
+    "claim": "Yet management narrowed FY2027 constant-currency revenue growth guidance to 1% to 2%, from 1.5% to 3% ([Thomas, 2026](https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu)).",
+    "source_excerpt": "###### Summary:\n\n For the year ending March 2027, Infosys now guides to 1% to 2% constant-currency growth, down from July's 1.5% to 3%.\n The new range lags the 2.03% analyst view and knocked Infosys ADRs down as much as 7.6% early Friday in New York.\n CEO Salil Parekh said AI is \"giving us the growth\" while also \"seeing the compression\" amid \"competitive intensity,\" and said almost all $50 million",
+    "verdict": "supported",
+    "reason": "Source says FY27 constant-currency guidance cut to 1%-2% from 1.5%-3%."
+   },
+   {
+    "url": "https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl",
+    "claim": "Operating margin stayed at 21% against guidance of 20% to 22% ([Devam Bose, n.d.](https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl)).",
+    "source_excerpt": "INFOSYS Q2 FY27 RESULTS: \u20b97,823 CRORE PROFIT, \u20b926 DIVIDEND & $5.2 BILLION DEAL WINS! But Why Did Infosys Cut Its Growth Forecast? India's IT giant Infosys announced its Q2 FY27 results on October 23, 2026, delivering profit growth, strong AI momentum, and major contract wins. However, the company also reduced its full-year revenue growth guidance, raising questions about the outlook for India's IT",
+    "verdict": "supported",
+    "reason": "Source reports operating margin of 21%, described as stable profitability."
+   },
+   {
+    "url": "https://www.livemint.com/market/stock-market-news/infosys-dividend-2026-record-date-tomorrow-know-dividend-payout-yield-history-returns-11793585489373.html",
+    "claim": "The market has been less convinced: the stock is down 27.29% year-to-date and 20.06% over one year as of early November ([Sethi, 2026](https://www.livemint.com/market/stock-market-news/infosys-dividend-2026-record-date-tomorrow-know-dividend-payout-yield-history-returns-11793585489373.html)).",
+    "source_excerpt": "Infosys' board of directors declared an interim dividend of \u20b926 per equity share for FY27, marking an increase from the interim dividend of \u20b923 per share announced in the previous financial year. The company has fixed 3 November, 2026, as the record date to determine shareholders eligible to receive the dividend. [...] The dividend will be paid on 11 November according to the company's exchange fi",
+    "verdict": "not_in_source",
+    "reason": "Source covers dividend details only; no year-to-date or one-year stock return figures."
+   },
+   {
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756",
+    "claim": "The CFO also said that at the lower end of guidance management had built in higher uncertainty, and at the upper end an improvement in the environment ([Investing.com, 2026](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756)).",
+    "source_excerpt": "for the company in FY 2028. We also renewed a billion-dollar mega deal with an existing financial services client. Vertical wise, we won seven deals in financial services, five in manufacturing, two each in communications, EURS, life sciences, and one in high tech. Region wide, we signed nine deals, each in North America and Europe, and one in rest of the world. [...] Salil Parekh, CEO and MD, Inf",
+    "verdict": "not_in_source",
+    "reason": "Excerpt contains CEO remarks; no CFO comment on guidance-range uncertainty appears."
+   },
+   {
+    "url": "https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html",
+    "claim": "- A Finacle universal-banker branch modernization deployment with UNI Financial Cooperation in Canada ([PR Newswire, n.d.](https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html)).",
+    "source_excerpt": "NEW YORK, Oct. 1, 2026 /PRNewswire/ -- Infosys (NSE: INFY) (BSE: INFY) (NYSE: INFY), a global leader in AI-first business consulting and technology services, today announced a strategic collaboration with Columbia University to foster the development and utilization of applications in artificial intelligence technologies. The collaboration also includes a research center, the Infosys Topaz - Colum",
+    "verdict": "not_in_source",
+    "reason": "Source is a Columbia University collaboration release; no UNI Financial Cooperation deployment mentioned."
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=f4vgConNx8k",
+    "claim": "3. **Conflicting characterization of margins.** A YouTube video title describes Q2 margins as having missed, while other sources describe the 21% operating margin as steady and within guidance ([YouTube, n.d.](https://www.youtube.com/watch?v=f4vgConNx8k); [BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23)). The video content was not available, so this is unverified.",
+    "source_excerpt": "[7:43] Infosys managing to monetize AIEL opportunities fast enough to offset pricing pressure as its traditional\n[7:50] services business and lastly hiring and productivity. So can hiring plans coexist with margin protection because\n[7:59] uh plans to hire around 20,000 graduates in FI27 if I'm not wrong. How do you balance investments in talent with margin discipline? Thank you.\n[8:09] So on the ",
+    "verdict": "not_in_source",
+    "reason": "Transcript fragments show no video title or margin-miss characterization; claim unverifiable from source."
+   }
+  ],
+  "counts": {
+   "supported": 3,
+   "not_in_source": 5,
+   "contradicted": 0
+  }
+ }
 }

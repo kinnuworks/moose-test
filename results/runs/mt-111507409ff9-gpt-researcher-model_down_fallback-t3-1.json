@@ -291,5 +291,99 @@
   "undated": 14,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-developer",
+    "claim": "The developer announcement says the release \"opens Shopify's catalog, cart, and checkout to any agent or app\" ([Shopify, 2026](https://www.shopify.com/news/fall-26-edition-developer)).",
+    "source_excerpt": "### New theme architecture\n\nWhat it is: Page structure now lives in the Liquid template itself instead of a separate JSON file, with blocks, typed contracts, partial updates, markdown files that guide agents, and Tailwind styling built in.  \n  \nWhy it matters: Developers and coding agents can read a whole page from top to bottom, instead of piecing it together from JSON and a tree of sections. The",
+    "verdict": "not_in_source",
+    "reason": "Source says shopping experiences can live in any agent or app; the quoted wording isn't present."
+   },
+   {
+    "url": "https://coalitiontechnologies.com/blog/shopify-editions-fall-26",
+    "claim": "The centrepiece is **shop.dev**, a single connection that gives agents access to Shopify Catalog, Shop sign-in, cart, checkout, and Shop Pay, with no key required ([Coalition Technologies, 2026](https://coalitiontechnologies.com/blog/shopify-editions-fall-26)). **shop.md** is a skill file that lets agents such as ChatGPT and Claude discover products and check out with Shop Pay ([no7software, 2026]",
+    "source_excerpt": "Canvas was announced on October 1, 2026 and is in early access. Shopify was direct that it\u2019s early, that it doesn\u2019t replace the theme editor, and that gaps remain, so check the Canvas help docs before pointing it at a live theme during the holiday season. For stores where design is the differentiator, it\u2019s a fast way to explore directions, not a substitute for the judgment that goes into Shopify w",
+    "verdict": "not_in_source",
+    "reason": "Source text does not mention shop.dev or shop.md; it covers Canvas."
+   },
+   {
+    "url": "https://no7software.co.uk/blog/shopify-editions-fall-2026",
+    "claim": "The centrepiece is **shop.dev**, a single connection that gives agents access to Shopify Catalog, Shop sign-in, cart, checkout, and Shop Pay, with no key required ([Coalition Technologies, 2026](https://coalitiontechnologies.com/blog/shopify-editions-fall-26)). **shop.md** is a skill file that lets agents such as ChatGPT and Claude discover products and check out with Shop Pay ([no7software, 2026]",
+    "source_excerpt": "Canvas, announced on 1 October 2026, is the new way to edit an online store: the whole store in one view, zoom to any detail, and Sidekick turning a brief into a custom design. Editions says it is built on the new theme architecture and quotes a 20% faster path from no theme to a launched store. For agencies, the honest reading is that routine theme tweaks will increasingly be done by merchants in",
+    "verdict": "not_in_source",
+    "reason": "Source text does not mention shop.dev or shop.md; it covers Canvas."
+   },
+   {
+    "url": "https://meetanshi.com/blog/shopify-fall-edition-2026",
+    "claim": "| Canvas design surface | Early access (per Coalition and Meetanshi) | [Coalition Technologies, 2026](https://coalitiontechnologies.com/blog/shopify-editions-fall-26); [Meetanshi, 2026](https://meetanshi.com/blog/shopify-fall-edition-2026) |",
+    "source_excerpt": "Developers get WebMCP tools, expanded Catalog API capabilities, updated storefront development options, Hydrogen improvements, and better ways to report app activity through Shopify Analytics.\n\n### Are all Shopify Fall \u201926 features available to every merchant?\n\nNo. Availability varies by feature, region, and rollout stage. Canvas, for example, is in early access. Merchants should check Shopify\u2019s o",
+    "verdict": "supported",
+    "reason": "Meetanshi states Canvas is in early access."
+   },
+   {
+    "url": "https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly",
+    "claim": "Brands can schedule when catalogs go live, switch between them at set times, and bundle pricing changes with theme and checkout updates ([Common Thread Collective, 2026](https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly)).",
+    "source_excerpt": "On October 5, 2026, Shopify launched Shop Pre-Verification, identifying Shop app users while browsing to pre-fill Shop Pay, sync carts across devices, and trigger abandoned checkout recovery automatically, all with zero merchant setup. On October 2, Shopify launched Discount Rollouts, letting brands A/B test discount offers against a share of traffic and coordinate launches with theme changes. Bot",
+    "verdict": "not_in_source",
+    "reason": "Source describes discount rollouts and A/B tests, not scheduled catalogs or catalog switching."
+   },
+   {
+    "url": "https://releasebot.io/updates/shopify",
+    "claim": "The update is dated 11 November 2026 and was first seen by Releasebot on 13 November ([Releasebot, 2026](https://releasebot.io/updates/shopify)).",
+    "source_excerpt": "Shopify\n\n  ## Customer accounts now show store credit and personalized product recommendations\n\n  Shopify adds store credit balances to customer account headers and personalized product recommendations for signed-in customers who haven\u2019t ordered yet.\n\n  Store credit balance now shows in the customer account header on every page. Signed-in customers who haven't ordered yet see product recommendatio",
+    "verdict": "contradicted",
+    "reason": "Source shows Nov 10 dated and Nov 11 first seen for the relevant updates, not Nov 11/13."
+   },
+   {
+    "url": "https://commonthreadco.com/blogs/coachs-corner/shopify-canvas-ai-site-builder-ecommerce-q4-2026",
+    "claim": "- **Canvas** launched on 1 October 2026 as an AI site builder ([Common Thread Collective, 2026](https://commonthreadco.com/blogs/coachs-corner/shopify-canvas-ai-site-builder-ecommerce-q4-2026)). This conflicts with the later \"early access\" label (see Section 4).",
+    "source_excerpt": "Yes. Canvas launched as a general availability feature on October 1, 2026, accessible to all Shopify merchants directly in the Shopify admin. It works with standard Online Store themes. Headless storefronts built on Hydrogen are not yet supported in this initial release. [...] ## Related Reading\n\n## Frequently Asked Questions\n\nShopify Canvas is an AI-powered site builder launched on October 1, 202",
+    "verdict": "supported",
+    "reason": "Source states Canvas launched on October 1, 2026."
+   },
+   {
+    "url": "https://www.huptechweb.com/blogs/shopify-changelog-guide",
+    "claim": "- **Inventory reports** switch from available quantity to on-hand quantity on 1 September 2026. Sell-through and days-of-inventory metrics will show a visible break in the data ([Huptech Web, 2026](https://www.huptechweb.com/blogs/shopify-changelog-guide)).",
+    "source_excerpt": "While Shopify releases updates constantly, some have a more significant impact than others. The two big launches that have reshaped the platform in the last twelve months are the Summer '25 \"Horizons\" Edition (released May 21, 2025) and the Winter '26 \"RenAIssance\" Edition (released late 2025 / early 2026). Together they shipped over 300 updates. Here are the changes that have been particularly im",
+    "verdict": "not_in_source",
+    "reason": "Source is a generic changelog guide with no mention of inventory report changes."
+   },
+   {
+    "url": "https://www.shopify.com/news/search",
+    "claim": "I found **no verified Shopify executive or key hire announced in the window.** Shopify's press listing shows Jeanne DeWitt Grosser joining the board on 16 June 2026, which is outside the window ([Shopify, 2026](https://www.shopify.com/news/search)).",
+    "source_excerpt": "## Two decades building commerce infrastructure: Jeanne DeWitt Grosser joins Shopify\u2019s board\n\nJune 2, 2026\n\n## Shopify Announces $3 Billion Increase to Share Repurchase Program\n\nPOVJune 3, 2026\n\n## What impact means at work is changing. How we reward it isn't.\n\nInsightsJune 2, 2026\n\n## Entrepreneurship has no zip code\n\nPOVJune 1, 2026\n\n## AI unlocks future-proof entrepreneurs. Bad regulation crush",
+    "verdict": "contradicted",
+    "reason": "Source dates the Grosser board announcement June 2, 2026, not June 16."
+   },
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-shopify/__NNWgXlWtRBr7FVe-BI1BiwMHs246IPF8HlqlcE5kZno",
+    "claim": "- **Acquisitions.** The Tracxn register lists Tailwind CSS as acquired on 9 September 2026, which is before the window. Its price field is masked, and the record contains formatting errors ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-shopify/__NNWgXlWtRBr7FVe-BI1BiwMHs246IPF8HlqlcE5kZno)). No acquisition in the window is verified.",
+    "source_excerpt": "lock\n\nMedia has covered Shopify for a total of 158 events in the last 1 year, 28 of them have been about acquisition activity.\n\n## FAQs about Acquisitions by Shopify\n\nAccel Partners\nPartech\nIN-Q-TEL - US\nFujitsu\nTenity\nStanford [...] | Year | # Acquisitions |\n --- |\n| 2026 | 1 |\n| 2025 | 2 |\n| 2024 | 3 |\n| 2022 | 3 |\n| 2021 | 2 |\n| 2019 | 3 |\n| 2018 | 2 |\n| 2017 | 1 |\n| 2016 | 3 |\n| 2012 | 1 |\n| 2",
+    "verdict": "supported",
+    "reason": "Tracxn lists Tailwind CSS acquired Sep 09, 2026, with masked price and formatting errors."
+   },
+   {
+    "url": "https://www.shopify.com/news/shopify-acquires-select-start-studios",
+    "claim": "- **Earnings.** Shopify's press listing includes \"Shopify to Announce Third-Quarter 2026 Financial Results.\" The date and content could not be verified, so I do not treat results as a window event ([Shopify, 2026](https://www.shopify.com/news/shopify-acquires-select-start-studios)).",
+    "source_excerpt": "Tariq Zaid, co-founder and CEO of S3, will be joining Shopify with his team of over 20 mobile engineers and designers. \u201cWe\u2019re thrilled to be joining Shopify to execute on the company\u2019s mobile initiative,\u201d said Zaid. \u201cTheir focus on mobile, deep understanding of technology, and overall culture make this a natural fit. We\u2019re already cooking up some really exciting innovations that show just how game",
+    "verdict": "supported",
+    "reason": "Press listing 'Read more' section includes the Q3 2026 results announcement title."
+   },
+   {
+    "url": "https://finance.yahoo.com/quote/SHOP/press-releases",
+    "claim": "Yahoo Finance shows Shopify (SHOP) at 147.09 USD at the close on 13 November, down 1.00% after hours at 145.62 USD ([Yahoo Finance, 2026](https://finance.yahoo.com/quote/SHOP/press-releases)).",
+    "source_excerpt": "ACCESS Newswire \u2022 15d ago\n\n  SHOP -0.79%\n Executives from Shopify, JLL and Groupe Dynamite Join WareMatch\u2019s Advisory Board\n\n  ### Executives from Shopify, JLL and Groupe Dynamite Join WareMatch\u2019s Advisory Board\n\n  GlobeNewswire \u2022 18d ago\n\n  SHOP -0.79%  \n    GRGD.TO\n Shopify Migration and Replatforming: Google Search Can Take One to Three Months to Settle\n\n  ### Shopify Migration and Replatforming",
+    "verdict": "not_in_source",
+    "reason": "Source shows only news headlines and small percentage changes, with no closing or after-hours prices."
+   }
+  ],
+  "counts": {
+   "supported": 4,
+   "not_in_source": 6,
+   "contradicted": 2
+  }
+ }
 }

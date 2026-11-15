@@ -110,5 +110,50 @@
   "undated": 5,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.animationxpress.com/latest-news/zepto-lands-in-seoul-street-anime-india-is-up-next-the-fans-got-there-years-ago",
+    "claim": "- Zepto landed a brand activation in Seoul Street, and AnimationXpress reports that Anime India is next. Chief brand officer Chandan Mendiratta is quoted, and Zepto has not said which fandom comes next. Fans are queuing in Hyderabad on 14 November. (https://www.animationxpress.com/latest-news/zepto-lands-in-seoul-street-anime-india-is-up-next-the-fans-got-there-years-ago)",
+    "source_excerpt": "Skip to content\n\n Sunday, November 15, 2026\n\n About Us\n Contact Us\n Subscribe Newsletter\n Opt- in\n\n Home\n Latest News\n Zepto lands in Seoul Street; Anime India is up next. The fans got there years ago\n\nLatest News Marketing Media Merchandise\n\n# Zepto lands in Seoul Street; Anime India is up next. The fans got there years ago\n\n21/10/2026\n\nAnimationXpress Team [...] Zepto will not say which fandom c",
+    "verdict": "supported",
+    "reason": "Source confirms Seoul Street, Anime India next, Mendiratta quote, and Hyderabad 14 November queue."
+   },
+   {
+    "url": "https://indiabusinesstrade.in/dhanteras-2026-zepto-delivers-over-14000-gold-and-silver-coins-in-one-hour.htm",
+    "claim": "- Zepto delivered over 14,000 gold and silver coins in one hour during Dhanteras. Platforms including Zepto, Swiggy Instamart and Flipkart Minutes reported strong festive order growth. (https://indiabusinesstrade.in/dhanteras-2026-zepto-delivers-over-14000-gold-and-silver-coins-in-one-hour.htm)",
+    "source_excerpt": "### Story\n\nNew Delhi, November 8: India\u2019s quick-commerce industry witnessed a sharp surge in festive demand during Dhanteras and Diwali 2026, with platforms such as Zepto, Swiggy Instamart and Flipkart Minutes reporting strong growth in orders for gold, silver, household essentials and festive products. [...] The growing popularity of instant delivery services highlights a major shift in consumer ",
+    "verdict": "supported",
+    "reason": "Source reports over 14,000 coins in busiest Dhanteras hour and strong growth at the named platforms."
+   },
+   {
+    "url": "https://m.economictimes.com/news/company/corporate-trends/india-inc-lights-up-diwali-with-longer-weekends-flexible-work-and-extra-pay-for-festive-shifts/articleshow/135618893.cms",
+    "claim": "- Zepto moved its post-Diwali scheduled holiday from Tuesday to Monday, giving employees an extra day off. Chief HR officer Sneha Arora said the aim was a longer weekend for families. (https://m.economictimes.com/news/company/corporate-trends/india-inc-lights-up-diwali-with-longer-weekends-flexible-work-and-extra-pay-for-festive-shifts/articleshow/135618893.cms)",
+    "source_excerpt": "Quick-commerce firm Zepto advanced its scheduled holiday to Monday from Tuesday, giving employees an additional day off after Diwali. \"We want our people to enjoy the festive season with their families by giving them a longer weekend to celebrate,\" said Sneha Arora, chief HR officer at the Bengaluru-headquartered firm. [...] Comment\n\nSynopsis\n\nCompanies across India are making Diwali more employee",
+    "verdict": "supported",
+    "reason": "Source states Zepto moved holiday to Monday and quotes Sneha Arora on a longer weekend."
+   },
+   {
+    "url": "https://www.news18.com/viral/zeptos-diwali-bonus-video-goes-viral-delivery-partner-gets-cash-like-coupons-instead-of-money-peanuts-in-the-name-of-a-bonus-ws-l-10418467.html",
+    "claim": "- Reputational risk: a viral video led to coverage that a delivery partner received \"cash-like coupons\" instead of money as a Diwali bonus, which one commenter called \"peanuts in the name of a bonus.\" A user also criticised startups in the gig economy for weak worker benefits. (https://www.news18.com/viral/zeptos-diwali-bonus-video-goes-viral-delivery-partner-gets-cash-like-coupons-instead-of-mone",
+    "source_excerpt": "The discussion also brought up broader concerns about working conditions in India\u2019s startup and gig economy. Criticising companies that allegedly fail to provide adequate benefits to their workforce, another user remarked, \u201cIndian startups that exploit labour and don\u2019t do any innovation are the worst,\" highlighting the larger debate surrounding employee welfare and corporate responsibility.\n\n> Zep",
+    "verdict": "supported",
+    "reason": "Headline and excerpts cover the viral 'cash-like coupons' video, 'peanuts' comment, and gig-economy criticism."
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/YT08vmcifB58",
+    "claim": "- A company profile lists Zepto as a privately held Indian company founded in 2021, with a venture round dated 1 July 2026 for USD 100M and a Series H dated 16 November 2025 for USD 450M. The profile is undated and its data is partly garbled, so verify before citing. (https://tavily.com/knowledge/company/YT08vmcifB58)",
+    "source_excerpt": "# Zepto\nID: YT08vmcifB58\nWebsite: www.zepto.com\nLegal name: Zepto Marketplace Private Limited\nHeadquarters: India\nLinkedIn: www.linkedin.com/company/zeptonow \u00b7 1,246,981 followers\nIndustry: Technology, Information and Internet\nCompany type: Privately Held\nFounded: 2021\nBusiness model: B2C\nSaaS: no\nSocial profiles: www.facebook.com/zeptonow, www.twitter.com/zeptonow, www.crunchbase.com/organization",
+    "verdict": "supported",
+    "reason": "Profile shows founded 2021, Series H 2025-11-16 at 450M USD, and 2026-07-01 venture round at 100M USD."
+   }
+  ],
+  "counts": {
+   "supported": 5,
+   "not_in_source": 0,
+   "contradicted": 0
+  }
+ }
 }

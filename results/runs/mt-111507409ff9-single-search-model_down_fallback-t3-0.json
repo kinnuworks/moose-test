@@ -122,5 +122,64 @@
   "undated": 7,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow",
+    "claim": "- Shopify reported Q3 2026 (quarter ended 30 Sep) revenue growth of 32% (32% in constant currency) and a 22% free cash flow margin, announced 3 Nov 2026 (https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow).",
+    "source_excerpt": "Shopify\u2019s management team will hold a conference call to discuss its third-quarter results today, November 3, 2026, at 8:30 a.m. ET. The conference call will be webcast in the Investor Relations section of Shopify\u2019s website at www.shopify.com/investors/events. An archived replay of the webcast will be available following the conclusion of the call. [...] PDF version PDF\n\nInternet, Everywhere, Nov.",
+    "verdict": "supported",
+    "reason": "Source confirms 32% revenue growth, 32% constant currency, 22% FCF margin, and Nov 3 release."
+   },
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-developer",
+    "claim": "- **Fall '26 Edition (developers):** Opens Shopify's catalog, cart, and checkout to any agent or app, with new tools for building and securing apps and storefronts (https://www.shopify.com/news/fall-26-edition-developer), 28 Oct 2026.",
+    "source_excerpt": "Skip to Content\n\nShopify\n\n All news\n\nProduct\n\n# Bringing shopping into the future: The Fall '26 Edition for developers\n\nOctober 28, 2026\n\nby Shopify\n\nShare this story:\n\n Twitter\n Facebook\n Email\n\nRead more\n\n Exponential: Shopify's Fall '26 Edition\n What makes Shopify more than software: Fall '26 Edition\n\nStart your online business today.For free.\n\nStart free trial\n\nby Shopify [...] by Shopify\n\nThe",
+    "verdict": "supported",
+    "reason": "Source states the Fall '26 Edition opens catalog, cart, and checkout to any agent or app, dated Oct 28."
+   },
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-merchant",
+    "claim": "- **Fall '26 Edition (merchants):** Shopify's VP Vanessa Lee says every merchant benefits from every other merchant on the platform (https://www.shopify.com/news/fall-26-edition-merchant), 28 Oct 2026.",
+    "source_excerpt": "Skip to Content\n\nShopify\n\n All news\n\nProduct\n\n# Exponential: Shopify's Fall '26 Edition\n\nOctober 28, 2026\n\nby Shopify\n\nShare this story:\n\n Twitter\n Facebook\n Email\n\nRead more\n\n Exponential: Shopify's Fall '26 Edition\n Bringing shopping into the future: The Fall '26 Edition for developers\n What makes Shopify more than software: Fall '26 Edition\n\nGet the stories behind the storefronts, straight to y",
+    "verdict": "supported",
+    "reason": "Source quotes Vanessa Lee, VP of Product, on merchants benefiting from every other merchant."
+   },
+   {
+    "url": "https://shopify.dev/changelog",
+    "claim": "- **Platform change with deadline:** The IP allowlist is now required for every public app by 20 Nov 2026, or by 12 Nov if the app uses bulk ops. Token updates were also included (https://shopify.dev/changelog), 5 Nov 2026.",
+    "source_excerpt": "2025-07 \n\n2025-04 \n\n### Change type\n\nAction required \n\nBreaking change \n\nDeprecated \n\nNovember 5, 2026\n\n## App security updates: IP allowlist is now required\n\nThe IP allowlist is now required for every public app by November 20, or November 12 if you use bulk ops. ASN support covers serverless hosting. Plus token updates.\n\nRead the full story\n\nChangelog\n\nSearch changelog \n\nSubscribe\n\n   All posts\n",
+    "verdict": "supported",
+    "reason": "Changelog dated Nov 5 states IP allowlist required by Nov 20, or Nov 12 for bulk ops, plus token updates."
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/yIg9BumgrtmF",
+    "claim": "- Shopify's headcount is listed at 30,025, up 5,330 (21.6%) over the year, +1,499 in the last quarter, and +170 in the last month (https://tavily.com/knowledge/company/yIg9BumgrtmF). This profile is undated, so treat the figures as approximate.",
+    "source_excerpt": "# Shopify\nID: yIg9BumgrtmF\nWebsite: www.shopify.com\nLegal name: Shopify Inc.\nHeadquarters: Ottawa, ON, Canada\nLinkedIn: www.linkedin.com/company/shopify \u00b7 1,109,421 followers\nIndustry: Software Development\nIndustry codes: SIC 73, 737, NAICS 51, 511\nCompany type: Public Company\nFounded: 2006\nBusiness model: B2B\nSaaS: yes\nSocial profiles: www.facebook.com/shopify, www.twitter.com/shopify, www.crunch",
+    "verdict": "supported",
+    "reason": "Source lists headcount 30,025, +5,330 yearly (21.6%), +1,499 quarterly, +170 monthly."
+   },
+   {
+    "url": "https://www.shopify.com/enterprise/blog/brands-using-shopify-plus",
+    "claim": "- Dermalogica reported a 9% increase in store conversion, comparing the 30 days after its Sep 2025 Horizon theme launch with the prior 30 days (https://www.shopify.com/enterprise/blog/brands-using-shopify-plus), 24 Oct 2026.",
+    "source_excerpt": "Dermalogica is a skincare brand founded in 1986. They reported a 9% increase in store conversion when comparing the 30 days after their September 2025 Horizon theme launch with the preceding 30 days.\n Staples Canada sells office supplies through their website and retail stores. After switching to Shopify Plus, they ran more than four times as many website promotions during Black Friday and Cyber M",
+    "verdict": "supported",
+    "reason": "Source reports 9% store conversion increase after September 2025 Horizon theme launch; article date not shown."
+   },
+   {
+    "url": "https://www.demandsage.com/shopify-free-trial",
+    "claim": "- A DemandSage page advertises 3 months of Shopify for $1/month, valid until 30 Nov 2026 (https://www.demandsage.com/shopify-free-trial), 6 Nov 2026. This is not a Shopify-issued offer, so confirm it before relying on it.",
+    "source_excerpt": "This Shopify offer gives you enough time to test products, explore features, and start selling, without breaking the bank.\n\n## DemandSage x Shopify Free Trial Offers 3 Months | November 2026\n\nGet Shopify 3 Months Free Trial\n\nGet 3 Months of Shopify access for just $1/mo and unlock all premium features without restrictions. Build, launch, and grow your online store.\n\nValid Till November 30, 2026\n\nC",
+    "verdict": "supported",
+    "reason": "Source shows 3 months for $1/month, valid till November 30, 2026, dated November 6, 2026."
+   }
+  ],
+  "counts": {
+   "supported": 7,
+   "not_in_source": 0,
+   "contradicted": 0
+  }
+ }
 }

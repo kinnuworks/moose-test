@@ -291,5 +291,99 @@
   "undated": 13,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://razorpay.com/newsroom",
+    "claim": "- **Most material change:** Razorpay received a final IFSCA licence for GIFT City on 2 to 3 November 2026 ([Razorpay, n.d.](https://razorpay.com/newsroom)), and reportedly received SEBI approval for a \u20b96,000 crore IPO on 4 November ([Tracxn, 2026](https://tracxn.com/d/companies/razorpay/__ARWa67NVJPe3TC11rYSBnp-0zVHbDAze4xZvzRsZzAI)).",
+    "source_excerpt": "From Five-Steps to One-Step, Razorpay Unveils \u2018Turbo UPI\u2019, a Fast Payment Solution RazorpayX Introduces Automated ESCROW+ Solution, Enables Instant & Secure Money Transfers for Businesses Demand for Specialized Gig Worker Headcount Increases by 21%, Amid 36% Hiring Dip in Last Six Months: RazorpayX Payroll Insights Razorpay Joins ONDC; Launches Payment Reconciliation Service for Buyer and Seller A",
+    "verdict": "not_in_source",
+    "reason": "Newsroom page excerpt does not mention an IFSCA licence or SEBI IPO approval."
+   },
+   {
+    "url": "https://tracxn.com/d/companies/razorpay/__ARWa67NVJPe3TC11rYSBnp-0zVHbDAze4xZvzRsZzAI",
+    "claim": "- **Most material change:** Razorpay received a final IFSCA licence for GIFT City on 2 to 3 November 2026 ([Razorpay, n.d.](https://razorpay.com/newsroom)), and reportedly received SEBI approval for a \u20b96,000 crore IPO on 4 November ([Tracxn, 2026](https://tracxn.com/d/companies/razorpay/__ARWa67NVJPe3TC11rYSBnp-0zVHbDAze4xZvzRsZzAI)).",
+    "source_excerpt": "PDF Illustration Image\n\n## Razorpay's funding and investors\n\nRazorpay has raised a total funding of $742M over 11 rounds. Its first funding round was on Mar 23, 2015. Its latest funding round was a Series F round on Dec 19, 2021 for $375M. 7 investors participated in its latest round.  Razorpay has 23 institutional investors and 15 angel investors.\n\nlock [...] | 2nd | Logo for Stripe  Stripe 2010,",
+    "verdict": "not_in_source",
+    "reason": "Tracxn excerpt covers funding rounds only; no SEBI approval or \u20b96,000 crore IPO."
+   },
+   {
+    "url": "https://thepaypers.com/payments/news/razorpay-reportedly-plans-usd-500-mln-ipo-amid-digital-payments-surge",
+    "claim": "- **Capital markets:** IPO coverage is moving from rumour to regulatory progress, but offer-size figures differ across sources and have not been reconciled ([The Paypers, n.d.](https://thepaypers.com/payments/news/razorpay-reportedly-plans-usd-500-mln-ipo-amid-digital-payments-surge)).",
+    "source_excerpt": "The fintech has invited merchant bankers to pitch for the IPO mandate, with Kotak Mahindra Capital and Axis Capital emerging as leading contenders for the underwriting role.\n\nWhile discussions are still at a preliminary stage, the public issue is being explored for launch towards the end of 2026. The final timing and size of the IPO remain subject to market conditions, regulatory approvals, and in",
+    "verdict": "not_in_source",
+    "reason": "Source says talks are preliminary; it does not mention differing offer-size figures across sources."
+   },
+   {
+    "url": "https://www.business-standard.com/companies/news/razorpay-boosts-ai-push-with-senior-hires-from-microsoft-salesforce-cred-126080401040_1.html",
+    "claim": "- **AI strategy:** The company continues to position itself as an \"AI-native\" platform. The most recent verified senior hires, four engineering executives, were announced on 4 August 2026, outside the window ([Abrar, 2026](https://www.business-standard.com/companies/news/razorpay-boosts-ai-push-with-senior-hires-from-microsoft-salesforce-cred-126080401040_1.html)).",
+    "source_excerpt": "Tuesday, November 03, 2026 | 03:00 PM IST\u0939\u093f\u0902\u0926\u0940 \u092e\u0947\u0902 \u092a\u0922\u0947\u0902\n\nNotification Icon\n\nuserprofile IconSearch\n\nHome / Companies / News / Razorpay boosts AI push with senior hires from Microsoft, Salesforce, Cred\n\n# Razorpay boosts AI push with senior hires from Microsoft, Salesforce, Cred\n\n## Executives will help build payment systems that can increasingly make decisions using artificial intelligence, says t",
+    "verdict": "supported",
+    "reason": "Business Standard, dated 4 Aug 2026, reports four senior engineering executive hires."
+   },
+   {
+    "url": "https://www.linkedin.com/posts/pranay-aggarwal-_razorpay-already-moved-money-across-borders-activity-7525780603510738944-HLBe",
+    "claim": "A third-party LinkedIn commentary states the licence enables investment platforms to fund non-resident overseas investments, and that Razorpay already held an RBI licence from December 2025 for trade payments ([Aggarwal, n.d.](https://www.linkedin.com/posts/pranay-aggarwal-_razorpay-already-moved-money-across-borders-activity-7525780603510738944-HLBe)).",
+    "source_excerpt": "Razorpay already moved money across borders for businesses, yet moving money for Indian\u2019s overseas investments required a separate license.   To offer overseas investing, platforms need a compliant way to fund residents\u2019 investment accounts.  Razorpay announced on 2 November 2026 a final license to operate from GIFT City (Gujarat International Finance Tec-City), Gujarat\u2019s international financial h",
+    "verdict": "not_in_source",
+    "reason": "Visible text confirms the GIFT City licence but not the December 2025 RBI licence claim."
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=ciyZPf6NbMI",
+    "claim": "A YouTube market update dated 5 November 2026 also references a \"Razorpay IPO,\" but its content could not be reviewed ([YouTube, 2026](https://www.youtube.com/watch?v=ciyZPf6NbMI)).",
+    "source_excerpt": "\u2022 Jio vs Airtel: Is JIO IPO Worth the Premiu...  \n\nGet your daily stock market news for 5th November 2026. Today we cover the massive U.S. market rally following a Democratic \"blue wave\" in the elections, Razorpay's $5 billion IPO nod, and BHEL bagging a massive \u20b928,000 crore order from Adani Power. We also break down major Q2 earnings from BSE, MCX, Nykaa, Lenskart, Apollo Hospitals, Biocon, Dr L",
+    "verdict": "contradicted",
+    "reason": "Source transcript does discuss Razorpay's IPO nod, so its content was reviewable."
+   },
+   {
+    "url": "https://razorpay.com/sprint/26",
+    "claim": "| Razorpay Sprint 2026 (100+ updates across six verticals, including Agentic Stack, Payments on LLMs, Voice Payments, Ray Customer Support, and Razorpay Dashboard on Claude) | Event date not stated; design write-up published 12 Nov 2026 | Likely in window, date unverified | [Razorpay, n.d.](https://razorpay.com/sprint/26); [Awwwards, 2026](https://www.awwwards.com/razorpay-sprint26-the-future-of-p",
+    "source_excerpt": "THE AGENTIC ERA\n\nWelcome to the Age of Agentic Payments.  \n100+ Launches, One Blueprint.  \nThe future of commerce starts here.\n\n# Agentic Stack\n\nYour business has a new co-founder and it's AI-native.\n\nRazorpay Agentic Stack\n\nPRABU RAM\n\nSVP, ENGINEERING\n\n\"This shift will redefine commerce as we know it.\n\nNot because payments got faster. But because it got intelligent.\"\n\n# Agentic PaymentsAI-led sho",
+    "verdict": "not_in_source",
+    "reason": "Sprint page supports 100+ updates and Agentic Stack; the 12 Nov 2026 date is not in source."
+   },
+   {
+    "url": "https://www.awwwards.com/razorpay-sprint26-the-future-of-payments.html",
+    "claim": "| Razorpay Sprint 2026 (100+ updates across six verticals, including Agentic Stack, Payments on LLMs, Voice Payments, Ray Customer Support, and Razorpay Dashboard on Claude) | Event date not stated; design write-up published 12 Nov 2026 | Likely in window, date unverified | [Razorpay, n.d.](https://razorpay.com/sprint/26); [Awwwards, 2026](https://www.awwwards.com/razorpay-sprint26-the-future-of-p",
+    "source_excerpt": "Sprint is Razorpay's annual product launch. The year's biggest innovation releases, compressed into a single digital experience. Think Apple's WWDC, but for Indian fintech. The 2026 edition had over 100 product updates across six verticals: Agentic Stack, International Payments, Payment Gateway, D2C, Marketing, and Business Banking.\n\nThe brief, distilled: make 100+ updates feel like one cohesive, ",
+    "verdict": "supported",
+    "reason": "Awwwards states 100+ updates across six verticals including Agentic Stack."
+   },
+   {
+    "url": "https://razorpay.com/m/gff2026",
+    "claim": "| Razorpay at GFF 2026, \"next generation of AI-powered banking\" | Undated | Unverified | [Razorpay, n.d.](https://razorpay.com/m/gff2026) |",
+    "source_excerpt": "PRODUCT LAUNCHES\n\nPRODUCT LAUNCHES\n\n## Key Launches at a glance\n\n## Key Launches at a glance\n\nKey Launches   \nat a glance\n\n \n\n  Agentic Commerce Stack\n\n  Brands can now make their product catalogs fully shoppable on WhatsApp. Razorpay's Agentic Commerce Stack seamlessly orchestrates discovery, protocol translation, and instant in-chat checkouts to turn everyday conversational messages into high-co",
+    "verdict": "not_in_source",
+    "reason": "The quoted phrase 'next generation of AI-powered banking' does not appear in the GFF page excerpt."
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Ia5i2GZHlFc",
+    "claim": "| COO commentary on \"Netbanking 2.0\" and \"Agentic Commerce\" | Undated | Unverified | [YouTube, n.d.](https://www.youtube.com/watch?v=Ia5i2GZHlFc) |",
+    "source_excerpt": "### Description\n1,543 views\nPosted: 2026-09-14\nRazorpay\u2019s COO discusses the company\u2019s latest fintech innovations, including \u2018Netbanking 2.0\u2019 and \u2018Agentic Commerce\u2019.The new launches highlight Razorpay\u2019s push toward faster digital payments, AI-powered commerce and next-generation payment experiences.Watch the full conversation on Razorpay\u2019s product strategy, agentic commerce and the future of fintec",
+    "verdict": "contradicted",
+    "reason": "Source metadata shows the video was posted 2026-09-14, so it is not undated."
+   },
+   {
+    "url": "https://mitchellake.com/intelligence/wire/razorpay-product-launch-2026-10-01",
+    "claim": "| 30 Sep / 1 Oct 2026 | Apple Pay enabled for online and in-store payments; live with Zepto, ixigo, IndiGo, Tata 1mg and JioMart | [Razorpay, n.d.](https://razorpay.com/newsroom); [MitchelLake, 2026](https://mitchellake.com/intelligence/wire/razorpay-product-launch-2026-10-01) |",
+    "source_excerpt": "## Also at Razorpay \u2192\n\n Strategic Hiring \u00b7 2026-08-08 \u2192\n Product Launch \u00b7 2026-08-11 \u2192\n Partnership \u00b7 2026-10-05 \u2192\n\n## More signals across Fintech\n\nProduct Launch\u00b7 Asia\n\nCashfree Payments \u2192\n\nCashfree Payments launched 'Checkout for Agents', a tool letting AI agents process customer payments on merchant checkout pages without code changes, built on the open-source WebMCP protocol.\n\nProduct Launch\u00b7 ",
+    "verdict": "supported",
+    "reason": "MitchelLake dates Apple Pay launch 2026-10-01 with Zepto, ixigo, IndiGo, Tata 1mg, JioMart."
+   },
+   {
+    "url": "https://m.economictimes.com/tech/razorpay/2?from=mdr",
+    "claim": "| Valuation ($7.5 billion) and IPO timing | Economic Times coverage is undated. It refers to an IPO \"towards the middle of this year,\" which may be stale. | [Economic Times, n.d.](https://m.economictimes.com/tech/razorpay/2?from=mdr) |",
+    "source_excerpt": "The unicorn, which is backed by investors like Tiger Global, Sequoia Capital India and Mastercard, has announced the launch of three new products that are aimed at simplifying payment management processes for businesses.\n\n### Razorpay cofounder Shashank Kumar takes over as MD\n\nMurali Brahmadesam, a former executive at Amazon Web Services (AWS), will take over as CTO and head of engineering in plac",
+    "verdict": "not_in_source",
+    "reason": "Economic Times excerpt does not mention a $7.5 billion valuation or IPO timing."
+   }
+  ],
+  "counts": {
+   "supported": 3,
+   "not_in_source": 7,
+   "contradicted": 2
+  }
+ }
 }

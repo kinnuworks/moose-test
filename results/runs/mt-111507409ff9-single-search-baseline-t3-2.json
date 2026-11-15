@@ -95,5 +95,50 @@
   "undated": 5,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow",
+    "claim": "- Shopify reported Q3 results for the quarter ended 30 September 2026: 32% revenue growth (32% in constant currency) and a 22% free cash flow margin, announced 3 November 2026 (https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow).",
+    "source_excerpt": "Shopify\u2019s management team will hold a conference call to discuss its third-quarter results today, November 3, 2026, at 8:30 a.m. ET. The conference call will be webcast in the Investor Relations section of Shopify\u2019s website at www.shopify.com/investors/events. An archived replay of the webcast will be available following the conclusion of the call. [...] PDF version PDF\n\nInternet, Everywhere, Nov.",
+    "verdict": "supported",
+    "reason": "Source gives 32% revenue growth, 32% constant currency, 22% FCF margin, dated Nov 3, 2026."
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/latest-news-e-commerce-shopifys-123733064.html",
+    "claim": "- A Simply Wall St article, republished by Yahoo Finance on 8 November, summarises the same results (https://finance.yahoo.com/markets/stocks/articles/latest-news-e-commerce-shopifys-123733064.html).",
+    "source_excerpt": "Sources:\n\n Simply Wall St\n \"Shopify Sustains Rapid Growth with Revenue Up 32% and Free Cash Flow Margin of 22%\" from Shopify Inc. on GlobeNewswire (published 03 November 2026)\n\nCompanies discussed in this article include NasdaqGS:CRCTNasdaqGS:AMZNNYSE:BABANasdaqGS:MELI and BSE:514162.\n\nThis article was originally published by Simply Wall St. [...] The e-commerce industry continues to witness subst",
+    "verdict": "not_in_source",
+    "reason": "Summary matches, but the 8 November republication date is not in the source."
+   },
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-merchant",
+    "claim": "- Shopify's Fall '26 Edition (published 1 November 2026) centres on network effects across merchants. It introduces \"Shop,\" a new home on the web with shoppable posts, editorial curations, and personalised sections for each shopper (https://www.shopify.com/news/fall-26-edition-merchant).",
+    "source_excerpt": "by Shopify\n\n\u201cEvery merchant that joins Shopify benefits from every other merchant that has ever been on Shopify,\u201d says Vanessa Lee, Shopify\u2019s VP of Product. \u201cAnd they make it better for whoever comes next.\u201d Shopify\u2019s Fall \u201826 Edition shows how that network effect makes every business on Shopify exponentially more capable.\n\nTo explore the complete rollout, visit the Fall '26 Edition. Read a list of",
+    "verdict": "not_in_source",
+    "reason": "Network-effect theme and Shop description match, but the 1 November date is absent."
+   },
+   {
+    "url": "https://www.demandsage.com/shopify-free-trial",
+    "claim": "- A third-party site (DemandSage) advertises three months of Shopify for $1/month, valid until 30 November 2026 (https://www.demandsage.com/shopify-free-trial). This is not an official Shopify source, so verify the offer's terms before relying on it.",
+    "source_excerpt": "This Shopify offer gives you enough time to test products, explore features, and start selling, without breaking the bank.\n\n## DemandSage x Shopify Free Trial Offers 3 Months | November 2026\n\nGet Shopify 3 Months Free Trial\n\nGet 3 Months of Shopify access for just $1/mo and unlock all premium features without restrictions. Build, launch, and grow your online store.\n\nValid Till November 30, 2026\n\nC",
+    "verdict": "supported",
+    "reason": "Source states 3 months for $1/month, valid until November 30, 2026."
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/yIg9BumgrtmF",
+    "claim": "- A company profile lists 30,025 employees, up 5,330 (21.6%) over the year, 1,499 over the quarter, and 170 over the month (https://tavily.com/knowledge/company/yIg9BumgrtmF). The page is undated, so these figures cannot be confirmed as falling within the 30-day window.",
+    "source_excerpt": "# Shopify\nID: yIg9BumgrtmF\nWebsite: www.shopify.com\nLegal name: Shopify Inc.\nHeadquarters: Ottawa, ON, Canada\nLinkedIn: www.linkedin.com/company/shopify \u00b7 1,109,421 followers\nIndustry: Software Development\nIndustry codes: SIC 73, 737, NAICS 51, 511\nCompany type: Public Company\nFounded: 2006\nBusiness model: B2B\nSaaS: yes\nSocial profiles: www.facebook.com/shopify, www.twitter.com/shopify, www.crunch",
+    "verdict": "supported",
+    "reason": "Source lists 30,025 headcount with +5,330 yearly, +1,499 quarterly, +170 monthly; undated."
+   }
+  ],
+  "counts": {
+   "supported": 3,
+   "not_in_source": 2,
+   "contradicted": 0
+  }
+ }
 }

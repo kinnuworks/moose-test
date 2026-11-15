@@ -257,5 +257,50 @@
   "undated": 5,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
+    "claim": "- **Verified activity in the window is product-led.** Launches dated 20 to 27 October 2026 included an F1 partnership, Treasury for Agents, Instinct, a Link agent-wallet balance, and Stripe Pay ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI); [Insights4vc, 2026](https://insights4vc.substack.com/p/the-economics-of-stripes-ai-st",
+    "source_excerpt": "| Year | # Acquisitions |\n --- |\n| 2026 | 4 |\n| 2025 | 2 |\n| 2024 | 2 |\n| 2023 | 1 |\n| 2022 | 1 |\n| 2021 | 4 |\n| 2020 | 1 |\n| 2019 | 1 |\n| 2018 | 1 |\n| 2017 | 2 |\n| 2016 | 1 |\n| 2015 | 1 |\n| 2013 | 1 |\n\n### Recent acquisitions by Stripe\n\nStripe's most recent acquisition - Parafin is a Provider of cloud-based platform for revenue-based financing, founded in 2020 and located in San Francisco. Stripe",
+    "verdict": "not_in_source",
+    "reason": "Source is an acquisitions table; it does not mention launches or product activity."
+   },
+   {
+    "url": "https://insights4vc.substack.com/p/the-economics-of-stripes-ai-strategy",
+    "claim": "- **Verified activity in the window is product-led.** Launches dated 20 to 27 October 2026 included an F1 partnership, Treasury for Agents, Instinct, a Link agent-wallet balance, and Stripe Pay ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI); [Insights4vc, 2026](https://insights4vc.substack.com/p/the-economics-of-stripes-ai-st",
+    "source_excerpt": "Stripe\u2019s recent acquisitions cover several points in that process. Bridge, acquired in a deal completed on February 4, 2025, handles stablecoin issuance and orchestration. Privy joined in 2025 with wallet, signing and programmable-control software. The Metronome acquisition closed on January 14, 2026, adding usage metering and billing. On August 19, Stripe agreed to buy OpenRouter, a service that ",
+    "verdict": "not_in_source",
+    "reason": "Source names Instinct and the Link agent wallet balance, but not the F1 partnership, Treasury for Agents, or Stripe Pay."
+   },
+   {
+    "url": "https://www.recruitingfromscratch.com/blog/stripe-hiring-2026",
+    "claim": "- **No completed acquisition or verified hiring signal falls inside the window.** The OpenRouter deal was agreed in August but had not been announced as complete as of 28 October ([Insights4vc, 2026](https://insights4vc.substack.com/p/the-economics-of-stripes-ai-strategy)). The most recent hiring count located is from June 2026 ([Recruiting from Scratch, 2026](https://www.recruitingfromscratch.com",
+    "source_excerpt": "Stripe\u2019s hiring data reveals crucial insights into its current strategy and future direction. With 496 open roles, including 149 added in the last month, this signals a strong growth trajectory aimed at expanding its engineering, operations, and product teams. The breakdown shows a significant focus on engineering (103 roles), product (58 roles), and operations (59 roles). This signals that Stripe",
+    "verdict": "not_in_source",
+    "reason": "OpenRouter completion status is cut off in the excerpt; the hiring claim's June date is not shown."
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "claim": "- **Stripe remains privately held,** so no audited 2025 or 2026 financial results are publicly available ([Mean CEO, 2026](https://blog.mean.ceo/stripe-news-november-2026)).",
+    "source_excerpt": "US$5.1 billion in revenue (2024), according to the Stripe, Inc. Wikipedia entry.\n About 8,500 employees (2025), also according to Wikipedia.\n 1,665,531 LinkedIn followers, according to a public company data record. That is more people than the entire population of Munich.\n 249 job signals tracked by GlobalData, which means Stripe is still hiring.\n 61 patents listed in GlobalData\u2019s signals.\n 6 deal",
+    "verdict": "not_in_source",
+    "reason": "Source calls Stripe private but says nothing about audited financial results availability."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Stripe,_Inc",
+    "claim": "| Valuation (tender offer) | US$159 billion, up from US$91.5 billion | February 2026 | [Stripe, Inc. (n.d.)](https://en.wikipedia.org/wiki/Stripe,_Inc.) | Verified in source excerpt |",
+    "source_excerpt": "On 26 July 2024, Stripe acquired a Merchant of Record services start-up Lemon Squeezy.\n\nOn 19 August 2026, Stripe announced it has acquired AI startup OpenRouter for $7.5 billion.\n\n## Litigation\n\n[edit]\n\nIn March 2026, the Federal Trade Commission issued a warning against Stripe and three other payment processing brands for debanking of law-abiding citizens over political, religious or certain law",
+    "verdict": "not_in_source",
+    "reason": "Excerpt mentions the $7.5B OpenRouter deal but gives no tender-offer valuation figures."
+   }
+  ],
+  "counts": {
+   "supported": 0,
+   "not_in_source": 5,
+   "contradicted": 0
+  }
+ }
 }

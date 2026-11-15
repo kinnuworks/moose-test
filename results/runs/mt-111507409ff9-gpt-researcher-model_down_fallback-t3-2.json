@@ -291,5 +291,99 @@
   "undated": 13,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-developer",
+    "claim": "- **Product direction is centred on agentic commerce.** The Fall '26 Edition, released 28 October 2026, makes Shopify's catalog, cart, and checkout available to AI agents and apps ([Shopify, 2026b](https://www.shopify.com/news/fall-26-edition-developer)).",
+    "source_excerpt": "### New theme architecture\n\nWhat it is: Page structure now lives in the Liquid template itself instead of a separate JSON file, with blocks, typed contracts, partial updates, markdown files that guide agents, and Tailwind styling built in.  \n  \nWhy it matters: Developers and coding agents can read a whole page from top to bottom, instead of piecing it together from JSON and a tree of sections. The",
+    "verdict": "not_in_source",
+    "reason": "Source covers theme architecture; it doesn't mention the 28 October release or catalog/cart/checkout access for agents."
+   },
+   {
+    "url": "https://www.identixweb.com/shopify-editions-fall",
+    "claim": "- **Merchant tooling is shifting toward AI-driven store management.** Canvas and a rebuilt Sidekick are the main examples, though Canvas is still in early access ([Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall)).",
+    "source_excerpt": "The Editions page lists 222 updates across 11 categories. Developer is the largest category with 57, followed by Payments with 30.\n\n3. What\u2019s new in the Shopify Editions Fall 2026?\n\nMajor updates include Shop Pay checkout inside AI agents and WebMCP tools that let browser agents shop any store. Sidekick was rebuilt to write code and search the web, and Canvas lets merchants redesign a store with i",
+    "verdict": "supported",
+    "reason": "Source describes Canvas as early access and Sidekick rebuilt for store editing."
+   },
+   {
+    "url": "https://finance.yahoo.com/quote/SHOP/press-releases",
+    "claim": "- **Market signals are mixed but stable.** Shopify's share price closed at $147.09 on 13 November 2026 ([Yahoo Finance, 2026](https://finance.yahoo.com/quote/SHOP/press-releases)).",
+    "source_excerpt": "ACCESS Newswire \u2022 15d ago\n\n  SHOP -0.79%\n Executives from Shopify, JLL and Groupe Dynamite Join WareMatch\u2019s Advisory Board\n\n  ### Executives from Shopify, JLL and Groupe Dynamite Join WareMatch\u2019s Advisory Board\n\n  GlobeNewswire \u2022 18d ago\n\n  SHOP -0.79%  \n    GRGD.TO\n Shopify Migration and Replatforming: Google Search Can Take One to Three Months to Settle\n\n  ### Shopify Migration and Replatforming",
+    "verdict": "not_in_source",
+    "reason": "Source shows a ticker and press release headlines but no share price or closing figure."
+   },
+   {
+    "url": "https://witscode.com/blogs/shopify-editions-fall-2026",
+    "claim": "Sources disagree on the scale: the Editions page lists 222 updates across 11 categories ([Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall)), while the launch email described \"150+ updates\" ([Witscode, 2026](https://witscode.com/blogs/shopify-editions-fall-2026)).",
+    "source_excerpt": "Canvas changes how stores get designed. You see your whole store on one canvas and edit it by talking to Sidekick. It is in early access, and it ships without support for third-party themes, app blocks, markets or translations.38\n A new theme architecture is coming. Page structure moves out of JSON files and into the Liquid template itself, with built-in Tailwind and markdown files that guide AI a",
+    "verdict": "not_in_source",
+    "reason": "Identixweb's 222 updates are supported, but the Witscode '150+ updates' claim is absent from its text."
+   },
+   {
+    "url": "https://coalitiontechnologies.com/blog/shopify-editions-fall-26",
+    "claim": "Shopify's own framing identifies agentic commerce as central to the release ([Coalition Technologies, 2026](https://coalitiontechnologies.com/blog/shopify-editions-fall-26)).",
+    "source_excerpt": "A new knowledge base in the Shopify admin lets merchants publish the store facts, such as return windows, that AI agents repeat to shoppers.\n Sidekick, Shopify\u2019s AI assistant in the admin, was rebuilt to write code and apply multi-step changes, and the new Canvas design surface shows every page of a store at once in early access.\n Shopify Protect combines fraud blocking, custom risk rules and auto",
+    "verdict": "supported",
+    "reason": "Coalition's article lists agentic commerce first, saying most of the release lives there."
+   },
+   {
+    "url": "https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly",
+    "claim": "On 23 October 2026, Shopify expanded Rollouts to full catalog scheduling, allowing brands to set when catalogs go live, switch between them at set times, and bundle pricing changes with theme and checkout updates ([Common Thread Co., 2026](https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly)).",
+    "source_excerpt": "On October 5, 2026, Shopify launched Shop Pre-Verification, identifying Shop app users while browsing to pre-fill Shop Pay, sync carts across devices, and trigger abandoned checkout recovery automatically, all with zero merchant setup. On October 2, Shopify launched Discount Rollouts, letting brands A/B test discount offers against a share of traffic and coordinate launches with theme changes. Bot",
+    "verdict": "not_in_source",
+    "reason": "Source dates Rollouts discount support to 2 October and doesn't mention 23 October or catalog scheduling."
+   },
+   {
+    "url": "https://releasebot.io/updates/shopify",
+    "claim": "Signed-in customers who have not yet ordered also receive personalised product recommendations from the catalog ([Releasebot, 2026](https://releasebot.io/updates/shopify)).",
+    "source_excerpt": "Shopify\n\n  ## Customer accounts now show store credit and personalized product recommendations\n\n  Shopify adds store credit balances to customer account headers and personalized product recommendations for signed-in customers who haven\u2019t ordered yet.\n\n  Store credit balance now shows in the customer account header on every page. Signed-in customers who haven't ordered yet see product recommendatio",
+    "verdict": "supported",
+    "reason": "Releasebot states signed-in customers who haven't ordered see catalog recommendations personalised by Shopify."
+   },
+   {
+    "url": "https://www.shopify.com/news/search",
+    "claim": "The provided sources contain **no Shopify executive appointments or senior hires within the 30-day window.** The most recent board change in the material is Jeanne DeWitt Grosser joining the board on 16 June 2026, which falls outside the window ([Shopify, 2026a](https://www.shopify.com/news/search)).",
+    "source_excerpt": "## Two decades building commerce infrastructure: Jeanne DeWitt Grosser joins Shopify\u2019s board\n\nJune 2, 2026\n\n## Shopify Announces $3 Billion Increase to Share Repurchase Program\n\nPOVJune 3, 2026\n\n## What impact means at work is changing. How we reward it isn't.\n\nInsightsJune 2, 2026\n\n## Entrepreneurship has no zip code\n\nPOVJune 1, 2026\n\n## AI unlocks future-proof entrepreneurs. Bad regulation crush",
+    "verdict": "contradicted",
+    "reason": "Source dates Jeanne DeWitt Grosser's board announcement to June 2, not June 16, 2026."
+   },
+   {
+    "url": "https://rockettalent.co/blog/growth-recruiters-for-shopify-brands-complete-guide",
+    "claim": "The Rocket Talent articles dated October and November 2026 concern recruitment services for Shopify brands and are not Shopify hiring announcements ([Rocket Talent, 2026](https://rockettalent.co/blog/growth-recruiters-for-shopify-brands-complete-guide)).",
+    "source_excerpt": "For a Shopify hiring decision in 2026, the practical lesson is to assess both the search firm's role experience and the commercial responsibilities of its placements. A familiar title is not enough. Ask what the person owned, what changed, and how the result was measured.\n\n## How to choose and manage your growth leadership search\n\n### Define the business problem before the title [...] D2C marketin",
+    "verdict": "supported",
+    "reason": "Rocket Talent page is a recruiting-services guide for growth search, not a Shopify hiring announcement."
+   },
+   {
+    "url": "https://www.paulweiss.com/insights/client-news/shopify-to-acquire-deliverr-for-21-billion",
+    "claim": "**Deals:** No acquisitions or partnerships announced within the window appear in the sources. For historical context, Shopify agreed to acquire fulfilment provider Deliverr for $2.1 billion in May 2022 ([Paul, Weiss, 2022](https://www.paulweiss.com/insights/client-news/shopify-to-acquire-deliverr-for-21-billion)). In March 2025, it agreed to acquire AI search startup Vantage Discovery, which it pl",
+    "source_excerpt": "Mergers & Acquisitions\n\nOctober 15, 2026\n\n### Paul, Weiss Wins Telecom Impact Deal of the Year at IFLR\u2019s 2026 Americas Awards\n\nPaulweiss Logo\n\nYou are leaving the Paul, Weiss site to visit a site not hosted by Paul, Weiss. Please review the third-party\u2019s privacy policy, accessibility policy, and terms. Paul, Weiss is not responsible for the content provided by third-party sites.\n\nGo Back) [...] Sh",
+    "verdict": "not_in_source",
+    "reason": "Paul Weiss text confirms the $2.1B Deliverr deal but not the May 2022 date or Vantage Discovery."
+   },
+   {
+    "url": "https://www.linkedin.com/pulse/shopify-acquires-ai-search-startup-march-21st-2025-5ccpe",
+    "claim": "**Deals:** No acquisitions or partnerships announced within the window appear in the sources. For historical context, Shopify agreed to acquire fulfilment provider Deliverr for $2.1 billion in May 2022 ([Paul, Weiss, 2022](https://www.paulweiss.com/insights/client-news/shopify-to-acquire-deliverr-for-21-billion)). In March 2025, it agreed to acquire AI search startup Vantage Discovery, which it pl",
+    "source_excerpt": "Jul 16, 2026\n\n  ### Upcoming Virtual Lunch & Learn: Friday 17th July: \u2018The AI That Runs Your Margins While You Sleep\u2019 with Henrik Hoffman & Jack Johnson\n\n  \u23f0 12:00pm \u2013 1:00pm \ud83d\udd17 Register here:  Hosted by: Henrik Hoffman Kraft & Jack Johnson A session\u2026\n \n\n  Jul 13, 2026\n\n  ### Upcoming Virtual Lunch & Learn: Friday 17th July: \u2018The AI That Runs Your Margins While You Sleep\u2019 with Henrik Hoffman & Jack",
+    "verdict": "not_in_source",
+    "reason": "LinkedIn page shows unrelated Digital Leaders Club posts; no mention of Vantage Discovery."
+   },
+   {
+    "url": "https://www.shopify.com/news/a-world-with-more-builders",
+    "claim": "**Ecosystem:** Shopify describes an app ecosystem worth $1.3 billion and reports that its partner network is growing ([Shopify, 2026c](https://www.shopify.com/news/a-world-with-more-builders)). The Partner Survey figures cited there were fielded in mid-2026 and fall outside the window.",
+    "source_excerpt": "\\Shopify Partner Survey 2026 (Shopify Market Insights, internal research; fielded May 29 to June 4, 2026). Base: all partners (n=2,501), weighted to be representative of active Shopify Partners; revenue-change items: partners with 2+ years tenure (n=2,018). Significance tested at 95%.\n\n\\\\Partnership revenue is based on 2025 activity across on platform partnership engagements and merchant activity.",
+    "verdict": "not_in_source",
+    "reason": "Survey methodology is shown, but the $1.3 billion app ecosystem figure is not in the text."
+   }
+  ],
+  "counts": {
+   "supported": 4,
+   "not_in_source": 7,
+   "contradicted": 1
+  }
+ }
 }

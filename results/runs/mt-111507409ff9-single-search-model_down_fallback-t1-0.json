@@ -96,5 +96,29 @@
   "diagnosis": "The primary model failed but a fallback model finished the briefing, which rested on one search returning only two results, so the evidence base was thin.",
   "category": "too_few_sources",
   "written_by": "anthropic/claude-haiku-5-5"
+ },
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "claim": "- NVIDIA announced a CEO transition, dated 12 Nov 2026. The results show only the headline, not the terms or successor (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition).",
+    "source_excerpt": "## More News\n\nImage 10\n\n### Statement From the Independent Members of the NVIDIA Board\n\nNovember 10, 2026\n\nImage 11\n\n### NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion\n\nNovember 8, 2026\n\nImage 12\n\n### A Message to Our Company\n\nNovember 8, 2026\n\nImage 13\n\n### Statement From NVIDIA Board of Directors\n\nNovember 8, 2026\n\nImage ",
+    "verdict": "contradicted",
+    "reason": "Date and CEO transition match, but source names Colette Kress as interim CEO, not omitted."
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/TXRhn2TKUD7t",
+    "claim": "- Acquisition of Hugging Face, Inc. (1 Aug 2026, listed at 12.90B USD) (https://tavily.com/knowledge/company/TXRhn2TKUD7t)",
+    "source_excerpt": "# NVIDIA\nID: TXRhn2TKUD7t\nWebsite: www.nvidia.com/\nLegal name: NVIDIA Corporation\nHeadquarters: Santa Clara, California, United States\nLinkedIn: www.linkedin.com/company/nvidia \u00b7 6,578,529 followers\nIndustry: Computer Hardware Manufacturing\nIndustry codes: SIC 73, 737, NAICS 33, 334\nCompany type: Public company\nFounded: 1993\nBusiness model: B2B, B2C\nSaaS: no [...] ## M&A\n- Hugging Face, Inc. (2026",
+    "verdict": "supported",
+    "reason": "Source lists Hugging Face, Inc. acquisition dated 2026-08-01 at 12.90B USD."
+   }
+  ],
+  "counts": {
+   "supported": 1,
+   "not_in_source": 0,
+   "contradicted": 1
+  }
  }
 }

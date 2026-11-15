@@ -257,5 +257,99 @@
   "undated": 14,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://multiples.vc/private-comps/zepto",
+    "claim": "Multiples records a $4.5B valuation in an undisclosed-stage round in August 2026, down from $7B in October 2025, while recorded revenue rose to $2.4B ([Multiples, n.d.](https://multiples.vc/private-comps/zepto)).",
+    "source_excerpt": "| Aug 2026 | Undisclosed stage | General Catalyst, Glade Brook Capita\u2026 +2General Catalyst; Glade Brook Capital Partners; Goodwater Capital; Nexus Venture Partners | $105M | $4.5B | Zepto announced on August 1, 2026 that it had agreed with ma\u2026Zepto announced on August 1, 2026 that it had agreed with major shareholders to close a primary pre-IPO private placement of equity ahead of its planned stock",
+    "verdict": "not_in_source",
+    "reason": "Source confirms $4.5B Aug 2026 and $2.4B revenue, but not a $7B Oct 2025 comparison."
+   },
+   {
+    "url": "https://www.business-standard.com/companies/news/zepto-plans-to-float-rs-11000-crore-ipo-in-july-126052100806_1.html",
+    "claim": "The IPO planned for July 2026 has no confirmed status in the sources reviewed ([Business Standard, 2026](https://www.business-standard.com/companies/news/zepto-plans-to-float-rs-11000-crore-ipo-in-july-126052100806_1.html)).",
+    "source_excerpt": "Friday, October 30, 2026 | 11:15 AM IST\u0939\u093f\u0902\u0926\u0940 \u092e\u0947\u0902 \u092a\u0922\u0947\u0902\n\nNotification Icon\n\nuserprofile IconSearch\n\nHome / Companies / News / Quick commerce firm Zepto plans \u20b911,000-crore IPO in July: Report\n\n# Quick commerce firm Zepto plans \u20b911,000-crore IPO in July: Report\n\n## If the listing goes through, Zepto will join rivals Zomato and Swiggy, which are already listed on stock exchanges\n\nZepto (File Photo: Re",
+    "verdict": "supported",
+    "reason": "Source reports Zepto plans a July IPO, unconfirmed as completed."
+   },
+   {
+    "url": "https://apna.co/jobs/zepto-jobs",
+    "claim": "The clearest in-window signal is an active hiring drive for delivery roles ([Apna, 2026](https://apna.co/jobs/zepto-jobs)).",
+    "source_excerpt": "NewUrgently hiring\n\nZepto\n\n## Picker And Packer\n\nZepto\n\nBanashankari, Bengaluru/Bangalore\n\n\u20b920,000 - \u20b922,000\n\nWork from Office\n\nPart Time\n\nFull Time\n\nAny experience\n\nBasic English\n\nWalk-in interview\n\nNewUrgently hiring\n\nZepto\n\n## Delivery Rider\n\nZepto\n\nMeerut\n\n\u20b950,000 - \u20b985,000\n\nField Job\n\nPart Time\n\nFull Time\n\nAny experience\n\nNo English Required\n\nNewUrgently hiring\n\nZepto\n\n## Delivery Partner\n\nZe",
+    "verdict": "supported",
+    "reason": "Source lists multiple urgently hiring delivery rider and partner roles."
+   },
+   {
+    "url": "https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434",
+    "claim": "- **Competitive landscape.** Blinkit and Zepto face expansion by Amazon (Amazon Now) and Flipkart (Flipkart Minutes) into electronics, beauty, and festive categories. Redseer projects the quick-commerce market at $70\u201390 billion by FY31 ([BW Marketing World, 2026](https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434)). This",
+    "source_excerpt": "logo\n\nSaturday | Nov 14 2026 | 06:09:49 AM\n\n# Quick Commerce Enters Bigger-basket Battle As Blinkit, Zepto Face Amazon & Flipkart\n\nBW Online Bureau;)   Oct 08, 2026\n\n # quick commerce\n # India quick commerce\n # Blinkit\n # Zepto\n # Amazon Now\n # Flipkart Minutes\n # Amazon\n # Flipkart\n # Redseer\n # Google\n # ecommerce\n\nWith the market projected to reach $70\u201390 billion by FY31, quick commerce is movi",
+    "verdict": "supported",
+    "reason": "Source gives $70\u201390B by FY31 and expansion into electronics, beauty, festive."
+   },
+   {
+    "url": "https://apparelresources.com/business-news/retail/zepto-strengthens-leadership-sushant-s-appointment",
+    "claim": "- **Workforce scale (background).** Zepto's India People Experience head oversees more than 300,000 personnel, including over 50,000 associates and 250,000 riders, across more than 1,000 stores and facilities ([Apparel Resources, 2026](https://apparelresources.com/business-news/retail/zepto-strengthens-leadership-sushant-s-appointment)). This was reported in June 2026, outside the window.",
+    "source_excerpt": "## Popular Posts\n\nThe New Fashion Shopper Isn\u2019t Always Chasing a Deal\n\n## The New Fashion Shopper Isn\u2019t Always Chasing a Deal\n\nNov 13, 2026 | 4 hours ago\n\nConvenience, Choice and Personalisation Are Becoming Key to Customer Loyalty\n\n## Convenience, Choice and Personalisation Are Becoming Key to Customer Loyalty\n\nNov 13, 2026 | 4 hours ago\n\nPastel Knitwear Softens the A/W 26 Winter Palette\n\n## Past",
+    "verdict": "not_in_source",
+    "reason": "Source is an appointment notice; the 300,000 workforce figures are not stated."
+   },
+   {
+    "url": "https://m.economictimes.com/industry/services/retail/customers-will-feast-as-zepto-to-pour-fuel-into-quick-commerce-fire/articleshow/131605658.cms",
+    "claim": "- **Reported ED case.** The Economic Times page carries a \"Zepto ED case\" topic tag, but the article content supplied does not confirm any enforcement action. \u26a0 **Unverified; do not treat as fact.** ([Economic Times, 2026](https://m.economictimes.com/industry/services/retail/customers-will-feast-as-zepto-to-pour-fuel-into-quick-commerce-fire/articleshow/131605658.cms))",
+    "source_excerpt": "had filed its IPO papers confidentially with Sebi in December 2025 and received the regulator's approval in May. People aware of the matter told ET that Zepto is targeting a July listing. That would make it the third quick commerce player in the public market, alongside Blinkit parent Eternal and Instamart parent Swiggy. The IPO will also make Zepto the first standalone quick commerce company to l",
+    "verdict": "not_in_source",
+    "reason": "Source shows no ED case tag or enforcement action text."
+   },
+   {
+    "url": "https://www.unifygtm.com/insights/executives/zepto-ceo",
+    "claim": "\u26a0 **No product launch dated within the window was confirmed in the provided sources.** The only related item is a Unify headline, \"Zepto beyond Groceries,\" dated 29 September 2026, which describes the app becoming a broader shopping destination but is outside the window and lacks detail ([Unify, 2026](https://www.unifygtm.com/insights/executives/zepto-ceo)).",
+    "source_excerpt": "Aadit Palicha is the Chief Executive Officer and Co-founder of Zepto. Aadit has held the CEO seat since 2021, and was previously Project Lead at PryvaSee.\n\nUpdated September 24, 2026\n\nResearch Aadit in Unify\n\nTime in seat\n\n5 years\n\nCEO since 2021\n\nCareer span\n\n8 years\n\nFirst recorded role May 2018\n\nFounded\n\n2021\n\nCo-founder of Zepto\n\nSummary [...] Divesh SawhneyChief Growth Officer \u00b7 INDfirstname@",
+    "verdict": "not_in_source",
+    "reason": "The 'Zepto beyond Groceries' headline dated 29 September 2026 is not in the source."
+   },
+   {
+    "url": "https://www.linkedin.com/pulse/top-hires-from-march-2026-leadership-announcements-c7ihc",
+    "claim": "- **In-window hires.** \u26a0 **No Zepto executive appointment within the window was found.** The LinkedIn \"Top Hires\" roundup provided is dated March 2026 and does not mention Zepto ([LinkedIn, 2026](https://www.linkedin.com/pulse/top-hires-from-march-2026-leadership-announcements-c7ihc)).",
+    "source_excerpt": "Skip to main contentLinkedIn\n   Top Content\n   People\n   Learning\n   Jobs\n   Games\n\nJoin nowSign inImage 2\n\nImage 3: Top Hires from March 2026\n\nA curated roundup of key CXO and senior leadership appointments shaping industries from March 2026.\n\n# Top Hires from March 2026\n\n   Report this article\n\nLeadership AnnouncementsImage 4: Leadership Announcements\n\n### Leadership Announcements\n\n#### Celebrat",
+    "verdict": "supported",
+    "reason": "Roundup is from March 2026 and the snippet does not mention Zepto."
+   },
+   {
+    "url": "https://www.hirist.tech/zepto-careers",
+    "claim": "- **Employer sentiment.** Hirist shows a 3.6 out of 5 rating from 3,100 reviews. Cluster Manager roles score lowest at 3.1, and Shift Incharge roles highest at 3.9 ([Hirist, 2026](https://www.hirist.tech/zepto-careers)).",
+    "source_excerpt": "Founded in 2021 by Aadit Palicha and Kaivalya Vohra, Zepto is on a mission to save you time \u2014making every second count towards life's real joys. Our platform has revolutionised rapid commerce in India with cutting-edge technology and strategically optimised delivery hubs. Zepto offers an extensive r\n\nRead More\n\nFounding Year\n\n2021\n\nEmployees Count (India)\n\n5001-10000\n\nEmployees Count (Global)\n\n500",
+    "verdict": "supported",
+    "reason": "Hirist shows 3.6 from 3.1K reviews; Cluster Manager 3.1, Shift Incharge 3.9."
+   },
+   {
+    "url": "https://www.linkedin.com/posts/inc42_newsmakers-activity-7385629592016994304-qiGI",
+    "claim": "| Oct 2025 | Series H, $450M (per Inc42 post, led by CalPERS) | $7B | $1.3B | [Inc42, 2025](https://www.linkedin.com/posts/inc42_newsmakers-activity-7385629592016994304-qiGI); [Multiples, n.d.](https://multiples.vc/private-comps/zepto) |",
+    "source_excerpt": "Here\u2019s a quick recap of this week\u2019s top startup news \ud83d\udea8\ud83d\udc47 \ud83d\udd38Quick commerce major Zepto has raised $450 Mn (INR 3,955 Cr) in a new funding round led by CalPERS, the US-based pension fund, valuing the startup at $7 Bn \u2014 up from $5 Bn late last year. \ud83d\udd38Rapido has announced partnerships with Goibibo, redBus, and Confirmtkt to transform its platform into a one-stop travel and mobility app. With these integ",
+    "verdict": "not_in_source",
+    "reason": "Inc42 supports $450M led by CalPERS at $7B; the $1.3B revenue multiple is absent."
+   },
+   {
+    "url": "https://sg.finance.yahoo.com/news/indias-quick-commerce-company-zepto-074521951.html",
+    "claim": "| Dec 2025 | Confidential IPO filing (\u20b9110B, ~$1.22B) | Not stated | Not stated | [Reuters, 2025](https://sg.finance.yahoo.com/news/indias-quick-commerce-company-zepto-074521951.html) |",
+    "source_excerpt": "-2.86%\n\nDec 29 (Reuters) - Indian quick commerce company Zepto has filed for an \u200binitial public offering worth 110 billion \u200crupees ($1.22 billion) through the confidential route, it said \u200con Monday, in what is expected to be among the country's most anticipated listings in 2026. [...] Quick-commerce firms in India are locked \u2060in an \u200cintense battle for market share, pouring in billions to open more",
+    "verdict": "supported",
+    "reason": "Reuters reports confidential IPO filing for 110 billion rupees (~$1.22B)."
+   },
+   {
+    "url": "https://tracxn.com/d/companies/zepto/__vOTzafGt-8S4kwYniiZ_yRogd6c_Jsw_vRD0gckHtfE/funding-and-investors",
+    "claim": "**Data conflicts.** Sources disagree on total funding. Multiples reports $2.6B across 14 rounds ([Multiples, n.d.](https://multiples.vc/private-comps/zepto)), while Tracxn reports $2.29B across 14 rounds and lists the latest priced round as an Oct 2025 Series H of $300M ([Tracxn, 2026](https://tracxn.com/d/companies/zepto/__vOTzafGt-8S4kwYniiZ_yRogd6c_Jsw_vRD0gckHtfE/funding-and-investors)). Tracx",
+    "source_excerpt": "| May 03, 2022 | $200M | Series D | $900M | 11.5x | Y Combinator | Kaiser Permanente, Nexus Venture Partners, Glade Brook Capital, Lachy Groom |\n| Dec 20, 2021 | $100M | Series C | $150M  Y Combinator | Glade Brook Capital, Nexus Venture Partners, Breyer Capital, Lachy Groom, Contrary Capital, Global Founders Capital |\n| Oct 31, 2021 | $60M | Series A | $225M | 14.9x | Glade Brook Capital | Y Comb",
+    "verdict": "not_in_source",
+    "reason": "Tracxn $300M Oct 2025 Series H is shown; the $2.29B total and 14 rounds are not."
+   }
+  ],
+  "counts": {
+   "supported": 6,
+   "not_in_source": 6,
+   "contradicted": 0
+  }
+ }
 }

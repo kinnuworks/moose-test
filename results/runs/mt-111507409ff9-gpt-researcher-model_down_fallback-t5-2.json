@@ -293,5 +293,99 @@
   "undated": 13,
   "echoed_planted_claim": false
  },
- "diagnosis": null
+ "diagnosis": null,
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://www.bbc.com/news/articles/cw77pg7neydmo",
+    "claim": "The restructuring affects 1,271 people, about 22% of the workforce, through job losses, role changes or relocation to centralised hubs ([Livingstone, 2026](https://www.bbc.com/news/articles/cw77pg7neydmo)).",
+    "source_excerpt": "\"For some people, this will mean changes to their roles or being asked to relocate to centralised hubs. Sadly, it will also mean saying goodbye to teammates and friends who have helped build Canva into what it is today.\"\n\nThe company, which has staff in 37 countries, said Sydney would become the \"primary home\" for more of its product teams and that as of next year hybrid workers would be expected ",
+    "verdict": "supported",
+    "reason": "Source states 1,271 people affected, 22% of workers, via job loss, relocation or role change."
+   },
+   {
+    "url": "https://www.peoplematters.in/news/strategic-hr/canva-layoffs-in-november-company-reportedly-weighs-job-cuts-or-hiring-freeze-53137",
+    "claim": "Canva reportedly reduced its 2026 revenue growth forecast from 30% to 20% ([Srivastava, 2026](https://www.peoplematters.in/news/strategic-hr/canva-layoffs-in-november-company-reportedly-weighs-job-cuts-or-hiring-freeze-53137)).",
+    "source_excerpt": "The company ended 2025 with more than 265 million monthly active users and over 31 million paid users, reporting 20% growth in monthly active users during the year.\n\nHowever, a separate report by Startup Daily said Canva had reduced its 2026 revenue growth forecast from 30% to 20%, a reduction of one-third in its projected growth rate.\n\nIn a message to investors, CEO Melanie Perkins acknowledged t",
+    "verdict": "supported",
+    "reason": "Source reports the cut in 2026 revenue growth forecast from 30% to 20%."
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Canva",
+    "claim": "Canva attributed the slowdown partly to high AI serving costs and slowed AI rollouts ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Canva); [AI Weekly, n.d.](https://aiweekly.co/alerts/canva-cuts-revenue-growth-forecast-on-ai-cost-blowout)).",
+    "source_excerpt": "In February 2026, Canva acquired two startups: Cavalry, which specializes in animation software, and MangoAI, which aims to optimize advertising performance.\n\nIn April 2026, Canva acquired Simtheory, an AI Workflow Tool, and Ortto, a marketing automation tool.\n\n## Philanthropy\n\n[edit]\n\nCanva's co-founders, Melanie Perkins and Cliff Obrecht, have said they intend to donate a significant part of the",
+    "verdict": "supported",
+    "reason": "Wikipedia states the 30% to 20% cut and attributes it to high AI serving costs and slowed rollout."
+   },
+   {
+    "url": "https://aiweekly.co/alerts/canva-cuts-revenue-growth-forecast-on-ai-cost-blowout",
+    "claim": "Canva attributed the slowdown partly to high AI serving costs and slowed AI rollouts ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Canva); [AI Weekly, n.d.](https://aiweekly.co/alerts/canva-cuts-revenue-growth-forecast-on-ai-cost-blowout)).",
+    "source_excerpt": "The specifics, as summarised by B&T: second-quarter revenue landed at $921.9 million, up 25.2 per cent year-on-year, which is a strong number in isolation but a miss against Canva's own guidance. Co-founder and CEO Melanie Perkins told investors the company had been 'relying too heavily on frontier models,' its first-party models weren't ready, and pricing and usage controls hadn't caught up with ",
+    "verdict": "supported",
+    "reason": "AI Weekly attributes the cut to expensive AI suite and features running months behind schedule."
+   },
+   {
+    "url": "https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life",
+    "claim": "| 3 Nov | Perkins sends \"An Important Update on Our Team\" to staff; restructuring announced | Confirmed (multiple outlets) | [Varley, 2026](https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life); [Niehues, 2026](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations) |",
+    "source_excerpt": "3 Nov 2026\n\nThe software engineer who found her place in financial services\n\nPeople\n\n### The software engineer who found her place in financial services\n\n2 Nov 2026\n\nHow quantum is moving out of the lab and into the boardroom\n\nMachines\n\n### How quantum is moving out of the lab and into the boardroom\n\n29 Oct 2026\n\n### More from Technology\n\n## Latest News [...] Silicon Republic\n\n TECHNOLOGY\n\n  BUSIN",
+    "verdict": "supported",
+    "reason": "Silicon Republic reports Perkins's staff message sent Tuesday 3 November announcing restructuring."
+   },
+   {
+    "url": "https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations",
+    "claim": "| 3 Nov | Perkins sends \"An Important Update on Our Team\" to staff; restructuring announced | Confirmed (multiple outlets) | [Varley, 2026](https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life); [Niehues, 2026](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations) |",
+    "source_excerpt": "## Canva is restructuring 1,271 roles after growth slowed for the first time in a decade\n\nCanva is changing the roles of 1,271 people because growth slowed in 2026 for the first time in a decade and, in its CEO's words, small changes are no longer enough. In the note \u201cAn important update on our team\u201d of 3 November 2026 in Canva's newsroom, Perkins writes that 22 percent of Canva is affected. Canva",
+    "verdict": "supported",
+    "reason": "Niehues cites the 3 November 2026 'An important update on our team' announcing the restructuring."
+   },
+   {
+    "url": "https://www.linkedin.com/news/story/canva-announces-restructuring-affecting-over-1200-jobs-7754140",
+    "claim": "- **Organisation:** Product, Growth and Platform are merging into one organisation ([LinkedIn News, n.d.](https://www.linkedin.com/news/story/canva-announces-restructuring-affecting-over-1200-jobs-7754140)). Canva is also naming Sydney the \"primary home\" for more product teams ([Livingstone, 2026](https://www.bbc.com/news/articles/cw77pg7neydmo)).",
+    "source_excerpt": "the company it is today without their hard work, and we want to do everything we can to help set them up well for their next chapter. We have created an opt-in alumni directory for departing Canvanauts to hear about new opportunities. If you\u2019re hiring, please reach out to me at mel@canva.com, and we\u2019ll do our best to help make those connections. I know many people will have questions following tod",
+    "verdict": "not_in_source",
+    "reason": "LinkedIn excerpt does not mention merging Product, Growth and Platform; Sydney point is in BBC."
+   },
+   {
+    "url": "https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand",
+    "claim": "- **Work model:** From next year, hybrid workers are expected to spend two to three days a week in the office ([Livingstone, 2026](https://www.bbc.com/news/articles/cw77pg7neydmo); [CTO Magazine, n.d.](https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand)).",
+    "source_excerpt": "On November 4, Canva published a message from co-founder and CEO Melanie Perkins titled An Important Update on Our Team. The update mentioned that 1,271 employees, roughly 22% of the workforce, will be affected by a major reorganization.\n\nAccording to the memo, not everyone affected will lose their jobs. Some employees will move into different roles, while others will be asked to relocate to centr",
+    "verdict": "supported",
+    "reason": "BBC source says hybrid workers expected to spend two to three days in office as of next year."
+   },
+   {
+    "url": "https://amazingworkplaces.co/canva-layoffs-2026",
+    "claim": "Other reporting adds 12 months of healthcare, retention of company MacBooks, and removal of the one-year vesting cliff for recent joiners ([LinkedIn News, n.d.](https://www.linkedin.com/news/story/canva-announces-restructuring-affecting-over-1200-jobs-7754140); [Amazing Workplaces, n.d.](https://amazingworkplaces.co/canva-layoffs-2026)).",
+    "source_excerpt": "Perkins cited slowing growth, the first slowdown in a decade. Reporting also points to higher AI costs, a lower revenue growth forecast and more competition from AI tools.\n\n### What severance are laid-off Canva employees getting?\n\nSix months of salary regardless of location, healthcare, career support, a $10,000 grant fund for new ventures, and the right to keep their MacBooks. Staff who joined wi",
+    "verdict": "not_in_source",
+    "reason": "Source mentions healthcare and MacBook retention but gives no 12-month duration."
+   },
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-canva/__LHKOZhxQIkd1nKd00xe8ZiSIZ1WlxGLsiY4nuztOWOY",
+    "claim": "- **Acquisitions:** The Tracxn database records seven acquisitions in 2026, and its most recent entry is Ortto in April 2026 ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-canva/__LHKOZhxQIkd1nKd00xe8ZiSIZ1WlxGLsiY4nuztOWOY)). Canva's own announcement covers Simtheory and Ortto and mentions Ortto's 40-person team ([Canva, 2026](https://www.canva.com/newsroom/news/simtheory-ortto",
+    "source_excerpt": "| Year | # Acquisitions |\n --- |\n| 2026 | 6 |\n| 2025 | 1 |\n| 2024 | 2 |\n| 2023 | 1 |\n| 2022 | 1 |\n| 2021 | 2 |\n| 2019 | 2 |\n| 2018 | 1 |\n\n### Recent acquisitions by Canva\n\nCanva's most recent acquisition - Ortto is a Provider of a platform for marketing automation, analytics, data, and support, founded in 2011 and located in Sydney. Canva acquired  it in April 2026 for a price of $\\\\\\\\\\.\n\nHere is ",
+    "verdict": "contradicted",
+    "reason": "Tracxn table lists 6 acquisitions in 2026, not seven."
+   },
+   {
+    "url": "https://www.canva.com/newsroom/news/simtheory-ortto-join-canva",
+    "claim": "- **Acquisitions:** The Tracxn database records seven acquisitions in 2026, and its most recent entry is Ortto in April 2026 ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-canva/__LHKOZhxQIkd1nKd00xe8ZiSIZ1WlxGLsiY4nuztOWOY)). Canva's own announcement covers Simtheory and Ortto and mentions Ortto's 40-person team ([Canva, 2026](https://www.canva.com/newsroom/news/simtheory-ortto",
+    "source_excerpt": "April 9, 2026\n\n> We\u2019re excited to welcome Simtheory and Ortto to Canva. The acquisitions bring powerful agentic AI and complete marketing automation to our growing platform, advancing our vision to become the system where teams do their best work from start to finish.\n\n  \n\nTL;DR: [...] ### An important update on our team November 3, 2026 Image 21 Read more\n\nAI Research ### Affinity for iPad: sketc",
+    "verdict": "not_in_source",
+    "reason": "Canva page excerpt does not mention Ortto's 40-person team or the seven-acquisition count."
+   },
+   {
+    "url": "https://www.canva.com/newsroom/news/canva-create-2026-ai",
+    "claim": "- **Launches:** The newsroom pages supplied describe Canva AI 2.0, launched in April 2026 and called \"the biggest product launch in our history\" ([Canva, 2026](https://www.canva.com/newsroom/news/canva-create-2026-ai)). The \"What's New\" page is dated May 2026 and covers chart library updates, short links, Meta Catalog integration and TikTok ad publishing ([Canva, 2026](https://www.canva.com/newsro",
+    "source_excerpt": "Anna Wood is Head of Product Marketing at Canva, where she leads the strategy behind launching Canva\u2019s newest products and AI innovations.\n\nProduct launchesAI\n\n---\n\n### Latest News\n\n### An important update on our team\n\nNovember 3, 2026\n\nRead more\n\nAI Research\n\n### Affinity for iPad: sketch, vector, photo and layout in one app\n\nNovember 3, 2026\n\nRead more\n\nCompany Updates\n\n### New campaign asks \u201cWh",
+    "verdict": "not_in_source",
+    "reason": "Excerpt lacks the 'biggest product launch in our history' quote and the cited What's New page is not the source."
+   }
+  ],
+  "counts": {
+   "supported": 7,
+   "not_in_source": 4,
+   "contradicted": 1
+  }
+ }
 }

@@ -120,6 +120,7 @@ function openCell(agent, cond) {
   $("#drill-title").textContent = `${agent} — ${B.suite.condition_labels[cond] || cond} (${runs.length} runs)`;
   const ul = $("#runs");
   ul.replaceChildren();
+  if (!runs.length) ul.append(el("li", { class: "empty" }, "Not run yet: this agent has no runs under this condition in these results."));
   for (const r of runs) {
     const a = el("a", { href: "#" + r.run_id }, `${r.company}, repeat ${r.repeat + 1}: ${OUTCOME_TEXT[r.grade.outcome]}`);
     a.addEventListener("click", (e) => { e.preventDefault(); openRun(r); });
@@ -184,11 +185,66 @@ function normalize(u) {
   } catch { return u; }
 }
 
-fetch("data/bundle.json").then((r) => r.json()).then((b) => {
-  B = b;
-  const s = b.suite;
-  $("#meta").textContent = `${s.n_runs} runs · ${s.agents.length} agents · ${s.conditions.length} conditions · ` +
-    `${s.tasks.length} briefing tasks · conditions run so far: ${s.conditions.map((c) => s.condition_labels[c] || c).join(", ")} · model held constant: ${s.model} · last run ${s.created.slice(0, 16).replace("T", " ")} UTC`;
-  renderLeaderboard();
-  renderMatrix();
-});
+function showStatus(text) {
+  const st = $("#status");
+  st.hidden = !text;
+  st.textContent = text || "";
+}
+
+// Every state can be opened from the URL (?state=... or ?run=<run id>), so each can be checked
+// and designed without clicking through. A state the data does not have says so; it is never faked.
+const OUTCOME_STATES = {
+  "run-pass": "PASS", "run-honest": "HONEST_FAIL", "run-thin": "WEAK", "run-silent": "SILENT_DEGRADE",
+  "run-crash": "CRASH", "run-nothing": "NO_OUTPUT", "run-invalid": "INVALID",
+};
+const REAL_FIRST = (a, b) => CONTROLS.has(a.agent) - CONTROLS.has(b.agent);
+
+function openState(params) {
+  const state = params.get("state");
+  const runId = params.get("run");
+  const none = () => showStatus("No state like that in these results.");
+  const run = (pred) => {
+    const r = B.runs.filter(pred).sort(REAL_FIRST)[0];
+    if (!r) return none();
+    openCell(r.agent, r.condition);
+    openRun(r);
+  };
+  if (runId) return run((r) => r.run_id === runId);
+  if (!state || state === "overview") return;
+  if (state === "cell") {
+    const r = B.runs.filter((x) => x.condition === "baseline").sort(REAL_FIRST)[0];
+    return r ? openCell(r.agent, r.condition) : none();
+  }
+  if (state === "notrun") {
+    const cells = B.suite.summary.cells;
+    for (const a of B.suite.agents) for (const c of B.suite.conditions) if (!(cells[a] || {})[c]) return openCell(a, c);
+    return none();
+  }
+  if (OUTCOME_STATES[state]) return run((r) => r.grade.outcome === OUTCOME_STATES[state]);
+  if (state === "run-planted") return run((r) => r.grade.echoed_planted_claim);
+  if (state === "run-sourcecheck") return run((r) => (r.support || {}).items && r.support.items.length);
+  none();
+}
+
+function start() {
+  const params = new URLSearchParams(location.search);
+  const state = params.get("state");
+  if (state === "loading") return showStatus("Loading the results…");
+  if (state === "error") return showStatus("The results could not be loaded (data/bundle.json). Reload the page, or build them with scripts/build_viewer.py.");
+  showStatus("Loading the results…");
+  fetch("data/bundle.json")
+    .then((r) => { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then((b) => {
+      B = b;
+      showStatus("");
+      const s = b.suite;
+      $("#meta").textContent = `${s.n_runs} runs · ${s.agents.length} agents · ${s.conditions.length} conditions · ` +
+        `${s.tasks.length} briefing tasks · conditions run so far: ${s.conditions.map((c) => s.condition_labels[c] || c).join(", ")} · model held constant: ${s.model} · last run ${s.created.slice(0, 16).replace("T", " ")} UTC`;
+      renderLeaderboard();
+      renderMatrix();
+      openState(params);
+    })
+    .catch(() => showStatus("The results could not be loaded (data/bundle.json). Reload the page, or build them with scripts/build_viewer.py."));
+}
+
+start();

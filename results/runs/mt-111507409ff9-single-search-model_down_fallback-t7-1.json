@@ -131,49 +131,49 @@
     "claim": "**Company snapshot:** Infosys is an IT services and consulting company headquartered in Bangalore, founded in 1981 (https://tavily.com/knowledge/company/Gbd7vUUlzCYP). It employs over 325,000 people and operates in 59 countries (https://www.thehindubusinessline.com/markets/stock-markets/infosys-shares-slide-over-2-hyderabad-campus-expansion-fails-to-lift-sentiment/article71655856.ece).",
     "source_excerpt": "# Infosys\nID: Gbd7vUUlzCYP\nWebsite: www.infosys.com\nLegal name: Infosys Limited\nHeadquarters: Bangalore, Karnataka, India\nLinkedIn: www.linkedin.com/company/infosys \u00b7 11,552,755 followers\nIndustry: IT Services and IT Consulting\nCompany type: Public Company\nFounded: 1981\nBusiness model: B2B\nSaaS: no\nSocial profiles: www.facebook.com/infosys, www.twitter.com/infosys, www.crunchbase.com/organization/",
     "verdict": "not_in_source",
-    "reason": "Tavily profile gives HQ and 1981 founding, but not the 325,000 employees or 59 countries."
+    "reason": "Source confirms Bangalore HQ and 1981 founding, but not the 325,000 employees or 59 countries."
    },
    {
     "url": "https://www.thehindubusinessline.com/markets/stock-markets/infosys-shares-slide-over-2-hyderabad-campus-expansion-fails-to-lift-sentiment/article71655856.ece",
     "claim": "**Company snapshot:** Infosys is an IT services and consulting company headquartered in Bangalore, founded in 1981 (https://tavily.com/knowledge/company/Gbd7vUUlzCYP). It employs over 325,000 people and operates in 59 countries (https://www.thehindubusinessline.com/markets/stock-markets/infosys-shares-slide-over-2-hyderabad-campus-expansion-fails-to-lift-sentiment/article71655856.ece).",
     "source_excerpt": "The inauguration was attended by Telangana Deputy Chief Minister Mallu Bhatti Vikramarka and IT Minister Duddilla Sridhar Babu, along with Infosys CFO Jayesh Sanghrajka. The facility is designed to support clients in banking, retail, life sciences and manufacturing, and incorporates energy-efficient systems including radiant cooling and rainwater harvesting.\n\nInfosys employs over 325,000 people gl",
     "verdict": "supported",
-    "reason": "Source states Infosys employs over 325,000 people and operates across 59 countries."
+    "reason": "Article states Infosys employs over 325,000 people across 59 countries."
    },
    {
     "url": "https://www.stocktitan.net/news/INFY/infosys-differentiated-ai-strategy-and-a-sharp-focus-on-value-unlock-sjalje8xfokm.html",
     "claim": "- Revenue was $5,145 million. AI revenue grew 29% sequentially and makes up 10.5% of revenue. Reported revenue rose 1.3% year over year, and operating margin was 21.0% (https://www.stocktitan.net/news/INFY/infosys-differentiated-ai-strategy-and-a-sharp-focus-on-value-unlock-sjalje8xfokm.html).",
     "source_excerpt": "## Rhea-AI Summary\n\nInfosys (INFY) reported second-quarter revenue of $5,145 million, with AI revenue growing 29% sequentially and accounting for 10.5% of revenue. For the quarter ended September 30, 2026, reported revenue rose 1.3% year over year; growth excluding currency effects was 1.5% annually and 1.2% sequentially. Operating margin remained at 21.0%. Large-deal total contract value reached ",
     "verdict": "supported",
-    "reason": "Source gives $5,145M revenue, AI 29% sequential growth, 10.5% share, 1.3% YoY, 21.0% margin."
+    "reason": "Source gives $5,145M revenue, 29% AI growth, 10.5% share, 1.3% YoY, 21.0% margin."
    },
    {
     "url": "https://upstox.com/news/market-news/stocks/infosys-adr-falls-over-7-as-it-major-lowers-annual-revenue-growth-guidance-everything-investors-need-to-know/article-202325",
     "claim": "- The company lowered its annual revenue growth guidance. The ADR fell over 7% on 23 October (https://upstox.com/news/market-news/stocks/infosys-adr-falls-over-7-as-it-major-lowers-annual-revenue-growth-guidance-everything-investors-need-to-know/article-202325).",
     "source_excerpt": "return to news\n\n1. Upstox\n\n   /\n2. News\n\n   /\n3. Market News\n\n   /\n4. Stocks\n\n   /\n5. Infosys ADR falls over 7% as IT major lowers annual revenue growth guidance; everything investors need to know\n\nMarket News\n\n# Infosys ADR falls over 7% as IT major lowers annual revenue growth guidance; everything investors need to know\n\nimage Ahana Chatterjee\n\nBy Ahana Chatterjee\n\n3 min read | Updated on Octobe",
     "verdict": "supported",
-    "reason": "Headline states ADR fell over 7% as Infosys lowered annual revenue growth guidance."
+    "reason": "Headline says ADR fell over 7% as Infosys lowered annual revenue growth guidance, updated October 23."
    },
    {
     "url": "https://scanx.trade/stock-market-news/companies/infosys-hold-investor-roadshows-london-edinburgh-november/54668108",
     "claim": "- A headline reports that shares fell 6.5% after Q2 EPS missed estimates by $0.01 (https://scanx.trade/stock-market-news/companies/infosys-hold-investor-roadshows-london-edinburgh-november/54668108, dated 27 October).",
     "source_excerpt": "no imag found\n\nInfosys shares fall 6.5% as Q2 EPS misses estimates by $0.01 Oct 27, 2026\n\nno imag found\n\nBMO Capital raises Infosys price target to $13, maintains Market Perform Oct 26, 2026\n\nno imag found\n\nInfosys reports North America revenue decline amid sector slowdowns Oct 23, 2026\n\nno imag found\n\nInfosys block trade of \u20b969.49 crore executed on NSE Oct 23, 2026\n\nno imag found\n\nInfosys expands",
     "verdict": "supported",
-    "reason": "Headline reports shares fell 6.5% as Q2 EPS missed estimates by $0.01, Oct 27."
+    "reason": "Headline states shares fell 6.5% as Q2 EPS missed estimates by $0.01, dated Oct 27."
    },
    {
     "url": "https://timesofindia.indiatimes.com/city/hyderabad/infosys-sets-up-new-1-1m-sq-ft-block-at-pocharam-campus-in-hyderabad-to-cater-to-emerging-technologies/articleshow/135366954.cms",
     "claim": "- Infosys set up a new 1.1 million sq ft block at its Pocharam campus in Hyderabad to serve emerging technologies (https://timesofindia.indiatimes.com/city/hyderabad/infosys-sets-up-new-1-1m-sq-ft-block-at-pocharam-campus-in-hyderabad-to-cater-to-emerging-technologies/articleshow/135366954.cms, 30 October).",
     "source_excerpt": "Saurav Das\n\nIAS Shikhar Agrawal\n\nBengaluru Rape\n\nDelhi Rain\n\nGandhi's Grandson\n\nLucknow Murder\n\nSaurav Das\n\n# Infosys sets up new 1.1M sq ft block at Pocharam campus in Hyderabad to cater to emerging technologies\n\n[]( Bharadwaj /  Oct 30, 2026, 20:17 IST\n\nComments\n\nShare\n\nAa\n\nText Size\n\n Small\n Medium\n Large\n\nPrint\n\nInfosys sets up new 1.1M sq ft block at Pocharam campus in Hyderabad to cater to e",
     "verdict": "supported",
-    "reason": "Headline reports a new 1.1M sq ft block at Pocharam campus for emerging technologies, Oct 30."
+    "reason": "Headline reports new 1.1M sq ft block at Pocharam campus for emerging technologies, Oct 30."
    },
    {
     "url": "https://news.careers360.com/infosys-prize-2026-scholars-from-tifr-princeton-carnegie-mellon-uc-san-ranscisco-new-south-wales-singapore-universities-winners",
     "claim": "- The Infosys Science Foundation announced the 2026 Infosys Prize on 12 November. Each award carries USD 100,000 (https://news.careers360.com/infosys-prize-2026-scholars-from-tifr-princeton-carnegie-mellon-uc-san-ranscisco-new-south-wales-singapore-universities-winners). This is reputational, not commercial.",
     "source_excerpt": "JKBOSE Result 2026\n\nGATE 2027\n\nTrusted Source Image\n\n# Infosys Prize 2026: Scholars from TIFR, Princeton, Carnegie Mellon, UC San Francisco among winners\n\nVishnukumar V | November 12, 2026 | 05:30 PM IST | 2 mins read\n\nInfosys Science Foundation recognises six researchers for their contributions to economics, computer science, humanities, life sciences, mathematics and physical sciences. [...] The",
     "verdict": "supported",
-    "reason": "Source says winners announced November 12, 2026, with USD 100,000 prize money each."
+    "reason": "Source says 2026 Infosys Prize announced November 12 with USD 100,000 prize money each."
    }
   ],
   "counts": {

@@ -266,61 +266,61 @@
     "claim": "**Bottom line:** The provided sources contain no Zepto news, launches, hires, or deals dated within that 30-day window. The most recent Zepto-specific item is dated 1 August 2026, when the company reportedly postponed its IPO by two to three quarters ([Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo)). The record therefore shows a gap of roughly three and a half months. Before the meeting,",
     "source_excerpt": "1,031 Views| 11 Nov 2026\n Veritas Finance IPO Gets SEBI Approval for \u20b9900 Crore Fresh Issue; Price Band and Launch Date Yet to Be Announced\n\n  Veritas Finance IPO Gets SEBI Approval for \u20b9900 Crore Fresh Issue; Price Band and Launch Date Yet to Be Announced\n\n  1,012 Views| 11 Nov 2026\n Mahanadi Coalfields IPO: Coal India Plans $1 Billion Share Sale After SEBI Clearance; What Investors Should Know [",
     "verdict": "not_in_source",
-    "reason": "Kotak Neo text shows other IPO listings; no Zepto postponement or 1 August 2026 date."
+    "reason": "Kotak Neo excerpt lists Nov 2026 IPO news; no Zepto postponement mentioned."
    },
    {
     "url": "https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed",
     "claim": "The YourStory report on the pre-IPO round is also from July 2026 ([YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed)).",
     "source_excerpt": "Photo of Press Trust of IndiaPress Trust of India11266 Stories\n\nZepto to raise Rs 1,000 Cr in pre-IPO round at $4.5B valuation; public listing delayed\n\nFriday July 31, 2026, 2 min Read\n\nGoogle Preferred\n\nQuick-commerce unicorn Zepto is set to raise approximately Rs 1,000 crore in a pre-IPO funding round at a valuation of around $4.5 billion, and has pushed back its initial public offering timeline",
     "verdict": "supported",
-    "reason": "Source is dated Friday July 31, 2026 and its URL path is 2026/07."
+    "reason": "URL and article dated Friday July 31, 2026, covering the pre-IPO round."
    },
    {
     "url": "https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet",
     "claim": "| 8 Jun 2026 | Filing reveals fast revenue growth and larger losses; some shareholders will not sell in the offer-for-sale | Financials / IPO | [Singh, 2026](https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet) |",
     "source_excerpt": "Zepto plans to raise up to \u20b980.1 billion (about $837.41 million) through a fresh issue of shares. The IPO will also include an offer-for-sale of up to 113.5 million shares by existing investors including Nexus Venture Partners, Contrary, and Razor Ventures, with the final size of the sale dependent on the eventual pricing of the offering. The startup also said it may raise up to \u20b916.02 billion (ab",
-    "verdict": "not_in_source",
-    "reason": "June 8 filing and fast growth are supported, but 'some shareholders will not sell' is not stated."
+    "verdict": "supported",
+    "reason": "Filing released June 2026 shows fast growth, larger losses, and OFS by existing investors."
    },
    {
     "url": "https://finance.yahoo.com/news/zepto-raises-450-million-7-101211041.html",
     "claim": "The company closed a $450 million Series H round led by CalPERS at a $7 billion valuation in October 2025 ([Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo); [TechCrunch via Yahoo Finance, 2025](https://finance.yahoo.com/news/zepto-raises-450-million-7-101211041.html)).",
-    "source_excerpt": "+1.47%\n\nIndian quick-commerce startup Zepto said it has raised $400 million in a funding round led by a new investor, California Public Employees' Retirement System (CalPERS), a U.S.-based pension fund. The round, which is a mix of primary and secondary investment, also has participation from existing investors, including Avenir, Avra, Lightspeed, Glade Brook, The Stepstone Group, and Nexus Ventur",
+    "source_excerpt": "+1.47%\n\nIndian quick-commerce startup Zepto said it has raised $400 million in a funding round led by a new investor, California Public Employees' Retirement System (CalPERS), a U.S.-based pension fund. The round, which is a mix of primary and secondary investment, also has participation from existing investors, including Avenir, Avra, Lightspeed, Glade Brook, The Stepstone Group, and Nexus Venture Partners. After this funding, the company plans to go public next year. [...] \"The key metric for this round of funding was our ability to turn dark stores profitable while acquiring over 10 million new monthly transcating users. We obviously invested incrementally in customer acquisition and store launches. But even as you were doing that, we were able to keep turning stores profitable,\" Palicha told TechCrunch. [...] Zepto competes with other quick commerce players such as Eternal's (formerly Zomato) BlinkIt, Swiggy Instamart, and Tata-owned BigBasket \u2014 all part of publicly listed companies. The startup has been on a funding spree as it picked up $1.3 billion in a span of several months last year. Since Zepto's last funding round in November 2024, Swiggy made its public debut on India's stock exchange, and Blinkit surpassed Zomato in gross order value (the total value of customer orders) for Q1 2025.",
     "verdict": "contradicted",
-    "reason": "Source says Zepto raised $400 million, not $450 million."
+    "reason": "Source says a $400 million round led by CalPERS, not $450 million."
    },
    {
     "url": "https://dhan.co/blog/news/zepto-ipo-update-2026",
     "claim": "| Early 2026 outlook | \u20b911,000 crore issue at a $7\u20138 billion valuation | [Team Dhan, 2026](https://dhan.co/blog/news/zepto-ipo-update-2026) |",
     "source_excerpt": "Complete list of Stock Market holidays in November 2026](/blog/news/stock-market-holidays-in-november-2026/)\n\n  \n\nnews banner\n\nfuzz\n\nnews banner\n\n## Read More on News\n\n Top 50 Largest Stock Brokers in the India by Active Clients (Oct 2026)\n Muhurat Trading 2026: Date, time, history & significance\n Complete list of Stock Market holidays in November 2026\n\n[News\n\nTop 50 Largest Stock Brokers in the I",
     "verdict": "not_in_source",
-    "reason": "Dhan page text shows no \u20b911,000 crore issue or $7\u20138 billion valuation."
+    "reason": "Excerpt contains no \u20b911,000 crore issue size or $7\u20138 billion valuation outlook."
    },
    {
     "url": "https://dhan.co/blog/ipo/zepto-funding-history-and-valuation-journey",
     "claim": "| Updated DRHP (June 2026) | Fresh issue of \u20b98,010 crore; total size about \u20b910,000 crore | [Team Dhan, 2026](https://dhan.co/blog/ipo/zepto-funding-history-and-valuation-journey) |",
     "source_excerpt": "As per the Updated DRHP filed in June 2026, the Zepto IPO is a combination of a fresh issue of \u20b98,010 crore and an OFS, with the total IPO size estimated to be approximately \u20b910,000 crore.\n This will be a structural IPO for the quick commerce segment as Zepto will be the first quick commerce pure-play business to list on a domestic exchange, with rivals like Blinkit and Swiggy Instamart already gi",
     "verdict": "supported",
-    "reason": "Source states fresh issue of \u20b98,010 crore and total size about \u20b910,000 crore."
+    "reason": "Updated DRHP June 2026 cites \u20b98,010 crore fresh issue and ~\u20b910,000 crore total."
    },
    {
     "url": "https://www.criteo.com/news/press-releases/2025/08/criteo-and-zepto-partner-to-drive-the-next-wave-of-quick-commerce-in-india",
     "claim": "- **Launches:** No new product or market launches appear in the sources for the 30-day window. The most recent dated product-related item is a 2025 advertising partnership with Criteo for retail media ([Criteo, 2025](https://www.criteo.com/news/press-releases/2025/08/criteo-and-zepto-partner-to-drive-the-next-wave-of-quick-commerce-in-india)).",
     "source_excerpt": "INDIA, Aug 21, 2025 \u2013 Criteo (NASDAQ: CRTO), the global platform connecting the commerce ecosystem, today announced its deepened strategic partnership with Zepto, India\u2019s fastest-growing quick commerce platform. The collaboration, which began last year, aims to scale retail media campaigns, enabling brands to enhance their media offerings across the open internet and deliver a full-funnel, connect",
     "verdict": "supported",
-    "reason": "Source is an August 2025 Criteo and Zepto retail media partnership release."
+    "reason": "Criteo\u2013Zepto retail media partnership press release dated Aug 21, 2025."
    },
    {
     "url": "https://techcrunch.com/2021/12/20/zepto-a-10-minute-grocery-delivery-app-in-india-raises-100-million",
     "claim": "- **Hires:** No senior hiring announcements appear for the window. Earlier reporting describes executives from Flipkart, Amazon, Uber, Dream11, and PharmEasy joining in 2021 ([TechCrunch, 2021](https://techcrunch.com/2021/12/20/zepto-a-10-minute-grocery-delivery-app-in-india-raises-100-million)).",
     "source_excerpt": "Another thing moving in the right direction for Zepto is the talent it has been able to attract in recent months. Several high-profile executives from Flipkart, Amazon Uber, Dream 11 and Pharmeasy have joined the startup. [...] Palicha said one of the reasons why so many executives have joined Zepto is that it has enabled many who had moved from Mumbai to Bangalore to come back to their home city.",
     "verdict": "supported",
-    "reason": "Source says executives from Flipkart, Amazon, Uber, Dream 11 and Pharmeasy joined."
+    "reason": "TechCrunch 2021 article says executives from Flipkart, Amazon, Uber, Dream 11, Pharmeasy joined."
    }
   ],
   "counts": {
-   "supported": 4,
-   "not_in_source": 3,
+   "supported": 5,
+   "not_in_source": 2,
    "contradicted": 1
   }
  }

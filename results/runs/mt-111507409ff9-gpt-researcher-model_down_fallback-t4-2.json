@@ -300,42 +300,42 @@
     "claim": "On 11 November 2026 the company launched a second-generation, always-on Genie, a Genie Ontology layer, and expanded Genie Search to more than 100 enterprise data sources ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)).",
     "source_excerpt": "SAN FRANCISCO \u2014 November 11, 2026 \u2014 Databricks, the Data and AI company, today announced the second generation of Genie that changes how people get work done: Genie is now an always-on, autonomous agent for enterprise work. Employees can give Genie a goal and trust it to keep work moving. Genie takes ownership of the work, delegates to subagents when needed, tracks progress, follows up on missing ",
     "verdict": "not_in_source",
-    "reason": "Source confirms the Nov 11 always-on Genie launch but not the Ontology layer or 100+ source Search expansion."
+    "reason": "Source confirms the Nov 11 always-on Genie launch but not Ontology layer or 100+ sources."
    },
    {
     "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november",
     "claim": "In the same week, Genie connectors and plugins were rolled out for Microsoft 365 Copilot, Copilot Cowork, ChatGPT, Claude, and Grok Bot/Cursor ([Microsoft Learn, 2026](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november)).",
     "source_excerpt": "15.   The Genie One desktop app for Windows is in Beta\n16.   Connect Claude to Genie One with the Databricks Genie connector\n17.   Feature Views are now available by default for workspaces with the compliance security profile enabled\n18.   Write custom service policies in Python (Beta)\n19.   Bring your own ChatGPT subscription to Codex with Unity Gateway\n20.   Text and binary inputs for protobuf r",
     "verdict": "not_in_source",
-    "reason": "Source mentions only a Claude connector; no M365 Copilot, ChatGPT, or Grok/Cursor rollouts."
+    "reason": "Source shows a Claude connector only; no Microsoft 365 Copilot, ChatGPT, or Grok/Cursor rollout."
    },
    {
     "url": "https://lakewave.ai/company/databricks",
     "claim": "Third-party trackers report 896 open roles, including nine in leadership, as of mid-November ([Lakewave, 2026](https://lakewave.ai/company/databricks)).",
-    "source_excerpt": "| When | What happened | Kind | Source |\n ---  --- |\n| Nov 10, 2026 | 919 open roles, 8 in leadership | Hiring | Careers page |\n| Nov 5, 2026 | Hiring a leader: Director of Engineering - Databricks Commercialization & Marketplace | Hiring | SEC filing |\n| Nov 5, 2026 | Posted a Director of Engineering - Databricks Commercialization & Marketplace opening | Hiring | Careers page |\n| Nov 3, 2026 | Hi",
+    "source_excerpt": "| When | What happened | Kind | Source |\n ---  --- |\n| Nov 10, 2026 | 919 open roles, 8 in leadership | Hiring | Careers page |\n| Nov 5, 2026 | Hiring a leader: Director of Engineering - Databricks Commercialization & Marketplace | Hiring | SEC filing |\n| Nov 5, 2026 | Posted a Director of Engineering - Databricks Commercialization & Marketplace opening | Hiring | Careers page |\n| Nov 3, 2026 | Hiring a leader: Genie Sales Director (AI/BI) | Hiring | SEC filing | [...] | Role | Contact | Source | Why they matter now |\n ---  --- |\n| Executive Officer | Ali Ghodsi | SEC filing, Aug 2026 | Named officer in the filing; part of the buying group |\n| Executive Officer | David Conte | SEC filing, Aug 2026 | Named officer in the filing; part of the buying group |\n| Executive Officer | Tram Phi | SEC filing, Aug 2026 | Named officer in the filing; part of the buying group | [...] | Executive Officer | Ion Stoica | SEC filing, Aug 2026 | Named officer in the filing; part of the buying group |\n| Executive Officer | Matei Zaharia | SEC filing, Aug 2026 | Named officer in the filing; part of the buying group |\n| Chief Technology Officer | Scott Shenker | SEC filing, Aug 2026 | Technology and tooling decisions |\n| Chief Technology Officer | Ben Horowitz | SEC filing, Aug 2026 | Technology and tooling decisions |",
     "verdict": "contradicted",
-    "reason": "Source reports 919 open roles and 8 in leadership as of Nov 10."
+    "reason": "Source reports 919 open roles and 8 in leadership, not 896 and nine."
    },
    {
     "url": "https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements",
     "claim": "The Data + AI Summit took place from 15 to 18 June 2026 at Moscone Center in San Francisco, with more than 30,000 in-person attendees ([Atlan, 2026](https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements); [Flexera, 2026](https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026)).",
     "source_excerpt": "1. Databricks Launches Genie One: All-New Agentic Coworker for Every Team, Databricks Newsroom\n2. What\u2019s new with Unity Catalog at Data + AI Summit 2026, Databricks Blog\n3. AI governance at Data + AI Summit 2026: What\u2019s new with Unity AI Gateway, Databricks Blog\n4. Agent Bricks: Data + AI Summit 2026, Databricks Blog\n5. What\u2019s new in Genie Code at Data + AI Summit 2026, Databricks Blog [...] The t",
     "verdict": "not_in_source",
-    "reason": "Excerpt mentions Moscone Center but gives no dates or attendance figures."
+    "reason": "Source mentions Moscone Center but not the 15\u201318 June dates or 30,000 attendees."
    },
    {
     "url": "https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026",
     "claim": "The Data + AI Summit took place from 15 to 18 June 2026 at Moscone Center in San Francisco, with more than 30,000 in-person attendees ([Atlan, 2026](https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements); [Flexera, 2026](https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026)).",
     "source_excerpt": "Databricks Data + AI Summit 2026 at Moscone Center\n\nDatabricks Data + AI Summit 2026 at Moscone Center\n\nDatabricks shipped a significant amount of product this year. Sessions were dense. Announcements came fast. This article breaks down every significant launch across all four days and what to expect in the months ahead.\n\n## Databricks Data + AI Summit 2026 product announcements summary\n\nHere is a",
     "verdict": "not_in_source",
-    "reason": "Excerpt mentions Moscone Center but gives no dates or attendance figures."
+    "reason": "Source mentions Moscone Center and four days but not the June dates or attendance figure."
    },
    {
     "url": "https://en.wikipedia.org/wiki/Databricks",
     "claim": "In July 2026, Databricks and Microsoft announced an expanded integration extending into the 2030s, which includes Genie being integrated into Microsoft 365, Teams, and Copilot ([Wikipedia, 2026](https://en.wikipedia.org/wiki/Databricks)).",
     "source_excerpt": "In 2025, Databricks acquired a serverless database startup, Neon, for around $1 billion. In June 2026, Databricks announced it had agreed to acquire Panther Labs, an AI security operations center (SOC) platform, in order to use Panther's technology to support development for the security lakehouse capabilities of Lakewatch. In August 2026, Databricks acquired Electric, a data synchronization firm,",
     "verdict": "not_in_source",
-    "reason": "Source has no mention of a July 2026 Microsoft integration or Genie in Microsoft products."
+    "reason": "Source does not mention a July 2026 Microsoft integration or Genie in Microsoft 365 or Teams."
    },
    {
     "url": "https://www.unifygtm.com/insights/executives/databricks-ceo",
@@ -347,23 +347,23 @@
    {
     "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-closes-series-h-with-additional-participation-from-strategic-partners",
     "claim": "- The Series H press release referenced in the materials has no date or figures in the provided text ([Databricks, n.d.](https://www.databricks.com/company/newsroom/press-releases/databricks-closes-series-h-with-additional-participation-from-strategic-partners)).",
-    "source_excerpt": "SAN FRANCISCO - September 9, 2021 - Databricks, the Data and AI company and a pioneer of the data lakehouse architecture, today announced the final closing of their recent Series H funding. Cloud leaders and existing investors Amazon Web Services (AWS), CapitalG, and Microsoft will participate in Databricks\u2019 $1.6 billion round of funding, which puts the company at a $38 billion post-money valuatio",
+    "source_excerpt": "SAN FRANCISCO - September 9, 2021 - Databricks, the Data and AI company and a pioneer of the data lakehouse architecture, today announced the final closing of their recent Series H funding. Cloud leaders and existing investors Amazon Web Services (AWS), CapitalG, and Microsoft will participate in Databricks\u2019 $1.6 billion round of funding, which puts the company at a $38 billion post-money valuation. The Series H funding will be used to accelerate innovation and adoption of the lakehouse as the [...] Press Contact: Press@databricks.com  \n IR Contact: IR@databricks.com\n\nContact our press team\n\nPress inquiries:press@databricks.com\n\nPress Kit\n\nExplore our press kit for company news, info, logos, photos and more.\n\nShare this article\n\n## Latest Press Releases\n\nOctober 13, 2026\n\nFox Corporation Selects Databricks as Strategic Partner for Next-Generation Data and AI Platform\n\nRead now\n\nSeptember 24, 2026\n\nDatabricks Acquires Row Zero, Bringing Live, Governed Spreadsheets to Genie\n\nRead now [...] \u201cWe are delighted to once again include our most strategic partners in this latest round of funding, as it validates our vision for an open and unified approach to data and AI on any cloud,\u201d said Ali Ghodsi, Co-Founder and CEO of Databricks. \u201cAs we jointly make more organizations successful in their move to the cloud and accelerate adoption of the lakehouse architecture, we\u2019re excited to see these partnerships \u2013 and the ecosystems formed around them \u2013 continue to grow for decades to come.\u201d",
     "verdict": "contradicted",
-    "reason": "Source is dated September 9, 2021 and gives a $1.6 billion round at $38 billion valuation."
+    "reason": "Source is dated September 9, 2021 and states a $1.6 billion round at $38 billion valuation."
    },
    {
     "url": "https://app.fundz.net/products/databricks-product-launch-917146",
     "claim": "[https://app.fundz.net/products/databricks-product-launch-917146](https://app.fundz.net/products/databricks-product-launch-917146)",
     "source_excerpt": "See plan options\n\nTrusted byOracleSnowflakeCloudflareLinkedInGoogleSalesforce\u2605\u2605\u2605\u2605\u2605 4.8/5 on G2\n\n# LaunchDatabricks launched the second-generation Genie, an always-on autonomous AI assistant for enterprise work.\n\nNov 11, 2026\n\nSan FranciscoInformation TechnologySoftwareArtificial IntelligenceAnalyticsinformation technology & services\n\n### Product Description [...] The new Genie autonomously manages",
     "verdict": "supported",
-    "reason": "Cited URL is the Fundz Databricks product launch page, which matches the claim's reference."
+    "reason": "Fundz page describes Databricks' November 11, 2026 second-generation Genie launch."
    },
    {
     "url": "https://builtin.com/company/databricks/faq/leadership-management",
     "claim": "[https://builtin.com/company/databricks/faq/leadership-management](https://builtin.com/company/databricks/faq/leadership-management)",
     "source_excerpt": "Strengths in long-horizon strategic planning, open communication cadences, and visible follow-through are accompanied by challenges in sharpening near-term priorities within a rapidly broadening platform. Together, these dynamics suggest strong, founder-led direction that will benefit from continued clarity on scope, sequencing, and coordination to sustain alignment and execution pace.\n\n## Key Ins",
     "verdict": "supported",
-    "reason": "Cited URL is the Built In Databricks leadership page, which matches the claim's reference."
+    "reason": "Built In page on Databricks leadership, updated November 6, 2026, is the cited source."
    }
   ],
   "counts": {

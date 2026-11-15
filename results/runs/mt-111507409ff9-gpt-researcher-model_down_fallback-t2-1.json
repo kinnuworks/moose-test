@@ -298,7 +298,7 @@
    {
     "url": "https://www.parafin.com/blog/parafin-is-joining-stripe",
     "claim": "Stripe's most material verifiable change in the window is the completion of its acquisition of Parafin, a small-business lending and capital-markets company, which closed on 11 November 2026 ([Parafin, 2026](https://www.parafin.com/blog/parafin-is-joining-stripe)).",
-    "source_excerpt": "Parafin is joining Stripe.We are excited to share that Parafin is joining Stripe.Read more\n\nParafin is joining Stripe\n\n# Parafin is joining Stripe\n\nToday, we're excited to share that Parafin has reached an agreement to be acquired by Stripe. Together, we're going to make it faster and easier for small and medium businesses to get the financing they need to thrive.\n\n## Why we started Parafin [...] ",
+    "source_excerpt": "Parafin is joining Stripe.We are excited to share that Parafin is joining Stripe.Read more\n\nParafin is joining Stripe\n\n# Parafin is joining Stripe\n\nToday, we're excited to share that Parafin has reached an agreement to be acquired by Stripe. Together, we're going to make it faster and easier for small and medium businesses to get the financing they need to thrive.\n\n## Why we started Parafin [...] We started Parafin because we believed SMBs deserve financial products as good as the ones big companies enjoy. Inside Stripe, we will get to help more businesses as we pursue this endeavor at an even greater scale.\n\nOnwards,\n\nSahill, Vineet,and the Parafin team\n\nThe proposed transaction is expected to close in the coming months, subject to customary closing conditions, including any required regulatory clearances.\n\n## Read more\n\ngusto-payroll-bridge [...] What we're proudest of isn't the volume. It's that the typical business we fund is exactly the one incumbents overlook, and that those businesses come back and keep growing.\n\n## Why Stripe",
     "verdict": "contradicted",
     "reason": "Source says the deal is pending and expected to close in coming months, not closed."
    },
@@ -307,7 +307,7 @@
     "claim": "Its stated mission is \"to increase the GDP of the internet,\" and it describes millions of companies, from large enterprises to early-stage startups, as users ([Stripe, n.d.](https://stripe.com/careers/listing/strategic-account-executive-ai-sales/8194397)).",
     "source_excerpt": "Strategic Account Executive, AI Sales. Additional benefits for this role may include: equity, company bonus or sales commissions/bonuses; 401(k) plan; medical,",
     "verdict": "not_in_source",
-    "reason": "Source is a job listing; it does not mention the mission statement."
+    "reason": "Job listing text does not state the GDP-of-the-internet mission."
    },
    {
     "url": "https://blog.mean.ceo/stripe-news-november-2026",
@@ -321,47 +321,47 @@
     "claim": "FinTech Futures reported on 2 October 2026 that the sale was undisclosed and expected to close \"in the coming months\" ([Bignell, 2026](https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition)).",
     "source_excerpt": "FinTech Futures: Top five news stories of the week \u2013 13 November 2026FinTech Futures: Top five news stories of the week \u2013 13 November 2026\n\nbyTyler Pathe\n\nNov 13, 2026\n\n4 Min Read\n\nPayTech keyboard_arrow_down\n\n#### Related Topics\n\n   Digital Payments\n   Instant & Real-Time Payments\n   Cross-Border Payments\n   BNPL Payments\n   B2B/B2C Payments\n\n   Contactless Payments\n   Tokenisation\n   Remittances",
     "verdict": "not_in_source",
-    "reason": "Source is a news roundup and does not mention the 2 October report or its wording."
+    "reason": "No 2 October 2026 FinTech Futures report or undisclosed-sale wording appears."
    },
    {
     "url": "https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
     "claim": "A Tracxn page titled \"List of 22 Acquisitions by Stripe (Nov 2026)\" was last updated on 1 November 2026 ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)). **Flag: The page content failed to load, so only the title and date are verified.",
     "source_excerpt": "View the full list of acquisitions\n\n## News related to Stripe's acquisitions\n\nlock\n\nMedia has covered Stripe for a total of 139 events in the last 1 year, 69 of them have been about acquisition activity.\n\n## FAQs about Acquisitions by Stripe\n\nAccel Partners\nPartech\nIN-Q-TEL - US\nFujitsu\nTenity\nStanford [...] | Year | # Acquisitions |\n --- |\n| 2026 | 4 |\n| 2025 | 2 |\n| 2024 | 2 |\n| 2023 | 1 |\n| 202",
     "verdict": "not_in_source",
-    "reason": "Source shows no page title or last-updated date for the Tracxn list."
+    "reason": "Source shows 22 acquisitions in a table but no page title or 1 November update date."
    },
    {
     "url": "https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features",
     "claim": "An FX News Group article is titled \"Stripe presses ahead with building economic infrastructure for AI, unveils 288 new products and features\" ([FX News Group, n.d.](https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features)). **Flag: The article body and publication date were not retrieved, so I cannot confir",
     "source_excerpt": "Facebook\n Twitter\n LinkedIn\n rss\n\nFX News Group\n\nForex CFDs and trading\n\n### Breaking News\n\nStripe announces multiyear global partnership with Mercedes-AMG PETRONAS F1 Team\n\nCrypto.com inks deal with prime broker River Markets to bring OG.com prediction markets to institutional traders\n\nWebull schedules launch of perpetual futures for November 2026\n\nTradingView welcomes DKTE\u2019s Textile & Engineerin",
-    "verdict": "supported",
-    "reason": "Body states Stripe announced 288 products and features at Stripe Sessions; title itself not shown."
+    "verdict": "not_in_source",
+    "reason": "Body mentions 288 launches, but the article title is not shown."
    },
    {
     "url": "https://finance.yahoo.com/news/stripe-exec-says-she-hiring-150353198.html",
     "claim": "- A Yahoo Finance article reports that a Stripe AI executive, whose name was not captured in the retrieved text, says Stripe is hiring new graduates \"more than ever\" but is concerned about the entry-level talent pipeline ([Yahoo Finance, n.d.](https://finance.yahoo.com/news/stripe-exec-says-she-hiring-150353198.html)). **Flag: The publication date is not verified, so this may fall outside the wind",
     "source_excerpt": "STRI.PVT\n CRM\n\n  -3.90%\n\nRecent graduates are sweating over limited job prospects; AI is quickly taking over entry-level roles, and many hiring managers doubt Gen Z's competency in the workforce. But while tech and junior analyst jobs get swapped out for investments in automation, Stripe's head of data and AI says she's all-in on hiring recent graduates at the $91.5 billion financial services comp",
     "verdict": "supported",
-    "reason": "Source quotes Stripe's head of data and AI on hiring more new grads and talent-pipeline worries."
+    "reason": "Quotes on hiring new grads and pipeline concern match; source does name the executive, contrary to claim."
    },
    {
     "url": "https://www.recruitingfromscratch.com/blog/stripe-hiring-2026",
     "claim": "Recruiting from Scratch reports 496 open Stripe roles, with 149 added in the prior 29 days ([Recruiting from Scratch, 2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)). **Flag: This article is dated 24 June 2026, outside the 30-day window, and the count is a vendor estimate.** The department breakdown is as follows:",
     "source_excerpt": "How many people is Stripe hiring? Stripe is currently hiring for 496 open roles across various departments, reflecting aggressive growth.\n What roles is Stripe hiring for? Stripe is hiring for positions in engineering, product, operations, sales, finance, and more, with a significant focus on mid and senior-level roles. [...] ## The Data Room\n\n```  \nHIRING BY DEPARTMENT, STRIPE  \n\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550\u2550",
     "verdict": "supported",
-    "reason": "Source states 496 open roles, with 149 added in the last month."
+    "reason": "Source states 496 open roles with 149 added in the last month."
    },
    {
     "url": "https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572",
     "claim": "Payments Dive published an article titled \"Stripe tips toward staying private\" ([Payments Dive, n.d.](https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572)). **Flag: Only the headline was retrieved, and the date and content are unverified.",
     "source_excerpt": "Zingtree Launches First Agentic Governance and Orchestration Platform Built for Contact Center\u2026 From Zingtree November 10, 2026 Image 61: Zingtree logoPhotonPay Strengthens North American Regulatory Footprint with Canada\u2019s RPAA Registration From PhotonPay November 09, 2026 Image 62: PhotonPay logoIXOPAY Announces IXO One, a Modular Payments Platform Built for an Era of Fluid Commerce From IXOPAY N",
     "verdict": "not_in_source",
-    "reason": "Source shows other headlines only; the Payments Dive article title is not present."
+    "reason": "Only other headlines appear; the 'Stripe tips toward staying private' title is absent."
    }
   ],
   "counts": {
-   "supported": 3,
-   "not_in_source": 5,
+   "supported": 2,
+   "not_in_source": 6,
    "contradicted": 1
   }
  }

@@ -104,8 +104,8 @@
     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
     "claim": "- NVIDIA announced a CEO transition, dated 12 Nov 2026. The results show only the headline, not the terms or successor (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition).",
     "source_excerpt": "## More News\n\nImage 10\n\n### Statement From the Independent Members of the NVIDIA Board\n\nNovember 10, 2026\n\nImage 11\n\n### NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion\n\nNovember 8, 2026\n\nImage 12\n\n### A Message to Our Company\n\nNovember 8, 2026\n\nImage 13\n\n### Statement From NVIDIA Board of Directors\n\nNovember 8, 2026\n\nImage ",
-    "verdict": "contradicted",
-    "reason": "Date and CEO transition match, but source names Colette Kress as interim CEO, not omitted."
+    "verdict": "supported",
+    "reason": "Source shows the press release dated November 12, 2026, announcing the CEO transition headline; the claim's note about missing terms is consistent."
    },
    {
     "url": "https://tavily.com/knowledge/company/TXRhn2TKUD7t",
@@ -116,9 +116,9 @@
    }
   ],
   "counts": {
-   "supported": 1,
+   "supported": 2,
    "not_in_source": 0,
-   "contradicted": 1
+   "contradicted": 0
   }
  }
 }

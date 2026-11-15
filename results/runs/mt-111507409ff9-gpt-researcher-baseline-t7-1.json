@@ -268,54 +268,54 @@
     "claim": "- **Filings-driven month, few hard deals.** Verifiable company announcements in the window were mostly operational: a Hyderabad development center expansion, a Global Capability Center (GCC) partnership with Truist, Finacle banking wins, an investor conference, and the Infosys Prize. No new contract with a disclosed value appears in the sources reviewed ([Economic Times, 2026](https://economictime",
     "source_excerpt": "| News\n\nMore than 40 companies have scheduled record dates for dividends, bonus issues, rights issues and stock splits during November 2\u20136, 2026. Major names include Infosys, Asian Paints, Coal India, Power Grid and Info Edge, while Sanofi India will offer the week\u2019s highest announced dividend of Rs 75 per share.\n\n### Infosys Infosys Announces Expansion Of Pocharam Development Center In Hyderabad\n",
     "verdict": "not_in_source",
-    "reason": "Source shows Pocharam expansion and Finacle awards, but not Truist, the Prize, or any contract claim."
+    "reason": "Source shows Pocharam expansion and Finacle awards but not Truist, Infosys Prize, or contract absence."
    },
    {
     "url": "https://www.stockfin.ai/news/INFY/2026-10-19/announcement",
     "claim": "- **Filings-driven month, few hard deals.** Verifiable company announcements in the window were mostly operational: a Hyderabad development center expansion, a Global Capability Center (GCC) partnership with Truist, Finacle banking wins, an investor conference, and the Infosys Prize. No new contract with a disclosed value appears in the sources reviewed ([Economic Times, 2026](https://economictime",
     "source_excerpt": "## Frequently asked questions\n\n### What did Infosys Ltd announce on 19 October 2026?\n\nInfosys announced an expanded strategic partnership with Truist to build a Global Capability Center in Hyderabad, consolidating multiple supplier relationships into a unified operating model and onboarding over 1,000 employees, reinforcing India's role as a hub for AI-driven financial services innovation\u2026\n\n### Wh",
     "verdict": "supported",
-    "reason": "Source confirms Truist GCC partnership in Hyderabad and Finacle banking award announcements."
+    "reason": "Source confirms the 19 October 2026 Truist GCC partnership and Finacle award items."
    },
    {
     "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms",
     "claim": "- **The most consequential item is a workforce-mix strategy,** reported by the Times of India. Infosys reportedly plans to move up to one-third of about 320,000 employees into specialist roles and build a team of 6,000 \"frontier engineers.\" This is based on press reporting of management remarks, not a company filing ([Times of India, n.d.](https://timesofindia.indiatimes.com/business/india-busines",
     "source_excerpt": "IT services company acknowledged this AI-led challenge.Also Read | IITs to stop campus hiring by 22 companies for 2 years after 150+ job offers to 2026 graduates went unhonoured; Oracle reportedly withdrew around 40 offers\u201cInfosys said it hasn\u2019t restructured, which is a noticeably different approach from what many companies are doing right now.It says a lot about how it\u2019s thinking about talent and",
-    "verdict": "not_in_source",
-    "reason": "Source does not mention one-third of 320,000 employees or 6,000 frontier engineers."
+    "verdict": "supported",
+    "reason": "Source URL headline reports one-third of 320,000 employees and 6,000 frontier engineers."
    },
    {
     "url": "https://www.moneycontrol.com/company-notices/infosys/notices/IT",
     "claim": "- **Share price is under pressure relative to its 52-week high,** trading near \u20b91,145 on 13 November 2026 (derived; see verification notes) against a 52-week range of \u20b9980.40 to \u20b91,728.00 ([Moneycontrol, 2026](https://www.moneycontrol.com/company-notices/infosys/notices/IT)).",
     "source_excerpt": "Invest Now\n\nNeed Urgent Cash\n\n# Infosys\n\nSector:  Software & IT Services\n\nFollowers\n\nAs on 13 Nov, 2026 | 15:59\n\n## Infosys Announcements\n\n### Announcements\n\n### Board Meetings\n\n### Bonus\n\n### Dividends\n\n### Splits\n\n### Annual Report\n\n### Earnings Report\n\n### AGM/EGM\n\n### Rights\n\n### Six Promising Researchers Win The Infosys Prize 2026 Awarded By The Infosys Science Foundation\n\nEnclosed\n\n12 Nov, 2",
     "verdict": "not_in_source",
-    "reason": "Source gives the 13 Nov 2026 date but no share price or 52-week range."
+    "reason": "Source gives the 13 Nov date but no share price or 52-week range."
    },
    {
     "url": "https://en.wikipedia.org/wiki/Infosys",
     "claim": "The Finacle items indicate continued activity in its banking platform, which Wikipedia describes as a long-running product line that gained attention in recent years ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Infosys)).",
     "source_excerpt": "In June 2026, Infosys temporarily suspended recruitment assessments for more than 20,000 candidates applying for Specialist Programmer and Digital Specialist Engineer trainee roles after detecting multiple instances of impersonation and assessment malpractice during its hiring process. The company, which recruits from 300\u2013400 colleges across India each year, introduced additional verification and ",
     "verdict": "not_in_source",
-    "reason": "Wikipedia excerpt covers recruitment suspension, with no mention of Finacle."
+    "reason": "Wikipedia source text covers recruitment suspension and says nothing about Finacle."
    },
    {
     "url": "https://www.unite.ai/infosys-and-columbia-university-launch-enterprise-ai-research-center",
     "claim": "The Columbia University Enterprise AI Center was announced on 1 October 2026, just outside the window, and is best treated as background ([Unite.AI, 2026](https://www.unite.ai/infosys-and-columbia-university-launch-enterprise-ai-research-center)).",
     "source_excerpt": "On October 1, 2026, Infosys announced a strategic collaboration with Columbia University to support the development and use of applications in artificial intelligence technologies. The collaboration includes a research center, the Infosys Topaz \u2013 Columbia University Enterprise AI Center, led by Columbia Engineering. [...] My Feed\n\n### Partnerships\n\n# Infosys and Columbia University Launch Enterpri",
     "verdict": "supported",
-    "reason": "Source states Infosys announced Columbia University collaboration on October 1, 2026."
+    "reason": "Source states Infosys announced the Columbia collaboration on October 1, 2026."
    },
    {
     "url": "https://www.linkedin.com/posts/people-matters_infosys-leadership-futureofwork-activity-7486351991623864320-xVwR",
     "claim": "- **Headcount baseline.** Wikipedia lists 328,594 employees as of March 2026 ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Infosys)). Older reporting cited on LinkedIn states that headcount fell by 532 in Q1 FY27 while more than 4,000 freshers were hired, and reaffirmed a target of about 20,000 freshers for FY27 ([People Matters, n.d.](https://www.linkedin.com/posts/people-matters_infosys-leade",
     "source_excerpt": "Infosys is planning 20,000 fresh hires for FY27. \ud83d\udd39 Infosys lost 8,440 employees in Q4 FY26; total #headcount now at 3,28,594 \ud83d\udd39 Six consecutive quarters of #workforce additions ended in one quarter of softer volumes \ud83d\udd39 CFO Jayesh Sanghrajka called it seasonal: \"Headcount is a function of utilisation and the volumes we see\" \ud83d\udd39 #Attrition ticked up to 12.6% from 12.3% last quarter; still lower than the",
     "verdict": "not_in_source",
-    "reason": "Headcount of 328,594 at Q4 FY26 matches, but the 532 Q1 FY27 decline is absent."
+    "reason": "Source is LinkedIn, not Wikipedia; it gives no Q1 FY27 decline of 532."
    }
   ],
   "counts": {
-   "supported": 2,
-   "not_in_source": 5,
+   "supported": 3,
+   "not_in_source": 4,
    "contradicted": 0
   }
  }

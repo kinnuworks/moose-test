@@ -300,7 +300,7 @@
     "claim": "CEO Melanie Perkins described it as \"our hardest year yet,\" after growth slowed \"for the first time in a decade\" ([BBC, 2026](https://www.bbc.com/news/articles/cw77pg7neydmo)).",
     "source_excerpt": "\"For some people, this will mean changes to their roles or being asked to relocate to centralised hubs. Sadly, it will also mean saying goodbye to teammates and friends who have helped build Canva into what it is today.\"\n\nThe company, which has staff in 37 countries, said Sydney would become the \"primary home\" for more of its product teams and that as of next year hybrid workers would be expected ",
     "verdict": "not_in_source",
-    "reason": "Source has 'hardest moment in our thirteen-year history', not 'hardest year yet'; no growth-slowdown quote."
+    "reason": "Headline quotes \"our hardest year yet\", but the \"first time in a decade\" growth claim is absent from the excerpt."
    },
    {
     "url": "https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life",
@@ -314,74 +314,81 @@
     "claim": "| Organisation | Product, Growth and Platform merging into one organisation | [LinkedIn, 2026](https://www.linkedin.com/news/story/canva-announces-restructuring-affecting-over-1200-jobs-7754140) |",
     "source_excerpt": "the company it is today without their hard work, and we want to do everything we can to help set them up well for their next chapter. We have created an opt-in alumni directory for departing Canvanauts to hear about new opportunities. If you\u2019re hiring, please reach out to me at mel@canva.com, and we\u2019ll do our best to help make those connections. I know many people will have questions following tod",
     "verdict": "not_in_source",
-    "reason": "LinkedIn excerpt does not mention merging Product, Growth and Platform."
+    "reason": "LinkedIn excerpt does not mention Product, Growth and Platform merging."
    },
    {
     "url": "https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations",
     "claim": "| Timeline | Memo issued 3 November; company-wide meeting 10 November; reorganised units meet from 11 November | [Niehues Consulting, 2026](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations) |",
     "source_excerpt": "## Canva is restructuring 1,271 roles after growth slowed for the first time in a decade\n\nCanva is changing the roles of 1,271 people because growth slowed in 2026 for the first time in a decade and, in its CEO's words, small changes are no longer enough. In the note \u201cAn important update on our team\u201d of 3 November 2026 in Canva's newsroom, Perkins writes that 22 percent of Canva is affected. Canva",
     "verdict": "supported",
-    "reason": "Niehues FAQ gives 3 Nov memo, 10 Nov company meeting, and units meeting from 11 Nov."
+    "reason": "Niehues FAQ gives 3 Nov announcement, 10 Nov company meeting, 11 Nov reorganised units."
    },
    {
     "url": "https://amazingworkplaces.co/canva-layoffs-2026",
     "claim": "| Severance | Reported: six months' salary, 12 months' healthcare, $10,000 support, career assistance, laptop retention. One commentator's post and one practitioner article report these; the 26-week figure is from Niehues | [LinkedIn, 2026](https://www.linkedin.com/news/story/canva-announces-restructuring-affecting-over-1200-jobs-7754140); [Amazing Workplaces, 2026](https://amazingworkplaces.co/ca",
     "source_excerpt": "Perkins cited slowing growth, the first slowdown in a decade. Reporting also points to higher AI costs, a lower revenue growth forecast and more competition from AI tools.\n\n### What severance are laid-off Canva employees getting?\n\nSix months of salary regardless of location, healthcare, career support, a $10,000 grant fund for new ventures, and the right to keep their MacBooks. Staff who joined wi",
     "verdict": "not_in_source",
-    "reason": "Source gives six months' salary and $10,000 fund, but no 12-month healthcare duration."
+    "reason": "Source lists healthcare, $10,000 grant and MacBook retention, but no 12-month healthcare duration."
    },
    {
     "url": "https://www.peoplematters.in/news/strategic-hr/canva-layoffs-in-november-company-reportedly-weighs-job-cuts-or-hiring-freeze-53137",
     "claim": "| Further cuts | Reported possible second round or hiring freeze in November **[unverified]** | [PeopleMatters, 2026](https://www.peoplematters.in/news/strategic-hr/canva-layoffs-in-november-company-reportedly-weighs-job-cuts-or-hiring-freeze-53137) |",
     "source_excerpt": "The company ended 2025 with more than 265 million monthly active users and over 31 million paid users, reporting 20% growth in monthly active users during the year.\n\nHowever, a separate report by Startup Daily said Canva had reduced its 2026 revenue growth forecast from 30% to 20%, a reduction of one-third in its projected growth rate.\n\nIn a message to investors, CEO Melanie Perkins acknowledged t",
     "verdict": "supported",
-    "reason": "PeopleMatters reports a possible November second round or hiring freeze, per Capital Brief."
+    "reason": "Source reports possible November redundancies or hiring freeze per Capital Brief."
    },
    {
     "url": "https://x.com/theinformation/status/2086158004525699220",
     "claim": "- The 2026 growth forecast was cut from 30% to 20%, which The Information attributed to heavy AI use driving up costs ([The Information, 2026](https://x.com/theinformation/status/2086158004525699220)).",
     "source_excerpt": "7\n @floinkus\n\n  cole benefield@floinkus\n\n  Aug 9\n\n  revenue and costs are unrelated who writes this garbage?\n\n  5\n @Suhail\n\n  @Suhail\n\n  Aug 9\n\n  Better article:\n\n  \n\n  Canva Cuts Revenue Forecast Following AI Cost BlowoutFrom bandt.com.au [...] Canva cut its 2026 revenue growth forecast to 20% after unexpectedly heavy AI use drove up costs. The company is now trying to make its AI products cheape",
     "verdict": "supported",
-    "reason": "Source says the forecast was cut to 20% after unexpectedly heavy AI use drove up costs."
+    "reason": "Source says forecast cut to 20% after heavy AI use drove up costs."
    },
    {
     "url": "https://www.thesaascfo.com/ai-cogs-earnings-risk",
     "claim": "- Reported Q2 2026 revenue was $921.9 million, up 25.2% year over year, which missed internal guidance ([The SaaS CFO, 2026](https://www.thesaascfo.com/ai-cogs-earnings-risk)).",
     "source_excerpt": "Canva\u2019s Q2 2026 numbers looked fine on the surface. Revenue of $921.9 million, up 25.2% year over year. But that missed the company\u2019s own guidance, and the forward-looking part is where it got interesting. Canva cut its full-year 2026 growth forecast from 30% to 20%. That is a ten-point haircut on a company doing about $4 billion in ARR per cited sources. [...] Canva cut its full-year 2026 growth ",
     "verdict": "supported",
-    "reason": "SaaS CFO states $921.9M revenue, up 25.2%, missing the company's own guidance."
+    "reason": "SaaS CFO excerpt gives $921.9M, up 25.2%, missing company guidance."
    },
    {
     "url": "https://orm-tech.com/news/20260813-canva-cuts-2026-growth-forecast-by-a-third-on-ai-costs",
     "claim": "- **Source conflict:** Prior-year revenue is reported as $3.5 billion ([Niehues Consulting, 2026](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations)), about $3 billion GAAP ([ORM News, 2026](https://orm-tech.com/news/20260813-canva-cuts-2026-growth-forecast-by-a-third-on-ai-costs)), and about $4 billion ARR ([The SaaS CFO, 2026](https://www.thesaascfo.com/ai-co",
     "source_excerpt": "Canva reduced its 2026 growth forecast from 30% to 20% after reporting roughly $3B in GAAP revenue the prior year. The company entered the year targeting 30% growth before Melanie Perkins disclosed the revised 20% figure mid-year. AI feature costs drove the change, as subsidizing frontier model calls for a prosumer base proved expensive.\n\n## Canva Growth Revision Details [...] Jason estimated Canv",
     "verdict": "supported",
-    "reason": "ORM News reports roughly $3B GAAP revenue prior year, as the claim states."
+    "reason": "ORM source says roughly $3B GAAP revenue prior year; the $4B ARR figure appears in SaaS CFO."
    },
    {
     "url": "https://releasebot.io/updates/canva",
     "claim": "| Canva Grow 2.0 (ad creation and performance loop) | 24 June 2026 | [Releasebot, 2026](https://releasebot.io/updates/canva) |",
     "source_excerpt": "Canva launches Canva Grow 2.0, bringing AI ad creation, unified publishing, and performance insights into one workflow for marketing teams. It lets users create, launch, analyze, and refresh ads across Meta, TikTok, and LinkedIn without leaving Canva.\n\n  Today at Cannes Lions, we unveiled Canva Grow 2.0, and with it, a new way for marketing teams to create, launch, and learn from ads \u2013 all without",
     "verdict": "not_in_source",
-    "reason": "Releasebot excerpt mentions Grow 2.0 launch at Cannes Lions but gives no 24 June date."
+    "reason": "Releasebot excerpt launches Grow 2.0 at Cannes Lions but gives no 24 June date."
    },
    {
     "url": "https://www.canva.com/newsroom/news/canva-create-2026-ai",
     "claim": "| Canva AI 2.0 (\"biggest product launch in our history\") | Date not verified **[unverified]** | [Canva Newsroom, 2026](https://www.canva.com/newsroom/news/canva-create-2026-ai) |",
     "source_excerpt": "Anna Wood is Head of Product Marketing at Canva, where she leads the strategy behind launching Canva\u2019s newest products and AI innovations.\n\nProduct launchesAI\n\n---\n\n### Latest News\n\n### An important update on our team\n\nNovember 3, 2026\n\nRead more\n\nAI Research\n\n### Affinity for iPad: sketch, vector, photo and layout in one app\n\nNovember 3, 2026\n\nRead more\n\nCompany Updates\n\n### New campaign asks \u201cWh",
     "verdict": "not_in_source",
-    "reason": "Newsroom excerpt does not mention Canva AI 2.0 or the 'biggest launch' quote."
+    "reason": "Newsroom excerpt does not mention Canva AI 2.0 or the quoted launch claim."
    },
    {
     "url": "https://www.canva.com/newsroom/news/creative-operating-system",
     "claim": "| Creative Operating System | Date not verified **[unverified]** | [Canva Newsroom, 2026](https://www.canva.com/newsroom/news/creative-operating-system) |",
     "source_excerpt": "Skip navigation\n\nCanva's biggest product launches yet\n\n# Introducing Canva\u2019s Creative Operating System\n\nOur biggest product launch to date, the Creative Operating System, brings together a supercharged Visual Suite, world-first design AI, plus powerful ways to grow your business and scale your brand.",
     "verdict": "supported",
-    "reason": "Newsroom page introduces the Creative Operating System as a biggest product launch."
+    "reason": "Source calls Creative Operating System its biggest product launch to date."
+   },
+   {
+    "url": "https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand",
+    "claim": "- CTO Magazine. (2026). *Canva layoff 2026 & workforce restructuring: What leaders need to understand*. [https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand](https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand)",
+    "source_excerpt": "On November 4, Canva published a message from co-founder and CEO Melanie Perkins titled An Important Update on Our Team. The update mentioned that 1,271 employees, roughly 22% of the workforce, will be affected by a major reorganization.\n\nAccording to the memo, not everyone affected will lose their jobs. Some employees will move into different roles, while others will be asked to relocate to centr",
+    "verdict": "supported",
+    "reason": "Cited URL is the CTO Magazine article on the Canva layoffs."
    }
   ],
   "counts": {
-   "supported": 6,
+   "supported": 7,
    "not_in_source": 6,
    "contradicted": 0
   }

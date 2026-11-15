@@ -273,49 +273,49 @@
     "claim": "| Employees | 328,594 | March 2026 | [Wikipedia, 2026](https://en.wikipedia.org/wiki/Infosys) |",
     "source_excerpt": "In June 2026, Infosys temporarily suspended recruitment assessments for more than 20,000 candidates applying for Specialist Programmer and Digital Specialist Engineer trainee roles after detecting multiple instances of impersonation and assessment malpractice during its hiring process. The company, which recruits from 300\u2013400 colleges across India each year, introduced additional verification and ",
     "verdict": "not_in_source",
-    "reason": "Source gives no 328,594 headcount figure; only a June 2026 recruitment suspension."
+    "reason": "Source discusses June 2026 recruitment suspension; no headcount figure given."
    },
    {
     "url": "https://www.stockfin.ai/news/INFY/2026-10-19/announcement",
     "claim": "| Market capitalisation | \u20b94.66 lakh crore | Around 19 Oct 2026 | [StockFin, 2026](https://www.stockfin.ai/news/INFY/2026-10-19/announcement) |",
     "source_excerpt": "## Frequently asked questions\n\n### What did Infosys Ltd announce on 19 October 2026?\n\nInfosys announced an expanded strategic partnership with Truist to build a Global Capability Center in Hyderabad, consolidating multiple supplier relationships into a unified operating model and onboarding over 1,000 employees, reinforcing India's role as a hub for AI-driven financial services innovation\u2026\n\n### Wh",
     "verdict": "not_in_source",
-    "reason": "Source contains no market capitalisation figure."
+    "reason": "Source covers Truist partnership; no market capitalisation figure stated."
    },
    {
     "url": "https://www.moneycontrol.com/company-notices/infosys/notices/IT",
     "claim": "| Share price (approx.) | ~\u20b91,145 (derived) | 13 Nov 2026 | [Moneycontrol, 2026](https://www.moneycontrol.com/company-notices/infosys/notices/IT) |",
     "source_excerpt": "Invest Now\n\nNeed Urgent Cash\n\n# Infosys\n\nSector:  Software & IT Services\n\nFollowers\n\nAs on 13 Nov, 2026 | 15:59\n\n## Infosys Announcements\n\n### Announcements\n\n### Board Meetings\n\n### Bonus\n\n### Dividends\n\n### Splits\n\n### Annual Report\n\n### Earnings Report\n\n### AGM/EGM\n\n### Rights\n\n### Six Promising Researchers Win The Infosys Prize 2026 Awarded By The Infosys Science Foundation\n\nEnclosed\n\n12 Nov, 2",
     "verdict": "not_in_source",
-    "reason": "Source gives no share price for 13 Nov 2026."
+    "reason": "Source is an announcements listing; no share price stated."
    },
    {
     "url": "https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms",
     "claim": "An earnings call transcript was filed under SEBI Regulation 30 on 28 October 2026 ([Economic Times, 2026](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms)). **The actual Q2 FY27 results figures are not contained in the materials I reviewed and should be pulled from the filing before the meeting.**",
     "source_excerpt": "| News\n\nMore than 40 companies have scheduled record dates for dividends, bonus issues, rights issues and stock splits during November 2\u20136, 2026. Major names include Infosys, Asian Paints, Coal India, Power Grid and Info Edge, while Sanofi India will offer the week\u2019s highest announced dividend of Rs 75 per share.\n\n### Infosys Infosys Announces Expansion Of Pocharam Development Center In Hyderabad\n",
     "verdict": "not_in_source",
-    "reason": "Cited ET page does not mention the 28 Oct earnings call transcript filing."
+    "reason": "ET source lists announcements but no earnings call transcript on 28 October."
    },
    {
     "url": "https://www.linkedin.com/posts/people-matters_infosys-leadership-futureofwork-activity-7486351991623864320-xVwR",
     "claim": "A People Matters post on LinkedIn reports that Infosys announced a phased salary revision beginning in October and reaffirmed its commitment to hire 20,000 freshers in the current financial year ([People Matters, 2026](https://www.linkedin.com/posts/people-matters_infosys-leadership-futureofwork-activity-7486351991623864320-xVwR)).",
     "source_excerpt": "Infosys is planning 20,000 fresh hires for FY27. \ud83d\udd39 Infosys lost 8,440 employees in Q4 FY26; total #headcount now at 3,28,594 \ud83d\udd39 Six consecutive quarters of #workforce additions ended in one quarter of softer volumes \ud83d\udd39 CFO Jayesh Sanghrajka called it seasonal: \"Headcount is a function of utilisation and the volumes we see\" \ud83d\udd39 #Attrition ticked up to 12.6% from 12.3% last quarter; still lower than the",
     "verdict": "not_in_source",
-    "reason": "20,000 fresher hiring is supported, but no phased salary revision from October appears."
+    "reason": "Source confirms 20,000 fresher hiring; no phased salary revision mentioned."
    },
    {
     "url": "https://www.unite.ai/infosys-and-columbia-university-launch-enterprise-ai-research-center",
     "claim": "| 1 Oct 2026* | Columbia University | Launched Infosys Topaz\u2013Columbia University Enterprise AI Center focused on responsible enterprise AI | [Unite.AI, 2026](https://www.unite.ai/infosys-and-columbia-university-launch-enterprise-ai-research-center) |",
     "source_excerpt": "On October 1, 2026, Infosys announced a strategic collaboration with Columbia University to support the development and use of applications in artificial intelligence technologies. The collaboration includes a research center, the Infosys Topaz \u2013 Columbia University Enterprise AI Center, led by Columbia Engineering. [...] My Feed\n\n### Partnerships\n\n# Infosys and Columbia University Launch Enterpri",
     "verdict": "supported",
-    "reason": "Source confirms 1 Oct 2026 Columbia collaboration and Topaz\u2013Columbia Enterprise AI Center."
+    "reason": "Source confirms 1 Oct 2026 Columbia collaboration and the named Enterprise AI Center."
    },
    {
     "url": "https://www.youtube.com/watch?v=XFO3fRcKVD8",
     "claim": "[https://www.youtube.com/watch?v=XFO3fRcKVD8](https://www.youtube.com/watch?v=XFO3fRcKVD8)",
     "source_excerpt": "Infosys recruited more than 20,000 college graduates during fiscal year 2026, taking its total workforce to over 325,000 employees, as the IT major continued to invest in talent despite an uncertain global demand environment. Speaking at the company's annual general meeting (AGM), the company management said fiscal year 2026 had been a disciplined year for execution, with Infosys delivering 3.1% c",
     "verdict": "not_in_source",
-    "reason": "Item is a bare URL with no checkable assertion."
+    "reason": "Claim is only a URL; source text does not address it."
    }
   ],
   "counts": {

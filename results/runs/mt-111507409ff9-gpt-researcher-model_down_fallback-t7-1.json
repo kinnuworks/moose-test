@@ -300,49 +300,49 @@
     "claim": "Market sentiment was volatile: IT stocks fell sharply on 28 October before the stock traded near the lower part of its 52-week range in mid-November ([Economic Times, 2026a](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms); [Moneycontrol, 2026](https://www.moneycontrol.com/company-notices/infosys/notices/IT)).",
     "source_excerpt": "| News\n\nMore than 40 companies have scheduled record dates for dividends, bonus issues, rights issues and stock splits during November 2\u20136, 2026. Major names include Infosys, Asian Paints, Coal India, Power Grid and Info Edge, while Sanofi India will offer the week\u2019s highest announced dividend of Rs 75 per share.\n\n### Infosys Infosys Announces Expansion Of Pocharam Development Center In Hyderabad\n",
     "verdict": "not_in_source",
-    "reason": "Source lists announcements and market headlines but no IT stock fall or 52-week range."
+    "reason": "Source is an ET news page; it says nothing about IT stock falls or 52-week range."
    },
    {
     "url": "https://www.moneycontrol.com/company-notices/infosys/notices/IT",
     "claim": "Market sentiment was volatile: IT stocks fell sharply on 28 October before the stock traded near the lower part of its 52-week range in mid-November ([Economic Times, 2026a](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms); [Moneycontrol, 2026](https://www.moneycontrol.com/company-notices/infosys/notices/IT)).",
     "source_excerpt": "Invest Now\n\nNeed Urgent Cash\n\n# Infosys\n\nSector:  Software & IT Services\n\nFollowers\n\nAs on 13 Nov, 2026 | 15:59\n\n## Infosys Announcements\n\n### Announcements\n\n### Board Meetings\n\n### Bonus\n\n### Dividends\n\n### Splits\n\n### Annual Report\n\n### Earnings Report\n\n### AGM/EGM\n\n### Rights\n\n### Six Promising Researchers Win The Infosys Prize 2026 Awarded By The Infosys Science Foundation\n\nEnclosed\n\n12 Nov, 2",
     "verdict": "not_in_source",
-    "reason": "Moneycontrol announcements list has no stock price or 52-week range information."
+    "reason": "Moneycontrol announcements list has no share price or 52-week range information."
    },
    {
     "url": "https://www.stockfin.ai/news/INFY/2026-10-19/announcement",
     "claim": "IST ([StockFin, 2026](https://www.stockfin.ai/news/INFY/2026-10-19/announcement)).",
     "source_excerpt": "## Frequently asked questions\n\n### What did Infosys Ltd announce on 19 October 2026?\n\nInfosys announced an expanded strategic partnership with Truist to build a Global Capability Center in Hyderabad, consolidating multiple supplier relationships into a unified operating model and onboarding over 1,000 employees, reinforcing India's role as a hub for AI-driven financial services innovation\u2026\n\n### Wh",
     "verdict": "not_in_source",
-    "reason": "Claim is truncated to 'IST'; source describes a 19 October Truist announcement, not the claim."
+    "reason": "Claim is truncated to 'IST' and states no checkable assertion."
    },
    {
     "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms",
     "claim": "Per the Times of India, CEO-designate Ashiss Kumar Dash and incumbent CEO Salil Parekh shared the stage at the Americas Confluence in Washington, DC, where discussion centred on generating value from AI ([Times of India, 2026](https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-en",
     "source_excerpt": "IT services company acknowledged this AI-led challenge.Also Read | IITs to stop campus hiring by 22 companies for 2 years after 150+ job offers to 2026 graduates went unhonoured; Oracle reportedly withdrew around 40 offers\u201cInfosys said it hasn\u2019t restructured, which is a noticeably different approach from what many companies are doing right now.It says a lot about how it\u2019s thinking about talent and",
     "verdict": "supported",
-    "reason": "Source says Dash and Parekh shared the stage on generating value from AI; Washington DC not stated."
+    "reason": "Source says Dash and Parekh shared the stage on generating AI value; Washington DC not stated in excerpt."
    },
    {
     "url": "https://www.linkedin.com/posts/people-matters_infosys-leadership-futureofwork-activity-7486351991623864320-xVwR",
     "claim": "A People Matters post, which appears to predate the window, reports that Infosys announced a phased salary revision beginning in October and reaffirmed its commitment to hire 20,000 freshers in the current financial year ([People Matters, 2026](https://www.linkedin.com/posts/people-matters_infosys-leadership-futureofwork-activity-7486351991623864320-xVwR)). **The post's exact date and the revision",
     "source_excerpt": "Infosys is planning 20,000 fresh hires for FY27. \ud83d\udd39 Infosys lost 8,440 employees in Q4 FY26; total #headcount now at 3,28,594 \ud83d\udd39 Six consecutive quarters of #workforce additions ended in one quarter of softer volumes \ud83d\udd39 CFO Jayesh Sanghrajka called it seasonal: \"Headcount is a function of utilisation and the volumes we see\" \ud83d\udd39 #Attrition ticked up to 12.6% from 12.3% last quarter; still lower than the",
     "verdict": "not_in_source",
-    "reason": "Source confirms 20,000 fresher target for FY27 but says nothing about a phased salary revision."
+    "reason": "Source mentions 20,000 FY27 fresher hiring but no phased salary revision."
    },
    {
     "url": "https://www.unite.ai/infosys-and-columbia-university-launch-enterprise-ai-research-center",
     "claim": "- **Columbia University partnership (1 October 2026):** Infosys and Columbia launched the Infosys Topaz \u2013 Columbia University Enterprise AI Center, led by Columbia Engineering ([Unite.AI, 2026](https://www.unite.ai/infosys-and-columbia-university-launch-enterprise-ai-research-center)).",
     "source_excerpt": "On October 1, 2026, Infosys announced a strategic collaboration with Columbia University to support the development and use of applications in artificial intelligence technologies. The collaboration includes a research center, the Infosys Topaz \u2013 Columbia University Enterprise AI Center, led by Columbia Engineering. [...] My Feed\n\n### Partnerships\n\n# Infosys and Columbia University Launch Enterpri",
     "verdict": "supported",
-    "reason": "Source confirms 1 October 2026 Columbia collaboration and the Topaz\u2013Columbia Enterprise AI Center led by Columbia Engineering."
+    "reason": "Source confirms 1 October 2026 Columbia collaboration and the named enterprise AI center led by Columbia Engineering."
    },
    {
     "url": "https://en.wikipedia.org/wiki/Infosys",
     "claim": "- **Q4 FY26 results (23 April 2026):** Wikipedia reports financials as of 31 March 2026, including total assets of \u20b9155,967 crore (US$17 billion) and 328,594 employees ([Wikipedia, 2026](https://en.wikipedia.org/wiki/Infosys)).",
     "source_excerpt": "In June 2026, Infosys temporarily suspended recruitment assessments for more than 20,000 candidates applying for Specialist Programmer and Digital Specialist Engineer trainee roles after detecting multiple instances of impersonation and assessment malpractice during its hiring process. The company, which recruits from 300\u2013400 colleges across India each year, introduced additional verification and ",
     "verdict": "not_in_source",
-    "reason": "Excerpt contains no balance sheet figures or 31 March 2026 financial data."
+    "reason": "Excerpt covers June 2026 recruitment suspension; no Q4 FY26 financials or asset figures shown."
    }
   ],
   "counts": {

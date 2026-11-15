@@ -266,28 +266,28 @@
     "claim": "- **Genie One is the centre of Databricks' November activity.** Databricks extended Genie One to a desktop app, a Chrome new-tab extension, mobile deep links, scheduled email, a Slack and Teams approval flow, and third-party assistants such as ChatGPT and Claude ([Databricks, 2026](https://docs.databricks.com/aws/en/release-notes/product/2026/november); [Releasebot, 2026](https://releasebot.io/upd",
     "source_excerpt": "RSS Feed\n\nLast updated on\n\n# November 2026\n\nDatabricksreleased these features and improvements in November 2026.\n\nnote\n\nReleases are staged. Your Databricksaccount might not be updated until a week or more after the initial release date.\n\n## Managed warehouse for MLflow (Beta)\u200b\")\n\nNovember 2, 2026 [...] November 2, 2026\n\nWith managed warehouse, users can view traces stored in Unity Catalogin the M",
     "verdict": "not_in_source",
-    "reason": "Source is the November release notes page showing only the MLflow managed warehouse item."
+    "reason": "Source is the November release page, which mentions only managed warehouse for MLflow."
    },
    {
     "url": "https://releasebot.io/updates/databricks",
     "claim": "- **Genie One is the centre of Databricks' November activity.** Databricks extended Genie One to a desktop app, a Chrome new-tab extension, mobile deep links, scheduled email, a Slack and Teams approval flow, and third-party assistants such as ChatGPT and Claude ([Databricks, 2026](https://docs.databricks.com/aws/en/release-notes/product/2026/november); [Releasebot, 2026](https://releasebot.io/upd",
     "source_excerpt": "Original source\n Nov 12, 2026 \n  + Date parsed from source:\n\n    Nov 12, 2026\n  + First seen by Releasebot:\n\n    Nov 14, 2026\n\n  Databricks logo\n\n  Databricks\n\n  ## Postgres 18.7, 17.12, and 16.16 now available\n\n  Databricks updates Lakebase with the latest PostgreSQL minor versions, bringing upstream bug fixes and security patches to users. [...] 54 release notes \u00b7 Latest Nov 13, 2026\n Nov 12, 20",
     "verdict": "supported",
-    "reason": "Releasebot reports Genie One desktop app GA on macOS, with Windows in beta."
+    "reason": "Releasebot confirms Genie One desktop app GA on macOS, Windows in beta."
    },
    {
     "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming",
     "claim": "- **Several items carry hard deadlines for customers.** The Genie One MCP Beta endpoint reaches end of life on 30 November 2026, and AI Functions on older runtimes stop working on 1 February 2027 ([Databricks, 2026](https://docs.databricks.com/aws/en/release-notes/whats-coming); [Databricks, 2026](https://docs.databricks.com/aws/en/release-notes/product/2026/november)).",
     "source_excerpt": "Databricksplans to support Tableau and Sigma as external knowledge sources.\n\nSee External knowledge sources.\n\n## Genie Code tasks in Lakeflow Jobs are available by default for workspaces with the compliance security profile enabled starting in November 2026\u200b\n\nStarting in November 2026, Genie Codetasks in Lakeflow Jobs are available by default for workspaces with the compliance security profile ena",
     "verdict": "not_in_source",
-    "reason": "Source excerpt does not mention the Genie One MCP endpoint or AI Functions deadlines."
+    "reason": "Source does not mention the Genie One MCP endpoint or AI Functions deadlines."
    },
    {
     "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex",
     "claim": "- **Capital and expansion signals are strong.** Databricks announced roughly $3 billion of investment across Europe and the Middle East and more than $500 million in the Netherlands, both in November ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)).",
     "source_excerpt": "SAN FRANCISCO \u2014 November 11, 2026 \u2014 Databricks, the Data and AI company, today announced the second generation of Genie that changes how people get work done: Genie is now an always-on, autonomous agent for enterprise work. Employees can give Genie a goal and trust it to keep work moving. Genie takes ownership of the work, delegates to subagents when needed, tracks progress, follows up on missing ",
     "verdict": "supported",
-    "reason": "Newsroom listing shows November 11 ~$3B Europe/Middle East and November 10 $500M+ Netherlands investments."
+    "reason": "Headlines dated November 11 (~$3B Europe/Middle East) and November 10 ($500M+ Netherlands), 2026."
    },
    {
     "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets",
@@ -301,42 +301,42 @@
     "claim": "- **Lakebase:** Merge strategies for Structured Streaming upserts (3 November) and Postgres 18.7, 17.12, and 16.16 minor-version updates with upstream bug and security fixes ([Databricks, 2026](https://docs.databricks.com/aws/en/release-notes/product/2026/november); [Releasebot, 2026](https://releasebot.io/updates/databricks)). Lakebase also added native Postgres logical replication on 15 October,",
     "source_excerpt": "July 24, 2026\n\nLakebase adds AI-assisted troubleshooting: database issues and early warnings are surfaced to you with Insights, and you can then investigate and fix them conversationally with Genie. Both draw on database telemetry captured to Unity Catalog. See Observability.\n\n## Lakebase is now SOC 2 Type 2 compliant\n\nJuly 14, 2026\n\nLakebase is now SOC 2 Type 2 compliant. For our SOC reports, ple",
     "verdict": "not_in_source",
-    "reason": "Source shows Lakebase items from July and August; no November or 18.7 details."
+    "reason": "Postgres 18.7/17.12/16.16 confirmed, but merge strategies and replication claims are absent."
    },
    {
     "url": "https://www.databricks.com/blog/databricks-announces-2026-global-partner-awards",
     "claim": "- **Partner recognition:** Entrada was named Genie Partner of the Year, and Lovelytics was named Brickbuilder Partner of the Year in Databricks' 2026 partner awards. The publication date in the source is not stated ([Databricks, 2026](https://www.databricks.com/blog/databricks-announces-2026-global-partner-awards)).",
     "source_excerpt": "## Impact awards\n\nInnovation Partner of the Year: Moody's\n\nMoody's Analytics earns the ISV Innovation Partner of the Year award for building one of Databricks' most impactful partnerships, combining deep platform adoption with trusted Moody's data and MCP capabilities on Databricks Marketplace to help customers modernize risk, compliance, and AI workflows in one environment. Their momentum is visi",
     "verdict": "not_in_source",
-    "reason": "Source excerpt of partner awards does not mention Entrada or Lovelytics."
+    "reason": "Excerpt shows other awards; Entrada and Lovelytics recognition is not stated."
    },
    {
     "url": "https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements",
     "claim": "Genie Ontology is described as a live context layer that extracts and updates business knowledge from Databricks and connected apps such as Google Drive, Jira, Slack, Confluence, and SharePoint ([Winks, 2026](https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements)).",
     "source_excerpt": "1. Databricks Launches Genie One: All-New Agentic Coworker for Every Team, Databricks Newsroom\n2. What\u2019s new with Unity Catalog at Data + AI Summit 2026, Databricks Blog\n3. AI governance at Data + AI Summit 2026: What\u2019s new with Unity AI Gateway, Databricks Blog\n4. Agent Bricks: Data + AI Summit 2026, Databricks Blog\n5. What\u2019s new in Genie Code at Data + AI Summit 2026, Databricks Blog [...] Read ",
     "verdict": "not_in_source",
-    "reason": "Atlan excerpt does not describe Genie Ontology or its connected apps."
+    "reason": "Atlan excerpt describes Genie One and Summit themes, not Genie Ontology's connected apps."
    },
    {
     "url": "https://community.databricks.com/t5/community-articles/dais-2026-the-databricks-announcements-i-think-clients-should/td-p/159914",
     "claim": "Databricks also described OpenSharing, which extends data sharing to structured data, models, skills, semantics, and Genie Agents ([Databricks Community, 2026](https://community.databricks.com/t5/community-articles/dais-2026-the-databricks-announcements-i-think-clients-should/td-p/159914)).",
     "source_excerpt": "### My takeaway\n\nDAIS 2026 showed Databricks moving toward a more complete operating foundation for enterprise AI.\n\nThe common thread I saw across the announcements was this: [...] This is why I found this year\u2019s announcements interesting. They were not only about adding more capability. They were about reducing the distance between data, context, AI, governance, and action.\n\n### Context is becomi",
     "verdict": "not_in_source",
-    "reason": "Community article mentions OpenSharing only in passing, without the described scope."
+    "reason": "Community post mentions OpenSharing only generically, without its scope of structured data, models, or Genie Agents."
    },
    {
     "url": "https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi",
     "claim": "**No hiring announcements or executive appointments within the 30-day window were found in the provided sources.** A LinkedIn analysis referencing job-opening growth in regional sales and security engineering is available ([Saltzman, 2025](https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi)). That post is roughly eleven months old, is",
     "source_excerpt": "6. Apps Fuel Snowflake Competition: With both companies approaching $5B revenue run-rate, Databricks Apps development directly targets Snowflake's application layer. 7. Real-Time Infrastructure: Tecton and Mooncake acquisitions + Confluent partnership = major investment in streaming data and AI application latency reduction. 8. Data Governance Moat: OneTrust, BigID, Collibra partnerships + hiring ",
     "verdict": "supported",
-    "reason": "LinkedIn post cites job openings up 23% and regional sales and security engineering hiring."
+    "reason": "LinkedIn post reports job openings up 23% month-over-month, including regional sales director roles."
    },
    {
     "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming",
     "claim": "[https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming](https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming)",
     "source_excerpt": "# What's coming?\n\nLearn about features and behavioral changes in upcoming Azure Databricks releases.\n\n## Serverless GPU in clean rooms will soon be on by default for accounts where it's turned off\n\nStarting on or after November 26, 2026, serverless GPU in clean rooms will be on by default for accounts on the Enterprise or Premium pricing tier.\n\nUntil then, an account admin can turn on Clean Rooms ",
     "verdict": "supported",
-    "reason": "Cited URL matches the What's coming page that was returned as the source."
+    "reason": "Bare citation URL matches the fetched What's coming page."
    }
   ],
   "counts": {

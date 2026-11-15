@@ -299,55 +299,55 @@
     "url": "https://getpersonalisedcv.in/blog/zepto-ncs-partnership-quick-commerce-hiring-guide",
     "claim": "**Key finding:** The provided sources contain no Zepto news, launch, hire, or deal dated within this 30-day window. The most recent dated Zepto-specific item is a 30 April 2026 hiring partnership ([GetPersonalisedCV, 2026](https://getpersonalisedcv.in/blog/zepto-ncs-partnership-quick-commerce-hiring-guide)). Every other item is either older or undated. The sections below therefore separate verifie",
     "source_excerpt": "## What Happened\n\nOn 30 April 2026, Zepto, India's first quick commerce unicorn, officially signed a Memorandum of Understanding (MoU) with the National Career Service (NCS). This partnership is designed to bridge the gap between urban demand and the massive talent pool registered on the government\u2019s job portal. By integrating its vacancies directly with the NCS platform, Zepto aims to streamline ",
-    "verdict": "supported",
-    "reason": "Source confirms Zepto signed an NCS MoU dated 30 April 2026."
+    "verdict": "not_in_source",
+    "reason": "Source confirms the 30 April 2026 NCS MoU but cannot establish the absence of other news."
    },
    {
     "url": "https://www.jainam.in/blog/zepto-ipo-details",
     "claim": "Its founders, Aadit Palicha and Kaivalya Vohra, were two Stanford dropouts ([Jainam Resources, 2026](https://www.jainam.in/blog/zepto-ipo-details)).",
     "source_excerpt": "Zepto is India\u2019s third-largest quick commerce platform by gross order value, operating through a network of dark stores, small neighbourhood warehouses that hold 3,000 to 5,000 SKUs positioned for rapid last-mile delivery. The company raised capital at a $5 billion valuation in mid-2024 and filed a confidential DRHP with SEBI to begin the regulatory process for a domestic listing. No Zepto IPO dat",
     "verdict": "not_in_source",
-    "reason": "Cited Jainam excerpt does not mention founders or Stanford."
+    "reason": "Cited Jainam excerpt does not mention the founders or their Stanford background."
    },
    {
     "url": "https://finance.yahoo.com/markets/stocks/articles/zepto-ipo-filing-reveals-fast-050717430.html",
     "claim": "Its investors include Y Combinator, Lachy Groom, Nexus Venture Partners, StepStone, Glade Brook, and Lightspeed ([Yahoo Finance, n.d.](https://finance.yahoo.com/markets/stocks/articles/zepto-ipo-filing-reveals-fast-050717430.html)).",
     "source_excerpt": "Zepto plans to raise up to \u20b980.1 billion (about $837.41 million) through a fresh issue of shares. The IPO will also include an offer-for-sale of up to 113.5 million shares by existing investors including Nexus Venture Partners, Contrary, and Razor Ventures, with the final size of the sale dependent on the eventual pricing of the offering. The startup also said it may raise up to \u20b916.02 billion (ab",
     "verdict": "not_in_source",
-    "reason": "Cited Yahoo excerpt names Nexus, Contrary, Razor Ventures, not the listed investors."
+    "reason": "Cited Yahoo excerpt names Nexus, Contrary and Razor, not the other listed investors."
    },
    {
     "url": "https://timesofindia.indiatimes.com/business/india-business/zepto-to-file-confidential-drhp-on-friday-targets-2026-listing/articleshow/126175717.cms",
     "claim": "| Confidential DRHP filing reported as imminent | 25 Dec 2025 ([PTI, 2025](https://timesofindia.indiatimes.com/business/india-business/zepto-to-file-confidential-drhp-on-friday-targets-2026-listing/articleshow/126175717.cms)) | No | Reported, not verified |",
     "source_excerpt": "NEW DELHI: Quick commerce unicorn Zepto is set to pre-file its draft red herring prospectus (DRHP) with market regulator Sebi on Friday through a confidential route, as it targets a stock market listing sometime next year, according to sources.The move positions Zepto to become one of the youngest startups to list on Indian stock exchanges.If the listing goes through, Zepto will join its rivals Zo",
     "verdict": "not_in_source",
-    "reason": "Source says pre-filing set for Friday; no 25 Dec 2025 date appears."
+    "reason": "TOI excerpt says pre-filing is planned for Friday; it gives no 25 Dec 2025 date."
    },
    {
     "url": "https://www.plindia.com/news/zepto-takes-the-confidential-ipo-route-key-things-to-know",
     "claim": "| Confidential DRHP filing reported as completed | 29 Dec (year not shown) ([PL Capital, n.d.](https://www.plindia.com/news/zepto-takes-the-confidential-ipo-route-key-things-to-know)) | No | Reported, year unconfirmed |",
     "source_excerpt": "Zepto has confidentially filed its draft red herring prospectus with the market regulator, indicating preparations for a potential IPO in 2026. By choosing the confidential filing route, Zepto keeps its IPO plans flexible while keeping details of the document (DRHP) out of the public domain at this stage. The process allows the company to seek SEBI\u2019s feedback privately, fine-tune issue size, prici",
     "verdict": "not_in_source",
-    "reason": "Source says filing completed but gives no 29 Dec date."
+    "reason": "PL Capital excerpt confirms confidential filing but gives no 29 Dec date."
    },
    {
     "url": "https://dhan.co/blog/news/zepto-ipo-update-2026",
     "claim": "Zepto is reported to be aiming to raise \u20b911,000 crore (about $1.2 billion) at a valuation of $7 to $8 billion ([Team Dhan, 2026](https://dhan.co/blog/news/zepto-ipo-update-2026)).",
     "source_excerpt": "Complete list of Stock Market holidays in November 2026](/blog/news/stock-market-holidays-in-november-2026/)\n\n  \n\nnews banner\n\nfuzz\n\nnews banner\n\n## Read More on News\n\n Top 50 Largest Stock Brokers in the India by Active Clients (Oct 2026)\n Muhurat Trading 2026: Date, time, history & significance\n Complete list of Stock Market holidays in November 2026\n\n[News\n\nTop 50 Largest Stock Brokers in the I",
     "verdict": "not_in_source",
-    "reason": "Cited Dhan excerpt is site navigation; no \u20b911,000 crore or valuation figures."
+    "reason": "Cited Dhan excerpt is navigation text with no \u20b911,000 crore or valuation figures."
    },
    {
     "url": "https://www.stattimes.com/logistics/zepto-raises-200-million-at-900-million-valuation-1345306",
     "claim": "- **Older context:** The STAT Times article on a $200 million raise at a $900 million valuation is historical and undated in the excerpt. It is not used for current figures ([STAT Times, n.d.](https://www.stattimes.com/logistics/zepto-raises-200-million-at-900-million-valuation-1345306)).",
     "source_excerpt": "The company team has increased to over 1,000 people, and it continues to hire across all functions including engineering, analytics, operations, marketing, finance, and HR.\n\n\"Our rigorous focus on unit economics is the main reason why we've had such an amazing trajectory as a company,\" adds Kaivalya Vohra, Co-Founder & CTO, Zepto. \"We've turned micro-markets profitable and brought down burn signif",
     "verdict": "not_in_source",
-    "reason": "STAT Times excerpt does not mention the $200M raise or $900M valuation."
+    "reason": "STAT Times excerpt does not mention a $200 million raise or $900 million valuation."
    }
   ],
   "counts": {
-   "supported": 1,
-   "not_in_source": 6,
+   "supported": 0,
+   "not_in_source": 7,
    "contradicted": 0
   }
  }

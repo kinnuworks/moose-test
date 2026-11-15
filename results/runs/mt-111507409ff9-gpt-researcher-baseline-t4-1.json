@@ -266,63 +266,63 @@
     "claim": "Databricks' most significant change in the last 30 days is the launch of a second-generation Genie, which Databricks describes as an always-on autonomous enterprise agent ([Databricks, 2026, November 11](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)).",
     "source_excerpt": "SAN FRANCISCO \u2014 November 11, 2026 \u2014 Databricks, the Data and AI company, today announced the second generation of Genie that changes how people get work done: Genie is now an always-on, autonomous agent for enterprise work. Employees can give Genie a goal and trust it to keep work moving. Genie takes ownership of the work, delegates to subagents when needed, tracks progress, follows up on missing ",
     "verdict": "supported",
-    "reason": "Source confirms Nov 11, 2026 launch of second-generation always-on autonomous Genie."
+    "reason": "Press release confirms the second-generation always-on autonomous Genie launch on November 11, 2026."
    },
    {
     "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november",
     "claim": "Through November, Databricks also expanded Genie One into third-party assistants and shipped a steady stream of governance and cost-control features ([Microsoft, 2026, November 13](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november)).",
     "source_excerpt": "15.   The Genie One desktop app for Windows is in Beta\n16.   Connect Claude to Genie One with the Databricks Genie connector\n17.   Feature Views are now available by default for workspaces with the compliance security profile enabled\n18.   Write custom service policies in Python (Beta)\n19.   Bring your own ChatGPT subscription to Codex with Unity Gateway\n20.   Text and binary inputs for protobuf r",
     "verdict": "supported",
-    "reason": "Source shows Claude connector for Genie One and governance features; cost-control not explicit."
+    "reason": "Release notes show Genie One connectors for Claude and other third-party assistants; governance features also listed."
    },
    {
     "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets",
     "claim": "The most recent verified deal, the Row Zero acquisition, falls just outside it ([Databricks, 2026, September 24](https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets)).",
     "source_excerpt": "Share this article\n\n## Latest Press Releases\n\nOctober 13, 2026\n\nFox Corporation Selects Databricks as Strategic Partner for Next-Generation Data and AI Platform\n\nRead now\n\nSeptember 24, 2026\n\nFrom Soda Hall to the Football Field: Databricks Returns to Berkeley Roots with Cal Athletics Partnership\n\nRead now\n\nSeptember 16, 2026\n\nDatabricks to Invest More Than US$350 Million in Singapore as Enterpris",
     "verdict": "supported",
-    "reason": "Source dates the Row Zero acquisition to September 24, 2026."
+    "reason": "Source confirms the Row Zero acquisition announced September 24, 2026."
    },
    {
     "url": "https://app.fundz.net/products/databricks-product-launch-917146",
     "claim": "| [Fundz product launch page](https://app.fundz.net/products/databricks-product-launch-917146) | Sales-intelligence vendor | 2026-11-11 | Low to moderate; used only to corroborate the launch date |",
     "source_excerpt": "See plan options\n\nTrusted byOracleSnowflakeCloudflareLinkedInGoogleSalesforce\u2605\u2605\u2605\u2605\u2605 4.8/5 on G2\n\n# LaunchDatabricks launched the second-generation Genie, an always-on autonomous AI assistant for enterprise work.\n\nNov 11, 2026\n\nSan FranciscoInformation TechnologySoftwareArtificial IntelligenceAnalyticsinformation technology & services\n\n### Product Description [...] The new Genie autonomously manages",
     "verdict": "supported",
-    "reason": "Source shows Nov 11, 2026 date for second-generation Genie launch."
+    "reason": "Fundz page shows the Genie launch dated Nov 11, 2026."
    },
    {
     "url": "https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026",
     "claim": "| [Flexera recap](https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026) | Industry blog | 2026-06-30 | Moderate; background only; internally inconsistent on keynote length |",
     "source_excerpt": "Databricks Data + AI Summit 2026 at Moscone Center\n\nDatabricks Data + AI Summit 2026 at Moscone Center\n\nDatabricks shipped a significant amount of product this year. Sessions were dense. Announcements came fast. This article breaks down every significant launch across all four days and what to expect in the months ahead.\n\n## Databricks Data + AI Summit 2026 product announcements summary\n\nHere is a",
     "verdict": "not_in_source",
-    "reason": "Source has no 2026-06-30 date and no keynote-length inconsistency."
+    "reason": "Excerpt shows no 2026-06-30 date and no keynote-length inconsistency."
    },
    {
     "url": "https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements",
     "claim": "| [Atlan recap](https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements) | Competitor-adjacent vendor | Undated | Low to moderate; Atlan sells a context layer and has a commercial interest in the \"context\" theme |",
     "source_excerpt": "1. Databricks Launches Genie One: All-New Agentic Coworker for Every Team, Databricks Newsroom\n2. What\u2019s new with Unity Catalog at Data + AI Summit 2026, Databricks Blog\n3. AI governance at Data + AI Summit 2026: What\u2019s new with Unity AI Gateway, Databricks Blog\n4. Agent Bricks: Data + AI Summit 2026, Databricks Blog\n5. What\u2019s new in Genie Code at Data + AI Summit 2026, Databricks Blog [...] The t",
     "verdict": "not_in_source",
-    "reason": "Source shows no date and nothing about commercial interest in context layers."
+    "reason": "Source gives no date and does not mention Atlan's commercial interest in context."
    },
    {
     "url": "https://www.databricks.com/blog/agent-bricks-dais-2026",
     "claim": "| [Databricks Agent Bricks blog](https://www.databricks.com/blog/agent-bricks-dais-2026) | Primary (vendor) | 2026 (DAIS) | High for stated metrics; vendor-reported |",
     "source_excerpt": "We are excited to announce Agent Bricks as our fully featured agent platform. We believe that the future of agents requires a combination of data and AI, in a single platform, so that developers can easily build and operate agents in production. By delivering model choice, relevant context, and complete governance, Agent Bricks is ready to build your agentic application. We can\u2019t wait to see what ",
     "verdict": "supported",
-    "reason": "Source is a Databricks vendor blog on Agent Bricks at DAIS 2026, including 100k+ agents figure."
+    "reason": "Blog confirms Agent Bricks expansion at DAIS 2026 and cites 100k+ agents built."
    },
    {
     "url": "https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi",
     "claim": "| [LinkedIn post by J. Saltzman](https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi) | Individual commentary | Approximately 11 months old | Low; speculative, and not used for facts |",
     "source_excerpt": "6. Apps Fuel Snowflake Competition: With both companies approaching $5B revenue run-rate, Databricks Apps development directly targets Snowflake's application layer. 7. Real-Time Infrastructure: Tecton and Mooncake acquisitions + Confluent partnership = major investment in streaming data and AI application latency reduction. 8. Data Governance Moat: OneTrust, BigID, Collibra partnerships + hiring ",
     "verdict": "not_in_source",
-    "reason": "Source excerpt shows no post date establishing age of roughly 11 months."
+    "reason": "Post content appears, but no date or age is shown in the source text."
    },
    {
     "url": "https://www.databricks.com/blog/databricks-announces-2026-global-partner-awards",
     "claim": "| Partner recognition | Entrada named Genie Partner of the Year for enterprise deployments; Lovelytics named Brickbuilder Partner of the Year | [Databricks, 2026](https://www.databricks.com/blog/databricks-announces-2026-global-partner-awards) |",
     "source_excerpt": "## Impact awards\n\nInnovation Partner of the Year: Moody's\n\nMoody's Analytics earns the ISV Innovation Partner of the Year award for building one of Databricks' most impactful partnerships, combining deep platform adoption with trusted Moody's data and MCP capabilities on Databricks Marketplace to help customers modernize risk, compliance, and AI workflows in one environment. Their momentum is visi",
     "verdict": "not_in_source",
-    "reason": "Excerpt names other award winners; Entrada and Lovelytics not mentioned."
+    "reason": "Excerpt names other partner awards; Entrada and Lovelytics awards are not shown."
    }
   ],
   "counts": {

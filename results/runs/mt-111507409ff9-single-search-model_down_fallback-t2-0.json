@@ -131,35 +131,35 @@
     "claim": "**Company snapshot:** Stripe, LLC is a private B2B payments company headquartered in South San Francisco, founded in 2010 (https://tavily.com/knowledge/company/igPwhNOUwEGy).",
     "source_excerpt": "# Stripe\nID: igPwhNOUwEGy\nWebsite: stripe.com/\nLegal name: Stripe, LLC.\nHeadquarters: South San Francisco, California, United States\nLinkedIn: www.linkedin.com/company/stripe \u00b7 1,726,522 followers\nIndustry: Payments\nCompany type: Private company\nFounded: 2010\nBusiness model: B2B\nSaaS: yes\nSocial profiles: www.facebook.com/stripehq, x.com/stripe, www.crunchbase.com/organization/stripe, www.instagra",
     "verdict": "supported",
-    "reason": "Source lists private company, South San Francisco HQ, founded 2010, B2B payments."
+    "reason": "Source gives South San Francisco HQ, founded 2010, private, B2B."
    },
    {
     "url": "https://cryptonews.net/news/market/33703716",
     "claim": "- Stripe's Global Payouts product added a wallet capability in public preview in early November 2026. US businesses can send stablecoin payouts directly to crypto wallets in more than 160 markets (https://cryptonews.net/news/market/33703716).",
     "source_excerpt": "# Stripe lets US businesses send stablecoin payouts to crypto wallets in 160-plus markets\n\nsource-logo  cryptobriefing.com  + 2 more   04 November 2026 17:37, UTC\n\nimage\n\nStripe now lets US businesses send stablecoin payments directly to crypto wallets in more than 160 markets. The feature is part of Stripe\u2019s Global Payouts product, which launched the wallet capability in public preview in early N",
     "verdict": "supported",
-    "reason": "Source confirms public preview in early November 2026 and payouts to wallets in 160+ markets."
+    "reason": "Source confirms public preview in early November 2026 and 160-plus markets."
    },
    {
     "url": "https://www.tradingview.com/news/coinmarketcal:ce753058b094b:0-celo-minipay-integrates-link-by-stripe-for-one-click-stablecoin-purchases-12-nov-2026",
     "claim": "- Celo's MiniPay integration of Link by Stripe was scheduled for 12 November 2026. It gives MiniPay's 20+ million wallets a fiat-to-stablecoin onramp for EU and US users (https://www.tradingview.com/news/coinmarketcal:ce753058b094b:0-celo-minipay-integrates-link-by-stripe-for-one-click-stablecoin-purchases-12-nov-2026). The source describes this as scheduled, so I could not confirm it went live.",
     "source_excerpt": "The integration adds a fiat onramp to MiniPay's existing base of more than 20 million wallets. It gives those users a direct route from fiat money to stablecoins for payments on Celo, supporting payment activity and visibility for the CELO token.\n\nBREAKING: @MiniPay users in the EU & US can now onramp to digital dollars with Link by @Stripe [...] CoinMarketCal\nCoinMarketCal\n\n# Celo: MiniPay integr",
     "verdict": "supported",
-    "reason": "Source gives 12 Nov 2026 schedule, 20M+ wallets, and EU/US onramp."
+    "reason": "Source confirms 12 Nov 2026 schedule, 20+ million wallets, EU and US users."
    },
    {
     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
     "claim": "- Anthropic's Enterprise Frontier Safeguards entered private beta with customers including Bridgewater, Salesforce, and Stripe (https://www.anthropic.com/claude-fable-and-mythos-5-2).",
     "source_excerpt": "(ZDR). Enterprise Frontier Safeguards is now in private beta with customers like Bridgewater, Salesforce, and Stripe. [...] This week, we\u2019re giving subscribers on eligible paid plans extra Fable usage. Plans and seats that include Fable models get one to three Fable resets based on how long they\u2019ve subscribed, and Fable is included for up to 50% of weekly usage limits for Pro plans and standard se",
     "verdict": "supported",
-    "reason": "Source says private beta with customers like Bridgewater, Salesforce, and Stripe."
+    "reason": "Source states private beta with Bridgewater, Salesforce, and Stripe."
    },
    {
     "url": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30",
     "claim": "- A WSJ report says Meta's personal AI assistants have recently been enabled to make purchases on cardholders' behalf, and banks are racing to keep up (https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30). The report does not name Stripe.",
     "source_excerpt": "Meta\u2019s Muse, Instinct and other personal AI assistants have been empowered in recent weeks to make purchases on behalf of cardholders, marking new steps toward a potential future where consumers no longer need to initiate a purchase or press \u201cbuy\u201d at checkout. That is generating buzz and excitement about AI bots\u2019 ability to create a new world order in payments.\n\nCopyright \u00a92026 Dow Jones & Company",
     "verdict": "supported",
-    "reason": "Source reports Meta assistants enabled to make purchases; excerpt does not mention Stripe."
+    "reason": "Meta assistants empowered to purchase for cardholders; excerpt does not name Stripe."
    }
   ],
   "counts": {

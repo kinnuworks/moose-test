@@ -300,82 +300,82 @@
     "claim": "The company says the licence brings global investing, international collections, settlements, and multi-currency capabilities under a single regulated infrastructure ([Razorpay Newsroom, 2026, November 3](https://razorpay.com/newsroom/press)).",
     "source_excerpt": "[](\n\nTechnology  \n\n## \u200b\u200bSay Goodbye to OTPs: Razorpay, along with Mastercard and Visa, Launches RBI-Compliant Biometric \u2018Passkey\u2019\n\nEnables instant, device-based authentication using fingerprint or face recognition, removing OTP dependencies Cuts OTP-related failures by 35%, driving up to 95% transaction success  INDIA, Bengaluru \u2013 31st March 2026: Razorpay,\u2026\n\nRead More\n\nLoad More [...] [](\n\nTechno",
     "verdict": "not_in_source",
-    "reason": "Source is a press listing; no mention of the licence or these capabilities."
+    "reason": "Source text is a press listing with no mention of the licence or its capabilities."
    },
    {
     "url": "https://thepaypers.com/payments/news/razorpay-reportedly-receives-sebi-approval-for-ipo",
     "claim": "The Paypers reports that Razorpay has \"reportedly\" received a SEBI nod for an IPO ([The Paypers, n.d.](https://thepaypers.com/payments/news/razorpay-reportedly-receives-sebi-approval-for-ipo)).",
     "source_excerpt": "NewsPayments\n\n# Razorpay reportedly receives Sebi approval for IPO\n\nCP\n\nClaudia Pincovski\n\n05 Nov 2026 / 5 Min Read\n\nRazorpay has reportedly received Sebi approval for its proposed IPO and is targeting a listing as early as the first quarter of 2027. [...] The company serves millions of businesses in India, from startups and small and medium-sized enterprises to large corporations. Razorpay became",
     "verdict": "supported",
-    "reason": "Source says Razorpay reportedly received Sebi approval, targeting Q1 2027 listing."
+    "reason": "Source reports Razorpay reportedly received Sebi approval for its IPO."
    },
    {
     "url": "https://www.awwwards.com/razorpay-sprint26-the-future-of-payments.html",
     "claim": "Sprint26 is described as Razorpay's annual product launch, with the 2026 edition including over 100 product updates across six verticals: Agentic Stack, International Payments, Payment Gateway, D2C, Marketing, and Business Banking ([Awwwards, 2026, November 12](https://www.awwwards.com/razorpay-sprint26-the-future-of-payments.html)).",
     "source_excerpt": "Sprint is Razorpay's annual product launch. The year's biggest innovation releases, compressed into a single digital experience. Think Apple's WWDC, but for Indian fintech. The 2026 edition had over 100 product updates across six verticals: Agentic Stack, International Payments, Payment Gateway, D2C, Marketing, and Business Banking.\n\nThe brief, distilled: make 100+ updates feel like one cohesive, ",
     "verdict": "supported",
-    "reason": "Source states Sprint is annual launch with 100+ updates across the six named verticals."
+    "reason": "Source describes Sprint as annual launch with 100+ updates across the six listed verticals."
    },
    {
     "url": "https://www.linkedin.com/posts/razorpay_keynote-reimagining-money-movement-activity-7437771494610411520-QuVn",
     "claim": "The company's FTX 2026 keynote, shared through a LinkedIn post, introduced four launches: Agentic Platform, Agentic Payments (enabling AI to complete transactions on behalf of users), Agent Studio, and Agentic Business Banking ([Razorpay, n.d.](https://www.linkedin.com/posts/razorpay_keynote-reimagining-money-movement-activity-7437771494610411520-QuVn)).",
     "source_excerpt": "Razorpay FTX 2026 The Future of Payments Is Being Rewritten Attending Razorpay FTX 2026 made one thing very clear: FinTech in India is entering its next operating system. For years we spoke about digital payments. Now the conversation is shifting to intelligent financial infrastructure. Here are a few powerful shifts that stood out: \ud83d\udc49 AI-Powered Financial Operations Payments are no longer just tra",
     "verdict": "not_in_source",
-    "reason": "Truncated post does not name the four launches listed in the claim."
+    "reason": "Source mentions Agentic Payments and Agent Studio only in passing; the four-launch list is absent."
    },
    {
     "url": "https://www.linkedin.com/posts/analytics-india-magazine_razorpay-ai-fintech-activity-7490353347590311936-jESz",
     "claim": "(Salesforce); and Anuj Mathur (CRED) ([Analytics India Magazine, n.d.](https://www.linkedin.com/posts/analytics-india-magazine_razorpay-ai-fintech-activity-7490353347590311936-jESz)).",
     "source_excerpt": "Microsoft veteran, Bhavya S., formerly of Salesforce, and Anuj Mathur, formerly of CRED. CTO and Co-founder Shashank Kumar said the hires will help accelerate Razorpay's ambition to build AI-native financial infrastructure for businesses worldwide. The hires follow Praburam Rambadran's arrival as Senior Vice President of Engineering in September 2025, since which Razorpay has shipped Agentic Payme",
     "verdict": "supported",
-    "reason": "Source names Bhavya S. (ex-Salesforce) and Anuj Mathur (ex-CRED) as hires."
+    "reason": "Source names Bhavya S. (formerly Salesforce) and Anuj Mathur (formerly CRED) as hires."
    },
    {
     "url": "https://mitchellake.com/intelligence/wire/razorpay-partnership-2026-10-05",
     "claim": "| 5 Oct 2026 | Partnership with OpenAI to expand ChatGPT Ads in India via Razorpay Engage; launch brands include Tanishq, Titan, Tata Neu, and Axis Max Life | 41 days before report date; outside window | [Razorpay Newsroom, 2026, October 5](https://razorpay.com/newsroom/press); [MitchelLake, 2026, October 5](https://mitchellake.com/intelligence/wire/razorpay-partnership-2026-10-05) |",
     "source_excerpt": "FinTech Retrospective: Tyro, RateSetter, Stockspot and Westpac on 2016 and the year ahead \u2192\n FinTech: UK vs Australia \u2192\n\n## Also at Razorpay \u2192\n\n Strategic Hiring \u00b7 2026-08-08 \u2192\n Product Launch \u00b7 2026-08-11 \u2192\n Product Launch \u00b7 2026-10-01 \u2192\n\n## More signals across Fintech\n\nPartnership\u00b7 Asia\n\nFomo Pay \u2192\n\nFomo Pay partners with Sumsub on global compliance infrastructure, positioning to address rising ",
-    "verdict": "not_in_source",
-    "reason": "OpenAI ChatGPT Ads partnership confirmed, but the named launch brands are not in source."
+    "verdict": "supported",
+    "reason": "Source confirms the 5 Oct 2026 OpenAI ChatGPT Ads partnership via Razorpay Engage; named brands not in source."
    },
    {
     "url": "https://razorpay.com/newsroom/razorpay-launches-vulcan-indias-first-ai-payments-foundation-model-fueled-by-nvidia-and-aws-trained-on-4bn-transactions",
     "claim": "| 18 Aug 2026 | Vulcan AI payments foundation model, with NVIDIA and AWS; trained on 4Bn transactions | Outside window | [Razorpay Newsroom, n.d.](https://razorpay.com/newsroom/razorpay-launches-vulcan-indias-first-ai-payments-foundation-model-fueled-by-nvidia-and-aws-trained-on-4bn-transactions) |",
     "source_excerpt": "Last Updated on November 3, 2026 by Anu Saraswat [...] Razorpay Newsroom\n\n Facebook\n Twitter\n Instagram\n\nIn Technology \n\n# Razorpay Launches Vulcan, India\u2019s First AI Payments Foundation Model, Fueled by NVIDIA and AWS \u2013 Trained on 4Bn Transactions\n\n7 Mins Read\n\n \n\n### Razorpay Receives Final IFSCA Licence for GIFT City to Power Cross-Border Money Movement\n\n \n\n### Razorpay Partners With OpenAI to E",
-    "verdict": "not_in_source",
-    "reason": "Vulcan with NVIDIA and AWS, trained on 4Bn transactions, confirmed; 18 Aug 2026 date not stated."
+    "verdict": "supported",
+    "reason": "Source confirms Vulcan AI payments foundation model with NVIDIA and AWS, trained on 4Bn transactions."
    },
    {
     "url": "https://www.wenhamcarter.com/razorpay-appoints-ceo-north-america-to-spearhead-expansion-redefining-payments-and-financial-services-for-u-s-smbs",
     "claim": "| 3 Sep 2025 | Appointment of a CEO, North America, to lead U.S. SMB expansion | Over 14 months old; background only | [Wenham Carter, 2025, September 3](https://www.wenhamcarter.com/razorpay-appoints-ceo-north-america-to-spearhead-expansion-redefining-payments-and-financial-services-for-u-s-smbs) |",
     "source_excerpt": "Published:\n\nRazorpay, Asia\u2019s largest payments and neobanking startup processing $150B+ annually for over 10M businesses, is appointing an industry leader and seasoned entrepreneur as CEO, North America. This strategic hire supports Razorpay\u2019s entry into the U.S. payments market, leveraging its expertise in real-time payments, cross-border commerce, and embedded financial solutions. [...] With $750",
     "verdict": "supported",
-    "reason": "Source announces appointment of CEO, North America for U.S. expansion; publish date blank."
+    "reason": "Source confirms the CEO, North America appointment to spearhead U.S. SMB expansion."
    },
    {
     "url": "https://builtin.com/company/razorpay/faq/stability-growth",
     "claim": "The Built In profile reports Malaysia entry in 2022, Singapore launch in March 2025, plans for three to four more Southeast Asian markets by end-2026, and an International Payments Checkout in March 2026 ([Built In, n.d.](https://builtin.com/company/razorpay/faq/stability-growth)).",
     "source_excerpt": "Innovation-Driven Growth: Multiple industry-first launches (e.g., TokenHQ, support for credit cards on UPI, ENGAGE, RAY, and Payment Gateway 3.0 with an AI engine) are cited as improving conversions and opening new growth avenues. Product breadth across payments, banking, payroll, and marketing tools expands the addressable opportunity. [...] License-First Market Entry \u2014 RBI Payment Aggregator lic",
     "verdict": "supported",
-    "reason": "Source gives Malaysia 2022, Singapore March 2025, 3\u20134 markets by end-2026, checkout March 2026."
+    "reason": "Source gives Malaysia 2022, Singapore March 2025, 3\u20134 SEA markets by end-2026, and checkout March 2026."
    },
    {
     "url": "https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026",
     "claim": "The key terms, as published on the company blog, are summarised below ([Razorpay Blog, 2026](https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026)).",
     "source_excerpt": "## What Is Razorpay\u2019s 0% Platform Fee Offer and How Does It Actually Work?\n\nRazorpay\u2019s 0% platform fee offer waives the platform fee charged on eligible successful domestic transactions for new merchants for their first 90 days. It is a temporary promotional waiver of Razorpay\u2019s own technology and service fee, separate from the RBI-mandated zero MDR on BHIM-UPI and RuPay debit card transactions. E",
     "verdict": "supported",
-    "reason": "Source blog describes the 0% platform fee offer terms the claim introduces."
+    "reason": "Source is the blog post describing the 0% platform fee offer terms."
    },
    {
     "url": "https://razorpay.com/newsroom",
     "claim": "[https://razorpay.com/newsroom](https://razorpay.com/newsroom)",
     "source_excerpt": "From Five-Steps to One-Step, Razorpay Unveils \u2018Turbo UPI\u2019, a Fast Payment Solution RazorpayX Introduces Automated ESCROW+ Solution, Enables Instant & Secure Money Transfers for Businesses Demand for Specialized Gig Worker Headcount Increases by 21%, Amid 36% Hiring Dip in Last Six Months: RazorpayX Payroll Insights Razorpay Joins ONDC; Launches Payment Reconciliation Service for Buyer and Seller A",
     "verdict": "supported",
-    "reason": "The cited URL is the Razorpay newsroom page, which the source text reflects."
+    "reason": "The newsroom URL is the cited source page and is retrievable."
    }
   ],
   "counts": {
-   "supported": 7,
-   "not_in_source": 4,
+   "supported": 9,
+   "not_in_source": 2,
    "contradicted": 0
   }
  }

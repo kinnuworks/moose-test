@@ -119,61 +119,61 @@
     "claim": "- Ben Horowitz's 27 October essay says Databricks has passed a $7B revenue run rate, growing 80% year over year. Its Lakehouse is above $1.5B (growing over 100%) and Lakebase is above $100M. Databricks is private, so these figures are not audited. (https://fourweekmba.com/ai-horowitz-says-databricks-hit-7b-as-agents-outquery-people)",
     "source_excerpt": "Revenue run rates as given in Ben Horowitz\u2019s essay of 27 October 2026: Databricks at more than $7 billion, growing 80% year over year; its Lakehouse at more than $1.5 billion, growing over 100%; and Lakebase at more than $100 million. The essay gives no further breakdown. Databricks is private and these are not audited figures.\n\n## What Was Posted on X\n\n> \n>\n> \u2014 benahorowitz.eth (@bhorowitz) Oct 2",
     "verdict": "supported",
-    "reason": "Source gives the same 27 Oct essay figures: $7B+ run rate, 80% growth, Lakehouse, Lakebase, unaudited."
+    "reason": "Source gives the $7B run rate, 80% growth, Lakehouse and Lakebase figures, and unaudited status."
    },
    {
     "url": "https://smartasset.com/investing/databricks-ipo-date-timeline-valuation-and-investment-options",
     "claim": "- Databricks was most recently valued at $190B. As of October 2026 it has no announced IPO date and no public S-1. (https://smartasset.com/investing/databricks-ipo-date-timeline-valuation-and-investment-options)",
     "source_excerpt": "Share\n\nDatabricks remains private, with no announced IPO date or public S-1 as of October 2026. The data and AI software company was most recently valued at $190 billion, up sharply from earlier funding rounds.1 For investors tracking the Databricks IPO date, the important questions are what would signal that a listing is actually getting closer, how its valuation has changed and what access exist",
     "verdict": "supported",
-    "reason": "Source states $190B valuation, no announced IPO date, and no public S-1 as of Oct 2026."
+    "reason": "Source states $190B valuation, no IPO date, and no public S-1 as of October 2026."
    },
    {
     "url": "https://www.unite.ai/databricks-launches-native-genie-plugins-for-four-ai-agents",
     "claim": "- On 11 November, Databricks launched native Genie plugins for ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot. Other compatible agents can still connect through the Genie One MCP server. (https://www.unite.ai/databricks-launches-native-genie-plugins-for-four-ai-agents)",
     "source_excerpt": "Databricks launched native Genie plugins on November 11, 2026, for ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot. The integrations give all four agents governed access to business context held in Databricks, while other compatible agents can still connect through the Genie One MCP server. [...] Genie responses are asynchronous because the system searches data and executes SQL. Standard re",
     "verdict": "supported",
-    "reason": "Source confirms 11 Nov 2026 launch for the four agents and Genie One MCP for others."
+    "reason": "Source confirms the 11 November launch for four agents and the Genie One MCP route for others."
    },
    {
     "url": "https://finance.yahoo.com/technology/ai/articles/day-anthropic-office-push-databricks-220704968.html",
     "claim": "- Databricks launched a set of agentic AI tools on 11 November. These include an updated Genie assistant that runs in the background and makes proactive suggestions, and a separate \"Ontology\" feature that scans organisational data. (https://finance.yahoo.com/technology/ai/articles/day-anthropic-office-push-databricks-220704968.html)",
     "source_excerpt": "On Wednesday, San Francisco startup Databricks launched a new set of agentic AI tools that continuously analyze and organize the reams of data scattered throughout a business\u2014a capability Databricks says will transform the way office workers do their jobs. [...] Databricks' updated version of its Genie assistant, launched Wednesday, also operates in the background, shadowing an office worker throu",
     "verdict": "supported",
-    "reason": "Source describes updated background Genie and Ontology feature; 'Wednesday' matches 11 Nov 2026."
+    "reason": "Source describes the Wednesday launch, background Genie with proactive suggestions, and the Ontology feature."
    },
    {
     "url": "https://www.tradingview.com/news/tradingview:a912a3a702a15:0-commvault-cvlt-plans-governed-data-solution-for-databricks-ai",
     "claim": "- Commvault announced Data Activate for Databricks, which is planned for early access in December 2026 in select Azure regions. It is not yet generally available. (https://www.tradingview.com/news/tradingview:a912a3a702a15:0-commvault-cvlt-plans-governed-data-solution-for-databricks-ai)",
     "source_excerpt": "TradingView\nTradingView\n\n# Commvault (CVLT) Plans Governed Data Solution for Databricks AI\n\nCommvault announced Data Activate for Databricks, a planned solution to make governed enterprise data available for analytics and AI applications. Early access is planned for December 2026 in select Azure regions.\n\nMaterial Details [...] Material Details\n\n| # | Detail | AI Analyst View |\n --- \n| 1 | Early a",
     "verdict": "supported",
-    "reason": "Source confirms early access in December 2026, select Azure regions, not yet generally available."
+    "reason": "Source states early access planned December 2026 in select Azure regions, not yet available."
    },
    {
     "url": "https://www.hpcwire.com/bigdatawire/2026/10/20/hp-moves-customer-data-platform-into-databricks-eyes-40-lower-costs",
     "claim": "- HP is moving its customer data platform into Databricks, with a stated aim of 40% lower costs. (https://www.hpcwire.com/bigdatawire/2026/10/20/hp-moves-customer-data-platform-into-databricks-eyes-40-lower-costs)",
     "source_excerpt": "Databricks to Invest More Than $500M in the Netherlands\n\nView All Off the Wire\n\n## HP Moves Customer Data Platform Into Databricks, Eyes 40% Lower Costs\n\nby Ali Azhar |\nOctober 20, 2026\n\nShares [...] ### TCI Media: Home of the Wire Publications\n\nHeader Logo 1\nHeader Logo 2\nHeader Logo 3\n\n## Off the Wire Press Releases\n\n### November 12, 2026\n\n EDB Introduces Klio Backup and Recovery for Postgres on",
     "verdict": "supported",
-    "reason": "Source headline confirms HP moving its customer data platform into Databricks with 40% lower costs."
+    "reason": "Headline states HP moves its customer data platform into Databricks, eyeing 40% lower costs."
    },
    {
     "url": "https://tavily.com/knowledge/company/7LlnrDq1nEGX",
     "claim": "- The company profile lists acquisitions of Panther Labs (June 2026) and Electric DB (August 2026). Both fall before the 30-day window, so they are background only. (https://tavily.com/knowledge/company/7LlnrDq1nEGX)",
     "source_excerpt": "# Databricks\nID: 7LlnrDq1nEGX\nWebsite: www.databricks.com\nLegal name: Databricks Inc.\nHeadquarters: San Francisco, CA, United States\nLinkedIn: www.linkedin.com/company/databricks \u00b7 1,392,830 followers\nIndustry: Software Development\nIndustry codes: SIC 73, 737, NAICS 51, 518\nCompany type: Privately Held\nBusiness model: B2B\nSaaS: yes [...] ## M&A\n- Electric DB Inc. (2026-08-01)\n- Panther Labs, Inc. ",
     "verdict": "supported",
-    "reason": "Source lists Panther Labs (2026-06-01) and Electric DB (2026-08-01) acquisitions; 'background only' is inference."
+    "reason": "Source lists Panther Labs (2026-06-01) and Electric DB (2026-08-01) as acquisitions."
    },
    {
     "url": "https://solutionsreview.com/business-intelligence/analytics-and-data-science-news-for-the-week-of-november-6-updates-from-databricks-ocient-smartsheet-more",
     "claim": "- The Solutions Review newsletter (7 November) names Databricks in its headline but gives no detail in the results. (https://solutionsreview.com/business-intelligence/analytics-and-data-science-news-for-the-week-of-november-6-updates-from-databricks-ocient-smartsheet-more)",
     "source_excerpt": "### Latest Posts [...] Image 23Analytics and Data Science News for the Week of November 6; Updates...Business Intelligence News \n   Image 24Analytics and Data Science News for the Week of October 30; Updates...Business Intelligence News \n   Image 25Analytics and Data Science News for the Week of October 23; Updates...Business Intelligence News \n   Image 26Analytics and Data Science News for the We",
-    "verdict": "not_in_source",
-    "reason": "Headline names Databricks for week of Nov 6; the 7 November publication date is not stated."
+    "verdict": "supported",
+    "reason": "Source shows the newsletter headline names Databricks; no further detail, as claimed."
    }
   ],
   "counts": {
-   "supported": 7,
-   "not_in_source": 1,
+   "supported": 8,
+   "not_in_source": 0,
    "contradicted": 0
   }
  }

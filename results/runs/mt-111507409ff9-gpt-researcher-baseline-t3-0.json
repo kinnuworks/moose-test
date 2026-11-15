@@ -266,70 +266,70 @@
     "claim": "| 23 Oct | Rollouts expanded to full catalog scheduling, A/B testing of offers, and coordinated deploys of pricing, theme, and checkout changes ([Common Thread Co., 2026](https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly)) | Launch (secondary source) | Tracker blog |",
     "source_excerpt": "Shopify launched Canvas on October 1, 2026, a new AI-powered site builder that gives merchants a unified design surface where every page of their store is displayed simultaneously. Merchants redesign their storefront through conversational instructions to Sidekick, Shopify's built-in AI agent, with changes applied in real time across all templates without requiring coding or design skills. Canvas ",
     "verdict": "not_in_source",
-    "reason": "Source dates Discount Rollouts to Oct 2; no Oct 23 expansion or full catalog scheduling."
+    "reason": "Source describes Discount Rollouts on Oct 2; no 23 Oct expansion or full catalog scheduling."
    },
    {
     "url": "https://singjupost.com/shopify-q3-2026-earnings-call-transcript",
     "claim": "| 3 Nov | Q3 results: GMV up 29.5% to $119 billion, revenue up 32% to $3.7 billion, free cash flow margin of 22% ([Singju Post, 2026](https://singjupost.com/shopify-q3-2026-earnings-call-transcript)) | Financial | Transcript summary |",
     "source_excerpt": "Shopify (NASDAQ, TSX: SHOP) reported third quarter 2026 results with GMV up 29.5% to $119 billion, revenue up 32% to $3.7 billion, and a 22% free cash flow margin. On the call, President Harley Finkelstein and CFO Jeff Hoffmeister discussed agentic commerce, Shop Pay inside personal AI agents like Muse, Claude Duet, Instinct, and Grok Bot, the new Canvas store builder, Sidekick, and the Q4 2026 ou",
     "verdict": "supported",
-    "reason": "Source states GMV up 29.5% to $119B, revenue up 32% to $3.7B, 22% FCF margin."
+    "reason": "Source gives GMV +29.5% to $119B, revenue +32% to $3.7B, 22% FCF margin."
    },
    {
     "url": "https://releasebot.io/updates/shopify",
     "claim": "| Nov (feed dated 11 Nov) | Store credit balance shown in customer account header; personalised product recommendations for signed-in customers who have not yet ordered ([Releasebot, 2026](https://releasebot.io/updates/shopify)) | Launch | Release-note aggregator |",
     "source_excerpt": "Shopify\n\n  ## Customer accounts now show store credit and personalized product recommendations\n\n  Shopify adds store credit balances to customer account headers and personalized product recommendations for signed-in customers who haven\u2019t ordered yet.\n\n  Store credit balance now shows in the customer account header on every page. Signed-in customers who haven't ordered yet see product recommendatio",
     "verdict": "supported",
-    "reason": "Source states store credit in account header and recommendations for signed-in non-ordering customers."
+    "reason": "Source states store credit in account header and recommendations for signed-in customers who haven't ordered."
    },
    {
     "url": "https://rockettalent.co/blog/growth-recruiters-for-shopify-brands-complete-guide",
     "claim": "**Hires:** No Shopify hire is verified in the window. The Rocket Talent article dated 19 October is third-party marketing for recruiting services, not a Shopify appointment ([Rocket Talent, 2026](https://rockettalent.co/blog/growth-recruiters-for-shopify-brands-complete-guide)).",
     "source_excerpt": "Skip to content\n\nHome Our Process Growth Talent Product Talent Data Talent Candidate Search JD Analyzer About us Blog Rocket Talent Podcast Contact us Let's talk\u2197\n\nMarketing \u00b7 Executive Search\n\n# Growth recruiters for Shopify brands: assess acquisition and retention\n\nRocket Talent \u00b7 October 19, 2026\n\nGrowth recruiters for Shopify brands: assess acquisition and retention [...] For a Shopify hiring ",
     "verdict": "supported",
-    "reason": "Source is a Rocket Talent marketing post dated October 19, 2026."
+    "reason": "Rocket Talent article dated October 19, 2026 is growth-recruiter marketing content."
    },
    {
     "url": "https://tracxn.com/d/acquisitions/acquisitions-by-shopify/__NNWgXlWtRBr7FVe-BI1BiwMHs246IPF8HlqlcE5kZno",
     "claim": "**Deals:** No acquisition is verified in the window. The most recent acquisition listed is Tailwind CSS, completed on 9 September 2026, which falls outside the window ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-shopify/__NNWgXlWtRBr7FVe-BI1BiwMHs246IPF8HlqlcE5kZno)).",
     "source_excerpt": "lock\n\nMedia has covered Shopify for a total of 158 events in the last 1 year, 28 of them have been about acquisition activity.\n\n## FAQs about Acquisitions by Shopify\n\nAccel Partners\nPartech\nIN-Q-TEL - US\nFujitsu\nTenity\nStanford [...] | Year | # Acquisitions |\n --- |\n| 2026 | 1 |\n| 2025 | 2 |\n| 2024 | 3 |\n| 2022 | 3 |\n| 2021 | 2 |\n| 2019 | 3 |\n| 2018 | 2 |\n| 2017 | 1 |\n| 2016 | 3 |\n| 2012 | 1 |\n| 2",
     "verdict": "supported",
-    "reason": "Source lists Tailwind CSS acquired September 9, 2026 as most recent."
+    "reason": "Source lists Tailwind CSS acquisition on Sep 09, 2026 as most recent."
    },
    {
     "url": "https://www.shopify.com/news/search",
     "claim": "**Newsroom:** The Shopify press-release snapshot I reviewed lists nothing later than 5 August 2026, so it does not corroborate any in-window announcements ([Shopify, 2026](https://www.shopify.com/news/search)).",
-    "source_excerpt": "## Two decades building commerce infrastructure: Jeanne DeWitt Grosser joins Shopify\u2019s board\n\nJune 2, 2026\n\n## Shopify Announces $3 Billion Increase to Share Repurchase Program\n\nPOVJune 3, 2026\n\n## What impact means at work is changing. How we reward it isn't.\n\nInsightsJune 2, 2026\n\n## Entrepreneurship has no zip code\n\nPOVJune 1, 2026\n\n## AI unlocks future-proof entrepreneurs. Bad regulation crush",
+    "source_excerpt": "## Two decades building commerce infrastructure: Jeanne DeWitt Grosser joins Shopify\u2019s board\n\nJune 2, 2026\n\n## Shopify Announces $3 Billion Increase to Share Repurchase Program\n\nPOVJune 3, 2026\n\n## What impact means at work is changing. How we reward it isn't.\n\nInsightsJune 2, 2026\n\n## Entrepreneurship has no zip code\n\nPOVJune 1, 2026\n\n## AI unlocks future-proof entrepreneurs. Bad regulation crushes them.\n\nInsightsMay 11, 2026 [...] ## Shopify to Announce Second-Quarter 2026 Financial Results\n\nProductJune 17, 2026\n\n## Agentic commerce for every developer:The Spring '26 Edition\n\nProductJune 17, 2026\n\n## Selling everything, everywhere, all at once: The Spring '26 Edition\n\nProductJune 17, 2026\n\n## Spring '26 Edition: Five apps that show what Catalog API and UCP make possible\n\nPress ReleasesJune 16, 2026\n\n## Shopify Announces Results of its 2026 Annual Meeting of Shareholders\n\nCompanyJune 16, 2026 [...] ## Introducing Canvas: Opening the aperture on online store design\n\nPOVAugust 13, 2026\n\n## Commerce now moves at the speed of culture. And anyone can move with it.\n\nPress ReleasesAugust 5, 2026\n\n## Shopify Delivers Big: 30%+ Growth Across GMV, Revenue, Gross Profit, and Free Cash Flow\n\nPOVJuly 28, 2026\n\n## The next era of commerce, built by partners\n\nPOVJuly 13, 2026\n\n## The preparedness paradox: Wait for \u201cready,\u201d and it might never come\n\nPress ReleasesJuly 8, 2026",
     "verdict": "contradicted",
-    "reason": "Source lists a press item dated August 13, 2026, later than August 5."
+    "reason": "Source lists items dated August 13, 2026, later than 5 August."
    },
    {
     "url": "https://www.hudson-labs.com/research/shopify-q3-2026-earnings-preview-shop-results-preview",
     "claim": "The preview also flagged AI and LLM costs as a possible margin pressure ([Hudson Labs, 2026](https://www.hudson-labs.com/research/shopify-q3-2026-earnings-preview-shop-results-preview)).",
     "source_excerpt": "| Sidekick Usage | Daily active merchants +3.6x YoY | 36,000 custom apps built in Q2 (up from 12,000 in Q1) |\n| AI-driven Orders | +3x YoY | New buyer orders from AI channels 2x vs. other channels | [...] Key themes: Rapid adoption of AI-powered tools (Sidekick), accelerating agentic commerce (AI-driven channels), and continued international and enterprise expansion.\n Comparables: Q3 2025 was a st",
     "verdict": "supported",
-    "reason": "Source's watch list includes margin pressure from AI/LLM costs."
+    "reason": "Preview says watch for margin pressure from AI/LLM costs."
    },
    {
     "url": "https://nexacurrent.com/business/shopify-enters-q3-earnings-with-strong-growth-expectations-and-a-demanding-sto-9250c6ee.html",
     "claim": "An analyst described the cost question as \"disciplined spending, including token costs.\" That was an analyst view, not company guidance ([NexaCurrent, 2026](https://nexacurrent.com/business/shopify-enters-q3-earnings-with-strong-growth-expectations-and-a-demanding-sto-9250c6ee.html)).",
     "source_excerpt": "Shopify's reported AI initiatives include allowing merchants to sell directly inside Meta's Muse assistant with Shop Pay handling checkout. Its Fall '26 Edition included more than 150 updates built around AI agents, including a Shop.md skill for ChatGPT and Claude to search and buy, a rebuilt Sidekick in the merchant admin, and checkout through Shop Pay on outside agents. [...] \u00b77 min read\n\nA smar",
     "verdict": "not_in_source",
-    "reason": "The quoted phrase 'disciplined spending, including token costs' does not appear in the source."
+    "reason": "The quoted phrase about disciplined spending and token costs does not appear in source."
    },
    {
     "url": "https://www.nextflow.biz/insights/shopify-canvas-sidekick-ai-store-builder-2026",
     "claim": "| 1 Oct | Canvas launched; desktop-only, third-party themes unsupported, and a theme edited in Canvas stops receiving standard updates and cannot be downloaded ([NextFlow, 2026](https://www.nextflow.biz/insights/shopify-canvas-sidekick-ai-store-builder-2026)) | A one-way step for any theme moved into Canvas |",
     "source_excerpt": "Shopify launched Canvas on October 1, 2026 \u2014 a real-time visual workspace where merchants direct Sidekick, Shopify's AI agent, through chat to redesign their store, with Sidekick validating its own code and reviewing screenshots before handing results back. Here's exactly what it can do today, what still needs a merchant's review, and what remains unsupported in this early-access release.\n\nNextFlo",
     "verdict": "not_in_source",
-    "reason": "Source does not mention desktop-only, third-party theme limits, or theme update restrictions."
+    "reason": "Source confirms third-party themes unsupported; desktop-only and update-freeze details absent."
    },
    {
     "url": "https://www.huptechweb.com/blogs/shopify-changelog-guide",
     "claim": "| 1 Sep | Inventory analytics switched to on-hand quantity, creating a step change in sell-through and days-remaining reports ([Huptech Web, 2026](https://www.huptechweb.com/blogs/shopify-changelog-guide)) | Baselines and ERP reconciliations need re-basing |",
     "source_excerpt": "While Shopify releases updates constantly, some have a more significant impact than others. The two big launches that have reshaped the platform in the last twelve months are the Summer '25 \"Horizons\" Edition (released May 21, 2025) and the Winter '26 \"RenAIssance\" Edition (released late 2025 / early 2026). Together they shipped over 300 updates. Here are the changes that have been particularly im",
     "verdict": "not_in_source",
-    "reason": "Source does not mention inventory analytics or an on-hand quantity switch."
+    "reason": "Source contains no mention of inventory analytics or on-hand quantity switch."
    }
   ],
   "counts": {

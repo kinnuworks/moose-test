@@ -31,7 +31,7 @@ When search came back empty, both real agents told the truth. They differ in wha
 
 With the model gone and no fallback, GPT Researcher's own client kept retrying for about 4.6 minutes (120 requests, none of them retried by Bifrost) before it crashed. With Bifrost's fallback switched on, the same agent passed all 24 runs.
 
-Do the cited pages back the briefing? For every citation the gateway saw fetched, a model compares the line that cites it with the page text Tavily returned through Bifrost. In GPT Researcher's briefings, 28 of 484 checked citations were contradicted by that text (5.8%); for single-search it was 3 of 313 (1.0%). GPT Researcher also has far more claims the returned text doesn't cover (224 against 34), which fits it reading whole pages outside the gateway. This check is AI-written and kept apart from the grade.
+Do the cited pages back the briefing? For every citation the gateway saw fetched, a model compares the line that cites it with the page text Tavily returned through Bifrost (up to 1,500 characters per page). In GPT Researcher's briefings, 28 of 501 checked citations were contradicted by that text (5.6%); for single-search, 2 of 313 (0.6%). We re-read all 30 contradictions against the source text: 24 held up, 4 turn on a detail we could not confirm, and 2 were wrong. Of the 24, 10 were GPT Researcher telling the reader a source was empty or unreadable ("only the title was accessible") when the search had returned its content; 9 were wrong dates and 5 wrong numbers or terms. GPT Researcher also has many more claims the returned text does not cover (235 against 33). One possible reason, not measured here, is that it also reads pages itself, outside the gateway. open_deep_research has no checked runs yet: under search faults it cited nothing it fetched, and its normal-day runs are not in yet. This check is AI-written and kept apart from the grade.
 
 The `null` control writes nothing and is graded NO_OUTPUT every time, which checks that the grader cannot be passed by an empty run.
 
@@ -63,7 +63,7 @@ Bifrost also keeps the test fair. Our model account has per-minute and concurren
 ## Limits
 
 - One model for all agents in a run, so results compare agents, not models.
-- Briefing quality beyond citations (are the facts important?) is not scored. Whether a page supports the sentence is checked by a model against the page text the search returned, not the full page; a claim that text does not cover counts as neither supported nor contradicted.
+- Briefing quality beyond citations (are the facts important?) is not scored. Whether a page supports the sentence is checked by a model against the page text the search returned (first 1,500 characters), not the full page; a claim that text does not cover counts as neither supported nor contradicted.
 - Tavily's `published_date` is its "best estimate", so recency shares are approximate and undated sources are counted separately.
 - Bifrost logs are written asynchronously; the runner waits for them to settle before reading.
 

@@ -266,84 +266,84 @@
     "claim": "The company says the licence brings global investing, international collections, settlements, and multi-currency capabilities under one regulated infrastructure ([Razorpay Newsroom, 2026](https://razorpay.com/newsroom/press)).",
     "source_excerpt": "[](\n\nTechnology  \n\n## \u200b\u200bSay Goodbye to OTPs: Razorpay, along with Mastercard and Visa, Launches RBI-Compliant Biometric \u2018Passkey\u2019\n\nEnables instant, device-based authentication using fingerprint or face recognition, removing OTP dependencies Cuts OTP-related failures by 35%, driving up to 95% transaction success  INDIA, Bengaluru \u2013 31st March 2026: Razorpay,\u2026\n\nRead More\n\nLoad More [...] [](\n\nTechno",
     "verdict": "not_in_source",
-    "reason": "Source is a press listing with headlines; no licence scope described."
+    "reason": "Source is a press listing page; it does not mention the licence or these capabilities."
    },
    {
     "url": "https://www.linkedin.com/posts/analytics-india-magazine_razorpay-ai-fintech-activity-7490353347590311936-jESz",
     "claim": "Analytics India Magazine reports that Razorpay has added four senior engineering leaders from Microsoft, Salesforce, CRED, and Divyam.AI ([Analytics India Magazine, n.d.](https://www.linkedin.com/posts/analytics-india-magazine_razorpay-ai-fintech-activity-7490353347590311936-jESz)).",
     "source_excerpt": "Microsoft veteran, Bhavya S., formerly of Salesforce, and Anuj Mathur, formerly of CRED. CTO and Co-founder Shashank Kumar said the hires will help accelerate Razorpay's ambition to build AI-native financial infrastructure for businesses worldwide. The hires follow Praburam Rambadran's arrival as Senior Vice President of Engineering in September 2025, since which Razorpay has shipped Agentic Payme",
     "verdict": "supported",
-    "reason": "Source names four senior leaders from Microsoft, Salesforce, CRED and Divyam.ai."
+    "reason": "Source describes four senior leaders from Microsoft, Salesforce, CRED and Divyam.ai, in an Analytics India Magazine post."
    },
    {
     "url": "https://www.awwwards.com/razorpay-sprint26-the-future-of-payments.html",
     "claim": "Razorpay's Sprint26 is described as the company's annual product launch, with over 100 product updates across six verticals: Agentic Stack, International Payments, Payment Gateway, D2C, Marketing, and Business Banking ([Awwwards, 2026](https://www.awwwards.com/razorpay-sprint26-the-future-of-payments.html)).",
     "source_excerpt": "Sprint is Razorpay's annual product launch. The year's biggest innovation releases, compressed into a single digital experience. Think Apple's WWDC, but for Indian fintech. The 2026 edition had over 100 product updates across six verticals: Agentic Stack, International Payments, Payment Gateway, D2C, Marketing, and Business Banking.\n\nThe brief, distilled: make 100+ updates feel like one cohesive, ",
     "verdict": "supported",
-    "reason": "Source states Sprint is annual launch with 100+ updates across the six named verticals."
+    "reason": "Source states Sprint is annual, with over 100 updates across the six named verticals."
    },
    {
     "url": "https://www.linkedin.com/posts/razorpay_keynote-reimagining-money-movement-activity-7437771494610411520-QuVn",
     "claim": "At FTX 2026, Razorpay reportedly launched four agentic products: Agentic Platform, Agentic Payments, Agent Studio, and Agentic Business Banking ([Razorpay, n.d.](https://www.linkedin.com/posts/razorpay_keynote-reimagining-money-movement-activity-7437771494610411520-QuVn)).",
     "source_excerpt": "Today at FTX 2026, something bigger than a product launch happened. We unveiled a brand new Razorpay. For the last decade, software asked businesses to adapt to it. Dashboards. Forms. Workflows. Manual operations. Today, that model changes. The Agentic Era has begun. AI is no longer an add-on or a feature. It is the foundation. And Razorpay is now building as an AI-first company. At the FTX keynot",
     "verdict": "supported",
-    "reason": "Source lists the four launches at FTX 2026 with matching names."
+    "reason": "Source lists the four launches at FTX 2026 with these exact names."
    },
    {
     "url": "https://razorpay.com/m/gff2026",
     "claim": "The company describes RAY, its WhatsApp-based AI account manager, as able to answer business questions and fix payment issues ([Razorpay, n.d.](https://razorpay.com/m/gff2026)).",
     "source_excerpt": "PRODUCT LAUNCHES\n\nPRODUCT LAUNCHES\n\n## Key Launches at a glance\n\n## Key Launches at a glance\n\nKey Launches   \nat a glance\n\n \n\n  Agentic Commerce Stack\n\n  Brands can now make their product catalogs fully shoppable on WhatsApp. Razorpay's Agentic Commerce Stack seamlessly orchestrates discovery, protocol translation, and instant in-chat checkouts to turn everyday conversational messages into high-co",
     "verdict": "not_in_source",
-    "reason": "Source says RAY manages payments and gets support; 'fix payment issues' not stated."
+    "reason": "Source says RAY manages payments and gives support; 'answer business questions' and 'fix payment issues' are not stated."
    },
    {
     "url": "https://thepaypers.com/payments/news/razorpay-reportedly-receives-sebi-approval-for-ipo",
     "claim": "The Paypers reports that Razorpay has reportedly received SEBI approval for an IPO ([The Paypers, n.d.](https://thepaypers.com/payments/news/razorpay-reportedly-receives-sebi-approval-for-ipo)).",
     "source_excerpt": "NewsPayments\n\n# Razorpay reportedly receives Sebi approval for IPO\n\nCP\n\nClaudia Pincovski\n\n05 Nov 2026 / 5 Min Read\n\nRazorpay has reportedly received Sebi approval for its proposed IPO and is targeting a listing as early as the first quarter of 2027. [...] The company serves millions of businesses in India, from startups and small and medium-sized enterprises to large corporations. Razorpay became",
     "verdict": "supported",
-    "reason": "Source reports Sebi approval for IPO with listing targeted for Q1 2027."
+    "reason": "Source reports reported SEBI approval and a targeted listing as early as Q1 2027."
    },
    {
     "url": "https://thepaypers.com/payments/news/razorpay-reportedly-plans-usd-500-mln-ipo-amid-digital-payments-surge",
     "claim": "A separate Paypers piece reports the company is rumoured to seek a USD 500 million IPO, placing it among new-age Indian firms preparing to list over the next 12 to 18 months ([The Paypers, n.d.](https://thepaypers.com/payments/news/razorpay-reportedly-plans-usd-500-mln-ipo-amid-digital-payments-surge)). **Both items are unconfirmed reports, and the publication dates are not visible in the material",
     "source_excerpt": "The fintech has invited merchant bankers to pitch for the IPO mandate, with Kotak Mahindra Capital and Axis Capital emerging as leading contenders for the underwriting role.\n\nWhile discussions are still at a preliminary stage, the public issue is being explored for launch towards the end of 2026. The final timing and size of the IPO remain subject to market conditions, regulatory approvals, and in",
     "verdict": "not_in_source",
-    "reason": "USD 500m IPO rumour appears, but 12\u201318 month timing and peer context are absent."
+    "reason": "Source gives the USD 500m figure but not the 12\u201318 month timeline or new-age firms framing."
    },
    {
     "url": "https://razorpay.com/newsroom/razorpay-becomes-the-india-payments-partner-for-replits-global-ai-platform",
     "claim": "The Replit partnership, which makes Razorpay the India payments partner for Replit's AI platform, is listed on a page last updated 15 June 2026 ([Razorpay Newsroom, 2026](https://razorpay.com/newsroom/razorpay-becomes-the-india-payments-partner-for-replits-global-ai-platform)). **[Unverified date]** applies to the Replit item.",
     "source_excerpt": "razorpayrazorpay-replit-partnership\n\n0\n\n#### Related Posts\n\n \n\n### Razorpay Receives Final IFSCA Licence for GIFT City to Power Cross-Border Money Movement\n\n \n\n### Razorpay Partners With OpenAI to Expand ChatGPT Ads In India\n\n \n\n### Razorpay Merchants Can Now Accept Apple Pay Online and In-Store, With No Card Entry or OTPs\n\nLast Updated on June 15, 2026 by Anu Saraswat [...] Razorpay Newsroom\n\n Fa",
     "verdict": "supported",
-    "reason": "Source shows the Replit partnership title and 'Last Updated on June 15, 2026'."
+    "reason": "Source shows the Replit India payments partner page, last updated June 15, 2026."
    },
    {
     "url": "https://razorpay.com/newsroom/razorpay-launches-vulcan-indias-first-ai-payments-foundation-model-fueled-by-nvidia-and-aws-trained-on-4bn-transactions",
     "claim": "| 18 Aug 2026 | Vulcan, described as India's first AI payments foundation model, trained on 4Bn transactions | Core AI infrastructure claim | [Razorpay Newsroom, 2026](https://razorpay.com/newsroom/razorpay-launches-vulcan-indias-first-ai-payments-foundation-model-fueled-by-nvidia-and-aws-trained-on-4bn-transactions) |",
     "source_excerpt": "Last Updated on November 3, 2026 by Anu Saraswat [...] Razorpay Newsroom\n\n Facebook\n Twitter\n Instagram\n\nIn Technology \n\n# Razorpay Launches Vulcan, India\u2019s First AI Payments Foundation Model, Fueled by NVIDIA and AWS \u2013 Trained on 4Bn Transactions\n\n7 Mins Read\n\n \n\n### Razorpay Receives Final IFSCA Licence for GIFT City to Power Cross-Border Money Movement\n\n \n\n### Razorpay Partners With OpenAI to E",
     "verdict": "not_in_source",
-    "reason": "Source gives a November 3, 2026 update date, not an 18 August launch date."
+    "reason": "Source confirms Vulcan's 4Bn-transaction training but not an 18 August 2026 launch date."
    },
    {
     "url": "https://builtin.com/company/razorpay/faq/stability-growth",
     "claim": "| Mar 2026 | International Payments Checkout; plans for 3\u20134 more SEA markets by end-2026 | International expansion pace | [Built In, n.d.](https://builtin.com/company/razorpay/faq/stability-growth) |",
     "source_excerpt": "Innovation-Driven Growth: Multiple industry-first launches (e.g., TokenHQ, support for credit cards on UPI, ENGAGE, RAY, and Payment Gateway 3.0 with an AI engine) are cited as improving conversions and opening new growth avenues. Product breadth across payments, banking, payroll, and marketing tools expands the addressable opportunity. [...] License-First Market Entry \u2014 RBI Payment Aggregator lic",
     "verdict": "supported",
-    "reason": "Source lists the March 2026 checkout and plans for 3\u20134 SEA markets by end-2026."
+    "reason": "Source lists International Payments Checkout (March 2026) and plans for 3\u20134 more SEA markets by end-2026."
    },
    {
     "url": "https://razorpay.com/newsroom/razorpay-raises-375-mn-led-by-lone-pine-capital-alkeon-capital-and-tcv-valuation-increases-to-7-5-bn",
     "claim": "| 21 Dec 2021 | Series F of $375m at a $7.5bn valuation, co-led by Lone Pine, Alkeon and TCV | Last verified valuation in material | [Razorpay Newsroom, 2021](https://razorpay.com/newsroom/razorpay-raises-375-mn-led-by-lone-pine-capital-alkeon-capital-and-tcv-valuation-increases-to-7-5-bn) |",
     "source_excerpt": "markets like SEA countries. Apart from this, Razorpay also plans to use the fundraise to double down investment in acquiring B2B SaaS companies that can help scale up operations while providing the highest standards of customer experience in the country. [...] be partnering with Harshil, Shashank and his team who have continued to execute on their vision. We could not be more excited for the journ",
     "verdict": "not_in_source",
-    "reason": "Source confirms the co-leads and amount/valuation in slug, but not the 21 Dec 2021 date."
+    "reason": "Source confirms co-leads and the $7.5bn valuation in its URL, but not the 21 Dec 2021 date."
    },
    {
     "url": "https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026",
     "claim": "Razorpay's blog describes a 90-day 0% platform fee offer for new merchants, with \u20b95,00,000 in Amount Credits auto-applied after activation ([Razorpay Blog, 2026](https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026)).",
-    "source_excerpt": "## What Is Razorpay\u2019s 0% Platform Fee Offer and How Does It Actually Work?\n\nRazorpay\u2019s 0% platform fee offer waives the platform fee charged on eligible successful domestic transactions for new merchants for their first 90 days. It is a temporary promotional waiver of Razorpay\u2019s own technology and service fee, separate from the RBI-mandated zero MDR on BHIM-UPI and RuPay debit card transactions. E",
+    "source_excerpt": "## What Is Razorpay\u2019s 0% Platform Fee Offer and How Does It Actually Work?\n\nRazorpay\u2019s 0% platform fee offer waives the platform fee charged on eligible successful domestic transactions for new merchants for their first 90 days. It is a temporary promotional waiver of Razorpay\u2019s own technology and service fee, separate from the RBI-mandated zero MDR on BHIM-UPI and RuPay debit card transactions. Exact terms are set in the official offer conditions. [...] The Razorpay 0% platform fee offer waives Razorpay\u2019s platform fee on eligible domestic transactions for new merchants for the first 90 days from account activation, up to a cumulative transaction value of \u20b95,00,000, whichever is exhausted first. GST and a \u20b9199 + tax KYC processing fee are not waived. The offer is auto-applied to eligible accounts activated on or after 1 July 2026. [...] Q6: Is there any fee to pay during activation that the offer does not waive?  \n Yes. A one-time KYC processing fee of \u20b9199 plus applicable taxes applies at activation. GST on the platform fee is also not waived at any point during the window. The offer only waives Razorpay\u2019s platform fee itself.\n\nQ7: Is the standard platform fee 2% or 2.15%? Most domestic methods are priced at 2% + GST, while 2.15% applies specifically to RuPay Credit Card on UPI. Confirm the exact rate in your dashboard.",
     "verdict": "contradicted",
-    "reason": "Source says \u20b95,00,000 is a cumulative transaction value cap, not Amount Credits."
+    "reason": "Source describes \u20b95,00,000 as a cap on waived transaction value, not as Amount Credits."
    }
   ],
   "counts": {

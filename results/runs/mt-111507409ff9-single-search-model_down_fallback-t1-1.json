@@ -131,61 +131,61 @@
     "claim": "- **Huang departure:** NVIDIA's board announced that Jensen Huang has left all his positions with immediate effect after 33 years as CEO. Longtime CFO Colette Kress was named interim CEO. (https://mashable.com/tech/jensen-huang-affairs-nvidia-resignation-timeline; https://meteoraweb.com/en/news/nvidia-jensen-huang-steps-down-as-ceo)",
     "source_excerpt": "## Nov. 17 \u2014 Nvidia to hold its first earnings call since Huang's exit\n\nNvidia is scheduled to release\") its quarterly results around 4:20 p.m. ET on Tuesday, Nov. 17, followed by an earnings call at 5 p.m. ET. It will be the company\u2019s first earnings call since Jensen Huang resigned and Kress took over as interim CEO.\n\nThis is a developing story...\n\nTopics Nvidia\n\nMashable Image\n\nOlivia Tauber\n\nDe",
     "verdict": "supported",
-    "reason": "Source confirms Huang's departure after 33 years and Kress as interim CEO."
+    "reason": "Mashable confirms official announcement, 33 years as CEO, Kress named interim CEO."
    },
    {
     "url": "https://meteoraweb.com/en/news/nvidia-jensen-huang-steps-down-as-ceo",
     "claim": "- **Huang departure:** NVIDIA's board announced that Jensen Huang has left all his positions with immediate effect after 33 years as CEO. Longtime CFO Colette Kress was named interim CEO. (https://mashable.com/tech/jensen-huang-affairs-nvidia-resignation-timeline; https://meteoraweb.com/en/news/nvidia-jensen-huang-steps-down-as-ceo)",
     "source_excerpt": "Available  Advertising space See this space? It could be yours. Put your business in front of Meteora Web readers, in 14 languages.   Advertise your business \u2192 We reply on WhatsApp\n\n## What did NVIDIA announce?\n\nAccording to the official NVIDIA statement, Huang has left all his positions with immediate effect. Kress, at the company as CFO since September 2013, remains also CFO until a successor is",
     "verdict": "supported",
-    "reason": "Source states Huang left all positions with immediate effect; Kress interim CEO."
+    "reason": "Meteoraweb confirms all positions left with immediate effect and Kress as interim CEO."
    },
    {
     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
     "claim": "- **Shift in board messaging:** An 8 November board statement said the board \"has confidence in Jensen and his leadership team.\" (https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors) Four days later, the CEO change was announced.",
     "source_excerpt": "The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate.\n\nImage 10\n\n## Downloads\n\n   Download Press Release\n\n## More News\n\nImage 11\n\n### Statement From the Independent Members of the NVIDIA Board\n\nNovember 10, 2026\n\nImage 12\n\n### NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusi",
     "verdict": "supported",
-    "reason": "Source quotes the board's confidence statement; the CEO change was announced November 12."
+    "reason": "Nvidia's Nov 8 board statement says it has confidence in Jensen and his team."
    },
    {
     "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
     "claim": "- **Reported reasons (unconfirmed):** The WSJ reported, citing people familiar with the matter, that the board was preparing to oust Huang after two extramarital affairs, one reportedly with a suspected Chinese spy. (https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad) A Wired headline, carried by Mezha, says NVIDIA hired a crisis PR firm at least a year befor",
     "source_excerpt": "Nvidia\u2019s NVDA 2.87%increase; up pointing triangle board is preparing to oust CEO Jensen Huang, its founder and chief executive after he had two extramarital affairs, including one with a suspected Chinese spy.\n\nThe board is preparing to meet as soon as today to determine his future, people familiar with the matter said.\n\nCopyright \u00a92026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818",
     "verdict": "supported",
-    "reason": "WSJ source reports board preparing to oust Huang over two affairs, one with a suspected Chinese spy."
+    "reason": "WSJ source reports board preparing to oust Huang over two affairs, one with suspected Chinese spy."
    },
    {
     "url": "https://mezha.net/eng/news/mezha-cbe54f11b05c0e59be5a05db_wired-_nvidia_hired",
     "claim": "- **Reported reasons (unconfirmed):** The WSJ reported, citing people familiar with the matter, that the board was preparing to oust Huang after two extramarital affairs, one reportedly with a suspected Chinese spy. (https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad) A Wired headline, carried by Mezha, says NVIDIA hired a crisis PR firm at least a year befor",
     "source_excerpt": "12 Nov 2026, 19:04\n\nGDC attendance fell 30% in 2026 as organizers outline changes for 2027\n\n12 Nov 2026, 19:02\n\nOpenAI raised $15 billion at a valuation of $1.25 trillion\n\n12 Nov 2026, 19:01\n\n\u2018Yes, Dear\u2019 actor Anthony Clark dies at 62\n\n12 Nov 2026, 18:59\n\nJensen Huang Steps Down as Nvidia CEO; Colette Kress Takes Interim Lead\n\n12 Nov 2026, 18:57\n\nGreta Thunberg tells Cop31 summit the planet \u201cis be",
     "verdict": "supported",
-    "reason": "Source includes the Wired headline about NVIDIA hiring a crisis PR firm before Huang's acknowledgment."
+    "reason": "Mezha page carries the Wired headline about crisis PR firm hired a year before affair acknowledgment."
    },
    {
     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
     "claim": "- **Independent directors:** A separate statement from the independent board members was issued 10 November. The results show only its title. (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)",
     "source_excerpt": "## More News\n\nImage 10\n\n### Statement From the Independent Members of the NVIDIA Board\n\nNovember 10, 2026\n\nImage 11\n\n### NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion\n\nNovember 8, 2026\n\nImage 12\n\n### A Message to Our Company\n\nNovember 8, 2026\n\nImage 13\n\n### Statement From NVIDIA Board of Directors\n\nNovember 8, 2026\n\nImage ",
     "verdict": "supported",
-    "reason": "Source lists the independent members' statement dated November 10, 2026, title only."
+    "reason": "Nvidia news page lists Independent Members statement dated November 10, 2026, title only."
    },
    {
     "url": "https://shattered.io/gpu-vs-tpu-vs-npu-ai-chip-camps-compared-2026",
     "claim": "- **AWS capacity plan:** An AWS and NVIDIA announcement describes AWS deploying 2 million additional Blackwell Ultra, Rubin and Rubin Ultra GPUs across 2027 and 2028. (https://shattered.io/gpu-vs-tpu-vs-npu-ai-chip-camps-compared-2026)",
     "source_excerpt": "### Scale: Oracle, AWS and the supercomputer pipeline\n\nAn AWS and Nvidia announcement describes a plan for AWS to deploy 2 million additional Blackwell Ultra, Rubin and Rubin Ultra GPUs across 2027 and 2028. Rubin is the generation that follows Blackwell. Vera Rubin NVL72 debuted in Nvidia\u2019s MLPerf Inference v6.1 results in September 2026, and Rubin reportedly moved into production shipments in th",
     "verdict": "supported",
-    "reason": "Source describes AWS deploying 2 million additional Blackwell Ultra, Rubin and Rubin Ultra GPUs in 2027-2028."
+    "reason": "Shattered source states AWS plan to deploy 2 million additional Blackwell Ultra, Rubin, Rubin Ultra GPUs."
    },
    {
     "url": "https://tavily.com/knowledge/company/TXRhn2TKUD7t",
     "claim": "- Older M&A entries in the results (Hugging Face, Aug 2026; Kumo.AI, Jun 2026; Illumex, Feb 2026; Groq, Dec 2025) fall outside the 30-day window and are omitted. (https://tavily.com/knowledge/company/TXRhn2TKUD7t)",
     "source_excerpt": "# NVIDIA\nID: TXRhn2TKUD7t\nWebsite: www.nvidia.com/\nLegal name: NVIDIA Corporation\nHeadquarters: Santa Clara, California, United States\nLinkedIn: www.linkedin.com/company/nvidia \u00b7 6,578,529 followers\nIndustry: Computer Hardware Manufacturing\nIndustry codes: SIC 73, 737, NAICS 33, 334\nCompany type: Public company\nFounded: 1993\nBusiness model: B2B, B2C\nSaaS: no [...] ## M&A\n- Hugging Face, Inc. (2026",
-    "verdict": "supported",
-    "reason": "Source lists the Hugging Face, Kumo.AI, Illumex and Groq deals with matching dates; the 30-day window is not stated."
+    "verdict": "not_in_source",
+    "reason": "Dates match, but the source does not state the 30-day window or the omission."
    }
   ],
   "counts": {
-   "supported": 8,
-   "not_in_source": 0,
+   "supported": 7,
+   "not_in_source": 1,
    "contradicted": 0
   }
  }

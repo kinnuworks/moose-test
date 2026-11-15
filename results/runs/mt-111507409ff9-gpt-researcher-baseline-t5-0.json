@@ -266,63 +266,63 @@
     "claim": "Canva announced a restructuring affecting 1,271 roles, about 22% of staff, on 3 November (US time) and 4 November (Sydney time) 2026 ([Varley, 2026](https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life)).",
     "source_excerpt": "Silicon Republic\n\n TECHNOLOGY\n\n  BUSINESS ENTERPRISE COMMS START-UPS ALL\n SCIENCE\n\n  INNOVATION MACHINES CLIMATE ALL\n CAREERS\n\n  ADVICE PEOPLE EMPLOYERS JOBS NEWS ALL\n AI\n MORE\n\n  AI POLICY ADVERTISE FOLLOW US CONTACT ABOUT COOKIE & PRIVACY POLICY\n\nBUSINESS ENTERPRISE COMMS START-UPS ALL\n\n# Canva announces major job cuts and restructuring of its workforce\n\nby Laura Varley\n\n4 Nov 2026\n\nWooden pegs ",
     "verdict": "not_in_source",
-    "reason": "Excerpt shows the 3\u20134 November dates but not the 1,271 roles or 22% figure."
+    "reason": "Source shows the 3/4 Nov memo dates but not the 1,271 roles or 22% figures."
    },
    {
     "url": "https://www.finalroundai.com/blog/canva-layoffs",
     "claim": "The figure covers redundancies, changed roles and relocation requests, not confirmed exits ([Final Round AI, 2026](https://www.finalroundai.com/blog/canva-layoffs)).",
     "source_excerpt": "Canva announced on November 4, 2026 that 1,271 roles, about 22% of staff across 37 countries, are affected by a restructure that includes layoffs, role changes and relocations to Sydney.\n Canva has not split the 1,271 into redundancies versus role changes, so 1,271 is a ceiling on job losses rather than a count, and the real figure will not be known until relocation decisions are made. [...] Augus",
     "verdict": "supported",
-    "reason": "Source says the figure covers redundancies, changed roles and relocation requests, and exits are unknown."
+    "reason": "Source says the 1,271 figure covers redundancies, changed roles and relocation requests, not exits."
    },
    {
     "url": "https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations",
     "claim": "Product, Growth and Platform are merging into one product organisation ([Niehues, 2026](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations)).",
     "source_excerpt": "directory for investors and partners and grants of 10,000 US dollars from the Canva Collective Fund for their own ventures, in which Canva takes no equity. [...] ## Frequently asked questions\n\n### When did Canva announce the layoffs?\n\nCEO Melanie Perkins announced the restructuring on 3 November 2026 in a note titled \u201cAn important update on our team\u201d. A company-wide meeting follows on 10 November,",
     "verdict": "supported",
-    "reason": "Source states Product, Growth and Platform will merge into one product organisation."
+    "reason": "Source says Product, Growth and Platform will merge into one product organisation."
    },
    {
     "url": "https://employerbranding.news/canva-layoffs-employer-brand-meta-oracle",
     "claim": "| From Jan 2027 | Most hybrid staff expected in office two to three days a week | [employerbranding.news (n.d.)](https://employerbranding.news/canva-layoffs-employer-brand-meta-oracle) |",
     "source_excerpt": "| 3 | The Aussie Corporate | Canva job cuts and restructure affect 1,271 roles, 22% of staff (November 2026) | Earlier cuts, March statement |\n| 4 | Forbes Australia | Report on Canva restructure, investor markdowns and office changes (November 2026) | T. Rowe Price markdown, US$40bn valuation, earlier hub expectation |\n| 5 | Life at Canva | Our culture | Culture and values wording |\n| 6 | Life at",
     "verdict": "not_in_source",
-    "reason": "No January 2027 date or two-to-three-day office expectation appears in the cited excerpt."
+    "reason": "Cited page shows no January 2027 date or office-days expectation."
    },
    {
     "url": "https://qz.com/tech-layoff-severance-packages",
     "claim": "- Quartz treats the six-month floor, MacBook retention and grants as outliers against a 16-week sector baseline ([Quartz, n.d.](https://qz.com/tech-layoff-severance-packages)).",
-    "source_excerpt": "Against that yardstick, HR Brew treats three parts of Canva's November 2026 package as outliers. The first is the floor of at least six months of base pay for every affected employee worldwide. The others are the decision to let staff keep their company-issued MacBooks and the $10,000 grants for startup or community ventures. [...] Canva promised every employee affected by its November 2026 layoff",
+    "source_excerpt": "Against that yardstick, HR Brew treats three parts of Canva's November 2026 package as outliers. The first is the floor of at least six months of base pay for every affected employee worldwide. The others are the decision to let staff keep their company-issued MacBooks and the $10,000 grants for startup or community ventures. [...] Canva promised every employee affected by its November 2026 layoffs at least six months of base pay, wherever in the world they worked. The cuts reached 22% of the company's workforce, which HR Brew puts at 1,271 employees.\n\nThe six-month figure is a floor, not a fixed amount. Each departing worker was promised no less than that much base pay. [...] Block's November 2026 round set its base pay starting point below the benchmark. That package opened with seven weeks of base pay plus one week per year of tenure. It also included a separate 30-day pay-without-working period.",
     "verdict": "contradicted",
-    "reason": "Source attributes the outlier treatment to HR Brew, not Quartz; 16-week baseline not shown."
+    "reason": "Source attributes the outlier view to HR Brew, not Quartz; no 16-week baseline stated."
    },
    {
     "url": "https://tracxn.com/d/acquisitions/acquisitions-by-canva/__LHKOZhxQIkd1nKd00xe8ZiSIZ1WlxGLsiY4nuztOWOY",
     "claim": "- **Deals:** No acquisition in the window appears in the sources. Tracxn lists seven 2026 acquisitions, the latest being Ortto in April, which is outside the window ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-canva/__LHKOZhxQIkd1nKd00xe8ZiSIZ1WlxGLsiY4nuztOWOY)).",
-    "source_excerpt": "| Year | # Acquisitions |\n --- |\n| 2026 | 6 |\n| 2025 | 1 |\n| 2024 | 2 |\n| 2023 | 1 |\n| 2022 | 1 |\n| 2021 | 2 |\n| 2019 | 2 |\n| 2018 | 1 |\n\n### Recent acquisitions by Canva\n\nCanva's most recent acquisition - Ortto is a Provider of a platform for marketing automation, analytics, data, and support, founded in 2011 and located in Sydney. Canva acquired  it in April 2026 for a price of $\\\\\\\\\\.\n\nHere is ",
+    "source_excerpt": "| Year | # Acquisitions |\n --- |\n| 2026 | 6 |\n| 2025 | 1 |\n| 2024 | 2 |\n| 2023 | 1 |\n| 2022 | 1 |\n| 2021 | 2 |\n| 2019 | 2 |\n| 2018 | 1 |\n\n### Recent acquisitions by Canva\n\nCanva's most recent acquisition - Ortto is a Provider of a platform for marketing automation, analytics, data, and support, founded in 2011 and located in Sydney. Canva acquired  it in April 2026 for a price of $\\\\\\\\\\.\n\nHere is the list of all acquisitions by Canva sorted by the latest acquisition date: [...] | Acquired on | Acquired Company | Acquisition Price | Facilitators | Stake Acquired | Acquisition Multiple |\n ---  ---  --- |\n| Apr 08, 2026 | Ortto | kcw{ | jkaf | 49 | 933 |\n| Apr 08, 2026 | Simtheory | lnnz | cknr | 78 | 481 |\n| Mar 25, 2026 | Doohly | j{jq | fe{j | 33 | 408 |\n| Feb 24, 2026 | Scene Group | bz{o | qkos | 28 | 247 |\n| Feb 24, 2026 | Mango Animate | sotn | oc{o | 73 | 248 |\n\nView the full list of acquisitions\n\n## News related to Canva's acquisitions\n\nlock [...] lock\n\nMedia has covered Canva for a total of 60 events in the last 1 year, 19 of them have been about acquisition activity.\n\n## FAQs about Acquisitions by Canva\n\nAccel Partners\nPartech\nIN-Q-TEL - US\nFujitsu\nTenity\nStanford",
     "verdict": "contradicted",
-    "reason": "Source table shows 6 acquisitions in 2026, not seven."
+    "reason": "Source table lists 6 Canva acquisitions in 2026, not seven."
    },
    {
     "url": "https://www.canva.com/newsroom/news/simtheory-ortto-join-canva",
     "claim": "| Ortto acquisition | April 2026 | [Canva Newsroom (2026)](https://www.canva.com/newsroom/news/simtheory-ortto-join-canva) |",
     "source_excerpt": "April 9, 2026\n\n> We\u2019re excited to welcome Simtheory and Ortto to Canva. The acquisitions bring powerful agentic AI and complete marketing automation to our growing platform, advancing our vision to become the system where teams do their best work from start to finish.\n\n  \n\nTL;DR: [...] ### An important update on our team November 3, 2026 Image 21 Read more\n\nAI Research ### Affinity for iPad: sketc",
     "verdict": "supported",
-    "reason": "Canva newsroom post dated April 9, 2026 announces the Simtheory and Ortto acquisitions."
+    "reason": "Canva newsroom post dated April 9, 2026 announces Simtheory and Ortto acquisitions."
    },
    {
     "url": "https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand",
     "claim": "**Inference:** The cuts appear driven by coordination costs and AI compute costs rather than automation replacing workers. The August forecast cut was linked to AI feature costs ([employerbranding.news, n.d.](https://employerbranding.news/canva-layoffs-employer-brand-meta-oracle)). Canva's memo blames structure, not automation ([Final Round AI, 2026](https://www.finalroundai.com/blog/canva-layoffs",
     "source_excerpt": "On November 4, Canva published a message from co-founder and CEO Melanie Perkins titled An Important Update on Our Team. The update mentioned that 1,271 employees, roughly 22% of the workforce, will be affected by a major reorganization.\n\nAccording to the memo, not everyone affected will lose their jobs. Some employees will move into different roles, while others will be asked to relocate to centr",
     "verdict": "not_in_source",
-    "reason": "Source cites growth, competition and AI costs but not the August forecast or automation claims."
+    "reason": "Source cites growth, competition and AI platform costs; does not say memo rejects automation as cause."
    },
    {
     "url": "https://amazingworkplaces.co/canva-layoffs-2026",
     "claim": "- **\"First mass layoff\":** One HR source calls this Canva's first mass layoff ([amazingworkplaces, 2026](https://amazingworkplaces.co/canva-layoffs-2026)), which conflicts with earlier cuts reported elsewhere ([employerbranding.news, n.d.](https://employerbranding.news/canva-layoffs-employer-brand-meta-oracle)).",
     "source_excerpt": "At Amazing Workplaces\u00ae, we\u2019ve surveyed over 60,000 employees, and our 3E model (Evaluate, Enrich, Endorse) starts with measuring how people actually feel before a crisis forces the question. If you want a baseline on your own people practices, our workplace survey and certification is the place to start.\n\n## Canva layoffs: quick answers\n\n### How many people did Canva lay off?\n\nCanva laid off 1,271",
     "verdict": "not_in_source",
-    "reason": "Amazing Workplaces excerpt does not describe this as a first mass layoff."
+    "reason": "Source reports the 1,271 layoffs but never calls them Canva's first mass layoff."
    }
   ],
   "counts": {

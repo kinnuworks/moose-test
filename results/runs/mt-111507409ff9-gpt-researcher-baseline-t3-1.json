@@ -266,70 +266,70 @@
     "claim": "The Edition centres on agentic commerce, with Shopify's catalog, cart, and checkout opened to any agent or app ([Shopify, 2026](https://www.shopify.com/news/fall-26-edition-developer)).",
     "source_excerpt": "### New theme architecture\n\nWhat it is: Page structure now lives in the Liquid template itself instead of a separate JSON file, with blocks, typed contracts, partial updates, markdown files that guide agents, and Tailwind styling built in.  \n  \nWhy it matters: Developers and coding agents can read a whole page from top to bottom, instead of piecing it together from JSON and a tree of sections. The",
     "verdict": "not_in_source",
-    "reason": "Source covers theme architecture only; no mention of catalog, cart, or checkout being opened."
+    "reason": "Source covers theme architecture; no mention of catalog, cart, or checkout opened to agents."
    },
    {
     "url": "https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly",
     "claim": "| 23 Oct 2026 | Rollouts expanded to full catalog scheduling, A/B testing of offers, and coordinated launches of pricing, theme, and checkout changes | Merchandising / Launch tooling | [Common Thread Co., 2026](https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly) |",
     "source_excerpt": "On October 5, 2026, Shopify launched Shop Pre-Verification, identifying Shop app users while browsing to pre-fill Shop Pay, sync carts across devices, and trigger abandoned checkout recovery automatically, all with zero merchant setup. On October 2, Shopify launched Discount Rollouts, letting brands A/B test discount offers against a share of traffic and coordinate launches with theme changes. Bot",
     "verdict": "not_in_source",
-    "reason": "Source dates Discount Rollouts to Oct 2 and lacks full catalog scheduling or a 23 Oct expansion."
+    "reason": "Source gives Oct 2 for Discount Rollouts; no Oct 23 date or full catalog scheduling."
    },
    {
     "url": "https://www.identixweb.com/shopify-editions-fall",
     "claim": "| 28 Oct 2026 | Fall '26 Edition released, with 222 updates listed across 11 categories | Platform release | [Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall) |",
     "source_excerpt": "Canvas shows the entire store on one surface. Merchants can edit it directly or ask Sidekick for anything from a small tweak to a full redesign.\n\nCanvas is in early access, and Shopify says stores go from no theme to launch 20% faster with it.\n\nHere\u2019s our guide to Shopify Sidekick use cases for every merchant.\n\n## New Theme Architecture: What It Changes for Storefront Builds [...] Canvas is a desi",
     "verdict": "supported",
-    "reason": "Source says the Editions page lists 222 updates across 11 categories; Fall '26 dated Oct 28."
+    "reason": "Source says the Editions page lists 222 updates across 11 categories; Oct 28 date appears."
    },
    {
     "url": "https://meetanshi.com/blog/shopify-fall-edition-2026",
     "claim": "Availability also varies by feature, region, and rollout stage ([Meetanshi, 2026](https://meetanshi.com/blog/shopify-fall-edition-2026)).",
     "source_excerpt": "Canvas provides a visual workspace where merchants can view their storefront pages together, edit individual elements, and make broader design changes with Sidekick. Canvas is in early access.\n\nSidekick can handle more complex tasks, including calculations, code generation, web research, and multiple proposed changes at once. Merchants can also use it to investigate payout discrepancies and unders",
     "verdict": "not_in_source",
-    "reason": "Source notes Canvas is in early access but says nothing on availability varying by region or stage."
+    "reason": "Source says Canvas is in early access but does not discuss variation by region or rollout stage generally."
    },
    {
     "url": "https://releasebot.io/updates/shopify",
     "claim": "| 14 Nov 2026 | Apps can combine IP addresses, CIDR ranges, and hosting provider ASNs in allowlists, with tighter security requirements for public and partner-created apps | Current | [Releasebot, 2026](https://releasebot.io/updates/shopify) |",
     "source_excerpt": "Shopify\n\n  ## Customer accounts now show store credit and personalized product recommendations\n\n  Shopify adds store credit balances to customer account headers and personalized product recommendations for signed-in customers who haven\u2019t ordered yet.\n\n  Store credit balance now shows in the customer account header on every page. Signed-in customers who haven't ordered yet see product recommendatio",
     "verdict": "not_in_source",
-    "reason": "Source contains no information on allowlists, CIDR ranges, or ASNs."
+    "reason": "Source has no mention of IP, CIDR, or ASN allowlist changes."
    },
    {
     "url": "https://askbosco.io/blog/shopify/shopify-editions-fall-26-store-and-marketing",
     "claim": "Fewer sessions with the same number of orders produces a higher reported conversion rate, even when sales have not changed ([ASK BOSCO, 2026](https://askbosco.io/blog/shopify/shopify-editions-fall-26-store-and-marketing)).",
     "source_excerpt": "Sidekick now does more. Shopify\u2019s AI assistant can now plan and apply several changes at once, write code and search the web. Shopify says daily Sidekick sessions have grown 4.2x year over year\n Canvas. A new way to design your whole store in one view, working with Sidekick [...] Shopify Editions is Shopify\u2019s regular round-up of new features. The Fall \u201926 Edition, titled \u201cExponential\u201d, includes mo",
     "verdict": "not_in_source",
-    "reason": "Source has only a heading about conversion rate; no explanation of fewer sessions effect."
+    "reason": "Source does not discuss conversion rate effects of fewer sessions with same orders."
    },
    {
     "url": "https://finance.yahoo.com/quote/SHOP/press-releases",
     "claim": "- Shopify shares closed at **147.09 USD on 13 November 2026**, up 0.21% on the day, according to Yahoo Finance ([Yahoo Finance, 2026](https://finance.yahoo.com/quote/SHOP/press-releases)).",
     "source_excerpt": "ACCESS Newswire \u2022 15d ago\n\n  SHOP -0.79%\n Executives from Shopify, JLL and Groupe Dynamite Join WareMatch\u2019s Advisory Board\n\n  ### Executives from Shopify, JLL and Groupe Dynamite Join WareMatch\u2019s Advisory Board\n\n  GlobeNewswire \u2022 18d ago\n\n  SHOP -0.79%  \n    GRGD.TO\n Shopify Migration and Replatforming: Google Search Can Take One to Three Months to Settle\n\n  ### Shopify Migration and Replatforming",
     "verdict": "not_in_source",
-    "reason": "Source shows an unrelated SHOP -0.79% ticker; no 13 Nov closing price given."
+    "reason": "Source shows only a SHOP -0.79% ticker; no 147.09 close on 13 Nov 2026."
    },
    {
     "url": "https://tracxn.com/d/acquisitions/acquisitions-by-shopify/__NNWgXlWtRBr7FVe-BI1BiwMHs246IPF8HlqlcE5kZno",
     "claim": "- **Acquisitions:** The most recent acquisition listed is Tailwind CSS, completed in September 2026. This falls outside the window and comes from a low-reliability aggregator ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-shopify/__NNWgXlWtRBr7FVe-BI1BiwMHs246IPF8HlqlcE5kZno)). No acquisition completed in the window was found.",
     "source_excerpt": "lock\n\nMedia has covered Shopify for a total of 158 events in the last 1 year, 28 of them have been about acquisition activity.\n\n## FAQs about Acquisitions by Shopify\n\nAccel Partners\nPartech\nIN-Q-TEL - US\nFujitsu\nTenity\nStanford [...] | Year | # Acquisitions |\n --- |\n| 2026 | 1 |\n| 2025 | 2 |\n| 2024 | 3 |\n| 2022 | 3 |\n| 2021 | 2 |\n| 2019 | 3 |\n| 2018 | 2 |\n| 2017 | 1 |\n| 2016 | 3 |\n| 2012 | 1 |\n| 2",
     "verdict": "supported",
-    "reason": "Source lists Tailwind CSS as most recent acquisition, acquired September 2026."
+    "reason": "Source lists Tailwind CSS as most recent acquisition, dated Sep 09, 2026."
    },
    {
     "url": "https://www.huptechweb.com/blogs/shopify-changelog-guide",
     "claim": "- **Inventory reporting change (1 September 2026):** Inventory analytics now measure on-hand quantity rather than available quantity. Data before 1 September is unchanged, so reports show a step change ([Huptech Web, 2026](https://www.huptechweb.com/blogs/shopify-changelog-guide)).",
     "source_excerpt": "While Shopify releases updates constantly, some have a more significant impact than others. The two big launches that have reshaped the platform in the last twelve months are the Summer '25 \"Horizons\" Edition (released May 21, 2025) and the Winter '26 \"RenAIssance\" Edition (released late 2025 / early 2026). Together they shipped over 300 updates. Here are the changes that have been particularly im",
     "verdict": "not_in_source",
-    "reason": "Source discusses API deprecations and editions but not inventory reporting changes on 1 Sept 2026."
+    "reason": "Source has no mention of inventory analytics or a 1 September 2026 reporting change."
    },
    {
     "url": "https://www.shopify.com/news/search",
     "claim": "- **Shareholder and board activity (June 2026):** Shopify announced a 3 billion USD increase to its share repurchase programme on 2 June 2026 ([Shopify, 2026](https://www.shopify.com/news/search)). Jeanne DeWitt Grosser joined the board on 16 June 2026 ([Shopify, 2026](https://www.shopify.com/news/search)).",
-    "source_excerpt": "## Two decades building commerce infrastructure: Jeanne DeWitt Grosser joins Shopify\u2019s board\n\nJune 2, 2026\n\n## Shopify Announces $3 Billion Increase to Share Repurchase Program\n\nPOVJune 3, 2026\n\n## What impact means at work is changing. How we reward it isn't.\n\nInsightsJune 2, 2026\n\n## Entrepreneurship has no zip code\n\nPOVJune 1, 2026\n\n## AI unlocks future-proof entrepreneurs. Bad regulation crush",
+    "source_excerpt": "## Two decades building commerce infrastructure: Jeanne DeWitt Grosser joins Shopify\u2019s board\n\nJune 2, 2026\n\n## Shopify Announces $3 Billion Increase to Share Repurchase Program\n\nPOVJune 3, 2026\n\n## What impact means at work is changing. How we reward it isn't.\n\nInsightsJune 2, 2026\n\n## Entrepreneurship has no zip code\n\nPOVJune 1, 2026\n\n## AI unlocks future-proof entrepreneurs. Bad regulation crushes them.\n\nInsightsMay 11, 2026 [...] Skip to Content\n\nImage 1: Shopify\n\n   All news \n   Company \n   Product \n   POV \n   Insights \n   Press releases \n   About us \n\n   Search\n\n   All newsSearch\n      \n\nSearch Results for \"\"\n\nPress ReleasesNovember 3, 2026\n\n## Shopify Sustains Rapid Growth with Revenue Up 32% and Free Cash Flow Margin of 22%\n\nProductOctober 28, 2026\n\n## Bringing shopping into the future: The Fall '26 Edition for developers\n\nProductOctober 28, 2026\n\n## What makes Shopify more than software: Fall '26 Edition [...] ## Shopify to Announce Second-Quarter 2026 Financial Results\n\nProductJune 17, 2026\n\n## Agentic commerce for every developer:The Spring '26 Edition\n\nProductJune 17, 2026\n\n## Selling everything, everywhere, all at once: The Spring '26 Edition\n\nProductJune 17, 2026\n\n## Spring '26 Edition: Five apps that show what Catalog API and UCP make possible\n\nPress ReleasesJune 16, 2026\n\n## Shopify Announces Results of its 2026 Annual Meeting of Shareholders\n\nCompanyJune 16, 2026",
     "verdict": "contradicted",
-    "reason": "Source dates the $3B repurchase increase June 2 and the board announcement June 2, not June 16."
+    "reason": "Source dates the Grosser board item June 2, and the $3B repurchase item June 3, not June 16 or June 2."
    }
   ],
   "counts": {

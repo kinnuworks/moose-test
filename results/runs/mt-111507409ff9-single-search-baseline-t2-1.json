@@ -119,40 +119,40 @@
     "claim": "- Stripe lets US businesses send stablecoin payments directly to crypto wallets in more than 160 markets. The wallet capability is part of Global Payouts and launched in public preview in early November 2026. (https://cryptonews.net/news/market/33703716)",
     "source_excerpt": "# Stripe lets US businesses send stablecoin payouts to crypto wallets in 160-plus markets\n\nsource-logo  cryptobriefing.com  + 2 more   04 November 2026 17:37, UTC\n\nimage\n\nStripe now lets US businesses send stablecoin payments directly to crypto wallets in more than 160 markets. The feature is part of Stripe\u2019s Global Payouts product, which launched the wallet capability in public preview in early N",
     "verdict": "supported",
-    "reason": "Source confirms stablecoin payouts to crypto wallets in 160+ markets, public preview early November 2026."
+    "reason": "Source confirms US stablecoin payouts to wallets in 160+ markets, public preview in November 2026."
    },
    {
     "url": "https://www.tradingview.com/news/coinmarketcal:ce753058b094b:0-celo-minipay-integrates-link-by-stripe-for-one-click-stablecoin-purchases-12-nov-2026",
     "claim": "- Link by Stripe is scheduled to integrate with MiniPay on 12 Nov 2026, giving EU and US users one-click stablecoin purchases. MiniPay has more than 20 million wallets. I could not confirm the integration went live. (https://www.tradingview.com/news/coinmarketcal:ce753058b094b:0-celo-minipay-integrates-link-by-stripe-for-one-click-stablecoin-purchases-12-nov-2026)",
     "source_excerpt": "The integration adds a fiat onramp to MiniPay's existing base of more than 20 million wallets. It gives those users a direct route from fiat money to stablecoins for payments on Celo, supporting payment activity and visibility for the CELO token.\n\nBREAKING: @MiniPay users in the EU & US can now onramp to digital dollars with Link by @Stripe [...] CoinMarketCal\nCoinMarketCal\n\n# Celo: MiniPay integr",
     "verdict": "supported",
-    "reason": "Source confirms 12 Nov 2026 scheduling, EU/US users, and 20 million+ MiniPay wallets."
+    "reason": "Source confirms MiniPay Link by Stripe integration scheduled 12 Nov 2026 and over 20 million wallets."
    },
    {
     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
     "claim": "- Stripe is named among customers, with Bridgewater and Salesforce, for Enterprise Frontier Safeguards, now in private beta with Anthropic (10 Nov 2026). (https://www.anthropic.com/claude-fable-and-mythos-5-2)",
     "source_excerpt": "(ZDR). Enterprise Frontier Safeguards is now in private beta with customers like Bridgewater, Salesforce, and Stripe. [...] This week, we\u2019re giving subscribers on eligible paid plans extra Fable usage. Plans and seats that include Fable models get one to three Fable resets based on how long they\u2019ve subscribed, and Fable is included for up to 50% of weekly usage limits for Pro plans and standard se",
-    "verdict": "supported",
-    "reason": "Source names Bridgewater, Salesforce, Stripe as private beta customers; the 10 Nov date is not shown."
+    "verdict": "not_in_source",
+    "reason": "Source names Stripe among Enterprise Frontier Safeguards beta customers but gives no 10 Nov 2026 date."
    },
    {
     "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
     "claim": "- Earlier M&A listed in a company profile, all outside the window: OpenRouter, Inc. (1 Aug 2026, 7.50B USD); Clerky, Inc. (1 Aug 2026); Valora, Inc. (1 Dec 2025). (https://tavily.com/knowledge/company/igPwhNOUwEGy)",
     "source_excerpt": "# Stripe\nID: igPwhNOUwEGy\nWebsite: stripe.com/\nLegal name: Stripe, LLC.\nHeadquarters: South San Francisco, California, United States\nLinkedIn: www.linkedin.com/company/stripe \u00b7 1,726,522 followers\nIndustry: Payments\nCompany type: Private company\nFounded: 2010\nBusiness model: B2B\nSaaS: yes\nSocial profiles: www.facebook.com/stripehq, x.com/stripe, www.crunchbase.com/organization/stripe, www.instagra",
     "verdict": "supported",
-    "reason": "Source lists OpenRouter (2026-08-01, 7.50B USD), Clerky (2026-08-01), Valora (2025-12-01)."
+    "reason": "Source lists Clerky and OpenRouter (2026-08-01, 7.50B USD) and Valora (2025-12-01)."
    },
    {
     "url": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30",
     "claim": "- WSJ reports that Meta's personal AI assistants have recently been enabled to make purchases on cardholders' behalf, and that banks are racing to respond. The snippet does not mention Stripe. (https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30)",
     "source_excerpt": "Meta\u2019s Muse, Instinct and other personal AI assistants have been empowered in recent weeks to make purchases on behalf of cardholders, marking new steps toward a potential future where consumers no longer need to initiate a purchase or press \u201cbuy\u201d at checkout. That is generating buzz and excitement about AI bots\u2019 ability to create a new world order in payments.\n\nCopyright \u00a92026 Dow Jones & Company",
     "verdict": "supported",
-    "reason": "Source says Meta's assistants were empowered to make purchases for cardholders; no Stripe mention."
+    "reason": "Source says Meta's assistants were recently empowered to make purchases; the URL and headline reference banks racing to keep up."
    }
   ],
   "counts": {
-   "supported": 5,
-   "not_in_source": 0,
+   "supported": 4,
+   "not_in_source": 1,
    "contradicted": 0
   }
  }

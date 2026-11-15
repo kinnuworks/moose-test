@@ -274,62 +274,62 @@
     "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756",
     "claim": "Underlying operating indicators were mixed: AI revenue accelerated, large-deal bookings were strong, but volume and pricing remained under pressure ([Investing.com, n.d.](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756); [BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23)).",
     "source_excerpt": "for the company in FY 2028. We also renewed a billion-dollar mega deal with an existing financial services client. Vertical wise, we won seven deals in financial services, five in manufacturing, two each in communications, EURS, life sciences, and one in high tech. Region wide, we signed nine deals, each in North America and Europe, and one in rest of the world. [...] Salil Parekh, CEO and MD, Inf",
-    "verdict": "supported",
-    "reason": "Source gives AI revenue up 29% sequentially and $5.2B large deals; pricing pressure is in the companion source."
+    "verdict": "not_in_source",
+    "reason": "Source gives 29% sequential AI growth and $5.2B large deals, but not the pricing or volume pressure."
    },
    {
     "url": "https://finance.biggo.com/news/US_INFY_2026-10-23",
     "claim": "Underlying operating indicators were mixed: AI revenue accelerated, large-deal bookings were strong, but volume and pricing remained under pressure ([Investing.com, n.d.](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756); [BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23)).",
     "source_excerpt": "On talent, Infosys added 4,000 net employees in the quarter, including 8,000 college graduates, and remains on track to hire approximately 20,000 freshers for the full year. Utilization stood at 85%, which management considers optimal, and attrition was around 13%. Sanghrajka said the U.S. employee mix is majority local hires, insulating the company from PERM suspension and H-1B changes. \"We don't",
-    "verdict": "supported",
-    "reason": "Source notes pricing pressure weighing on margins; AI and deal points come from another source."
+    "verdict": "not_in_source",
+    "reason": "Source covers talent, utilization and margin pressure, but not AI acceleration or large-deal strength."
    },
    {
     "url": "https://www.insiderfinance.io/news/infosys-q2-results-ai-up-guidance-cut",
     "claim": "| Operating margin | 21% | [BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23); [InsiderFinance, 2026](https://www.insiderfinance.io/news/infosys-q2-results-ai-up-guidance-cut) | Two sources agree |",
     "source_excerpt": "Infosys narrowed its fiscal 2027 constant-currency revenue-growth guidance to 1.0%\u20132.0% from 1.5%\u20133.0%, while keeping operating-margin guidance at 20.0%\u201322.0%. Management cited cautious client spending, uneven technology-spending recovery, delayed decision-making, and pricing competition as factors limiting growth. It highlighted AI services and large-deal execution as key growth drivers. [...] ##",
     "verdict": "not_in_source",
-    "reason": "InsiderFinance excerpt gives margin guidance, not a 21% actual operating margin."
+    "reason": "InsiderFinance excerpt gives guidance and AI figures but no 21% actual operating margin."
    },
    {
     "url": "https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl",
     "claim": "| Operating margin guidance | 20% to 22% (unchanged) | [Bose, n.d.](https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl) | Individual commentary |",
     "source_excerpt": "INFOSYS Q2 FY27 RESULTS: \u20b97,823 CRORE PROFIT, \u20b926 DIVIDEND & $5.2 BILLION DEAL WINS! But Why Did Infosys Cut Its Growth Forecast? India's IT giant Infosys announced its Q2 FY27 results on October 23, 2026, delivering profit growth, strong AI momentum, and major contract wins. However, the company also reduced its full-year revenue growth guidance, raising questions about the outlook for India's IT",
     "verdict": "not_in_source",
-    "reason": "Bose post cites a 21% operating margin, not the 20%-22% guidance range."
+    "reason": "Source cites 21% operating margin, but does not state the 20%-22% guidance range."
    },
    {
     "url": "https://www.livemint.com/market/stock-market-news/infosys-dividend-2026-record-date-tomorrow-know-dividend-payout-yield-history-returns-11793585489373.html",
     "claim": "The record date was 3 November 2026, and payment was scheduled for 11 November 2026 ([Sethi, 2026](https://www.livemint.com/market/stock-market-news/infosys-dividend-2026-record-date-tomorrow-know-dividend-payout-yield-history-returns-11793585489373.html)).",
     "source_excerpt": "Infosys' board of directors declared an interim dividend of \u20b926 per equity share for FY27, marking an increase from the interim dividend of \u20b923 per share announced in the previous financial year. The company has fixed 3 November, 2026, as the record date to determine shareholders eligible to receive the dividend. [...] The dividend will be paid on 11 November according to the company's exchange fi",
     "verdict": "supported",
-    "reason": "Source gives 3 November record date and 11 November dividend payment."
+    "reason": "Source gives 3 November record date and payment on 11 November."
    },
    {
     "url": "https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html",
     "claim": "The release itself was retrieved without a verifiable publication date, so its timing relative to the window cannot be confirmed ([Infosys, n.d.](https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html)).",
-    "source_excerpt": "NEW YORK, Oct. 1, 2026 /PRNewswire/ -- Infosys (NSE: INFY) (BSE: INFY) (NYSE: INFY), a global leader in AI-first business consulting and technology services, today announced a strategic collaboration with Columbia University to foster the development and utilization of applications in artificial intelligence technologies. The collaboration also includes a research center, the Infosys Topaz - Colum",
+    "source_excerpt": "NEW YORK, Oct. 1, 2026 /PRNewswire/ -- Infosys (NSE: INFY) (BSE: INFY) (NYSE: INFY), a global leader in AI-first business consulting and technology services, today announced a strategic collaboration with Columbia University to foster the development and utilization of applications in artificial intelligence technologies. The collaboration also includes a research center, the Infosys Topaz - Columbia University Enterprise AI Center, led by Columbia Engineering and designed to help Infosys' [...] Accessibility Statement Skip Navigation\n\n# Infosys and Columbia University Launch Strategic Collaboration Across Deep Research to Drive Innovation and Unlock Business Value\n\nInfosys Logo\n\n## News provided by\n\n Infosys \n\nOct 01, 2026, 08:21 ET\n\n## Share this article\n\nShare this article",
     "verdict": "contradicted",
-    "reason": "Source shows a dated release: Oct 1, 2026, 08:21 ET."
+    "reason": "Source shows a dateline of Oct 01, 2026, so timing is verifiable."
    },
    {
     "url": "https://www.facebook.com/cnbctv18india/videos/infosys-announced-2-strategic-acquisitions-optimum-healthcare-for-465m-and-strat/1492229445811071",
     "claim": "| Acquisitions of Optimum Healthcare ($465M) and Stratus Global ($95M); five acquisitions totalling $800M+ | No publication date in the source; likely outside the window | [CNBC-TV18, n.d.](https://www.facebook.com/cnbctv18india/videos/infosys-announced-2-strategic-acquisitions-optimum-healthcare-for-465m-and-strat/1492229445811071) |",
     "source_excerpt": "SpaceX's Starship completed a major milestone in its latest test flight after soaring into orbit, even as the company's ambitious attempt to recover the entire rocket suffered a setback. The Starship rocket blasted off from SpaceX's Starbase facility in Texas on November 13, 2026. However, the first-stage booster failed to return to its launch pad after an automatic abort and instead ended up in t",
     "verdict": "not_in_source",
-    "reason": "Source text is about SpaceX; no acquisition amounts or dates stated."
+    "reason": "Excerpt describes SpaceX and an Optum event; it does not mention the acquisitions."
    },
    {
     "url": "https://www.youtube.com/watch?v=f4vgConNx8k",
     "claim": "| Margin \"miss\" headline | Video title only; conflicts with sources reporting a stable 21% margin | [YouTube, n.d.](https://www.youtube.com/watch?v=f4vgConNx8k) |",
     "source_excerpt": "[7:43] Infosys managing to monetize AIEL opportunities fast enough to offset pricing pressure as its traditional\n[7:50] services business and lastly hiring and productivity. So can hiring plans coexist with margin protection because\n[7:59] uh plans to hire around 20,000 graduates in FI27 if I'm not wrong. How do you balance investments in talent with margin discipline? Thank you.\n[8:09] So on the ",
     "verdict": "not_in_source",
-    "reason": "Transcript excerpt contains no margin 'miss' headline or video title."
+    "reason": "Excerpt is transcript text; it shows no video title or margin headline."
    }
   ],
   "counts": {
-   "supported": 4,
-   "not_in_source": 4,
+   "supported": 2,
+   "not_in_source": 6,
    "contradicted": 1
   }
  }

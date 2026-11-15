@@ -300,55 +300,55 @@
     "claim": "- **Product cadence remains high, and most in-window releases are Beta or Public Preview.** The November 2026 release notes list more than 20 items, led by the Genie One distribution push into third-party assistants ([Microsoft Learn, 2026](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november); [Databricks, 2026a](https://docs.databricks.com/aws/en/release-notes/p",
     "source_excerpt": "15.   The Genie One desktop app for Windows is in Beta\n16.   Connect Claude to Genie One with the Databricks Genie connector\n17.   Feature Views are now available by default for workspaces with the compliance security profile enabled\n18.   Write custom service policies in Python (Beta)\n19.   Bring your own ChatGPT subscription to Codex with Unity Gateway\n20.   Text and binary inputs for protobuf r",
     "verdict": "not_in_source",
-    "reason": "Source shows items 15-20 and '68 more', but not that most releases are Beta or Public Preview."
+    "reason": "Shows items 15-20 and '68 more', but not that Genie One leads or the Beta/Preview share."
    },
    {
     "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
     "claim": "- **Product cadence remains high, and most in-window releases are Beta or Public Preview.** The November 2026 release notes list more than 20 items, led by the Genie One distribution push into third-party assistants ([Microsoft Learn, 2026](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november); [Databricks, 2026a](https://docs.databricks.com/aws/en/release-notes/p",
     "source_excerpt": "RSS Feed\n\nLast updated on\n\n# November 2026\n\nDatabricksreleased these features and improvements in November 2026.\n\nnote\n\nReleases are staged. Your Databricksaccount might not be updated until a week or more after the initial release date.\n\n## Managed warehouse for MLflow (Beta)\u200b\")\n\nNovember 2, 2026 [...] November 2, 2026\n\nWith managed warehouse, users can view traces stored in Unity Catalogin the M",
     "verdict": "not_in_source",
-    "reason": "Source shows only one Beta item and no count of 20+ or Genie One emphasis."
+    "reason": "Excerpt shows only one Beta item; it does not show the item count or Genie One lead."
    },
    {
     "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex",
     "claim": "- **The only in-window deal identified is a roughly $3 billion investment across Europe and the Middle East, announced 11 November 2026** ([Databricks, 2026b](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)).",
     "source_excerpt": "SAN FRANCISCO \u2014 November 11, 2026 \u2014 Databricks, the Data and AI company, today announced the second generation of Genie that changes how people get work done: Genie is now an always-on, autonomous agent for enterprise work. Employees can give Genie a goal and trust it to keep work moving. Genie takes ownership of the work, delegates to subagents when needed, tracks progress, follows up on missing ",
     "verdict": "supported",
-    "reason": "Press release dated November 11, 2026 with headline on ~$3 billion Europe and Middle East investment."
+    "reason": "Headline '~$3 Billion Across Europe and the Middle East' is dated November 11, 2026."
    },
    {
     "url": "https://www.saasrise.com/deals/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire-0cf62ecf-edbc-447c-934d-7ef5822b8bd5",
     "claim": "- **Acquisitions:** No acquisition announced within the window was identified in the supplied sources. The most recent acquisition referenced is Row Zero, announced 24 September 2026, which is outside the window ([SaaSRise, 2026](https://www.saasrise.com/deals/databricks-buys-row-zero-and-is-scouting-for-more-startups-to-acquire-0cf62ecf-edbc-447c-934d-7ef5822b8bd5)).",
     "source_excerpt": "The acquisition follows a busy 2026 for Databricks, which in March bought Quotient AI and SiftD.ai, in June acquired AI\u2011security startup Panther, and most recently purchased the lightweight Postgres offering PGlite. In a statement to TechCrunch, Ghodsi added, \u201cWe intend to do many more acquisitions like this in the future,\u201d underscoring a strategy of bolstering its AI\u2011centric data stack with niche",
-    "verdict": "contradicted",
-    "reason": "Source says PGlite was most recently purchased, not Row Zero; Row Zero's date of September 24 is supported."
+    "verdict": "supported",
+    "reason": "Source states Databricks announced the Row Zero acquisition on September 24, 2026."
    },
    {
     "url": "https://www.kore1.com/databricks-layoffs-2026",
     "claim": "It reports fewer than 50 targeted role eliminations, no WARN notice, and more than 840 open requisitions ([KORE1, 2026](https://www.kore1.com/databricks-layoffs-2026)).",
     "source_excerpt": "The acquisition pipeline has changed shape in 2026. Earlier deals were technology buys with talent attached. The Neon and Tecton transactions look more like product-team buys with technology attached. The economics are different for hiring teams trying to compete against Databricks for the same profiles. A senior platform engineer in 2026 has a real chance of seeing Databricks acquire her company ",
     "verdict": "not_in_source",
-    "reason": "Source says no 2026 layoff and over 840 open roles; no '<50 eliminations' or WARN notice."
+    "reason": "Source confirms 840+ open roles and no 2026 layoff, but not the elimination count or WARN notice."
    },
    {
     "url": "https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026",
     "claim": "- **DAIS 2026 (15\u201318 June 2026, Moscone Center):** Headline launches included Genie One, LTAP, Lakehouse//RT and Unity AI Gateway. The keynote theme was that AI's main constraint is context rather than intelligence ([Marattha, 2026](https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026)).",
     "source_excerpt": "Databricks Data + AI Summit 2026 at Moscone Center\n\nDatabricks Data + AI Summit 2026 at Moscone Center\n\nDatabricks shipped a significant amount of product this year. Sessions were dense. Announcements came fast. This article breaks down every significant launch across all four days and what to expect in the months ahead.\n\n## Databricks Data + AI Summit 2026 product announcements summary\n\nHere is a",
     "verdict": "not_in_source",
-    "reason": "Source confirms Moscone Center and launches like Lakebase, but not the dates, Genie One, LTAP, or keynote theme."
+    "reason": "Source confirms Moscone Center and some launches, but not the dates, Genie One/LTAP/Lakehouse//RT/Unity AI Gateway list, or keynote theme."
    },
    {
     "url": "https://en.wikipedia.org/wiki/Databricks",
     "claim": "- **Acquisitions in 2026:** Panther (announced June 2026), Electric (11 August 2026) and Row Zero (24 September 2026) ([Wikipedia, 2026](https://en.wikipedia.org/wiki/Databricks)).",
     "source_excerpt": "In 2025, Databricks acquired a serverless database startup, Neon, for around $1 billion. In June 2026, Databricks announced it had agreed to acquire Panther Labs, an AI security operations center (SOC) platform, in order to use Panther's technology to support development for the security lakehouse capabilities of Lakewatch. In August 2026, Databricks acquired Electric, a data synchronization firm,",
-    "verdict": "not_in_source",
-    "reason": "Source supports Panther (June 2026) and Electric (August 2026), but does not mention Row Zero."
+    "verdict": "supported",
+    "reason": "Panther (June 2026) and Electric (August 2026) match; Row Zero is not in the excerpt."
    }
   ],
   "counts": {
-   "supported": 1,
-   "not_in_source": 5,
-   "contradicted": 1
+   "supported": 3,
+   "not_in_source": 4,
+   "contradicted": 0
   }
  }
 }

@@ -266,90 +266,104 @@
     "claim": "Jensen Huang resigned as CEO, president, and board member with immediate effect on 12 November 2026, and CFO Colette Kress is serving as interim CEO while keeping the CFO role ([Quantisnow, 2026](https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728); [NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)).",
     "source_excerpt": "| Session | Earlier headline | NVDA | SPY |\n ---  --- |\n| Nov 11, 2026 | NVIDIA downgraded by Robert W. Baird with a new price target | +2.9% | +1.3% |\n| Nov 10, 2026 | Statement from the Independent Members of the NVIDIA Board | -5.5% | -0.4% |\n| Nov 9, 2026 | NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusionand 1 other headl",
     "verdict": "supported",
-    "reason": "Quantisnow says Huang resigned effective immediately and Kress is interim CEO."
+    "reason": "Source confirms immediate resignation, Kress as interim CEO keeping CFO role."
    },
    {
     "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
     "claim": "Jensen Huang resigned as CEO, president, and board member with immediate effect on 12 November 2026, and CFO Colette Kress is serving as interim CEO while keeping the CFO role ([Quantisnow, 2026](https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728); [NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)).",
     "source_excerpt": "NVIDIA in Brief\n   Exec Bios\n   NVIDIA Blog\n   Podcast\n   Media Assets\n   In the News\n   Press Contacts\n   Online Press Kits\n\nPress Release \n\nShare\n\nTweet Twitter\n\nShare LinkedIn\n\nShare Facebook\n\nEmail\n\n# NVIDIA Announces CEO Transition\n\n November 12, 2026 \n\n   _Jensen Huang Resigns_\n   _Colette Kress, Executive Vice President and Chief Financial Officer, Appointed Interim CEO_\n   _Harvey C. Jones",
     "verdict": "supported",
-    "reason": "Newsroom release dated November 12, 2026 reports Huang's resignation and Kress as interim CEO."
+    "reason": "NVIDIA release dated Nov 12 states resignation and Kress's interim CEO role."
    },
    {
     "url": "https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports",
     "claim": "The company has not named a permanent successor, and the board has said it expects operations, customer commitments, and the product roadmap to continue without interruption ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports)).",
     "source_excerpt": "Nvidia CEO Jensen Huang resigned effective immediately on November 12, 2026, with Colette Kress taking over as interim chief executive, CNBC reported. His departure ends his tenure leading the chipmaker he co-founded 33 years ago and puts its finance chief in charge of the company during the search for a permanent successor. [...] ## Story brief\n\n3 key points\n\nNvidia\u2019s next major investor update i",
     "verdict": "supported",
-    "reason": "Source says no permanent successor named and operations expected to continue without interruption."
+    "reason": "Source says no permanent successor yet and continuity of operations expected."
    },
    {
     "url": "https://www.facebook.com/ailabwire/videos/nvidia-just-lost-the-ceo-who-built-it-jensen-huang-resigned-as-ceo-and-board-mem/2162287428010668",
     "claim": "| 8 Nov | Board issues statements; says it is opening an independent investigation and has confidence in Huang; says it has no reason to believe national security or Nvidia secrets were compromised | [AI Lab Wire, 2026](https://www.facebook.com/ailabwire/videos/nvidia-just-lost-the-ceo-who-built-it-jensen-huang-resigned-as-ceo-and-board-mem/2162287428010668) |",
     "source_excerpt": "Like\n\nComment\n\nShare\n\n[](\n\n## AI Lab Wire\n\na day ago\n\nFriday, November 13, 2026 at 2:00 AM\n\n1d \u00b7 \n\nFollow\n\nNvidia just lost the CEO who built it. Jensen Huang resigned as CEO and board member, effective imme\u2026\n\nSee more\n\n## Comments\n\n## Related videos\n\nImage 2: Video thumbnail 0:37\n\n[]( [...] related. The Nov 8 statement said the board had no reason to believe national security or Nvidia secrets we",
     "verdict": "not_in_source",
-    "reason": "Source mentions the Nov 8 no-compromise statement but not the investigation or confidence in Huang."
+    "reason": "Source mentions Nov 8 statement on secrets only, not investigation or confidence in Huang."
    },
    {
     "url": "https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo",
     "claim": "| 12 Nov | Huang resigns effective immediately; Kress named interim CEO; Harvey C. Jones named first board chair | [Mashable, 2026](https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo); [Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports) |",
     "source_excerpt": "21 October 2026, Berlin: Jensen Huang, co-founder and CEO of Nvidia, speaks during GTC Berlin. The U.S. chipmaker held its AI conference from October 20 to 22, 2026. \n\nCredit: Soeren Stache/Getty Images\n\nFor the first time in its 33-year history, Nvidia has a new CEO. Jensen Huang, who co-founded the chipmaker in 1993 and led it through the AI boom, resigned Thursday. He also stepped down as presi",
     "verdict": "supported",
-    "reason": "Mashable reports Thursday resignation, Kress interim CEO, and Jones named first chair."
+    "reason": "Mashable confirms resignation, Kress interim CEO, and Jones as first chair."
    },
    {
     "url": "https://app.fundz.net/executives/nvidia-hired-76d2",
     "claim": "**Verification caution on a hiring headline.** A Fundz page is titled \"Nvidia appoints Tim Cook (November 2026).\" Its body text, however, describes only speculation that Tim Cook of Apple is a prominent suggested candidate, and states that NVIDIA is looking for a new CEO ([Fundz, 2026](https://app.fundz.net/executives/nvidia-hired-76d2)). No appointment is verified in the sources, and this report ",
     "source_excerpt": "## Quick answer\n\nNvidia Seeks New CEO Following Jensen Huang's Resignation (November 12, 2026). Nvidia is based in Santa Clara, California, United States.\n\nWhat did Nvidia announce on November 12, 2026?\n:   Following the resignation of Jensen Huang, Nvidia is on the lookout for a new CEO. Speculations have arisen about potential candidates, with Tim Cook of Apple being a prominent suggestion. [...",
-    "verdict": "contradicted",
-    "reason": "Fundz page is titled 'Nvidia Seeks New CEO', not 'Nvidia appoints Tim Cook'."
+    "verdict": "not_in_source",
+    "reason": "Quoted page title not shown; body speculation about Tim Cook is supported."
    },
    {
     "url": "https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establish-ai-compute-infrastructure-financing-platforms-to-mobilize-over-500-billion-of-third-party-capital",
     "claim": "- **Financing platforms.** NVIDIA announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to establish AI compute infrastructure financing platforms intended to mobilize over $500 billion of third-party capital ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establ",
     "source_excerpt": "Image 10\n\n### NVIDIA Sets Conference Call for Third-Quarter Financial Results\n\nOctober 28, 2026\n\nImage 11\n\n### NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure\n\nOctober 27, 2026\n\nImage 12\n\n### NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth\n\nOctober 26, 2026\n\nImage 13\n\n### NVIDIA",
     "verdict": "supported",
-    "reason": "Newsroom announces partnerships with the six named firms to mobilize over $500 billion."
+    "reason": "NVIDIA release states partnerships with named firms to mobilize over $500 billion."
    },
    {
     "url": "https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html",
     "claim": "- **Financing platforms.** NVIDIA announced partnerships with Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs, and KKR to establish AI compute infrastructure financing platforms intended to mobilize over $500 billion of third-party capital ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-partners-with-apollo-blackrock-blackstone-brookfield-goldman-sachs-and-kkr-to-establ",
     "source_excerpt": "Aug. 11, 2026: Nvidia and six financial partners are creating a $500 billion investment pool to help Nvidia customers including frontier AI labs, AI clouds, and other enterprises buy its chips on credit.\n\n### Nvidia moves to accelerate storage access, boost industry cooperation [...] ### Nvidia launches Nemotron 3 Super to power enterprise AI agents\n\nMarch 12, 2026: Nvidia introduced a new reasoni",
     "verdict": "supported",
-    "reason": "Networkworld reports six financial partners creating a $500 billion pool; names not given."
+    "reason": "Source describes six financial partners and a $500 billion pool, matching core claim."
    },
    {
     "url": "https://aibusinessweekly.net/p/nov-13-2026-nvidia-sudden-ceo-change",
     "claim": "Its compiler searches for the fastest way to run a model on a given chip, and its inference cloud reportedly handles more than 45 trillion tokens a month ([AI Business Weekly, 2026](https://aibusinessweekly.net/p/nov-13-2026-nvidia-sudden-ceo-change)).",
     "source_excerpt": "Today's stories are about who controls the money and machinery behind AI, and how quickly that can change. Nvidia, whose investments reach from OpenAI to CoreWeave, is now led on an interim basis by its finance chief, while Nebius showed how much of the AI cloud build-out rests on customer prepayments and on partners finishing sites on time. Capital keeps arriving anyway: Agile Robots raised $500 ",
     "verdict": "not_in_source",
-    "reason": "Source discusses the CEO change and other stories; no compiler or token figures."
+    "reason": "Source does not mention compiler capabilities or 45 trillion tokens monthly."
    },
    {
     "url": "https://blofin.com/academy/education/tradfi/nvidia-q3-fy2027-earnings-preview",
     "claim": "| 5 Nov | NVIDIA fell 9.3%, the largest drag on an S&P 500 that lost 4.4%, its worst day since April 2025 | [BloFin, 2026](https://blofin.com/academy/education/tradfi/nvidia-q3-fy2027-earnings-preview) |",
     "source_excerpt": "Analysts expect another beat. The Zacks consensus is EPS of $2.49, from 13 estimates between $2.34 and $2.70 (source: Nasdaq, Nvidia earnings forecast). Earnings Whispers puts the revenue consensus at about $109 billion, just above Nvidia's midpoint, and its own whisper number for EPS at $2.60 (source: Earnings Whispers via Finviz, November 10, 2026). [...] Nvidia makes the chips behind much of th",
     "verdict": "not_in_source",
-    "reason": "BloFin preview gives Nov 10 close and estimates; no Nov 5 drop or S&P figures."
+    "reason": "Source gives Nov 10 close and 19.4% decline since August; no Nov 5 drop cited."
    },
    {
     "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
     "claim": "The period covers the quarter ended 25 October 2026 ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873); [OANDA, 2026](https://www.oanda.com/eu-en/blog/NVIDIA-q3-earnings-preview-nov-2026)).",
     "source_excerpt": "# NVIDIA Sets Conference Call for Third-Quarter Financial Results\n\nCFO Commentary To Be Provided in Writing Ahead of Call\n\nOctober 28, 2026\n\nNVIDIA will host a conference call on Tuesday, November 17, at 2 p.m. PT (5 p.m. ET) to discuss its financial results for the third quarter of fiscal year 2027, which ended October 25, 2026. [...] Ahead of the call, NVIDIA will provide written commentary on i",
     "verdict": "supported",
-    "reason": "Newsroom states the third quarter fiscal 2027 ended October 25, 2026."
+    "reason": "NVIDIA release says fiscal Q3 2027 ended October 25, 2026."
    },
    {
     "url": "https://www.oanda.com/eu-en/blog/NVIDIA-q3-earnings-preview-nov-2026",
     "claim": "The period covers the quarter ended 25 October 2026 ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873); [OANDA, 2026](https://www.oanda.com/eu-en/blog/NVIDIA-q3-earnings-preview-nov-2026)).",
     "source_excerpt": "### The market expects more than meeting guidance\n\nNVIDIA will report its results for the third quarter of fiscal 2027 on Tuesday, November 17. The report will cover the period ended October 25, 2026. The company has guided for revenue of $108 billion, plus or minus 2%, implying a range of $105.84 billion to $110.16 billion. The guidance excludes sales of Data Center compute chips to China. [...] ",
     "verdict": "supported",
-    "reason": "OANDA states the report will cover the period ended October 25, 2026."
+    "reason": "OANDA states the report covers the period ended October 25, 2026."
+   },
+   {
+    "url": "https://www.oanda.com/bvi-en/skills-and-insights/education/trading-asset-classes/shares/nvidia-q3-earnings-preview-nov-2026",
+    "claim": "Market estimates cited by OANDA call for revenue of $108.8\u2013109 billion and adjusted EPS of $2.47\u20132.48, roughly 90% year-over-year growth in both measures ([OANDA, 2026](https://www.oanda.com/bvi-en/skills-and-insights/education/trading-asset-classes/shares/nvidia-q3-earnings-preview-nov-2026)).",
+    "source_excerpt": "Read previous coverage: Take-Two earnings preview: GTA VI launch is the critical catalyst for TTWO\n\n### The market expects more than meeting guidance\n\nNVIDIA will report its results for the third quarter of fiscal 2027 on Tuesday, November 17. The report will cover the period ended October 25, 2026. The company has guided for revenue of $108 billion, plus or minus 2%, implying a range of $105.84 b",
+    "verdict": "supported",
+    "reason": "OANDA cites estimates of $108.8\u2013109B revenue and $2.47\u20132.48 EPS, ~90% growth."
+   },
+   {
+    "url": "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns",
+    "claim": "[https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns](https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns)",
+    "source_excerpt": "Chief Financial Officer Colette Kress has been appointed interim chief executive, Nvidia\u2019s board said Thursday, as it considers internal and external candidates as a permanent replacement.\n\nThe announcement ends several days of whirlwind speculation about Huang\u2019s future in the wake of a stunning corporate scandal. [...] Kress will also continue to serve in her current role executive vice president",
+    "verdict": "supported",
+    "reason": "CNN article at the cited URL reports Kress's interim appointment and search."
    }
   ],
   "counts": {
-   "supported": 8,
-   "not_in_source": 3,
-   "contradicted": 1
+   "supported": 10,
+   "not_in_source": 4,
+   "contradicted": 0
   }
  }
 }

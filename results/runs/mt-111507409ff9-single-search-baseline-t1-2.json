@@ -119,61 +119,61 @@
     "claim": "- Jensen Huang has left all his positions, effective immediately, after 33 years as CEO. Longtime CFO Colette Kress is interim CEO and remains CFO until a successor is chosen. The board has started a search covering internal and external candidates. (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition; https://meteoraweb.com/en/news/nvidia-jensen-huang-steps-down-as-ceo; https://mas",
     "source_excerpt": "## More News\n\nImage 10\n\n### Statement From the Independent Members of the NVIDIA Board\n\nNovember 10, 2026\n\nImage 11\n\n### NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusion\n\nNovember 8, 2026\n\nImage 12\n\n### A Message to Our Company\n\nNovember 8, 2026\n\nImage 13\n\n### Statement From NVIDIA Board of Directors\n\nNovember 8, 2026\n\nImage ",
     "verdict": "not_in_source",
-    "reason": "Source confirms Huang resigned and Kress is interim CEO; search and CFO details absent"
+    "reason": "Excerpt confirms resignation and Kress as interim CEO, but not '33 years', 'effective immediately', or the search details."
    },
    {
     "url": "https://meteoraweb.com/en/news/nvidia-jensen-huang-steps-down-as-ceo",
     "claim": "- Jensen Huang has left all his positions, effective immediately, after 33 years as CEO. Longtime CFO Colette Kress is interim CEO and remains CFO until a successor is chosen. The board has started a search covering internal and external candidates. (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition; https://meteoraweb.com/en/news/nvidia-jensen-huang-steps-down-as-ceo; https://mas",
     "source_excerpt": "Available  Advertising space See this space? It could be yours. Put your business in front of Meteora Web readers, in 14 languages.   Advertise your business \u2192 We reply on WhatsApp\n\n## What did NVIDIA announce?\n\nAccording to the official NVIDIA statement, Huang has left all his positions with immediate effect. Kress, at the company as CFO since September 2013, remains also CFO until a successor is",
     "verdict": "supported",
-    "reason": "States immediate effect, Kress remains CFO, and board search of internal and external candidates"
+    "reason": "States immediate effect, Kress remaining CFO until a successor is chosen, and a search of internal and external candidates."
    },
    {
     "url": "https://mashable.com/tech/jensen-huang-affairs-nvidia-resignation-timeline",
     "claim": "- Jensen Huang has left all his positions, effective immediately, after 33 years as CEO. Longtime CFO Colette Kress is interim CEO and remains CFO until a successor is chosen. The board has started a search covering internal and external candidates. (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition; https://meteoraweb.com/en/news/nvidia-jensen-huang-steps-down-as-ceo; https://mas",
     "source_excerpt": "## Nov. 17 \u2014 Nvidia to hold its first earnings call since Huang's exit\n\nNvidia is scheduled to release\") its quarterly results around 4:20 p.m. ET on Tuesday, Nov. 17, followed by an earnings call at 5 p.m. ET. It will be the company\u2019s first earnings call since Jensen Huang resigned and Kress took over as interim CEO.\n\nThis is a developing story...\n\nTopics Nvidia\n\nMashable Image\n\nOlivia Tauber\n\nDe",
     "verdict": "supported",
-    "reason": "Confirms 33 years as CEO, Kress interim, finance role kept, internal and external search"
+    "reason": "Mentions 33 years as CEO, Kress as interim CEO keeping finance role, and internal and external candidate review."
    },
    {
     "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
     "claim": "- On 8 Nov, the board said it had confidence in Huang and his leadership team and would provide further updates as appropriate. (https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors)",
     "source_excerpt": "The Board has confidence in Jensen and his leadership team and will provide further updates as appropriate.\n\nImage 10\n\n## Downloads\n\n   Download Press Release\n\n## More News\n\nImage 11\n\n### Statement From the Independent Members of the NVIDIA Board\n\nNovember 10, 2026\n\nImage 12\n\n### NVIDIA, Rebellions and SK Telecom Announce Collaboration to Advance Sovereign AI Infrastructure With NVIDIA NVLink Fusi",
     "verdict": "supported",
-    "reason": "Statement dated November 8 expresses confidence and promises further updates"
+    "reason": "Board states confidence in Jensen and his leadership team, with further updates as appropriate."
    },
    {
     "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
     "claim": "- WSJ reported on 11 Nov that the board was preparing to oust Huang after two extramarital affairs, one with a suspected Chinese spy. This is a press report citing people familiar with the matter. (https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad)",
     "source_excerpt": "Nvidia\u2019s NVDA 2.87%increase; up pointing triangle board is preparing to oust CEO Jensen Huang, its founder and chief executive after he had two extramarital affairs, including one with a suspected Chinese spy.\n\nThe board is preparing to meet as soon as today to determine his future, people familiar with the matter said.\n\nCopyright \u00a92026 Dow Jones & Company, Inc. All Rights Reserved. 87990cbe856818",
-    "verdict": "not_in_source",
-    "reason": "Ouster report and affairs match, but the 11 Nov date is not shown"
+    "verdict": "supported",
+    "reason": "Reports board preparing to oust Huang over two affairs, one with a suspected Chinese spy; the 11 Nov date is not shown."
    },
    {
     "url": "https://mezha.net/eng/news/mezha-cbe54f11b05c0e59be5a05db_wired-_nvidia_hired",
     "claim": "- Wired, as summarized by Mezha, reported Nvidia hired a crisis PR firm at least a year before Huang acknowledged the affair. (https://mezha.net/eng/news/mezha-cbe54f11b05c0e59be5a05db_wired-_nvidia_hired)",
     "source_excerpt": "12 Nov 2026, 19:04\n\nGDC attendance fell 30% in 2026 as organizers outline changes for 2027\n\n12 Nov 2026, 19:02\n\nOpenAI raised $15 billion at a valuation of $1.25 trillion\n\n12 Nov 2026, 19:01\n\n\u2018Yes, Dear\u2019 actor Anthony Clark dies at 62\n\n12 Nov 2026, 18:59\n\nJensen Huang Steps Down as Nvidia CEO; Colette Kress Takes Interim Lead\n\n12 Nov 2026, 18:57\n\nGreta Thunberg tells Cop31 summit the planet \u201cis be",
     "verdict": "supported",
-    "reason": "Mezha headline reports Wired story on crisis PR firm hired a year earlier"
+    "reason": "Headline states Nvidia hired a crisis PR firm at least a year before Huang acknowledged the affair."
    },
    {
     "url": "https://shattered.io/gpu-vs-tpu-vs-npu-ai-chip-camps-compared-2026",
     "claim": "- An AWS\u2013Nvidia announcement describes AWS deploying 2 million additional Blackwell Ultra, Rubin and Rubin Ultra GPUs across 2027\u20132028. (https://shattered.io/gpu-vs-tpu-vs-npu-ai-chip-camps-compared-2026)",
     "source_excerpt": "### Scale: Oracle, AWS and the supercomputer pipeline\n\nAn AWS and Nvidia announcement describes a plan for AWS to deploy 2 million additional Blackwell Ultra, Rubin and Rubin Ultra GPUs across 2027 and 2028. Rubin is the generation that follows Blackwell. Vera Rubin NVL72 debuted in Nvidia\u2019s MLPerf Inference v6.1 results in September 2026, and Rubin reportedly moved into production shipments in th",
     "verdict": "supported",
-    "reason": "Source describes AWS plan to deploy 2 million Blackwell Ultra, Rubin, Rubin Ultra GPUs"
+    "reason": "Source describes AWS plan to deploy 2 million additional Blackwell Ultra, Rubin and Rubin Ultra GPUs in 2027-2028."
    },
    {
     "url": "https://tavily.com/knowledge/company/TXRhn2TKUD7t",
     "claim": "- The results list no acquisitions dated within the last 30 days. The most recent listed deal is Hugging Face (1 Aug 2026, $12.90B), which falls outside the window. (https://tavily.com/knowledge/company/TXRhn2TKUD7t)",
     "source_excerpt": "# NVIDIA\nID: TXRhn2TKUD7t\nWebsite: www.nvidia.com/\nLegal name: NVIDIA Corporation\nHeadquarters: Santa Clara, California, United States\nLinkedIn: www.linkedin.com/company/nvidia \u00b7 6,578,529 followers\nIndustry: Computer Hardware Manufacturing\nIndustry codes: SIC 73, 737, NAICS 33, 334\nCompany type: Public company\nFounded: 1993\nBusiness model: B2B, B2C\nSaaS: no [...] ## M&A\n- Hugging Face, Inc. (2026",
     "verdict": "supported",
-    "reason": "Hugging Face deal dated 2026-08-01 for $12.90B is the most recent listed M&A"
+    "reason": "Hugging Face (2026-08-01, 12.90B USD) is the top listed deal; the 30-day window is inferred."
    }
   ],
   "counts": {
-   "supported": 6,
-   "not_in_source": 2,
+   "supported": 7,
+   "not_in_source": 1,
    "contradicted": 0
   }
  }

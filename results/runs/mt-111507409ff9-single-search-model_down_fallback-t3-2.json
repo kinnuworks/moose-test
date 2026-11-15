@@ -116,28 +116,28 @@
     "claim": "- Shopify reported 32% revenue growth (32% in constant currency) and a 22% free cash flow margin for the quarter ended 30 September 2026, announced 3 November 2026 (https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow). A Simply Wall St summary carried on Yahoo Finance repeats these figures (https://finance.yahoo.com/markets/stocks/articles/l",
     "source_excerpt": "Shopify\u2019s management team will hold a conference call to discuss its third-quarter results today, November 3, 2026, at 8:30 a.m. ET. The conference call will be webcast in the Investor Relations section of Shopify\u2019s website at www.shopify.com/investors/events. An archived replay of the webcast will be available following the conclusion of the call. [...] PDF version PDF\n\nInternet, Everywhere, Nov.",
     "verdict": "supported",
-    "reason": "Press release states 32% revenue growth, 32% constant currency, 22% FCF margin, dated Nov 3, 2026."
+    "reason": "Shopify press release states 32% revenue growth, 32% constant currency, 22% FCF margin, dated November 3, 2026."
    },
    {
     "url": "https://finance.yahoo.com/markets/stocks/articles/latest-news-e-commerce-shopifys-123733064.html",
     "claim": "- Shopify reported 32% revenue growth (32% in constant currency) and a 22% free cash flow margin for the quarter ended 30 September 2026, announced 3 November 2026 (https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow). A Simply Wall St summary carried on Yahoo Finance repeats these figures (https://finance.yahoo.com/markets/stocks/articles/l",
     "source_excerpt": "Sources:\n\n Simply Wall St\n \"Shopify Sustains Rapid Growth with Revenue Up 32% and Free Cash Flow Margin of 22%\" from Shopify Inc. on GlobeNewswire (published 03 November 2026)\n\nCompanies discussed in this article include NasdaqGS:CRCTNasdaqGS:AMZNNYSE:BABANasdaqGS:MELI and BSE:514162.\n\nThis article was originally published by Simply Wall St. [...] The e-commerce industry continues to witness subst",
     "verdict": "supported",
-    "reason": "Yahoo/Simply Wall St text reports 32% revenue increase and 22% FCF margin for quarter ending Sept 30, 2026."
+    "reason": "Yahoo/Simply Wall St page repeats 32% revenue increase and 22% FCF margin for quarter ending September 30, 2026."
    },
    {
     "url": "https://www.shopify.com/news/fall-26-edition-merchant",
     "claim": "- Shopify's Fall '26 Edition was published on 1 November 2026 (https://www.shopify.com/news/fall-26-edition-merchant). Highlights include a new Shop home on the web, with shoppable posts, editorial curations, and sections personalised to each shopper (https://www.shopify.com/news/fall-26-edition-merchant).",
     "source_excerpt": "by Shopify\n\n\u201cEvery merchant that joins Shopify benefits from every other merchant that has ever been on Shopify,\u201d says Vanessa Lee, Shopify\u2019s VP of Product. \u201cAnd they make it better for whoever comes next.\u201d Shopify\u2019s Fall \u201826 Edition shows how that network effect makes every business on Shopify exponentially more capable.\n\nTo explore the complete rollout, visit the Fall '26 Edition. Read a list of",
     "verdict": "not_in_source",
-    "reason": "Highlights match, but the source text shows no publication date of 1 November 2026."
+    "reason": "Highlights are supported, but the source text shows no publication date of 1 November 2026."
    },
    {
     "url": "https://www.demandsage.com/shopify-free-trial",
     "claim": "- A third-party DemandSage page advertises three months of Shopify for $1/month, valid until 30 November 2026 (https://www.demandsage.com/shopify-free-trial). This is not an official Shopify source, and the terms are unverified.",
     "source_excerpt": "This Shopify offer gives you enough time to test products, explore features, and start selling, without breaking the bank.\n\n## DemandSage x Shopify Free Trial Offers 3 Months | November 2026\n\nGet Shopify 3 Months Free Trial\n\nGet 3 Months of Shopify access for just $1/mo and unlock all premium features without restrictions. Build, launch, and grow your online store.\n\nValid Till November 30, 2026\n\nC",
     "verdict": "supported",
-    "reason": "DemandSage page offers 3 months for $1/month, valid until November 30, 2026."
+    "reason": "DemandSage page offers 3 months for $1/month, valid till November 30, 2026."
    },
    {
     "url": "https://tavily.com/knowledge/company/yIg9BumgrtmF",

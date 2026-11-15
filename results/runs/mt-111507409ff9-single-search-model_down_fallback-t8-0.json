@@ -131,35 +131,35 @@
     "claim": "- Zepto moved its scheduled holiday to Monday from Tuesday, giving employees an extra day off after Diwali. Chief HR officer Sneha Arora said the aim was to give people \"a longer weekend to celebrate.\" (https://m.economictimes.com/news/company/corporate-trends/india-inc-lights-up-diwali-with-longer-weekends-flexible-work-and-extra-pay-for-festive-shifts/articleshow/135618893.cms), 8 Nov 2026",
     "source_excerpt": "Quick-commerce firm Zepto advanced its scheduled holiday to Monday from Tuesday, giving employees an additional day off after Diwali. \"We want our people to enjoy the festive season with their families by giving them a longer weekend to celebrate,\" said Sneha Arora, chief HR officer at the Bengaluru-headquartered firm. [...] Comment\n\nSynopsis\n\nCompanies across India are making Diwali more employee",
     "verdict": "supported",
-    "reason": "Source states Zepto advanced holiday to Monday from Tuesday, with the same quote."
+    "reason": "Source confirms holiday moved to Monday from Tuesday and the Arora quote about a longer weekend."
    },
    {
     "url": "https://www.news18.com/viral/zeptos-diwali-bonus-video-goes-viral-delivery-partner-gets-cash-like-coupons-instead-of-money-peanuts-in-the-name-of-a-bonus-ws-l-10418467.html",
     "claim": "- A viral video reported that a delivery partner received \"cash-like coupons\" instead of money as a Diwali bonus, which critics called \"peanuts in the name of a bonus.\" (https://www.news18.com/viral/zeptos-diwali-bonus-video-goes-viral-delivery-partner-gets-cash-like-coupons-instead-of-money-peanuts-in-the-name-of-a-bonus-ws-l-10418467.html), 9 Nov 2026",
     "source_excerpt": "The discussion also brought up broader concerns about working conditions in India\u2019s startup and gig economy. Criticising companies that allegedly fail to provide adequate benefits to their workforce, another user remarked, \u201cIndian startups that exploit labour and don\u2019t do any innovation are the worst,\" highlighting the larger debate surrounding employee welfare and corporate responsibility.\n\n> Zep",
     "verdict": "not_in_source",
-    "reason": "Source body describes a bonus video and criticism, but not the cash-like coupons claim."
+    "reason": "Source body mentions criticism of a Zepto bonus video, but the quoted phrases appear only in the URL slug."
    },
    {
     "url": "https://indiabusinesstrade.in/dhanteras-2026-zepto-delivers-over-14000-gold-and-silver-coins-in-one-hour.htm",
     "claim": "- Zepto reported strong festive demand, including delivering over 14,000 gold and silver coins in one hour during Dhanteras. Industry reports say quick-commerce platforms saw sharp growth in high-value orders. (https://indiabusinesstrade.in/dhanteras-2026-zepto-delivers-over-14000-gold-and-silver-coins-in-one-hour.htm), 8 Nov 2026",
     "source_excerpt": "### Story\n\nNew Delhi, November 8: India\u2019s quick-commerce industry witnessed a sharp surge in festive demand during Dhanteras and Diwali 2026, with platforms such as Zepto, Swiggy Instamart and Flipkart Minutes reporting strong growth in orders for gold, silver, household essentials and festive products. [...] The growing popularity of instant delivery services highlights a major shift in consumer ",
     "verdict": "supported",
-    "reason": "Source reports Zepto delivered over 14,000 coins in one hour on Dhanteras, plus sharp quick-commerce growth."
+    "reason": "Source reports over 14,000 gold and silver coins in the busiest Dhanteras hour, plus industry growth."
    },
    {
     "url": "https://www.animationxpress.com/latest-news/zepto-lands-in-seoul-street-anime-india-is-up-next-the-fans-got-there-years-ago",
     "claim": "- Zepto entered a \"Seoul Street\" fandom campaign, with \"Anime India\" flagged as next. Zepto did not say which fandom comes next. Chief brand officer Chandan Mendiratta commented on the campaign. (https://www.animationxpress.com/latest-news/zepto-lands-in-seoul-street-anime-india-is-up-next-the-fans-got-there-years-ago), 21 Oct 2026",
     "source_excerpt": "Skip to content\n\n Sunday, November 15, 2026\n\n About Us\n Contact Us\n Subscribe Newsletter\n Opt- in\n\n Home\n Latest News\n Zepto lands in Seoul Street; Anime India is up next. The fans got there years ago\n\nLatest News Marketing Media Merchandise\n\n# Zepto lands in Seoul Street; Anime India is up next. The fans got there years ago\n\n21/10/2026\n\nAnimationXpress Team [...] Zepto will not say which fandom c",
     "verdict": "supported",
-    "reason": "Source confirms Seoul Street campaign, Anime India next, no fandom disclosed, and Mendiratta quote."
+    "reason": "Source confirms Seoul Street campaign, Anime India next, no fandom disclosed, and Mendiratta's comments."
    },
    {
     "url": "https://tavily.com/knowledge/company/YT08vmcifB58",
     "claim": "- **Deals and funding:** No deals were found in the window. A company profile lists a venture round dated 1 July 2026 for USD 100M and a Series H dated 16 Nov 2025 for USD 450M. Both are outside the 30-day window and the profile is undated, so treat them as background only. (https://tavily.com/knowledge/company/YT08vmcifB58), undated",
     "source_excerpt": "# Zepto\nID: YT08vmcifB58\nWebsite: www.zepto.com\nLegal name: Zepto Marketplace Private Limited\nHeadquarters: India\nLinkedIn: www.linkedin.com/company/zeptonow \u00b7 1,246,981 followers\nIndustry: Technology, Information and Internet\nCompany type: Privately Held\nFounded: 2021\nBusiness model: B2C\nSaaS: no\nSocial profiles: www.facebook.com/zeptonow, www.twitter.com/zeptonow, www.crunchbase.com/organization",
     "verdict": "supported",
-    "reason": "Source lists the 2026-07-01 USD 100M venture round and 2025-11-16 USD 450M Series H."
+    "reason": "Source lists venture round 2026-07-01 at 100M USD and Series H 2025-11-16 at 450M USD."
    }
   ],
   "counts": {

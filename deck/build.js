@@ -158,7 +158,7 @@ function text(slide, t, o) {
     ["Citations are checked, not trusted", "A link counts only if Bifrost's relay log shows this run fetched that page."],
     ["Our limits never count against an agent", "open_deep_research at its defaults sent ~320 model calls in a minute. Bifrost's provider queue (8 in flight) and 429 retries apply to every agent; injected outages use a separate dead provider."],
     ["Bad runs are re-run, not hidden", "A run hit by our own rate limit, or one where nothing reached the gateway, is marked INVALID, kept on disk and run again."],
-    ["AI checks the sources, not the grade", "Outcomes are deterministic checks on gateway logs. A model checks each fetched citation against the page text the search returned: 5.8% of GPT Researcher's were contradicted, 1.0% of single-search's."],
+    ["AI checks the sources, not the grade", "Outcomes are deterministic checks on gateway logs. A model checks each fetched citation against the page text the search returned: 5.6% of GPT Researcher's were contradicted, 0.6% of single-search's. We re-read all 30: 24 held up."],
   ];
   items.forEach(([h, b], i) => {
     const x = 0.6 + (i % 2) * 6.15, y = 1.6 + Math.floor(i / 2) * 2.6;

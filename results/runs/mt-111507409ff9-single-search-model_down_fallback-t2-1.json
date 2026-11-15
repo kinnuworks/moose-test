@@ -131,28 +131,28 @@
     "claim": "- Stripe now lets US businesses send stablecoin payments directly to crypto wallets in more than 160 markets. The feature is part of Global Payouts, and the wallet capability launched in public preview in early November 2026 (https://cryptonews.net/news/market/33703716).",
     "source_excerpt": "# Stripe lets US businesses send stablecoin payouts to crypto wallets in 160-plus markets\n\nsource-logo  cryptobriefing.com  + 2 more   04 November 2026 17:37, UTC\n\nimage\n\nStripe now lets US businesses send stablecoin payments directly to crypto wallets in more than 160 markets. The feature is part of Stripe\u2019s Global Payouts product, which launched the wallet capability in public preview in early N",
     "verdict": "supported",
-    "reason": "Source confirms US stablecoin payouts to wallets in 160+ markets, public preview early November 2026."
+    "reason": "Source confirms 160+ markets, Global Payouts, and early November 2026 public preview."
    },
    {
     "url": "https://www.tradingview.com/news/coinmarketcal:ce753058b094b:0-celo-minipay-integrates-link-by-stripe-for-one-click-stablecoin-purchases-12-nov-2026",
     "claim": "- Celo's MiniPay wallet is scheduled to integrate Link by Stripe on 12 November 2026, giving EU and US users one-click fiat-to-stablecoin purchases. MiniPay has more than 20 million wallets (https://www.tradingview.com/news/coinmarketcal:ce753058b094b:0-celo-minipay-integrates-link-by-stripe-for-one-click-stablecoin-purchases-12-nov-2026). The source describes this as scheduled, so I could not con",
     "source_excerpt": "The integration adds a fiat onramp to MiniPay's existing base of more than 20 million wallets. It gives those users a direct route from fiat money to stablecoins for payments on Celo, supporting payment activity and visibility for the CELO token.\n\nBREAKING: @MiniPay users in the EU & US can now onramp to digital dollars with Link by @Stripe [...] CoinMarketCal\nCoinMarketCal\n\n# Celo: MiniPay integr",
     "verdict": "supported",
-    "reason": "Source gives the 12 Nov 2026 scheduled date, EU/US one-click onramp, and 20M+ wallets."
+    "reason": "Source confirms the scheduled 12 Nov 2026 integration, EU/US users, and 20M+ wallets."
    },
    {
     "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
     "claim": "- Anthropic's Enterprise Frontier Safeguards, now in private beta, lists Stripe among its customers, alongside Bridgewater and Salesforce (https://www.anthropic.com/claude-fable-and-mythos-5-2). Dated 10 November 2026.",
     "source_excerpt": "(ZDR). Enterprise Frontier Safeguards is now in private beta with customers like Bridgewater, Salesforce, and Stripe. [...] This week, we\u2019re giving subscribers on eligible paid plans extra Fable usage. Plans and seats that include Fable models get one to three Fable resets based on how long they\u2019ve subscribed, and Fable is included for up to 50% of weekly usage limits for Pro plans and standard se",
     "verdict": "supported",
-    "reason": "Source names Stripe among private beta customers with Bridgewater and Salesforce; the 10 November date is not shown."
+    "reason": "Source names Stripe among private beta customers; the 10 November date is not shown."
    },
    {
     "url": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30",
     "claim": "- The WSJ reports that Meta's personal AI assistants have recently been enabled to make purchases on cardholders' behalf, and that banks are racing to respond (https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30). Dated 13 November 2026. The excerpt does not mention Stripe.",
     "source_excerpt": "Meta\u2019s Muse, Instinct and other personal AI assistants have been empowered in recent weeks to make purchases on behalf of cardholders, marking new steps toward a potential future where consumers no longer need to initiate a purchase or press \u201cbuy\u201d at checkout. That is generating buzz and excitement about AI bots\u2019 ability to create a new world order in payments.\n\nCopyright \u00a92026 Dow Jones & Company",
     "verdict": "supported",
-    "reason": "Source says Meta's assistants were empowered to make card purchases; the 13 Nov date is not shown."
+    "reason": "Source says Meta's assistants were empowered to make purchases; the 13 November date is not shown."
    },
    {
     "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",

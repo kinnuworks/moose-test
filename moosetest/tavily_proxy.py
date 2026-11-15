@@ -20,11 +20,12 @@ MAP_FILE = os.environ.get("MOOSETEST_RELAY_MAP", "")
 
 
 def _mapping():
+    """The runner replaces the map file atomically; None (unreadable) routes to an unknown relay."""
     try:
         with open(MAP_FILE) as f:
             return json.load(f)
     except (OSError, ValueError):
-        return {}
+        return None
 
 
 def request(flow: http.HTTPFlow) -> None:

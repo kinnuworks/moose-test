@@ -108,7 +108,9 @@ class Runner:
                 m.pop(key, None)
             else:
                 m[key] = relay
-            self.map_file.write_text(json.dumps(m))
+            tmp = self.map_file.with_suffix(".tmp")
+            tmp.write_text(json.dumps(m))
+            os.replace(tmp, self.map_file)  # the proxy never reads a half-written map
 
     # one run -------------------------------------------------------------
     def run_one(self, agent, condition, task, rep, run_tag, attempt=0):

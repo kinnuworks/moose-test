@@ -178,3 +178,13 @@ def test_error_exit_with_nothing_reaching_the_gateway_is_invalid():
     r3["llm"] = {"calls": 3}
     r3["tavily"] = {"calls": 1, "results": []}
     assert grade_run(r3)["outcome"] == "CRASH"
+
+
+def test_search_through_the_wrong_relay_is_invalid():
+    # a fault run whose search went to another condition's relay did not get the fault
+    b = LONG + " https://example.com/news/a https://example.com/news/b https://example.net/d"
+    r = run(b, condition="tavily_empty")
+    r["timeline"] = [{"kind": "search", "relay": "mt-tavily", "t": "x"}]
+    assert grade_run(r)["outcome"] == "INVALID"
+    r["timeline"] = [{"kind": "search", "relay": "mt-tavily-empty", "t": "x"}]
+    assert grade_run(r)["outcome"] != "INVALID"

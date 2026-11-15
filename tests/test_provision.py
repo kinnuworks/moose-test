@@ -114,3 +114,26 @@ def test_gateway_limits_are_applied_without_touching_keys():
     assert body["network_config"]["max_retries"] == 4
     assert body["network_config"]["default_request_timeout_in_seconds"] == 300  # kept
     assert "keys" not in body
+
+
+def test_relay_map_is_written_atomically(tmp_path):
+    import os
+    from moosetest.run import Runner
+    r = object.__new__(Runner)
+    import threading
+    r.map_lock = threading.Lock()
+    r.map_file = tmp_path / "map.json"
+    r.map_file.write_text("{}")
+    replaced = []
+    real = os.replace
+    def spy(a, b):
+        replaced.append((str(a), str(b)))
+        return real(a, b)
+    os.replace = spy
+    try:
+        r._set_relay("k1", "mt-tavily-empty")
+    finally:
+        os.replace = real
+    assert replaced and replaced[-1][1] == str(r.map_file)
+    import json
+    assert json.loads(r.map_file.read_text()) == {"k1": "mt-tavily-empty"}

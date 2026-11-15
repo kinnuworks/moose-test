@@ -34,11 +34,14 @@ def test_relay_per_condition():
     assert relay_for("tavily_misleading") == "mt-tavily-misleading"
 
 
-def test_proxy_maps_key_to_relay_and_defaults_to_baseline():
+def test_proxy_maps_key_to_relay_and_fails_loudly_when_unmapped():
+    # an unknown key or an unreadable map must not quietly get the baseline relay: a fault run
+    # would then see real search results. It goes to a relay that does not exist (Bifrost 404).
     m = {"sk-bf-1": "mt-tavily-empty"}
     assert relay_for_key(m, "sk-bf-1") == "mt-tavily-empty"
-    assert relay_for_key(m, "sk-bf-unknown") == "mt-tavily"
-    assert relay_for_key(m, None) == "mt-tavily"
+    assert relay_for_key(m, "sk-bf-unknown") == "mt-unmapped"
+    assert relay_for_key(m, None) == "mt-unmapped"
+    assert relay_for_key(None, "sk-bf-1") == "mt-unmapped"
 
 
 def test_collect_counts_only_real_provider_rate_limits():

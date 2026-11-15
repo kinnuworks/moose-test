@@ -29,3 +29,14 @@ def test_index_html_has_one_run_step_by_step_without_javascript():
     run = run[:run.index("</section>")]
     assert "hidden" not in run[:run.index(">")]
     assert run.count("<li") >= 3 and "search 200" in run and "model success" in run
+
+
+def test_baking_twice_gives_the_same_page():
+    # the bake reads a clean template every time, so re-running it never nests or duplicates markup
+    import subprocess, sys
+    root = VIEWER.parent
+    subprocess.run([sys.executable, "scripts/prerender.py"], cwd=root, check=True, capture_output=True)
+    first = (VIEWER / "index.html").read_text()
+    subprocess.run([sys.executable, "scripts/prerender.py"], cwd=root, check=True, capture_output=True)
+    assert (VIEWER / "index.html").read_text() == first
+    assert first.count('id="tiles"') == 1 and first.count('class="tile"') == 4

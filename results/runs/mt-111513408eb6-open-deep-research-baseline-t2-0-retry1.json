@@ -1,0 +1,6348 @@
+{
+ "run_id": "mt-111513408eb6-open-deep-research-baseline-t2-0-retry1",
+ "agent": "open-deep-research",
+ "condition": "baseline",
+ "task_id": "t2",
+ "company": "Stripe",
+ "repeat": 0,
+ "virtual_key": "mt-111513408eb6-open-deep-research-baseline-t2-0-retry1",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 383.7,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Stripe Briefing: 16 October to 15 November 2026\n\nPrepared for the meeting on 17 November 2026. Only items dated within the window and linkable to a source are included.\n\n## News\n\n- **Global Payouts reaches $1 billion in vendor payments (30 October 2026).** Stripe reports that Global Payouts has paid over $1 billion to more than 3,400 US and UK vendors. New-market setup time fell from up to six weeks to one. Stripe also raised the ACH and wire limits on its Outbound Payments API to $100 million [3].\n- **Press coverage.** No in-window press coverage from a reputable outlet with a linkable URL was verified. Coverage of the Parafin acquisition (agreed 30 September) and the PayPal/Advent matter (last reported August 2026) falls outside the window.\n\n## Product Launches\n\n- **Introducing Stripe Treasury for agents (21 October 2026).** Stripe announced this product for AI agents, as shown in its newsroom listing [1].\n- **API version 2026-10-28.endive (28 October 2026, general availability).** The release adds:\n  - Open USD (OUSD) as a supported crypto token.\n  - Scalapay Payment Links support, and SeQura for invoices and subscriptions.\n  - Subscription pausing in the customer portal.\n  - Outbound payments APIs (Payout Intents, Outbound Payments, Recipient Verifications), plus Financial Addresses v2.\n  - Support for the Stripe Terminal T600 reader.\n  - Tax registrations for Botswana, Ghana, Ivory Coast and Mauritius [2].\n- **Public previews (28 October 2026).** Wero bank redirect for the EU, multi-currency settlement for connected accounts, and the Queries and Reports API, which lets users query Stripe data with SQL [2].\n\n## Executive and Team Hires\n\n- No in-window executive appointment, departure or promotion was found with a linkable source. The Stripe newsroom listing contains no personnel announcements in the window.\n- A Microsoft proxy filing dated 21 October 2026 nominates Stripe co-founder and President John Collison to Microsoft's board. This is an outside board role, and no linkable primary source was captured, so it is excluded.\n\n## Deals and Partnerships\n\n- **HSBC UK Tap to Pay (10 November 2026).** Stripe and HSBC announced Tap to Pay for UK small businesses [1].\n- **Samsung Wallet stablecoin purchases (5 November 2026).** Stripe announced stablecoin purchases in Samsung Wallet [1].\n- **Anthropic (21 October 2026).** Stripe and Anthropic announced a partnership to help entrepreneurs run their business inside Claude [1].\n- **Mercedes-AMG PETRONAS F1 Team (20 October 2026).** Stripe announced a partnership with the team [1].\n\n## Open Questions for the Meeting\n\n1. Outbound Payments limits for ACH and wires were raised to $100 million. What risk controls and monitoring apply to these flows, and do they change for new markets? [2][3]\n2. OUSD is now a supported token, and stablecoin purchases are live in Samsung Wallet. How does Stripe balance stablecoin growth with compliance and consumer protection requirements? [1][2]\n3. Treasury for agents and agent-driven purchases are now live. How does Stripe govern agent-initiated payments, including spending limits, approvals and dispute handling? [1]\n\n### Sources\n\n[1] Stripe Newsroom: https://stripe.com/newsroom/news\n[2] Stripe API Changelog, Endive (2026-09-30 and 2026-10-28 releases): https://docs.stripe.com/changelog/endive\n[3] Stripe on Stripe: What we learned moving $1B in vendor payments to Global Payouts (Stripe Blog, 30 October 2026): https://stripe.com/blog/stripe-on-stripe-what-we-learned-moving-1b-in-vendor-payments-to-global-payouts",
+ "llm": {
+  "calls": 355,
+  "ok": 355,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 4589311,
+  "tokens_out": 395529,
+  "cost": 0.656696,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 73,
+  "statuses": [
+   432,
+   432,
+   432,
+   432,
+   432,
+   432,
+   432,
+   432,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.linkedin.com/posts/marcelvanoost_%F0%9D%97%9D%F0%9D%97%A8%F0%9D%97%A6%F0%9D%97%A7-%F0%9D%97%9C%F0%9D%97%A1-stripe-isenteringformula-activity-7518346100924334080-Ekp3",
+    "title": "\ud83d\udea8\ud835\udddd\ud835\udde8\ud835\udde6\ud835\udde7 \ud835\udddc\ud835\udde1: Stripe is\u00a0entering\u00a0Formula\u00a01\u00a0with\u00a0Mercedes-AMG PETRONAS Formula One Team\u00a0in\u00a0a\u00a0multi-year\u00a0global\u00a0payments\u00a0and\u00a0sponsorship\u00a0deal! The payments giant has announced a multi-year global\u2026 | Marcel van Oost | 16 comments",
+    "published_date": null
+   },
+   {
+    "url": "https://x.com/MercedesAMGF1/status/2112530658161537227",
+    "title": "Mercedes-AMG PETRONAS F1 Team on X: \"We\u2019re delighted to welcome @stripe as the Official Global Payments Partner of the Mercedes-AMG PETRONAS F1 Team family \ud83e\udd1d Together, we\u2019ll build smarter financial infrastructure and more seamless experiences for fans, partners and stakeholders around the world\u2026 / X",
+    "published_date": null
+   },
+   {
+    "url": "https://www.instagram.com/p/Det5kX4tCbo",
+    "title": "Instagram",
+    "published_date": null
+   },
+   {
+    "url": "https://www.mercedesamgf1.com/partners/stripe",
+    "title": "Stripe - Our Partners - Mercedes-AMG PETRONAS F1 Team",
+    "published_date": null
+   },
+   {
+    "url": "https://www.mercedesamgf1.com/partners",
+    "title": "Our Partners - Mercedes-AMG PETRONAS F1 Team",
+    "published_date": null
+   },
+   {
+    "url": "https://www.crowdfundinsider.com/2026/11/322033-stablecoin-purchases-reach-galaxy-devices-via-samsung-and-stripe-partnership",
+    "title": "Stablecoin Purchases Reach Galaxy Devices Via Samsung And Stripe Partnership | Crowdfund Insider",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/nace01k/posts/stripe-supports-usdc-purchases-in-samsung-walletstripe-now-powers-stablecoin-pur/122149380351023568",
+    "title": "NACE",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripe-powers-stablecoin-purchases-in-samsung-wallet",
+    "title": "Stripe powers stablecoin purchases in Samsung Wallet",
+    "published_date": null
+   },
+   {
+    "url": "https://stablecoininsider.org/samsung-announces-native-stablecoin-support-for-samsung-wallet-at-galaxy-unpacked-2026",
+    "title": "Samsung Wallet Adds Stablecoins: USDC Shown at Unpacked 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/07/26/samsung-wallet-stablecoins-native-support",
+    "title": "Samsung Wallet Stablecoins: Native Support Unveiled in 2026 Roadmap",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/marcelvanoost_stripe-x-anthropic-claude-can-now-buy-activity-7519100692788211712-ezmk",
+    "title": "\ud83d\udea8 Stripe x Anthropic: Claude can now buy things for your business. But only after you say yes. Anthropic just launched Claude Duet in research preview, a new app that helps small business owners\u2026 | Marcel van Oost",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cdata.com/ai/connect/stripe-to-claude",
+    "title": "Connect Stripe to Anthropic Claude | CData Software",
+    "published_date": null
+   },
+   {
+    "url": "https://peliqan.io/blog/stripe-claude-mcp",
+    "title": "Stripe + Claude: revenue intelligence with AI agents - Peliqan",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/isaackim-sdg_claude-for-small-business-activity-7505670033319120897-ZePj",
+    "title": "Claude for Small Business | Isaac Kim",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/61588316703613/posts/anthropics-september-15-claude-for-small-business-update-connects-to-tools-owner/122129880021277223",
+    "title": "AIssisted Consulting",
+    "published_date": null
+   },
+   {
+    "url": "https://thepaypers.com/payments/news/hsbc-uk-launches-tap-to-pay-for-small-businesses-with-stripe",
+    "title": "HSBC UK and Stripe launch Tap-to-Pay | The Paypers",
+    "published_date": null
+   },
+   {
+    "url": "https://www.pymnts.com/smbs/2026/hsbc-uses-stripe-small-business-tap-to-pay-offering",
+    "title": "PYMNTS | HSBC Turns to Stripe for Small Business Tap-to-Pay Offering",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ranjitbr_stripe-and-hsbc-power-tap-to-pay-for-uk-small-activity-7525850084442324992-6m7G",
+    "title": "Stripe and HSBC power Tap to Pay for UK small businesses | Ranjit Balijepalli",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripehsbc-power-tap-to-pay-for-uk-small-businesses",
+    "title": "Stripe and HSBC power Tap to Pay for UK small businesses",
+    "published_date": null
+   },
+   {
+    "url": "https://www.pymnts.com/smbs/2026/stripe-lloyds-debut-payments-suite-united-kingdom-small-businesses",
+    "title": "PYMNTS | Stripe and Lloyds Debut Payments Suite for UK Small Businesses",
+    "published_date": null
+   },
+   {
+    "url": "https://thepaypers.com/fintech/news/stripe-launches-treasury-for-agents-to-automate-startup-finances",
+    "title": "Stripe launches Treasury for AI agents | The Paypers",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/treasury/agents",
+    "title": "Treasury for agents | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/arudchuk_introducing-stripe-treasury-for-agents-activity-7524027413094416385-GbZZ",
+    "title": "Introducing Stripe Treasury for agents | Andrew Rudchuk",
+    "published_date": null
+   },
+   {
+    "url": "https://x.com/stripe/status/2112980980114030669",
+    "title": "Stripe on X: \"Move money with agents using Stripe Treasury. Customize permissions for your agent and pay invoices, transfer funds, and convert currencies. Get started: https://t.co/ebXh4jM0iF.\" / X",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/money-management",
+    "title": "Money management | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-dataworks-and-stripe-to-join-forces-to-reduce-friction-in-global-commerce-for-smbs",
+    "title": "FedEx Dataworks and Stripe to Join Forces to Reduce Friction in Global Commerce for SMBs",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/stripe_were-partnering-with-fedex-dataworks-together-activity-7513269756498636800-qruC",
+    "title": "Partnering with FedEx Dataworks for Small Business Financing | Stripe posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://leadiq.com/c/fedex-supply-chain/5a1d958e2300005a008440c1",
+    "title": "FedEx Company Overview, Contact Details & Competitors | LeadIQ",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/vishaltalwar_fedex-dataworks-and-stripe-to-join-forces-activity-7513319674277773312-3WHV",
+    "title": "FedEx and Stripe Collaborate on Global Commerce Solutions | Vishal Talwar posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/dun-bradstreet-fedex-dataworks-launch-210000837.html",
+    "title": "Dun & Bradstreet and FedEx Dataworks to Launch Predictive Insights Tracking U.S. Retail Supply and Demand",
+    "published_date": null
+   },
+   {
+    "url": "https://okara.ai/blog/stripe-revenue-growth",
+    "title": "Stripe Valuation and Revenue: How Stripe Grew to $159B",
+    "published_date": null
+   },
+   {
+    "url": "https://smartasset.com/investing/stripe-ipo",
+    "title": "Stripe IPO: Valuation, Timeline and Investment Options",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cnbc.com/amp/2026/02/24/stripe-value-stock-sale-tender-offer.html",
+    "title": "Stripe valued at $159 billion after tender offer",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cnbc.com/2026/02/24/stripe-value-stock-sale-tender-offer.html",
+    "title": "Stripe valued at $159 billion after tender offer",
+    "published_date": null
+   },
+   {
+    "url": "https://ca.investing.com/news/stock-market-news/stripe-plans-employee-tender-offer-at-85-bln-valuation-the-information-3835970",
+    "title": "Stripe plans employee tender offer at $85 bln valuation- The Information",
+    "published_date": null
+   },
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
+    "title": "List of 22 Acquisitions by Stripe (Nov 2026) - Tracxn",
+    "published_date": null
+   },
+   {
+    "url": "https://pro.edgex.exchange/en-US/news/article/stripe-acquire-openrouter-8-billion-ai-deal",
+    "title": "Stripe Finalizes $8 Billion Acquisition of AI Routing Platform OpenRouter",
+    "published_date": null
+   },
+   {
+    "url": "https://tsgpayments.com/stripe-acquires-openrouter-for-7b-turning-model-routing-into-a-payments-infrastructure-problem",
+    "title": "Stripe Acquires OpenRouter for $7B+, Turning Model Routing Into a Payments Infrastructure Problem | Payments Insights & Analysis | TSG",
+    "published_date": null
+   },
+   {
+    "url": "https://gigazine.net/gsc_news/en/20260820-stripe-acquire-openrouter",
+    "title": "Stripe officially announces acquisition of OpenRouter to build economic infrastructure for AI. - GIGAZINE",
+    "published_date": null
+   },
+   {
+    "url": "https://www.ghacks.net/2026/08/18/stripe-reportedly-acquiring-ai-gateway-startup-openrouter-for-more-than-7-billion",
+    "title": "Stripe Reportedly Acquiring AI Gateway Startup OpenRouter for More Than $7 Billion - gHacks Tech News",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "title": "Stripe News | November, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition",
+    "title": "Stripe to enhance business credit offering with Parafin acquisition",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-june-2026",
+    "title": "Stripe News | June, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://www.onesafe.io/blog/stablecoin-regulation-what-stripes-usdc-payouts-mean",
+    "title": "Stablecoin Regulation: What Stripe\u2019s USDC Payouts Mean - OneSafe Blog",
+    "published_date": null
+   },
+   {
+    "url": "https://eco.com/support/en/articles/15083174-stripe-stablecoin-payments-2026",
+    "title": "Stripe Stablecoin Payments 2026 | Support",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cobo.com/agentic-wallet/news/stablecoin-payments-surge-to-mainstream-in-2026-amid-explosive-ecosystem",
+    "title": "Stablecoin Payments Surge to Mainstream in 2026 Amid Explosive Ecosystem Growth | Cobo Agentic Wallet",
+    "published_date": null
+   },
+   {
+    "url": "https://watcher.guru/news/visa-v-mastercard-and-stripe-to-launch-crypto-stablecoin",
+    "title": "Visa (V), Mastercard, and Stripe to Launch Crypto Stablecoin",
+    "published_date": null
+   },
+   {
+    "url": "https://au.investing.com/news/company-news/klarna-launches-stablecoin-partners-with-stripe-on-blockchain-payments-93CH-4143341",
+    "title": "Klarna launches stablecoin, partners with Stripe on blockchain payments",
+    "published_date": null
+   },
+   {
+    "url": "https://smartasset.com/investing/stripe-ipo",
+    "title": "Stripe IPO: Valuation, Timeline and Investment Options",
+    "published_date": null
+   },
+   {
+    "url": "https://valueaddvc.com/company/stripe",
+    "title": "Stripe valuation: ~$159B (reported, Feb 2026) \u2014 funding & investors",
+    "published_date": null
+   },
+   {
+    "url": "https://okara.ai/blog/stripe-revenue-growth",
+    "title": "Stripe Valuation and Revenue: How Stripe Grew to $159B",
+    "published_date": null
+   },
+   {
+    "url": "https://tracxn.com/d/companies/stripe-stare/__KE_K-Xk3Dk7sJ3iPFZ0c2ClJEt2c3HIew_kCmh-fPtY/funding-and-investors",
+    "title": "Stripe & Stare - 2026 Funding Rounds & List of Investors - Tracxn",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cnbc.com/2026/02/24/stripe-value-stock-sale-tender-offer.html",
+    "title": "Stripe valued at $159 billion after tender offer",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/stripe-on-stripe-what-we-learned-moving-1b-in-vendor-payments-to-global-payouts",
+    "title": "Stripe on Stripe: What we learned moving $1B in vendor payments to Global Payouts",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/stripe-enable-crypto-payments-101100408.html",
+    "title": "Stripe to enable crypto payments",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-june-2026",
+    "title": "Stripe News | June, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572",
+    "title": "Stripe tips toward staying private",
+    "published_date": null
+   },
+   {
+    "url": "https://www.vccircle.com/tag/stripe/all",
+    "title": "Latest Stripe News | Stripe News | Stripe Funding | Stripe Fund - vccircle",
+    "published_date": null
+   },
+   {
+    "url": "https://thepaypers.com/payments/news/hsbc-uk-launches-tap-to-pay-for-small-businesses-with-stripe",
+    "title": "HSBC UK and Stripe launch Tap-to-Pay | The Paypers",
+    "published_date": null
+   },
+   {
+    "url": "https://www.pymnts.com/smbs/2026/hsbc-uses-stripe-small-business-tap-to-pay-offering",
+    "title": "PYMNTS | HSBC Turns to Stripe for Small Business Tap-to-Pay Offering",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ranjitbr_stripe-and-hsbc-power-tap-to-pay-for-uk-small-activity-7525850084442324992-6m7G",
+    "title": "Stripe and HSBC power Tap to Pay for UK small businesses | Ranjit Balijepalli",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripehsbc-power-tap-to-pay-for-uk-small-businesses",
+    "title": "Stripe and HSBC power Tap to Pay for UK small businesses",
+    "published_date": null
+   },
+   {
+    "url": "https://www.pymnts.com/smbs/2026/stripe-lloyds-debut-payments-suite-united-kingdom-small-businesses",
+    "title": "PYMNTS | Stripe and Lloyds Debut Payments Suite for UK Small Businesses",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/buhlerlaura_stripe-and-anthropic-help-entrepreneurs-run-activity-7519051506004889600-rnhl",
+    "title": "Claude Duet Integrates with Stripe MCP for Purchases and Refunds | Laura Buhler posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://x.com/stripe/status/2112995753824301406",
+    "title": "Stripe on X: \"We\u2019re working with Anthropic to help you run your businesses inside Claude Duet. \u2022 Make purchases with @link \u2022 Issue refunds and understand business trends with the Stripe MCP\" / X",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/tybryson_excited-about-stripes-work-with-anthropic-activity-7520480377153572864-pbzC",
+    "title": "Excited about Stripe\u2019s work with Anthropic to help entrepreneurs run more of their businesses inside Claude Duet. With Link\u2019s wallet for agents and the Stripe MCP, Claude Duet can make purchases\u2026 | Tyler Bryson",
+    "published_date": null
+   },
+   {
+    "url": "https://itbusinesstoday.com/tech/computing/stripe-anthropic-bring-business-operations-to-claude-duet",
+    "title": "Stripe and Anthropic Expand Business Use of Claude Duet",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cnbc.com/video/2024/04/25/anthropic-co-founder-daniela-amodei-on-ai-adoption-claude-3-and-impact-on-payments.html",
+    "title": "Anthropic Co-Founder Daniela Amodei on AI adoption, Claude 3 and impact on payments",
+    "published_date": null
+   },
+   {
+    "url": "https://www.crowdfundinsider.com/2026/11/322033-stablecoin-purchases-reach-galaxy-devices-via-samsung-and-stripe-partnership",
+    "title": "Stablecoin Purchases Reach Galaxy Devices Via Samsung And Stripe Partnership | Crowdfund Insider",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/nace01k/posts/stripe-supports-usdc-purchases-in-samsung-walletstripe-now-powers-stablecoin-pur/122149380351023568",
+    "title": "NACE",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripe-powers-stablecoin-purchases-in-samsung-wallet",
+    "title": "Stripe powers stablecoin purchases in Samsung Wallet",
+    "published_date": null
+   },
+   {
+    "url": "https://stablecoininsider.org/samsung-announces-native-stablecoin-support-for-samsung-wallet-at-galaxy-unpacked-2026",
+    "title": "Samsung Wallet Adds Stablecoins: USDC Shown at Unpacked 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/07/26/samsung-wallet-stablecoins-native-support",
+    "title": "Samsung Wallet Stablecoins: Native Support Unveiled in 2026 Roadmap",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/stripe-on-stripe-what-we-learned-moving-1b-in-vendor-payments-to-global-payouts",
+    "title": "Stripe on Stripe: What we learned moving $1B in vendor payments to Global Payouts",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/sandeep-menon-7546438_stripe-on-stripe-what-we-learned-moving-activity-7522106835336593408-dv_f",
+    "title": "Stripe on Stripe: What we learned moving $1B in vendor payments to Global Payouts | Sandeep Menon",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog",
+    "title": "Stripe Blog: Online Payment Solutions Blog",
+    "published_date": null
+   },
+   {
+    "url": "https://eco.com/support/en/articles/15083174-stripe-stablecoin-payments-2026",
+    "title": "Stripe Stablecoin Payments 2026 | Support",
+    "published_date": null
+   },
+   {
+    "url": "https://news.crunchbase.com/business/stripe-crypto-twitter-usdc-twtr",
+    "title": "Stripe Partners With Twitter To Support Crypto Payouts To Creators",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/pulse/stripe-sessions-2026-agents-growth-stripe-9eatc",
+    "title": "Stripe Sessions 2026: agents of growth",
+    "published_date": null
+   },
+   {
+    "url": "https://x.com/stripe/status/2037197998074335292",
+    "title": "Stripe on X: \"Stripe Projects: provision a production-ready dev stack from your terminal\" / X",
+    "published_date": null
+   },
+   {
+    "url": "https://news.ycombinator.com/item?id=47532148",
+    "title": "Stripe Projects: Provision and manage services from the CLI | Hacker News",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/projects",
+    "title": "Stripe Projects CLI | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/marcelvanoost_stripe-x-anthropic-claude-can-now-buy-activity-7519100692788211712-ezmk",
+    "title": "\ud83d\udea8 Stripe x Anthropic: Claude can now buy things for your business. But only after you say yes. Anthropic just launched Claude Duet in research preview, a new app that helps small business owners\u2026 | Marcel van Oost",
+    "published_date": null
+   },
+   {
+    "url": "https://claude.com/resources/articles/claude-duet",
+    "title": "Introducing Claude Duet | Claude by Anthropic",
+    "published_date": null
+   },
+   {
+    "url": "https://thepaypers.com/payments/news/anthropic-integrates-stripes-link-and-mcp-into-claude-duet",
+    "title": "Anthropic adds Stripe Link and MCP to Claude Duet | The Paypers",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/tybryson_excited-about-stripes-work-with-anthropic-activity-7520480377153572864-pbzC",
+    "title": "Excited about Stripe\u2019s work with Anthropic to help entrepreneurs run more of their businesses inside Claude Duet. With Link\u2019s wallet for agents and the Stripe MCP, Claude Duet can make purchases\u2026 | Tyler Bryson",
+    "published_date": null
+   },
+   {
+    "url": "https://peliqan.io/blog/stripe-claude-mcp",
+    "title": "Stripe + Claude: revenue intelligence with AI agents - Peliqan",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/payments/managed-payments/changelog",
+    "title": "Managed Payments changelog | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/changelog/dahlia/2026-04-22/managed-payments",
+    "title": "Adds support for Managed Payments, Stripe's merchant of record solution | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/shipped?product=Team+and+access+management",
+    "title": "Stripe Changelog | See the Latest Product Updates",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/changelog/endive",
+    "title": "Endive | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://attio.com/changelog/2026/changelog-june-29-2026",
+    "title": "Changelog (June 29, 2026) | Attio Changelog",
+    "published_date": null
+   },
+   {
+    "url": "https://startupfortune.com/stripe-and-advent-are-pushing-to-buy-paypal-for-53-billion",
+    "title": "Stripe and Advent Are Pushing to Buy PayPal for $53 Billion - Startup Fortune",
+    "published_date": null
+   },
+   {
+    "url": "https://www.bloomberg.com/news/articles/2026-08-28/advent-stripe-consortium-is-said-to-drop-pursuit-of-paypal",
+    "title": "PayPal Deal Talks End as Advent, Stripe Group Abandons Acquisition Effort - Bloomberg",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/pkriaris_big-news-paypal-has-rejected-the-stripe-activity-7499079655778324480-d-A7",
+    "title": "Big news. PayPal has rejected the Stripe - Advent offer. But is this\u2026 | Panagiotis Kriaris | 15 comments",
+    "published_date": null
+   },
+   {
+    "url": "https://bitrss.com/stripe-and-advent-offer-53-billion-deal-to-acquire-paypal-231754",
+    "title": "Stripe and Advent Offer $53 Billion Deal to Acquire PayPal - BitRss - Crypto World News",
+    "published_date": null
+   },
+   {
+    "url": "https://tsgpayments.com/stripe-and-advent-international-are-offering-to-acquire-paypal-in-a-53-billion-deal",
+    "title": "Stripe and Advent International are Offering to Acquire PayPal in a $53 Billion Deal | Payments Insights & Analysis | TSG",
+    "published_date": null
+   },
+   {
+    "url": "https://ca.investing.com/news/stock-market-news/stripe-is-considering-acquisition-of-all-or-parts-of-paypal-bloomberg-news-reports-4475825",
+    "title": "Stripe is considering acquisition of all or parts of PayPal, Bloomberg News reports",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/stripe-weighs-acquisition-paypal-bloomberg-164700536.html",
+    "title": "Stripe weighs acquisition of PayPal, Bloomberg reports",
+    "published_date": null
+   },
+   {
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/02/25/stripe-is-considering-acquisition-of-all-or-parts-of-paypal-bloomberg-news-reports",
+    "title": "Stripe is considering acquisition of all or parts of PayPal, Bloomberg News reports | The Star",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/cnbc/videos/cnbcs-mackenzie-sigalos-reports-on-the-latest-funding-round-for-stripe-watch-mor/799579306520719",
+    "title": "3.3K views \u00b7 23 reactions | CNBC\u2019s Mackenzie Sigalos reports on the latest funding round for Stripe.\n\nWatch more: cnb.cx/4rffS24 | CNBC",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cnbc.com/2026/02/24/stripe-value-stock-sale-tender-offer.html",
+    "title": "Stripe valued at $159 billion after tender offer",
+    "published_date": null
+   },
+   {
+    "url": "https://www.investing.com/news/economy/fintech-stripe-valued-at-50-billion-in-latest-funding-round-3031660",
+    "title": "Stripe nearly halves valuation to $50 billion following $6.5 billion raise By Reuters",
+    "published_date": null
+   },
+   {
+    "url": "https://www.instagram.com/p/Da5ZHRdlUEq",
+    "title": "Instagram",
+    "published_date": null
+   },
+   {
+    "url": "https://www.engadget.com/2237637/stripe-reportedly-to-buy-paypal",
+    "title": "Stripe Is Reportedly In Talks To Buy PayPal",
+    "published_date": null
+   },
+   {
+    "url": "https://startupfortune.com/stripe-and-advent-are-pushing-to-buy-paypal-for-53-billion",
+    "title": "Stripe and Advent Are Pushing to Buy PayPal for $53 Billion - Startup Fortune",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/Reuters/videos/stripe-advent-offer-over-53-billion-for-paypal-sources-say/1051895780596283",
+    "title": "5.5K views \u00b7 51 reactions | Stripe and private equity firm Advent International have made a joint offer to acquire PayPal Holdings for $60.50 per share, in a deal that would value the payments company at more than $53 billion, two people familiar with the matter said https://reut.rs/3Rg94o0 | Reuters",
+    "published_date": null
+   },
+   {
+    "url": "https://www.siliconrepublic.com/business/bloomberg-stripe-considers-paypal-acquisition",
+    "title": "Bloomberg: Stripe considers PayPal acquisition",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/stripe-weighs-acquisition-paypal-bloomberg-164700536.html",
+    "title": "Stripe weighs acquisition of PayPal, Bloomberg reports",
+    "published_date": null
+   },
+   {
+    "url": "https://in.tradingview.com/news/reuters.com,2026:newsml_FWN40B0IR:0-meta-hires-former-google-stripe-executives-behind-ai-startup-dreamer-bloomberg-news",
+    "title": "Meta Hires Former Google, Stripe Executives Behind AI Startup Dreamer - Bloomberg News \u2014 TradingView News India",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/stripe-considering-acquisition-parts-paypal-205445679.html",
+    "title": "Stripe is considering acquisition of all or parts of PayPal, Bloomberg News reports",
+    "published_date": null
+   },
+   {
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/02/25/stripe-is-considering-acquisition-of-all-or-parts-of-paypal-bloomberg-news-reports",
+    "title": "Stripe is considering acquisition of all or parts of PayPal, Bloomberg News reports | The Star",
+    "published_date": null
+   },
+   {
+    "url": "https://www.unifygtm.com/insights/executives/stripe-ceo",
+    "title": "Who is the CEO of Stripe in 2026? Patrick Collison | Unify",
+    "published_date": null
+   },
+   {
+    "url": "https://www.leaprate.com/forex/executives/stripe-promotes-eileen-omara-to-vice-chair-and-appoints-tyler-bryson-as-chief-revenue-officer",
+    "title": "Stripe Promotes Eileen O\u2019Mara to Vice Chair and Appoints Tyler Bryson as Chief Revenue Officer | LeapRate",
+    "published_date": null
+   },
+   {
+    "url": "https://derrick-app.com/company/stripe/executives",
+    "title": "Stripe executive team & leadership",
+    "published_date": null
+   },
+   {
+    "url": "https://www.businessinsider.com/stripe-cfo-will-gaybrick-becomes-chief-product-officer-2018-12?r=US&IR=T",
+    "title": "Stripe CFO Will Gaybrick Becomes Chief Product Officer - Business Insider",
+    "published_date": null
+   },
+   {
+    "url": "https://www.businessinsider.com/stripe-cfo-will-gaybrick-becomes-chief-product-officer-2018-12",
+    "title": "Stripe CFO Will Gaybrick Becomes Chief Product Officer - Business Insider",
+    "published_date": null
+   },
+   {
+    "url": "https://ziosec.com/blog/stripe-and-microsoft-copilot-launch-copilot-checkout-for-seamless-shopping",
+    "title": "Stripe and Microsoft Copilot Launch Copilot Checkout for Seamless Shopping | ZioSec",
+    "published_date": null
+   },
+   {
+    "url": "https://smbtech.au/news/stripe-powers-shopping-integration-in-microsoft-copilot-with-agentic-checkout",
+    "title": "Stripe Powers Shopping Integration In Microsoft Copilot With Agentic Checkout \u2013 SMBtech",
+    "published_date": null
+   },
+   {
+    "url": "https://www.stocktitan.net/news/MSFT/microsoft-propels-retail-forward-with-agentic-ai-capabilities-that-rwl6yp7237e4.html",
+    "title": "Microsoft launches agentic AI suite for retail automation | MSFT Stock News",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/stripe-pushes-agentic-ai-sales-070208339.html",
+    "title": "Stripe pushes agentic AI sales via chat",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/microsoft-brings-paypal-powered-checkout-122234866.html?fr=sycsrp_catchall",
+    "title": "Microsoft brings PayPal-powered checkout to Copilot AI shopping",
+    "published_date": null
+   },
+   {
+    "url": "https://www.ignitionapp.com/news/ignition-partners-with-stripe-capital-for-flexible-financing",
+    "title": "Ignition partners with Stripe Capital to unlock fast,\u2026 | Ignition",
+    "published_date": null
+   },
+   {
+    "url": "https://ng.investing.com/news/company-news/commerce-expands-stripe-partnership-with-global-checkout-suite-93CH-2313761",
+    "title": "Commerce expands Stripe partnership with global checkout suite",
+    "published_date": null
+   },
+   {
+    "url": "https://uk.investing.com/news/company-news/commerce-expands-stripe-partnership-with-global-checkout-suite-93CH-4478483",
+    "title": "Commerce expands Stripe partnership with global checkout suite",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/businesses-grow-revenue-on-stripe-faster-after-accepting-financing-through-stripe-capital",
+    "title": "Businesses grow revenue on Stripe 27 percentage points faster after accepting financing through Stripe Capital",
+    "published_date": null
+   },
+   {
+    "url": "https://ca.investing.com/news/company-news/commerce-expands-stripe-partnership-with-global-checkout-suite-93CH-4427528",
+    "title": "Commerce expands Stripe partnership with global checkout suite",
+    "published_date": null
+   },
+   {
+    "url": "https://multiples.vc/private-comps/stripe",
+    "title": "Stripe Revenue, Valuation, Funding & Investors | Multiples",
+    "published_date": null
+   },
+   {
+    "url": "https://tracxn.com/d/companies/stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
+    "title": "Stripe - 2026 Company Profile, Team, Funding & Competitors - Tracxn",
+    "published_date": null
+   },
+   {
+    "url": "https://www.startengine.com/offering/stripe-qp-1",
+    "title": "Invest in Series Stripe QP-1 (2026 Round) | StartEngine",
+    "published_date": null
+   },
+   {
+    "url": "https://technews180.com/funding-news/stripe-and-ribbit-back-coplanes-14m-seed-round",
+    "title": "Stripe and Ribbit Back CoPlane\u2019s $14M Seed Round",
+    "published_date": null
+   },
+   {
+    "url": "https://okara.ai/blog/stripe-revenue-growth",
+    "title": "Stripe Valuation and Revenue: How Stripe Grew to $159B",
+    "published_date": null
+   },
+   {
+    "url": "https://www.crowdfundinsider.com/2026/11/322033-stablecoin-purchases-reach-galaxy-devices-via-samsung-and-stripe-partnership",
+    "title": "Stablecoin Purchases Reach Galaxy Devices Via Samsung And Stripe Partnership | Crowdfund Insider",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/nace01k/posts/stripe-supports-usdc-purchases-in-samsung-walletstripe-now-powers-stablecoin-pur/122149380351023568",
+    "title": "NACE",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripe-powers-stablecoin-purchases-in-samsung-wallet",
+    "title": "Stripe powers stablecoin purchases in Samsung Wallet",
+    "published_date": null
+   },
+   {
+    "url": "https://stablecoininsider.org/samsung-announces-native-stablecoin-support-for-samsung-wallet-at-galaxy-unpacked-2026",
+    "title": "Samsung Wallet Adds Stablecoins: USDC Shown at Unpacked 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/07/26/samsung-wallet-stablecoins-native-support",
+    "title": "Samsung Wallet Stablecoins: Native Support Unveiled in 2026 Roadmap",
+    "published_date": null
+   },
+   {
+    "url": "https://www.instagram.com/p/DfE419dDE_A",
+    "title": "Instagram",
+    "published_date": null
+   },
+   {
+    "url": "https://thepaypers.com/fintech/news/stripe-launches-treasury-for-agents-to-automate-startup-finances",
+    "title": "Stripe launches Treasury for AI agents | The Paypers",
+    "published_date": null
+   },
+   {
+    "url": "https://www.thisweekinfintech.com/p/exclusive-a-look-at-stripe-s-next-push-beyond-payments-treasury-for-agents",
+    "title": "Exclusive: A Look at Stripe\u2019s Next Push Beyond Payments: Treasury for Agents",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/pulse/stripe-sessions-2026-agents-growth-stripe-9eatc",
+    "title": "Stripe Sessions 2026: agents of growth",
+    "published_date": null
+   },
+   {
+    "url": "https://x.com/stripe/status/2112980980114030669",
+    "title": "Stripe on X: \"Move money with agents using Stripe Treasury. Customize permissions for your agent and pay invoices, transfer funds, and convert currencies. Get started: https://t.co/ebXh4jM0iF.\" / X",
+    "published_date": null
+   },
+   {
+    "url": "https://thepaypers.com/payments/news/hsbc-uk-launches-tap-to-pay-for-small-businesses-with-stripe",
+    "title": "HSBC UK and Stripe launch Tap-to-Pay | The Paypers",
+    "published_date": null
+   },
+   {
+    "url": "https://www.pymnts.com/smbs/2026/hsbc-uses-stripe-small-business-tap-to-pay-offering",
+    "title": "PYMNTS | HSBC Turns to Stripe for Small Business Tap-to-Pay Offering",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ranjitbr_stripe-and-hsbc-power-tap-to-pay-for-uk-small-activity-7525850084442324992-6m7G",
+    "title": "Stripe and HSBC power Tap to Pay for UK small businesses | Ranjit Balijepalli",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripehsbc-power-tap-to-pay-for-uk-small-businesses",
+    "title": "Stripe and HSBC power Tap to Pay for UK small businesses",
+    "published_date": null
+   },
+   {
+    "url": "https://www.pymnts.com/smbs/2026/stripe-lloyds-debut-payments-suite-united-kingdom-small-businesses",
+    "title": "PYMNTS | Stripe and Lloyds Debut Payments Suite for UK Small Businesses",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog",
+    "title": "Stripe Blog: Online Payment Solutions Blog",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/databricksinc/videos/stripe-data-pipeline-now-supports-real-time-sync-to-lakebase-postgres-with-updat/900155193092521",
+    "title": "Stripe Data Pipeline now supports real-time sync to Lakebase Postgres, with updates arriving within seconds!\n\nStripe handles backfill, ongoing delivery, and data audits, so developers can query up-to-date payment and subscription data with SQL, without building custom API or webhook integrations.\n\nThis makes it easier to build apps that manage feature access, display current billing details, and deliver personalized offers. https://www.databricks.com/blog/stripe-data-pipeline-now-syncs-real-time-stripe-data-lakebase-postgres?utm_source=facebook&utm_medium=organic-social | Databricks",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/data/data-pipeline/real-time-sync-to-postgres",
+    "title": "Real-time sync to Postgres | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://www.databricks.com/blog/stripe-data-pipeline-now-syncs-real-time-stripe-data-lakebase-postgres",
+    "title": "Stripe Data Pipeline now syncs real-time Stripe data to Lakebase Postgres | Databricks Blog",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/real-time-stripe-data-postgres",
+    "title": "Sync real-time Stripe data to Postgres with Stripe Data Pipeline",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/marcelvanoost_stripe-x-anthropic-claude-can-now-buy-activity-7519100692788211712-ezmk",
+    "title": "\ud83d\udea8 Stripe x Anthropic: Claude can now buy things for your business. But only after you say yes. Anthropic just launched Claude Duet in research preview, a new app that helps small business owners\u2026 | Marcel van Oost",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cdata.com/ai/connect/stripe-to-claude",
+    "title": "Connect Stripe to Anthropic Claude | CData Software",
+    "published_date": null
+   },
+   {
+    "url": "https://www.investing.com/news/company-news/anthropic-upgrades-claude-with-new-integrations-and-research-capabilities-93CH-4017540",
+    "title": "Anthropic upgrades Claude with new integrations and research capabilities By Investing.com",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=S_lzYIvtEaQ",
+    "title": "Patrick Collison on Claude Code at Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/jeffwweinstein_icymi-stripe-atlas-startups-c-corps-now-activity-7244990991101796352-OkHH",
+    "title": "Stripe Atlas startups get Anthropic perks | Jeff Weinstein posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/m/772c3856-47da-31f0-8123-d5ed119e5f43/ftc-probes-debanking.html",
+    "title": "FTC probes debanking practices at PayPal, Stripe, Visa and Mastercard",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/economy/policy/articles/ftc-probes-debanking-practices-paypal-091215876.html",
+    "title": "FTC probes debanking practices at PayPal, Stripe, Visa and Mastercard",
+    "published_date": null
+   },
+   {
+    "url": "https://markets.businessinsider.com/news/stocks/ftc-chairman-cracks-down-on-paypal-pypl-stripe-visa-and-mastercard-over-debanking-practices-1035972611",
+    "title": "FTC Chairman Cracks Down on PayPal (PYPL), Stripe, Visa, and Mastercard Over Debanking Practices | Markets Insider",
+    "published_date": null
+   },
+   {
+    "url": "https://www.consumerfinancemonitor.com/2026/04/08/ftc-sends-debanking-letters-to-paypal-stripe-visa-mastercard",
+    "title": "FTC sends debanking letters to PayPal, Stripe, Visa, Mastercard | Consumer Finance Monitor",
+    "published_date": null
+   },
+   {
+    "url": "https://www.ftc.gov/news-events/news/press-releases/2026/03/ftc-chairman-andrew-n-ferguson-issues-warning-letters-ceos-paypal-stripe-visa-mastercard-about-debanking-american-consumers",
+    "title": "FTC Chairman Andrew N. Ferguson Issues Warning Letters to CEOs of PayPal, Stripe, Visa and Mastercard About Debanking American Consumers | Federal Trade Commission",
+    "published_date": null
+   },
+   {
+    "url": "https://www.ledgerinsights.com/stripe-enables-crypto-payments-via-crypto-com-partnership",
+    "title": "Stripe enables crypto payments via Crypto.com partnership - Ledger Insights - blockchain for enterprise",
+    "published_date": null
+   },
+   {
+    "url": "https://crypto.com/us/company-news/cryptocom-and-stripe-partner-to-enable-better-crypto-payments",
+    "title": "Crypto.com and Stripe Partner to Enable Better Crypto Payments",
+    "published_date": null
+   },
+   {
+    "url": "https://cryptorank.io/news/feed/e2d48-stripe-adds-crypto-stablecoin-payments",
+    "title": "Stripe unveils a new stablecoin subscriptions feature that allows merchants to set up recurrent billing to customer wallets | microsoft stripe | CryptoRank.io",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/crypto-com-stripe-partnership-brings-174117396.html",
+    "title": "Crypto.com and Stripe Partnership Brings Crypto Payments to U.S. Shoppers",
+    "published_date": null
+   },
+   {
+    "url": "https://cryptorank.io/news/feed/8e7b9-stripe-stablecoin-payments-expand-to-101-countries-heres-why-it-matters",
+    "title": "Stripe Stablecoin Payments Expand to 101 Countries: Here\u2019s Why It Matters",
+    "published_date": null
+   },
+   {
+    "url": "https://www.airwallex.com/en-us/blog/paypal-acquisition",
+    "title": "PayPal Acquisition Status 2026: Stripe and Advent's $53B Bid",
+    "published_date": null
+   },
+   {
+    "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-08-14-2026/card/stripe-advent-in-talks-to-buy-paypal-C01b2uhyjkuUybZUnsDU",
+    "title": "Stripe, Advent in Talks to Buy PayPal",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/stripe-advent-bid-60-50-202741307.html",
+    "title": "Stripe and Advent bid $60.50 a share for PayPal as talks advance, WSJ reports",
+    "published_date": null
+   },
+   {
+    "url": "https://startupfortune.com/stripe-and-advent-are-pushing-to-buy-paypal-for-53-billion",
+    "title": "Stripe and Advent Are Pushing to Buy PayPal for $53 Billion - Startup Fortune",
+    "published_date": null
+   },
+   {
+    "url": "https://www.electronicpaymentsinternational.com/news/paypal-sale-stripe-advent",
+    "title": "PayPal Evaluates Strategic Options Amid Consortium Buyout Talks",
+    "published_date": null
+   },
+   {
+    "url": "https://www.unifygtm.com/insights/executives/stripe-ceo",
+    "title": "Who is the CEO of Stripe in 2026? Patrick Collison | Unify",
+    "published_date": null
+   },
+   {
+    "url": "https://www.geekwire.com/2026/microsoft-taps-stripe-co-founder-john-collison-for-its-board-as-two-longtime-directors-depart",
+    "title": "Microsoft taps Stripe co-founder John Collison for its board as two longtime directors depart \u2013 GeekWire",
+    "published_date": null
+   },
+   {
+    "url": "https://www.stocktitan.net/news/AUR/claire-hughes-johnson-stripe-executive-joins-aurora-s-board-of-tat1z0fhukx1.html",
+    "title": "Claire Hughes Johnson, Stripe Executive, Joins Aurora\u2019s Board of Directors | AUR Stock News",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/ceo-patrick-collisons-email-to-stripe-employees",
+    "title": "CEO Patrick Collison's email to Stripe employees",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/mark-carney-joins-stripe-board-165036665.html",
+    "title": "Mark Carney Joins Stripe Board Ahead of New Funding Round",
+    "published_date": null
+   },
+   {
+    "url": "https://thenextweb.com/news/john-collison-microsoft-board-nadella-pay",
+    "title": "Microsoft nominates Stripe\u2019s Collison to its board and trims Nadella\u2019s pay",
+    "published_date": null
+   },
+   {
+    "url": "https://www.geekwire.com/2026/microsoft-taps-stripe-co-founder-john-collison-for-its-board-as-two-longtime-directors-depart",
+    "title": "Microsoft taps Stripe co-founder John Collison for its board as two longtime directors depart \u2013 GeekWire",
+    "published_date": null
+   },
+   {
+    "url": "https://quartr.com/events/microsoft-corporation-msft-proxy-filing_3s18prvR",
+    "title": "Microsoft (MSFT) Proxy filing Summary | Quartr",
+    "published_date": null
+   },
+   {
+    "url": "https://www.sec.gov/Archives/edgar/data/789019/000119312526427849/d61756ddef14a.htm",
+    "title": "DEF 14A",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/taylorcharlie_microsoft-taps-stripe-co-founder-john-collison-activity-7518942704903438336-Kar4",
+    "title": "Microsoft taps Stripe co-founder John Collison for its board | Charlie Taylor",
+    "published_date": null
+   },
+   {
+    "url": "https://www.businessinsider.com/stripe-sujatha-srinivasan-goldman-sachs-risk-management-payments-fintech-2021-4",
+    "title": "Stripe Hires Goldman MD Sujatha Srinivasan As Enterprise Risk Management Lead - Business Insider",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/former-stripe-head-engineering-joins-140000520.html",
+    "title": "Former Stripe Head of Engineering Joins Doppel Executive Team Amid Rapid Growth",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/pulse/stripe-reflections-2019-2026-george-gilbert-p4n3c",
+    "title": "Stripe reflections 2019-2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/in/daniel-langston",
+    "title": "Daniel Langston - Leadership & Executive Recruiting @ Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/katie-dill-79168b3_personal-update-im-joining-stripe-next-activity-6762412129627844608-lTIr",
+    "title": "Personal update: I\u2019m joining Stripe next month as Head of Design and I couldn't be more excited! I\u2019ll be leading a talented team across brand, product, research, publishing, and more. I've always\u2026 | Katie Dill | 198 comments",
+    "published_date": null
+   },
+   {
+    "url": "https://multiples.vc/private-comps/stripe",
+    "title": "Stripe Revenue, Valuation, Funding & Investors | Multiples",
+    "published_date": null
+   },
+   {
+    "url": "https://www.siliconrepublic.com/start-ups/stripe-investment-payments-start-up-check",
+    "title": "Stripe leads $35m round for New York payments start-up Check",
+    "published_date": null
+   },
+   {
+    "url": "https://www.investing.com/news/technology-news/us-fintech-stripe-valued-at-20-billion-in-latest-funding-round-1625343",
+    "title": "U.S. fintech startup Stripe valued at $20 billion in latest funding round",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/u-fintech-stripe-valued-20-billion-latest-funding-194736659--sector.html",
+    "title": "U.S. fintech startup Stripe valued at $20 bln in latest funding round",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/u-fintech-startup-stripe-valued-20-billion-latest-031215312--sector.html",
+    "title": "U.S. fintech startup Stripe valued at $20 billion in latest funding round",
+    "published_date": null
+   },
+   {
+    "url": "https://www.crowdfundinsider.com/2026/11/322033-stablecoin-purchases-reach-galaxy-devices-via-samsung-and-stripe-partnership",
+    "title": "Stablecoin Purchases Reach Galaxy Devices Via Samsung And Stripe Partnership | Crowdfund Insider",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/nace01k/posts/stripe-supports-usdc-purchases-in-samsung-walletstripe-now-powers-stablecoin-pur/122149380351023568",
+    "title": "NACE",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripe-powers-stablecoin-purchases-in-samsung-wallet",
+    "title": "Stripe powers stablecoin purchases in Samsung Wallet",
+    "published_date": null
+   },
+   {
+    "url": "https://stablecoininsider.org/samsung-announces-native-stablecoin-support-for-samsung-wallet-at-galaxy-unpacked-2026",
+    "title": "Samsung Wallet Adds Stablecoins: USDC Shown at Unpacked 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://en.cryptonomist.ch/2026/07/26/samsung-wallet-stablecoins-native-support",
+    "title": "Samsung Wallet Stablecoins: Native Support Unveiled in 2026 Roadmap",
+    "published_date": null
+   },
+   {
+    "url": "https://newsroom.fedex.com/newsroom/global-english/fedex-dataworks-and-stripe-to-join-forces-to-reduce-friction-in-global-commerce-for-smbs",
+    "title": "FedEx Dataworks and Stripe to Join Forces to Reduce Friction in Global Commerce for SMBs",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/stripe_were-partnering-with-fedex-dataworks-together-activity-7513269756498636800-qruC",
+    "title": "Partnering with FedEx Dataworks for Small Business Financing | Stripe posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://leadiq.com/c/fedex-supply-chain/5a1d958e2300005a008440c1",
+    "title": "FedEx Company Overview, Contact Details & Competitors | LeadIQ",
+    "published_date": null
+   },
+   {
+    "url": "https://leadiq.com/c/fedex/5a1d958e2300005a008440c1",
+    "title": "FedEx Company Overview, Contact Details & Competitors | LeadIQ",
+    "published_date": null
+   },
+   {
+    "url": "https://www.paymentsdive.com/news/stripe-fedex-team-on-smb-lending-business-capital-logistics/832368",
+    "title": "Stripe, FedEx team on SMB lending",
+    "published_date": null
+   },
+   {
+    "url": "https://thepaypers.com/payments/news/hsbc-uk-launches-tap-to-pay-for-small-businesses-with-stripe",
+    "title": "HSBC UK and Stripe launch Tap-to-Pay | The Paypers",
+    "published_date": null
+   },
+   {
+    "url": "https://www.pymnts.com/smbs/2026/hsbc-uses-stripe-small-business-tap-to-pay-offering",
+    "title": "PYMNTS | HSBC Turns to Stripe for Small Business Tap-to-Pay Offering",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/ranjitbr_stripe-and-hsbc-power-tap-to-pay-for-uk-small-activity-7525850084442324992-6m7G",
+    "title": "Stripe and HSBC power Tap to Pay for UK small businesses | Ranjit Balijepalli",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripehsbc-power-tap-to-pay-for-uk-small-businesses",
+    "title": "Stripe and HSBC power Tap to Pay for UK small businesses",
+    "published_date": null
+   },
+   {
+    "url": "https://www.pymnts.com/smbs/2026/stripe-lloyds-debut-payments-suite-united-kingdom-small-businesses",
+    "title": "PYMNTS | Stripe and Lloyds Debut Payments Suite for UK Small Businesses",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/rivatech-consulting_embeddedfinance-treasury-payments-activity-7519514646488322048-PT90",
+    "title": "Stripe Treasury for AI agents announced | RivaTech Consulting posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://www.thisweekinfintech.com/p/exclusive-a-look-at-stripe-s-next-push-beyond-payments-treasury-for-agents",
+    "title": "Exclusive: A Look at Stripe\u2019s Next Push Beyond Payments: Treasury for Agents",
+    "published_date": null
+   },
+   {
+    "url": "https://www.instagram.com/p/DfE419dDE_A",
+    "title": "Instagram",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/treasury/agents",
+    "title": "Treasury for agents | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://forklog.com/en/stripe-unveils-payments-for-ai-agents-using-usdc-and-x402-protocol",
+    "title": "Stripe Unveils Payments for AI Agents Using USDC and x402 Protocol | ForkLog",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/buhlerlaura_stripe-and-anthropic-help-entrepreneurs-run-activity-7519051506004889600-rnhl",
+    "title": "Claude Duet Integrates with Stripe MCP for Purchases and Refunds | Laura Buhler posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://x.com/stripe/status/2112995753824301406",
+    "title": "Stripe on X: \"We\u2019re working with Anthropic to help you run your businesses inside Claude Duet. \u2022 Make purchases with @link \u2022 Issue refunds and understand business trends with the Stripe MCP\" / X",
+    "published_date": null
+   },
+   {
+    "url": "https://x.com/manishm/status/2114373138595373137",
+    "title": "Manish M. on X: \"Stripe and Anthropic help entrepreneurs run their business inside Claude Duet https://t.co/fYu2VMvMso\" / X",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/anthropic-let-claude-run-store-053105607.html",
+    "title": "Anthropic let Claude run a store in its office. It sold metal cubes, invented a Venmo account, and tried to deliver products in a blazer.",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cnbc.com/video/2024/04/25/anthropic-co-founder-daniela-amodei-on-ai-adoption-claude-3-and-impact-on-payments.html",
+    "title": "Anthropic Co-Founder Daniela Amodei on AI adoption, Claude 3 and impact on payments",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=naht1gH-NVg",
+    "title": "Stripe bought his startup for $1.1B\u2014just 2.5 years after he quit his job. | Zach Abrams, Co-Found...",
+    "published_date": null
+   },
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
+    "title": "List of 22 Acquisitions by Stripe (Nov 2026) - Tracxn",
+    "published_date": null
+   },
+   {
+    "url": "https://www.thisweekinfintech.com/p/stripe-expands-its-startup-toolkit-with-clerky-acquisition",
+    "title": "Stripe Expands its Startup Toolkit with Clerky Acquisition",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin",
+    "title": "Stripe agrees to acquire Parafin to expand revenue opportunities for platforms and help small businesses grow",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "title": "Stripe News | November, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition",
+    "title": "Stripe to enhance business credit offering with Parafin acquisition",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-june-2026",
+    "title": "Stripe News | June, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/MercedesAMGF1/posts/were-delighted-to-welcome-stripe-as-the-official-global-payments-partner-of-the-/1567750812063116",
+    "title": "Mercedes-AMG Petronas F1 Team",
+    "published_date": null
+   },
+   {
+    "url": "https://www.mercedesamgf1.com/partners/stripe",
+    "title": "Stripe - Our Partners - Mercedes-AMG PETRONAS F1 Team",
+    "published_date": null
+   },
+   {
+    "url": "https://www.mercedesamgf1.com/partners",
+    "title": "Our Partners - Mercedes-AMG PETRONAS F1 Team",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/nu-mercedes-amg-petronas-f1-130500849.html?fr=sycsrp_catchall",
+    "title": "Nu and Mercedes-AMG PETRONAS F1 Team Announce Multi-Year Global Partnership",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/nu-mercedes-amg-petronas-f1-130500849.html",
+    "title": "Nu and Mercedes-AMG PETRONAS F1 Team Announce Multi-Year Global Partnership",
+    "published_date": null
+   },
+   {
+    "url": "https://www.axios.com/2017/12/15/scoop-stripe-hires-new-engineering-chief-from-google-1513307306",
+    "title": "Scoop: Stripe hires new engineering chief from Google",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/miclewis_stripe-hires-mike-clayville-as-chief-revenue-activity-6697467231212736512-y521",
+    "title": "Stripe hires Mike Clayville as Chief Revenue Officer | Michael Lewis",
+    "published_date": null
+   },
+   {
+    "url": "https://www.businessinsider.com/stripe-sujatha-srinivasan-goldman-sachs-risk-management-payments-fintech-2021-4",
+    "title": "Stripe Hires Goldman MD Sujatha Srinivasan As Enterprise Risk Management Lead - Business Insider",
+    "published_date": null
+   },
+   {
+    "url": "https://news.bloomberglaw.com/business-and-practice/stripe-hires-cleary-gottlieb-partner-as-global-policy-chief",
+    "title": "Stripe Hires Cleary Gottlieb Partner as Global Policy Chief (1)",
+    "published_date": null
+   },
+   {
+    "url": "https://rocketreach.co/stripe-sales-department_b5e68c99f42e5898",
+    "title": "Stripe Sales Department | Stripe Revenue Department",
+    "published_date": null
+   },
+   {
+    "url": "https://www.unifygtm.com/insights/executives/stripe-ceo",
+    "title": "Who is the CEO of Stripe in 2026? Patrick Collison | Unify",
+    "published_date": null
+   },
+   {
+    "url": "https://www.geekwire.com/2022/tech-moves-convoy-adds-cfo-stripe-hires-a-microsoft-president-providence-names-chief-digital-officer",
+    "title": "Tech Moves: Convoy adds CFO; Stripe hires a Microsoft president; Providence names chief digital officer; and more \u2013 GeekWire",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/vercel-names-steffan-tomlinson-cfo-160000516.html?fr=sycsrp_catchall",
+    "title": "Vercel Names Steffan Tomlinson, CFO of Stripe, to Board of Directors",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/marqeta-names-stripe-jpmorgan-alum-144130104.html",
+    "title": "Marqeta names Stripe, JPMorgan alum as CFO",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/m/97706bb9-b308-31b9-859b-9f3719e0e113/marqeta-names-stripe%2C.html",
+    "title": "Marqeta names Stripe, JPMorgan alum as CFO",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://apify.com/coregent/company-news-announcement-finder",
+    "title": "Company News & Announcement Finder | Press Release & Growth \u00b7 Apify",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/edwarddurmorris_everything-we-announced-at-sessions-2026-activity-7455314031520944128--Jla",
+    "title": "Stripe Processes $1.9T in Payments, Launches New Features | Ed Morris posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8F4XyWYqZi8",
+    "title": "Stripe Sessions 2026 keynote in 12 minutes",
+    "published_date": null
+   },
+   {
+    "url": "https://www.unifygtm.com/insights/executives/stripe-ceo",
+    "title": "Who is the CEO of Stripe in 2026? Patrick Collison | Unify",
+    "published_date": null
+   },
+   {
+    "url": "https://www.paymentsdive.com/news/stripe-taps-new-stablecoin-executive/829509",
+    "title": "Stripe taps new stablecoin executive",
+    "published_date": null
+   },
+   {
+    "url": "https://derrick-app.com/company/stripe/executives",
+    "title": "Stripe executive team & leadership",
+    "published_date": null
+   },
+   {
+    "url": "https://leadiq.com/c/stripe-communications/5a1d9f3123000059008fab6e/employee-directory?page=4",
+    "title": "Stripe Communications Employee Directory, Headcount & Staff \u2013 Page 4 | LeadIQ",
+    "published_date": null
+   },
+   {
+    "url": "https://www.stocktitan.net/news/AUR/claire-hughes-johnson-stripe-executive-joins-aurora-s-board-of-tat1z0fhukx1.html",
+    "title": "Claire Hughes Johnson, Stripe Executive, Joins Aurora\u2019s Board of Directors | AUR Stock News",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "title": "Stripe News | November, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition",
+    "title": "Stripe to enhance business credit offering with Parafin acquisition",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-june-2026",
+    "title": "Stripe News | June, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/techcrunch/videos/techcrunch-and-stripe-are-looking-for-australias-best-startups-apply-now/2322268765245453",
+    "title": "5.1K views \u00b7 15 reactions | TechCrunch is joining forces with Stripe to spotlight Australia's most ambitious early-stage startups.\n\nTogether, we're looking for founders to pitch live at Stripe Tour Sydney on August 19, 2026. The grand winner receives Stripe credits and automatic entry into TechCrunch Disrupt 2026 in San Francisco.\n\nApplications close July 6, so apply here now: http://spr.ly/6186BDNvcj | TechCrunch",
+    "published_date": null
+   },
+   {
+    "url": "https://techcrunch.com/events/stripe-x-startup-battlefield",
+    "title": "Stripe x Startup Battlefield | TechCrunch",
+    "published_date": null
+   },
+   {
+    "url": "https://x.com/TechCrunch/status/2072825144679022901",
+    "title": "TechCrunch on X: \"TechCrunch is joining forces with @Stripe to spotlight Australia's most ambitious early-stage startups. Together, we're looking for founders to pitch live at Stripe Tour Sydney on August 19, 2026. The grand winner receives Stripe credits and automatic entry into TechCrunch Disrup\u2026 / X",
+    "published_date": null
+   },
+   {
+    "url": "https://techcrunch.com/2026/02/24/stripes-valuation-soars-74-to-159-billion",
+    "title": "Stripe's valuation soars 74% to $159 billion | TechCrunch",
+    "published_date": null
+   },
+   {
+    "url": "https://techcrunch.com/2026/02/24/stripe-is-reportedly-eyeing-deal-to-buy-some-or-all-of-paypal",
+    "title": "Stripe is reportedly eyeing deal to buy some or all of PayPal | TechCrunch",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Stripe,_Inc.",
+    "title": "Stripe, Inc. - Wikipedia",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog",
+    "title": "Stripe Blog: Online Payment Solutions Blog",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com",
+    "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://www.kore1.com/stripe-layoffs-2026",
+    "title": "Stripe Layoffs 2026: Engineering Talent Pool Update - KORE1",
+    "published_date": null
+   },
+   {
+    "url": "https://www.geekwire.com/2026/microsoft-taps-stripe-co-founder-john-collison-for-its-board-as-two-longtime-directors-depart",
+    "title": "Microsoft taps Stripe co-founder John Collison for its board as two longtime directors depart \u2013 GeekWire",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/ceo-patrick-collisons-email-to-stripe-employees",
+    "title": "CEO Patrick Collison's email to Stripe employees",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Ejw2eHpliPA",
+    "title": "Stripe CEO on the Future of How We Spend",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://thefinancialcurrent.com/deep-dives/stripe-company-profile",
+    "title": "Stripe expands the business around payments",
+    "published_date": null
+   },
+   {
+    "url": "https://www.unite.ai/sierra-partners-with-stripe-to-bring-payments-into-ai-agent-calls",
+    "title": "Sierra Partners with Stripe to Bring Payments Into AI Agent Calls \u2013 Unite.AI",
+    "published_date": null
+   },
+   {
+    "url": "https://eco.com/support/en/articles/15083174-stripe-stablecoin-payments-2026",
+    "title": "Stripe Stablecoin Payments 2026 | Support",
+    "published_date": null
+   },
+   {
+    "url": "https://www.theblock.co/linked/137299/stripe-payments-crypto-businesses-ftx",
+    "title": "Stripe launches payments support for crypto businesses, partners with FTX",
+    "published_date": null
+   },
+   {
+    "url": "https://www.paymentsdive.com/news/stripe-to-enable-crypto-payments/809214",
+    "title": "Stripe to enable crypto payments | Payments Dive",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/changelog",
+    "title": "Changelog | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/payments/managed-payments/changelog",
+    "title": "Managed Payments changelog | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://support.stripe.com/questions/stripe-user-terms-update-november-18-2025",
+    "title": "Stripe User Terms Update - November 18, 2025 : Stripe: Help & Support",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/changelog/dahlia",
+    "title": "Dahlia | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=lIsHZfRl2zw",
+    "title": "Stripe Sessions 2026 | Keynote",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/sessions-2026",
+    "title": "Stripe builds out the economic infrastructure for AI with 288 launches",
+    "published_date": null
+   },
+   {
+    "url": "https://cryptorank.io/news/feed/9741d-stripe-and-paradigm-announces-new-l1-chain-focused-on-stablecoins-dubbed-tempo",
+    "title": "Stripe and Paradigm Announces New L1 Chain Focused on Stablecoins Dubbed Tempo",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/freshbooks-launch-freshbooks-payments-leveraging-120000237.html",
+    "title": "FreshBooks Launch FreshBooks Payments, Leveraging Stripe Connect\u2019s New and Innovative Technology",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://www.investing.com/news/economy/fintech-stripe-valued-at-50-billion-in-latest-funding-round-3031660",
+    "title": "Stripe nearly halves valuation to $50 billion following $6.5 billion raise By Reuters",
+    "published_date": null
+   },
+   {
+    "url": "https://startupfortune.com/stripe-and-advent-are-pushing-to-buy-paypal-for-53-billion",
+    "title": "Stripe and Advent Are Pushing to Buy PayPal for $53 Billion - Startup Fortune",
+    "published_date": null
+   },
+   {
+    "url": "https://www.engadget.com/2237637/stripe-reportedly-to-buy-paypal",
+    "title": "Stripe Is Reportedly In Talks To Buy PayPal",
+    "published_date": null
+   },
+   {
+    "url": "https://www.trustradius.com/compare-products/stripe-payments-vs-thomson-reuters-onesource",
+    "title": "Stripe Payments vs Thomson Reuters ONESOURCE | TrustRadius",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
+    "title": "List of 22 Acquisitions by Stripe (Nov 2026) - Tracxn",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/stripe-weighs-acquisition-paypal-bloomberg-164700536.html",
+    "title": "Stripe weighs acquisition of PayPal, Bloomberg reports",
+    "published_date": null
+   },
+   {
+    "url": "https://www.siliconrepublic.com/business/bloomberg-stripe-considers-paypal-acquisition",
+    "title": "Bloomberg: Stripe considers PayPal acquisition",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripe-completes-metronome-acquisition",
+    "title": "Stripe completes Metronome acquisition",
+    "published_date": null
+   },
+   {
+    "url": "https://smartasset.com/investing/stripe-ipo",
+    "title": "Stripe IPO: Valuation, Timeline and Investment Options",
+    "published_date": null
+   },
+   {
+    "url": "https://valueaddvc.com/company/stripe",
+    "title": "Stripe valuation: ~$159B (reported, Feb 2026) \u2014 funding & investors",
+    "published_date": null
+   },
+   {
+    "url": "https://news.crunchbase.com/fintech/unicorn-stripe-secondary-sale-valuation",
+    "title": "Fintech Giant Stripe\u2019s Valuation Soars to $159B In Latest Secondary Stock Sale",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cnbc.com/amp/2026/02/24/stripe-value-stock-sale-tender-offer.html",
+    "title": "Stripe valued at $159 billion after tender offer",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cnbc.com/2026/02/24/stripe-value-stock-sale-tender-offer.html",
+    "title": "Stripe valued at $159 billion after tender offer",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-october-2026",
+    "title": "Stripe News | October, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.instagram.com/p/DfE419dDE_A",
+    "title": "Instagram",
+    "published_date": null
+   },
+   {
+    "url": "https://financer.com/invest/stripe-ipo",
+    "title": "Stripe IPO: How to Buy Stripe Stock in 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom",
+    "title": "Stripe Newsroom: The Latest News & Announcements",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog",
+    "title": "Stripe Blog: Online Payment Solutions Blog",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.pravinkumar.co/blog/stripe-sessions-2026-agentic-commerce-webflow-b2b-saas-6e885",
+    "title": "What Does Stripe's 288-Launch Sessions 2026 Reveal About B2B SaaS Webflow Sites in the Agentic Era? | Pravin Kumar",
+    "published_date": null
+   },
+   {
+    "url": "https://apify.com/coregent/company-news-announcement-finder",
+    "title": "Company News & Announcement Finder | Press Release & Growth \u00b7 Apify",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/new-ways-for-fintechs-to-move-money-and-expand-globally",
+    "title": "New ways for fintechs to move money and expand globally",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/changelog",
+    "title": "Changelog | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/changelog/endive",
+    "title": "Endive | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://github.com/stripe/stripe-dotnet/blob/master/CHANGELOG.md",
+    "title": "stripe-dotnet/CHANGELOG.md at master \u00b7 stripe/stripe-dotnet \u00b7 GitHub",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.stripe.com/payments/managed-payments/changelog",
+    "title": "Managed Payments changelog | Stripe Documentation",
+    "published_date": null
+   },
+   {
+    "url": "https://posthog.com/changelog",
+    "title": "Changelog",
+    "published_date": null
+   },
+   {
+    "url": "https://tsgpayments.com/tsg-announces-strategic-partnership-with-stripe-to-accelerate-payments",
+    "title": "TSG Announces Strategic Partnership with Stripe to Accelerate Payments-Driven Growth",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/crypto/articles/hitachi-digital-services-announces-strategic-080000954.html",
+    "title": "Hitachi Digital Services Announces Strategic Partnership with Stripe to Transform Payment Infrastructure, Debuts Joint Industry Event",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/sessions-2026",
+    "title": "Stripe builds out the economic infrastructure for AI with 288 launches",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/klarna-bolsters-global-partnership-stripe-122241581.html",
+    "title": "Klarna bolsters global partnership with Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/salesforce-announces-support-agentic-commerce-120100299.html",
+    "title": "Salesforce Announces Support for Agentic Commerce Protocol in Collaboration with Stripe",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T14:34:01.56425Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3759,
+   "tokens": 1329,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:05.32107Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 2672,
+   "tokens": 2480,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:07.989792Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 6445,
+   "tokens": 4019,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:14.445451Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1461,
+   "tokens": 1670,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:14.451939Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1563,
+   "tokens": 1814,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:14.452208Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1608,
+   "tokens": 1754,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:14.452683Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1412,
+   "tokens": 1795,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:16.519292Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3511,
+   "query": "Stripe announces partnership November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.519301Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 4064,
+   "query": "Stripe changelog October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.519362Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3804,
+   "query": "stripe.com/blog new product October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.519367Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3550,
+   "query": "Stripe newsroom announcement October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.519369Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2988,
+   "query": "Stripe funding tender offer valuation 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.520676Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2978,
+   "query": "Stripe acquisition 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.525522Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1898,
+   "query": "Stripe Reuters 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.528989Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3530,
+   "query": "Stripe announces new product launch November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.536507Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3775,
+   "query": "Stripe changelog November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.558835Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2963,
+   "query": "Stripe payments company announcement October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.572009Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2951,
+   "query": "Stripe departure executive leaves 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.582368Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3715,
+   "query": "stripe.com/newsroom",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.582509Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2937,
+   "query": "Stripe TechCrunch 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.585342Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3205,
+   "query": "Stripe news November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.613845Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3416,
+   "query": "Stripe executive appointment October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.619007Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3693,
+   "query": "stripe.com newsroom announcement 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.658593Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3126,
+   "query": "Stripe names president OR CFO OR CTO OR chief 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:16.668597Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2300,
+   "query": "Stripe hires new chief November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:34:20.072761Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 2994,
+   "tokens": 8283,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.072976Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4163,
+   "tokens": 7060,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.073056Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 6042,
+   "tokens": 7347,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.073508Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3931,
+   "tokens": 7308,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.119423Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3420,
+   "tokens": 2714,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.120757Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5270,
+   "tokens": 6085,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.12242Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4833,
+   "tokens": 6806,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.122443Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4620,
+   "tokens": 10047,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.128127Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 8704,
+   "tokens": 10475,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.12826Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7557,
+   "tokens": 4168,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.128796Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7495,
+   "tokens": 6870,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.132626Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9273,
+   "tokens": 5060,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.132771Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11268,
+   "tokens": 7677,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.133881Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9810,
+   "tokens": 4301,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.143986Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9534,
+   "tokens": 5996,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.148209Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10066,
+   "tokens": 17392,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.177461Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 12006,
+   "tokens": 18968,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.180776Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11092,
+   "tokens": 11768,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.181965Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 15052,
+   "tokens": 27716,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.182174Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 13645,
+   "tokens": 10176,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.182398Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16625,
+   "tokens": 7988,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.182972Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 15227,
+   "tokens": 21433,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.183632Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 12870,
+   "tokens": 3000,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.183937Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16977,
+   "tokens": 15836,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.185138Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 15450,
+   "tokens": 9465,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.185483Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17003,
+   "tokens": 6785,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.185556Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17181,
+   "tokens": 7408,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.186616Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 19087,
+   "tokens": 20704,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.186689Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 21787,
+   "tokens": 8538,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.187644Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17798,
+   "tokens": 3313,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.187916Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 20170,
+   "tokens": 9999,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.188005Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 21942,
+   "tokens": 13826,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.188386Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 23170,
+   "tokens": 20886,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.188509Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22411,
+   "tokens": 13505,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.190561Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 20500,
+   "tokens": 9959,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.366019Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 21133,
+   "tokens": 7665,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.366367Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22684,
+   "tokens": 2811,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.366556Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 26709,
+   "tokens": 4668,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.366574Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22160,
+   "tokens": 3614,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.366773Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 24867,
+   "tokens": 2799,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.366795Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 25730,
+   "tokens": 2901,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.367177Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 25677,
+   "tokens": 21205,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.367832Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 27075,
+   "tokens": 10711,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.373142Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 28360,
+   "tokens": 14590,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.374562Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 28144,
+   "tokens": 8999,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.374636Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 26728,
+   "tokens": 8406,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.374899Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 33958,
+   "tokens": 12996,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.374922Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 30859,
+   "tokens": 14986,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.375051Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29498,
+   "tokens": 18887,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.375142Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29743,
+   "tokens": 14958,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.375311Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 30883,
+   "tokens": 4116,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.37542Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 33885,
+   "tokens": 10764,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.375932Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 33133,
+   "tokens": 11736,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.376063Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 34401,
+   "tokens": 20787,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.376167Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 39998,
+   "tokens": 16956,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.37676Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 35796,
+   "tokens": 25925,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.376798Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 37932,
+   "tokens": 28032,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.376842Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 35729,
+   "tokens": 20753,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.376916Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 37666,
+   "tokens": 26680,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.377125Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 39826,
+   "tokens": 16420,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.377253Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 37183,
+   "tokens": 6805,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.377552Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 40136,
+   "tokens": 25478,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.377567Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 41570,
+   "tokens": 11461,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.377658Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 41937,
+   "tokens": 27905,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.377724Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 45184,
+   "tokens": 7311,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.377738Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 45203,
+   "tokens": 8079,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.377773Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 40707,
+   "tokens": 4405,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.377821Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 44150,
+   "tokens": 11053,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.625272Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 44663,
+   "tokens": 14457,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.625682Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 43395,
+   "tokens": 10625,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.626133Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 45623,
+   "tokens": 25851,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.626364Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 46622,
+   "tokens": 8135,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.626581Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 48995,
+   "tokens": 22785,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.626587Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 49451,
+   "tokens": 27913,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.627284Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 48326,
+   "tokens": 16217,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.627421Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 48955,
+   "tokens": 4194,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.628658Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 48970,
+   "tokens": 20917,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.62885Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 47215,
+   "tokens": 2455,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.62945Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 50989,
+   "tokens": 6121,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.629592Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 52039,
+   "tokens": 7301,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.629681Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 53878,
+   "tokens": 20652,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.629687Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 54697,
+   "tokens": 19627,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.629721Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 53732,
+   "tokens": 13660,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.629856Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 56940,
+   "tokens": 23871,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.629892Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 56702,
+   "tokens": 22192,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:20.632096Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 55071,
+   "tokens": 19648,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:34:43.322222Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 30772,
+   "tokens": 21297,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:00.552224Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17427,
+   "tokens": 27483,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:05.619698Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 12271,
+   "tokens": 26676,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:14.127824Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1859,
+   "tokens": 21648,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:16.617471Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1317,
+   "query": "Stripe Mercedes-AMG PETRONAS F1 partnership",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:16.624337Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 301,
+   "query": "Stripe news November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:16.625388Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2035,
+   "query": "Stripe acquires startup October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:16.629665Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 3584,
+   "query": "Stripe Anthropic Claude entrepreneurs run business",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:16.630372Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1145,
+   "query": "Stripe Treasury for agents announcement",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:16.631759Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1859,
+   "query": "Stripe HSBC Tap to Pay UK small businesses",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:16.632577Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2492,
+   "query": "FedEx Dataworks Stripe partnership SMB global commerce",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:16.63291Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1735,
+   "query": "Stripe Samsung Wallet stablecoin purchases",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:16.633178Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1633,
+   "query": "Stripe invests startup funding round October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:17.577933Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4166,
+   "tokens": 24547,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.445417Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1321,
+   "query": "Stripe hires former executive head of 2026 LinkedIn post joins Stripe",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:18.465936Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1403,
+   "query": "John Collison Microsoft board nominee proxy statement",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:18.466336Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1570,
+   "query": "Stripe executive leaves joins November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:18.563104Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1309,
+   "query": "Stripe Advent PayPal talks higher bid November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:18.589525Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1535,
+   "query": "Stripe Crypto.com partnership stablecoin subscriptions 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:18.772959Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1351,
+   "query": "Stripe lawsuit OR regulator OR FTC November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:18.854135Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5205,
+   "tokens": 15706,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.857023Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4551,
+   "tokens": 6306,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.861337Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3611,
+   "tokens": 18772,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.861345Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5050,
+   "tokens": 25104,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.86151Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5460,
+   "tokens": 20692,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.861753Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7020,
+   "tokens": 28009,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.86192Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4440,
+   "tokens": 14200,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.862639Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 8085,
+   "tokens": 22455,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.866017Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 6972,
+   "tokens": 9938,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.86652Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7537,
+   "tokens": 6269,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.867008Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10568,
+   "tokens": 17843,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.867497Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9710,
+   "tokens": 4402,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.867631Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 8934,
+   "tokens": 9954,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.867655Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9635,
+   "tokens": 4888,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:18.86797Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10734,
+   "tokens": 19382,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.228981Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9838,
+   "tokens": 4155,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.238771Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10635,
+   "tokens": 3628,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.239924Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11040,
+   "tokens": 6725,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.240438Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11154,
+   "tokens": 5289,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.240529Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11673,
+   "tokens": 2760,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.240794Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11728,
+   "tokens": 6822,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.240864Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11314,
+   "tokens": 5462,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.241257Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 13743,
+   "tokens": 6848,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.241439Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 14668,
+   "tokens": 10170,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.24147Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 15866,
+   "tokens": 12798,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.241833Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 14643,
+   "tokens": 11261,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.242104Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16995,
+   "tokens": 20065,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.242259Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17481,
+   "tokens": 21517,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.244136Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 14705,
+   "tokens": 9359,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.452895Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 13928,
+   "tokens": 2081,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.453932Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17667,
+   "tokens": 6521,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.453965Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17938,
+   "tokens": 7691,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.454011Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 18352,
+   "tokens": 6153,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.454083Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17885,
+   "tokens": 9921,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.455371Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22632,
+   "tokens": 11923,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.458361Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 19376,
+   "tokens": 10004,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.458938Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 20507,
+   "tokens": 4071,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.460651Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 21144,
+   "tokens": 8790,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.461164Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 20254,
+   "tokens": 2977,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.461716Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 20171,
+   "tokens": 4295,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.461939Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22361,
+   "tokens": 6895,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.462171Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 21624,
+   "tokens": 9768,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.46233Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22204,
+   "tokens": 10162,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.464368Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 27546,
+   "tokens": 16207,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.476418Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22592,
+   "tokens": 2790,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.476816Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 23774,
+   "tokens": 4005,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.477149Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 25072,
+   "tokens": 11875,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.477172Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 24929,
+   "tokens": 5404,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.477257Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 25483,
+   "tokens": 6226,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.477523Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 25435,
+   "tokens": 5018,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.477525Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 28553,
+   "tokens": 4753,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.477549Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 27144,
+   "tokens": 6147,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.477579Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 25170,
+   "tokens": 2358,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.477808Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29063,
+   "tokens": 12287,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.477874Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 26446,
+   "tokens": 1984,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.478251Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 28750,
+   "tokens": 13477,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.478879Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29464,
+   "tokens": 10981,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.479668Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29409,
+   "tokens": 6303,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.480018Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 31097,
+   "tokens": 6965,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.480021Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 32446,
+   "tokens": 20147,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.481943Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 33558,
+   "tokens": 20345,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.483554Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 33166,
+   "tokens": 12746,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.484812Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 32570,
+   "tokens": 12516,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.485774Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 34750,
+   "tokens": 23796,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.485889Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 33892,
+   "tokens": 19710,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.486822Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 34283,
+   "tokens": 21690,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.48764Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 35552,
+   "tokens": 13867,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.488387Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 37288,
+   "tokens": 10401,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.488659Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 39775,
+   "tokens": 10414,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.488665Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 36305,
+   "tokens": 17033,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.489401Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 41796,
+   "tokens": 5597,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.489489Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 37747,
+   "tokens": 9433,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.489515Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 37669,
+   "tokens": 4535,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:20.490649Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 39247,
+   "tokens": 6086,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:22.350456Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1401,
+   "query": "Stripe and Anthropic bring business tools into Claude",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:22.350712Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1454,
+   "query": "Stripe Data Pipeline real-time sync Postgres 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:22.393678Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 292,
+   "query": "Stripe HSBC Tap to Pay UK small businesses",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:22.400018Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2061,
+   "query": "Stripe newsroom Introducing Stripe Treasury for agents October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:22.400702Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 294,
+   "query": "Stripe Samsung Wallet stablecoin purchases",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:35:24.506225Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 34867,
+   "tokens": 3950,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.506524Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 36254,
+   "tokens": 4447,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.511689Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 37000,
+   "tokens": 19445,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.526241Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 37736,
+   "tokens": 5238,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.526587Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 36712,
+   "tokens": 3668,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.526591Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 40157,
+   "tokens": 4790,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.526971Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 39250,
+   "tokens": 10261,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.536161Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 40094,
+   "tokens": 5316,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.536804Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 40147,
+   "tokens": 9484,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.5368Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 41346,
+   "tokens": 7053,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.537461Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 42324,
+   "tokens": 10412,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.538396Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 43529,
+   "tokens": 7514,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.539026Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 41018,
+   "tokens": 13676,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.539417Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 41296,
+   "tokens": 4387,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.540358Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 43927,
+   "tokens": 6240,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.54257Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 44430,
+   "tokens": 12373,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.542908Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 45264,
+   "tokens": 9219,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.543254Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 45737,
+   "tokens": 9993,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.543296Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 44648,
+   "tokens": 6131,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.545259Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 48522,
+   "tokens": 19383,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.545464Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 45934,
+   "tokens": 19555,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.545896Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 47206,
+   "tokens": 9491,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.546077Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 49041,
+   "tokens": 27737,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.546364Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 49050,
+   "tokens": 19959,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:24.547003Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 49683,
+   "tokens": 25854,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:37.745397Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 37059,
+   "tokens": 39951,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:35:48.029742Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 27304,
+   "tokens": 41920,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:02.304679Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 12345,
+   "tokens": 62533,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:14.287585Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5012,
+   "tokens": 48548,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:15.219896Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1901,
+   "query": "Rocker seed round Stripe Series investment October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:15.234529Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1643,
+   "query": "Stripe Capital partnership November 2026 announcement",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:15.263983Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2192,
+   "query": "Stripe Microsoft Copilot shopping checkout announcement",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:15.363614Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1987,
+   "query": "Stripe names new head chief officer Oct 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:15.378964Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2185,
+   "query": "Stripe executive Bloomberg Reuters October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:15.855978Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1344,
+   "query": "Stripe Reuters October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:15.923406Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1552,
+   "query": "Stripe Bloomberg CNBC news week November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:15.944222Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1383,
+   "query": "PayPal Stripe Advent deal agreed OR rejected October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:17.539807Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3761,
+   "tokens": 16685,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.540315Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3962,
+   "tokens": 4186,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.541682Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3926,
+   "tokens": 24589,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.54176Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5397,
+   "tokens": 22408,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.542048Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4638,
+   "tokens": 24809,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.542119Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5353,
+   "tokens": 21125,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.54586Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4286,
+   "tokens": 20864,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.61628Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5646,
+   "tokens": 25560,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.616991Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 6279,
+   "tokens": 3578,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.620249Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7721,
+   "tokens": 6180,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.620373Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7342,
+   "tokens": 10006,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.620823Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7878,
+   "tokens": 10936,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.62216Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 8720,
+   "tokens": 3758,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.622491Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9864,
+   "tokens": 8893,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.622762Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9265,
+   "tokens": 13485,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.644265Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9949,
+   "tokens": 15704,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.64812Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9594,
+   "tokens": 9342,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.648822Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11765,
+   "tokens": 2921,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.650345Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10216,
+   "tokens": 2145,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.652862Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10678,
+   "tokens": 2971,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.653528Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 14782,
+   "tokens": 15451,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.654286Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 13345,
+   "tokens": 7635,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.655165Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 13575,
+   "tokens": 3233,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.656048Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 12889,
+   "tokens": 23036,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.656173Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 14148,
+   "tokens": 9653,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.656201Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 15013,
+   "tokens": 22323,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.656402Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 14493,
+   "tokens": 4411,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.656833Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16103,
+   "tokens": 16686,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.657707Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16893,
+   "tokens": 25904,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.677181Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16600,
+   "tokens": 9690,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.68308Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16710,
+   "tokens": 4408,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.686139Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17435,
+   "tokens": 9904,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.686927Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17396,
+   "tokens": 6730,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.690604Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 18775,
+   "tokens": 3772,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.691049Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 18945,
+   "tokens": 3756,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.692116Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 19030,
+   "tokens": 5021,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.693506Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 24674,
+   "tokens": 7990,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.693951Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 20557,
+   "tokens": 2512,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:17.697623Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 21397,
+   "tokens": 7969,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:19.8269Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1490,
+   "query": "Stripe changelog Managed Payments October 2026 update",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:19.887028Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1355,
+   "query": "Anthropic Claude Duet Stripe Link virtual card small business",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:19.88737Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1508,
+   "query": "Stripe Console launch OR Stripe Projects OR Link agents October November 2026 announcement",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:21.426794Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 20775,
+   "tokens": 7064,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.427101Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 18592,
+   "tokens": 8006,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.436601Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 20390,
+   "tokens": 27877,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.436938Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 18803,
+   "tokens": 4609,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.43698Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 18674,
+   "tokens": 5434,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.43704Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22048,
+   "tokens": 7391,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.437169Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 26881,
+   "tokens": 5609,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.437341Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 23687,
+   "tokens": 7243,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.437675Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 24227,
+   "tokens": 26551,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.439789Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 23463,
+   "tokens": 12165,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.440108Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 23215,
+   "tokens": 4904,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.4402Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 25804,
+   "tokens": 8105,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.44077Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29651,
+   "tokens": 14655,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.441785Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 26527,
+   "tokens": 21761,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:21.441991Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29802,
+   "tokens": 22623,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:27.543376Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 31905,
+   "tokens": 79992,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:34.553668Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 13788,
+   "tokens": 53361,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:42.379251Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16334,
+   "tokens": 50130,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:48.944851Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1263,
+   "query": "Stripe on Stripe $1B vendor payments Global Payouts",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:48.946194Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 288,
+   "query": "Stripe Samsung Wallet stablecoin purchases",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:48.946494Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2324,
+   "query": "Stripe Anthropic Claude Duet entrepreneurs",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:48.963405Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 288,
+   "query": "Stripe HSBC Tap to Pay UK small businesses",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:36:51.270387Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22361,
+   "tokens": 70127,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.313181Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3740,
+   "tokens": 6293,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.313774Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4188,
+   "tokens": 4670,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.313794Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3833,
+   "tokens": 6161,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.313844Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4791,
+   "tokens": 6966,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.314631Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5282,
+   "tokens": 20168,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.321372Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7750,
+   "tokens": 5166,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.321701Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7013,
+   "tokens": 3951,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.322763Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 6954,
+   "tokens": 2003,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.322936Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7669,
+   "tokens": 5049,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.322998Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 8393,
+   "tokens": 6773,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.323114Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16939,
+   "tokens": 11426,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.323276Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11431,
+   "tokens": 19710,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.323427Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11569,
+   "tokens": 19908,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.323618Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11187,
+   "tokens": 7591,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.323839Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 12180,
+   "tokens": 10341,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.324022Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10770,
+   "tokens": 13688,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.324229Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10949,
+   "tokens": 6657,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.324524Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16338,
+   "tokens": 26091,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.324586Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16077,
+   "tokens": 10451,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:51.324787Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 18433,
+   "tokens": 23373,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:58.727667Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 33396,
+   "tokens": 56700,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:36:59.461718Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 33979,
+   "tokens": 86066,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:37:10.075706Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17734,
+   "tokens": 73698,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:37:13.639187Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 30344,
+   "tokens": 75159,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:37:27.746824Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 26196,
+   "tokens": 79495,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:37:53.96489Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7395,
+   "tokens": 23025,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:01.400206Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1634,
+   "tokens": 1857,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:01.400983Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1711,
+   "tokens": 2020,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:03.645125Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1481,
+   "query": "Stripe valuation funding 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:03.645125Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2000,
+   "query": "Stripe payments company news October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:03.645127Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2312,
+   "query": "Stripe stablecoin regulation 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:03.645132Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 314,
+   "query": "Stripe news November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:03.768639Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1304,
+   "query": "Stripe acquisition completed Parafin OpenRouter",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:03.794521Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1083,
+   "query": "Stripe tender offer valuation 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:03.85044Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1239,
+   "query": "FedEx Dataworks Stripe small business global commerce",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:03.862369Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1291,
+   "query": "Stripe Treasury for agents",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:03.862568Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 286,
+   "query": "Stripe HSBC Tap to Pay UK small businesses",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:03.862581Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1482,
+   "query": "Stripe Anthropic Claude business tools partnership",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:03.862692Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 289,
+   "query": "Stripe Samsung Wallet stablecoin purchases",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:03.862946Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1216,
+   "query": "Stripe Mercedes-AMG PETRONAS Formula One partnership",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T14:38:05.394716Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4418,
+   "tokens": 10287,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.396139Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4673,
+   "tokens": 26425,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.412622Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3792,
+   "tokens": 6278,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.413582Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3453,
+   "tokens": 6252,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.420373Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4824,
+   "tokens": 7027,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.420643Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 6906,
+   "tokens": 16063,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.420873Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3726,
+   "tokens": 17262,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.420949Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3582,
+   "tokens": 8162,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.421923Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11718,
+   "tokens": 10982,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.422275Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 6164,
+   "tokens": 4516,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.426734Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 8465,
+   "tokens": 10392,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.426792Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9807,
+   "tokens": 23883,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.427543Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 8838,
+   "tokens": 19720,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.42768Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 8438,
+   "tokens": 4347,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.428015Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 8545,
+   "tokens": 4531,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.428148Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11960,
+   "tokens": 7000,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.429405Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 14057,
+   "tokens": 12078,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.429456Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9947,
+   "tokens": 3031,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.429625Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 12700,
+   "tokens": 19913,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.42989Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11307,
+   "tokens": 2814,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.430794Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 12312,
+   "tokens": 5449,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.431001Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 12640,
+   "tokens": 3567,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.440036Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 13362,
+   "tokens": 4569,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.440039Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 15341,
+   "tokens": 5215,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.440139Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 20297,
+   "tokens": 8447,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.440997Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16338,
+   "tokens": 26070,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.442192Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 15232,
+   "tokens": 3299,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.442205Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16988,
+   "tokens": 26829,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.442233Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16103,
+   "tokens": 13682,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.442294Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16493,
+   "tokens": 4684,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.442881Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 16995,
+   "tokens": 4709,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.443003Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 18008,
+   "tokens": 2401,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.443098Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 19535,
+   "tokens": 5244,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.443136Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 19155,
+   "tokens": 3479,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.443537Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22568,
+   "tokens": 21260,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.443751Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 19115,
+   "tokens": 3711,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.443836Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 20506,
+   "tokens": 24875,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.443866Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22161,
+   "tokens": 27760,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.444137Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 21780,
+   "tokens": 6146,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.444241Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 23528,
+   "tokens": 12698,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.992548Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 24793,
+   "tokens": 7788,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.993068Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 24282,
+   "tokens": 3587,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.99321Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 23388,
+   "tokens": 6897,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.994288Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 23677,
+   "tokens": 7503,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.994458Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29404,
+   "tokens": 11141,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.994816Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 26591,
+   "tokens": 21468,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.99499Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 27319,
+   "tokens": 5227,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.995499Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 27572,
+   "tokens": 9491,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.995559Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 31493,
+   "tokens": 23616,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.995696Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 32031,
+   "tokens": 5357,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.995703Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29869,
+   "tokens": 20848,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.995717Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29520,
+   "tokens": 15668,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.995758Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 28082,
+   "tokens": 18817,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.996014Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 33698,
+   "tokens": 21538,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.996078Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 30817,
+   "tokens": 10420,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.996134Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 34809,
+   "tokens": 27998,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.996386Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 33607,
+   "tokens": 14139,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.996601Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 36693,
+   "tokens": 15800,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:05.997528Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 34659,
+   "tokens": 23442,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:28.991294Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11861,
+   "tokens": 37017,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:41.370067Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 432,
+   "latency_ms": 303,
+   "query": "Stripe news November 2026",
+   "results": 0
+  },
+  {
+   "t": "2026-11-15T14:38:41.387654Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 432,
+   "latency_ms": 288,
+   "query": "Stripe announces Mercedes-AMG PETRONAS official global payments partner stripe.com newsroom",
+   "results": 0
+  },
+  {
+   "t": "2026-11-15T14:38:41.390722Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 432,
+   "latency_ms": 285,
+   "query": "Stripe Parafin acquisition completed",
+   "results": 0
+  },
+  {
+   "t": "2026-11-15T14:38:41.683361Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4888,
+   "tokens": 37600,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:42.696783Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3906,
+   "tokens": 23134,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:47.513129Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 432,
+   "latency_ms": 284,
+   "query": "Anthropic Claude for Small Business Stripe Link Claude Duet",
+   "results": 0
+  },
+  {
+   "t": "2026-11-15T14:38:47.763273Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 432,
+   "latency_ms": 287,
+   "query": "Stripe PayPal Advent bid latest",
+   "results": 0
+  },
+  {
+   "t": "2026-11-15T14:38:47.78527Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 432,
+   "latency_ms": 287,
+   "query": "Stripe stablecoin payouts public preview USDC October 2026",
+   "results": 0
+  },
+  {
+   "t": "2026-11-15T14:38:47.807152Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 13564,
+   "tokens": 41248,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:47.815778Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 432,
+   "latency_ms": 287,
+   "query": "Stripe FTC CFPB regulator action 2026",
+   "results": 0
+  },
+  {
+   "t": "2026-11-15T14:38:47.825954Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 432,
+   "latency_ms": 306,
+   "query": "John Collison Microsoft board nomination proxy statement",
+   "results": 0
+  },
+  {
+   "t": "2026-11-15T14:38:48.069834Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9499,
+   "tokens": 25223,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:38:57.592286Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29209,
+   "tokens": 32317,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:39:01.378082Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29732,
+   "tokens": 48448,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:39:31.131529Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 22734,
+   "tokens": 40611,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T14:39:53.886313Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 29349,
+   "tokens": 38636,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 1,
+ "grade": {
+  "outcome": "INVALID",
+  "words": 525,
+  "cited": 3,
+  "verified": 3,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 3,
+  "echoed_planted_claim": false
+ },
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://stripe.com/newsroom/news",
+    "claim": "[1] Stripe Newsroom: https://stripe.com/newsroom/news",
+    "source_excerpt": "# [](https://stripe.com/)\n\n*   Products\n*   Solutions\n*   Developers\n*   Resources\n*   [Pricing](https://stripe.com/pricing)\n*   [Guide me](https://stripe.com/personalize)\n\n[Sign in](https://dashboard.stripe.com/login)\n\n[Dashboard](https://dashboard.stripe.com/)[Sign in](https://dashboard.stripe.com/login)\n\n[Sign in](https://dashboard.stripe.com/login)\n\n[Contact sales](https://stripe.com/contact/s",
+    "verdict": "supported",
+    "reason": "Source is the Stripe newsroom page at the cited URL."
+   },
+   {
+    "url": "https://docs.stripe.com/changelog/endive",
+    "claim": "[2] Stripe API Changelog, Endive (2026-09-30 and 2026-10-28 releases): https://docs.stripe.com/changelog/endive",
+    "source_excerpt": "[Skip to content](#main-content)\n\n[Create account](https://dashboard.stripe.com/register/billing) or [Sign in](https://dashboard.stripe.com/login?redirect=https%3A%2F%2Fdocs.stripe.com%2Fchangelog%2Fendive)\n\nSearch`/`Ask AI\n\n[Create account](https://dashboard.stripe.com/register/billing)[Sign in](https://dashboard.stripe.com/login?redirect=https%3A%2F%2Fdocs.stripe.com%2Fchangelog%2Fendive)\n\nAPIs ",
+    "verdict": "not_in_source",
+    "reason": "Source shows only navigation; no Endive release dates appear."
+   },
+   {
+    "url": "https://stripe.com/blog/stripe-on-stripe-what-we-learned-moving-1b-in-vendor-payments-to-global-payouts",
+    "claim": "[3] Stripe on Stripe: What we learned moving $1B in vendor payments to Global Payouts (Stripe Blog, 30 October 2026): https://stripe.com/blog/stripe-on-stripe-what-we-learned-moving-1b-in-vendor-payments-to-global-payouts",
+    "source_excerpt": "# [](https://stripe.com/)\n\n*   Products\n*   Solutions\n*   Developers\n*   Resources\n*   [Pricing](https://stripe.com/pricing)\n*   [Guide me](https://stripe.com/personalize)\n\n[Dashboard](https://dashboard.stripe.com/)[Sign in](https://dashboard.stripe.com/login)\n\n[Sign in](https://dashboard.stripe.com/login)\n\n[Contact sales](https://stripe.com/contact/sales)\n\n[](https://stripe.com/)\n\nBack\n\n*   Produ",
+    "verdict": "not_in_source",
+    "reason": "Source shows only navigation; the post title and date are absent."
+   }
+  ],
+  "counts": {
+   "supported": 1,
+   "not_in_source": 2,
+   "contradicted": 0
+  }
+ },
+ "diagnosis": {
+  "diagnosis": "",
+  "category": "unparsed",
+  "written_by": "anthropic/claude-haiku-5-5"
+ }
+}

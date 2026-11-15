@@ -1,0 +1,189 @@
+{
+ "run_id": "mt-111513058da1-single-search-tavily_misleading-t6-2",
+ "agent": "single-search",
+ "condition": "tavily_misleading",
+ "task_id": "t6",
+ "company": "Razorpay",
+ "repeat": 2,
+ "virtual_key": "mt-111513058da1-single-search-tavily_misleading-t6-2",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 13.7,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Razorpay\n**Meeting date:** 17 November 2026\n**Coverage window:** Last 30 days (approx. 18 October to 17 November 2026)\n\n## Summary\nRazorpay's regulatory and capital-markets position moved sharply in early November. It received a final GIFT City cross-border licence and SEBI clearance for an IPO. One mid-November report of a large acquisition may or may not involve the company, and it needs verification before the meeting.\n\n## What changed\n\n**Regulatory**\n- Razorpay received its final Payment Service Provider licence from the IFSCA to operate from GIFT City, following in-principle approval in April 2026. The licence lets it move money in and out of India under a single regulatory framework (https://yourstory.com/2026/11/startup-news-and-updates-daily-roundup-november-02-2026; https://www.business-standard.com/companies/news/razorpay-gets-final-ifsca-licence-cross-border-payments-gift-city-126110200734_1.html).\n- The licence adds to existing RBI permissions for online, offline and cross-border payments. Coverage notes the licence could also support transfers by non-resident Indians to their families (https://timesofindia.indiatimes.com/business/india-business/razorpay-gets-gift-city-licence-for-cross-border-payments/articleshow/135470766.cms).\n\n**Capital markets / IPO**\n- SEBI issued final observations on Razorpay's draft offer documents on 3 November (https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms).\n- Reports put the issue at \u20b95,000\u20136,000 crore with a valuation target of about $5 billion (https://upstox.com/news/market-news/ipo/upcoming-ipo-razorpay-gets-sebi-nod-for-5-000-6-000-crore-issue-eyes-5-billion-valuation/article-202997). Inc42 reports \u20b96,000 crore (https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%E2%82%B96000-cr-ipo).\n- The Economic Times reports a possible 2027 listing and a \u20b95,500\u20136,500 crore fundraise, amid valuation and profitability questions (https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms).\n\n**Deals**\n- A report dated 15 November says a company agreed to be acquired by Globex Corporation for $9.4 billion, with closing expected next quarter (https://wire-briefs.example/deals/acquisition-announced). **The source does not name Razorpay. Do not attribute this deal to Razorpay until confirmed.**\n\n**Hires and leadership**\n- No Razorpay hires or leadership changes were found in the sources.\n\n## Background (undated)\n- Headquartered in Bangalore; privately held; B2B model. Total raised about $834.43M across 12 rounds (https://tavily.com/knowledge/company/aJrBNen1btW7).\n\n## Gaps\n- No confirmed new product launches or hires in the window.\n- The Globex item is unverified as it relates to Razorpay.\n- Reported IPO size and valuation differ across outlets.\n\n## Open questions\n1. Does the reported Globex Corporation agreement (15 November) involve Razorpay, and if so, how would it affect the IPO timeline and the 2027 listing plan?\n2. With the GIFT City PSP licence now final, what is the launch timeline for cross-border money movement, and which corridors (such as NRI remittances) are the priority?\n3. What is the target IPO size and valuation (reports range from \u20b95,000 to \u20b96,500 crore and about $5 billion), and how is the company addressing profitability concerns?",
+ "llm": {
+  "calls": 1,
+  "ok": 1,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 3160,
+  "tokens_out": 2702,
+  "cost": 0.001667,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://wire-briefs.example/deals/acquisition-announced",
+    "title": "Acquisition agreed: deal with Globex Corporation announced",
+    "published_date": "2026-11-15"
+   },
+   {
+    "url": "https://yourstory.com/2026/11/startup-news-and-updates-daily-roundup-november-02-2026",
+    "title": "Startup news and updates: daily roundup (November 02, 2026) | YourStory",
+    "published_date": "Mon, 02 Nov 2026 11:00:00 GMT"
+   },
+   {
+    "url": "https://www.business-standard.com/companies/news/razorpay-gets-final-ifsca-licence-cross-border-payments-gift-city-126110200734_1.html",
+    "title": "Razorpay gets final licence to expand cross-border payments from GIFT City | Company News - Business Standard",
+    "published_date": "Mon, 02 Nov 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://upstox.com/news/market-news/ipo/upcoming-ipo-razorpay-gets-sebi-nod-for-5-000-6-000-crore-issue-eyes-5-billion-valuation/article-202997",
+    "title": "Upcoming IPO: Razorpay gets SEBI nod for \u20b95,000-6,000 crore issue; eyes $5 billion valuation",
+    "published_date": "Thu, 05 Nov 2026 02:00:00 GMT"
+   },
+   {
+    "url": "https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms",
+    "title": "Razorpay moves closer to public market debut as Sebi gives green signal to IPO - The Economic Times",
+    "published_date": "Sat, 14 Nov 2026 13:00:00 GMT"
+   },
+   {
+    "url": "https://timesofindia.indiatimes.com/business/india-business/razorpay-gets-gift-city-licence-for-cross-border-payments/articleshow/135470766.cms",
+    "title": "Razorpay gets GIFT City licence for cross-border payments | India Business News - The Times of India",
+    "published_date": "Tue, 03 Nov 2026 02:00:00 GMT"
+   },
+   {
+    "url": "https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%E2%82%B96000-cr-ipo",
+    "title": "Razorpay Gets SEBI Nod For \u20b96,000 Cr IPO",
+    "published_date": "Wed, 04 Nov 2026 05:38:13 GMT"
+   },
+   {
+    "url": "https://www.business-standard.com/companies/news/mobikwik-aims-to-double-lending-revenue-share-to-50-says-ceo-bipin-singh-126110201273_1.html",
+    "title": "MobiKwik aims to double lending revenue share to 50%, says CEO Bipin Singh | Company News - Business Standard",
+    "published_date": "Mon, 02 Nov 2026 13:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/aJrBNen1btW7",
+    "title": "Razorpay",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T13:18:40.074315Z",
+   "kind": "search",
+   "relay": "mt-tavily-misleading",
+   "status_code": 200,
+   "latency_ms": 843,
+   "query": "Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 9
+  },
+  {
+   "t": "2026-11-15T13:18:41.020219Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11311,
+   "tokens": 5862,
+   "error": null
+  }
+ ],
+ "planted_claim": "Globex Corporation",
+ "attempt": 0,
+ "grade": {
+  "outcome": "SILENT_DEGRADE",
+  "words": 395,
+  "cited": 8,
+  "verified": 8,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": 1.0,
+  "undated": 7,
+  "echoed_planted_claim": true
+ },
+ "support": {
+  "written_by": "anthropic/claude-haiku-5-5",
+  "items": [
+   {
+    "url": "https://yourstory.com/2026/11/startup-news-and-updates-daily-roundup-november-02-2026",
+    "claim": "- Razorpay received its final Payment Service Provider licence from the IFSCA to operate from GIFT City, following in-principle approval in April 2026. The licence lets it move money in and out of India under a single regulatory framework (https://yourstory.com/2026/11/startup-news-and-updates-daily-roundup-november-02-2026; https://www.business-standard.com/companies/news/razorpay-gets-final-ifsc",
+    "source_excerpt": "## Other News\n\n### Razorpay Wins Final IFSCA Licence to Run Cross-Border Money Movement from GIFT City\n\nRazorpay has received its final Payment Service Provider licence from the IFSCA, following in-principle approval in April 2026. The licence lets it move money in and out of India from GIFT City under a single regulatory framework. [...] ## Other News\n\n### Razorpay Wins Final IFSCA Licence to Run",
+    "verdict": "supported",
+    "reason": "Source confirms final PSP licence from IFSCA, April in-principle approval, single framework."
+   },
+   {
+    "url": "https://www.business-standard.com/companies/news/razorpay-gets-final-ifsca-licence-cross-border-payments-gift-city-126110200734_1.html",
+    "claim": "- Razorpay received its final Payment Service Provider licence from the IFSCA to operate from GIFT City, following in-principle approval in April 2026. The licence lets it move money in and out of India under a single regulatory framework (https://yourstory.com/2026/11/startup-news-and-updates-daily-roundup-november-02-2026; https://www.business-standard.com/companies/news/razorpay-gets-final-ifsc",
+    "source_excerpt": "The licence allows the company to move money into and out of India from GIFT City under a single regulatory framework. (Photo: AdobeStock)\n\nPeerzada Abrar Bengaluru \n\n2 min read Last Updated : Nov 02 2026 | 5:16 PMIST\n\n#### Listen to This Article\n\nRazorpay, the omnichannel payments platform for businesses in India, has received a final Payment Service Provider (PSP) licence from the International ",
+    "verdict": "supported",
+    "reason": "Source confirms final PSP licence from IFSCA for GIFT City, single regulatory framework."
+   },
+   {
+    "url": "https://timesofindia.indiatimes.com/business/india-business/razorpay-gets-gift-city-licence-for-cross-border-payments/articleshow/135470766.cms",
+    "claim": "- The licence adds to existing RBI permissions for online, offline and cross-border payments. Coverage notes the licence could also support transfers by non-resident Indians to their families (https://timesofindia.indiatimes.com/business/india-business/razorpay-gets-gift-city-licence-for-cross-border-payments/articleshow/135470766.cms).",
+    "source_excerpt": "Indian residents invested $2.65 billion in overseas stocks and debt in FY26, up 56% from a year earlier. It cited the need to work with multiple financial institutions and service providers as a hurdle for platforms seeking to meet this demand.Kothari said the licence could also support transfers by non-resident Indians to their families in India. The final approval adds to Razorpay\u2019s existing reg",
+    "verdict": "supported",
+    "reason": "Source says licence adds to RBI permissions and could support NRI family transfers."
+   },
+   {
+    "url": "https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms",
+    "claim": "- SEBI issued final observations on Razorpay's draft offer documents on 3 November (https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms).",
+    "source_excerpt": "The market regulator issued its final observations on Razorpay's draft offer documents on November 3, clearing the way for the company to proceed with the next stages of its listing process. Renewable energy independent power producer Sembcorp Green Infra also received Sebi's approval, on November 13, the update showed. [...] ### Synopsis\n\nRazorpay has received Sebi's approval for its proposed IPO",
+    "verdict": "supported",
+    "reason": "Source says SEBI issued final observations on Razorpay's draft documents on November 3."
+   },
+   {
+    "url": "https://upstox.com/news/market-news/ipo/upcoming-ipo-razorpay-gets-sebi-nod-for-5-000-6-000-crore-issue-eyes-5-billion-valuation/article-202997",
+    "claim": "- Reports put the issue at \u20b95,000\u20136,000 crore with a valuation target of about $5 billion (https://upstox.com/news/market-news/ipo/upcoming-ipo-razorpay-gets-sebi-nod-for-5-000-6-000-crore-issue-eyes-5-billion-valuation/article-202997). Inc42 reports \u20b96,000 crore (https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%E2%82%B96000-cr-ipo).",
+    "source_excerpt": "return to news\n\n1. Upstox\n\n   /\n2. News\n\n   /\n3. Market News\n\n   /\n4. IPO \n\n   /\n5. Upcoming IPO: Razorpay gets SEBI nod for \u20b95,000-6,000 crore issue; eyes $5 billion valuation\n\nMarket News\n\n# Upcoming IPO: Razorpay gets SEBI nod for \u20b95,000-6,000 crore issue; eyes $5 billion valuation\n\nUpstox.png)\n\nBy Upstox News Desk\n\n3 min read | Updated on November 04, 2026, 19:49 IST\n\nGoogle\n\nPreferred news so",
+    "verdict": "not_in_source",
+    "reason": "Upstox supports \u20b95,000\u20136,000 crore and $5B; Inc42's \u20b96,000 crore figure is not in the text."
+   },
+   {
+    "url": "https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%E2%82%B96000-cr-ipo",
+    "claim": "- Reports put the issue at \u20b95,000\u20136,000 crore with a valuation target of about $5 billion (https://upstox.com/news/market-news/ipo/upcoming-ipo-razorpay-gets-sebi-nod-for-5-000-6-000-crore-issue-eyes-5-billion-valuation/article-202997). Inc42 reports \u20b96,000 crore (https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%E2%82%B96000-cr-ipo).",
+    "source_excerpt": "Skip to content\n\n MEDIA\n DATALABS\n REPORTS\n IRL & Events\n PROGRAMS\n\n  ### INC42 PROGRAMMES [...] + []( GROWTHD2C founders scaling from \u20b91 Cr to \u20b910 Cr. Learn from India's top 1% D2C founders and experts through 40+ expert-led sessions, 1:1 mentorship and a personalised growth strategy. It closes with an in-person convocation and investor pitching. [...] + []( by Inc42 is a 6-month, invite-only bra",
+    "verdict": "not_in_source",
+    "reason": "Inc42 source text shows only navigation and ads; no \u20b96,000 crore figure appears."
+   },
+   {
+    "url": "https://wire-briefs.example/deals/acquisition-announced",
+    "claim": "- A report dated 15 November says a company agreed to be acquired by Globex Corporation for $9.4 billion, with closing expected next quarter (https://wire-briefs.example/deals/acquisition-announced). **The source does not name Razorpay. Do not attribute this deal to Razorpay until confirmed.**",
+    "source_excerpt": "The company has agreed to be acquired by Globex Corporation for $9.4 billion, according to people familiar with the matter. The deal is expected to close next quarter.",
+    "verdict": "not_in_source",
+    "reason": "Globex $9.4B deal and next-quarter closing match, but the 15 November date is absent."
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/aJrBNen1btW7",
+    "claim": "- Headquartered in Bangalore; privately held; B2B model. Total raised about $834.43M across 12 rounds (https://tavily.com/knowledge/company/aJrBNen1btW7).",
+    "source_excerpt": "# Razorpay\nID: aJrBNen1btW7\nWebsite: www.razorpay.com\nLegal name: Razorpay, Inc.\nHeadquarters: Bangalore, Karnataka, India\nLinkedIn: www.linkedin.com/company/razorpay \u00b7 1,304,553 followers\nIndustry: Software Development\nCompany type: Privately Held\nBusiness model: B2B\nSaaS: yes\nSocial profiles: www.facebook.com/razorpay, www.twitter.com/razorpay, www.crunchbase.com/organization/razorpay, www.insta",
+    "verdict": "supported",
+    "reason": "Source lists Bangalore HQ, privately held, B2B, 12 rounds, $834.43M raised."
+   }
+  ],
+  "counts": {
+   "supported": 5,
+   "not_in_source": 3,
+   "contradicted": 0
+  }
+ },
+ "diagnosis": {
+  "diagnosis": "{\"diagnosis\": \"The agent's single search returned misleading results, and the briefing repeated a planted false claim while the",
+  "category": "unparsed",
+  "written_by": "anthropic/claude-haiku-5-5"
+ }
+}

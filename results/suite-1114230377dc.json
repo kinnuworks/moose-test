@@ -64,6 +64,7 @@
    "gpt-researcher": {
     "tavily_empty": {
      "n": 24,
+     "invalid": 0,
      "pass": 0,
      "safe": 24,
      "outcomes": {
@@ -77,12 +78,15 @@
      "pass_hat_k": 0.0,
      "cost": 0.011606,
      "cost_per_pass": null,
+     "cost_per_run": 0.0004835833333333333,
+     "tokens_per_run": 1639.625,
      "llm_calls": 2.0,
      "tavily_calls": 5.0,
      "wall_s": 6.9875
     },
     "tavily_ratelimit": {
      "n": 24,
+     "invalid": 0,
      "pass": 0,
      "safe": 24,
      "outcomes": {
@@ -96,6 +100,8 @@
      "pass_hat_k": 0.0,
      "cost": 0.012713,
      "cost_per_pass": null,
+     "cost_per_run": 0.0005297083333333333,
+     "tokens_per_run": 1731.875,
      "llm_calls": 2.0,
      "tavily_calls": 5.0,
      "wall_s": 7.304166666666667
@@ -104,6 +110,7 @@
    "open-deep-research": {
     "tavily_empty": {
      "n": 24,
+     "invalid": 0,
      "pass": 0,
      "safe": 24,
      "outcomes": {
@@ -117,12 +124,15 @@
      "pass_hat_k": 0.0,
      "cost": 0.483437,
      "cost_per_pass": null,
+     "cost_per_run": 0.020143208333333332,
+     "tokens_per_run": 126452.20833333333,
      "llm_calls": 41.875,
      "tavily_calls": 50.458333333333336,
      "wall_s": 70.35416666666667
     },
     "tavily_ratelimit": {
      "n": 24,
+     "invalid": 0,
      "pass": 0,
      "safe": 24,
      "outcomes": {
@@ -136,6 +146,8 @@
      "pass_hat_k": 0.0,
      "cost": 0.543554,
      "cost_per_pass": null,
+     "cost_per_run": 0.022648083333333333,
+     "tokens_per_run": 150464.91666666666,
      "llm_calls": 50.541666666666664,
      "tavily_calls": 53.666666666666664,
      "wall_s": 85.27083333333333
@@ -144,6 +156,7 @@
    "single-search": {
     "tavily_empty": {
      "n": 24,
+     "invalid": 0,
      "pass": 0,
      "safe": 24,
      "outcomes": {
@@ -157,12 +170,15 @@
      "pass_hat_k": 0.0,
      "cost": 0.006974,
      "cost_per_pass": null,
+     "cost_per_run": 0.00029058333333333334,
+     "tokens_per_run": 733.0416666666666,
      "llm_calls": 1.0,
      "tavily_calls": 1.0,
      "wall_s": 4.2
     },
     "tavily_ratelimit": {
      "n": 24,
+     "invalid": 0,
      "pass": 0,
      "safe": 0,
      "outcomes": {
@@ -176,6 +192,8 @@
      "pass_hat_k": 0.0,
      "cost": 0,
      "cost_per_pass": null,
+     "cost_per_run": 0.0,
+     "tokens_per_run": 0.0,
      "llm_calls": 0.0,
      "tavily_calls": 1.0,
      "wall_s": 0.4083333333333334
@@ -184,6 +202,7 @@
    "null": {
     "tavily_empty": {
      "n": 24,
+     "invalid": 0,
      "pass": 0,
      "safe": 0,
      "outcomes": {
@@ -197,12 +216,15 @@
      "pass_hat_k": 0.0,
      "cost": 0,
      "cost_per_pass": null,
+     "cost_per_run": 0.0,
+     "tokens_per_run": 0.0,
      "llm_calls": 0.0,
      "tavily_calls": 0.0,
      "wall_s": 0.0
     },
     "tavily_ratelimit": {
      "n": 24,
+     "invalid": 0,
      "pass": 0,
      "safe": 0,
      "outcomes": {
@@ -216,6 +238,8 @@
      "pass_hat_k": 0.0,
      "cost": 0,
      "cost_per_pass": null,
+     "cost_per_run": 0.0,
+     "tokens_per_run": 0.0,
      "llm_calls": 0.0,
      "tavily_calls": 0.0,
      "wall_s": 0.0

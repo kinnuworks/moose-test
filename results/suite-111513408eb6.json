@@ -1,0 +1,98 @@
+{
+ "run_tag": "111513408eb6",
+ "model": "anthropic/claude-haiku-5-5",
+ "created": "2026-11-15T14:40:38.076455+00:00",
+ "agents": [
+  "open-deep-research"
+ ],
+ "conditions": [
+  "baseline"
+ ],
+ "condition_labels": {
+  "baseline": "Normal day"
+ },
+ "tasks": [
+  {
+   "id": "t1",
+   "company": "Nvidia",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t2",
+   "company": "Stripe",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t3",
+   "company": "Shopify",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t4",
+   "company": "Databricks",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t5",
+   "company": "Canva",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t6",
+   "company": "Razorpay",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t7",
+   "company": "Infosys",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t8",
+   "company": "Zepto",
+   "meeting_date": "2026-11-17"
+  }
+ ],
+ "repeats": 1,
+ "summary": {
+  "cells": {
+   "open-deep-research": {
+    "baseline": {
+     "n": 7,
+     "invalid": 2,
+     "pass": 4,
+     "safe": 4,
+     "outcomes": {
+      "PASS": 4,
+      "SILENT_DEGRADE": 2,
+      "WEAK": 1
+     },
+     "pass_rate": 0.5714285714285714,
+     "pass_ci": [
+      0.2504542304090258,
+      0.8417830777373732
+     ],
+     "pass_hat_k": 0.5714285714285714,
+     "cost": 8.901092,
+     "cost_per_pass": 2.225273,
+     "cost_per_run": 1.2715845714285714,
+     "tokens_per_run": 6490475.428571428,
+     "llm_calls": 461.2857142857143,
+     "tavily_calls": 87.57142857142857,
+     "wall_s": 677.4857142857143
+    }
+   }
+  }
+ },
+ "runs": [
+  "mt-111513408eb6-open-deep-research-baseline-t1-0",
+  "mt-111513408eb6-open-deep-research-baseline-t2-0",
+  "mt-111513408eb6-open-deep-research-baseline-t3-0",
+  "mt-111513408eb6-open-deep-research-baseline-t4-0",
+  "mt-111513408eb6-open-deep-research-baseline-t5-0",
+  "mt-111513408eb6-open-deep-research-baseline-t6-0",
+  "mt-111513408eb6-open-deep-research-baseline-t7-0",
+  "mt-111513408eb6-open-deep-research-baseline-t8-0",
+  "mt-111513408eb6-open-deep-research-baseline-t2-0-retry1"
+ ]
+}

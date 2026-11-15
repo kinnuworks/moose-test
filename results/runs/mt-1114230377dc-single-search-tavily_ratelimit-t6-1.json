@@ -7,7 +7,7 @@
  "repeat": 1,
  "virtual_key": "mt-1114230377dc-single-search-tavily_ratelimit-t6-1",
  "exit_code": 1,
- "stderr_tail": "ch_depth,\n    ...<22 lines>...\n                                 filter_by_language=filter_by_language,\n                                 **kwargs)\n  File \"/Users/kinnu/projects/global-ai-hack/.agents/base/lib/python3.15/site-packages/tavily/tavily.py\", line 245, in _search\n    self._handle_error_response(response)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"/Users/kinnu/projects/global-ai-hack/.agents/base/lib/python3.15/site-packages/tavily/tavily.py\", line 135, in _handle_error_response\n    raise UsageLimitExceededError(detail)\ntavily.errors.UsageLimitExceededError: Rate limit exceeded\n",
+ "stderr_tail": "ch_depth,\n    ...<22 lines>...\n                                 filter_by_language=filter_by_language,\n                                 **kwargs)\n  File \"~/projects/global-ai-hack/.agents/base/lib/python3.15/site-packages/tavily/tavily.py\", line 245, in _search\n    self._handle_error_response(response)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\n  File \"~/projects/global-ai-hack/.agents/base/lib/python3.15/site-packages/tavily/tavily.py\", line 135, in _handle_error_response\n    raise UsageLimitExceededError(detail)\ntavily.errors.UsageLimitExceededError: Rate limit exceeded\n",
  "wall_s": 0.4,
  "meeting_date": "2026-11-17",
  "query": "Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",

@@ -7,7 +7,7 @@
  "repeat": 2,
  "virtual_key": "mt-11150711f095-open-deep-research-model_down-t8-2",
  "exit_code": 1,
- "stderr_tail": ", line 2306, in _agenerate\n    _handle_openai_api_error(e)\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"/Users/kinnu/projects/global-ai-hack/sandbox/agents/odr/lib/python3.15/site-packages/langchain_openai/chat_models/base.py\", line 744, in _handle_openai_api_error\n    raise OpenAIAPIError(message=e.message, response=e.response, body=e.body) from e\nlangchain_openai.chat_models.base.OpenAIAPIError: Error code: 502 - network error occurred while connecting to provider API (DNS lookup, connection refused, etc.)\nDuring task with name 'write_research_brief' and id 'a940344c-96a2-cd41-7ef3-468a58fbcf13'\n",
+ "stderr_tail": ", line 2306, in _agenerate\n    _handle_openai_api_error(e)\n    ~~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"~/projects/global-ai-hack/sandbox/agents/odr/lib/python3.15/site-packages/langchain_openai/chat_models/base.py\", line 744, in _handle_openai_api_error\n    raise OpenAIAPIError(message=e.message, response=e.response, body=e.body) from e\nlangchain_openai.chat_models.base.OpenAIAPIError: Error code: 502 - network error occurred while connecting to provider API (DNS lookup, connection refused, etc.)\nDuring task with name 'write_research_brief' and id 'a940344c-96a2-cd41-7ef3-468a58fbcf13'\n",
  "wall_s": 9.7,
  "meeting_date": "2026-11-17",
  "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",

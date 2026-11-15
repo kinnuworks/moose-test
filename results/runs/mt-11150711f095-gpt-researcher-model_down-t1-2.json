@@ -7,7 +7,7 @@
  "repeat": 2,
  "virtual_key": "mt-11150711f095-gpt-researcher-model_down-t1-2",
  "exit_code": 1,
- "stderr_tail": "File \"/Users/kinnu/projects/global-ai-hack/sandbox/agents/gptr/lib/python3.15/site-packages/gpt_researcher/actions/query_processing.py\", line 145, in generate_sub_queries\n    response = await create_chat_completion(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<8 lines>...\n    )\n    ^\n  File \"/Users/kinnu/projects/global-ai-hack/sandbox/agents/gptr/lib/python3.15/site-packages/gpt_researcher/utils/llm.py\", line 164, in create_chat_completion\n    raise RuntimeError(f\"Failed to get response from {llm_provider} API\") from last_exception\nRuntimeError: Failed to get response from openai API\n",
+ "stderr_tail": "File \"~/projects/global-ai-hack/sandbox/agents/gptr/lib/python3.15/site-packages/gpt_researcher/actions/query_processing.py\", line 145, in generate_sub_queries\n    response = await create_chat_completion(\n               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n    ...<8 lines>...\n    )\n    ^\n  File \"~/projects/global-ai-hack/sandbox/agents/gptr/lib/python3.15/site-packages/gpt_researcher/utils/llm.py\", line 164, in create_chat_completion\n    raise RuntimeError(f\"Failed to get response from {llm_provider} API\") from last_exception\nRuntimeError: Failed to get response from openai API\n",
  "wall_s": 275.0,
  "meeting_date": "2026-11-17",
  "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",

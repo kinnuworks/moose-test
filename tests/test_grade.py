@@ -188,3 +188,21 @@ def test_search_through_the_wrong_relay_is_invalid():
     assert grade_run(r)["outcome"] == "INVALID"
     r["timeline"] = [{"kind": "search", "relay": "mt-tavily-empty", "t": "x"}]
     assert grade_run(r)["outcome"] != "INVALID"
+
+
+def test_our_search_account_out_of_credits_invalidates_the_run():
+    # Tavily answers 432 (plan limit) or 433 (pay-as-you-go limit) when our own account runs out,
+    # and 429 when our key is throttled. Outside the injected rate-limit condition that is not the
+    # benchmark's fault, so the run must be re-run, not scored as the agent failing.
+    b = "I could not find any sources for this meeting. " + LONG
+    for cond in ("baseline", "model_down_fallback", "tavily_misleading"):
+        for code in (429, 432, 433):
+            r = run(b, condition=cond)
+            r["tavily"]["statuses"] = [200, code]
+            assert grade_run(r)["outcome"] == "INVALID", (cond, code)
+    r = run(b, condition="tavily_ratelimit")
+    r["tavily"]["statuses"] = [429, 429]
+    assert grade_run(r)["outcome"] != "INVALID"
+    r = run(b, condition="baseline")
+    r["tavily"]["statuses"] = [200, 200]
+    assert grade_run(r)["outcome"] != "INVALID"

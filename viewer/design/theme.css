@@ -109,3 +109,11 @@ nav.top .brand { font-size: 24px; }
 .hero h1 { max-width: 1240px; }
 .NO_OUTPUT { background: #738a94; }
 .INVALID { background: #15171a; box-shadow: inset 0 0 0 1px #738a94; }
+
+/* on a plain load the page opens one real passing run below the dashboard, so a step-by-step record is visible without a click */
+:root { --opens-run: 1; }
+#timeline { font: 14px/1.6 "Inter", sans-serif; list-style: none; padding: 20px 24px; }
+#timeline li { padding: 6px 0; border-bottom: 1px solid #1f2937; }
+#timeline li, #briefing .text, #support li, #run-facts, #runs li { overflow-wrap: anywhere; }
+.two > div { min-width: 0; }
+#drill, #run { max-width: 100%; }

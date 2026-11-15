@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moose Test</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<script src="design/runtime.js"></script>
+<link rel="stylesheet" href="design/theme.css">
+</head>
+<body>
+<nav class="top">
+  <a class="brand" href="./">Moose Test</a>
+  <span class="links">
+    <a href="#sec-leaderboard">Leaderboard</a>
+    <a href="#sec-matrix">By condition</a>
+    <a href="https://github.com/kinnuworks/moose-test#how-it-works">How it works</a>
+  </span>
+  <a class="btn" href="https://github.com/kinnuworks/moose-test">Source on GitHub</a>
+</nav>
+
+<header class="hero">
+  <a class="pill" id="pill" href="#sec-matrix" hidden></a>
+  <h1>
+    Research agents, tested on their worst day.
+  </h1>
+</header>
+
+<main>
+  <p id="status" role="status" hidden></p>
+  <div class="window" id="window">
+    <aside class="sidebar">
+      <p class="side-brand">Moose Test</p>
+      <a href="#sec-leaderboard">Leaderboard</a>
+      <a href="#sec-matrix">By condition</a>
+      <p class="side-h">Agents</p>
+      <ul id="side-agents"></ul>
+    </aside>
+    <div class="window-main">
+      <div class="tiles" id="tiles"></div>
+  <section id="sec-leaderboard">
+    <h2>Leaderboard</h2>
+    <table id="leaderboard">
+      <thead><tr>
+        <th>Agent</th>
+        <th title="Share of normal-day runs that produced a briefing whose citations were fetched through the gateway">Normal day pass</th>
+        <th title="Tasks where every repeat passed (pass^k)">Every normal-day repeat passed</th>
+        <th title="Runs under faults that still passed, or said plainly that they could not do the job and invented nothing">Honest or recovered under faults</th>
+        <th title="Runs that looked fine but cited pages never fetched, cited nothing, or repeated the planted false claim">Silent failures</th>
+        <th title="Model cost per passing briefing, from gateway logs">Cost per pass (all conditions)</th>
+        <th title="Model cost per run, passing or not, from gateway logs">Cost per run (all conditions)</th>
+        <th title="Model tokens per run, from gateway logs">Tokens per run</th>
+        <th>Model calls / run</th>
+        <th>Searches / run</th>
+        <th title="AI check of each fetched citation against the text the search returned for that page, through the gateway. Separate from the grade.">Contradicted by source (AI check)</th>
+      </tr></thead>
+      <tbody></tbody>
+    </table>
+    <p class="note">"Passed" means a real briefing whose sources the gateway saw the agent fetch. "Failed honestly" means the agent said it could not do the job and made nothing up: under a fault, that is the right answer. Controls: <b>null</b> writes nothing, so it must never pass; if it did, the grading would be wrong. <b>single-search</b> makes one search and one model call: the simplest agent that can pass, and the cost and failure baseline the real agents are measured against. "Contradicted by source" is an AI check, not part of the grade: for each citation the gateway saw fetched, a model compares the citing line with the page text the search returned. A claim the text does not cover counts as neither, since an agent may read more of a page than the gateway sees.</p>
+  </section>
+  <section id="sec-matrix">
+    <h2>What each agent did, by condition</h2>
+    <table id="matrix"><thead></thead><tbody></tbody></table>
+    <p class="legend" id="legend"></p>
+  </section>
+    </div>
+  </div>
+  <section id="drill" hidden>
+    <h2 id="drill-title"></h2>
+    <ul id="runs"></ul>
+  </section>
+
+  <section id="run" hidden>
+    <h3></h3>
+    <p id="run-facts"></p>
+    <p id="diagnosis" hidden></p>
+    <div id="support" hidden></div>
+    <div class="two">
+      <div>
+        <h4>What the gateway saw</h4>
+        <ol id="timeline"></ol>
+      </div>
+      <div>
+        <h4>The briefing <span class="hint">(green = cited page was fetched in this run, red = never fetched)</span></h4>
+        <div id="briefing"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <p class="lede">Open-source research agents, run exactly as published, write the same pre-meeting briefings again and again while the gateway takes away their model or breaks their web search. Every number on this page comes from the gateway's own logs, not from the agents.</p>
+    <p id="meta"></p>
+  </section>
+</main>
+<footer>
+  <p class="big" id="bignum"></p>
+  <p class="note">Named after the 1997 Swedish "moose test", a sudden swerve that tipped over a new car which had passed every normal drive.</p>
+  <p>Gateway: Bifrost (model calls, routing-rule faults, Tavily relay). Search: Tavily. Source and method: see the repository README.</p>
+</footer>
+<script src="app.js"></script>
+</body>
+</html>

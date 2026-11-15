@@ -114,7 +114,7 @@ function renderMatrix() {
   for (const o of OUTCOMES) lg.append(el("span", { class: "key " + o }), " " + OUTCOME_TEXT[o] + "  ");
 }
 
-function openCell(agent, cond) {
+function openCell(agent, cond, quiet) {
   const runs = B.runs.filter((r) => r.agent === agent && r.condition === cond);
   $("#drill").hidden = false;
   $("#drill-title").textContent = `${agent} — ${B.suite.condition_labels[cond] || cond} (${runs.length} runs)`;
@@ -126,10 +126,10 @@ function openCell(agent, cond) {
     a.addEventListener("click", (e) => { e.preventDefault(); openRun(r); });
     ul.append(el("li", {}, a));
   }
-  $("#drill").scrollIntoView({ behavior: "smooth" });
+  if (!quiet) $("#drill").scrollIntoView({ behavior: "smooth" });
 }
 
-function openRun(r) {
+function openRun(r, quiet) {
   $("#run").hidden = false;
   $("#run h3").textContent = `${r.agent} · ${B.suite.condition_labels[r.condition] || r.condition} · ${r.company} · repeat ${r.repeat + 1}`;
   const g = r.grade;
@@ -171,7 +171,7 @@ function openRun(r) {
   }
   pre.append(text.slice(last));
   div.append(pre);
-  $("#run").scrollIntoView({ behavior: "smooth" });
+  if (!quiet) $("#run").scrollIntoView({ behavior: "smooth" });
 }
 
 function normalize(u) {
@@ -226,6 +226,37 @@ function openState(params) {
   none();
 }
 
+// Optional pieces some layouts show: stat tiles, an agent list, a large run count.
+function renderExtras() {
+  const s = B.suite, cells = s.summary.cells;
+  const tiles = $("#tiles");
+  if (tiles) {
+    const silent = s.agents.reduce((n, a) => n + agentTotals(a).silent, 0);
+    const gptr = (cells["gpt-researcher"] || {}).baseline;
+    const sup = (s.support || {})["gpt-researcher"] || {};
+    let chk = 0, bad = 0; for (const c of Object.values(sup)) { chk += c.checked; bad += c.contradicted; }
+    const tile = (label, value, note) => el("div", { class: "tile" }, el("p", { class: "tile-label" }, label), el("p", { class: "tile-value" }, value), el("p", { class: "tile-note" }, note));
+    tiles.replaceChildren(
+      tile("Runs graded from gateway logs", s.n_runs.toLocaleString(), `${s.tasks.length} tasks, ${s.conditions.length} conditions`),
+      tile("GPT Researcher, normal day", gptr ? `${gptr.pass}/${gptr.n} passed` : "not run yet", gptr ? `${money(gptr.cost_per_run)} a run` : ""),
+      tile("Silent failures, all agents", String(silent), "looked fine, but cited unfetched pages or the planted claim"),
+      tile("Contradicted by source (AI check)", chk ? `${(100 * bad / chk).toFixed(1)}%` : "–", `GPT Researcher, ${bad} of ${chk} citations`));
+  }
+  const side = $("#side-agents");
+  if (side) side.replaceChildren(...s.agents.map((a) => {
+    const link = el("a", { href: "#sec-matrix" }, a + (CONTROLS.has(a) ? " (control)" : ""));
+    link.addEventListener("click", (e) => { e.preventDefault(); openCell(a, "baseline"); });
+    return el("li", {}, link);
+  }));
+  const big = $("#bignum");
+  if (big) big.textContent = `${s.n_runs} runs. Every number from the gateway, none from the agents.`;
+  // a layout whose main visual is a run view opens a real passing run without scrolling
+  if (getComputedStyle(document.documentElement).getPropertyValue("--opens-run").trim() === "1" && !location.search.includes("state=")) {
+    const r = B.runs.filter((x) => (x.support || {}).items && x.support.items.length && x.grade.outcome === "PASS" && !CONTROLS.has(x.agent))[0];
+    if (r) { openCell(r.agent, r.condition, true); openRun(r, true); }
+  }
+}
+
 function start() {
   const params = new URLSearchParams(location.search);
   const state = params.get("state");
@@ -252,6 +283,7 @@ function start() {
       const m = $("#matrix");
       m.classList.add("reveal");
       if (window.design && design.onReplay) design.onReplay(() => { m.classList.remove("reveal"); void m.offsetWidth; m.classList.add("reveal"); });
+      renderExtras();
       openState(params);
     })
     .catch(() => showStatus("The results could not be loaded (data/bundle.json). Reload the page, or build them with scripts/build_viewer.py."));

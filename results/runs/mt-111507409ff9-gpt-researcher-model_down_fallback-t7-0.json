@@ -1,0 +1,295 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-model_down_fallback-t7-0",
+ "agent": "gpt-researcher",
+ "condition": "model_down_fallback",
+ "task_id": "t7",
+ "company": "Infosys",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-model_down_fallback-t7-0",
+ "exit_code": 0,
+ "stderr_tail": "8] Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.025375\nINFO:     [13:14:18] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:15:03] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 56.9,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Infosys: Pre-Meeting Briefing for 17 November 2026\n\n*Prepared 15 November 2026. Review window: 16 October to 15 November 2026.*\n\n## Purpose and Scope\n\nThis briefing covers material developments in the 30 days before the 17 November 2026 meeting, organized under news, product launches, leadership and hiring, and deals and partnerships. Each factual claim is cited. Items that could not be verified, or whose sources conflict, are flagged in the Verification Flags section. Figures from the Q2 FY2027 results (quarter ended September 2026) are the most material items in the window.\n\n## Summary Assessment\n\nThe dominant development is Infosys's Q2 FY2027 results on 23 October 2026. The quarter showed strong demand signals alongside a weaker full-year outlook. Large-deal bookings reached $5.2 billion and AI revenue reached 10.5% of total revenue ([BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23); [InsiderFinance, 2026](https://www.insiderfinance.io/news/infosys-q2-results-ai-up-guidance-cut)). Yet management narrowed FY2027 constant-currency revenue growth guidance to 1% to 2%, from 1.5% to 3% ([Thomas, 2026](https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu)).\n\nMy view is that the guidance cut reflects structural pricing pressure as well as cyclical softness. The CFO cited softer volume, pricing pressure from competitive intensity, and a higher client demand for productivity ([BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23)). The CEO described AI as both \"giving us the growth\" and \"seeing the compression\" ([Thomas, 2026](https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu)). AI therefore appears to be simultaneously adding to Infosys's revenue mix and reducing the price of the services it sells. The key swing factor for the next two quarters is whether the record bookings convert into revenue. The mega-deal ramp is reported to begin later in the period, so H2 execution carries most of the risk.\n\nProfitability has held up. Operating margin stayed at 21% against guidance of 20% to 22% ([Devam Bose, n.d.](https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl)). The market has been less convinced: the stock is down 27.29% year-to-date and 20.06% over one year as of early November ([Sethi, 2026](https://www.livemint.com/market/stock-market-news/infosys-dividend-2026-record-date-tomorrow-know-dividend-payout-yield-history-returns-11793585489373.html)).\n\n## What Changed in the Last 30 Days\n\n### News and Results\n\nOn 23 October 2026, Infosys reported Q2 FY2027 results and revised guidance. The FY2027 revenue outlook was cut to 1% to 2% constant currency, below the 2.03% analyst view. ADRs fell as much as 7.6% in early New York trading on Friday, 23 October ([Thomas, 2026](https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu)). Analysts described the full-year outlook as the weakest in seven years and noted the slowest growth pace in at least three years ([BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23)).\n\nOn the call, the CFO attributed about 2 percentage points of the growth impact to offshoring changes and a deliberate decision not to pursue a large European manufacturing deal that did not meet return expectations ([BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23)). The CFO also said that at the lower end of guidance management had built in higher uncertainty, and at the upper end an improvement in the environment ([Investing.com, 2026](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756)).\n\nThe CEO said almost all deals above $50 million now include AI ([Thomas, 2026](https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu)).\n\n### Financial Performance: Q2 FY2027\n\n| Metric | Reported Figure | Source |\n|---|---|---|\n| FY2027 CC revenue growth guidance | 1% to 2% (cut from 1.5% to 3%) | [Thomas, 2026](https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu); [InsiderFinance, 2026](https://www.insiderfinance.io/news/infosys-q2-results-ai-up-guidance-cut) |\n| Q2 CC revenue growth | 1.5% YoY; 1.2% QoQ | [BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23) |\n| Operating margin | 21% (guidance 20% to 22%) | [Devam Bose, n.d.](https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl) |\n| AI revenue | 10.5% of total, up 29% QoQ from 8.2% | [BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23); [InsiderFinance, 2026](https://www.insiderfinance.io/news/infosys-q2-results-ai-up-guidance-cut) |\n| Large-deal bookings | $5.2 billion, including one net-new deal above $2 billion over seven years and a $1 billion renewal | [BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23) |\n| Free cash flow | Approximately $922M to $928M (sources differ) | [BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23); [Devam Bose, n.d.](https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl) |\n| Utilization (incl. trainees) | 85.4% | [Investing.com, 2026](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756) |\n| Attrition | 12.7% (from 13.0% sequentially) | [Investing.com, 2026](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756) |\n| Effective tax rate (FY) | 29% to 30% | [Investing.com, 2026](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756) |\n| DSO | 64 days (down 7 days YoY) | [Investing.com, 2026](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756) |\n\nManagement also noted that the Q2 volume was softer and that the company is cautious about discretionary technology spending ([BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23); [Devam Bose, n.d.](https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl)).\n\n### Dividend and Shareholder Actions\n\nInfosys declared an interim dividend of \u20b926 per share for FY2027, up from \u20b923 a year earlier. The record date was 3 November 2026, and payment was scheduled for 11 November 2026 under the exchange filing dated 23 October ([Sethi, 2026](https://www.livemint.com/market/stock-market-news/infosys-dividend-2026-record-date-tomorrow-know-dividend-payout-yield-history-returns-11793585489373.html)). Payment confirmation was not found in the reviewed sources.\n\n### Product Launches\n\nNo new product launch by Infosys was verified within the window. Two Finacle-related items appeared in the Infosys press release feed, but their dates are not shown in the available text and they are treated as unverified for timing:\n\n- A Finacle universal-banker branch modernization deployment with UNI Financial Cooperation in Canada ([PR Newswire, n.d.](https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html)).\n- Winners of the Qorus-Infosys Finacle Banking Innovation Awards 2026 ([PR Newswire, n.d.](https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html)).\n\n### Leadership and Key Hires\n\nNo change in senior leadership was verified in the window. CEO Salil Parekh and CFO Jayesh Sanghrajka led the 23 October results call ([Investing.com, 2026](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756); [BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23)).\n\nWorkforce data from the call:\n\n- About 13,000 freshers hired in H1, against a target of approximately 20,000 for FY2027 ([Investing.com, 2026](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756)).\n- Net headcount increased by about 4,400 ([Investing.com, 2026](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756)).\n- Compensation increases began on 26 October, with a second phase effective 27 January 2027 ([Investing.com, 2026](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756)).\n\nTaken together, these figures suggest Infosys is still investing in its pipeline while absorbing wage costs. That combination makes the pricing pressure described on the call more consequential for margins.\n\n### Deals and Partnerships\n\n- **Large-deal bookings:** $5.2 billion in Q2, with 62% of the pipeline described as net-new business ([Devam Bose, n.d.](https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl); [BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23)).\n- **Strategic collaboration:** Infosys and Columbia University announced a collaboration on deep research to drive innovation and business value ([PR Newswire, n.d.](https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html)). The announcement date is not visible in the available text.\n\n## Market Context\n\nBroader sentiment toward AI-linked equities softened in mid-November. Briefs headlines from 13 November reported that U.S. stocks slipped as the AI trade wobbled, and that the Fed survey ranked AI as the top financial-system risk ([Thomas, 2026](https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu)). A 14 November headline reported that India's market was recovering as the AI frenzy cooled and foreign cash returned ([Thomas, 2026](https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu)). These are headline-level observations, and the article bodies were not reviewed. They are relevant mainly as context for how investors may read Infosys's AI narrative.\n\n## Verification Flags\n\n1. **Source conflict on free cash flow.** BigGo reports $922 million, while a LinkedIn post reports approximately $928 million and describes FCF as down 15.7% YoY ([BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23); [Devam Bose, n.d.](https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl)). Confirm against the company filing before citing.\n2. **Rupee-denominated results are unverified.** Net profit of \u20b97,823 crore (about 6% YoY) and revenue of \u20b949,244 crore (about 11% YoY) come only from a personal LinkedIn post ([Devam Bose, n.d.](https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl)). Reconcile with the official results release.\n3. **Conflicting characterization of margins.** A YouTube video title describes Q2 margins as having missed, while other sources describe the 21% operating margin as steady and within guidance ([YouTube, n.d.](https://www.youtube.com/watch?v=f4vgConNx8k); [BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23)). The video content was not available, so this is unverified.\n4. **Transcript labeling.** The Investing.com transcript is titled \"Q2 2026,\" while the content refers to FY2027 Q2 ([Investing.com, 2026](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756)). The content is treated as the Q2 FY2027 call.\n5. **Truncated mega-deal timing.** A BigGo summary says the mega-deal ramp \"will only begin in the latter\" part of a period, but the sentence is cut off ([BigGo Finance, 2026](https://finance.biggo.com/news/US_INFY_2026-10-23)). The exact timing is unverified.\n6. **Undated press releases.** The Columbia University collaboration and Finacle items have no visible dates ([PR Newswire, n.d.](https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html)). Their presence in the 30-day window is unverified.\n7. **Dividend payment.** The 11 November payment date comes from a scheduled filing ([Sethi, 2026](https://www.livemint.com/market/stock-market-news/infosys-dividend-2026-record-date-tomorrow-know-dividend-payout-yield-history-returns-11793585489373.html)). Actual payment was not confirmed.\n8. **Briefs source URL.** The primary Briefs page appears to be a scraped listing containing many unrelated headlines. Its Infosys content is the October 23 article. Items attributed to it should be confirmed against the original article.\n9. **No verified news on the following:** product launches by Infosys, senior leadership changes, and new contract announcements beyond the Q2 bookings disclosure. Absence in these sources does not confirm absence in reality.\n\n## Open Questions for Infosys\n\n1. **Pricing versus volume:** How much of the FY2027 guidance cut is attributable to AI-driven productivity deflation in existing contracts, and how much to volume softness? What pricing assumptions are built into the 1% to 2% range for H2?\n2. **Mega-deal conversion:** When will the net-new deal above $2 billion begin contributing revenue, what is the expected ramp profile, and what share of the $5.2 billion bookings is expected to convert within FY2027?\n3. **AI monetization:** With AI at 10.5% of revenue and nearly all $50 million-plus deals including AI, how is Infosys pricing AI-enabled work, and what evidence can it provide that AI revenue is growing faster than the compression it creates in legacy services?\n\n## References\n\nBose, D. (n.d.). *#for #infosys #q2fy27 #indianit #ai #itindustry #careergrowth #stockmarket* [LinkedIn post]. LinkedIn. [https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl](https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl)\n\nBigGo Finance. (2026, October 23). *[Infosys Q2 2027 earnings call] Infosys cuts FY27 revenue guidance to 1%-2% as AI revenue jumps to 10.5% and $5.2 billion in large deals lifts outlook*. BigGo Finance. [https://finance.biggo.com/news/US_INFY_2026-10-23](https://finance.biggo.com/news/US_INFY_2026-10-23)\n\nInvesting.com. (2026). *Earnings call transcript: Infosys Q2 2026 beats revenue, cuts outlook*. Investing.com. [https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756](https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756)\n\nInsiderFinance. (2026, October 23). *Infosys Q2 results: AI up, guidance cut*. InsiderFinance. [https://www.insiderfinance.io/news/infosys-q2-results-ai-up-guidance-cut](https://www.insiderfinance.io/news/infosys-q2-results-ai-up-guidance-cut)\n\nPR Newswire. (n.d.). *Infosys and Columbia University launch strategic collaboration across deep research to drive innovation and unlock business value*. PR Newswire. [https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html](https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html)\n\nSethi, V. (2026, November 2). *Infosys dividend 2026: Record date tomorrow | Know dividend payout, yield, history, returns*. Mint. [https://www.livemint.com/market/stock-market-news/infosys-dividend-2026-record-date-tomorrow-know-dividend-payout-yield-history-returns-11793585489373.html](https://www.livemint.com/market/stock-market-news/infosys-dividend-2026-record-date-tomorrow-know-dividend-payout-yield-history-returns-11793585489373.html)\n\nThomas, M. (2026, October 23). *Infosys cuts 2027 revenue outlook as clients tighten tech budgets*. Briefs. [https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu](https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu)\n\nYouTube. (n.d.). *Infosys Q2 report card: Revenue in-line, margins miss, growth outlook cut* [Video]. YouTube. [https://www.youtube.com/watch?v=f4vgConNx8k](https://www.youtube.com/watch?v=f4vgConNx8k)",
+ "llm": {
+  "calls": 6,
+  "ok": 3,
+  "errors": 3,
+  "embedding_calls": 0,
+  "tokens_in": 19867,
+  "tokens_out": 12125,
+  "cost": 0.008049,
+  "fallbacks": 3,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.infosys.com/newsroom/events.html",
+    "title": "Infosys - Technology & Consulting Services Events",
+    "published_date": null
+   },
+   {
+    "url": "https://www.livemint.com/market/stock-market-news/infosys-dividend-2026-record-date-tomorrow-know-dividend-payout-yield-history-returns-11793585489373.html",
+    "title": "Infosys dividend 2026: Record date tomorrow | Know dividend payout, yield, history, returns | Stock Market News",
+    "published_date": null
+   },
+   {
+    "url": "https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu",
+    "title": "Infosys Cuts 2027 Revenue Outlook Amid AI Shift",
+    "published_date": null
+   },
+   {
+    "url": "https://sg.finance.yahoo.com/news/indias-infosys-rises-ai-momentum-035659778.html",
+    "title": "India's Infosys rises after strong 2026 view; lifts IT index",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/Gbd7vUUlzCYP",
+    "title": "Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://www.prnewswire.com/news-releases/infosys-and-columbia-university-launch-strategic-collaboration-across-deep-research-to-drive-innovation-and-unlock-business-value-302895969.html",
+    "title": "Infosys and Columbia University Launch Strategic Collaboration Across Deep Research to Drive Innovation and Unlock Business Value",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/newsroom/press-releases/2026/collaboration-drive-innovation-unlock-business-value.html",
+    "title": "Infosys and Columbia University Launch Strategic Collaboration Across Deep Research to Drive Innovation and Unlock Business Value",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/newsroom/press-releases.html",
+    "title": "Infosys Press Releases | Infosys Latest News | Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/nordics/newsroom.html",
+    "title": "Newsroom | Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/es-en/newsroom/press-releases.html",
+    "title": "Infosys Press Releases | Infosys Latest News | Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756",
+    "title": "Earnings call transcript: Infosys Q2 2026 beats revenue, cuts outlook",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=xzZd-Luyw3U",
+    "title": "Infosys Ltd Q2 FY2026-27 Earnings Conference Call",
+    "published_date": null
+   },
+   {
+    "url": "https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu",
+    "title": "Infosys Cuts 2027 Revenue Outlook Amid AI Shift",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/investors/news-events.html",
+    "title": "Press Releases, Calendars, and Presentations - Investors | Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/newsroom/press-releases.html",
+    "title": "Infosys Press Releases | Infosys Latest News | Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.biggo.com/news/US_INFY_2026-10-23",
+    "title": "[Infosys Q2 2027 Earnings Call] Infosys Cuts FY27 Revenue Guidance to 1%-2% as AI Revenue Jumps to 10.5% and $5.2 Billion in Large Deals Lifts Outlook \u2014 BigGo Finance",
+    "published_date": null
+   },
+   {
+    "url": "https://www.insiderfinance.io/news/infosys-q2-results-ai-up-guidance-cut",
+    "title": "Infosys Q2 Results: AI Up, Guidance Cut | InsiderFinance",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=f4vgConNx8k",
+    "title": "Infosys Q2 Report Card: Revenue In-Line, Margins Miss, Growth Outlook Cut",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/devam-bose-193235163_for-infosys-q2fy27-activity-7520050126766157824-Pbfl",
+    "title": "Infosys Q2 FY27: Growth Concerns Amid AI Momentum | Devam Bose posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://seekingalpha.com/news/4656665-infosys-forecasts-1-percentminus-2-percent-fy27-growth-as-2b-mega-deal-is-expected-to-add",
+    "title": "Infosys forecasts 1%-2% FY'27 growth as $2B mega deal is expected to add over 1% next year (NYSE:INFY) | Seeking Alpha",
+    "published_date": null
+   },
+   {
+    "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-infosys-q2-2026-beats-revenue-cuts-outlook-93CH-4969756",
+    "title": "Earnings call transcript: Infosys Q2 2026 beats revenue, cuts outlook",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=xzZd-Luyw3U",
+    "title": "Infosys Ltd Q2 FY2026-27 Earnings Conference Call",
+    "published_date": null
+   },
+   {
+    "url": "https://www.briefs.co/news/infosys-cuts-2027-revenue-outlook-as-clients-tighten-tech-bu",
+    "title": "Infosys Cuts 2027 Revenue Outlook Amid AI Shift",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/investors/news-events.html",
+    "title": "Press Releases, Calendars, and Presentations - Investors | Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/newsroom/press-releases.html",
+    "title": "Infosys Press Releases | Infosys Latest News | Newsroom",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:44:08.641301Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 2,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:44:08.642394Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 3638,
+   "tokens": 1075,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:44:12.331266Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 249,
+   "query": "Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:44:12.584087Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:44:12.584427Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 2198,
+   "tokens": 2910,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:44:16.531724Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 249,
+   "query": "Infosys Q2 FY2027 earnings guidance cut AI deals hiring",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:44:16.53183Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 249,
+   "query": "Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:44:16.531918Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1114,
+   "query": "Infosys press releases October November 2026 partnerships launches",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:44:16.532007Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 623,
+   "query": "Infosys news November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:44:18.03768Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:44:18.03882Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 45388,
+   "tokens": 28007,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 1623,
+  "cited": 8,
+  "verified": 8,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 8,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

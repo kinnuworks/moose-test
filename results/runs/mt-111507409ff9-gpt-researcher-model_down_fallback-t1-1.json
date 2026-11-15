@@ -1,0 +1,295 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-model_down_fallback-t1-1",
+ "agent": "gpt-researcher",
+ "condition": "model_down_fallback",
+ "task_id": "t1",
+ "company": "Nvidia",
+ "repeat": 1,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-model_down_fallback-t1-1",
+ "exit_code": 0,
+ "stderr_tail": ":20] Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.032775\nINFO:     [13:15:20] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:16:08] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 63.3,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Nvidia Pre-Meeting Briefing: Q3 FY2027 Earnings Week (17 November 2026)\n\n**Prepared:** 15 November 2026\n**Coverage window:** 16 October to 15 November 2026\n**Basis:** Publicly available reporting and company releases supplied for this review. This briefing is informational and is not investment advice.\n\n## Executive Summary\n\n- **Leadership change:** Jensen Huang resigned as President, CEO and board member with immediate effect. CFO Colette Kress is interim CEO while keeping her CFO role, and the board is searching for a permanent successor ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition); [Data Centre Magazine, 2026](https://datacentremagazine.com/news/nvidia-ceo-jensen-huang-resigns-as-colette-kress-steps-in)).\n- **Market reaction:** Shares fell more than 13% in early trading on 12 November ([Data Centre Magazine, 2026](https://datacentremagazine.com/news/nvidia-ceo-jensen-huang-resigns-as-colette-kress-steps-in)). The stock closed at $162.85 on 13 November, about 32% below the record close of $239.24 on 6 October ([Tickeron, 2026](https://tickeron.com/blogs/nvidia-nvda-slides-18-6-over-30-days-what-the-sell-off-means-for-investors-32753)).\n- **Regulatory overhang:** The Justice Department and Commerce Department are investigating whether a Singaporean company bought advanced Nvidia chips to send to China ([CNN, 2026](https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout)).\n- **Near-term catalyst:** Q3 FY2027 results on 17 November, against company guidance of $108 billion \u00b12% ([Data Centre Magazine, 2026](https://datacentremagazine.com/news/nvidia-ceo-jensen-huang-resigns-as-colette-kress-steps-in)).\n- **Our view:** The transition is primarily a governance and reputational shock. Operating indicators in the sources remain strong, so the meeting should focus on succession, compliance and the durability of the AI spending cycle.\n\n## 1. Situation Snapshot\n\n| Item | Current status | Source |\n|---|---|---|\n| Chief executive | Colette Kress, interim CEO and EVP & CFO | [NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) |\n| Board chair | Harvey C. Jones, the company's first-ever chair | [Mashable, 2026](https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo) |\n| Permanent CEO | Not named; search underway, with internal and external candidates | [Al Jazeera, 2026](https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress) |\n| Next results | Q3 FY2027, 17 November, about 1:20 p.m. PT; call at 2 p.m. PT | [NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) |\n| Revenue guidance | $108.0 billion \u00b12% (about $105.84\u2013110.16 billion) | [OANDA, 2026](https://www.oanda.com/eu-en/blog/NVIDIA-q3-earnings-preview-nov-2026) |\n| Gross margin guidance | 74.0% \u00b150 basis points | [CapitalMEG, 2026](https://www.cmelitegroup.com/knowledge-hub/nvidia-earnings-date) |\n| Market capitalisation | About $4.51 trillion (13 November) | [Tickeron, 2026](https://tickeron.com/blogs/nvidia-nvda-slides-18-6-over-30-days-what-the-sell-off-means-for-investors-32753) |\n| Investor Relations contact | Toshiya Hari, ir@nvidia.com | [NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) |\n\n## 2. What Changed in the Last 30 Days\n\n### 2.1 Leadership and Governance\n\nHuang's departure ends a 33-year tenure as head of the company he co-founded in 1993. Mashable described it as the first CEO change in the company's 33-year history ([Mashable, 2026](https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo)). The board accepted the resignation on 11 November, a day before the announcement ([Data Centre Magazine, 2026](https://datacentremagazine.com/news/nvidia-ceo-jensen-huang-resigns-as-colette-kress-steps-in)). The company did not give a reason in its statement ([Mashable, 2026](https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo)).\n\nMedia reports link the departure to personal conduct. Al Jazeera reports that Huang resigned following allegations of extramarital affairs ([Al Jazeera, 2026](https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress)). Yahoo Finance reports that Huang acknowledged a separate relationship with a woman whom US intelligence officials believe is a Chinese spy ([Howley, 2026](https://finance.yahoo.com/technology/article/nvidia-ceo-huang-resigns-amid-affair-scandals-board-names-cfo-colette-kress-interim-ceo-135801377.html)). These are reported claims. The Justice Department has said it has not yet determined whether the woman is a Chinese spy ([CNN, 2026](https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout)).\n\nHarvey C. Jones, a director since 1993 and former CEO and Executive Chairman of Synopsys, was named the first-ever board chair ([Data Centre Magazine, 2026](https://datacentremagazine.com/news/nvidia-ceo-jensen-huang-resigns-as-colette-kress-steps-in)). Independent board members issued a statement on 10 November ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)). Two further board statements and a message to the company were dated 8 November ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)). The newsroom listing shows only titles, so their content could not be verified here.\n\n### 2.2 Investigations and Political Pressure\n\n- **Congressional pressure:** House Foreign Affairs Committee Chairman Brian Mast said he was prepared to subpoena Huang unless he responded by 11 November to a request for a closed-door briefing. No subpoena had been issued at the time of reporting ([Lanz, 2026](https://finance.yahoo.com/markets/stocks/articles/nvidia-erases-2026-gains-republicans-204550552.html)). A CNN headline indicates Huang has since been summoned to testify, but the excerpt available does not include the details ([CNN, 2026](https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout)).\n- **Export-control inquiry:** The Justice Department is investigating, with the Commerce Department, whether a Singaporean company bought advanced Nvidia chips to send to China ([CNN, 2026](https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout)).\n- **China exposure:** Nvidia's prior quarterly outlook assumed no data-centre compute revenue from China ([Data Centre Magazine, 2026](https://datacentremagazine.com/news/nvidia-ceo-jensen-huang-resigns-as-colette-kress-steps-in)). OANDA notes that the guidance excludes sales of Data Center compute chips to China ([Kami\u0144ski, 2026](https://www.oanda.com/eu-en/blog/NVIDIA-q3-earnings-preview-nov-2026)).\n- **Data-centre regulation:** Tickeron attributes the early-November sell-off mainly to concerns over potential data-centre regulation and a broader AI-sector repricing, rather than to Nvidia's reported fundamentals ([Evans, 2026](https://tickeron.com/blogs/nvidia-nvda-slides-18-6-over-30-days-what-the-sell-off-means-for-investors-32753)).\n\n### 2.3 Share Price and Market Reaction\n\n|",
+ "llm": {
+  "calls": 6,
+  "ok": 3,
+  "errors": 3,
+  "embedding_calls": 0,
+  "tokens_in": 25347,
+  "tokens_out": 12980,
+  "cost": 0.009025,
+  "fallbacks": 3,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.stocktitan.net/news/NVDA/nvidia-announces-ceo-03al5m45ne1p.html",
+    "title": "NVIDIA CEO Jensen Huang Resigns; Kress Interim CEO | NVDA Stock News",
+    "published_date": null
+   },
+   {
+    "url": "https://datacentremagazine.com/news/nvidia-ceo-jensen-huang-resigns-as-colette-kress-steps-in",
+    "title": "NVIDIA CEO Jensen Huang Resigns as Colette Kress Steps In | Data Centre Magazine",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/technology/article/nvidia-ceo-huang-resigns-amid-affair-scandals-board-names-cfo-colette-kress-interim-ceo-135801377.html",
+    "title": "Nvidia CEO Huang resigns amid affair scandals, board names CFO Colette Kress interim CEO",
+    "published_date": null
+   },
+   {
+    "url": "https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo",
+    "title": "Jensen Huang resigns as Nvidia CEO, Colette Kress takes over | Mashable",
+    "published_date": null
+   },
+   {
+    "url": "https://www.aljazeera.com/news/2026/11/12/why-did-nvidia-ceo-jensen-huang-resign-and-who-is-colette-kress",
+    "title": "Why did Nvidia CEO Jensen Huang resign, and who is Colette Kress? | Business and Economy News | Al Jazeera",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cmelitegroup.com/knowledge-hub/nvidia-earnings-date",
+    "title": "Nvidia Earnings Date: Q3 FY2027 Time and Estimates | CapitalMEG",
+    "published_date": null
+   },
+   {
+    "url": "https://www.oanda.com/eu-en/blog/NVIDIA-q3-earnings-preview-nov-2026",
+    "title": "NVIDIA Q3 earnings preview: Record expectations, rising risk | OANDA EU",
+    "published_date": null
+   },
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+    "title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results | NVIDIA Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.instagram.com/p/DfHYR6KMU82",
+    "title": "Instagram",
+    "published_date": null
+   },
+   {
+    "url": "https://x.com/financialjuice/status/2120876971324580002",
+    "title": "FinancialJuice on X: \"Nvidia will report Q3 fiscal 2027 financial results November 17th $NVDA\" / X",
+    "published_date": null
+   },
+   {
+    "url": "https://tickeron.com/blogs/nvidia-nvda-slides-18-6-over-30-days-what-the-sell-off-means-for-investors-32753",
+    "title": "NVIDIA (NVDA) Slides -18.6% Over 30 Days: What the Sell-Off Means for Investors",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=4bWM55DgyMM",
+    "title": "Nvidia CEO Out \u2014 10 Stocks To Buy Before S&P 500 Hits 8,000",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/nvidia-erases-2026-gains-republicans-204550552.html",
+    "title": "Nvidia Erases 2026 Gains as Republicans Threaten Jensen Huang With Subpoena",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cnn.com/2026/11/11/business/live-news/nvidia-jensen-huang-investigation-fallout",
+    "title": "Live updates: Jensen Huang summoned to testify before Congress after resigning as Nvidia CEO | CNN Business",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/newshour/videos/lawmakers-investors-and-tech-leaders-around-the-world-spent-part-of-monday-asses/1443534704596605",
+    "title": "1.4K views \u00b7 40 reactions | Lawmakers, investors and tech leaders around the world spent part of Monday assessing bombshell revelations about Nvidia founder and CEO Jensen Huang.\n\nNvidia designs the chips and processors that power artificial intelligence, and now its CEO faces mounting scrutiny inside the company, on Capitol Hill and in the courts.\n\nFollowing media reports, Huang admitted he was having an extramarital affair with a woman who is said to be a suspected Chinese spy. The events have raised questions about Huang, President Donald Trump\u2019s relationship with him and Huang\u2019s dealings with China on critical technology.\n\nWilliam Brangham reports. | PBS NewsHour",
+    "published_date": null
+   },
+   {
+    "url": "https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728",
+    "title": "NVIDIA Announces CEO Transition",
+    "published_date": null
+   },
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "title": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.morningstar.com/news/globe-newswire/9876322/nvidia-announces-ceo-transition",
+    "title": "NVIDIA Announces CEO Transition | Morningstar",
+    "published_date": null
+   },
+   {
+    "url": "https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html",
+    "title": "Nvidia: Latest news and insights | Network World",
+    "published_date": null
+   },
+   {
+    "url": "https://aibusinessweekly.net/p/nov-13-2026-nvidia-sudden-ceo-change",
+    "title": "AI Business Weekly Nov 13, 2026: Nvidia's Sudden CEO Change",
+    "published_date": null
+   },
+   {
+    "url": "https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728",
+    "title": "NVIDIA Announces CEO Transition",
+    "published_date": null
+   },
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "title": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.morningstar.com/news/globe-newswire/9876322/nvidia-announces-ceo-transition",
+    "title": "NVIDIA Announces CEO Transition | Morningstar",
+    "published_date": null
+   },
+   {
+    "url": "https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html",
+    "title": "Nvidia: Latest news and insights | Network World",
+    "published_date": null
+   },
+   {
+    "url": "https://aibusinessweekly.net/p/nov-13-2026-nvidia-sudden-ceo-change",
+    "title": "AI Business Weekly Nov 13, 2026: Nvidia's Sudden CEO Change",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:45:07.055374Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:45:07.056163Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 5345,
+   "tokens": 1488,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:45:12.485839Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 621,
+   "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:45:13.110505Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 0,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:45:13.110736Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 1712,
+   "tokens": 3107,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:45:17.09817Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 235,
+   "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:45:17.102195Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 238,
+   "query": "Nvidia news last 30 days November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:45:17.105837Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1626,
+   "query": "Nvidia Q3 fiscal 2027 earnings date November 2026 product launches partnerships",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:45:17.106772Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 238,
+   "query": "Nvidia CEO transition Jensen Huang resignation Colette Kress interim CEO",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:45:20.954009Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:45:20.954387Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 47464,
+   "tokens": 33732,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 720,
+  "cited": 10,
+  "verified": 10,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 10,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

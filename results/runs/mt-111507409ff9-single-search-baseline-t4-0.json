@@ -1,0 +1,114 @@
+{
+ "run_id": "mt-111507409ff9-single-search-baseline-t4-0",
+ "agent": "single-search",
+ "condition": "baseline",
+ "task_id": "t4",
+ "company": "Databricks",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-single-search-baseline-t4-0",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 12.0,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Databricks, 17 November 2026\n\n**Window:** 18 October to 17 November 2026 (30 days before the meeting). Based only on the search results provided.\n\n## What changed\n\n**Scale and growth (claimed, unaudited)**\n- Ben Horowitz's 27 October essay says Databricks has passed a $7B revenue run rate, growing 80% year over year. Its Lakehouse is above $1.5B (growing over 100%) and Lakebase is above $100M. Databricks is private, so these figures are not audited. (https://fourweekmba.com/ai-horowitz-says-databricks-hit-7b-as-agents-outquery-people)\n- The same essay says agents now send Databricks more queries than people do. (https://fourweekmba.com/ai-horowitz-says-databricks-hit-7b-as-agents-outquery-people)\n- Databricks was most recently valued at $190B. As of October 2026 it has no announced IPO date and no public S-1. (https://smartasset.com/investing/databricks-ipo-date-timeline-valuation-and-investment-options)\n\n**Launches**\n- On 11 November, Databricks launched native Genie plugins for ChatGPT, Claude, Microsoft Copilot Cowork and Grok Bot. Other compatible agents can still connect through the Genie One MCP server. (https://www.unite.ai/databricks-launches-native-genie-plugins-for-four-ai-agents)\n- Databricks launched a set of agentic AI tools on 11 November. These include an updated Genie assistant that runs in the background and makes proactive suggestions, and a separate \"Ontology\" feature that scans organisational data. (https://finance.yahoo.com/technology/ai/articles/day-anthropic-office-push-databricks-220704968.html)\n- Commvault announced Data Activate for Databricks, which is planned for early access in December 2026 in select Azure regions. It is not yet generally available. (https://www.tradingview.com/news/tradingview:a912a3a702a15:0-commvault-cvlt-plans-governed-data-solution-for-databricks-ai)\n\n**Deals and investment**\n- HP is moving its customer data platform into Databricks, with a stated aim of 40% lower costs. (https://www.hpcwire.com/bigdatawire/2026/10/20/hp-moves-customer-data-platform-into-databricks-eyes-40-lower-costs)\n- Databricks plans a $3B investment in Europe and the Middle East. The source shows only the headline. (https://www.hpcwire.com/bigdatawire/2026/10/20/hp-moves-customer-data-platform-into-databricks-eyes-40-lower-costs)\n- Databricks will invest more than $500M in the Netherlands. The source shows only the headline. (https://www.hpcwire.com/bigdatawire/2026/10/20/hp-moves-customer-data-platform-into-databricks-eyes-40-lower-costs)\n\n**Hires and M&A**\n- No hires were found in the results.\n- The company profile lists acquisitions of Panther Labs (June 2026) and Electric DB (August 2026). Both fall before the 30-day window, so they are background only. (https://tavily.com/knowledge/company/7LlnrDq1nEGX)\n\n## Gaps\n- The results contain no hiring or executive-change news for the window.\n- The $3B and Netherlands investment items are headline-only. Amounts, timing and scope need confirming.\n- The Solutions Review newsletter (7 November) names Databricks in its headline but gives no detail in the results. (https://solutionsreview.com/business-intelligence/analytics-and-data-science-news-for-the-week-of-november-6-updates-from-databricks-ocient-smartsheet-more)\n\n## Open questions\n1. How will the new Genie agents and Ontology feature be priced and governed for our deployment, and what access controls apply to agent-generated queries?\n2. What is the scope, timing and regional allocation of the $3B Europe and Middle East investment, and does it affect capacity or data residency for us?\n3. Given that agents now make more queries than people, how is agent usage measured and billed, and what does the HP customer-data consolidation mean for our own migration plans?",
+ "llm": {
+  "calls": 1,
+  "ok": 1,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 2813,
+  "tokens_out": 2572,
+  "cost": 0.001567,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://fourweekmba.com/ai-horowitz-says-databricks-hit-7b-as-agents-outquery-people",
+    "title": "Horowitz Says Databricks Hit $7B as Agents Outquery People - FourWeekMBA",
+    "published_date": "Tue, 27 Oct 2026 19:07:48 GMT"
+   },
+   {
+    "url": "https://smartasset.com/investing/databricks-ipo-date-timeline-valuation-and-investment-options",
+    "title": "Databricks IPO Date: Timeline, Valuation and Investment Options",
+    "published_date": "Sun, 25 Oct 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.hpcwire.com/bigdatawire/2026/10/20/hp-moves-customer-data-platform-into-databricks-eyes-40-lower-costs",
+    "title": "BigDATAwire - Data Science \u2022 AI \u2022 Advanced Analytics",
+    "published_date": "Tue, 20 Oct 2026 14:42:14 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/7LlnrDq1nEGX",
+    "title": "Databricks",
+    "published_date": null
+   },
+   {
+    "url": "https://solutionsreview.com/business-intelligence/analytics-and-data-science-news-for-the-week-of-november-6-updates-from-databricks-ocient-smartsheet-more",
+    "title": "Analytics and Data Science News for the Week of November 6; Updates from Databricks, Ocient, Smartsheet &amp; More",
+    "published_date": "Sat, 07 Nov 2026 00:00:40 GMT"
+   },
+   {
+    "url": "https://finance.yahoo.com/technology/ai/articles/day-anthropic-office-push-databricks-220704968.html",
+    "title": "A day after Anthropic\u2019s office push, Databricks jumps in with AI agents that never sleep",
+    "published_date": "Thu, 12 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.tradingview.com/news/tradingview:a912a3a702a15:0-commvault-cvlt-plans-governed-data-solution-for-databricks-ai",
+    "title": "Commvault (CVLT) Plans Governed Data Solution for Databricks AI \u2014 TradingView News",
+    "published_date": "Tue, 10 Nov 2026 13:30:00 GMT"
+   },
+   {
+    "url": "https://www.unite.ai/databricks-launches-native-genie-plugins-for-four-ai-agents",
+    "title": "Databricks Launches Native Genie Plugins for Four AI Agents \u2013 Unite.AI",
+    "published_date": "Wed, 11 Nov 2026 15:59:12 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:41:40.165769Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 239,
+   "query": "Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:41:40.467903Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 11248,
+   "tokens": 5385,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 442,
+  "cited": 8,
+  "verified": 8,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 8,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

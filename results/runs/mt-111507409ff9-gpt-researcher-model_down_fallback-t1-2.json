@@ -1,0 +1,295 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-model_down_fallback-t1-2",
+ "agent": "gpt-researcher",
+ "condition": "model_down_fallback",
+ "task_id": "t1",
+ "company": "Nvidia",
+ "repeat": 2,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-model_down_fallback-t1-2",
+ "exit_code": 0,
+ "stderr_tail": ":35] Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.030915\nINFO:     [13:19:35] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:20:27] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 71.6,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Nvidia Pre-Meeting Briefing: 17 November 2026\n\n**Prepared:** 15 November 2026 | **Meeting:** 17 November 2026 | **Review window:** 16 October to 15 November 2026\n\n## Purpose and Scope\n\nThis briefing covers Nvidia Corporation's (NASDAQ: NVDA) news, leadership changes, deals, and launches from the 30 days before the report date. It also sets out the financial calendar for the meeting day and three open questions. Facts are cited to the source in which they appear. Where a claim rests on a single or lower-reliability source, or where a source was only partly available, this is stated. Analytical judgments are labeled as such.\n\nTwo limitations apply. First, the Nvidia Newsroom pages consulted show headlines and dates for several November statements but not their full text, so their contents are reported only as far as corroborating outlets describe them. Second, the Network World hub was last updated on 12 August 2026 ([Network World staff, 2026](https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html)), so it does not cover the review window and is used only for background.\n\n## Executive Summary\n\n- **Leadership change (12 November 2026):** Co-founder Jensen Huang resigned as CEO, president, and board member with immediate effect. CFO Colette Kress became interim CEO while keeping the CFO role ([Mashable, 2026](https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo); [Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports)).\n- **Governance context:** A board statement dated 8 November reportedly announced an independent investigation and expressed confidence in Huang. The 12 November release gave no reason for his departure and did not mention the investigation. This comes from a secondary social-media summary and has not been verified against the primary statement ([AI Lab Wire, n.d.](https://www.facebook.com/ailabwire/videos/nvidia-just-lost-the-ceo-who-built-it-jensen-huang-resigned-as-ceo-and-board-mem/2162287428010668)).\n- **Earnings on the meeting date:** Q3 FY2027 results are scheduled for Tuesday, 17 November, at about 1:20 p.m. PT, with the call at 2:00 p.m. PT ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873)).\n- **Deal flow in the window:** The only dated partnership announcement found in the window is the NVIDIA, Rebellions and SK Telecom NVLink Fusion collaboration on 8 November ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)). The Hugging Face acquisition remains pending ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports)).\n- **Our assessment:** The meeting's priority should be governance, succession, and the investigation's status, not product roadmap. Operational momentum is not in question in the sources reviewed. Continuity of leadership and disclosure are.\n\n## What Changed in the Last 30 Days\n\n### Leadership and Succession\n\nHuang resigned effective immediately on 12 November 2026, ending a 33-year tenure as leader of the company he co-founded ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports)). Huang also stepped down as president and gave up his board seat ([Mashable, 2026](https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo)).\n\nKress has been interim CEO since the same day. She joined Nvidia in September 2013 after 13 years at Microsoft and previously held a finance leadership role at Cisco ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports)). Her appointment lasts until a permanent successor is named ([Quantisnow, n.d.](https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728)).\n\nHarvey C. Jones, a director since 1993 and former CEO and chairman of Synopsys, was named Nvidia's first-ever board chair ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports)).\n\nThe board has stated that it has \"full confidence in Colette and the leadership team\" and expects \"operations, customer commitments and product roadmap to continue without interruption\" ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports)).\n\nMarket speculation about the permanent CEO exists but is not an appointment. On 12 November, Kalshi traders favored Ian Buck, Nvidia's vice president overseeing hyperscale and HPC, over Kress. CNBC noted that these odds reflect trader expectations, not board intentions ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports)).\n\n### Board Statements and Governance Reporting\n\nNVIDIA's newsroom lists a \"Statement From NVIDIA Board of Directors\" dated 8 November 2026, a \"Message to Our Company\" dated 8 November 2026, and a \"Statement From the Independent Members of the NVIDIA Board\" dated 10 November 2026 ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)). The full text of these statements was not available in the sources reviewed.\n\nA social-media summary states that the 8 November board statement said the board was opening an independent investigation, had confidence in Huang, and had no reason to believe national security or Nvidia secrets were compromised. The same summary states that neither the 8 November statement nor the 12 November release links the investigation to the resignation ([AI Lab Wire, n.d.](https://www.facebook.com/ailabwire/videos/nvidia-just-lost-the-ceo-who-built-it-jensen-huang-resigned-as-ceo-and-board-mem/2162287428010668)). This is a secondary account and should be verified against the primary statements before the meeting.\n\nReporting on the resignation has also referenced an unconfirmed CNBC live-blog headline citing Reuters, which described an \"intimate relationship\" between Huang and a second employee. The headline appears in source listings only, and the reporting itself was not reviewed ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports)). Mashable's coverage likewise declined to confirm a reason for the departure ([Mashable, 2026](https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo)). Neither the company nor the sources reviewed have linked the departure to any reported personal matter. This briefing does not treat these reports as fact.\n\nPress coverage has characterized the change as sudden. AI Business Weekly's 13 November edition headlined it \"Nvidia's Sudden CEO Change\" ([AI Business Weekly, 2026](https://aibusinessweekly.net/p/nov-13-2026-nvidia-sudden-ceo-change)). CNN framed the event as a CFO serving as interim leader after the resignation ([Duffy & Eadicicco, 2026](https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns)).\n\n### Financial Calendar and Guidance\n\nNvidia confirmed on 28 October that its Q3 FY2027 conference call would take place on Tuesday, 17 November, at 2:00 p.m. PT (5:00 p.m. ET). The quarter ended 25 October 2026. Written CFO commentary from Kress will be posted immediately after results are released at approximately 1:20 p.m. PT ([NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873)).\n\nNvidia has kept the date despite the leadership change ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports)). Third-party guidance summaries, which should be treated as secondary, put Q3 revenue guidance at $108.0 billion (\u00b12%), gross margin at 74.0% (\u00b150 basis points), and GAAP operating expenses at about $9.2 billion ([CapitalMEG, 2026](https://www.cmelitegroup.com/knowledge-hub/nvidia-earnings-date)).\n\nThe earnings calendar shows the next report as Q4 FY2027, forecast for February 2027 and labeled inferred rather than confirmed ([Wall Street Horizon, n.d.](https://www.wallstreethorizon.com/nvidia-earnings-calendar)).\n\n### Product Launches and Partnerships\n\n| Date | Event | Type | Window Status | Source |\n|---|---|---|---|---|\n| 8 Nov 2026 | NVIDIA, Rebellions and SK Telecom collaborate on sovereign AI infrastructure using NVLink Fusion | Partnership | In window | [NVIDIA Newsroom, 2026](https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition) |\n| Pending | Hugging Face acquisition (roughly $12.93 billion), with Nvidia's 3 Sep commitment to keep Hugging Face open | M&A | Pending, announced 3 Sep | [Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports) |\n| 1 Sep 2026 | $3.5 billion commitment to purchase MediaTek bonds | Deal | Outside window | [Clark, 2026](https://www.lightreading.com/finance/nvidia-tips-3-5b-into-mediatek-in-latest-tech-partnership) |\n| 11 Aug 2026 | $500 billion investment pool with six financial partners for customers to buy chips on credit | Financing | Outside window | [Network World staff, 2026](https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html) |\n| 27 Jul 2026 | Open Secure AI Alliance launched with more than 30 partners | Initiative | Outside window | [Network World staff, 2026](https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html) |\n\nThe Rebellions item is the only dated partnership announcement found within the review window. Its full text was not available. Light Reading reported that Huang met Rebellions' head to discuss a potential partnership, citing Korean media ([Clark, 2026](https://www.lightreading.com/finance/nvidia-tips-3-5b-into-mediatek-in-latest-tech-partnership)).\n\nThe Network World hub documents Spectrum-X and Vera Rubin announcements in July 2026 ([Network World staff, 2026](https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html)). These are background, not window events.\n\nNo new product launch dated within 16 October to 15 November 2026 was found in the sources reviewed.\n\n### Hires and Executive Moves\n\nWithin the window, the executive changes were limited to:\n\n- Kress as interim CEO while remaining CFO (12 November) ([Superpower Daily, 2026](https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports)).\n- Jones as first board chair (12 November) ([Mashable, 2026](https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo)).\n- Huang's departure from the board and presidency (12 November) ([Mashable, 2026](https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo)).\n\nNo other senior hires or departures were identified in the sources reviewed.\n\n### Market and Competitive Context\n\nQuantisnow's cached page for the CEO story reports, in an AI-generated assessment, that the change is \"Negative for shareholders,\" and it notes that no permanent CEO has been named and that a search has only just begun ([Quantisnow, n.d.](https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728)). Quantisnow discloses that the piece was written by its AI agent and is not financial advice, so this should be treated as a characterization, not a verified judgment.\n\nQuantisnow's FAQ states that since October 2025, NVDA closed higher the next session after three of five leadership changes and lower after two. It notes that these moves show timing only, not causation ([Quantisnow, n.d.](https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728)). The detailed data is paywalled.\n\nCompetitive pressure is also visible. AI Business Weekly reported that Luminal raised $23 million to pursue a compiler approach aimed at Nvidia's software position, citing an inference cloud handling more than 45 trillion tokens per month ([AI Business Weekly, 2026](https://aibusinessweekly.net/p/nov-13-2026-nvidia-sudden-ceo-change)). This is a single-source, early-stage competitor and should not be overweighted.\n\n## Source Reliability Assessment\n\n| Source | Type | Reliability for This Briefing | Notes |\n|---|---|---|---|\n| NVIDIA Newsroom | Primary, company | High | Headlines and dates verified; full text partly unavailable |\n| CNN Business | Major news outlet | High | Confirms the resignation and interim role |\n| Mashable | Tech news outlet | Medium-high | Confirms the resignation, presidency, and board seat |\n| Superpower Daily | Aggregator, cites CNBC | Medium | Contains the most detail; relies on CNBC reporting |\n| Quantisnow | Market data platform, AI-generated analysis | Medium-low for analysis | Disclosed as AI-written; teaser data only |\n| AI Business Weekly | Newsletter | Medium | Used for headline and competitor item |\n| CapitalMEG | Education site | Medium | Used for guidance figures; should be checked against company filings |\n| Wall Street Horizon | Earnings calendar | Medium | Confirms date; inferred future dates |\n| Network World | Trade publication, hub | Medium (background only) | Last updated 12 Aug 2026 |\n| Light Reading | Trade publication | Medium | Used for MediaTek and Rebellions background |\n| AI Lab Wire (Facebook) | Social video summary | Low | Sole source for the investigation claim; unverified |\n\n## Analytical Assessment\n\n**Our view is that the leadership vacuum is a more important issue than the earnings numbers.** Revenue guidance and gross margin are measurable, and the company has kept the schedule. However, the company has not explained the resignation, and the sources reviewed point to an investigation that has not been disclosed in the release. Those two facts together create a disclosure and governance question that a CFO-led earnings call cannot fully answer. In our judgment, the board's assurance of continuity is credible on operations, since Kress has run finance since 2013. It is less convincing on the strategic and governance dimensions, because the same person is now managing the company, the financial reporting, and the succession process at once.\n\n**We see three specific risks for the meeting.** First, bandwidth: Kress must present results and guidance while acting as CEO, so strategic questions may be deferred. Second, disclosure: the status of the investigation is unclear from primary sources. Third, concentration of decisions: major customer financing commitments, including the $500 billion pool and the pending Hugging Face deal, depend",
+ "llm": {
+  "calls": 6,
+  "ok": 3,
+  "errors": 3,
+  "embedding_calls": 0,
+  "tokens_in": 24516,
+  "tokens_out": 12856,
+  "cost": 0.00888,
+  "fallbacks": 3,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728",
+    "title": "NVIDIA Announces CEO Transition",
+    "published_date": null
+   },
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "title": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.morningstar.com/news/globe-newswire/9876322/nvidia-announces-ceo-transition",
+    "title": "NVIDIA Announces CEO Transition | Morningstar",
+    "published_date": null
+   },
+   {
+    "url": "https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html",
+    "title": "Nvidia: Latest news and insights | Network World",
+    "published_date": null
+   },
+   {
+    "url": "https://aibusinessweekly.net/p/nov-13-2026-nvidia-sudden-ceo-change",
+    "title": "AI Business Weekly Nov 13, 2026: Nvidia's Sudden CEO Change",
+    "published_date": null
+   },
+   {
+    "url": "https://www.foxbusiness.com/markets/nvidia-launches-massive-ai-push-major-partnerships-across-multiple-industries",
+    "title": "Nvidia announces new AI partnerships with Palantir, T-Mobile and Uber | Fox Business",
+    "published_date": null
+   },
+   {
+    "url": "https://www.businessinsider.com/nvidia-new-products-partnerships-gpu-toyota-laptop-geforce-cards-autonomous-2025-1",
+    "title": "Everything We Know About Nvidia's New Products and Partnerships - Business Insider",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=11Y3B33oCLE",
+    "title": "Announcing NVIDIA RTX Spark | GTC Taipei 2026 Keynote by CEO Jensen Huang",
+    "published_date": null
+   },
+   {
+    "url": "https://newsroom.ibm.com/2026-03-16-ibm-and-nvidia-announce-expanded-collaboration-at-gtc-2026-to-advance-ai-for-the-enterprise",
+    "title": "IBM Announces Expanded Collaboration with NVIDIA to Advance AI for the Enterprise",
+    "published_date": null
+   },
+   {
+    "url": "https://www.lightreading.com/finance/nvidia-tips-3-5b-into-mediatek-in-latest-tech-partnership",
+    "title": "Nvidia tips $3.5B into MediaTek in latest tech partnership",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cmelitegroup.com/knowledge-hub/nvidia-earnings-date",
+    "title": "Nvidia Earnings Date: Q3 FY2027 Time and Estimates | CapitalMEG",
+    "published_date": null
+   },
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-sets-conference-call-for-third-quarter-financial-results-6928873",
+    "title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results | NVIDIA Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.instagram.com/p/DfHYR6KMU82",
+    "title": "Instagram",
+    "published_date": null
+   },
+   {
+    "url": "https://www.wallstreethorizon.com/nvidia-earnings-calendar",
+    "title": "Nvidia Earnings Date, Report, Conference Call, Forecasted Dates (NVDA)",
+    "published_date": null
+   },
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+    "title": "NVIDIA Announces Financial Results for Second Quarter Fiscal 2027 | NVIDIA Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://superpowerdaily.com/posts/jensen-huang-resigns-as-nvidia-ceo-colette-kress-takes-interim-role-cnbc-reports",
+    "title": "Jensen Huang resigns as Nvidia CEO; Colette Kress takes interim role, CNBC reports | Superpower Daily",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/ailabwire/videos/nvidia-just-lost-the-ceo-who-built-it-jensen-huang-resigned-as-ceo-and-board-mem/2162287428010668",
+    "title": "Nvidia just lost the CEO who built it. Jensen Huang resigned as CEO and board member, effective immediately, after 33 years. CFO Colette Kress is interim CEO while the board searches for a permanent successor. On November 8, the board said it was opening an independent investigation and had confidence in him. The Nov 12 release gives no reason for the resignation and does not mention the investigation. Neither the Nov 8 statement nor the Nov 12 release says the two are related. The Nov 8 statement said the board had no reason to believe national security or Nvidia secrets were compromised. Nvidia says it expects operations and the roadmap to continue without interruption. Does Nvidia hold steady without him? | AI Lab Wire",
+    "published_date": null
+   },
+   {
+    "url": "https://mashable.com/tech/jensen-huang-resigns-nvidia-ceo",
+    "title": "Jensen Huang resigns as Nvidia CEO, Colette Kress takes over | Mashable",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/stockmarketscholars/videos/nvidia-faces-a-major-leadership-shake-up-jensen-huang-reportedly-steps-down-with/1487896976552259",
+    "title": "NVIDIA faces a major leadership shake-up! \ud83d\udea8 Jensen Huang reportedly steps down, with CFO Colette Kress named interim CEO.\n\nDisclaimer: For informational purposes only. Verify breaking news through official sources before making decisions.\n\n#nvidia #jensenhuang #technews #stockmarket #businessnews | stockmarketscholars",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cnn.com/2026/11/12/tech/jensen-huang-nvidia-resigns",
+    "title": "Nvidia CEO Jensen Huang resigns, CFO Colette Kress to serve as interim leader | CNN Business",
+    "published_date": null
+   },
+   {
+    "url": "https://quantisnow.com/insight/nvidia-announces-ceo-transition-6786728",
+    "title": "NVIDIA Announces CEO Transition",
+    "published_date": null
+   },
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "title": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.morningstar.com/news/globe-newswire/9876322/nvidia-announces-ceo-transition",
+    "title": "NVIDIA Announces CEO Transition | Morningstar",
+    "published_date": null
+   },
+   {
+    "url": "https://www.networkworld.com/article/3562856/nvidia-latest-news-and-insights.html",
+    "title": "Nvidia: Latest news and insights | Network World",
+    "published_date": null
+   },
+   {
+    "url": "https://aibusinessweekly.net/p/nov-13-2026-nvidia-sudden-ceo-change",
+    "title": "AI Business Weekly Nov 13, 2026: Nvidia's Sudden CEO Change",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:49:20.12758Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 13,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:49:20.136199Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 8125,
+   "tokens": 1362,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:49:28.751185Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 246,
+   "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:49:29.001393Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:49:29.004803Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 1825,
+   "tokens": 3109,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:49:32.230571Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 371,
+   "query": "Nvidia CEO transition Jensen Huang resignation Colette Kress interim CEO November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:49:32.230981Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1223,
+   "query": "Nvidia Q3 fiscal 2027 earnings conference call date results preview",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:49:32.23102Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 685,
+   "query": "Nvidia news product launches partnerships deals November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:49:32.23127Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 670,
+   "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:49:35.706642Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 6,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:49:35.711381Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 51203,
+   "tokens": 32901,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 1786,
+  "cited": 12,
+  "verified": 12,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 12,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

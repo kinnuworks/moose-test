@@ -1,0 +1,295 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-model_down_fallback-t5-0",
+ "agent": "gpt-researcher",
+ "condition": "model_down_fallback",
+ "task_id": "t5",
+ "company": "Canva",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-model_down_fallback-t5-0",
+ "exit_code": 0,
+ "stderr_tail": "lized research step.\n\ud83d\udcb8 Total Research Costs: $0.04616000000000001\nINFO:     [13:12:42] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Canva on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:13:27] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Canva on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 63.2,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Canva on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Canva Meeting Briefing: 17 November 2026\n\n**Prepared:** 15 November 2026\n**Scope:** Developments from roughly 16 October to 15 November 2026, with earlier context where needed\n**Reliability note:** Most coverage of the restructure comes from secondary sources. Canva's own memo is quoted second-hand, and Canva has not published headcount exits or a country split. Figures below are reported, not independently verified.\n\n## Executive Summary\n\nCanva announced a restructure on 3 to 4 November 2026 that affects 1,271 roles, about 22% of its workforce. The company describes the change as a response to slowing growth. The package includes a minimum of six months' base pay, extended healthcare, and other support. Sources indicate that the 1,271 figure is not a count of exits, since it includes redundancies, changed roles, and relocation requests ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)).\n\nIn my assessment, the memo's stated rationale is structural (overlapping handovers, management layers, and dispersed teams) and growth-driven. However, the company's August forecast cut and its AI cost problems suggest that AI economics are a material part of the slowdown, even if the memo does not frame it that way. The 30-day window contains no reported hires or acquisitions, so the main subject of this meeting is the restructure and its execution.\n\n## What Changed in the Last 30 Days\n\n### The Restructure Announcement\n\nOn 3 November 2026 (US time), CEO and co-founder Melanie Perkins sent staff a memo. It said: \"After months of thinking through how to set Canva up for the next chapter, we have made the incredibly hard decision to make significant changes to how we're organised, where some of our teams are based and the roles and skills we need for the future\" ([Varley, 2026](https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life)). The announcement was reported in Sydney time on 4 November ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)).\n\nPer the memo, three units (Product, Growth, and Platform) will merge into one product organisation. Management layers will be simplified, and more teams will be concentrated in Sydney ([Niehues, 2026](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations)). Perkins wrote that \"small changes won't be enough\" and said Canva needs to \"refound Canva\" around small teams that own their work end to end ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)).\n\n### Scale and Terminology\n\nCanva operates in 37 countries and has not published a country split for the cuts ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)). Coverage uses several terms for the same figure. Some describes \"1,271 employees affected\" ([CTO Magazine, 2026](https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand)), while others specify roles. Only the \"roles\" framing is consistent with the memo as quoted. Canva has not said how many people will leave.\n\n### Office Policy\n\nThe memo says most hybrid staff will be expected in the office \"around two to three days\" a week from January, depending on location. Forbes notes Canva previously required hub visits only twice a quarter before dropping even that requirement ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)).\n\n### Process and Timeline\n\nAffected employees receive an invitation to an optional one-to-one with a senior leader. They keep Slack and Gmail access until the end of that week. A company-wide meeting took place on 10 November, followed by reorganised team meetings from 11 November ([Niehues, 2026](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations)). The sources do not report what was said at those meetings, so this is an open gap for the briefing.\n\n### Severance and Benefits\n\n| Element | Canva (November 2026) | Reference point |\n|---|---|---|\n| Base pay | At least six months' base pay for all affected staff worldwide ([Quartz/HR Brew, n.d.](https://qz.com/tech-layoff-severance-packages)) | 16-week benchmark for major tech firms ([Quartz/HR Brew, n.d.](https://qz.com/tech-layoff-severance-packages)) |\n| Healthcare | Up to 12 months where Canva already provides coverage ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)) | Block's February round named six months ([Quartz/HR Brew, n.d.](https://qz.com/tech-layoff-severance-packages)) |\n| Equipment | Staff may keep company MacBooks ([Quartz/HR Brew, n.d.](https://qz.com/tech-layoff-severance-packages)) | Not reported for other firms |\n| Other support | Career coaching, a year of LinkedIn Premium, a year of Canva Care for families, and optional US$10,000 grants ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)) | Not reported for other firms |\n| Vesting | One-year vesting cliff removed ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs); [Amazing Workplaces, n.d.](https://amazingworkplaces.co/canva-layoffs-2026)) | Quartz/HR Brew notes that unvested equity treatment is often unreported ([Quartz/HR Brew, n.d.](https://qz.com/tech-layoff-severance-packages)) |\n\nQuartz/HR Brew treats the six-month floor, the MacBook decision, and the $10,000 grants as outliers against the 16-week benchmark ([Quartz/HR Brew, n.d.](https://qz.com/tech-layoff-severance-packages)). Niehues calculates that the six-month minimum exceeds the technology-sector average, though this is a consultant's estimate ([Niehues, 2026](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations)).\n\n### Market Context (October 2026)\n\nChallenger, Gray and Christmas reported that US employers announced 43,994 job cuts in October 2026. That is 71% lower than October 2025 and the lowest October since 2023 ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)). Canva's cuts therefore stand out against a low-layoff backdrop.\n\n### Product Launches\n\nCanva released Craft in October 2026, described as its first in-house image generation model, designed to lower the cost of serving AI features ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)). A discrepancy needs checking: Wikipedia cites a TechCrunch article dated 30 October 2025 on Canva launching its own design model ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Canva)). The Craft release date should be confirmed before it is used in the meeting.\n\n### Hires and Deals\n\nThe supplied material reports **no new hires or executive appointments** and **no acquisitions or deals** within the last 30 days. The most recent acquisitions cited are startups working on animation and marketing, reported on 24 February 2026 ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Canva)). Any claims about hiring should be checked against Canva's careers page, which Final Round AI advises checking before applying ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)).\n\n## Background: Earlier 2026 Developments\n\n| Date | Event | Source |\n|---|---|---|\n| March 2025 | Canva made 10 of 12 technical writers redundant | [Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs) |\n| April 2026 | Canva AI 2.0 launched, described as the most significant product change since 2013 | [Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs) |\n| May 2026 | Reported $800,000 fine for late lodgement of financial reports | [Wikipedia, n.d.](https://en.wikipedia.org/wiki/Canva) |\n| August 2026 | 2026 revenue growth forecast cut from 30% to 20%, linked to slowed AI rollouts and computing costs | [Wikipedia, n.d.](https://en.wikipedia.org/wiki/Canva); [Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs) |\n| Undated | Shareholders Blackbird and Airtree reportedly cut Canva's valuation 17% to US$34.9 billion from a US$42 billion peak | [Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs) |\n\nWikipedia reports that the cost per AI task fell by nearly 90% after Canva AI 2.0 was introduced, and that Canva slowed AI rollouts while rebuilding its underlying architecture ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Canva)). The company reported US$3.5 billion in revenue for the previous year and says it is profitable on a free cash flow basis, according to The Register as cited by Niehues ([Niehues, 2026](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations)).\n\n## Analysis\n\n### Why the Restructure Happened\n\nThree explanations appear in the coverage:\n\n1. **Growth deceleration.** Perkins says growth slowed for the first time in a decade ([Silicon Republic, 2026](https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life)).\n2. **Organisational friction.** Niehues argues the target is handovers between Product, Growth, and Platform, which required agreement at every step ([Niehues, 2026](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations)).\n3. **AI cost pressure.** CTO Magazine lists rising costs of building an AI platform among three pressures ([CTO Magazine, 2026](https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand)).\n\nMy view is that the first two explanations are best supported by primary-sourced quotes. The third is plausible given the August forecast cut and the AI cost reporting, but the memo itself does not make that link. I would not present the restructure as primarily AI-driven, and I would not present it as unrelated to AI economics.\n\n### Reliability of Sources\n\nFinal Round AI is a career-coaching vendor that sells an interview tool, and its articles carry promotional content. I have used its factual reporting but not its advice. Amazing Workplaces and Final Round AI are both secondary. The strongest sources in this briefing are Silicon Republic (a news outlet), Quartz/HR Brew (benchmark data), and Niehues (a consultant with a detailed reading of the memo). The Wikipedia entry is useful for chronology but should be cross-checked against original reporting.\n\n### Risks and Opportunities for the Relationship\n\n- **Risk:** Recruiting and employer brand. Affected staff will talk publicly, and Amazing Workplaces notes that the package was widely covered within a day ([Amazing Workplaces, n.d.](https://amazingworkplaces.co/canva-layoffs-2026)).\n- **Risk:** Remote and international roles. With product teams concentrating in Sydney, fewer remote openings outside Australia may follow ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)). This is an inference from a vendor source, not a company statement.\n- **Opportunity:** The severance package is generous by benchmark standards, which may limit legal and reputational friction ([Quartz/HR Brew, n.d.](https://qz.com/tech-layoff-severance-packages)).\n\n## Three Open Questions for the Meeting\n\n1. **Of the 1,271 roles, how many will be redundancies, changed roles, or relocations, and how many fall outside Australia?** Canva has not published a country split or an exit count ([Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)).\n2. **What targets will the merged product organisation be measured against, given the cut to 20% growth and the AI cost reductions reported so far?** The memo ties the restructure to growth, but the forecast and AI cost data suggest the targets are not yet public ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Canva)).\n3. **How will the equity treatment of affected staff be handled, and what is the hiring plan for Sydney and other hubs in 2027?** Reporting on unvested equity is inconsistent across sources, and the hiring plan has not been disclosed ([Quartz/HR Brew, n.d.](https://qz.com/tech-layoff-severance-packages); [Final Round AI, n.d.](https://www.finalroundai.com/blog/canva-layoffs)).\n\n## References\n\nAmazing Workplaces. (n.d.). *Canva layoffs 2026: What happened and what HR can learn*. Amazing Workplaces. [https://amazingworkplaces.co/canva-layoffs-2026](https://amazingworkplaces.co/canva-layoffs-2026)\n\nCTO Magazine. (2026, November 12). *Canva layoff 2026 & workforce restructuring: What leaders need to understand* (G. Gomes, Author). CTO Magazine. [https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand](https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand)\n\nFinal Round AI. (n.d.). *Canva layoffs: 1,271 roles affected in a 22% restructure*. Final Round AI. [https://www.finalroundai.com/blog/canva-layoffs](https://www.finalroundai.com/blog/canva-layoffs)\n\nNiehues, M. (2026, November 9). *Canva layoffs 2026: The restructuring targets handovers*. Niehues Consulting. [https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations](https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations)\n\nHR Brew. (n.d.). *Tech layoff severance packages: Canva, Block and Meta*. Quartz. [https://qz.com/tech-layoff-severance-packages](https://qz.com/tech-layoff-severance-packages)\n\nSilicon Republic. (2026, November 4). *Canva announces major job cuts and restructuring of its workforce* (L. Varley, Author). Silicon Republic. [https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life](https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life)\n\nWikipedia. (n.d.). *Canva*. Wikipedia. [https://en.wikipedia.org/wiki/Canva](https://en.wikipedia.org/wiki/Canva)",
+ "llm": {
+  "calls": 6,
+  "ok": 3,
+  "errors": 3,
+  "embedding_calls": 0,
+  "tokens_in": 20414,
+  "tokens_out": 13079,
+  "cost": 0.008581,
+  "fallbacks": 3,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.finalroundai.com/blog/canva-layoffs",
+    "title": "Canva Layoffs: 1,271 Roles Affected in a 22% Restructure",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/theprestigeglobal/videos/canva-is-laying-off-1271-employees-around-22-of-its-global-workforce-amid-slowin/1141711418650406",
+    "title": "1.6K views \u00b7 54 reactions | Canva is laying off 1,271 employees, around 22% of its global workforce, amid slowing growth and intensifying competition from generative AI platforms. CEO Melanie Perkins described the decision as the \u201chardest moment\u201d in the company\u2019s 13-year history. Affected employees will reportedly receive at least six months\u2019 pay and $10,000 grants to help launch their own businesses. | The Prestige Magazine",
+    "published_date": null
+   },
+   {
+    "url": "https://qz.com/tech-layoff-severance-packages",
+    "title": "Tech layoff severance packages: Canva, Block and Meta",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/mustardhr/videos/i-came-across-this-today-if-you-dont-have-time-to-read-it-canva-has-cut-22-of-it/1297182765878723",
+    "title": "I came across this today. If you don\u2019t have time to read it, Canva has cut 22% of its workforce (around 1,270 jobs) \ud83d\ude33\n\nThis was founder Melanie Perkins\u2019 letter to those affected: https://www.canva.com/newsroom/news/canva-team-update/\n\nIt\u2019s an interesting read. Alongside what appears to be a pretty impressive exit package (6 months salary, keeping the work Macbook and career transition support including access to startup/community project grants), the comms seems to come from a place of genuine compassion. \n\nWhile making redundancies isn\u2019t pleasant for anyone involved, I strongly believe that by applying some humanity, it can be done \u2018well\u2019. (Even without the sweeteners.)\n\nWhat\u2019s your experience of redundancy handled well - what made the difference? | Mustard HR",
+    "published_date": null
+   },
+   {
+    "url": "https://amazingworkplaces.co/canva-layoffs-2026",
+    "title": "Canva Layoffs 2026: What Happened and What HR Can Learn",
+    "published_date": null
+   },
+   {
+    "url": "https://www.instagram.com/reel/DfZ-42rvHJU",
+    "title": "Chris G | VC + Startups on Instagram: \"Canva\u2019s 2026 layoffs have a plot twist: the company is helping its former employees become entrepreneurs.\n\nImagine getting laid off and your employer offers to help fund your next startup. That\u2019s essentially what Canva is doing.\n\nCEO Melanie Perkins announced a restructuring affecting 1,271 employees, or 22% of the workforce. Not all are being laid off; some face role changes or relocation.\n\nBut look at the exit package:\n\n\u2192 At least 6 months of salary\n\u2192 12 months of healthcare where available\n\u2192 Employees keep their MacBooks\n\u2192 $10,000 startup grants through the Canva Collective Fund, with no equity taken\n\u2192 Career coaching and LinkedIn Premium\n\nNow here\u2019s what investors should actually pay attention to.\n\nCanva lowered its 2026 revenue growth forecast from 30% to 20% as AI costs put pressure on its business model.\n\nMeanwhile, Product, Growth, and Platform are being consolidated into one organization.\n\nTranslation: AI isn\u2019t just changing what software companies sell. It\u2019s changing the cost of delivering their products and how teams need to operate.\n\nAnd here\u2019s the overlooked opportunity: Canva\u2019s departing talent could become the next generation of startup founders.\n\nLosing your job is never easy. But giving employees financial runway, healthcare, and a chance to build something new is a much better exit than simply handing them a severance check.\n\nThe lesson for founders? How you treat employees on the way out says a lot about how you build a company.\n\nWould you rather have six months of severance or a shot at funding your own startup?\n\n#Canva #CanvaLayoffs #StartupNews #TechLayoffs #AIStartups\"",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/wafeqPWRLzYp",
+    "title": "Canva",
+    "published_date": null
+   },
+   {
+    "url": "https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations",
+    "title": "Canva Layoffs 2026: The Restructuring Targets Handovers",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=9uq9zxtwBrk&vl=en-US",
+    "title": "Canva Slashes Growth | Talent Exodus at Google | Revolut's $50B CEO Package | Musk's $55B Terrafab",
+    "published_date": null
+   },
+   {
+    "url": "https://amazingworkplaces.co/canva-layoffs-2026",
+    "title": "Canva Layoffs 2026: What Happened and What HR Can Learn",
+    "published_date": null
+   },
+   {
+    "url": "https://www.niehuesconsulting.de/en/blog/canva-restructuring-lessons-for-organisations",
+    "title": "Canva Layoffs 2026: The Restructuring Targets Handovers",
+    "published_date": null
+   },
+   {
+    "url": "https://ctomagazine.com/canva-layoff-2026-workforce-restructuring-what-leaders-need-to-understand",
+    "title": "Canva Layoff 2026 & Workforce Restructuring: What Leaders Need to Understand - CTO Magazine",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/FortuneMagazine/videos/-httpsbitly4iike5acanva-recently-announced-a-restructuring-affecting-over-1200-e/1702918301223736",
+    "title": "5.5K views \u00b7 24 reactions | \ud83d\udd17: https://bit.ly/4iIkE5a\nCanva recently announced a restructuring affecting over 1,200 employees. With packages offering at least six months of pay, a year of healthcare, and $10,000 grants to start new ventures, the move sparked conversations across the tech world. \n\nKristin Stoller joins #FortuneDaily host Ellie Austin to explain why Canva's approach could set a new standard for how companies handle layoffs. | Fortune",
+    "published_date": null
+   },
+   {
+    "url": "https://www.siliconrepublic.com/business/canva-major-job-cuts-restructuring-workforce-relocation-working-life",
+    "title": "Canva announces major job cuts and restructuring of its workforce",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/ComUnionTech/posts/after-microsofts-job-cuts-canva-announces-layoffs-and-restructuringcanva-has-ann/1540150341473566",
+    "title": "ComUnion Technologies",
+    "published_date": null
+   },
+   {
+    "url": "https://www.canva.com/newsroom/news/canva-create-2026-ai",
+    "title": "Introducing Canva AI 2.0: Reimagining how the world creates",
+    "published_date": null
+   },
+   {
+    "url": "https://www.cmswire.com/digital-experience/canva-ai-20-adds-agentic-design-tools",
+    "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/wafeqPWRLzYp",
+    "title": "Canva",
+    "published_date": null
+   },
+   {
+    "url": "https://www.canva.com/newsroom/news/canva-10-year-timeline",
+    "title": "The Canva timeline: 10 years of empowering the world to design",
+    "published_date": null
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Canva",
+    "title": "Canva - Wikipedia",
+    "published_date": null
+   },
+   {
+    "url": "https://www.finalroundai.com/blog/canva-layoffs",
+    "title": "Canva Layoffs: 1,271 Roles Affected in a 22% Restructure",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/theprestigeglobal/videos/canva-is-laying-off-1271-employees-around-22-of-its-global-workforce-amid-slowin/1141711418650406",
+    "title": "1.6K views \u00b7 54 reactions | Canva is laying off 1,271 employees, around 22% of its global workforce, amid slowing growth and intensifying competition from generative AI platforms. CEO Melanie Perkins described the decision as the \u201chardest moment\u201d in the company\u2019s 13-year history. Affected employees will reportedly receive at least six months\u2019 pay and $10,000 grants to help launch their own businesses. | The Prestige Magazine",
+    "published_date": null
+   },
+   {
+    "url": "https://qz.com/tech-layoff-severance-packages",
+    "title": "Tech layoff severance packages: Canva, Block and Meta",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/mustardhr/videos/i-came-across-this-today-if-you-dont-have-time-to-read-it-canva-has-cut-22-of-it/1297182765878723",
+    "title": "I came across this today. If you don\u2019t have time to read it, Canva has cut 22% of its workforce (around 1,270 jobs) \ud83d\ude33\n\nThis was founder Melanie Perkins\u2019 letter to those affected: https://www.canva.com/newsroom/news/canva-team-update/\n\nIt\u2019s an interesting read. Alongside what appears to be a pretty impressive exit package (6 months salary, keeping the work Macbook and career transition support including access to startup/community project grants), the comms seems to come from a place of genuine compassion. \n\nWhile making redundancies isn\u2019t pleasant for anyone involved, I strongly believe that by applying some humanity, it can be done \u2018well\u2019. (Even without the sweeteners.)\n\nWhat\u2019s your experience of redundancy handled well - what made the difference? | Mustard HR",
+    "published_date": null
+   },
+   {
+    "url": "https://amazingworkplaces.co/canva-layoffs-2026",
+    "title": "Canva Layoffs 2026: What Happened and What HR Can Learn",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:42:25.82828Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 2,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:42:25.829915Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 11362,
+   "tokens": 2425,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:42:37.261847Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 245,
+   "query": "Prepare a one-page briefing for a meeting with Canva on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:42:37.512778Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:42:37.513542Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 1197,
+   "tokens": 3031,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:42:39.416357Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1437,
+   "query": "Canva product launches and acquisitions October November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:42:39.416739Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1709,
+   "query": "Canva news November 2026 restructure layoffs",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:42:39.419691Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1706,
+   "query": "Canva executive hires and funding deals 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:42:39.43078Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 640,
+   "query": "Prepare a one-page briefing for a meeting with Canva on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:42:42.491859Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:42:42.493221Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 45325,
+   "tokens": 28037,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 1639,
+  "cited": 7,
+  "verified": 7,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 7,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

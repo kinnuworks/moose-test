@@ -1,0 +1,126 @@
+{
+ "run_id": "mt-111507409ff9-single-search-model_down_fallback-t6-0",
+ "agent": "single-search",
+ "condition": "model_down_fallback",
+ "task_id": "t6",
+ "company": "Razorpay",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-single-search-model_down_fallback-t6-0",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 10.6,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Razorpay\n**Meeting:** 17 November 2026\n**Scope:** Last 30 days, based only on the search results provided\n\n## Snapshot\nRazorpay, a Bengaluru-based (Bangalore HQ per one profile) B2B SaaS company, is moving toward a public listing. Its IPO has regulatory clearance, and it has a new cross-border licence from GIFT City.\n\n## What changed\n\n**IPO and regulatory approval**\n- Razorpay received the market regulator's approval for its IPO, according to an SEBI document shown on Friday, 13 November 2026. The company had confidentially filed draft papers in June for an IPO of about $600 million. (https://www.thehindu.com/business/indian-fintech-firm-razorpay-gets-regulatory-nod-for-ipo/article71698143.ece)\n- SEBI issued its final observations on Razorpay's draft offer documents on 3 November. This clears the way for the next stages of the listing. (https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms)\n- Razorpay's shareholders approved a fresh issue of shares worth Rs 2,700 crore, plus an offer for sale (OFS) that lets existing investors partly sell their holdings. (https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms)\n- Axis Capital, JPMorgan, Citi and Kotak Mahindra Capital are advising on the offering. (https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms)\n- Inc42 reported the SEBI nod for an IPO of \u20b96,000 crore. (https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%E2%82%B96000-cr-ipo)\n- Earlier coverage expected the company to raise \u20b95,000 to \u20b96,000 crore through a fresh issue plus OFS. This coverage predates the approval and says the price band was still to come. (https://upstox.com/news/market-news/ipo/upcoming-ip-os-mahanadi-coalfields-oyo-cult-fit-carlsberg-india-are-among-big-ticket-ip-os-expected-after-jio-platforms-listing/article-202719)\n\n**Licensing and deals**\n- Razorpay received a final licence to expand cross-border payments from GIFT City. The source is a Business Standard headline index; the full article was not in the results. (https://www.business-standard.com/markets/news/ifsca-proposes-model-portfolios-in-gift-city-by-research-entities-126110900766_1.html)\n\n**Headcount (undated source)**\n- Headcount is listed at 4,033, down 16 (-0.4%) over the year and down 23 over the quarter. (https://tavily.com/knowledge/company/aJrBNen1btW7)\n\n**Hires and product launches:** No results found in the last 30 days. I could not find sources for these.\n\n## Source gaps and conflicts\n- **Approval date:** The Hindu reports the approval as shown on 13 November. ET reports SEBI's final observations as issued on 3 November. Confirm which date is correct before citing it externally.\n- **IPO size:** Estimates range from \u20b95,000\u20136,000 crore (Upstox) to \u20b96,000 crore (Inc42). The ET excerpt cuts off before the target figure.\n- **Headcount:** The profile page is undated, so it may not reflect the last 30 days.\n\n## Open questions\n1. Following SEBI's observations, what is the expected timeline for the red herring prospectus, price band and listing date, and how much of the issue will be fresh capital versus OFS?\n2. How will the GIFT City cross-border licence change the international payments business, and what will it need in terms of hiring or infrastructure?\n3. Headcount has declined slightly over the past year. What is the current hiring plan, and does it change in the lead-up to listing?",
+ "llm": {
+  "calls": 2,
+  "ok": 1,
+  "errors": 1,
+  "embedding_calls": 0,
+  "tokens_in": 2912,
+  "tokens_out": 2337,
+  "cost": 0.00146,
+  "fallbacks": 1,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.thehindu.com/business/indian-fintech-firm-razorpay-gets-regulatory-nod-for-ipo/article71698143.ece",
+    "title": "Indian fintech firm Razorpay gets regulatory nod for IPO - The Hindu",
+    "published_date": "Fri, 13 Nov 2026 13:10:18 GMT"
+   },
+   {
+    "url": "https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms",
+    "title": "Razorpay moves closer to public market debut as Sebi gives green signal to IPO - The Economic Times",
+    "published_date": "Sat, 14 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms",
+    "title": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs - The Economic Times",
+    "published_date": "Fri, 13 Nov 2026 12:00:00 GMT"
+   },
+   {
+    "url": "https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%E2%82%B96000-cr-ipo",
+    "title": "Razorpay Gets SEBI Nod For \u20b96,000 Cr IPO",
+    "published_date": "Wed, 04 Nov 2026 05:38:13 GMT"
+   },
+   {
+    "url": "https://upstox.com/news/market-news/ipo/upcoming-ip-os-mahanadi-coalfields-oyo-cult-fit-carlsberg-india-are-among-big-ticket-ip-os-expected-after-jio-platforms-listing/article-202719",
+    "title": "Upcoming IPOs: Mahanadi Coalfields, OYO, Cult.fit, Carlsberg India are among big-ticket IPOs expected after Jio Platforms listing",
+    "published_date": "Fri, 30 Oct 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/aJrBNen1btW7",
+    "title": "Razorpay",
+    "published_date": null
+   },
+   {
+    "url": "https://www.business-standard.com/markets/news/ifsca-proposes-model-portfolios-in-gift-city-by-research-entities-126110900766_1.html",
+    "title": "IFSCA proposes model portfolios in GIFT City by research entities | Markets News - Business Standard",
+    "published_date": "Mon, 09 Nov 2026 12:00:00 GMT"
+   },
+   {
+    "url": "https://hdfcsky.com/news/top-gainers-losers-today-13-november-2026-at-3-30-pm",
+    "title": "Top Gainers & Losers Today, 13 November 2026 at 3:30 PM IST",
+    "published_date": "Fri, 13 Nov 2026 11:00:00 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:43:23.612713Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 241,
+   "query": "Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:43:23.912729Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:43:23.91305Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 9793,
+   "tokens": 5249,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 444,
+  "cited": 6,
+  "verified": 6,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 6,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

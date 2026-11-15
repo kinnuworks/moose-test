@@ -1,0 +1,126 @@
+{
+ "run_id": "mt-111507409ff9-single-search-model_down_fallback-t2-0",
+ "agent": "single-search",
+ "condition": "model_down_fallback",
+ "task_id": "t2",
+ "company": "Stripe",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-single-search-model_down_fallback-t2-0",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 11.4,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Stripe, 17 November 2026\n\n**Scope:** Based only on the search results provided. Coverage runs from 4 to 13 November 2026. No hiring news turned up, and the results include nothing from after 13 November.\n\n**Company snapshot:** Stripe, LLC is a private B2B payments company headquartered in South San Francisco, founded in 2010 (https://tavily.com/knowledge/company/igPwhNOUwEGy).\n\n## What changed in the last 30 days\n\n**Launches**\n- Stripe's Global Payouts product added a wallet capability in public preview in early November 2026. US businesses can send stablecoin payouts directly to crypto wallets in more than 160 markets (https://cryptonews.net/news/market/33703716).\n- Celo's MiniPay integration of Link by Stripe was scheduled for 12 November 2026. It gives MiniPay's 20+ million wallets a fiat-to-stablecoin onramp for EU and US users (https://www.tradingview.com/news/coinmarketcal:ce753058b094b:0-celo-minipay-integrates-link-by-stripe-for-one-click-stablecoin-purchases-12-nov-2026). The source describes this as scheduled, so I could not confirm it went live.\n\n**Customers and partnerships**\n- Anthropic's Enterprise Frontier Safeguards entered private beta with customers including Bridgewater, Salesforce, and Stripe (https://www.anthropic.com/claude-fable-and-mythos-5-2).\n\n**Deals**\n- No new deals appeared in the 30-day window. The company profile lists earlier M&A: Valora, Inc. (1 Dec 2025) and OpenRouter, Inc. (1 Aug 2026, listed at 7.50B USD), plus Clerky, Inc. (1 Aug 2026) (https://tavily.com/knowledge/company/igPwhNOUwEGy). The profile is undated and its list is truncated, so verify these figures before citing them.\n\n**Hires**\n- No sources found.\n\n**Industry context**\n- A WSJ report says Meta's personal AI assistants have recently been enabled to make purchases on cardholders' behalf, and banks are racing to keep up (https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30). The report does not name Stripe.\n\n## Open questions\n\n1. **Global Payouts:** What is the timeline for moving the wallet payouts from public preview to general availability, and which stablecoins and markets are supported for US businesses at launch?\n2. **Stablecoin flows:** Did the 12 November MiniPay/Link integration go live as scheduled, and how does Stripe handle compliance and monitoring for fiat-to-stablecoin and stablecoin payout flows?\n3. **Agentic commerce:** As AI assistants start making purchases, how is Stripe positioning its payments stack for agent-initiated transactions, and how does the OpenRouter acquisition fit into that strategy?",
+ "llm": {
+  "calls": 2,
+  "ok": 1,
+  "errors": 1,
+  "embedding_calls": 0,
+  "tokens_in": 2885,
+  "tokens_out": 2373,
+  "cost": 0.001475,
+  "fallbacks": 1,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://cryptonews.net/news/market/33703716",
+    "title": "Stripe lets US businesses send stablecoin payouts to crypto wallets in 160-plus markets",
+    "published_date": "Wed, 04 Nov 2026 17:37:05 GMT"
+   },
+   {
+    "url": "https://www.tradingview.com/news/coinmarketcal:ce753058b094b:0-celo-minipay-integrates-link-by-stripe-for-one-click-stablecoin-purchases-12-nov-2026",
+    "title": "Celo: MiniPay integrates Link by Stripe for one-click stablecoin purchases - 12 Nov 2026 \u2014 TradingView News",
+    "published_date": "Thu, 12 Nov 2026 15:00:26 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+    "published_date": "Tue, 10 Nov 2026 05:00:00 GMT"
+   },
+   {
+    "url": "https://www.atlutd.com/news/match-preview-red-bull-new-york-almiron-gallagher-martino-november-2026",
+    "title": "Match preview: Captain's closing remarks before Atlanta United closes season against Red Bull New York | Atlanta United FC",
+    "published_date": "Sun, 08 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://pittsburghpanthers.com/news/2026/11/12/know-before-you-go-volleyball-vs-louisville",
+    "title": "Know Before You Go: Volleyball vs. Louisville - Pitt Panthers #H2P",
+    "published_date": "Fri, 13 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://uk.style.yahoo.com/comfy-luxe-35-pink-candy-144400923.html",
+    "title": "This comfy but luxe \u00a335 'pink candy stripe' PJ set is all we want to wear at Christmas - Yahoo Life UK",
+    "published_date": "Fri, 13 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30",
+    "title": "Exclusive | AI Bots Are Using Credit Cards. Banks Are Racing to Keep Up. - WSJ",
+    "published_date": "Fri, 13 Nov 2026 01:00:00 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:40:39.752139Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 240,
+   "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:40:40.053544Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:40:40.054194Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 10570,
+   "tokens": 5258,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 342,
+  "cited": 5,
+  "verified": 5,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 5,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

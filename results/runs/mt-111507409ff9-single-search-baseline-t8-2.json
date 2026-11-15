@@ -1,0 +1,114 @@
+{
+ "run_id": "mt-111507409ff9-single-search-baseline-t8-2",
+ "agent": "single-search",
+ "condition": "baseline",
+ "task_id": "t8",
+ "company": "Zepto",
+ "repeat": 2,
+ "virtual_key": "mt-111507409ff9-single-search-baseline-t8-2",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 16.3,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Zepto\n**Meeting date:** 17 November 2026\n**Window covered:** 18 October to 17 November 2026. All facts below come from the search results provided.\n\n## Summary\nZepto's recent coverage centres on festive-season demand, a viral criticism of its Diwali bonus for delivery partners, and a brand campaign. The results contain no confirmed funding, hiring, or deal news from the last 30 days.\n\n## Last 30 Days\n\n**News and public sentiment**\n- A viral video shows a Zepto delivery partner receiving \"cash-like coupons\" instead of money as a Diwali bonus, which one commenter called \"Peanuts in the name of a bonus.\" The story sparked wider debate about gig-worker welfare and corporate responsibility in India's startup economy. (https://www.news18.com/viral/zeptos-diwali-bonus-video-goes-viral-delivery-partner-gets-cash-like-coupons-instead-of-money-peanuts-in-the-name-of-a-bonus-ws-l-10418467.html), 9 Nov 2026\n- A social media post cited in the same article, dated 7 Nov 2026, linked Zepto to a \"valuation 7 billion\" claim. This is an unverified social post, not a confirmed figure. (https://www.news18.com/viral/zeptos-diwali-bonus-video-goes-viral-delivery-partner-gets-cash-like-coupons-instead-of-money-peanuts-in-the-name-of-a-bonus-ws-l-10418467.html)\n\n**Launches and campaigns**\n- Zepto delivered over 14,000 gold and silver coins in one hour during Dhanteras 2026. Zepto, Swiggy Instamart, and Flipkart Minutes all reported strong festive order growth. (https://indiabusinesstrade.in/dhanteras-2026-zepto-delivers-over-14000-gold-and-silver-coins-in-one-hour.htm), 8 Nov 2026\n- Zepto launched a brand activation tied to Seoul Street fandoms, with \"Anime India\" flagged as next. Zepto did not say which fandom comes next. Fans are set to gather in Hyderabad on 14 November. (https://www.animationxpress.com/latest-news/zepto-lands-in-seoul-street-anime-india-is-up-next-the-fans-got-there-years-ago), 21 Oct 2026. Chief brand officer Chandan Mendiratta is quoted in the piece.\n\n**People and HR**\n- Zepto moved its post-Diwali scheduled holiday from Tuesday to Monday, giving employees an extra day off. Chief HR officer Sneha Arora said the aim was a longer festive weekend. (https://m.economictimes.com/news/company/corporate-trends/india-inc-lights-up-diwali-with-longer-weekends-flexible-work-and-extra-pay-for-festive-shifts/articleshow/135618893.cms), 8 Nov 2026\n- No executive hires or departures were found in the results for this window.\n\n**Deals and funding**\n- No deals or funding announcements from the last 30 days were found. An undated company profile lists a venture round of $100M dated 1 July 2026 and a Series H of $450M dated 16 November 2025. Both fall outside the window and are included for reference only. (https://tavily.com/knowledge/company/YT08vmcifB58)\n\n**Excluded:** Results about the \"zeptoverse\" in particle physics (CERN/LHCb) and an Inc42 IPO tracker that does not mention Zepto were not relevant.\n\n## Open questions\n1. **Delivery partner pay:** How does Zepto respond to the Diwali bonus criticism, and is it reviewing how it pays delivery partners, including the use of coupons instead of cash? (https://www.news18.com/viral/zeptos-diwali-bonus-video-goes-viral-delivery-partner-gets-cash-like-coupons-instead-of-money-peanuts-in-the-name-of-a-bonus-ws-l-10418467.html)\n2. **Festive results:** What were Zepto's Diwali order volumes and category mix, especially high-value gold and silver purchases, and does it plan to keep growing that segment after the festival? (https://indiabusinesstrade.in/dhanteras-2026-zepto-delivers-over-14000-gold-and-silver-coins-in-one-hour.htm)\n3. **Funding and valuation:** The only sources for current valuation are an unverified social post and a July 2026 funding entry in an undated profile. What is the current valuation, and is any new funding planned? (https://tavily.com/knowledge/company/YT08vmcifB58)",
+ "llm": {
+  "calls": 1,
+  "ok": 1,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 2931,
+  "tokens_out": 2905,
+  "cost": 0.001746,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.news18.com/viral/zeptos-diwali-bonus-video-goes-viral-delivery-partner-gets-cash-like-coupons-instead-of-money-peanuts-in-the-name-of-a-bonus-ws-l-10418467.html",
+    "title": "Zepto's Diwali Bonus Video Goes Viral, Delivery Partner Gets 'Cash-Like Coupons' Instead Of Money: 'Peanuts In The Name Of A Bonus' | Viral News - News18",
+    "published_date": "Mon, 09 Nov 2026 07:45:22 GMT"
+   },
+   {
+    "url": "https://indiabusinesstrade.in/dhanteras-2026-zepto-delivers-over-14000-gold-and-silver-coins-in-one-hour.htm",
+    "title": "Dhanteras 2026: Zepto Delivers Over 14,000 Gold and Silver Coins in One Hour \u2013 India Business Trade",
+    "published_date": "Sun, 08 Nov 2026 11:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/YT08vmcifB58",
+    "title": "Zepto",
+    "published_date": null
+   },
+   {
+    "url": "https://m.economictimes.com/news/company/corporate-trends/india-inc-lights-up-diwali-with-longer-weekends-flexible-work-and-extra-pay-for-festive-shifts/articleshow/135618893.cms",
+    "title": "India Inc lights up Diwali with longer weekends, flexible work and extra pay for festive shifts - The Economic Times",
+    "published_date": "Sun, 08 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.moneycontrol.com/science/what-is-the-zeptoverse-cern-scientists-find-evidence-of-rare-particle-decay-after-42-years-article-14068760.html",
+    "title": "What is the \"Zeptoverse\"? CERN scientists find evidence of rare particle decay after 42 years",
+    "published_date": "Wed, 04 Nov 2026 05:26:23 GMT"
+   },
+   {
+    "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026",
+    "title": "Indian Startup IPO Tracker 2026",
+    "published_date": "Sun, 18 Oct 2026 01:18:54 GMT"
+   },
+   {
+    "url": "https://www.nacionale.com/en/articles/zeptoverse-lhcb-b0-muon-decay-discovery-or-evidence-3-sigma-history",
+    "title": "Is the zeptoverse result a discovery? Not yet: the 40-year hunt behind LHCb's 3.2-sigma decay",
+    "published_date": "Sun, 08 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.animationxpress.com/latest-news/zepto-lands-in-seoul-street-anime-india-is-up-next-the-fans-got-there-years-ago",
+    "title": "Zepto lands in Seoul Street; Anime India is up next. The fans got there years ago -",
+    "published_date": "Wed, 21 Oct 2026 07:32:19 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:53:08.706003Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 262,
+   "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:53:09.09405Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 13577,
+   "tokens": 5836,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 464,
+  "cited": 5,
+  "verified": 5,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 5,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

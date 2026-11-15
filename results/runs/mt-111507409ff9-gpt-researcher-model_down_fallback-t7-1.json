@@ -1,0 +1,295 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-model_down_fallback-t7-1",
+ "agent": "gpt-researcher",
+ "condition": "model_down_fallback",
+ "task_id": "t7",
+ "company": "Infosys",
+ "repeat": 1,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-model_down_fallback-t7-1",
+ "exit_code": 0,
+ "stderr_tail": "3] Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.026995\nINFO:     [13:18:23] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:19:03] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 48.4,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Infosys: Pre-Meeting Briefing for 17 November 2026\n\n**Prepared:** 15 November 2026\n**Review window:** 16 October to 15 November 2026\n**Scope:** News, product and platform activity, executive and talent moves, deals and partnerships, and market reaction\n\n## Executive Summary\n\nInfosys's last 30 days were dominated by incremental client, facility, and corporate-governance announcements rather than a single major transaction. The most consequential items are the workforce-reshaping plan reported from the company's Americas Confluence, the Truist partnership that expands its Hyderabad delivery footprint, and the naming of a CEO-designate. Market sentiment was volatile: IT stocks fell sharply on 28 October before the stock traded near the lower part of its 52-week range in mid-November ([Economic Times, 2026a](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms); [Moneycontrol, 2026](https://www.moneycontrol.com/company-notices/infosys/notices/IT)). Several items that would normally matter (Q2 FY27 results content, the CEO transition timeline, and salary-revision details) could not be verified from the provided sources and should be confirmed before the meeting.\n\n## Material Changes in the Last 30 Days\n\n### News and Corporate Announcements\n\nInfosys scheduled its second-quarter earnings release for 23 October 2026, with a press conference at 4:30 p.m. IST and an earnings call at 6:00 p.m. IST ([StockFin, 2026](https://www.stockfin.ai/news/INFY/2026-10-19/announcement)). The provided sources do not include the reported revenue, margin, or guidance figures, so the quarter's financial performance is **unverified** in this briefing.\n\nOther filings and disclosures in the window included:\n\n| Date | Disclosure | Source |\n|---|---|---|\n| 28 Oct 2026 | Regulation 30 (LODR) earnings call transcript filed | [Economic Times, 2026a](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms) |\n| 30 Oct 2026 | Expansion of Pocharam Development Center, Hyderabad (filing enclosed; details not in source) | [Economic Times, 2026a](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms) |\n| 4 Nov 2026 | Infosys Investor Conference announcement (filing enclosed; details not in source) | [Economic Times, 2026a](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms) |\n| 12 Nov 2026 | Six researchers named winners of the Infosys Prize 2026 by the Infosys Science Foundation | [Moneycontrol, 2026](https://www.moneycontrol.com/company-notices/infosys/notices/IT) |\n\nThe Economic Times also reported that Infosys was among more than 40 companies with record dates for dividends, bonus issues, rights issues, or stock splits during 2\u20136 November 2026 ([Economic Times, 2026b](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms)). The provided sources do not state the specific corporate action that applied to Infosys.\n\n### Product and Platform Activity\n\nNo new named product launch within the window could be verified from the provided sources. The closest verifiable item is client-facing platform deployment: Infosys announced that Canada's UNI Financial Cooperation is advancing branch modernization with the Infosys Finacle Universal Banker ([Economic Times, 2026a](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms)). Infosys also announced the winners of the Qorus-Infosys Finacle Banking Innovation Awards 2026 on 29 October ([Economic Times, 2026a](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms)).\n\n### Executive and Talent Changes\n\nThe most material people-related item is the leadership transition. Per the Times of India, CEO-designate Ashiss Kumar Dash and incumbent CEO Salil Parekh shared the stage at the Americas Confluence in Washington, DC, where discussion centred on generating value from AI ([Times of India, 2026](https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms)). **The effective date of Dash's appointment is not stated in the provided sources and is unverified.**\n\nWorkforce strategy was the second major theme. According to the Times of India, Infosys plans to move up to one-third of its roughly 320,000 employees into specialist roles and build a team of 6,000 \"frontier engineers\" as AI reshapes IT work ([Times of India, 2026](https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms)). The same report states that Infosys said it has not restructured, and that it is recruiting from leading Indian institutes and US campuses, often competing with AI labs for the same candidates ([Times of India, 2026](https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms)). The analyst quoted in that report says that in some deals Infosys is taking on clients' surplus staff and redeploying them ([Times of India, 2026](https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms)).\n\nA People Matters post, which appears to predate the window, reports that Infosys announced a phased salary revision beginning in October and reaffirmed its commitment to hire 20,000 freshers in the current financial year ([People Matters, 2026](https://www.linkedin.com/posts/people-matters_infosys-leadership-futureofwork-activity-7486351991623864320-xVwR)). **The post's exact date and the revision's scope are unverified.**\n\n### Deals and Partnerships\n\n| Date | Counterparty | Activity | Source |\n|---|---|---|---|\n| 19 Oct 2026 | Truist | Expanded strategic partnership to build a Global Capability Center in Hyderabad, onboarding over 1,000 employees and consolidating multiple supplier relationships | [StockFin, 2026](https://www.stockfin.ai/news/INFY/2026-10-19/announcement) |\n| 28 Oct 2026 | UNI Financial Cooperation (Canada) | Branch modernization using Finacle Universal Banker | [Economic Times, 2026a](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms) |\n\nThe Truist arrangement is the most significant commercial item in the window. It reflects a pattern of consolidating client vendor relationships into captive-style delivery centres, which tends to deepen account stickiness but also concentrates revenue in individual clients. The provided source does not disclose contract value or duration, so the financial scale is **unverified**.\n\n## Market Performance\n\nInfosys shares were caught in the broader IT sell-off. On 28 October, the Economic Times reported that Infosys, TechM, TCS and other IT stocks fell up to 5% as the global AI trade rebounded ([Economic Times, 2026a](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms)). Foreign portfolio investors then shifted to net buying of Indian equities, investing nearly $1.2 billion over the previous ten trading sessions, which the report links partly to changing views on AI-related bets ([Economic Times, 2026b](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms)).\n\nAs of 13 November 2026, Moneycontrol showed a day change of -9.70 (-0.84%), a day range of \u20b91,135.50 to \u20b91,155.00, and a 52-week range of \u20b9980.40 to \u20b91,728.00 ([Moneycontrol, 2026](https://www.moneycontrol.com/company-notices/infosys/notices/IT)). The displayed share price is partly garbled in the source, so the exact closing price should be confirmed on the exchange. StockFin reports a market capitalisation of \u20b94.66 lakh crore, ranking Infosys second of the 20 IT-Software companies it tracks ([StockFin, 2026](https://www.stockfin.ai/news/INFY/2026-10-19/announcement)).\n\n## Context Outside the 30-Day Window\n\nThese items are relevant background but fall outside the review window:\n\n- **Columbia University partnership (1 October 2026):** Infosys and Columbia launched the Infosys Topaz \u2013 Columbia University Enterprise AI Center, led by Columbia Engineering ([Unite.AI, 2026](https://www.unite.ai/infosys-and-columbia-university-launch-enterprise-ai-research-center)).\n- **Q4 FY26 results (23 April 2026):** Wikipedia reports financials as of 31 March 2026, including total assets of \u20b9155,967 crore (US$17 billion) and 328,594 employees ([Wikipedia, 2026](https://en.wikipedia.org/wiki/Infosys)).\n- **French labour fine (July 2026):** Wikipedia reports that DRIEETS \u00cele-de-France fined Infosys \u20ac175,000 after its working-time recording system was found to breach French labour rules ([Wikipedia, 2026](https://en.wikipedia.org/wiki/Infosys)). A Deccan Herald report cited on the same page describes a separate Rs 2 crore fine over time tracking of employees ([Wikipedia, 2026](https://en.wikipedia.org/wiki/Infosys)).\n- **NHS contract (14 October 2025):** Reuters reported a $1.6 billion deal from the UK's National Health Service, as cited on Wikipedia ([Wikipedia, 2026](https://en.wikipedia.org/wiki/Infosys)). This is over a year old and is included only for context.\n\n## Verification Flags\n\n| Item | Issue | Action |\n|---|---|---|\n| Q2 FY27 results content | Only the release date was found; no financial figures were provided | Obtain the results filing before the meeting |\n| CEO-designate Ashiss Kumar Dash | Effective date and transition terms not stated | Confirm with company |\n| 320,000 headcount (Times of India) vs. 328,594 (Wikipedia, March 2026) | Figures differ and dates differ | Confirm current headcount |\n| Salary revision and 20,000 fresher hiring | Source post appears older than the window; exact dates unclear | Verify with HR communications |\n| Dividend/bonus/split record date | Infosys named in the list, but corporate action type not specified | Confirm the action and its status |\n| Investor Conference (4 Nov) and Pocharam expansion (30 Oct) | Filing titles only; no details in provided sources | Retrieve the filings |\n| Share price on 13 Nov | Source value partly garbled | Confirm on NSE/BSE |\n| YouTube interview with Salil Parekh | Title only; content not accessible | Review full video before citing |\n| PW Skills blog (22 Oct 2026) | Commercial course provider; not a reliable source for Infosys corporate facts | Excluded from factual analysis |\n\n## Analyst View\n\nIn my assessment, the most important development for the meeting is not any single announcement but the **combination of workforce reshaping and leadership transition**. Infosys is pursuing a redeployment-led strategy, moving existing staff into specialist roles and absorbing clients' surplus staff, while publicly stating it has not restructured. This approach protects headcount and client relationships, but it depends on execution speed and on whether specialist demand materialises at the scale the company is targeting. The Truist partnership supports the same logic: consolidating vendor relationships into dedicated centres increases switching costs.\n\nThe market appears to be pricing in uncertainty. The share price sits roughly 17% above its 52-week low and 34% below its high, which suggests that investors are not yet convinced that AI-driven change will translate into durable growth ([Moneycontrol, 2026](https://www.moneycontrol.com/company-notices/infosys/notices/IT)). My view is that the company's narrative is credible on positioning, but the evidence for growth acceleration is not visible in the material reviewed here. Until the Q2 figures and the CEO transition timeline are confirmed, I would treat the positive signals as directional rather than proven.\n\n## Open Questions\n\n1. What were Infosys's Q2 FY27 revenue growth, operating margin, and guidance changes, and how much of the planned redeployment of the 320,000-person workforce is already reflected in those numbers?\n2. When will Ashiss Kumar Dash formally assume the CEO role, and what changes to strategy, delivery model, or the Truist-type client partnerships should clients expect during the transition?\n3. What is the current status of the phased salary revision and the 20,000-fresher hiring commitment, and how are the specialist-role transition and the 6,000 \"frontier engineer\" target being measured?\n\n## References\n\nEconomic Times. (2026a, November 15). *Infosys news: Announcements and latest updates*. The Economic Times. [https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms)\n\nEconomic Times. (2026b, November 2). *FPI buying returns to Dalal Street as global investors rethink AI bets*. The Economic Times. [https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms](https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms)\n\nMoneycontrol. (2026). *Infosys announcements/notices*. Moneycontrol. [https://www.moneycontrol.com/company-notices/infosys/notices/IT](https://www.moneycontrol.com/company-notices/infosys/notices/IT)\n\nPeople Matters. (2026). *Infosys leadership and future of work* [LinkedIn post]. LinkedIn. [https://www.linkedin.com/posts/people-matters_infosys-leadership-futureofwork-activity-7486351991623864320-xVwR](https://www.linkedin.com/posts/people-matters_infosys-leadership-futureofwork-activity-7486351991623864320-xVwR)\n\nStockFin. (2026, October 19). *Infosys (INFY) announcement, 19 Oct 2026*. StockFin. [https://www.stockfin.ai/news/INFY/2026-10-19/announcement](https://www.stockfin.ai/news/INFY/2026-10-19/announcement)\n\nTimes of India. (2026). *Infosys plans to shift up to one-third of 320,000 employees into specialist roles, build a team of 6,000 frontier engineers as AI reshapes IT jobs*. The Times of India. [https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms](https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms)\n\nUnite.AI. (2026). *Infosys and Columbia University launch enterprise AI research center*. Unite.AI. [https://www.unite.ai/infosys-and-columbia-university-launch-enterprise-ai-research-center](https://www.unite.ai/infosys-and-columbia-university-launch-enterprise-ai-research-center)\n\nWikipedia. (2026). *Infosys*. In *Wikipedia*. Retrieved November 15, 2026, from [https://en.wikipedia.org/wiki/Infosys](https://en.wikipedia.org/wiki/Infosys)",
+ "llm": {
+  "calls": 6,
+  "ok": 3,
+  "errors": 3,
+  "embedding_calls": 0,
+  "tokens_in": 21684,
+  "tokens_out": 10141,
+  "cost": 0.007239,
+  "fallbacks": 3,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://en.wikipedia.org/wiki/Infosys",
+    "title": "Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=XFO3fRcKVD8",
+    "title": "Atrition Rate, Hiring Freshers, Deal Conversions & More: Infosys CEO Salil Parekh Answers It All",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/newsroom/press-releases.html",
+    "title": "Infosys Press Releases | Infosys Latest News | Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/investors/news-events.html",
+    "title": "Press Releases, Calendars, and Presentations - Investors | Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms",
+    "title": "Infosys plans to shift up to one-third of 320,000 employees into specialist roles, build a team of 6,000 frontier engineers as AI reshapes IT jobs - The Times of India",
+    "published_date": null
+   },
+   {
+    "url": "https://www.stockfin.ai/news/INFY/2026-10-19/announcement",
+    "title": "Infosys (INFY) \u2014 Announcement, 19 Oct 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.unite.ai/infosys-and-columbia-university-launch-enterprise-ai-research-center",
+    "title": "Infosys and Columbia University Launch Enterprise AI Research Center \u2013 Unite.AI",
+    "published_date": null
+   },
+   {
+    "url": "https://www.prnewswire.com/news/infosys",
+    "title": "Infosys News and Press Releases | PR Newswire",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/newsroom/press-releases.html",
+    "title": "Infosys Press Releases | Infosys Latest News | Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/investors/news-events.html",
+    "title": "Press Releases, Calendars, and Presentations - Investors | Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://economictimes.indiatimes.com/infosys-ltd/stocksupdate/companyid-10960.cms",
+    "title": "Infosys News - Infosys Announcement, Latest News on Infosys - The Economic Times",
+    "published_date": null
+   },
+   {
+    "url": "https://www.moneycontrol.com/company-notices/infosys/notices/IT",
+    "title": "Infosys Announcements/Notices: Latest Sotck/Share Market Notices/Announcements on Infosys, Infosys Stock Split,Bonus, Rights, Re-Structuring, Dividends, Board Meetings, Quarterly Results, Record Date, Ex-Date, Book Closure on BSE/NSE",
+    "published_date": null
+   },
+   {
+    "url": "https://trendlyne.com/latest-news/630/INFY/infosys-ltd",
+    "title": "Infosys News, Corporate filings and Earnings/Conference Calls",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=Cj9-Cg8XI3s&vl=en-US",
+    "title": "Infosys Spends $808 M To Acquire 5 Companies in FY2026 | Editor's Roundtable",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/investors/news-events.html",
+    "title": "Press Releases, Calendars, and Presentations - Investors | Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/people-matters_infosys-leadership-futureofwork-activity-7486351991623864320-xVwR",
+    "title": "Infosys Announces Phased Salary Revision and Freshers Hiring | People Matters posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms",
+    "title": "Infosys plans to shift up to one-third of 320,000 employees into specialist roles, build a team of 6,000 frontier engineers as AI reshapes IT jobs - The Times of India",
+    "published_date": null
+   },
+   {
+    "url": "https://pwskills.com/blog/web-development/infosys-hiring-watch-2026-what-it-signals-for-full-stack-development",
+    "title": "Infosys Hiring Watch 2026: What It Signals for Full Stack Development with AI Course Learners",
+    "published_date": null
+   },
+   {
+    "url": "https://builtin.com/company/infosys-consulting/faq/workplace-perception",
+    "title": "What's It Like to Work at Infosys 2026? | Built In",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/careers.html",
+    "title": "Infosys Careers | Move forward. Take the world with you.",
+    "published_date": null
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Infosys",
+    "title": "Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=XFO3fRcKVD8",
+    "title": "Atrition Rate, Hiring Freshers, Deal Conversions & More: Infosys CEO Salil Parekh Answers It All",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/newsroom/press-releases.html",
+    "title": "Infosys Press Releases | Infosys Latest News | Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.infosys.com/investors/news-events.html",
+    "title": "Press Releases, Calendars, and Presentations - Investors | Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://timesofindia.indiatimes.com/business/india-business/infosys-plans-to-shift-up-to-one-third-of-320000-employees-into-specialist-roles-build-a-team-of-6000-frontier-engineers-as-ai-reshapes-it-jobs/articleshow/134539780.cms",
+    "title": "Infosys plans to shift up to one-third of 320,000 employees into specialist roles, build a team of 6,000 frontier engineers as AI reshapes IT jobs - The Times of India",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:48:17.053911Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 2,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:48:17.055184Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 3315,
+   "tokens": 1158,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:48:20.508403Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 236,
+   "query": "Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:48:20.757929Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 4,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:48:20.759208Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 1176,
+   "tokens": 2985,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:48:22.75975Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 234,
+   "query": "Infosys hiring, leadership changes and workforce updates 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:48:22.761553Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 239,
+   "query": "Infosys news and announcements November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:48:22.761948Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 625,
+   "query": "Infosys recent deals, partnerships and product launches October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:48:22.762253Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 457,
+   "query": "Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:48:23.918654Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 14,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:48:23.926337Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 39090,
+   "tokens": 27682,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 1677,
+  "cited": 7,
+  "verified": 7,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 7,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

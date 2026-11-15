@@ -1,0 +1,114 @@
+{
+ "run_id": "mt-111507409ff9-single-search-baseline-t1-0",
+ "agent": "single-search",
+ "condition": "baseline",
+ "task_id": "t1",
+ "company": "Nvidia",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-single-search-baseline-t1-0",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 17.1,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: NVIDIA, 17 November 2026\n\n**Window:** roughly 13 October to 12 November 2026, based on the results provided.\n\n## What changed\n\n**Leadership**\n- Jensen Huang has left all his positions, including chairman, CEO, and director, with immediate effect. Longtime CFO Colette Kress is interim CEO and remains CFO until a successor is chosen. The board has started a search that will consider internal and external candidates. (https://mezha.net/eng/news/mezha-cbe54f11b05c0e59be5a05db_wired-_nvidia_hired; https://meteoraweb.com/en/news/nvidia-jensen-huang-steps-down-as-ceo)\n- The official announcement is on NVIDIA's newsroom. (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)\n- Mashable reports Huang led the company for 33 years as CEO. (https://mashable.com/tech/jensen-huang-affairs-nvidia-resignation-timeline)\n- On 8 November, the board said it had confidence in Huang and his leadership team. (https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors) This was superseded by the 12 November announcement.\n- On 10 November, the independent board members issued a separate statement. The results include only its headline, not its content. (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)\n- WSJ reported, citing people familiar with the matter, that the board was preparing to oust Huang after two extramarital affairs, one with a suspected Chinese spy. (https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad)\n- Wired reported that Nvidia hired a crisis PR firm at least a year before Huang acknowledged the affair. (https://mezha.net/eng/news/mezha-cbe54f11b05c0e59be5a05db_wired-_nvidia_hired)\n\n**Products and partnerships**\n- AWS and Nvidia announced a plan for AWS to deploy 2 million additional Blackwell Ultra, Rubin, and Rubin Ultra GPUs across 2027 and 2028. (https://shattered.io/gpu-vs-tpu-vs-npu-ai-chip-camps-compared-2026) This source is a secondary analysis piece, so verify against the original announcement.\n- Vera Rubin NVL72 debuted in MLPerf Inference v6.1 results in September 2026. Rubin reportedly moved into production shipments in the second half of 2026. (https://shattered.io/gpu-vs-tpu-vs-npu-ai-chip-camps-compared-2026)\n- On 8 November, NVIDIA announced a collaboration with Rebellions and SK Telecom on sovereign AI infrastructure using NVLink Fusion. The results include only the headline. (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)\n\n**Earnings**\n- Nvidia will release Q3 results around 4:20 p.m. ET on 17 November, with an earnings call at 5 p.m. ET. It will be the first call since Huang's exit. (https://mashable.com/tech/jensen-huang-affairs-nvidia-resignation-timeline)\n- The conference call was set on 28 October. (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition)\n\n**Deals and hires**\n- Nothing in the results falls clearly within the window. The M&A list shows Hugging Face (1 Aug 2026, $12.90B), Kumo.AI (1 Jun 2026, $400M), Illumex (1 Feb 2026, $60M), and Groq (1 Dec 2025, $20B). (https://tavily.com/knowledge/company/TXRhn2TKUD7t) Only Hugging Face is in 2026 and it is outside the 30-day window. The Enfabrica and SchedMD entries are undated. None of these are confirmed as recent.\n- I found no executive hires or appointments in the results.\n\n## Gaps\n- No source confirms a permanent CEO or the timing of the search.\n- The WSJ report is unconfirmed by the company.\n- The results include headlines only for several NVIDIA newsroom items.\n\n## Open questions\n1. What is the board's timeline for naming a permanent CEO, and will Colette Kress keep the CFO role during the search?\n2. Will the 17 November earnings call change guidance or messaging on Rubin ramp timing and the AWS 2027\u201328 deployment plan?\n3. Following the leadership change, what does NVIDIA's governance and risk-disclosure process look like for partners, and who is the right decision-maker for our program?",
+ "llm": {
+  "calls": 1,
+  "ok": 1,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 2954,
+  "tokens_out": 3257,
+  "cost": 0.001924,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "title": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+    "published_date": "Thu, 12 Nov 2026 19:00:00 GMT"
+   },
+   {
+    "url": "https://mezha.net/eng/news/mezha-cbe54f11b05c0e59be5a05db_wired-_nvidia_hired",
+    "title": "Wired: Nvidia hired crisis PR firm at least a year before Huang acknowledged affair | \u041c\u0435\u0436\u0430",
+    "published_date": "Mon, 09 Nov 2026 23:53:42 GMT"
+   },
+   {
+    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+    "title": "Statement From NVIDIA Board of Directors | NVIDIA Newsroom",
+    "published_date": "Sun, 08 Nov 2026 19:00:00 GMT"
+   },
+   {
+    "url": "https://mashable.com/tech/jensen-huang-affairs-nvidia-resignation-timeline",
+    "title": "Jensen Huang resigns: A timeline of the Nvidia affair | Mashable",
+    "published_date": "Thu, 12 Nov 2026 17:09:04 GMT"
+   },
+   {
+    "url": "https://shattered.io/gpu-vs-tpu-vs-npu-ai-chip-camps-compared-2026",
+    "title": "GPU vs TPU vs NPU: 4 AI Chip Camps Compared [2026]",
+    "published_date": "Thu, 12 Nov 2026 05:38:56 GMT"
+   },
+   {
+    "url": "https://meteoraweb.com/en/news/nvidia-jensen-huang-steps-down-as-ceo",
+    "title": "NVIDIA, Jensen Huang Steps Down as CEO \u2022 Meteora Web",
+    "published_date": "Thu, 12 Nov 2026 14:11:43 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/TXRhn2TKUD7t",
+    "title": "NVIDIA",
+    "published_date": null
+   },
+   {
+    "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+    "title": "Exclusive | Nvidia is Preparing to Oust Nvidia CEO Jensen Huang - WSJ",
+    "published_date": "Wed, 11 Nov 2026 22:28:00 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:40:12.148534Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2228,
+   "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:40:14.465317Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 13663,
+   "tokens": 6211,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 508,
+  "cited": 8,
+  "verified": 8,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 8,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

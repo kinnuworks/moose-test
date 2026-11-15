@@ -1,0 +1,295 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-model_down_fallback-t2-0",
+ "agent": "gpt-researcher",
+ "condition": "model_down_fallback",
+ "task_id": "t2",
+ "company": "Stripe",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-model_down_fallback-t2-0",
+ "exit_code": 0,
+ "stderr_tail": "ed research step.\n\ud83d\udcb8 Total Research Costs: $0.027460000000000002\nINFO:     [13:10:49] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:11:37] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 60.7,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Stripe Meeting Briefing: 17 November 2026\n\n## Purpose and Scope\n\nThis briefing supports a meeting with Stripe on 17 November 2026. The review window is 16 October to 15 November 2026. The sources provided contain few items dated inside that window, so the briefing also draws on earlier 2026 events to explain the trajectory. Each item is dated so the reader can see whether it falls inside or outside the window. Stripe is privately held, and no primary financial results were available in the provided material, so financial figures are presented as secondary estimates.\n\n## Source Reliability Assessment\n\nSources were ranked by provenance. Primary company disclosures rank highest, followed by established trade and business press, and then aggregators, databases, and blogs.\n\n| Source | Type | Reliability for this briefing | Notes |\n|---|---|---|---|\n| Stripe newsroom ([Stripe, 2026](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin)) | Primary (company) | High | Only primary company disclosure provided |\n| Silicon Republic ([Srinivasaragavan, 2026](https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland)) | Established trade press | Medium\u2013high | Dated 10 Feb 2026, but internal references suggest older content; see discrepancies |\n| DL News ([Gilbert, 2025](https://www.dlnews.com/articles/markets/paypal-and-stripe-amond-fintechs-muscling-into-crypto-in-2026)) | Established trade press | Medium | Dated October 2025, outside the window; used only for context |\n| Forrester ([Forrester Research, 2026](https://www.forrester.com/blogs/stripe-sessions-2026-stripe-is-rearchitecting-payments-for-an-agentic-ai-economy)) | Analyst research | Medium\u2013high | Analytical commentary on Sessions 2026 |\n| Tracxn ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)) | Aggregator database | Medium\u2013low | Last updated 1 Nov 2026; price fields are garbled and some dates conflict with other sources |\n| BlockEden ([BlockEden, 2026](https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards)) | Crypto-news blog | Low\u2013medium | Contains evaluative claims; not corroborated by primary sources |\n| Recruiting From Scratch ([Recruiting From Scratch, 2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)) | Recruiting blog | Low for current data | Dated June 2026; metrics come from an unnamed job-data tracker |\n| Mean CEO ([Bonenkamp, 2026](https://blog.mean.ceo/stripe-news-november-2026)) | Founder blog | Low\u2013medium | Relays Wikipedia and GlobalData figures without primary verification |\n| LinkedIn post ([van Oost, n.d.](https://www.linkedin.com/posts/marcelvanoost_all-stripe-sessions-2026-updates-in-12-minutes-activity-7456328897970761728-oOze)) | Social media | Low | Influencer summary; used only for corroborating Sessions 2026 scale |\n\n## What Changed in the Last 30 Days (16 October to 15 November 2026)\n\n### News and Launches\n\nThe most clearly dated in-window item is a partnership announcement. On 20 October 2026, Stripe was reported to have become the global payments partner of the Mercedes-AMG Petronas F1 team ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)). This is a brand and marketing partnership with limited direct effect on Stripe's product or revenue base.\n\nOther October items reported in the same aggregator list fall just before the window and should be treated as context. These include a Stripe\u2013FedEx SMB financing tie-up (12 October 2026), an extension of the ExpenseIn reimbursement deal (6 October 2026), and Privy's partnership with Ripple to bring wallets to the XRP Ledger (13 October 2026) ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)). The Ripple item is particularly relevant to the stablecoin and wallet strategy, but it was reported only through a secondary listing.\n\nStripe Sessions 2026 is the largest product event of the year, but it took place on 29\u201330 April 2026, outside the window. Forrester reports that Stripe announced 288 products at the event and frames the thesis as a shift from transaction infrastructure for humans to \"programmable, continuous infrastructure for machines\" ([Forrester Research, 2026](https://www.forrester.com/blogs/stripe-sessions-2026-stripe-is-rearchitecting-payments-for-an-agentic-ai-economy)). BlockEden describes three pillars: stablecoins, streaming payments, and Stripe Radar ([BlockEden, 2026](https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards)). The 288-launch figure is consistent across the Forrester and BlockEden sources, but it has not been checked against Stripe's own release.\n\n### Deals\n\nNo acquisition announced within the window was verified from a primary source. The most recent confirmed deal is the agreement to acquire Parafin, announced on 30 September 2026. Stripe describes Parafin as an embedded financial products platform that provides credit offerings to small businesses on behalf of platforms such as DoorDash, Gusto, Jobber, and Mindbody ([Stripe, 2026](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin)). This is the strongest primary evidence in the file, but it falls about two weeks before the window.\n\nTracxn lists 22 total Stripe acquisitions, with four in 2026 so far, and identifies Parafin as the latest ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)). The Tracxn average deal size of $438M is not reliable, because the price fields in the same listing are corrupted.\n\nTwo reported transactions remain unresolved in the record:\n\n- **OpenRouter:** Silicon Republic lists \"Stripe confirms acquisition of OpenRouter, terms undisclosed\" on 20 August 2026 ([Srinivasaragavan, 2026](https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland)). Tracxn gives an acquisition date of 17 August 2026. A Fintech Times headline cited in Tracxn describes a \"$7 Billion\" acquisition dated 5 October 2026. These accounts conflict on both timing and price, and the $7 billion figure is unverified.\n- **PayPal:** Silicon Republic reports that Stripe and Advent's PayPal acquisition plans \"reportedly fall through\" (28 August 2026). Tracxn reports a joint bid submitted on 22 September 2026 ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)). The sequence cannot be reconstructed from these sources.\n\n### Hiring\n\nNo hiring data dated within the window was provided. The most recent role count is from Recruiting From Scratch, which reports 496 open roles as of 24 June 2026, with 149 added in the preceding 29 days ([Recruiting From Scratch, 2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)). By department, engineering leads with 103 roles, followed by operations (59) and product (58). Dublin (44), Bengaluru (33), and San Francisco (27) are the leading locations. These figures are five months old, and the source does not name its data provider, so they should be treated as indicative only.\n\nSilicon Republic's sidebar carries the headline \"200 new jobs for Stripe's Dublin HQ,\" dated 2 October 2026 ([Srinivasaragavan, 2026](https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland)). This is just outside the window, but it is consistent with the Dublin concentration in the June data.\n\n### Financial and Corporate Snapshot\n\n| Metric | Figure | Date | Source | Status |\n|---|---|---|---|---|\n| Revenue | US$5.1bn | 2024 | Mean CEO, citing Wikipedia ([Bonenkamp, 2026](https://blog.mean.ceo/stripe-news-november-2026)) | Secondary; unverified |\n| Employees | About 8,500 | 2025 | Mean CEO, citing Wikipedia ([Bonenkamp, 2026](https://blog.mean.ceo/stripe-news-november-2026)) | Secondary; conflicts with a leaked target |\n| Latest valuation (tender) | At least $140bn | Reported 2026 | Silicon Republic, citing Axios ([Srinivasaragavan, 2026](https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland)) | Reported; not confirmed as completed |\n| Prior valuation | About $107bn | September (year unclear) | Silicon Republic ([Srinivasaragavan, 2026](https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland)) | Reported |\n| Ownership | Privately held | November 2026 | Mean CEO ([Bonenkamp, 2026](https://blog.mean.ceo/stripe-news-november-2026)) | Consistent with other sources |\n\nThe Mean CEO article also cites GlobalData signals: 249 job signals, 61 patents, six deals, and a news sentiment score of 0.98 ([Bonenkamp, 2026](https://blog.mean.ceo/stripe-news-november-2026)). The source gives no methodology or primary link for these metrics, so they are flagged as **unverified** and are not used in the analysis. The LinkedIn follower count of 1,665,531 is likewise unverified and carries limited analytical value.\n\n## Context Beyond the Window\n\n| Date | Event | Source | Relevance |\n|---|---|---|---|\n| 30 Sep 2026 | Agreement to acquire Parafin (embedded credit) | [Stripe (2026)](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin) | Strongest primary evidence of current M&A focus |\n| 29\u201330 Apr 2026 | Sessions 2026, 288 products | [Forrester Research (2026)](https://www.forrester.com/blogs/stripe-sessions-2026-stripe-is-rearchitecting-payments-for-an-agentic-ai-economy) | Defines the agentic AI and stablecoin strategy |\n| Mar 2026 | Tempo blockchain reportedly live | [BlockEden (2026)](https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards) | Settlement layer; pilot partners reported |\n| 10 Feb 2026 | Tender offer reportedly to value Stripe at $140bn | [Srinivasaragavan (2026)](https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland) | Valuation benchmark |\n| 21 Oct 2025 | Coverage of Stripe and PayPal crypto push | [Gilbert (2025)](https://www.dlnews.com/articles/markets/paypal-and-stripe-amond-fintechs-muscling-into-crypto-in-2026) | Background only; the page's headline \"2026 is going to be massive\" was written in 2025 |\n\nTempo's pilot partners are reported as DoorDash, Visa, Nubank, Shopify, and Klarna ([BlockEden, 2026](https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards)). Klarna's KlarnaUSD stablecoin was described as set to launch \"this year\" in a Silicon Republic piece ([Srinivasaragavan, 2026](https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland)). Launch status in November 2026 has not been verified.\n\n## Discrepancies and Unverified Claims\n\n| Item | Conflict or gap | Handling in this briefing |\n|---|---|---|\n| Headcount | Mean CEO reports about 8,500 employees (2025), while a leaked memo cited in Silicon Republic targeted about 10,000 by end-2025 ([Srinivasaragavan, 2026](https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland)) | Both shown; neither treated as confirmed |\n| Metronome timing | Silicon Republic says the deal was announced in December (year unclear); Tracxn dates it 15 January 2026 ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)) | Date not asserted |\n| OpenRouter | Timing (17 Aug vs 20 Aug vs 5 Oct) and price (\"terms undisclosed\" vs \"$7 Billion\") conflict | Price treated as unverified |\n| PayPal bid | \"Fell through\" (28 Aug) vs bid submitted (22 Sep) | Status treated as unresolved |\n| Silicon Republic date | Article is stamped 10 Feb 2026, but it describes events as \"last September\" and \"last autumn,\" which suggests it was written earlier | Used only for the reported valuation figures, flagged accordingly |\n| Tempo launch | Forrester and BlockEden describe a live or production-stage chain; the 2025 DL News piece describes it as still approaching launch | Production status treated as partially verified |\n| Hiring | Only June 2026 data; no in-window job count | Flagged as stale |\n\n## Analytical Assessment\n\n**The dominant narrative is strategic consolidation around agentic payments and stablecoins.** The evidence supports a coherent thesis. The Sessions 2026 framing ([Forrester Research, 2026](https://www.forrester.com/blogs/stripe-sessions-2026-stripe-is-rearchitecting-payments-for-an-agentic-ai-economy)), the Parafin acquisition for embedded credit ([Stripe, 2026](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin)), and the reported wallet and settlement partnerships all point the same way. My judgment is that Stripe is building a vertically integrated stack in which it owns issuance, custody, settlement, acceptance, and spend. BlockEden's description of this stack is persuasive but rests on a single non-primary source ([BlockEden, 2026](https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards)).\n\n**The in-window news flow is thin, and the meeting should not rest on it.** The only dated in-window item is a sports sponsorship ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)). Any discussion of \"recent\" activity will therefore need to draw on September and October events, and the date of each should be stated explicitly.\n\n**Quantitative claims carry high uncertainty.** The $140bn valuation is a reported tender target, not a confirmed transaction. Revenue and headcount are secondary figures, and the 2024 revenue number is the newest available. The GlobalData metrics cannot be traced to a primary source. Using any of these as fact in a meeting would expose the presenter to challenge. Investors and partners tend to notice such errors quickly.\n\n**Regulatory exposure is a material unknown.** BlockEden notes that GENIUS Act, CLARITY Act, and MiCA rules could narrow the issuance and cross-border surfaces Stripe has expanded into ([BlockEden, 2026](https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards)). Those rules were not confirmed as final or in force within the sources provided, so their timing should be treated as open.\n\n## Three Open Questions for the Meeting\n\n1. **Deal record:** Can you confirm the completion status, date, and price of the OpenRouter acquisition, and the current status of the reported PayPal bid with Advent? Which of the 2026 acquisitions (Metronome, OpenRouter, Parafin) are being integrated into which product lines?\n\n2. **Corporate scale and hiring:** Has the tender offer at or above $140bn closed, and what is Stripe's current headcount and hiring plan by region, particularly the reported 200 Dublin roles and the engineering concentration seen in the June data?\n\n3. **Stablecoin and agent payments in production:** Is Tempo now live for merchants outside the reported pilots (DoorDash, Visa, Nubank, Shopify, Klarna), and how are GENIUS Act, MiCA, and related regulatory requirements shaping availability for our region and use case?\n\n## References\n\nBonenkamp, V. (2026, November). *Stripe news | November, 2026 (startup edition)*. Mean CEO. [https://blog.mean.ceo/stripe-news-november-2026](https://blog.mean.ceo/stripe-news-november-2026)\n\nBlockEden. (2026, May 3). *Stripe Sessions 2026: 288 launches, one bet on AI-native money*. BlockEden. [https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards](https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards)\n\nForrester Research. (2026). *Stripe Sessions 2026: Stripe is rearchitecting payments for an agentic AI economy*. Forrester Blogs. [https://www.forrester.com/blogs/stripe-sessions-2026-stripe-is-rearchitecting-payments-for-an-agentic-ai-economy](https://www.forrester.com/blogs/stripe-sessions-2026-stripe-is-rearchitecting-payments-for-an-agentic-ai-economy)\n\nGilbert, A. (2025, October 21). *PayPal, Stripe and other fintech giants flex crypto muscles \u2013 '2026 is going to be massive'*. DL News. [https://www.dlnews.com/articles/markets/paypal-and-stripe-amond-fintechs-muscling-into-crypto-in-2026](https://www.dlnews.com/articles/markets/paypal-and-stripe-amond-fintechs-muscling-into-crypto-in-2026)\n\nRecruiting From Scratch. (2026, June 24). *Stripe is hiring 496 people: What that signals (2026)*. Recruiting From Scratch. [https://www.recruitingfromscratch.com/blog/stripe-hiring-2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)\n\nSilicon Republic. (2026, February 10). *Report: New tender offer to value Stripe at $140bn* (S. Srinivasaragavan, Author). Silicon Republic. [https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland](https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland)\n\nStripe. (2026, September 30). *Stripe agrees to acquire Parafin to expand revenue opportunities for platforms and help small businesses grow*. Stripe Newsroom. [https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin](https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin)\n\nTracxn. (2026, November 1). *List of 22 acquisitions by Stripe (Nov 2026)*. Tracxn. [https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)\n\nvan Oost, M. (n.d.). *All Stripe Sessions 2026 updates in 12 minutes* [LinkedIn post]. LinkedIn. [https://www.linkedin.com/posts/marcelvanoost_all-stripe-sessions-2026-updates-in-12-minutes-activity-7456328897970761728-oOze](https://www.linkedin.com/posts/marcelvanoost_all-stripe-sessions-2026-updates-in-12-minutes-activity-7456328897970761728-oOze)",
+ "llm": {
+  "calls": 6,
+  "ok": 3,
+  "errors": 3,
+  "embedding_calls": 0,
+  "tokens_in": 15997,
+  "tokens_out": 12402,
+  "cost": 0.007801,
+  "fallbacks": 3,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "title": "Stripe News | November, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.forrester.com/blogs/stripe-sessions-2026-stripe-is-rearchitecting-payments-for-an-agentic-ai-economy",
+    "title": "Stripe Sessions 2026: Stripe Is Rearchitecting Payments For An Agentic AI Economy",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.dlnews.com/articles/markets/paypal-and-stripe-amond-fintechs-muscling-into-crypto-in-2026",
+    "title": "PayPal, Stripe and other fintech giants flex crypto muscles \u2014 \u20182026 is going to be massive\u2019 - DL News",
+    "published_date": null
+   },
+   {
+    "url": "https://www.siliconrepublic.com/business/stripe-tender-140bn-valuation-fintech-axios-report-ireland",
+    "title": "Report: New tender offer to value Stripe at $140bn",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "title": "Stripe News | November, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://ffnews.com/news/stripe-sessions-50-announcements-including-ai-powered-payments-major-upgrades-to-connect-interoperability-and-more",
+    "title": "Stripe Sessions: 50+ Announcements, Including AI-Powered Payments, Major Upgrades to Connect, Interoperability, and More",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8F4XyWYqZi8",
+    "title": "Stripe Sessions 2026 keynote in 12 minutes",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.dlnews.com/articles/markets/paypal-and-stripe-amond-fintechs-muscling-into-crypto-in-2026",
+    "title": "PayPal, Stripe and other fintech giants flex crypto muscles \u2014 \u20182026 is going to be massive\u2019 - DL News",
+    "published_date": null
+   },
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
+    "title": "List of 22 Acquisitions by Stripe (Nov 2026) - Tracxn",
+    "published_date": null
+   },
+   {
+    "url": "https://www.recruitingfromscratch.com/blog/stripe-hiring-2026",
+    "title": "Stripe Is Hiring 496 People: What That Signals (2026)",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://www.lemonsqueezy.com/blog/2026-update",
+    "title": "2026 Update: Lemon Squeezy + Stripe Managed Payments \u2022 Lemon Squeezy",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/newsroom/news/stripe-agrees-to-acquire-parafin",
+    "title": "Stripe agrees to acquire Parafin to expand revenue opportunities for platforms and help small businesses grow",
+    "published_date": null
+   },
+   {
+    "url": "https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards",
+    "title": "Stripe Sessions 2026: 288 Launches, One Bet on AI-Native Money",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.forrester.com/blogs/stripe-sessions-2026-stripe-is-rearchitecting-payments-for-an-agentic-ai-economy",
+    "title": "Stripe Sessions 2026: Stripe Is Rearchitecting Payments For An Agentic AI Economy",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/marcelvanoost_all-stripe-sessions-2026-updates-in-12-minutes-activity-7456328897970761728-oOze",
+    "title": "All Stripe Sessions 2026 updates in 12 minutes. For everyone who missed it \ud83d\udc47 This video is the short version. I break everything (all 288 new products and features \ud83e\udd2f) down in my newsletter:\u2026 | Marcel van Oost | 16 comments",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=lIsHZfRl2zw",
+    "title": "Stripe Sessions 2026 | Keynote",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "title": "Stripe News | November, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://ffnews.com/news/stripe-sessions-50-announcements-including-ai-powered-payments-major-upgrades-to-connect-interoperability-and-more",
+    "title": "Stripe Sessions: 50+ Announcements, Including AI-Powered Payments, Major Upgrades to Connect, Interoperability, and More",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8F4XyWYqZi8",
+    "title": "Stripe Sessions 2026 keynote in 12 minutes",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.dlnews.com/articles/markets/paypal-and-stripe-amond-fintechs-muscling-into-crypto-in-2026",
+    "title": "PayPal, Stripe and other fintech giants flex crypto muscles \u2014 \u20182026 is going to be massive\u2019 - DL News",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:40:38.136517Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:40:38.136783Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 3389,
+   "tokens": 1158,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:40:41.601748Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 234,
+   "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:40:41.843012Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:40:41.84358Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 1049,
+   "tokens": 3056,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:40:46.49423Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1259,
+   "query": "Stripe Sessions 2026 product launches and stablecoin Tempo updates",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:40:46.497809Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1314,
+   "query": "Stripe acquisitions, partnerships and hiring news past 30 days 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:40:46.501259Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 667,
+   "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:40:46.551653Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1140,
+   "query": "Stripe news and announcements November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:40:49.019415Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:40:49.024584Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 48675,
+   "tokens": 24185,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 2020,
+  "cited": 9,
+  "verified": 9,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 9,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

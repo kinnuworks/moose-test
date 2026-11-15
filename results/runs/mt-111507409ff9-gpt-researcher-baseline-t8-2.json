@@ -1,0 +1,263 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-baseline-t8-2",
+ "agent": "gpt-researcher",
+ "condition": "baseline",
+ "task_id": "t8",
+ "company": "Zepto",
+ "repeat": 2,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-baseline-t8-2",
+ "exit_code": 0,
+ "stderr_tail": "ized research step.\n\ud83d\udcb8 Total Research Costs: $0.034015000000000004\nINFO:     [13:23:10] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:24:00] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 63.3,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Zepto Pre-Meeting Briefing: Changes Over the Last 30 Days\n\n**Meeting date:** 17 November 2026\n**Briefing date:** 15 November 2026\n**Review window:** 16 October to 15 November 2026\n**Classification:** Objective synthesis of provided sources. Inferences are labelled as such.\n\n## Executive Summary\n\nPublic sources provided for this window contain **no verified Zepto funding round, product launch, leadership appointment, or IPO filing dated between 16 October and 15 November 2026.** The most material developments are older but still shape the meeting agenda:\n\n1. **Valuation reset (signal, not yet confirmed as a down round):** Multiples records a $4.5 billion valuation in an August 2026 round, down from $7 billion in October 2025 ([Multiples, 2026](https://multiples.vc/private-comps/zepto)).\n2. **IPO timing is unconfirmed:** A May 2026 report said Zepto planned a \u20b911,000-crore IPO in July ([Press Trust of India, 2026](https://www.business-standard.com/companies/news/zepto-plans-to-float-rs-11000-crore-ipo-in-july-126052100806_1.html)). No later source in the set confirms that the July timetable held.\n3. **Hiring remains active:** A job aggregator lists 183 verified Zepto vacancies for November 2026, mostly field delivery roles ([Apna, 2026](https://apna.co/jobs/zepto-jobs)).\n4. **Festive quick-commerce competition is intensifying:** Amazon and Flipkart are entering quick commerce, and festive quick-commerce GMV is projected to grow 110\u2013120% year on year in 2026 ([BW Online Bureau, 2026](https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434)).\n\n**Analyst assessment:** The most important item for the meeting is the apparent gap between Zepto's reported revenue growth and its falling valuation multiple. Zepto should be asked to clarify this directly before any IPO discussion.\n\n## Company Profile and Baseline\n\nZepto was founded in 2021 by Aadit Palicha and Kaivalya Vohra ([Hirist, 2026](https://www.hirist.tech/zepto-careers)). It is a Bengaluru-based quick-commerce company offering over 45,000 products and competing with Blinkit and Swiggy's Instamart ([Reuters, 2025](https://sg.finance.yahoo.com/news/indias-quick-commerce-company-zepto-074521951.html)). Aadit Palicha has served as CEO since 2021 ([Unify, 2026](https://www.unifygtm.com/insights/executives/zepto-ceo)).\n\n## What Changed in the Last 30 Days\n\n### News and Corporate Events\n\nNo verified Zepto news item dated within the 16 October to 15 November 2026 window appears in the provided sources. The closest items are as follows.\n\n| Item | Date | Status for this window | Source |\n|---|---|---|---|\n| Zepto \"beyond groceries\" feature article | 29 Sep 2026 | Just outside window; indicates non-grocery expansion | [Unify, 2026](https://www.unifygtm.com/insights/executives/zepto-ceo) |\n| Quick commerce basket-expansion analysis | 8 Oct 2026 | Just outside window; market context | [BW Online Bureau, 2026](https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434) |\n| Economic Times article tagged \"Zepto ED case\" | Last updated 9 Jun 2026 | Tag only; article body not available | [The Economic Times, 2026](https://m.economictimes.com/industry/services/retail/customers-will-feast-as-zepto-to-pour-fuel-into-quick-commerce-fire/articleshow/131605658.cms) |\n\nThe Economic Times page carries the tag \"Zepto ED case\" alongside \"Zepto IPO date\" and \"Zepto orders\" ([The Economic Times, 2026](https://m.economictimes.com/industry/services/retail/customers-will-feast-as-zepto-to-pour-fuel-into-quick-commerce-fire/articleshow/131605658.cms)). The body text supplied does not describe the enforcement matter, so its status cannot be verified. The meeting should raise it only as a question, not as an established fact.\n\n### Product Launches\n\nNo product launch dated within the window is verified. The strategic direction is documented in market analysis. Quick commerce is moving beyond grocery into electronics, beauty, festive purchases, and non-metro markets ([BW Online Bureau, 2026](https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434)). Redseer's Kushal Bhatnagar notes that Amazon and Flipkart may have an advantage in electronics because of their brand relationships and assortment breadth ([BW Online Bureau, 2026](https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434)).\n\n### Leadership Hires\n\n- **No Zepto hire is verified within the window.** The LinkedIn \"Top Hires\" roundup for March 2026 contains no Zepto appointment ([Leadership Announcements, 2026](https://www.linkedin.com/pulse/top-hires-from-march-2026-leadership-announcements-c7ihc)).\n- **The most recent verified senior appointment is earlier.** On 19 June 2026, Zepto appointed Sushant S. as Director & India Head \u2013 People Experience, Workforce Governance, Enterprise Transformation & Operations Strategy. The role covers more than 300,000 personnel, including over 50,000 associates and 250,000 riders, and operational support across more than 1,000 stores and facilities ([Apparel Resources, 2026](https://apparelresources.com/business-news/retail/zepto-strengthens-leadership-sushant-s-appointment)).\n\n### Deals and Financing\n\n- **Most recent round:** A $105 million undisclosed-stage round in August 2026, led by or including General Catalyst, Glade Brook Capital Partners, Goodwater Capital, and Nexus Venture Partners ([Multiples, 2026](https://multiples.vc/private-comps/zepto)). This falls outside the 30-day window.\n- **Tracxn lists no new round within the window.** Its latest-round entry is dated 16 October 2025, a $300 million Series H, even though its page was last updated on 11 November 2026 ([Tracxn, 2026](https://tracxn.com/d/companies/zepto/__vOTzafGt-8S4kwYniiZ_yRogd6c_Jsw_vRD0gckHtfE/funding-and-investors)).\n- **IPO filing:** Zepto filed confidentially with SEBI in late December 2025 for an IPO worth \u20b9110 billion (about $1.22 billion) ([Reuters, 2025](https://sg.finance.yahoo.com/news/indias-quick-commerce-company-zepto-074521951.html)).\n- **Planned listing:** Zepto was reported in May 2026 to plan a \u20b911,000-crore IPO in July, with the listing placing it alongside Zomato and Swiggy ([Press Trust of India, 2026](https://www.business-standard.com/companies/news/zepto-plans-to-float-rs-11000-crore-ipo-in-july-126052100806_1.html)). The report cites people familiar with the matter, not an official announcement.\n\n## Financial and Valuation Trajectory\n\nFigures below are from Multiples, which notes that revenue values are typically run-rate or last-twelve-month figures recorded at the time of each deal ([Multiples, 2026](https://multiples.vc/private-comps/zepto)).\n\n| Date | Stage | Valuation | Recorded revenue | Revenue multiple |\n|---|---|---|---|---|\n| Oct 2021 | Series B | $225M | $19M | 12.0x |\n| Nov 2024 | Series G | $5.0B | $527M | 9.5x |\n| Aug 2025 | Undisclosed | $6.1B | $1.3B | 4.8x |\n| Oct 2025 | Series H | $7.0B | $1.3B | 5.6x |\n| Aug 2026 | Undisclosed | $4.5B | $2.4B | 1.9x |\n\nSource for table: ([Multiples, 2026](https://multiples.vc/private-comps/zepto)).\n\nReuters reported in December 2025 that Zepto was valued at $7 billion after raising $450 million in October 2025 ([Reuters, 2025](https://sg.finance.yahoo.com/news/indias-quick-commerce-company-zepto-074521951.html)). An Inc42 post attributes the same round to CalPERS and describes the valuation as up from $5 billion ([Inc42 Media, 2025](https://www.linkedin.com/posts/inc42_newsmakers-activity-7385629592016994304-qiGI)).\n\n**Analyst assessment:**\n- The reported August 2026 valuation of $4.5 billion is about 36% below the $7 billion mark of October 2025. If accurate, that is a down-round or structured-valuation outcome, though the source does not state the round's terms.\n- Recorded revenue rose from $1.3 billion to $2.4 billion over the same period, roughly 85%. The compression of the revenue multiple from 5.6x to 1.9x therefore reflects both a higher revenue base and a lower price investors were willing to pay.\n- Multiples reports total funding of $2.6 billion across 14 rounds ([Multiples, 2026](https://multiples.vc/private-comps/zepto)), while Tracxn reports $2.29 billion across 14 rounds ([Tracxn, 2026](https://tracxn.com/d/companies/zepto/__vOTzafGt-8S4kwYniiZ_yRogd6c_Jsw_vRD0gckHtfE/funding-and-investors)). The gap should be reconciled before any figure is used externally.\n\n## Market Context\n\n- The Indian quick-commerce market is projected to reach $70\u201390 billion by FY31 ([BW Online Bureau, 2026](https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434)).\n- Quick commerce accounted for around 11% of festive e-commerce spending in 2025 and could reach nearly 18% in 2026. Festive quick-commerce GMV is projected to grow 110\u2013120% year on year, versus 16\u201318% for the rest of e-commerce ([BW Online Bureau, 2026](https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434)).\n- Amazon Now and Flipkart Minutes are entering the segment. Blinkit and Zepto hold hyperlocal fulfilment and dark-store expertise, while Amazon and Flipkart hold established customer bases and stronger non-grocery positions ([BW Online Bureau, 2026](https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434)).\n\n## Workforce and Employer Signals\n\n- Zepto's job board presence shows 183 verified vacancies for November 2026. Listed examples include Delivery Partner roles in Pune at \u20b950,000\u2013\u20b980,000, and Delivery Executive roles in New Delhi, Nagpur, and Coimbatore, with salary not disclosed ([Apna, 2026](https://apna.co/jobs/zepto-jobs)).\n- Zepto's employer rating on Hirist is 3.6 from 3.1 thousand reviews. The Cluster Manager role scores 3.1, the lowest among the profiles listed, and Team Lead scores 3.7 ([Hirist, 2026](https://www.hirist.tech/zepto-careers)).\n- A Built In summary, which it notes is not reviewed or approved by Zepto, describes strengths in strategic direction and fast execution alongside cultural intensity, inconsistent people management, and limited frontline support ([Built In, 2026](https://builtin.com/company/zepto/faq/leadership-management)).\n\n**Analyst assessment:** High delivery-role hiring combined with the lowest rating in the Cluster Manager tier suggests that middle-management capacity may be under pressure as the network scales. This is an inference from limited review data, not an established finding.\n\n## Source Reliability and Information Gaps\n\n| Gap | Impact | Mitigation |\n|---|---|---|\n| No Zepto primary disclosures (newsroom, filings, press releases) in source set | Cannot verify company-stated figures | Request official materials at meeting |\n| Economic Times article body unavailable | \"Zepto ED case\" and \"Zepto IPO date\" tags unverified | Ask Zepto directly |\n| Conflicting funding totals ($2.6B vs $2.29B) | Investor-facing figures uncertain | Request cap table and funding history |\n| Conflicting headcount signals (Built In lists 1,000 total employees and a Carlsbad HQ; Apparel Resources cites 300,000 personnel) | Workforce size unclear, likely different definitions | Request headcount by category |\n| Tavily entity profile carries a disclaimer that information may be outdated | Used only for baseline industry classification | Not relied on for figures |\n| IPO July target not confirmed after May 2026 | Timeline may have changed | Ask for current status |\n\nThe Built In summary is also a secondary, LLM-derived compilation and is weighted lower than the Hirist and Apparel Resources items ([Built In, 2026](https://builtin.com/company/zepto/faq/leadership-management)).\n\n## Overall Assessment\n\n**Analyst assessment:** Zepto's operating scale and market position appear strong. The provided figures show revenue growing to $2.4 billion and an active hiring pipeline. However, the financial signals are mixed. The reported valuation reset from $7 billion to $4.5 billion, if confirmed, would materially affect IPO pricing expectations. The lack of a confirmed IPO date after the July target suggests the listing may have slipped. The festive season and the entry of Amazon and Flipkart create near-term competitive pressure. The meeting should prioritise clarity on valuation and listing timing over general relationship discussion.\n\n## Three Open Questions for the Meeting\n\n1. **Valuation and IPO timing:** Does the August 2026 valuation of $4.5 billion reflect a down round or structured terms relative to the $7 billion October 2025 round? Has the July 2026 IPO window been revised, and what is the current status of the confidential filing?\n\n2. **Festive and category competition:** Given the projected 110\u2013120% growth in festive quick-commerce GMV and the entry of Amazon Now and Flipkart Minutes, what is Zepto's plan to win electronics and festive baskets, and what average order value and non-metro penetration targets underpin it?\n\n3. **Workforce stability and regulatory exposure:** With 250,000 riders and 50,000 associates in the network, and cluster-manager ratings of 3.1 on Hirist, what retention and management investments are planned? Can Zepto confirm the status of the enforcement matter referenced in the Economic Times tags?\n\n## References\n\nApna. (2026). *Zepto jobs - 183 verified vacancies*. apna.co. [https://apna.co/jobs/zepto-jobs](https://apna.co/jobs/zepto-jobs)\n\nApparel Resources News-Desk. (2026, June 19). *Zepto strengthens leadership with Sushant S. appointment*. Apparel Resources. [https://apparelresources.com/business-news/retail/zepto-strengthens-leadership-sushant-s-appointment](https://apparelresources.com/business-news/retail/zepto-strengthens-leadership-sushant-s-appointment)\n\nBuilt In. (2026, April 1). *Leadership at Zepto: How are the managers at Zepto? 2026*. Built In. [https://builtin.com/company/zepto/faq/leadership-management](https://builtin.com/company/zepto/faq/leadership-management)\n\nBW Online Bureau. (2026, October 8). *Quick commerce enters bigger-basket battle as Blinkit, Zepto face Amazon & Flipkart*. BW Marketing World. [https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434](https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434)\n\nHirist. (2026). *Zepto careers, Zepto jobs, November 2026*. hirist.tech. [https://www.hirist.tech/zepto-careers](https://www.hirist.tech/zepto-careers)\n\nInc42 Media. (2025). *Newsmakers* [LinkedIn post]. LinkedIn. [https://www.linkedin.com/posts/inc42_newsmakers-activity-7385629592016994304-qiGI](https://www.linkedin.com/posts/inc42_newsmakers-activity-7385629592016994304-qiGI)\n\nLeadership Announcements. (2026). *Top hires from March 2026*. LinkedIn. [https://www.linkedin.com/pulse/top-hires-from-march-2026-leadership-announcements-c7ihc](https://www.linkedin.com/pulse/top-hires-from-march-2026-leadership-announcements-c7ihc)\n\nMultiples. (2026). *Zepto revenue, valuation, funding & investors*. Multiples. [https://multiples.vc/private-comps/zepto](https://multiples.vc/private-comps/zepto)\n\nPress Trust of India. (2026, May 21). *Quick commerce firm Zepto plans \u20b911,000-crore IPO in July: Report*. Business Standard. [https://www.business-standard.com/companies/news/zepto-plans-to-float-rs-11000-crore-ipo-in-july-126",
+ "llm": {
+  "calls": 3,
+  "ok": 3,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 19709,
+  "tokens_out": 12470,
+  "cost": 0.008206,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.bwmarketingworld.com/article/quick-commerce-enters-bigger-basket-battle-as-blinkit-zepto-face-amazon-flipkart-627434",
+    "title": "Quick Commerce Enters Bigger-basket Battle As Blinkit, Zepto Face Amazon & Flipkart - BW Marketing World",
+    "published_date": null
+   },
+   {
+    "url": "https://sg.finance.yahoo.com/news/indias-quick-commerce-company-zepto-074521951.html",
+    "title": "India's quick commerce company Zepto files for $1.22 billion IPO",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/BusinessToday/videos/competition-in-quick-commerce-is-intensifying-as-zepto-prepares-for-its-ipo-but-/1399637032026138",
+    "title": "Competition in quick commerce is intensifying as Zepto prepares for its IPO, but Gurmeet Chaddha, Co-founder & CEO, Complete Circle, believes the real battle is on the ground, not on the stock exchange. He says Eternal, the parent company of Zomato, remains his preferred pick, citing Blinkit's market leadership, steady food delivery growth, and the rising traction of District. Gurmeet also explains why Amazon's aggressive expansion could put greater pressure on Swiggy and Zepto rather than Eternal. \n\n #ZeptoIPO #Zepto #Eternal #Zomato #Blinkit #Swiggy #Amazon #QuickCommerce #IPO #StockMarket #ShareMarket #Investing #IndianMarkets #BusinessNews #MarketNews #GurmeetChaddha #BusinessToday #Ecommerce #RetailInvesting #GrowthStocks | Business Today",
+    "published_date": null
+   },
+   {
+    "url": "https://m.economictimes.com/industry/services/retail/customers-will-feast-as-zepto-to-pour-fuel-into-quick-commerce-fire/articleshow/131605658.cms",
+    "title": "Customers will feast as Zepto to pour fuel into quick commerce fire - The Economic Times",
+    "published_date": null
+   },
+   {
+    "url": "https://www.business-standard.com/companies/news/zepto-plans-to-float-rs-11000-crore-ipo-in-july-126052100806_1.html",
+    "title": "Quick commerce firm Zepto plans \u20b911,000-crore IPO in July: Report | Company News - Business Standard",
+    "published_date": null
+   },
+   {
+    "url": "https://apna.co/jobs/zepto-jobs",
+    "title": "Zepto Jobs - 184+ Vacancies in November 2026 | apna.co",
+    "published_date": null
+   },
+   {
+    "url": "https://www.desidime.com/stores/zepto",
+    "title": "Zepto Coupons, Promo code & Offers : \u20b975 OFF + UPTO 60% OFF | November 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.naukri.com/zepto-jobs-careers-6385606",
+    "title": "Zepto Careers - 34 Zepto Jobs November 2026 - Naukri.com",
+    "published_date": null
+   },
+   {
+    "url": "https://www.hirist.tech/zepto-careers",
+    "title": "Zepto Careers, Zepto Jobs, November 2026 | hirist.tech",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/YT08vmcifB58",
+    "title": "Zepto",
+    "published_date": null
+   },
+   {
+    "url": "https://multiples.vc/private-comps/zepto",
+    "title": "Zepto Revenue, Valuation, Funding & Investors | Multiples",
+    "published_date": null
+   },
+   {
+    "url": "https://tracxn.com/d/companies/zepto/__vOTzafGt-8S4kwYniiZ_yRogd6c_Jsw_vRD0gckHtfE/funding-and-investors",
+    "title": "Zepto - 2026 Funding Rounds & List of Investors - Tracxn",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/YT08vmcifB58",
+    "title": "Zepto",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/inc42_newsmakers-activity-7385629592016994304-qiGI",
+    "title": "Zepto raises $450 Mn, Rapido partners with travel firms, Google invests in AI hub | Inc42 Media posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://www.instagram.com/p/DP4Rg1PEbiU",
+    "title": "Instagram",
+    "published_date": null
+   },
+   {
+    "url": "https://www.unifygtm.com/insights/executives/zepto-ceo",
+    "title": "Who is the CEO of Zepto in 2026? Aadit Palicha | Unify",
+    "published_date": null
+   },
+   {
+    "url": "https://apparelresources.com/business-news/retail/zepto-strengthens-leadership-sushant-s-appointment",
+    "title": "Zepto Strengthens Leadership with Sushant S. Appointment | Retail News India",
+    "published_date": null
+   },
+   {
+    "url": "https://builtin.com/company/zepto/faq/leadership-management",
+    "title": "Leadership at Zepto: How Are the Managers at Zepto? 2026 | Built In",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/etnow/videos/exclusive-zeptos-hiring-surge-a-game-changerwith-45-lakh-jobs-created-in-36-mont/984949763673576",
+    "title": "2.6K views \u00b7 11 reactions | #exclusive | Zepto\u2019s Hiring Surge: A Game-Changer?\n\nWith 4.5 lakh jobs created in 36 months and 25,000 added last quarter, is Zepto outpacing #IndianRailways in employment? Can quick commerce revolutionize India\u2019s job market?\n\nCatch Aadit Palicha, Founder & CEO of Zepto, sharing his insights!\n\nWatch here: https://youtube.com/watch?v=wnLxLjHut8U\n\n#zepto #AaditPalicha #NikunjDalmia #ETNOW | ET NOW",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/pulse/top-hires-from-march-2026-leadership-announcements-c7ihc",
+    "title": "Top Hires from March 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://apna.co/jobs/zepto-jobs",
+    "title": "Zepto Jobs - 184+ Vacancies in November 2026 | apna.co",
+    "published_date": null
+   },
+   {
+    "url": "https://www.desidime.com/stores/zepto",
+    "title": "Zepto Coupons, Promo code & Offers : \u20b975 OFF + UPTO 60% OFF | November 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.naukri.com/zepto-jobs-careers-6385606",
+    "title": "Zepto Careers - 34 Zepto Jobs November 2026 - Naukri.com",
+    "published_date": null
+   },
+   {
+    "url": "https://www.hirist.tech/zepto-careers",
+    "title": "Zepto Careers, Zepto Jobs, November 2026 | hirist.tech",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/YT08vmcifB58",
+    "title": "Zepto",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:53:03.72822Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3054,
+   "tokens": 1008,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:53:06.894593Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 240,
+   "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:53:07.162376Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1213,
+   "tokens": 4855,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:53:09.238267Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 239,
+   "query": "Zepto leadership hires executive appointments 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:53:09.238911Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 238,
+   "query": "Zepto funding deals partnerships launches 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:53:09.239673Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 626,
+   "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:53:09.241394Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 646,
+   "query": "Zepto quick commerce news November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:53:10.637183Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 49386,
+   "tokens": 26316,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 1801,
+  "cited": 14,
+  "verified": 13,
+  "unverified": 1,
+  "unverified_urls": [
+   "https://www.business-standard.com/companies/news/zepto-plans-to-float-rs-11000-crore-ipo-in-july-126"
+  ],
+  "recent_share": null,
+  "undated": 13,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

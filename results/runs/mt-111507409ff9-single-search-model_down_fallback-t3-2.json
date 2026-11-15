@@ -1,0 +1,111 @@
+{
+ "run_id": "mt-111507409ff9-single-search-model_down_fallback-t3-2",
+ "agent": "single-search",
+ "condition": "model_down_fallback",
+ "task_id": "t3",
+ "company": "Shopify",
+ "repeat": 2,
+ "virtual_key": "mt-111507409ff9-single-search-model_down_fallback-t3-2",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 12.2,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Shopify (Meeting 17 November 2026)\n\n**Scope:** Sources dated roughly 21 October to 8 November 2026. Only the search results provided were used.\n\n## Financial performance\n- Shopify reported 32% revenue growth (32% in constant currency) and a 22% free cash flow margin for the quarter ended 30 September 2026, announced 3 November 2026 (https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow). A Simply Wall St summary carried on Yahoo Finance repeats these figures (https://finance.yahoo.com/markets/stocks/articles/latest-news-e-commerce-shopifys-123733064.html).\n- Management held a Q3 results call on 3 November 2026 at 8:30 a.m. ET, with a webcast replay available (https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow).\n\n## Product launches\n- Shopify's Fall '26 Edition was published on 1 November 2026 (https://www.shopify.com/news/fall-26-edition-merchant). Highlights include a new Shop home on the web, with shoppable posts, editorial curations, and sections personalised to each shopper (https://www.shopify.com/news/fall-26-edition-merchant).\n- VP of Product Vanessa Lee frames the release around network effects across merchants (https://www.shopify.com/news/fall-26-edition-merchant).\n\n## Promotions\n- A third-party DemandSage page advertises three months of Shopify for $1/month, valid until 30 November 2026 (https://www.demandsage.com/shopify-free-trial). This is not an official Shopify source, and the terms are unverified.\n\n## Headcount (timing unclear)\n- An undated Tavily company profile lists headcount at 30,025, up 5,330 (21.6%) year on year, up 1,499 in the latest quarter, and up 170 in the latest month (https://tavily.com/knowledge/company/yIg9BumgrtmF). Because the page is undated, these figures may fall outside the 30-day window.\n\n## Hires and deals\n- No hires, acquisitions, or partnership deals appear in the results. I could not find sources for these categories in the last 30 days.\n\n## Open questions\n1. What is the rollout timeline and merchant impact of the new Shop home and personalised sections announced in the Fall '26 Edition?\n2. With revenue up 32% and headcount reportedly up 21.6% year on year, which areas are receiving the most investment in the next 12 months?\n3. Are the $1/month, three-month trial terms available through official Shopify channels, and do they apply to the accounts we would bring to Shopify?",
+ "llm": {
+  "calls": 2,
+  "ok": 1,
+  "errors": 1,
+  "embedding_calls": 0,
+  "tokens_in": 1817,
+  "tokens_out": 1789,
+  "cost": 0.001076,
+  "fallbacks": 1,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.demandsage.com/shopify-free-trial",
+    "title": "Shopify Free Trial 2026 [NOV]: 3 Months At $1/MO",
+    "published_date": "Fri, 06 Nov 2026 11:04:10 GMT"
+   },
+   {
+    "url": "https://finance.yahoo.com/markets/stocks/articles/latest-news-e-commerce-shopifys-123733064.html",
+    "title": "Latest News In E-Commerce - Shopify's Revenue Surge Highlights Evolving Market Dynamics",
+    "published_date": "Sun, 08 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow",
+    "title": "Shopify Sustains Rapid Growth with Revenue Up 32% and Free Cash Flow Margin of 22%",
+    "published_date": "Wed, 21 Oct 2026 08:48:00 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-merchant",
+    "title": "Exponential: Shopify's Fall '26 Edition",
+    "published_date": "Sun, 01 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/yIg9BumgrtmF",
+    "title": "Shopify",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:50:36.727249Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2663,
+   "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:50:39.490137Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:50:39.492179Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 8040,
+   "tokens": 3606,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 324,
+  "cited": 5,
+  "verified": 5,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 5,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

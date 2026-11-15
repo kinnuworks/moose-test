@@ -1,0 +1,295 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-model_down_fallback-t3-2",
+ "agent": "gpt-researcher",
+ "condition": "model_down_fallback",
+ "task_id": "t3",
+ "company": "Shopify",
+ "repeat": 2,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-model_down_fallback-t3-2",
+ "exit_code": 0,
+ "stderr_tail": "3] Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.040215\nINFO:     [13:20:43] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:21:26] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 65.9,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Shopify Meeting Briefing: 17 November 2026\n\n## Purpose and Scope\n\nThis briefing prepares for a meeting with Shopify on 17 November 2026. It covers the 30 days from 16 October to 15 November 2026 and includes news, product launches, developer and security changes, leadership and hiring signals, deals, and market data. Items from just outside the window are labelled as context. Every factual claim is linked to a source in the reference list. Where the provided material contains no relevant item for a category, the briefing says so rather than filling the gap.\n\n## Executive Summary\n\n- **Product direction is centred on agentic commerce.** The Fall '26 Edition, released 28 October 2026, makes Shopify's catalog, cart, and checkout available to AI agents and apps ([Shopify, 2026b](https://www.shopify.com/news/fall-26-edition-developer)).\n- **Merchant tooling is shifting toward AI-driven store management.** Canvas and a rebuilt Sidekick are the main examples, though Canvas is still in early access ([Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall)).\n- **Platform security and deprecation deadlines are tightening.** Several changes fall between now and early 2027, which creates operational load for merchants and app developers.\n- **No Shopify executive appointments or acquisitions were found in the 30-day window.** The provided sources do not report any.\n- **Market signals are mixed but stable.** Shopify's share price closed at $147.09 on 13 November 2026 ([Yahoo Finance, 2026](https://finance.yahoo.com/quote/SHOP/press-releases)).\n\n## Key Changes in the Last 30 Days\n\n### Product and Platform Launches\n\nThe most significant event in the window was the Fall '26 Edition, codenamed \"Exponential,\" which Shopify published on 28 October 2026. Sources disagree on the scale: the Editions page lists 222 updates across 11 categories ([Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall)), while the launch email described \"150+ updates\" ([Witscode, 2026](https://witscode.com/blogs/shopify-editions-fall-2026)). The discrepancy is likely a counting difference, but it is worth clarifying in the meeting.\n\nThe release is organised around several themes:\n\n| Area | Change | Status (per sources) | Source |\n|---|---|---|---|\n| Agentic checkout | Shop Pay checkout inside AI agents, including Muse from Meta, Claude Duet, Grok Bot, and Instinct | Live | [Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall) |\n| Agent discovery | shop.md lets ChatGPT, Claude, and other agents shop Shopify stores | Live | [Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall) |\n| Storefront tooling | WebMCP tools run by default on every Liquid and Hydrogen storefront and checkout | Default-on | [Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall) |\n| Store design | Canvas, a whole-store design surface edited through Sidekick | Early access; desktop-only at launch | [Witscode, 2026](https://witscode.com/blogs/shopify-editions-fall-2026) |\n| Theme architecture | New theme architecture for agencies and developers | Developer preview | [Witscode, 2026](https://witscode.com/blogs/shopify-editions-fall-2026) |\n| Fraud prevention | Shopify Protect updates, including new fraud and chargeback tools | Mixed availability | [Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall) |\n\nShopify reports that daily Sidekick sessions grew 4.2x year over year, and that Sidekick made more than 25 million theme edits in the first half of 2026 ([Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall)). Shopify also states that stores can go from no theme to launch 20% faster with Canvas, though this is a company claim rather than an independently verified result ([Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall)).\n\nShopify's own framing identifies agentic commerce as central to the release ([Coalition Technologies, 2026](https://coalitiontechnologies.com/blog/shopify-editions-fall-26)). Identixweb cites Adobe's expectation of US online holiday spending reaching $275.1 billion this season, with traffic from AI tools up 130% year over year ([Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall)).\n\nRollouts also gained a key feature. On 23 October 2026, Shopify expanded Rollouts to full catalog scheduling, allowing brands to set when catalogs go live, switch between them at set times, and bundle pricing changes with theme and checkout updates ([Common Thread Co., 2026](https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly)). This directly targets Black Friday and Cyber Monday (BFCM) planning.\n\n### Merchant Features\n\nOn 11 November 2026, Shopify began showing store credit balances in the customer account header. Signed-in customers who have not yet ordered also receive personalised product recommendations from the catalog ([Releasebot, 2026](https://releasebot.io/updates/shopify)).\n\n### Developer and Security Changes\n\n| Date | Change | Relevance | Source |\n|---|---|---|---|\n| 27 Oct 2026 | App security updates, October 2026 (developer changelog) | Apps and partners | [Witscode, 2026](https://witscode.com/blogs/shopify-editions-fall-2026) |\n| 2 Nov 2026 | Global Catalog REST API stops serving traffic | Integrations relying on the legacy API | [Witscode, 2026](https://witscode.com/blogs/shopify-editions-fall-2026) |\n| Nov 2026 to Jan 2027 | IP allowlists phased in for custom apps installed outside their owning organisation | Custom apps and partner accounts | [Releasebot, 2026](https://releasebot.io/updates/shopify) |\n| 14 Nov 2026 | Allowlists may combine IP addresses, CIDR ranges, and hosting provider ASNs; tighter requirements for public and partner-created apps | Public and partner apps | [Releasebot, 2026](https://releasebot.io/updates/shopify) |\n\nThe 14 November update is labelled \"App security updates: Thank you, plus what's required next,\" which suggests Shopify is responding to feedback from bulk-operation allowlisting while tightening requirements further ([Releasebot, 2026](https://releasebot.io/updates/shopify)).\n\n### Deadlines Approaching\n\nSeveral deadlines follow the window and should be on the agenda:\n\n- **Script tag deprecation:** Applies on 1 October 2026 and 1 March 2027. It affects all Shopify plans, including Plus ([Common Thread Co., 2026](https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly)).\n- **Global Catalog REST API cutoff:** 2 November 2026, which has now passed as of the briefing date ([Witscode, 2026](https://witscode.com/blogs/shopify-editions-fall-2026)).\n- **IP allowlist enforcement:** Phased from November 2026 through January 2027 ([Releasebot, 2026](https://releasebot.io/updates/shopify)).\n- **BFCM activation:** Common Thread Co. advised scheduling the 27 November activation in advance ([Common Thread Co., 2026](https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly)).\n\n## Hires and Leadership\n\nThe provided sources contain **no Shopify executive appointments or senior hires within the 30-day window.** The most recent board change in the material is Jeanne DeWitt Grosser joining the board on 16 June 2026, which falls outside the window ([Shopify, 2026a](https://www.shopify.com/news/search)).\n\nThe Rocket Talent articles dated October and November 2026 concern recruitment services for Shopify brands and are not Shopify hiring announcements ([Rocket Talent, 2026](https://rockettalent.co/blog/growth-recruiters-for-shopify-brands-complete-guide)). They should not be treated as evidence of Shopify leadership changes.\n\n## Deals, Financials, and Market Signals\n\n**Deals:** No acquisitions or partnerships announced within the window appear in the sources. For historical context, Shopify agreed to acquire fulfilment provider Deliverr for $2.1 billion in May 2022 ([Paul, Weiss, 2022](https://www.paulweiss.com/insights/client-news/shopify-to-acquire-deliverr-for-21-billion)). In March 2025, it agreed to acquire AI search startup Vantage Discovery, which it planned to integrate into its platform ([LinkedIn, 2025](https://www.linkedin.com/pulse/shopify-acquires-ai-search-startup-march-21st-2025-5ccpe)).\n\n**Financials:** Shopify announced 30%+ growth across GMV, revenue, gross profit, and free cash flow on 5 August 2026 ([Shopify, 2026a](https://www.shopify.com/news/search)). This is outside the window but is the most recent reported performance. On 2 June 2026, Shopify also increased its share repurchase programme by $3 billion ([Shopify, 2026a](https://www.shopify.com/news/search)).\n\n**Market data:** Shopify closed at $147.09 on 13 November 2026, up 0.21%. After hours, the share price was $145.62, down 1.00% ([Yahoo Finance, 2026](https://finance.yahoo.com/quote/SHOP/press-releases)). A single-day movement is not a meaningful trend, and the sources do not include longer-term price data.\n\n**Ecosystem:** Shopify describes an app ecosystem worth $1.3 billion and reports that its partner network is growing ([Shopify, 2026c](https://www.shopify.com/news/a-world-with-more-builders)). The Partner Survey figures cited there were fielded in mid-2026 and fall outside the window.\n\n## Source Reliability and Data Gaps\n\n- **Primary sources:** Shopify's developer news and the Shopify news pages are the most reliable for product and platform facts ([Shopify, 2026b](https://www.shopify.com/news/fall-26-edition-developer)).\n- **Secondary sources:** Several third-party blogs, including Identixweb, Witscode, Meetanshi, and Coalition Technologies, summarise the Fall '26 Edition. They are useful but differ on the update count, so the 222 and 150+ figures should be verified against Shopify's Editions page.\n- **Release trackers:** Releasebot and Common Thread Co. provide dated entries but are aggregators. Specific dates and deadlines should be confirmed in Shopify's own changelog before the meeting.\n- **Gaps:** No Shopify executive changes, acquisitions, or new financial guidance were found within the window. The sources also lack independent adoption data for Canvas, shop.md, and the agentic checkout features.\n\n## Analyst Assessment\n\nIn my view, the most material development is not any single feature. It is the combined direction: Shopify is moving the storefront, checkout, and merchant operations toward AI agents while tightening the rules for apps and integrations. This creates opportunity for merchants who adopt early, but it also raises the cost of staying current. Between the script tag deprecation, the Global Catalog API cutoff, and the IP allowlist phase-in, a merchant or partner that misses a date could see tracking, integrations, or checkout break during peak trading.\n\nCanvas is the feature with the most execution risk. It is in early access, desktop-only at launch, and did not support third-party themes, app blocks, markets, translations, or rollouts at launch ([Witscode, 2026](https://witscode.com/blogs/shopify-editions-fall-2026)). Shopify's 20% speed claim is promising, but the gaps matter for merchants with complex stores. The 2 October Rollouts discount feature, which was published just before the window, also benefits merchants who test offers before BFCM, but the sources note that 7 to 14 days of experiment time is needed for significance ([Common Thread Co., 2026](https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly)). That makes timing critical for brands starting late.\n\nThe September 1 change to on-hand inventory reporting also deserves attention. Sell-through, days-remaining, and ABC analysis reports now measure all physical stock rather than sellable stock, so trend lines have a step change that could be misread as performance ([Huptech Web, 2026](https://www.huptechweb.com/blogs/shopify-changelog-guide)).\n\n## Three Open Questions for the Meeting\n\n1. **Canvas roadmap:** What is the timeline for moving Canvas out of early access, and when will it support third-party themes, app blocks, markets, and rollouts, given these were absent at launch ([Witscode, 2026](https://witscode.com/blogs/shopify-editions-fall-2026))?\n2. **Agentic commerce measurement:** How does Shopify plan to report sales and attribution from AI agent channels, including Shop Pay checkout inside agents and shop.md, so that merchants can judge return on investment ([Identixweb, 2026](https://www.identixweb.com/shopify-editions-fall))?\n3. **Security enforcement for partners:** How will the IP allowlist and app security requirements phased in through January 2027 be supported for partners and custom apps installed outside their owning organisation, and what support is available for apps that cannot meet the requirements in time ([Releasebot, 2026](https://releasebot.io/updates/shopify))?\n\n## References\n\nCommon Thread Co. (2026). *Every Shopify update in 2026 (updated weekly)*. Common Thread Co. [https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly](https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly)\n\nCoalition Technologies. (2026). *Shopify Editions Fall '26 Exponential*. Coalition Technologies. [https://coalitiontechnologies.com/blog/shopify-editions-fall-26](https://coalitiontechnologies.com/blog/shopify-editions-fall-26)\n\nHuptech Web. (2026). *Shopify updates August 2026: Changelog & deadlines*. Huptech Web. [https://www.huptechweb.com/blogs/shopify-changelog-guide](https://www.huptechweb.com/blogs/shopify-changelog-guide)\n\nIdentixweb. (2026, October 29). *Shopify Editions Fall 2026: Every major update explained*. Identixweb. [https://www.identixweb.com/shopify-editions-fall](https://www.identixweb.com/shopify-editions-fall)\n\nLinkedIn. (2025, March 21). *Shopify acquires AI search startup*. LinkedIn Pulse. [https://www.linkedin.com/pulse/shopify-acquires-ai-search-startup-march-21st-2025-5ccpe](https://www.linkedin.com/pulse/shopify-acquires-ai-search-startup-march-21st-2025-5ccpe)\n\nPaul, Weiss. (2022, May 5). *Shopify to acquire Deliverr for $2.1 billion*. Paul, Weiss. [https://www.paulweiss.com/insights/client-news/shopify-to-acquire-deliverr-for-21-billion](https://www.paulweiss.com/insights/client-news/shopify-to-acquire-deliverr-for-21-billion)\n\nReleasebot. (2026, November 14). *Shopify release notes: November 2026 latest updates*. Releasebot. [https://releasebot.io/updates/shopify](https://releasebot.io/updates/shopify)\n\nRocket Talent. (2026, October 19). *Growth recruiters for Shopify brands: Assess acquisition and retention*. Rocket Talent. [https://rockettalent.co/blog/growth-recruiters-for-shopify-brands-complete-guide](https://rockettalent.co/blog/growth-recruiters-for-shopify-brands-complete-guide)\n\nShopify. (2026a). *Shopify \u2013 Social media press releases* [News archive]. Shopify. [https://www.shopify.com/news/search](https://www.shopify.com/news/search)\n\nShopify. (2026b, October 28). *Bringing shopping into the future: The Fall '26 Edition for developers*. Shopify. [https://www.shopify.com/news/fall-26-edition-developer](https://www.shopify.com/news/fall-26-edition-developer)\n\nShopify. (2026c, July 28). *The next era of commerce, built by partners*. Shopify. [https://www.shopify.com/news/a-world-with-more-builders](https://www.shopify.com/news/a-world-with-more-builders)\n\nWitscode. (2026). *Shopify Editions Fall 2026: Every major update and what it means for your store*. Witscode. [https://witscode.com/blogs/shopify-editions-fall-2026](https://witscode.com/blogs/shopify-editions-fall-2026)\n\nYahoo Finance. (2026). *Shopify Inc. (SHOP) latest press releases & corporate news*. Yahoo Finance. [https://finance.yahoo.com/quote/SHOP/press-releases](https://finance.yahoo.com/quote/SHOP/press-releases)",
+ "llm": {
+  "calls": 6,
+  "ok": 3,
+  "errors": 3,
+  "embedding_calls": 0,
+  "tokens_in": 25118,
+  "tokens_out": 12166,
+  "cost": 0.008595,
+  "fallbacks": 3,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://releasebot.io/updates/shopify",
+    "title": "Shopify Release Notes - November 2026 Latest Updates - Releasebot",
+    "published_date": null
+   },
+   {
+    "url": "https://www.shopify.com/news/search",
+    "title": "Shopify - Social Media Press Releases",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=MjTRK4KU0rY",
+    "title": "Shopify Just Changed: Every Fall '26 Update You Need to Know",
+    "published_date": null
+   },
+   {
+    "url": "https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly",
+    "title": "Every Shopify Update in 2026 (Updated Weekly)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.shopify.com/news/category/press-releases",
+    "title": "Shopify - Pressroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.paulweiss.com/insights/client-news/shopify-to-acquire-deliverr-for-21-billion",
+    "title": "Shopify to Acquire Deliverr for $2.1 Billion | Paul, Weiss",
+    "published_date": null
+   },
+   {
+    "url": "https://rockettalent.co/blog/growth-recruiters-for-shopify-brands-complete-guide",
+    "title": "Growth recruiters for Shopify brands: assess acquisition and\u2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/pulse/shopify-acquires-ai-search-startup-march-21st-2025-5ccpe",
+    "title": "Shopify acquires AI search startup: March 21st, 2025",
+    "published_date": null
+   },
+   {
+    "url": "https://ecomheroes.dev/blogs/shopify-help/shopify-plus-development-partners-2026",
+    "title": "Best Shopify & Shopify Plus Partners for Growth (2026) \u2013 Ecomheroes",
+    "published_date": null
+   },
+   {
+    "url": "https://www.shopify.com/news/a-world-with-more-builders",
+    "title": "The next era of commerce, built by partners",
+    "published_date": null
+   },
+   {
+    "url": "https://witscode.com/blogs/shopify-editions-fall-2026",
+    "title": "Shopify Editions Fall 2026: Every Major Update and What It Means for Your Store",
+    "published_date": null
+   },
+   {
+    "url": "https://www.identixweb.com/shopify-editions-fall",
+    "title": "Shopify Editions Fall 2026: Every Major Update Explained",
+    "published_date": null
+   },
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-developer",
+    "title": "Bringing shopping into the future: The Fall '26 Edition for developers",
+    "published_date": null
+   },
+   {
+    "url": "https://coalitiontechnologies.com/blog/shopify-editions-fall-26",
+    "title": "Shopify Editions Fall \u201826 Exponential | Coalition Technologies",
+    "published_date": null
+   },
+   {
+    "url": "https://meetanshi.com/blog/shopify-fall-edition-2026",
+    "title": "Shopify Fall \u201926 Edition: New Features Explained - Meetanshi Blog - Tutorials, Tips, News & Insights",
+    "published_date": null
+   },
+   {
+    "url": "https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly",
+    "title": "Every Shopify Update in 2026 (Updated Weekly)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.huptechweb.com/blogs/shopify-changelog-guide",
+    "title": "Shopify Changelog Guide: July 2026 Updates & Deadlines",
+    "published_date": null
+   },
+   {
+    "url": "https://www.shopify.com/news/search",
+    "title": "Shopify - Social Media Press Releases",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mastroke.com/news/latest-shopify-updates-2026",
+    "title": "9 Shopify Updates in 2026 You Shouldn\u2019t Ignore",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/quote/SHOP/press-releases",
+    "title": "Shopify Inc. (SHOP) Latest Press Releases & Corporate News - Yahoo Finance",
+    "published_date": null
+   },
+   {
+    "url": "https://commonthreadco.com/blogs/coachs-corner/every-shopify-update-in-2026-updated-weekly",
+    "title": "Every Shopify Update in 2026 (Updated Weekly)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.huptechweb.com/blogs/shopify-changelog-guide",
+    "title": "Shopify Changelog Guide: July 2026 Updates & Deadlines",
+    "published_date": null
+   },
+   {
+    "url": "https://www.shopify.com/news/search",
+    "title": "Shopify - Social Media Press Releases",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mastroke.com/news/latest-shopify-updates-2026",
+    "title": "9 Shopify Updates in 2026 You Shouldn\u2019t Ignore",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/quote/SHOP/press-releases",
+    "title": "Shopify Inc. (SHOP) Latest Press Releases & Corporate News - Yahoo Finance",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:50:28.687667Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 17,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:50:28.698893Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 7680,
+   "tokens": 1990,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:50:36.490341Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 242,
+   "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:50:36.743973Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:50:36.745234Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 1078,
+   "tokens": 3117,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:50:40.220299Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 237,
+   "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:50:40.227773Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1810,
+   "query": "Shopify Fall 26 Edition developer announcements and Canvas Sidekick updates",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:50:40.228347Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1286,
+   "query": "Shopify acquisitions partnerships and executive hires 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:50:40.229169Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 240,
+   "query": "Shopify news and product launches November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:50:43.286563Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:50:43.291212Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 43301,
+   "tokens": 32177,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 1798,
+  "cited": 13,
+  "verified": 13,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 13,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

@@ -1,0 +1,126 @@
+{
+ "run_id": "mt-111507409ff9-single-search-model_down_fallback-t7-0",
+ "agent": "single-search",
+ "condition": "model_down_fallback",
+ "task_id": "t7",
+ "company": "Infosys",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-single-search-model_down_fallback-t7-0",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 14.1,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Infosys, 17 November 2026\n\n**Scope:** Public items from the search results dated 19 October to 12 November 2026 (about the last 30 days before the meeting). All facts below come from these results. I did not find a source for the meeting's purpose, attendees, or Infosys contacts.\n\n## Financial results and guidance\n- Q2 (quarter ended 30 Sep 2026) revenue was $5,145M, with AI revenue up 29% sequentially to 10.5% of revenue. Reported revenue rose 1.3% year over year, and operating margin was 21.0% (https://www.stocktitan.net/news/INFY/infosys-differentiated-ai-strategy-and-a-sharp-focus-on-value-unlock-sjalje8xfokm.html).\n- Net profit rose 6.2% to 78.23 billion rupees but missed the analyst estimate of 79.29 billion. Infosys cut its forecast, citing a North America slowdown as AI spending shifts (https://www.thestar.com.my/tech/tech-news/2026/10/23/india039s-infosys-beats-second-quarter-revenue-view).\n- The ADR fell over 7% after Infosys lowered its annual revenue growth guidance (https://upstox.com/news/market-news/stocks/infosys-adr-falls-over-7-as-it-major-lowers-annual-revenue-growth-guidance-everything-investors-need-to-know/article-202325).\n- Shares fell 6.5% as Q2 EPS missed estimates by $0.01 (https://scanx.trade/stock-market-news/companies/infosys-hold-investor-roadshows-london-edinburgh-november/54668108). Infosys also reported a North America revenue decline amid sector slowdowns (same source).\n- BMO Capital raised its price target to $13 and maintained Market Perform (same source).\n- A block trade of \u20b969.49 crore was executed on the NSE (same source).\n\n## Deals\n- Large-deal total contract value reached $5.2B, 62% of it net new, including one deal above $2B (https://www.stocktitan.net/news/INFY/infosys-differentiated-ai-strategy-and-a-sharp-focus-on-value-unlock-sjalje8xfokm.html).\n- Deal wins rose from $3.1B a year earlier to $5.2B (https://www.thestar.com.my/tech/tech-news/2026/10/23/india039s-infosys-beats-second-quarter-revenue-view).\n\n## Hires and capacity\n- Infosys expanded its Truist GCC in India and onboarded 1,000 colleagues (https://scanx.trade/stock-market-news/companies/infosys-hold-investor-roadshows-london-edinburgh-november/54668108).\n- Infosys employs over 325,000 people across 59 countries (https://www.thehindubusinessline.com/markets/stock-markets/infosys-shares-slide-over-2-hyderabad-campus-expansion-fails-to-lift-sentiment/article71655856.ece).\n- A new 1.1M sq ft block at the Pocharam campus in Hyderabad targets emerging technologies (https://timesofindia.indiatimes.com/city/hyderabad/infosys-sets-up-new-1-1m-sq-ft-block-at-pocharam-campus-in-hyderabad-to-cater-to-emerging-technologies/articleshow/135366954.cms). I could only verify the headline, not the full article.\n\n## Launches and events\n- The Hyderabad campus was inaugurated on 2 November. It serves banking, retail, life sciences and manufacturing clients and includes energy-efficient systems. The CFO, Jayesh Sanghrajka, and state officials attended. Shares slid over 2% that day (https://www.thehindubusinessline.com/markets/stock-markets/infosys-shares-slide-over-2-hyderabad-campus-expansion-fails-to-lift-sentiment/article71655856.ece).\n- Management will attend non-deal investor roadshows in London and Edinburgh in November (https://scanx.trade/stock-market-news/companies/infosys-hold-investor-roadshows-london-edinburgh-november/54668108).\n- The Infosys Prize 2026 winners were announced on 12 November in Bengaluru. Each of the six winners receives USD 100,000. This is a foundation award, not a company product launch (https://news.careers360.com/infosys-prize-2026-scholars-from-tifr-princeton-carnegie-mellon-uc-san-ranscisco-new-south-wales-singapore-universities-winners).\n\n## Caveats\n- The Star's headline says Infosys \"beats\" revenue expectations, but its body reports a forecast cut. Verify the revenue comparison before quoting it.\n- Several items are headline-only from aggregator pages, so I have not verified their details.\n\n## Open questions\n1. After the guidance cut, what revenue growth assumptions sit behind the revised outlook for North America, and when do you expect that region to recover?\n2. Of the $5.2B in large-deal TCV (62% net new), how much is tied to AI work, and what is the expected revenue timing?\n3. With the Truist GCC hiring and the Pocharam expansion, how are headcount and capacity plans being matched to slowing demand in North America?",
+ "llm": {
+  "calls": 2,
+  "ok": 1,
+  "errors": 1,
+  "embedding_calls": 0,
+  "tokens_in": 3265,
+  "tokens_out": 3149,
+  "cost": 0.001901,
+  "fallbacks": 1,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/infosys-shares-slide-over-2-hyderabad-campus-expansion-fails-to-lift-sentiment/article71655856.ece",
+    "title": "Infosys shares slide over 2%; Hyderabad campus expansion fails to lift sentiment - The HinduBusinessLine",
+    "published_date": "Mon, 02 Nov 2026 07:54:14 GMT"
+   },
+   {
+    "url": "https://scanx.trade/stock-market-news/companies/infosys-hold-investor-roadshows-london-edinburgh-november/54668108",
+    "title": "Infosys to hold investor roadshows in London and Edinburgh in November",
+    "published_date": "Tue, 27 Oct 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://news.careers360.com/infosys-prize-2026-scholars-from-tifr-princeton-carnegie-mellon-uc-san-ranscisco-new-south-wales-singapore-universities-winners",
+    "title": "Infosys Prize 2026: Researchers from TIFR, Princeton, Carnegie Mellon winners",
+    "published_date": "Thu, 12 Nov 2026 12:00:46 GMT"
+   },
+   {
+    "url": "https://www.stocktitan.net/news/INFY/infosys-differentiated-ai-strategy-and-a-sharp-focus-on-value-unlock-sjalje8xfokm.html",
+    "title": "Infosys Q2 earnings: AI revenue grows 29% sequentially | INFY Stock News",
+    "published_date": "Fri, 23 Oct 2026 12:34:00 GMT"
+   },
+   {
+    "url": "https://upstox.com/news/market-news/stocks/infosys-adr-falls-over-7-as-it-major-lowers-annual-revenue-growth-guidance-everything-investors-need-to-know/article-202325",
+    "title": "Infosys ADR falls over 7% as IT major lowers annual revenue growth guidance; everything investors need to know",
+    "published_date": "Fri, 23 Oct 2026 01:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/Gbd7vUUlzCYP",
+    "title": "Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://timesofindia.indiatimes.com/city/hyderabad/infosys-sets-up-new-1-1m-sq-ft-block-at-pocharam-campus-in-hyderabad-to-cater-to-emerging-technologies/articleshow/135366954.cms",
+    "title": "Infosys sets up new 1.1M sq ft block at Pocharam campus in Hyderabad to cater to emerging technologies | Hyderabad News - The Times of India",
+    "published_date": "Fri, 30 Oct 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/10/23/india039s-infosys-beats-second-quarter-revenue-view",
+    "title": "Infosys cuts forecast as AI spending shift deepens North America slowdown | The Star",
+    "published_date": "Fri, 23 Oct 2026 13:34:32 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:44:09.773133Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 234,
+   "query": "Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:44:10.103344Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:44:10.103849Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 12964,
+   "tokens": 6414,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 478,
+  "cited": 7,
+  "verified": 7,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 7,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

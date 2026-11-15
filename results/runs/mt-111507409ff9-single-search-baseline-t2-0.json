@@ -1,0 +1,114 @@
+{
+ "run_id": "mt-111507409ff9-single-search-baseline-t2-0",
+ "agent": "single-search",
+ "condition": "baseline",
+ "task_id": "t2",
+ "company": "Stripe",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-single-search-baseline-t2-0",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 10.2,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Stripe, 17 November 2026\n\n**Window reviewed:** roughly 18 October to 17 November 2026. Sources below are limited to the search results provided.\n\n## What changed in the last 30 days\n\n**Product launches**\n- Stripe now lets US businesses send stablecoin payouts to crypto wallets in more than 160 markets. The capability is part of Global Payouts and launched in public preview in early November 2026. (https://cryptonews.net/news/market/33703716)\n- Stripe's Link is integrating with Celo's MiniPay wallet, which has more than 20 million wallets. The integration was scheduled for 12 November 2026 and gives EU and US users a one-click route to buy stablecoins. (https://www.tradingview.com/news/coinmarketcal:ce753058b094b:0-celo-minipay-integrates-link-by-stripe-for-one-click-stablecoin-purchases-12-nov-2026)\n\n**Partnerships and customers**\n- Anthropic's Enterprise Frontier Safeguards entered private beta on 10 November 2026, with Stripe named among its customers, alongside Bridgewater and Salesforce. (https://www.anthropic.com/claude-fable-and-mythos-5-2)\n\n**Industry context (not Stripe-specific)**\n- The WSJ reports that Meta's personal AI assistants have recently been enabled to make purchases on cardholders' behalf, and that banks are racing to respond. The excerpt does not mention Stripe. (https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30)\n\n**Hires:** No hires found in the sources.\n\n**Deals:** No deals dated within the window were found. Stripe's company profile lists acquisitions of OpenRouter, Inc. (dated 1 August 2026, reported at 7.50B USD) and Clerky, Inc. (dated 1 August 2026). Both fall outside the 30-day window, and the profile is undated, so treat these as background. (https://tavily.com/knowledge/company/igPwhNOUwEGy)\n\n**Background:** Stripe is a private, B2B payments company founded in 2010 and headquartered in South San Francisco. (https://tavily.com/knowledge/company/igPwhNOUwEGy)\n\n**Excluded as irrelevant:** Results on Atlanta United, Pitt Panthers volleyball, and an M&S pyjama set referred to \"Stripe\" only in unrelated senses.\n\n## Gaps\n- No source confirms whether the Celo/MiniPay integration went live on schedule.\n- No sources describe Stripe's revenue, volume, or leadership changes in the window.\n\n## Open questions\n1. What is the timeline for moving stablecoin wallet payouts from public preview to general availability, and which of the 160-plus markets are supported at launch?\n2. How are Link and the MiniPay integration performing, and how do stablecoin rails fit with Stripe's core payouts business?\n3. How is Stripe approaching agent-initiated purchases, and what does the Anthropic Enterprise Frontier Safeguards relationship mean for payments security?",
+ "llm": {
+  "calls": 1,
+  "ok": 1,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 2885,
+  "tokens_out": 2088,
+  "cost": 0.001332,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://cryptonews.net/news/market/33703716",
+    "title": "Stripe lets US businesses send stablecoin payouts to crypto wallets in 160-plus markets",
+    "published_date": "Wed, 04 Nov 2026 17:37:05 GMT"
+   },
+   {
+    "url": "https://www.tradingview.com/news/coinmarketcal:ce753058b094b:0-celo-minipay-integrates-link-by-stripe-for-one-click-stablecoin-purchases-12-nov-2026",
+    "title": "Celo: MiniPay integrates Link by Stripe for one-click stablecoin purchases - 12 Nov 2026 \u2014 TradingView News",
+    "published_date": "Thu, 12 Nov 2026 15:00:26 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+    "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2",
+    "published_date": "Tue, 10 Nov 2026 05:00:00 GMT"
+   },
+   {
+    "url": "https://www.atlutd.com/news/match-preview-red-bull-new-york-almiron-gallagher-martino-november-2026",
+    "title": "Match preview: Captain's closing remarks before Atlanta United closes season against Red Bull New York | Atlanta United FC",
+    "published_date": "Sun, 08 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://pittsburghpanthers.com/news/2026/11/12/know-before-you-go-volleyball-vs-louisville",
+    "title": "Know Before You Go: Volleyball vs. Louisville - Pitt Panthers #H2P",
+    "published_date": "Fri, 13 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://uk.style.yahoo.com/comfy-luxe-35-pink-candy-144400923.html",
+    "title": "This comfy but luxe \u00a335 'pink candy stripe' PJ set is all we want to wear at Christmas - Yahoo Life UK",
+    "published_date": "Fri, 13 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.wsj.com/finance/ai-bots-are-using-credit-cards-banks-are-racing-to-keep-up-c30dda30",
+    "title": "Exclusive | AI Bots Are Using Credit Cards. Banks Are Racing to Keep Up. - WSJ",
+    "published_date": "Fri, 13 Nov 2026 01:00:00 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:40:20.199887Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 234,
+   "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:40:20.509295Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 9310,
+   "tokens": 4973,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 361,
+  "cited": 5,
+  "verified": 5,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 5,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

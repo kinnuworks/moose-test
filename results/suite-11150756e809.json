@@ -1,0 +1,53 @@
+{
+ "run_tag": "11150756e809",
+ "model": "anthropic/claude-haiku-5-5",
+ "created": "2026-11-15T07:57:08.722723+00:00",
+ "agents": [
+  "single-search"
+ ],
+ "conditions": [
+  "baseline"
+ ],
+ "condition_labels": {
+  "baseline": "Normal day"
+ },
+ "tasks": [
+  {
+   "id": "t5",
+   "company": "Canva",
+   "meeting_date": "2026-11-17"
+  }
+ ],
+ "repeats": 1,
+ "summary": {
+  "cells": {
+   "single-search": {
+    "baseline": {
+     "n": 1,
+     "invalid": 0,
+     "pass": 1,
+     "safe": 1,
+     "outcomes": {
+      "PASS": 1
+     },
+     "pass_rate": 1.0,
+     "pass_ci": [
+      0.20654329147389294,
+      1.0
+     ],
+     "pass_hat_k": 1.0,
+     "cost": 0.00173,
+     "cost_per_pass": 0.00173,
+     "cost_per_run": 0.00173,
+     "tokens_per_run": 5733.0,
+     "llm_calls": 1.0,
+     "tavily_calls": 1.0,
+     "wall_s": 32.5
+    }
+   }
+  }
+ },
+ "runs": [
+  "mt-11150756e809-single-search-baseline-t5-0"
+ ]
+}

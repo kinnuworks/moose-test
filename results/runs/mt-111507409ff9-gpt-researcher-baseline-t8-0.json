@@ -1,0 +1,261 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-baseline-t8-0",
+ "agent": "gpt-researcher",
+ "condition": "baseline",
+ "task_id": "t8",
+ "company": "Zepto",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-baseline-t8-0",
+ "exit_code": 0,
+ "stderr_tail": "ized research step.\n\ud83d\udcb8 Total Research Costs: $0.043840000000000004\nINFO:     [13:14:27] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:15:08] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 56.9,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Zepto Meeting Briefing: 17 November 2026\n\n## Purpose and Bottom Line\n\nThis briefing supports a meeting with Zepto on 17 November 2026. It covers changes over the 30 days before the current date (16 October to 15 November 2026), as requested.\n\n**Bottom line:** The provided sources contain no Zepto news, launches, hires, or deals dated within that 30-day window. The most recent Zepto-specific item is dated 1 August 2026, when the company reportedly postponed its IPO by two to three quarters ([Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo)). The record therefore shows a gap of roughly three and a half months. Before the meeting, the team should check Zepto's newsroom, SEBI filings, and recent press directly, because any developments from August to November are not captured here. The most material context for the conversation is the shift from an IPO planned for 2026 to a deferred listing, alongside a lower private valuation.\n\n## Evidence Limitation: The 30-Day Window\n\nThe source set does not support a \"what changed in the last 30 days\" account. The Kotak Neo timeline, which is the most complete running log, ends with entries from late July and early August 2026 ([Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo)). The YourStory report on the pre-IPO round is also from July 2026 ([YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed)). Other pages in the set carry recent site-wide sidebar headlines, but those concern other companies, such as Anthropic and Veritas Finance, and do not describe Zepto ([Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo)).\n\nBecause the pre-IPO round is described as \"set to raise\" and the source reports that a mail to Zepto drew no response, several items below should be treated as reported rather than confirmed ([YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed)).\n\n## What Changed: Most Recent Developments on Record\n\nThe table below lists the latest dated items in the source set, in reverse chronological order. None falls within the 30-day window.\n\n| Date | Development | Category | Source |\n|---|---|---|---|\n| 1 Aug 2026 | CEO Aadit Palicha told staff at a town hall that the IPO would be postponed by about two to three quarters, per news reports | IPO timeline | [Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo) |\n| 1 Aug 2026 | Company may explore other funding options after the postponement | Capital | [Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo) |\n| 30 Jul 2026 | Plans to raise about \u20b91,000 crore in a pre-IPO round at about $4.5 billion, mainly from domestic investors | Deal (reported) | [YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed) |\n| 17 Jul 2026 | IPO could be trimmed by nearly 20%, from $850 million to $650\u2013700 million | IPO structure | [Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo) |\n| 9 Jun 2026 | Updated DRHP filed with SEBI, disclosing a FEMA-related compliance matter involving founders | Regulatory | [Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo) |\n| 8 Jun 2026 | Filing reveals fast revenue growth and larger losses; some shareholders will not sell in the offer-for-sale | Financials / IPO | [Singh, 2026](https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet) |\n\n### Capital and Valuation\n\nZepto's valuation has moved down since its last closed private round. The company closed a $450 million Series H round led by CalPERS at a $7 billion valuation in October 2025 ([Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo); [TechCrunch via Yahoo Finance, 2025](https://finance.yahoo.com/news/zepto-raises-450-million-7-101211041.html)). The reported pre-IPO round values the company at about $4.5 billion, roughly 36% below the 2025 mark ([YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed)). Some mutual funds and family offices that reviewed the company have indicated valuations well below the last private round ([Singh, 2026](https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet)).\n\nThe reported pre-IPO round is intended to raise Indian shareholding, which stands at about 40% ([YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed)).\n\n### IPO Timeline and Structure\n\nThe IPO has been repeatedly reshaped:\n\n| Stage | Reported terms | Source |\n|---|---|---|\n| Early 2026 outlook | \u20b911,000 crore issue at a $7\u20138 billion valuation | [Team Dhan, 2026](https://dhan.co/blog/news/zepto-ipo-update-2026) |\n| Updated DRHP (June 2026) | Fresh issue of \u20b98,010 crore; total size about \u20b910,000 crore | [Team Dhan, 2026](https://dhan.co/blog/ipo/zepto-funding-history-and-valuation-journey) |\n| July 2026 | Offering reportedly reduced to $650\u2013700 million | [Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo) |\n| Current expectation | Listing expected between February and May 2027 | [Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo) |\n\nSEBI approved the IPO in May 2026 ([Team Dhan, 2026](https://dhan.co/blog/ipo/zepto-funding-history-and-valuation-journey)). Several large backers, including Y Combinator-affiliated funds, Lightspeed, and StepStone, are not selling in the offer-for-sale ([Singh, 2026](https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet)). That signals a lack of short-term exit pressure from those investors, though the source does not say why.\n\n### Regulatory Matters\n\nZepto's founders received summonses from the Enforcement Directorate in April 2026. The inquiry concerns foreign investments, shareholding structure, and other matters under foreign-exchange law ([Singh, 2026](https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet)). The updated DRHP states that all requested documents have been submitted to the ED ([Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo)). The source set does not show whether the matter has been resolved.\n\n### Launches, Hires, and Deals\n\n- **Launches:** No new product or market launches appear in the sources for the 30-day window. The most recent dated product-related item is a 2025 advertising partnership with Criteo for retail media ([Criteo, 2025](https://www.criteo.com/news/press-releases/2025/08/criteo-and-zepto-partner-to-drive-the-next-wave-of-quick-commerce-in-india)).\n- **Hires:** No senior hiring announcements appear for the window. Earlier reporting describes executives from Flipkart, Amazon, Uber, Dream11, and PharmEasy joining in 2021 ([TechCrunch, 2021](https://techcrunch.com/2021/12/20/zepto-a-10-minute-grocery-delivery-app-in-india-raises-100-million)).\n- **Deals:** Zepto reportedly appointed Goldman Sachs, Morgan Stanley, and JM Financial as IPO bankers in May 2026 ([Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo)). The pre-IPO round is the only deal in the 2026 record after that, and it is reported rather than confirmed.\n\n## Operating Performance\n\nThe operating data is the strongest part of the record. In fiscal 2026, operating revenue rose 104% year on year to \u20b9115.5 billion, about $2.4 billion. Advertising revenue rose more than 151% to \u20b916.4 billion, about $171 million ([Singh, 2026](https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet)). Advertising therefore accounted for roughly 14% of operating revenue in fiscal 2026 (calculated from the reported figures).\n\n| Metric | Value | Period | Source |\n|---|---|---|---|\n| Average orders per day | 1.75 million | Fiscal 2026 | [YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed) |\n| Orders per day | 2.33 million | Quarter ended March 2026 | [YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed) |\n| Stores | 1,139 | 31 March 2026 | [YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed) |\n| Annual transacting users | About 48 million | Fiscal 2026 | [YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed) |\n\nThe sources do not provide Zepto's net loss figures, so the reported \"bigger losses\" cannot be quantified from this record ([Singh, 2026](https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet)).\n\n## Inconsistencies in Reporting\n\nSeveral figures conflict across sources and should be confirmed before the meeting:\n\n| Item | Reported figure A | Reported figure B | Note |\n|---|---|---|---|\n| IPO size | About \u20b910,000 crore total ([Team Dhan, 2026](https://dhan.co/blog/ipo/zepto-funding-history-and-valuation-journey)) | \u20b911,000\u201312,000 crore ([Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo)) | Likely reflects different dates and drafts |\n| IPO valuation | $7\u20138 billion target ([Team Dhan, 2026](https://dhan.co/blog/news/zepto-ipo-update-2026)) | About $1 billion ([Singh, 2026](https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet)) | The $1 billion figure appears to refer to the offering size, not valuation |\n| Current private valuation | $7 billion (October 2025) ([Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo)) | About $4.5 billion (July 2026) ([YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed)) | Reported as a pre-IPO round, not confirmed as closed |\n\n## Analytical View\n\nBased on this record, my assessment is that the central issue for the meeting is capital structure and listing credibility, not growth. Revenue growth above 100% and rising store and order volumes are real, but they have not been enough to hold the 2025 valuation in the market. The gap between the $7 billion private mark and the $4.5 billion pre-IPO figure suggests that investors are discounting either profitability or governance risk, and the record does not show which.\n\nThe shift to domestic capital, paired with the ED matter and the reduced offering, points to a company managing a more constrained path to listing. I would not treat the 2027 window as settled. A listing in February to May 2027 depends on resolving the foreign-exchange inquiry and on public-market appetite that the sources describe as uncertain. The fact that major existing investors are holding rather than selling is a mildly positive signal about their confidence, but it does not offset the valuation discount.\n\nFor the meeting, the priority should be to understand what Zepto is doing to close the profitability and governance gaps, rather than to discuss the growth numbers, which are already public.\n\n## Three Open Questions to Ask\n\n1. **What is the status of the pre-IPO round and of the ED inquiry?** The reported \u20b91,000 crore round has not been confirmed as closed, and the FEMA matter remains open in the sources ([YourStory, 2026](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed); [Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo)). Both bear directly on the listing timeline.\n\n2. **What is the path to profitability, and how does it relate to the valuation gap?** The record shows strong revenue growth and an increase in losses but no net loss figures ([Singh, 2026](https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet)). Asking for the current unit economics and the timeline for store-level and company-level profitability would clarify what investors are pricing.\n\n3. **Given the postponement, what changed in the IPO structure and what is the revised timetable?** The offering has moved from \u20b911,000 crore to a reduced size, and the listing has moved to February\u2013May 2027 ([Kotak Neo, n.d.](https://www.kotakneo.com/ipo/zepto-ipo)). Asking which milestones would trigger a launch, and whether the reduced offering is still the plan, would test whether the timetable is firm.\n\n## References\n\nCriteo. (2025, August). *Criteo and Zepto partner to drive the next wave of quick commerce in India*. Criteo. [https://www.criteo.com/news/press-releases/2025/08/criteo-and-zepto-partner-to-drive-the-next-wave-of-quick-commerce-in-india](https://www.criteo.com/news/press-releases/2025/08/criteo-and-zepto-partner-to-drive-the-next-wave-of-quick-commerce-in-india)\n\nKotak Neo. (n.d.). *Zepto IPO: Check latest news, details, valuation, date, price, strengths & risks*. Kotak Neo. [https://www.kotakneo.com/ipo/zepto-ipo](https://www.kotakneo.com/ipo/zepto-ipo)\n\nSingh, J. (2026, June 8). *Zepto's IPO filing reveals fast growth, bigger losses, and a valuation question nobody's answered yet*. TechCrunch. [https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet](https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet)\n\nTeam Dhan. (2026, January 8). *Zepto IPO 2026: DRHP filed, \u20b911,000 Cr issue, valuation & timeline*. Dhan. [https://dhan.co/blog/news/zepto-ipo-update-2026](https://dhan.co/blog/news/zepto-ipo-update-2026)\n\nTeam Dhan. (2026, July 15). *Zepto funding history & valuation: Things to know before IPO*. Dhan. [https://dhan.co/blog/ipo/zepto-funding-history-and-valuation-journey](https://dhan.co/blog/ipo/zepto-funding-history-and-valuation-journey)\n\nTechCrunch. (2021, December 20). *Zepto, a 10-minute grocery delivery app in India, raises $100 million*. TechCrunch. [https://techcrunch.com/2021/12/20/zepto-a-10-minute-grocery-delivery-app-in-india-raises-100-million](https://techcrunch.com/2021/12/20/zepto-a-10-minute-grocery-delivery-app-in-india-raises-100-million)\n\nTechCrunch via Yahoo Finance. (2025, October). *Zepto raises $450M at $7B valuation as Indian quick-commerce market heats up*. Yahoo Finance. [https://finance.yahoo.com/news/zepto-raises-450-million-7-101211041.html](https://finance.yahoo.com/news/zepto-raises-450-million-7-101211041.html)\n\nYourStory. (2026, July). *Zepto to raise Rs 1,000 Cr in pre-IPO round at $4.5B valuation; public listing delayed*. YourStory. [https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed](https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed)",
+ "llm": {
+  "calls": 3,
+  "ok": 3,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 17783,
+  "tokens_out": 11845,
+  "cost": 0.007701,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.facebook.com/cnbctv18india/videos/zepto-eyes-750-800-million-raise-via-a-confidential-filingthe-move-comes-amid-a-/25500570419562685",
+    "title": "Zepto eyes $750-800 million raise via a confidential filing.\n\nThe move comes amid a strong operating momentum. Zepto\u2019s last fundraise, announced in August this year, valued the company at around $7 bn. Since then, order volumes & net sales value have increased 45% over the past six months, with the platform now handling nearly 2 million orders a day\n\n#Zepto #IPO #Valuation #Sales #CNBCTV18Digital #Blinkit #Swiggy #Instamart #BigBasket #QuickCommerce | CNBC-TV18",
+    "published_date": null
+   },
+   {
+    "url": "https://www.sentra.app/articles/executive-briefing-template",
+    "title": "Executive Briefing Template (2026): One-Page BLUF + Example",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/YT08vmcifB58",
+    "title": "Zepto",
+    "published_date": null
+   },
+   {
+    "url": "https://remoteexecutivesupport.com/blog/how-to-write-a-briefing-document-for-a-ceo",
+    "title": "How to Write a Briefing Document for a CEO: A Guide for Executive Assistants | RemoteExecutiveSupport",
+    "published_date": null
+   },
+   {
+    "url": "https://www.usecarly.com/blog/outlook-ai-meeting-briefings",
+    "title": "How to Get AI Meeting Briefings in Outlook (2026)",
+    "published_date": null
+   },
+   {
+    "url": "https://dhan.co/blog/ipo/zepto-funding-history-and-valuation-journey",
+    "title": "Zepto Funding History & Valuation: Things to Know Before IPO",
+    "published_date": null
+   },
+   {
+    "url": "https://www.kotakneo.com/ipo/zepto-ipo",
+    "title": "Zepto IPO: Check Latest News, Details, Valuation, Date, Price, Strengths & Risks",
+    "published_date": null
+   },
+   {
+    "url": "https://yourstory.com/2026/07/zepto-rs-1000-cr-pre-ipo-round-prepublic-listing-delayed",
+    "title": "Zepto to raise Rs 1,000 Cr in pre-IPO round at $4.5B valuation; public listing delayed | YourStory",
+    "published_date": null
+   },
+   {
+    "url": "https://aventure.vc/news/2026-06-09-zepto-s-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobody-s-answered-yet",
+    "title": "Zepto\u2019s IPO filing reveals fast growth, b... - aVenture News",
+    "published_date": null
+   },
+   {
+    "url": "https://techcrunch.com/2026/06/08/zeptos-ipo-filing-reveals-fast-growth-bigger-losses-and-a-valuation-question-nobodys-answered-yet",
+    "title": "Zepto's IPO filing reveals fast growth, bigger losses, and a valuation question nobody's answered yet | TechCrunch",
+    "published_date": null
+   },
+   {
+    "url": "https://www.business-standard.com/companies/news/zepto-cafe-cuts-footprint-across-cities-scales-back-menu-after-expansion-126092101192_1.html",
+    "title": "Zepto Cafe cuts footprint across cities, scales back menu after expansion | Company News - Business Standard",
+    "published_date": null
+   },
+   {
+    "url": "https://www.kotakneo.com/ipo/zepto-ipo",
+    "title": "Zepto IPO: Check Latest News, Details, Valuation, Date, Price, Strengths & Risks",
+    "published_date": null
+   },
+   {
+    "url": "https://www.kotakneo.com/news/market-news/zepto-7-billion-valuation-ipo-news",
+    "title": "Zepto Valued at $7 Billion After $450M Raise | Pre-IPO Buzz | Kotak Neo",
+    "published_date": null
+   },
+   {
+    "url": "https://dhan.co/blog/news/zepto-ipo-update-2026",
+    "title": "Zepto IPO 2026: DRHP Filed, \u20b911,000 Cr Issue, Valuation & Timeline",
+    "published_date": null
+   },
+   {
+    "url": "https://timesofindia.indiatimes.com/business/india-business/zepto-to-file-confidential-drhp-on-friday-targets-2026-listing/articleshow/126175717.cms",
+    "title": "Zepto to file confidential DRHP on Friday, targets 2026 listing - The Times of India",
+    "published_date": null
+   },
+   {
+    "url": "https://techcrunch.com/2021/12/20/zepto-a-10-minute-grocery-delivery-app-in-india-raises-100-million",
+    "title": "Zepto, a 10-minute grocery delivery app in India, raises $100 million",
+    "published_date": null
+   },
+   {
+    "url": "https://www.criteo.com/news/press-releases/2025/08/criteo-and-zepto-partner-to-drive-the-next-wave-of-quick-commerce-in-india",
+    "title": "Criteo and Zepto Partner to Drive the Next Wave of Quick Commerce in India | Criteo",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/avinashvictor_hiringatscale-qcommerce-startuphiring-activity-7341668630658461697-zduA",
+    "title": "How Zepto's hiring challenges reveal the cracks of blitzscaling | Avinash V Singh posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=aYK0H85E_oU",
+    "title": "How Zepto Became India\u2019s Fastest Growing Startup",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/zepto-raises-450-million-7-101211041.html",
+    "title": "Zepto raises $450M at $7B valuation as Indian quick-commerce market heats up",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/cnbctv18india/videos/zepto-eyes-750-800-million-raise-via-a-confidential-filingthe-move-comes-amid-a-/25500570419562685",
+    "title": "Zepto eyes $750-800 million raise via a confidential filing.\n\nThe move comes amid a strong operating momentum. Zepto\u2019s last fundraise, announced in August this year, valued the company at around $7 bn. Since then, order volumes & net sales value have increased 45% over the past six months, with the platform now handling nearly 2 million orders a day\n\n#Zepto #IPO #Valuation #Sales #CNBCTV18Digital #Blinkit #Swiggy #Instamart #BigBasket #QuickCommerce | CNBC-TV18",
+    "published_date": null
+   },
+   {
+    "url": "https://www.sentra.app/articles/executive-briefing-template",
+    "title": "Executive Briefing Template (2026): One-Page BLUF + Example",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/YT08vmcifB58",
+    "title": "Zepto",
+    "published_date": null
+   },
+   {
+    "url": "https://remoteexecutivesupport.com/blog/how-to-write-a-briefing-document-for-a-ceo",
+    "title": "How to Write a Briefing Document for a CEO: A Guide for Executive Assistants | RemoteExecutiveSupport",
+    "published_date": null
+   },
+   {
+    "url": "https://www.usecarly.com/blog/outlook-ai-meeting-briefings",
+    "title": "How to Get AI Meeting Briefings in Outlook (2026)",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:44:12.479453Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 8931,
+   "tokens": 2216,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:44:21.497033Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 233,
+   "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:44:21.737489Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1598,
+   "tokens": 3214,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:44:24.59085Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1254,
+   "query": "Zepto launches hires partnerships recent months",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:44:24.590987Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1990,
+   "query": "Zepto news November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:44:24.59137Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1195,
+   "query": "Zepto funding round IPO filing 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:44:24.592939Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 667,
+   "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:44:27.938151Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 40472,
+   "tokens": 24198,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 1664,
+  "cited": 8,
+  "verified": 8,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 8,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

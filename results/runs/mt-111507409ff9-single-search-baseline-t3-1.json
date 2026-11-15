@@ -1,0 +1,114 @@
+{
+ "run_id": "mt-111507409ff9-single-search-baseline-t3-1",
+ "agent": "single-search",
+ "condition": "baseline",
+ "task_id": "t3",
+ "company": "Shopify",
+ "repeat": 1,
+ "virtual_key": "mt-111507409ff9-single-search-baseline-t3-1",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 12.1,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Shopify, 17 November 2026\n\n**Purpose:** Prepare for the 17 Nov 2026 meeting with Shopify.\n**Scope:** Only the search results provided. Items without a Shopify-issued source or a clear date are flagged.\n\n## Last 30 days\n\n**Financials**\n- Shopify reported Q3 2026 results (quarter ended 30 Sep 2026) on 3 Nov 2026: revenue up 32% (32% in constant currency) and a 22% free cash flow margin. (https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow)\n- The earnings release was announced on 21 Oct 2026, with a conference call on 3 Nov at 8:30 a.m. ET. (https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow)\n\n**Product launches**\n- Shopify's Fall '26 Edition (28 Oct 2026) opens its catalog, cart, and checkout to any agent or app, and adds new tools for building and securing apps and storefronts. (https://www.shopify.com/news/fall-26-edition-developer)\n- A merchant-facing companion piece on the Fall '26 Edition was published the same day. (https://www.shopify.com/news/fall-26-edition-merchant)\n\n**Platform changes with deadlines**\n- Shopify's changelog (5 Nov 2026) marks an IP allowlist as a required change for every public app by 20 Nov 2026, or by 12 Nov if the app uses bulk operations. It is labeled \"Action required\" and \"Breaking change.\" (https://shopify.dev/changelog)\n\n**Hires and headcount**\n- A company profile lists headcount at 30,025, up 5,330 (21.6%) year over year, +1,499 in the quarter, and +170 in the month. The page is undated and third-party, so treat these figures as indicative. (https://tavily.com/knowledge/company/yIg9BumgrtmF)\n\n**Deals and partnerships**\n- No deal, acquisition, or partnership announcements were found in the results.\n\n**Customer proof points (published 24 Oct 2026)**\n- Dermalogica reported a 9% increase in store conversion, comparing the 30 days after its September 2025 Horizon theme launch with the 30 days before. (https://www.shopify.com/enterprise/blog/brands-using-shopify-plus)\n- Staples Canada ran more than four times as many website promotions during Black Friday and Cyber Monday after moving to Shopify Plus. (https://www.shopify.com/enterprise/blog/brands-using-shopify-plus)\n\n**Market offers**\n- A third-party site advertises three months of Shopify for $1/month, valid until 30 Nov 2026. This is not a Shopify-issued offer, so verify before relying on it. (https://www.demandsage.com/shopify-free-trial)\n\n## Gaps\n- No hiring announcements, executive changes, or deals were found in the results.\n- Several sources are undated or third-party, so verify before citing externally.\n\n## Open questions\n\n1. With the IP allowlist deadlines on 12 and 20 Nov, what support is available for apps and merchants that may not comply in time, especially those using bulk operations?\n2. Now that catalog, cart, and checkout are open to any agent or app, how does Shopify govern third-party agent access and security for merchants like us?\n3. Given 32% revenue growth and continued headcount growth, where is Shopify prioritizing investment over the next 12 months, and how does that affect our roadmap and partnership terms?",
+ "llm": {
+  "calls": 1,
+  "ok": 1,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 2718,
+  "tokens_out": 2435,
+  "cost": 0.001489,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.demandsage.com/shopify-free-trial",
+    "title": "Shopify Free Trial 2026 [NOV]: 3 Months At $1/MO",
+    "published_date": "Fri, 06 Nov 2026 11:04:10 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/news/shopify-q3-2026-financial-results",
+    "title": "Shopify Sustains Rapid Growth with Revenue Up 32% and Free Cash Flow Margin of 22%",
+    "published_date": "Tue, 03 Nov 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow",
+    "title": "Shopify Sustains Rapid Growth with Revenue Up 32% and Free Cash Flow Margin of 22%",
+    "published_date": "Wed, 21 Oct 2026 08:48:00 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-merchant",
+    "title": "Exponential: Shopify's Fall '26 Edition",
+    "published_date": "Wed, 28 Oct 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/yIg9BumgrtmF",
+    "title": "Shopify",
+    "published_date": null
+   },
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-developer",
+    "title": "Bringing shopping into the future: The Fall '26 Edition for developers",
+    "published_date": "Wed, 28 Oct 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://shopify.dev/changelog",
+    "title": "Recent changes to Shopify\u2019s platform",
+    "published_date": "Thu, 05 Nov 2026 15:59:00 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/enterprise/blog/brands-using-shopify-plus",
+    "title": "Brands Using Shopify Plus and What They Achieved (2026) - Shopify",
+    "published_date": "Sat, 24 Oct 2026 00:00:00 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:45:54.963917Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 238,
+   "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:45:55.283654Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10800,
+   "tokens": 5153,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 443,
+  "cited": 7,
+  "verified": 7,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 7,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

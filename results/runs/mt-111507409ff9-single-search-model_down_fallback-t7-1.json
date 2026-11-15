@@ -1,0 +1,126 @@
+{
+ "run_id": "mt-111507409ff9-single-search-model_down_fallback-t7-1",
+ "agent": "single-search",
+ "condition": "model_down_fallback",
+ "task_id": "t7",
+ "company": "Infosys",
+ "repeat": 1,
+ "virtual_key": "mt-111507409ff9-single-search-model_down_fallback-t7-1",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 14.5,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Infosys, 17 November 2026\n\n**Window covered:** 18 October to 17 November 2026. Sources are limited to the search results provided.\n\n**Company snapshot:** Infosys is an IT services and consulting company headquartered in Bangalore, founded in 1981 (https://tavily.com/knowledge/company/Gbd7vUUlzCYP). It employs over 325,000 people and operates in 59 countries (https://www.thehindubusinessline.com/markets/stock-markets/infosys-shares-slide-over-2-hyderabad-campus-expansion-fails-to-lift-sentiment/article71655856.ece).\n\n## What changed in the last 30 days\n\n**Financial results (Q2, quarter ended 30 Sep 2026)**\n- Revenue was $5,145 million. AI revenue grew 29% sequentially and makes up 10.5% of revenue. Reported revenue rose 1.3% year over year, and operating margin was 21.0% (https://www.stocktitan.net/news/INFY/infosys-differentiated-ai-strategy-and-a-sharp-focus-on-value-unlock-sjalje8xfokm.html).\n- Constant-currency growth was 1.5% year over year and 1.2% sequentially (https://www.stocktitan.net/news/INFY/infosys-differentiated-ai-strategy-and-a-sharp-focus-on-value-unlock-sjalje8xfokm.html).\n- The company lowered its annual revenue growth guidance. The ADR fell over 7% on 23 October (https://upstox.com/news/market-news/stocks/infosys-adr-falls-over-7-as-it-major-lowers-annual-revenue-growth-guidance-everything-investors-need-to-know/article-202325).\n- A headline reports that shares fell 6.5% after Q2 EPS missed estimates by $0.01 (https://scanx.trade/stock-market-news/companies/infosys-hold-investor-roadshows-london-edinburgh-november/54668108, dated 27 October).\n\n**Launches and expansion**\n- Infosys set up a new 1.1 million sq ft block at its Pocharam campus in Hyderabad to serve emerging technologies (https://timesofindia.indiatimes.com/city/hyderabad/infosys-sets-up-new-1-1m-sq-ft-block-at-pocharam-campus-in-hyderabad-to-cater-to-emerging-technologies/articleshow/135366954.cms, 30 October).\n- The Hyderabad campus was inaugurated with Telangana's Deputy Chief Minister, the IT Minister and CFO Jayesh Sanghrajka present. The facility targets banking, retail, life sciences and manufacturing clients and includes radiant cooling and rainwater harvesting (https://www.thehindubusinessline.com/markets/stock-markets/infosys-shares-slide-over-2-hyderabad-campus-expansion-fails-to-lift-sentiment/article71655856.ece). Shares slid over 2% on the day (same source, 2 November).\n\n**Investor relations**\n- Management will attend non-deal roadshows in London and Edinburgh in November (https://scanx.trade/stock-market-news/companies/infosys-hold-investor-roadshows-london-edinburgh-november/54668108).\n\n**Deals**\n- Large-deal total contract value reached $5.2 billion, with 62% net new. This included one deal above $2 billion (https://www.stocktitan.net/news/INFY/infosys-differentiated-ai-strategy-and-a-sharp-focus-on-value-unlock-sjalje8xfokm.html).\n\n**Other**\n- The Infosys Science Foundation announced the 2026 Infosys Prize on 12 November. Each award carries USD 100,000 (https://news.careers360.com/infosys-prize-2026-scholars-from-tifr-princeton-carnegie-mellon-uc-san-ranscisco-new-south-wales-singapore-universities-winners). This is reputational, not commercial.\n\n**Not included:** Headlines on a Truist GCC expansion (1,000 hires), a BMO price-target change, North America revenue decline, and a block trade appeared in the results without source URLs, so I did not use them. No hiring or deal facts beyond those above could be verified.\n\n## Open questions\n\n1. Q2 guidance was lowered. What drove the cut, and which segments or geographies do you expect to recover first?\n2. Large-deal TCV was $5.2 billion, with 62% net new. How much of that is expected to convert to revenue in the next two quarters, and how does that affect your view of the revenue outlook?\n3. AI revenue grew 29% sequentially to 10.5% of total revenue. What share of AI revenue are you targeting for the next fiscal year, and how will you report it going forward?",
+ "llm": {
+  "calls": 2,
+  "ok": 1,
+  "errors": 1,
+  "embedding_calls": 0,
+  "tokens_in": 3230,
+  "tokens_out": 3173,
+  "cost": 0.001909,
+  "fallbacks": 1,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.thehindubusinessline.com/markets/stock-markets/infosys-shares-slide-over-2-hyderabad-campus-expansion-fails-to-lift-sentiment/article71655856.ece",
+    "title": "Infosys shares slide over 2%; Hyderabad campus expansion fails to lift sentiment - The HinduBusinessLine",
+    "published_date": "Mon, 02 Nov 2026 07:54:14 GMT"
+   },
+   {
+    "url": "https://scanx.trade/stock-market-news/companies/infosys-hold-investor-roadshows-london-edinburgh-november/54668108",
+    "title": "Infosys to hold investor roadshows in London and Edinburgh in November",
+    "published_date": "Tue, 27 Oct 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://news.careers360.com/infosys-prize-2026-scholars-from-tifr-princeton-carnegie-mellon-uc-san-ranscisco-new-south-wales-singapore-universities-winners",
+    "title": "Infosys Prize 2026: Researchers from TIFR, Princeton, Carnegie Mellon winners",
+    "published_date": "Thu, 12 Nov 2026 12:00:46 GMT"
+   },
+   {
+    "url": "https://www.stocktitan.net/news/INFY/infosys-differentiated-ai-strategy-and-a-sharp-focus-on-value-unlock-sjalje8xfokm.html",
+    "title": "Infosys Q2 earnings: AI revenue grows 29% sequentially | INFY Stock News",
+    "published_date": "Fri, 23 Oct 2026 12:34:00 GMT"
+   },
+   {
+    "url": "https://upstox.com/news/market-news/stocks/infosys-adr-falls-over-7-as-it-major-lowers-annual-revenue-growth-guidance-everything-investors-need-to-know/article-202325",
+    "title": "Infosys ADR falls over 7% as IT major lowers annual revenue growth guidance; everything investors need to know",
+    "published_date": "Fri, 23 Oct 2026 01:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/Gbd7vUUlzCYP",
+    "title": "Infosys",
+    "published_date": null
+   },
+   {
+    "url": "https://timesofindia.indiatimes.com/city/hyderabad/infosys-sets-up-new-1-1m-sq-ft-block-at-pocharam-campus-in-hyderabad-to-cater-to-emerging-technologies/articleshow/135366954.cms",
+    "title": "Infosys sets up new 1.1M sq ft block at Pocharam campus in Hyderabad to cater to emerging technologies | Hyderabad News - The Times of India",
+    "published_date": "Fri, 30 Oct 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://www.niftytrader.in/markets/stocks-to-watch-today-oct-23-jio-infosysq2",
+    "title": "Stocks to Watch Today Oct 23: Jio IPO, Infosys, Swiggy, HPCL in focus",
+    "published_date": "Fri, 23 Oct 2026 03:23:32 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:48:17.176901Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 239,
+   "query": "Prepare a one-page briefing for a meeting with Infosys on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:48:17.503119Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 2,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:48:17.504284Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 13219,
+   "tokens": 6403,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 418,
+  "cited": 7,
+  "verified": 7,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 7,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

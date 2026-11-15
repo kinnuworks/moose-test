@@ -1,0 +1,261 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-baseline-t4-1",
+ "agent": "gpt-researcher",
+ "condition": "baseline",
+ "task_id": "t4",
+ "company": "Databricks",
+ "repeat": 1,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-baseline-t4-1",
+ "exit_code": 0,
+ "stderr_tail": "rch step.\n\ud83d\udcb8 Total Research Costs: $0.040510000000000004\nINFO:     [13:16:39] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:17:15] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 58.1,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Databricks Meeting Briefing: 17 November 2026\n\n*Prepared 15 November 2026 for a meeting on 17 November 2026. Coverage window: approximately 16 October to 15 November 2026.*\n\n## Executive Summary\n\nDatabricks' most significant change in the last 30 days is the launch of a second-generation Genie, which Databricks describes as an always-on autonomous enterprise agent ([Databricks, 2026, November 11](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)). Through November, Databricks also expanded Genie One into third-party assistants and shipped a steady stream of governance and cost-control features ([Microsoft, 2026, November 13](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november)). Most of this activity is in Beta or Public Preview.\n\nI could not verify any executive hire, funding event, or acquisition announced within the window. The most recent verified deal, the Row Zero acquisition, falls just outside it ([Databricks, 2026, September 24](https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets)). The meeting should therefore be framed around product direction and commercial terms rather than recent corporate transactions.\n\n## Source Reliability and Scope\n\nSources were weighted by provenance. Primary Databricks and Microsoft documentation were treated as authoritative. Third-party commentary was used only for context or flagged where it could not be verified.\n\n| Source | Type | Date | Reliability Assessment |\n|---|---|---|---|\n| [Databricks press release](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex) | Primary (vendor) | 2026-11-11 | High for announced scope; vendor framing |\n| [Azure Databricks release notes](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november) | Primary (platform documentation) | Updated 2026-11-13 | High; releases are staged and may reach accounts a week or more later |\n| [Fundz product launch page](https://app.fundz.net/products/databricks-product-launch-917146) | Sales-intelligence vendor | 2026-11-11 | Low to moderate; used only to corroborate the launch date |\n| [Flexera recap](https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026) | Industry blog | 2026-06-30 | Moderate; background only; internally inconsistent on keynote length |\n| [Atlan recap](https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements) | Competitor-adjacent vendor | Undated | Low to moderate; Atlan sells a context layer and has a commercial interest in the \"context\" theme |\n| [Databricks Agent Bricks blog](https://www.databricks.com/blog/agent-bricks-dais-2026) | Primary (vendor) | 2026 (DAIS) | High for stated metrics; vendor-reported |\n| [LinkedIn post by J. Saltzman](https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi) | Individual commentary | Approximately 11 months old | Low; speculative, and not used for facts |\n\n## What Changed in the Last 30 Days\n\n### Product Launches\n\nThe second-generation Genie is the headline launch. Databricks describes it as \"an always-on enterprise agent that works autonomously, manages long-running work, and proactively brings decisions to people through a new priority inbox and email\" ([Databricks, 2026, November 11](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)). The same announcement reports three further points:\n\n- **Genie Ontology** is positioned as an agentic ontology that \"automatically maintains understanding of how a company operates across its data, people, and processes\" ([Databricks, 2026, November 11](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)).\n- **Genie Search** expands to more than 100 enterprise data sources, including the lakehouse, Google Drive, Jira, and Confluence ([Databricks, 2026, November 11](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)).\n- The launch date is corroborated by a third-party tracker, which describes it as the launch of \"the second-generation Genie, an always-on autonomous AI assistant for enterprise work\" ([Fundz, 2026, November 11](https://app.fundz.net/products/databricks-product-launch-917146)).\n\nThe press release does not state whether the second-generation Genie is generally available. This should be confirmed in the meeting.\n\n### Platform Release Activity (November 2026)\n\nMicrosoft's Azure Databricks release notes document the following November changes ([Microsoft, 2026, November 13](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november)):\n\n| Date | Release | Status |\n|---|---|---|\n| 1 Nov | AI Functions usage (for example, `ai_parse_document`, `ai_extract`, `ai_classify`) included in Unity Gateway budgets | Released |\n| 2 Nov | `ai_decide` uses a new model that is reported to answer questions 33% more accurately | Beta |\n| 10 Nov | Genie One Chrome extension | Beta |\n| 10 Nov | Google Gemini 4 Carbon available on Unity Gateway | Released |\n| 10 Nov | Budget alerts can trigger webhooks | Beta |\n| 11 Nov | Genie plugin for Microsoft 365 Copilot Chat | Public Preview |\n| 11 Nov | Genie connectors and plugins for ChatGPT, Claude, and Grok Bot/Cursor | Released (as described) |\n| 11 Nov | Genie One desktop app for Windows | Beta |\n| 11 Nov | Feature Views available by default for workspaces with the compliance security profile | Released |\n| 13 Nov | OneLake external location file events | Public Preview |\n| 13 Nov | AI Function task support in Declarative Automation Bundles | Beta |\n\nTwo details stand out. First, Genie One is now reachable from ChatGPT, Claude, Microsoft 365 Copilot, and Cursor, which means Databricks is distributing its context layer through competing assistants. Second, AI Function spend is now governed through budgets, which signals that AI cost control is becoming a standard enterprise requirement ([Microsoft, 2026, November 13](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november)).\n\n### Hires\n\nNo executive or team hires within the window could be verified from the supplied material. A 2025-era commentary post reports job openings up 23% month over month, including regional sales roles across Europe, APAC, and LatAm ([Saltzman, 2025](https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi)). Because this post is about eleven months old and is unverified commentary, it is excluded from the findings. The Fundz page states that its tool alerts users to executive hires, but it names no specific hire in this period ([Fundz, 2026, November 11](https://app.fundz.net/products/databricks-product-launch-917146)).\n\n### Deals and Capital\n\nNo acquisition or funding round was verified within the window. The most recent verified acquisition is Row Zero, announced 24 September 2026. Databricks said the purchase would add \"a familiar spreadsheet interface\" to Genie, built on Genie Ontology, Unity Catalog, and Unity Gateway ([Databricks, 2026, September 24](https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets)). This is about 52 days before the briefing date and is the nearest relevant transaction.\n\nA commentary post claims Databricks raised $4.8B and lists possible uses of capital, including M&A, international expansion, and governance partnerships ([Saltzman, 2025](https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi)). These are speculative and are not treated as facts.\n\n## Context: Earlier 2026 Milestones\n\nThese developments fall outside the 30-day window but frame the November releases:\n\n| Milestone | Detail | Source |\n|---|---|---|\n| Data + AI Summit 2026 | Held 15\u201318 June 2026 at Moscone Center; about 30,000 in-person attendees | [Atlan, 2026](https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements); [Flexera, 2026, June 30](https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026) |\n| Core message | CEO Ali Ghodsi argued that AI \"doesn't struggle with intelligence; it struggles with context\" | [Flexera, 2026, June 30](https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026) |\n| Agent Bricks scale | More than 100,000 agents built since launch; over one quadrillion tokens per year processed | [Databricks, 2026](https://www.databricks.com/blog/agent-bricks-dais-2026) |\n| Named customers | AstraZeneca, 7-Eleven, Fox Corporation, and Block | [Databricks, 2026](https://www.databricks.com/blog/agent-bricks-dais-2026) |\n| Partner recognition | Entrada named Genie Partner of the Year for enterprise deployments; Lovelytics named Brickbuilder Partner of the Year | [Databricks, 2026](https://www.databricks.com/blog/databricks-announces-2026-global-partner-awards) |\n\nAgent Bricks was also expanded at DAIS as a full agent platform, with agents, tools, and models added to Unity Catalog so they can be governed alongside data ([Databricks, 2026](https://www.databricks.com/blog/agent-bricks-dais-2026)).\n\n## Analysis and Assessment\n\n**The November pattern is distribution and control, not new core capability.** The Genie launch is significant, but much of the surrounding activity extends existing capabilities into more channels (Microsoft 365, ChatGPT, Claude, Cursor, Chrome, Windows) and adds governance (budgets, webhooks, compliance defaults). My assessment is that Databricks is positioning Genie as a context layer that sits beneath other people's assistants, rather than only as a native Databricks interface. This reduces the risk that a customer's preferred assistant becomes a competitor to Databricks, and it makes Unity Catalog and Genie Ontology the shared dependency.\n\n**Maturity risk is high.** Of the November releases listed above, most are Beta or Public Preview. Microsoft also notes that releases are staged and may reach accounts a week or more after the stated date ([Microsoft, 2026, November 13](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november)). Enterprise buyers evaluating always-on agents for production work will need firm GA dates and service commitments before they commit.\n\n**Cost governance is becoming a buyer issue.** Including AI Function spend in Unity Gateway budgets from 1 November, and routing budget events to incident and ticketing tools, suggests that customers have raised cost concerns about agent workloads ([Microsoft, 2026, November 13](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november)). Databricks' competitive position will depend partly on how credible these controls are at scale.\n\n**Competitive framing.** The \"context\" argument is shared by competitors. Atlan, for example, presents itself as the context layer that serves governed context back to Databricks Genie ([Atlan, 2026](https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements)). This suggests that the market agrees context matters, but disagrees on which vendor should own it. Atlan's commercial interest should be considered when weighing its claims.\n\n**Limits of this assessment.** Adoption data, customer counts for the new Genie, pricing, and GA timelines were not available in the supplied material. The conclusions above should be tested against those facts in the meeting.\n\n## Three Open Questions for the Meeting\n\n1. **What is the GA timeline and commercial model for the second-generation Genie, the Genie Ontology, and Genie Search across 100+ sources?** The announcement does not state GA status, and the November release notes list several components as Beta or Public Preview ([Databricks, 2026, November 11](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex); [Microsoft, 2026, November 13](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november)).\n\n2. **How will Databricks govern cost and autonomy for always-on agents, and what controls are available today?** Budget alerts and AI Function budgets are in Beta or newly released, and the always-on Genie introduces long-running work that could generate unpredictable spend ([Microsoft, 2026, November 13](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november)).\n\n3. **Which parts of the Genie roadmap will be delivered natively, and which through third-party assistants such as ChatGPT, Claude, and Microsoft 365 Copilot?** Distribution through competing assistants affects data residency, identity, audit trails, and the customer's choice of front-end tooling ([Microsoft, 2026, November 13](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november)).\n\n## References\n\nAtlan. (2026). *Databricks Data + AI Summit 2026: Key announcements recap*. [https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements](https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements)\n\nDatabricks. (2026, November 11). *Databricks launches new always-on Genie: Autonomous AI for complex enterprise work*. Databricks Newsroom. [https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)\n\nDatabricks. (2026, September 24). *Databricks acquires Row Zero, bringing live, governed spreadsheets to Genie*. Databricks Newsroom. [https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets](https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets)\n\nDatabricks. (2026). *Agent Bricks: Data + AI Summit 2026*. Databricks Blog. [https://www.databricks.com/blog/agent-bricks-dais-2026](https://www.databricks.com/blog/agent-bricks-dais-2026)\n\nDatabricks. (2026). *Databricks announces 2026 global partner awards*. Databricks Blog. [https://www.databricks.com/blog/databricks-announces-2026-global-partner-awards](https://www.databricks.com/blog/databricks-announces-2026-global-partner-awards)\n\nFundz. (2026, November 11). *Databricks product launch (November 2026)*. [https://app.fundz.net/products/databricks-product-launch-917146](https://app.fundz.net/products/databricks-product-launch-917146)\n\nFlexera. (2026, June 30). *Databricks Data + AI Summit 2026 recap: Genie One, LTAP, Lakehouse//RT and every major launches*. Flexera Blog. [https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026](https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026)\n\nMicrosoft. (2026, November 13). *November 2026 - Azure Databricks*. Microsoft Learn. [https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november](https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november)\n\nSaltzman, J. (2025). *How Databricks will deploy $4.8B in 2026* [LinkedIn post]. LinkedIn. [https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi](https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi)",
+ "llm": {
+  "calls": 3,
+  "ok": 3,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 17542,
+  "tokens_out": 10513,
+  "cost": 0.007011,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi",
+    "title": "How Databricks will deploy $4.8B in 2026 Databricks just raised $4.8B. Based on their partnerships, acquisitions, and hiring patterns, here's where that capital is headed: 1. M&A War Chest: 5\u2026 | Jason Saltzman | 25 comments",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/7LlnrDq1nEGX",
+    "title": "Databricks",
+    "published_date": null
+   },
+   {
+    "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-acquires-row-zero-bringing-live-governed-spreadsheets",
+    "title": "Databricks Acquires Row Zero, Bringing Live, Governed Spreadsheets to Genie - Databricks",
+    "published_date": null
+   },
+   {
+    "url": "https://www.databricks.com/blog/databricks-announces-2026-global-partner-awards",
+    "title": "Databricks announces 2026 global partner awards",
+    "published_date": null
+   },
+   {
+    "url": "https://opinov8.com/insights/top-5-best-databricks-partners-2026",
+    "title": "Top 5 Best Databricks Partners for Business Success in 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026",
+    "title": "Databricks Data + AI Summit 2026: All 20+ major launches",
+    "published_date": null
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november",
+    "title": "November 2026 - Azure Databricks",
+    "published_date": null
+   },
+   {
+    "url": "https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements",
+    "title": "Databricks Data + AI Summit 2026: Key Announcements Recap",
+    "published_date": null
+   },
+   {
+    "url": "https://www.databricks.com/blog/whats-new-unity-catalog-data-ai-summit-2026",
+    "title": "What\u2019s new with Unity Catalog at Data + AI Summit 2026 | Databricks Blog",
+    "published_date": null
+   },
+   {
+    "url": "https://quicklaunchanalytics.com/bi-blog/databricks-summit-2026-recap",
+    "title": "Databricks Summit 2026 Recap | QuickLaunch Analytics",
+    "published_date": null
+   },
+   {
+    "url": "https://app.fundz.net/products/databricks-product-launch-917146",
+    "title": "Databricks product launch (November 2026)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex",
+    "title": "Databricks Launches New Always-on Genie: Autonomous AI for Complex Enterprise Work - Databricks",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+    "title": "November 2026 | Databricks on AWS",
+    "published_date": null
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming",
+    "title": "What's coming? - Azure Databricks | Microsoft Learn",
+    "published_date": null
+   },
+   {
+    "url": "https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements",
+    "title": "Databricks Data + AI Summit 2026: Key Announcements Recap",
+    "published_date": null
+   },
+   {
+    "url": "https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements",
+    "title": "Databricks Data + AI Summit 2026: Key Announcements Recap",
+    "published_date": null
+   },
+   {
+    "url": "https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026",
+    "title": "Databricks Data + AI Summit 2026: All 20+ major launches",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=hDFNI7i6J60",
+    "title": "Databricks Product Announcements in 5 Minutes | Data + AI Summit 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.databricks.com/blog/agent-bricks-dais-2026",
+    "title": "Agent Bricks: Data + AI Summit 2026 | Databricks Blog",
+    "published_date": null
+   },
+   {
+    "url": "https://community.databricks.com/t5/community-articles/dais-2026-the-databricks-announcements-i-think-clients-should/td-p/159914",
+    "title": "DAIS 2026: The Databricks Announcements I Think Cl... - Databricks Community - 159914",
+    "published_date": null
+   },
+   {
+    "url": "https://www.flexera.com/blog/perspectives/databricks-data-ai-summit-2026",
+    "title": "Databricks Data + AI Summit 2026: All 20+ major launches",
+    "published_date": null
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/product/2026/november",
+    "title": "November 2026 - Azure Databricks",
+    "published_date": null
+   },
+   {
+    "url": "https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements",
+    "title": "Databricks Data + AI Summit 2026: Key Announcements Recap",
+    "published_date": null
+   },
+   {
+    "url": "https://www.databricks.com/blog/whats-new-unity-catalog-data-ai-summit-2026",
+    "title": "What\u2019s new with Unity Catalog at Data + AI Summit 2026 | Databricks Blog",
+    "published_date": null
+   },
+   {
+    "url": "https://quicklaunchanalytics.com/bi-blog/databricks-summit-2026-recap",
+    "title": "Databricks Summit 2026 Recap | QuickLaunch Analytics",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:46:21.454362Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 8077,
+   "tokens": 1985,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:46:29.875279Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2479,
+   "query": "Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:46:32.48543Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1304,
+   "tokens": 3183,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:46:36.725604Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1101,
+   "query": "Databricks Data + AI Summit 2026 announcements Lakebase Genie Agent Bricks",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:46:36.725781Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 243,
+   "query": "Databricks news and product launches November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:46:36.726489Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 241,
+   "query": "Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:46:36.726499Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 241,
+   "query": "Databricks acquisitions partnerships and executive hires 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:46:39.246991Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 36084,
+   "tokens": 22887,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 1676,
+  "cited": 9,
+  "verified": 9,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 9,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

@@ -1,0 +1,295 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-model_down_fallback-t4-0",
+ "agent": "gpt-researcher",
+ "condition": "model_down_fallback",
+ "task_id": "t4",
+ "company": "Databricks",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-model_down_fallback-t4-0",
+ "exit_code": 0,
+ "stderr_tail": "rch step.\n\ud83d\udcb8 Total Research Costs: $0.044480000000000006\nINFO:     [13:12:18] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:12:59] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 70.2,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Databricks Meeting Briefing: 17 November 2026\n\n## Purpose and Scope\n\nThis briefing supports a meeting with Databricks on 17 November 2026. It covers changes from roughly 16 October to 15 November 2026 in product releases, deals, investments, and leadership. It also notes earlier context where that helps interpret recent moves. Every factual statement carries a source link. Where the sources are vague, dated inconsistently, or come from low-reliability vendors, the briefing says so.\n\n## Executive Summary\n\n- **Product:** Databricks launched a second-generation, always-on Genie on 11 November 2026, alongside Genie Ontology and Genie Search ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)). Its Genie One assistant expanded to Chrome, desktop, mobile, and email workflows in the same window ([Releasebot, 2026](https://releasebot.io/updates/databricks)).\n- **Deadline:** The Genie One MCP Beta endpoint reaches end of life on 30 November 2026, two weeks after the meeting ([Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming)).\n- **Investment:** Databricks announced a headline investment of approximately $3 billion across Europe and the Middle East on 11 November 2026. The provided material contains no details beyond the headline ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)).\n- **Hiring:** No dated executive hire within the 30-day window could be confirmed from the provided sources.\n- **Assessment:** The strongest pattern is Databricks turning Genie into a single agentic layer that spans every surface a user touches, with governance and business context as the main differentiators. Governance questions, especially around data snapshots in shared artifacts, deserve direct attention in the meeting.\n\n## Product and Platform Changes (Last 30 Days)\n\nThe most recent release notes, dated 12 November 2026 and first seen by Releasebot on 14 November 2026, list the following changes ([Releasebot, 2026](https://releasebot.io/updates/databricks)).\n\n| Date (2026) | Change | Status | Relevance for the Meeting |\n|---|---|---|---|\n| 11 Nov | Second-generation always-on Genie, Genie Ontology, Genie Search | Launched; Genie and Genie Ontology GA; Genie Search, Ontology Manager, and always-on Genie in preview/beta programs \"coming soon\" ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)) | Core strategic launch |\n| 12 Nov | Genie One Chrome new-tab extension | Beta ([Releasebot, 2026](https://releasebot.io/updates/databricks)) | Adoption and identity model |\n| 12 Nov | Scheduled tasks can email other users | Released ([Releasebot, 2026](https://releasebot.io/updates/databricks)) | Expands internal distribution of AI outputs |\n| 12 Nov | Artifacts and slides in Genie One | Beta; admin must enable Artifacts preview ([Releasebot, 2026](https://releasebot.io/updates/databricks)) | Raises data governance questions (see below) |\n| 12 Nov | Lakebase updated to Postgres 18.7, 17.12, 16.16 | Released ([Releasebot, 2026](https://releasebot.io/updates/databricks)) | Security and bug-fix patching |\n| 14 Nov | Genie One desktop app GA on macOS; Windows in beta | macOS GA; Windows beta ([Releasebot, 2026](https://releasebot.io/updates/databricks)) | Desktop parity |\n| 12 Nov | Links to Genie chats and dashboards open in mobile apps | Released for iOS and Android ([Releasebot, 2026](https://releasebot.io/updates/databricks)) | Mobile access |\n\nThe new-generation Genie is described as an agent that \"works autonomously, manages long-running work, and proactively brings decisions to people through a new priority inbox and email\" ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)). Its Genie Search feature is said to expand to more than 100 enterprise data sources, including the lakehouse and business applications such as Google Drive, Jira, and Confluence ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)).\n\nPricing is consumption-based rather than per seat. Admins can set spending limits by team or user through Unity Gateway ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)).\n\n### Upcoming Changes and Deadlines\n\nThe \"What's coming?\" page lists several dated items relevant to customers ([Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming)); the Azure edition is last updated 13 November 2026 and lists the same MCP deadline ([Microsoft, 2026](https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming)).\n\n| Item | Date | Action Required |\n|---|---|---|\n| Genie One MCP Beta endpoint end of life (previously 31 Oct 2026) | 30 Nov 2026 | Move workloads to `system.ai.genie_one_mcp` in Unity Gateway ([Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming)) |\n| Pages available by default for compliance security profile workspaces | Dec 2026 | Review governed business definitions; Genie One will prioritize Pages over inferred context ([Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming)) |\n| AI Functions require Databricks Runtime 17.3 LTS or above | 1 Feb 2027 | Upgrade compute; calls on earlier runtimes return errors ([Microsoft, 2026](https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming)) |\n| Unpaginated requests to some Unity Catalog REST operations rejected | \"Soon\" (no date given) | Audit API integrations ([Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming)) |\n| Databricks-provided MCP connectors enabled by default for compliance-profile workspaces | \"Soon\" (no date given) | Confirm connector policies ([Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming)) |\n\nNote that the MCP endpoint deadline was moved once already, from 31 October to 30 November 2026 ([Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming)). Customers should confirm the date is final.\n\n## Deals, Investments, and Corporate Activity\n\n### Last 30 Days\n\n- **Investment announcement:** On 11 November 2026, Databricks announced it would invest approximately $3 billion across Europe and the Middle East to accelerate enterprise AI adoption. The press release title is the only detail available in the provided material ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)).\n- **Analyst commentary:** A Fundz product-launch page describes the second-generation Genie as an \"always-on autonomous AI assistant for enterprise work\" ([Fundz, 2026](https://app.fundz.net/products/databricks-product-launch-917146)). Fundz is a sales-intelligence vendor, so this is a secondary and promotional description.\n\nNo new acquisition or partnership dated within the 30-day window was confirmed in the provided sources.\n\n### Earlier Context (Outside 30 Days)\n\n| Date | Event | Source |\n|---|---|---|\n| Dec 2025 | Series L round of more than $4 billion at a $134 billion valuation | [Wikipedia, n.d.](https://en.wikipedia.org/wiki/Databricks) |\n| Jun 2026 | Agreement to acquire Panther Labs for AI-driven threat detection | [Wikipedia, n.d.](https://en.wikipedia.org/wiki/Databricks) |\n| Jul 2026 | Expanded Microsoft partnership extending into the 2030s | [Wikipedia, n.d.](https://en.wikipedia.org/wiki/Databricks) |\n| Aug 2026 | Acquisition of Electric to give AI agents their own Postgres database | [Wikipedia, n.d.](https://en.wikipedia.org/wiki/Databricks) |\n| Sep 2026 | Acquisition of Row Zero, a cloud-based spreadsheet provider | [Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-databricks/__h71WlGEvmuefCzSdZogxaGihmuCYu0rBKj3hkmJQF7M) |\n\nTracxn reports 23 acquisitions in total, with an average deal value of $700 million, though this average appears to be an estimate from aggregated data ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-databricks/__h71WlGEvmuefCzSdZogxaGihmuCYu0rBKj3hkmJQF7M)). Wikipedia also records earlier partnerships with OpenAI (September 2025) and Anthropic (March 2025) ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Databricks)).\n\nA commentary article on the 2026 Data + AI Summit notes that Databricks is exploring \"OpenSharing,\" which would allow organizations to share Genie Agents, a model in which providers could sell governed natural-language access to proprietary data ([Databricks Community, n.d.](https://community.databricks.com/t5/community-articles/dais-2026-the-databricks-announcements-i-think-clients-should/td-p/159914)). This is an interpretive piece rather than an official announcement.\n\n## Leadership and Hiring\n\n### Last 30 Days\n\n- **General counsel:** Databricks appointed Tr\u00e2m Phi as senior vice president and general counsel. She joins from DocuSign, where she was SVP and general counsel ([iteuropa, n.d.](https://iteuropa.com/news/databricks-hires-former-docusign-exec-svp-and-general-counsel)). The article does not state a date, so it cannot be confirmed as falling within the 30-day window. The article also alternates between \"Tr\u00e2m\" and \"Phil,\" so the spelling should be verified before the meeting.\n- **Org chart:** A Workzil page updated on 4 November 2026 lists Ali Ghodsi as CEO and Co-Founder and Dave Conte as CFO ([Workzil, 2026](https://www.workzil.com/companies/databricks/team)). Derrick's data is more detailed but dated August 2026 ([Derrick, 2026](https://derrick-app.com/company/databricks/executives)).\n\n### Current Leadership Roster (Per Derrick, Aug 2026)\n\n| Name | Role |\n|---|---|\n| Ali Ghodsi | Co-founder and Chief Executive Officer |\n| David Conte | Chief Financial Officer |\n| Matei Zaharia | Co-founder and Chief Technology Officer |\n| Rick Schultz | Chief Marketing Officer |\n| Hatim Shafique | Chief Operating Officer |\n| Ion Stoica | Co-founder and Executive Chair |\n\nSource: [Derrick, 2026](https://derrick-app.com/company/databricks/executives). Derrick tracks 19 leaders in total. The CFO's first name appears as \"Dave\" in one source and \"David\" in another, so it should be confirmed.\n\nDerrick also reports 17,306 tracked employee profiles and lists the United States as the largest location ([Derrick, 2026](https://derrick-app.com/company/databricks/executives)). These figures are estimates.\n\n## Analysis and Assessment\n\n**1. Genie is becoming the single agentic surface.** The November releases place Genie One in Chrome's new-tab page, desktop apps, mobile apps, scheduled emails, and shareable artifacts ([Releasebot, 2026](https://releasebot.io/updates/databricks)). In my assessment, the strategic aim is to make Genie the default entry point to enterprise data rather than a feature inside the lakehouse. This raises the stakes for identity, permissions, and cost controls, and it means Databricks will compete more directly with productivity and search platforms.\n\n**2. Context and governance are the stated differentiators.** Databricks presents Genie Ontology and Pages as ways to ground agents in governed business definitions ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex); [Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming)). The approach is credible, but it depends on customers curating definitions. The Ontology Manager is designed to flag concepts that need definitions, which suggests that much of the work will fall to customer teams.\n\n**3. The artifact data-snapshot design needs scrutiny.** Artifacts store a snapshot of their data, and anyone who can view an artifact sees that data, even without access to the source tables ([Releasebot, 2026](https://releasebot.io/updates/databricks)). This is a deliberate trade-off for sharing, but in regulated environments it could expose data beyond existing access controls. I consider this the most important governance question for the meeting.\n\n**4. Consumption pricing with spending limits is a deliberate choice.** Databricks states that customers pay for usage rather than seats ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)). Always-on agents can generate unpredictable spend, and the industry is watching cost closely. The emphasis on spending caps suggests Databricks recognizes this risk.\n\n**5. Near-term customer friction is concentrated in deadlines.** The MCP endpoint retirement on 30 November, the Pages default change in December, and the AI Functions runtime requirement in February 2027 will require action from many customers ([Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming); [Microsoft, 2026](https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming)). Account teams can add value by helping customers plan these migrations.\n\n**6. Several claims remain unverified.** Vendor and commentary sources describe Databricks' capital position and hiring in more bullish terms than the official sources do. One LinkedIn post cites a $4.8 billion raise, while Wikipedia reports a Series L of more than $4 billion at a $134 billion valuation ([Wikipedia, n.d.](https://en.wikipedia.org/wiki/Databricks)). The LinkedIn post shows an age of \"11mo\" and no clear date, so I have not relied on it ([Saltzman, n.d.](https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi)).\n\n## Source Reliability Notes\n\n- **Highest reliability:** Official Databricks press releases, Databricks documentation, and Microsoft Learn pages, which reflect Databricks' own product statements.\n- **Moderate reliability:** Wikipedia (citations vary in quality), Reuters-type reporting cited in Wikipedia, and Tracxn aggregated data.\n- **Low reliability for this briefing:** Fundz, Derrick, and Workzil are commercial data vendors whose figures are estimated or dated. The LinkedIn post and the DAIS community article are commentary.\n\n## Three Open Questions for the Meeting\n\n1. **Artifact governance:** How do admins restrict, expire, or audit the data snapshots stored in Genie One artifacts, and do snapshots respect compliance-profile controls before the Artifacts preview is enabled more broadly? ([Releasebot, 2026](https://releasebot.io/updates/databricks))\n2. **MCP migration and timing:** Will Databricks extend the 30 November 2026 end-of-life date for the Genie One MCP Beta endpoint again, and what support is available to move existing workloads to `system.ai.genie_one_mcp` in Unity Gateway? ([Databricks, n.d.](https://docs.databricks.com/aws/en/release-notes/whats-coming))\n3. **Investment and preview roadmap:** How will the approximately $3 billion Europe and Middle East investment be allocated across product, data residency, and go-to-market, and when will Genie Search, Ontology Manager, and the always-on Genie move from preview into general availability? ([Databricks, 2026](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex))\n\n## References\n\nDatabricks. (2026, November 11). *Databricks launches new always-on Genie: Autonomous AI for complex enterprise work*. Databricks Newsroom. [https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex](https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex)\n\nDatabricks. (n.d.). *What's coming?* Databricks on AWS. [https://docs.databricks.com/aws/en/release-notes/whats-coming](https://docs.databricks.com/aws/en/release-notes/whats-coming)\n\nDatabricks Community. (n.d.). *DAIS 2026: The Databricks announcements I think clients should care about*. Databricks Community. [https://community.databricks.com/t5/community-articles/dais-2026-the-databricks-announcements-i-think-clients-should/td-p/159914](https://community.databricks.com/t5/community-articles/dais-2026-the-databricks-announcements-i-think-clients-should/td-p/159914)\n\nDerrick. (2026). *Databricks executive team & leadership*. Derrick. [https://derrick-app.com/company/databricks/executives](https://derrick-app.com/company/databricks/executives)\n\nFundz. (2026, November 11). *Databricks product launch (November 2026)*. Fundz. [https://app.fundz.net/products/databricks-product-launch-917146](https://app.fundz.net/products/databricks-product-launch-917146)\n\niteuropa. (n.d.). *Databricks hires former DocuSign exec as SVP and general counsel*. iteuropa. [https://iteuropa.com/news/databricks-hires-former-docusign-exec-svp-and-general-counsel](https://iteuropa.com/news/databricks-hires-former-docusign-exec-svp-and-general-counsel)\n\nMicrosoft. (2026, November 13). *What's coming?* Azure Databricks | Microsoft Learn. [https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming](https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming)\n\nReleasebot. (2026, November 12). *Databricks release notes \u2013 November 2026 latest updates*. Releasebot. [https://releasebot.io/updates/databricks](https://releasebot.io/updates/databricks)\n\nSaltzman, J. (n.d.). *How Databricks will deploy $4.8B in 2026* [LinkedIn post]. LinkedIn. [https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi](https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi)\n\nTracxn. (2026). *List of 23 acquisitions by Databricks (Nov 2026)*. Tracxn. [https://tracxn.com/d/acquisitions/acquisitions-by-databricks/__h71WlGEvmuefCzSdZogxaGihmuCYu0rBKj3hkmJQF7M](https://tracxn.com/d/acquisitions/acquisitions-by-databricks/__h71WlGEvmuefCzSdZogxaGihmuCYu0rBKj3hkmJQF7M)\n\nWikipedia. (n.d.). *Databricks*. Wikipedia. [https://en.wikipedia.org/wiki/Databricks](https://en.wikipedia.org/wiki/Databricks)\n\nWorkzil. (2026, November 4). *Databricks org chart, leadership team & key executives (November 2026)*. Workzil. [https://www.workzil.com/companies/databricks/team](https://www.workzil.com/companies/databricks/team)",
+ "llm": {
+  "calls": 6,
+  "ok": 3,
+  "errors": 3,
+  "embedding_calls": 0,
+  "tokens_in": 17733,
+  "tokens_out": 12237,
+  "cost": 0.007892,
+  "fallbacks": 3,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.linkedin.com/posts/jason-salt_how-databricks-will-deploy-48b-in-2026-activity-7406815692102021120-ikZi",
+    "title": "How Databricks will deploy $4.8B in 2026 Databricks just raised $4.8B. Based on their partnerships, acquisitions, and hiring patterns, here's where that capital is headed: 1. M&A War Chest: 5\u2026 | Jason Saltzman | 25 comments",
+    "published_date": null
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Databricks",
+    "title": "Databricks - Wikipedia",
+    "published_date": null
+   },
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-databricks/__h71WlGEvmuefCzSdZogxaGihmuCYu0rBKj3hkmJQF7M",
+    "title": "List of 23 Acquisitions by Databricks (Oct 2026) - Tracxn",
+    "published_date": null
+   },
+   {
+    "url": "https://cosmosthrace.com/resources/databricks/databricks-valuation-what-it-means-for-enterprise-buyers",
+    "title": "Databricks Valuation 2026: $188B Explained for Buyers",
+    "published_date": null
+   },
+   {
+    "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-raising-strategic-round-funding-188-billion-valuation",
+    "title": "Databricks is Raising a Strategic Round of Funding at a $188 Billion Valuation - Databricks",
+    "published_date": null
+   },
+   {
+    "url": "https://releasebot.io/updates/databricks",
+    "title": "Databricks Release Notes - November 2026 Latest Updates - Releasebot",
+    "published_date": null
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming",
+    "title": "What's coming? - Azure Databricks | Microsoft Learn",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming",
+    "title": "What's coming? | Databricks on AWS",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=VQrIFB4S76c",
+    "title": "Databricks DAIS 2026 ALL ANNOUNCEMENTS SUMMARIZED | Ontology, Reyden, LTAP, Omnigent & More",
+    "published_date": null
+   },
+   {
+    "url": "https://community.databricks.com/t5/community-articles/dais-2026-the-databricks-announcements-i-think-clients-should/td-p/159914",
+    "title": "DAIS 2026: The Databricks Announcements I Think Cl... - Databricks Community - 159914",
+    "published_date": null
+   },
+   {
+    "url": "https://app.fundz.net/products/databricks-product-launch-917146",
+    "title": "Databricks product launch (November 2026)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.databricks.com/company/newsroom/press-releases/databricks-launches-new-always-genie-autonomous-ai-complex",
+    "title": "Databricks Launches New Always-on Genie: Autonomous AI for Complex Enterprise Work - Databricks",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.databricks.com/aws/en/release-notes/product/2026/november",
+    "title": "November 2026 | Databricks on AWS",
+    "published_date": null
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming",
+    "title": "What's coming? - Azure Databricks | Microsoft Learn",
+    "published_date": null
+   },
+   {
+    "url": "https://atlan.com/know/ai-agent/databricks/databricks-data-ai-summit-2026-announcements",
+    "title": "Databricks Data + AI Summit 2026: Key Announcements Recap",
+    "published_date": null
+   },
+   {
+    "url": "https://www.workzil.com/companies/databricks/team",
+    "title": "Databricks Org Chart, Leadership Team & Key Executives (November 2026) | Workzil",
+    "published_date": null
+   },
+   {
+    "url": "https://derrick-app.com/company/databricks/executives",
+    "title": "Databricks executive team & leadership",
+    "published_date": null
+   },
+   {
+    "url": "https://hpcwire.com/bigdatawire/this-just-in/databricks-announces-changes-leadership-team",
+    "title": "Databricks Announces Changes in Leadership Team - BigDATAwire",
+    "published_date": null
+   },
+   {
+    "url": "https://iteuropa.com/news/databricks-hires-former-docusign-exec-svp-and-general-counsel",
+    "title": "Databricks hires former DocuSign exec as SVP and general counsel",
+    "published_date": null
+   },
+   {
+    "url": "https://www.hpcwire.com/bigdatawire/this-just-in/databricks-announces-changes-leadership-team",
+    "title": "BigDATAwire - Data Science &bull; AI &bull; Advanced Analytics",
+    "published_date": null
+   },
+   {
+    "url": "https://releasebot.io/updates/databricks",
+    "title": "Databricks Release Notes - November 2026 Latest Updates - Releasebot",
+    "published_date": null
+   },
+   {
+    "url": "https://learn.microsoft.com/en-us/azure/databricks/release-notes/whats-coming",
+    "title": "What's coming? - Azure Databricks | Microsoft Learn",
+    "published_date": null
+   },
+   {
+    "url": "https://docs.databricks.com/aws/en/release-notes/whats-coming",
+    "title": "What's coming? | Databricks on AWS",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=VQrIFB4S76c",
+    "title": "Databricks DAIS 2026 ALL ANNOUNCEMENTS SUMMARIZED | Ontology, Reyden, LTAP, Omnigent & More",
+    "published_date": null
+   },
+   {
+    "url": "https://community.databricks.com/t5/community-articles/dais-2026-the-databricks-announcements-i-think-clients-should/td-p/159914",
+    "title": "DAIS 2026: The Databricks Announcements I Think Cl... - Databricks Community - 159914",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:41:50.577601Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:41:50.580219Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 10291,
+   "tokens": 2357,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:42:00.946666Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 243,
+   "query": "Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:42:01.196044Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:42:01.196585Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 1133,
+   "tokens": 2891,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:42:04.009138Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1714,
+   "query": "Databricks executive hires and leadership changes late 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:42:04.009291Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2213,
+   "query": "Databricks news and product launches November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:42:04.018141Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 252,
+   "query": "Prepare a one-page briefing for a meeting with Databricks on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:42:04.018197Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1581,
+   "query": "Databricks acquisitions, funding, and partnership deals 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:42:18.74193Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 6,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:42:18.744299Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 40453,
+   "tokens": 24722,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 1966,
+  "cited": 12,
+  "verified": 12,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 12,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

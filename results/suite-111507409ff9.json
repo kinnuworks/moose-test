@@ -1,0 +1,350 @@
+{
+ "run_tag": "111507409ff9",
+ "model": "anthropic/claude-haiku-5-5",
+ "created": "2026-11-15T07:54:30.108800+00:00",
+ "agents": [
+  "gpt-researcher",
+  "single-search",
+  "null"
+ ],
+ "conditions": [
+  "baseline",
+  "model_down_fallback"
+ ],
+ "condition_labels": {
+  "baseline": "Normal day",
+  "model_down_fallback": "Model down, gateway fallback"
+ },
+ "tasks": [
+  {
+   "id": "t1",
+   "company": "Nvidia",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t2",
+   "company": "Stripe",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t3",
+   "company": "Shopify",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t4",
+   "company": "Databricks",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t5",
+   "company": "Canva",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t6",
+   "company": "Razorpay",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t7",
+   "company": "Infosys",
+   "meeting_date": "2026-11-17"
+  },
+  {
+   "id": "t8",
+   "company": "Zepto",
+   "meeting_date": "2026-11-17"
+  }
+ ],
+ "repeats": 3,
+ "summary": {
+  "cells": {
+   "gpt-researcher": {
+    "baseline": {
+     "n": 24,
+     "invalid": 0,
+     "pass": 24,
+     "safe": 24,
+     "outcomes": {
+      "PASS": 24
+     },
+     "pass_rate": 1.0,
+     "pass_ci": [
+      0.8620194241710247,
+      1.0
+     ],
+     "pass_hat_k": 1.0,
+     "cost": 0.18987500000000002,
+     "cost_per_pass": 0.007911458333333335,
+     "cost_per_run": 0.007911458333333335,
+     "tokens_per_run": 32008.75,
+     "llm_calls": 3.0,
+     "tavily_calls": 5.0,
+     "wall_s": 62.79583333333333
+    },
+    "model_down_fallback": {
+     "n": 24,
+     "invalid": 0,
+     "pass": 24,
+     "safe": 24,
+     "outcomes": {
+      "PASS": 24
+     },
+     "pass_rate": 1.0,
+     "pass_ci": [
+      0.8620194241710247,
+      1.0
+     ],
+     "pass_hat_k": 1.0,
+     "cost": 0.185802,
+     "cost_per_pass": 0.0077417499999999995,
+     "cost_per_run": 0.0077417499999999995,
+     "tokens_per_run": 31104.958333333332,
+     "llm_calls": 6.0,
+     "tavily_calls": 5.0,
+     "wall_s": 58.67083333333333
+    }
+   },
+   "single-search": {
+    "baseline": {
+     "n": 23,
+     "invalid": 1,
+     "pass": 23,
+     "safe": 23,
+     "outcomes": {
+      "PASS": 23
+     },
+     "pass_rate": 1.0,
+     "pass_ci": [
+      0.8568788745827373,
+      1.0
+     ],
+     "pass_hat_k": 1.0,
+     "cost": 0.03798,
+     "cost_per_pass": 0.0016513043478260869,
+     "cost_per_run": 0.0016513043478260869,
+     "tokens_per_run": 5595.695652173913,
+     "llm_calls": 1.0,
+     "tavily_calls": 1.0,
+     "wall_s": 13.843478260869563
+    },
+    "model_down_fallback": {
+     "n": 24,
+     "invalid": 0,
+     "pass": 23,
+     "safe": 23,
+     "outcomes": {
+      "PASS": 23,
+      "WEAK": 1
+     },
+     "pass_rate": 0.9583333333333334,
+     "pass_ci": [
+      0.7975777375115778,
+      0.9926067346451949
+     ],
+     "pass_hat_k": 0.875,
+     "cost": 0.039125,
+     "cost_per_pass": 0.001701086956521739,
+     "cost_per_run": 0.0016302083333333333,
+     "tokens_per_run": 5486.916666666667,
+     "llm_calls": 2.0,
+     "tavily_calls": 1.0,
+     "wall_s": 13.700000000000001
+    }
+   },
+   "null": {
+    "baseline": {
+     "n": 24,
+     "invalid": 0,
+     "pass": 0,
+     "safe": 0,
+     "outcomes": {
+      "NO_OUTPUT": 24
+     },
+     "pass_rate": 0.0,
+     "pass_ci": [
+      0.0,
+      0.13798057582897535
+     ],
+     "pass_hat_k": 0.0,
+     "cost": 0,
+     "cost_per_pass": null,
+     "cost_per_run": 0.0,
+     "tokens_per_run": 0.0,
+     "llm_calls": 0.0,
+     "tavily_calls": 0.0,
+     "wall_s": 0.012500000000000002
+    },
+    "model_down_fallback": {
+     "n": 24,
+     "invalid": 0,
+     "pass": 0,
+     "safe": 0,
+     "outcomes": {
+      "NO_OUTPUT": 24
+     },
+     "pass_rate": 0.0,
+     "pass_ci": [
+      0.0,
+      0.13798057582897535
+     ],
+     "pass_hat_k": 0.0,
+     "cost": 0,
+     "cost_per_pass": null,
+     "cost_per_run": 0.0,
+     "tokens_per_run": 0.0,
+     "llm_calls": 0.0,
+     "tavily_calls": 0.0,
+     "wall_s": 0.02916666666666667
+    }
+   }
+  }
+ },
+ "runs": [
+  "mt-111507409ff9-gpt-researcher-baseline-t1-0",
+  "mt-111507409ff9-single-search-baseline-t1-0",
+  "mt-111507409ff9-null-baseline-t1-0",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t1-0",
+  "mt-111507409ff9-single-search-model_down_fallback-t1-0",
+  "mt-111507409ff9-null-model_down_fallback-t1-0",
+  "mt-111507409ff9-gpt-researcher-baseline-t2-0",
+  "mt-111507409ff9-single-search-baseline-t2-0",
+  "mt-111507409ff9-null-baseline-t2-0",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t2-0",
+  "mt-111507409ff9-single-search-model_down_fallback-t2-0",
+  "mt-111507409ff9-null-model_down_fallback-t2-0",
+  "mt-111507409ff9-gpt-researcher-baseline-t3-0",
+  "mt-111507409ff9-single-search-baseline-t3-0",
+  "mt-111507409ff9-null-baseline-t3-0",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t3-0",
+  "mt-111507409ff9-single-search-model_down_fallback-t3-0",
+  "mt-111507409ff9-null-model_down_fallback-t3-0",
+  "mt-111507409ff9-gpt-researcher-baseline-t4-0",
+  "mt-111507409ff9-single-search-baseline-t4-0",
+  "mt-111507409ff9-null-baseline-t4-0",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t4-0",
+  "mt-111507409ff9-single-search-model_down_fallback-t4-0",
+  "mt-111507409ff9-null-model_down_fallback-t4-0",
+  "mt-111507409ff9-gpt-researcher-baseline-t5-0",
+  "mt-111507409ff9-single-search-baseline-t5-0",
+  "mt-111507409ff9-null-baseline-t5-0",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t5-0",
+  "mt-111507409ff9-single-search-model_down_fallback-t5-0",
+  "mt-111507409ff9-null-model_down_fallback-t5-0",
+  "mt-111507409ff9-gpt-researcher-baseline-t6-0",
+  "mt-111507409ff9-single-search-baseline-t6-0",
+  "mt-111507409ff9-null-baseline-t6-0",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t6-0",
+  "mt-111507409ff9-single-search-model_down_fallback-t6-0",
+  "mt-111507409ff9-null-model_down_fallback-t6-0",
+  "mt-111507409ff9-gpt-researcher-baseline-t7-0",
+  "mt-111507409ff9-single-search-baseline-t7-0",
+  "mt-111507409ff9-null-baseline-t7-0",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t7-0",
+  "mt-111507409ff9-single-search-model_down_fallback-t7-0",
+  "mt-111507409ff9-null-model_down_fallback-t7-0",
+  "mt-111507409ff9-gpt-researcher-baseline-t8-0",
+  "mt-111507409ff9-single-search-baseline-t8-0",
+  "mt-111507409ff9-null-baseline-t8-0",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t8-0",
+  "mt-111507409ff9-single-search-model_down_fallback-t8-0",
+  "mt-111507409ff9-null-model_down_fallback-t8-0",
+  "mt-111507409ff9-gpt-researcher-baseline-t1-1",
+  "mt-111507409ff9-single-search-baseline-t1-1",
+  "mt-111507409ff9-null-baseline-t1-1",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t1-1",
+  "mt-111507409ff9-single-search-model_down_fallback-t1-1",
+  "mt-111507409ff9-null-model_down_fallback-t1-1",
+  "mt-111507409ff9-gpt-researcher-baseline-t2-1",
+  "mt-111507409ff9-single-search-baseline-t2-1",
+  "mt-111507409ff9-null-baseline-t2-1",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t2-1",
+  "mt-111507409ff9-single-search-model_down_fallback-t2-1",
+  "mt-111507409ff9-null-model_down_fallback-t2-1",
+  "mt-111507409ff9-gpt-researcher-baseline-t3-1",
+  "mt-111507409ff9-single-search-baseline-t3-1",
+  "mt-111507409ff9-null-baseline-t3-1",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t3-1",
+  "mt-111507409ff9-single-search-model_down_fallback-t3-1",
+  "mt-111507409ff9-null-model_down_fallback-t3-1",
+  "mt-111507409ff9-gpt-researcher-baseline-t4-1",
+  "mt-111507409ff9-single-search-baseline-t4-1",
+  "mt-111507409ff9-null-baseline-t4-1",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t4-1",
+  "mt-111507409ff9-single-search-model_down_fallback-t4-1",
+  "mt-111507409ff9-null-model_down_fallback-t4-1",
+  "mt-111507409ff9-gpt-researcher-baseline-t5-1",
+  "mt-111507409ff9-single-search-baseline-t5-1",
+  "mt-111507409ff9-null-baseline-t5-1",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t5-1",
+  "mt-111507409ff9-single-search-model_down_fallback-t5-1",
+  "mt-111507409ff9-null-model_down_fallback-t5-1",
+  "mt-111507409ff9-gpt-researcher-baseline-t6-1",
+  "mt-111507409ff9-single-search-baseline-t6-1",
+  "mt-111507409ff9-null-baseline-t6-1",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t6-1",
+  "mt-111507409ff9-single-search-model_down_fallback-t6-1",
+  "mt-111507409ff9-null-model_down_fallback-t6-1",
+  "mt-111507409ff9-gpt-researcher-baseline-t7-1",
+  "mt-111507409ff9-single-search-baseline-t7-1",
+  "mt-111507409ff9-null-baseline-t7-1",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t7-1",
+  "mt-111507409ff9-single-search-model_down_fallback-t7-1",
+  "mt-111507409ff9-null-model_down_fallback-t7-1",
+  "mt-111507409ff9-gpt-researcher-baseline-t8-1",
+  "mt-111507409ff9-single-search-baseline-t8-1",
+  "mt-111507409ff9-null-baseline-t8-1",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t8-1",
+  "mt-111507409ff9-single-search-model_down_fallback-t8-1",
+  "mt-111507409ff9-null-model_down_fallback-t8-1",
+  "mt-111507409ff9-gpt-researcher-baseline-t1-2",
+  "mt-111507409ff9-single-search-baseline-t1-2",
+  "mt-111507409ff9-null-baseline-t1-2",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t1-2",
+  "mt-111507409ff9-single-search-model_down_fallback-t1-2",
+  "mt-111507409ff9-null-model_down_fallback-t1-2",
+  "mt-111507409ff9-gpt-researcher-baseline-t2-2",
+  "mt-111507409ff9-single-search-baseline-t2-2",
+  "mt-111507409ff9-null-baseline-t2-2",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t2-2",
+  "mt-111507409ff9-single-search-model_down_fallback-t2-2",
+  "mt-111507409ff9-null-model_down_fallback-t2-2",
+  "mt-111507409ff9-gpt-researcher-baseline-t3-2",
+  "mt-111507409ff9-single-search-baseline-t3-2",
+  "mt-111507409ff9-null-baseline-t3-2",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t3-2",
+  "mt-111507409ff9-single-search-model_down_fallback-t3-2",
+  "mt-111507409ff9-null-model_down_fallback-t3-2",
+  "mt-111507409ff9-gpt-researcher-baseline-t4-2",
+  "mt-111507409ff9-single-search-baseline-t4-2",
+  "mt-111507409ff9-null-baseline-t4-2",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t4-2",
+  "mt-111507409ff9-single-search-model_down_fallback-t4-2",
+  "mt-111507409ff9-null-model_down_fallback-t4-2",
+  "mt-111507409ff9-gpt-researcher-baseline-t5-2",
+  "mt-111507409ff9-single-search-baseline-t5-2",
+  "mt-111507409ff9-null-baseline-t5-2",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t5-2",
+  "mt-111507409ff9-single-search-model_down_fallback-t5-2",
+  "mt-111507409ff9-null-model_down_fallback-t5-2",
+  "mt-111507409ff9-gpt-researcher-baseline-t6-2",
+  "mt-111507409ff9-single-search-baseline-t6-2",
+  "mt-111507409ff9-null-baseline-t6-2",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t6-2",
+  "mt-111507409ff9-single-search-model_down_fallback-t6-2",
+  "mt-111507409ff9-null-model_down_fallback-t6-2",
+  "mt-111507409ff9-gpt-researcher-baseline-t7-2",
+  "mt-111507409ff9-single-search-baseline-t7-2",
+  "mt-111507409ff9-null-baseline-t7-2",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t7-2",
+  "mt-111507409ff9-single-search-model_down_fallback-t7-2",
+  "mt-111507409ff9-null-model_down_fallback-t7-2",
+  "mt-111507409ff9-gpt-researcher-baseline-t8-2",
+  "mt-111507409ff9-single-search-baseline-t8-2",
+  "mt-111507409ff9-null-baseline-t8-2",
+  "mt-111507409ff9-gpt-researcher-model_down_fallback-t8-2",
+  "mt-111507409ff9-single-search-model_down_fallback-t8-2",
+  "mt-111507409ff9-null-model_down_fallback-t8-2"
+ ]
+}

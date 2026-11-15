@@ -1,0 +1,100 @@
+{
+ "run_id": "mt-111507409ff9-single-search-model_down_fallback-t1-0",
+ "agent": "single-search",
+ "condition": "model_down_fallback",
+ "task_id": "t1",
+ "company": "Nvidia",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-single-search-model_down_fallback-t1-0",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 14.2,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: NVIDIA (Meeting 17 November 2026)\n\n**Scope:** Last 30 days (approx. 18 Oct to 17 Nov 2026). Only the search results provided were used. Titles and dates are shown where the results include them. The results contain no article bodies for most items, so details are limited.\n\n## Recent Changes (Last 30 Days)\n\n**Leadership and governance**\n- NVIDIA announced a CEO transition, dated 12 Nov 2026. The results show only the headline, not the terms or successor (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition).\n- Statements from the independent Board members (10 Nov 2026) and from the NVIDIA Board of Directors (8 Nov 2026) were issued. The results show only the titles (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition).\n- A company message titled \"A Message to Our Company\" was dated 8 Nov 2026. The results show only the title (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition).\n\n**Deals and partnerships**\n- NVIDIA, Rebellions and SK Telecom announced a collaboration to advance sovereign AI infrastructure using NVIDIA NVLink Fusion (8 Nov 2026) (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition).\n\n**Financial calendar**\n- NVIDIA set a conference call for third-quarter financial results (announced 28 Oct 2026) (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition).\n\n**Launches and hires**\n- No launches or executive hires within the 30-day window appear in the results.\n\n## Older Context (Outside 30 Days)\n\nThese items are relevant background but fall outside the window:\n- Acquisition of Hugging Face, Inc. (1 Aug 2026, listed at 12.90B USD) (https://tavily.com/knowledge/company/TXRhn2TKUD7t)\n- Acquisition of Kumo.AI, Inc. (1 Jun 2026, 400M USD) (https://tavily.com/knowledge/company/TXRhn2TKUD7t)\n- Acquisition of Illumex Technologies, Inc. (1 Feb 2026, 60M USD) (https://tavily.com/knowledge/company/TXRhn2TKUD7t)\n- Acquisition of Groq, Inc. (1 Dec 2025, 20.00B USD) (https://tavily.com/knowledge/company/TXRhn2TKUD7t)\n- Company profile: headquartered in Santa Clara, California; founded 1993; public company (https://tavily.com/knowledge/company/TXRhn2TKUD7t)\n\n## Gaps\n\n- The CEO transition details, the Board statements, and the company message are not available in the results. Read the full releases before the meeting.\n- No source covers hires or product launches in the last 30 days.\n\n## Open Questions\n\n1. How will the CEO transition affect decision-making and priorities for the teams we work with, and who is our counterpart after the change?\n2. What is NVIDIA's plan for sovereign AI customers following the Rebellions and SK Telecom NVLink Fusion collaboration, and does it open opportunities for us?\n3. What did the Q3 results and outlook signal for supply, pricing, or roadmap commitments that could affect our plans?",
+ "llm": {
+  "calls": 2,
+  "ok": 1,
+  "errors": 1,
+  "embedding_calls": 0,
+  "tokens_in": 916,
+  "tokens_out": 2266,
+  "cost": 0.001225,
+  "fallbacks": 1,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "title": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+    "published_date": "Thu, 12 Nov 2026 19:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/TXRhn2TKUD7t",
+    "title": "NVIDIA",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:40:12.148533Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2710,
+   "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 2
+  },
+  {
+   "t": "2026-11-15T07:40:14.927922Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 2,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:40:14.928483Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 10466,
+   "tokens": 3182,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "WEAK",
+  "words": 379,
+  "cited": 2,
+  "verified": 2,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 2,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": {
+  "diagnosis": "The primary model failed but a fallback model finished the briefing, which rested on one search returning only two results, so the evidence base was thin.",
+  "category": "too_few_sources",
+  "written_by": "anthropic/claude-haiku-5-5"
+ }
+}

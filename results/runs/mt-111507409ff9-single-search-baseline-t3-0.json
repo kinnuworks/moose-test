@@ -1,0 +1,114 @@
+{
+ "run_id": "mt-111507409ff9-single-search-baseline-t3-0",
+ "agent": "single-search",
+ "condition": "baseline",
+ "task_id": "t3",
+ "company": "Shopify",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-single-search-baseline-t3-0",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 11.5,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Shopify, 17 November 2026\n\n**Scope:** Changes from roughly 6 October to 6 November 2026, based only on the search results provided. The results include nothing dated after 6 November.\n\n## News and financial results\n\n- Shopify reported Q3 2026 results on 3 November 2026 (quarter ended 30 September): 32% revenue growth (32% in constant currency) and a 22% free cash flow margin (https://www.shopify.com/news/shopify-q3-2026-financial-results).\n- The results call was held on 3 November at 8:30 a.m. ET (https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow).\n\n## Product launches\n\n- The Fall '26 Edition opens Shopify's catalog, cart, and checkout to any agent or app, and adds tools for building and securing apps and storefronts (https://www.shopify.com/news/fall-26-edition-developer, 28 October 2026).\n- A merchant-facing version of the Fall '26 Edition was also published on 28 October (https://www.shopify.com/news/fall-26-edition-merchant).\n\n## Platform changes (action required)\n\n- The IP allowlist is now required for every public app by 20 November 2026, or by 12 November if the app uses bulk operations. ASN support now covers serverless hosting, and there are token updates (https://shopify.dev/changelog, 5 November 2026).\n\n## Headcount\n\n- Shopify's headcount is listed at 30,025: up 5,330 (21.6%) over the year, up 1,499 over the quarter, and up 170 over the month (https://tavily.com/knowledge/company/yIg9BumgrtmF). This source is undated, so treat the figures as approximate.\n\n## Customer proof points\n\n- Staples Canada ran more than four times as many website promotions during Black Friday and Cyber Monday after moving to Shopify Plus (https://www.shopify.com/enterprise/blog/brands-using-shopify-plus, published 24 October 2026). This is a vendor case study, and the underlying events are not recent.\n\n## Offers\n\n- A third-party page (DemandSage) advertises three months of Shopify for $1/month, valid until 30 November 2026 (https://www.demandsage.com/shopify-free-trial). This is not a Shopify announcement, so confirm the terms directly before relying on it.\n\n## Gaps\n\n- **Deals and partnerships:** No sources found for the period.\n- **Executive hires or departures:** No sources found for the period.\n- **Attendees and meeting agenda:** Not covered by the results.\n\n## Open questions\n\n1. With the IP allowlist deadlines on 12 and 20 November, what support is Shopify offering apps that are not yet compliant, and how are serverless-hosted apps handled?\n2. Under the Fall '26 Edition, which controls and merchant consent rules apply when agents or apps access catalog, cart, and checkout, and how does this affect our integration and partnership terms?\n3. Headcount grew 21.6% over the past year. Which teams are expanding, and who will be our main contacts for partner and account coverage in 2027?",
+ "llm": {
+  "calls": 1,
+  "ok": 1,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 2718,
+  "tokens_out": 2376,
+  "cost": 0.00146,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.demandsage.com/shopify-free-trial",
+    "title": "Shopify Free Trial 2026 [NOV]: 3 Months At $1/MO",
+    "published_date": "Fri, 06 Nov 2026 11:04:10 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/news/shopify-q3-2026-financial-results",
+    "title": "Shopify Sustains Rapid Growth with Revenue Up 32% and Free Cash Flow Margin of 22%",
+    "published_date": "Tue, 03 Nov 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/investors/press-releases/shopify-sustains-rapid-growth-revenue-32-and-free-cash-flow",
+    "title": "Shopify Sustains Rapid Growth with Revenue Up 32% and Free Cash Flow Margin of 22%",
+    "published_date": "Wed, 21 Oct 2026 08:48:00 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-merchant",
+    "title": "Exponential: Shopify's Fall '26 Edition",
+    "published_date": "Wed, 28 Oct 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/yIg9BumgrtmF",
+    "title": "Shopify",
+    "published_date": null
+   },
+   {
+    "url": "https://www.shopify.com/news/fall-26-edition-developer",
+    "title": "Bringing shopping into the future: The Fall '26 Edition for developers",
+    "published_date": "Wed, 28 Oct 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://shopify.dev/changelog",
+    "title": "Recent changes to Shopify\u2019s platform",
+    "published_date": "Thu, 05 Nov 2026 15:59:00 GMT"
+   },
+   {
+    "url": "https://www.shopify.com/enterprise/blog/brands-using-shopify-plus",
+    "title": "Brands Using Shopify Plus and What They Achieved (2026) - Shopify",
+    "published_date": "Sat, 24 Oct 2026 00:00:00 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:41:02.279468Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 277,
+   "query": "Prepare a one-page briefing for a meeting with Shopify on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:41:02.62451Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10641,
+   "tokens": 5094,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 413,
+  "cited": 8,
+  "verified": 8,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 8,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

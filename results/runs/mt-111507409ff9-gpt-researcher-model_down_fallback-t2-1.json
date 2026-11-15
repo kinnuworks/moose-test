@@ -1,0 +1,295 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-model_down_fallback-t2-1",
+ "agent": "gpt-researcher",
+ "condition": "model_down_fallback",
+ "task_id": "t2",
+ "company": "Stripe",
+ "repeat": 1,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-model_down_fallback-t2-1",
+ "exit_code": 0,
+ "stderr_tail": "ed research step.\n\ud83d\udcb8 Total Research Costs: $0.026565000000000002\nINFO:     [13:15:48] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:16:21] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 45.7,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Stripe Pre-Meeting Briefing: Meeting of 17 November 2026\n\n*Prepared 15 November 2026. Coverage window: approximately 16 October to 15 November 2026. Items outside the window or that could not be verified are flagged.*\n\n## Executive Summary\n\nStripe's most material verifiable change in the window is the completion of its acquisition of Parafin, a small-business lending and capital-markets company, which closed on 11 November 2026 ([Parafin, 2026](https://www.parafin.com/blog/parafin-is-joining-stripe)). Other signals, including a reported launch of 288 products and features, a 22-deal acquisition count, and hiring data, are either weakly sourced, undated, or drawn from sources outside the 30-day window. My assessment is that the Parafin close is the only item confirmed by a primary source and dated within the window. The rest should be treated as directional until Stripe confirms them.\n\n## Context: Company Profile\n\nStripe is a privately held financial infrastructure platform. Its stated mission is \"to increase the GDP of the internet,\" and it describes millions of companies, from large enterprises to early-stage startups, as users ([Stripe, n.d.](https://stripe.com/careers/listing/strategic-account-executive-ai-sales/8194397)). Brothers Patrick and John Collison founded the company in 2009 or 2010 ([Mean CEO, 2026](https://blog.mean.ceo/stripe-news-november-2026)). Public profiles list Stripe as privately held as of November 2026, so detailed financial results are not published on a regular schedule ([Mean CEO, 2026](https://blog.mean.ceo/stripe-news-november-2026)).\n\n## What Changed in the Last 30 Days\n\n### Deals and Acquisitions\n\nThe Parafin acquisition is the clearest item in the window. Parafin announced on 30 September 2026 that it had agreed to be acquired by Stripe, and its blog post was updated on 11 November 2026 to confirm the deal had closed ([Parafin, 2026](https://www.parafin.com/blog/parafin-is-joining-stripe)). FinTech Futures reported on 2 October 2026 that the sale was undisclosed and expected to close \"in the coming months\" ([Bignell, 2026](https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition)). The stated purpose is to expand financing for small and medium businesses, and Parafin's blog says the company will \"help more businesses\" at \"an even greater scale\" inside Stripe ([Parafin, 2026](https://www.parafin.com/blog/parafin-is-joining-stripe)).\n\nBecause the agreement was announced before the 30-day window opened, the closing (11 November) is the in-window event. Financial terms were not disclosed ([Bignell, 2026](https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition)).\n\nA Tracxn page titled \"List of 22 Acquisitions by Stripe (Nov 2026)\" was last updated on 1 November 2026 ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)). **Flag: The page content failed to load, so only the title and date are verified. I could not confirm the individual deals behind the count of 22.**\n\n### Product Launches\n\nAn FX News Group article is titled \"Stripe presses ahead with building economic infrastructure for AI, unveils 288 new products and features\" ([FX News Group, n.d.](https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features)). **Flag: The article body and publication date were not retrieved, so I cannot confirm the figure of 288, the launch date, or the product list. This item should be treated as unverified and should not be cited as a launch in the window until confirmed.** If accurate, the framing around AI economic infrastructure would be a significant strategic signal.\n\n### Executive and Key Hires\n\nNo named executive appointment or departure in the window could be verified. Two related items are noted:\n\n- A Stripe careers listing for a \"Strategic Account Executive, AI Sales\" role is publicly posted, indicating active recruitment for AI-focused go-to-market staff ([Stripe, n.d.](https://stripe.com/careers/listing/strategic-account-executive-ai-sales/8194397)). The posting date is not shown.\n- A Yahoo Finance article reports that a Stripe AI executive, whose name was not captured in the retrieved text, says Stripe is hiring new graduates \"more than ever\" but is concerned about the entry-level talent pipeline ([Yahoo Finance, n.d.](https://finance.yahoo.com/news/stripe-exec-says-she-hiring-150353198.html)). **Flag: The publication date is not verified, so this may fall outside the window.**\n\n### Hiring Volume (Third-Party Data)\n\nRecruiting from Scratch reports 496 open Stripe roles, with 149 added in the prior 29 days ([Recruiting from Scratch, 2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)). **Flag: This article is dated 24 June 2026, outside the 30-day window, and the count is a vendor estimate.** The department breakdown is as follows:\n\n| Department | Open Roles (as reported) |\n|---|---|\n| Engineering | 103 |\n| Operations | 59 |\n| Product | 58 |\n| Other | 49 |\n| Sales | 45 |\n| Finance | 42 |\n\n*Source: [Recruiting from Scratch (2026)](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)*\n\nThe listed departments sum to 356, which is well below the 496 total. The article does not explain the gap, so the breakdown should be treated as partial. The same source lists Dublin (44), Bengaluru (33), and San Francisco (27) as top locations, and reports 167 mid-level openings ([Recruiting from Scratch, 2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)).\n\n### Other Coverage\n\nPayments Dive published an article titled \"Stripe tips toward staying private\" ([Payments Dive, n.d.](https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572)). **Flag: Only the headline was retrieved, and the date and content are unverified. I have not relied on it for any conclusion.**\n\n## Key Statistics and Their Reliability\n\nA Mean CEO blog post lists several figures, each attributed to a secondary source ([Mean CEO, 2026](https://blog.mean.ceo/stripe-news-november-2026)). The blog's author states that the figures are a snapshot and that the newest public revenue figure dates from 2024 ([Mean CEO, 2026](https://blog.mean.ceo/stripe-news-november-2026)). These figures are not primary disclosures and are summarized below.\n\n| Metric | Reported Value | Attributed Source (per blog) | Status |\n|---|---|---|---|\n| Revenue | US$5.1 billion (2024) | Wikipedia | Secondary; primary link not provided |\n| Employees | About 8,500 (2025) | Wikipedia | Secondary; primary link not provided |\n| LinkedIn followers | 1,665,531 | Public company data record | Unverified |\n| Job signals | 249 | GlobalData | Unverified; differs from the 496 vendor count above |\n| Patents | 61 | GlobalData | Unverified |\n| Deals | 6 | GlobalData | Unverified; differs from the 22 Tracxn count |\n| News sentiment | 0.98 | GlobalData | Unverified |\n\n*Source for table: [Mean CEO (2026)](https://blog.mean.ceo/stripe-news-november-2026)*\n\nThe conflicting counts (249 versus 496 job openings, and 6 versus 22 deals) show that third-party metrics differ by methodology and timing. They should not be presented to Stripe as established facts.\n\n## Analysis and Assessment\n\nThe Parafin close is strategically coherent with Stripe's existing financial-services direction. Parafin's stated focus is financing for small and medium businesses, including payroll financing that it has built with partners such as Gusto ([Parafin, 2026](https://www.parafin.com/blog/parafin-is-joining-stripe)). Acquiring a company with an established SMB credit product and capital-markets infrastructure suggests Stripe is seeking to extend lending beyond its existing merchant base. This is my assessment and is not confirmed by Stripe. The closing also appears to have occurred after a regulatory process, since the announcement referenced \"required regulatory clearances\" ([Parafin, 2026](https://www.parafin.com/blog/parafin-is-joining-stripe)).\n\nThe AI framing in the product-launch headline, and the AI sales hiring, point in the same direction. However, the evidence for this is thin. Without the article body or a dated Stripe announcement, I cannot judge whether the AI push represents new products or a relabeling of existing ones. The hiring data also suggests that Stripe is recruiting heavily in engineering and product, but the sources are vendor-produced and partially dated, so the trend should be treated as indicative only.\n\nOn the talent question, the Stripe executive's stated concern about entry-level pathways is a notable public statement, but its date is unverified ([Yahoo Finance, n.d.](https://finance.yahoo.com/news/stripe-exec-says-she-hiring-150353198.html)). If current, it would suggest that Stripe's hiring may favor experienced staff, which is consistent with the reported mid-level concentration ([Recruiting from Scratch, 2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)).\n\n## Verification Summary\n\n| Item | Verified Date | Confidence | Note |\n|---|---|---|---|\n| Parafin acquisition closed | 11 Nov 2026 | High | Primary source ([Parafin, 2026](https://www.parafin.com/blog/parafin-is-joining-stripe)) |\n| Parafin deal announced | 2 Oct 2026 (report) | High | Outside window; terms undisclosed ([Bignell, 2026](https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition)) |\n| 22 acquisitions | 1 Nov 2026 (last updated) | Low | Content not loaded ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)) |\n| 288 products and features | Unknown | Low | Title only ([FX News Group, n.d.](https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features)) |\n| 496 open roles | 24 Jun 2026 | Low to medium | Outside window; vendor data ([Recruiting from Scratch, 2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)) |\n| AI sales role posting | Unknown | Medium | Live posting, undated ([Stripe, n.d.](https://stripe.com/careers/listing/strategic-account-executive-ai-sales/8194397)) |\n| Entry-level hiring comments | Unknown | Low | Undated; executive unnamed ([Yahoo Finance, n.d.](https://finance.yahoo.com/news/stripe-exec-says-she-hiring-150353198.html)) |\n| Revenue US$5.1B (2024) | 2024 | Medium | Secondary citation only ([Mean CEO, 2026](https://blog.mean.ceo/stripe-news-november-2026)) |\n\n## Open Questions for Stripe\n\n1. Now that the Parafin acquisition has closed, what is the integration timeline for its SMB financing products, and will existing Stripe Capital customers see changes to eligibility, pricing, or terms?\n2. Can you confirm which of the reported product and feature launches are generally available to early-stage and SMB customers, and which are in beta or limited release?\n3. Given public comments about the entry-level talent pipeline, how is Stripe approaching early-career hiring, and does the current AI-focused sales expansion signal a shift in its go-to-market headcount priorities?\n\n## References\n\nBignell, F. (2026, October 2). *Stripe to buy Parafin to enhance business credit offering*. FinTech Futures. [https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition](https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition)\n\nBonenkamp, V. (2026, November). *Stripe news | November, 2026 (startup edition)*. Mean CEO. [https://blog.mean.ceo/stripe-news-november-2026](https://blog.mean.ceo/stripe-news-november-2026)\n\nFX News Group. (n.d.). *Stripe presses ahead with building economic infrastructure for AI, unveils 288 new products and features*. [https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features](https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features)\n\nParafin. (2026, September 30; updated 2026, November 11). *Parafin is joining Stripe*. [https://www.parafin.com/blog/parafin-is-joining-stripe](https://www.parafin.com/blog/parafin-is-joining-stripe)\n\nPayments Dive. (n.d.). *Stripe tips toward staying private*. [https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572](https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572)\n\nRecruiting from Scratch. (2026, June 24). *Stripe is hiring 496 people: What that signals (2026)*. [https://www.recruitingfromscratch.com/blog/stripe-hiring-2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)\n\nStripe. (n.d.). *Strategic account executive, AI sales*. Stripe Careers. [https://stripe.com/careers/listing/strategic-account-executive-ai-sales/8194397](https://stripe.com/careers/listing/strategic-account-executive-ai-sales/8194397)\n\nTracxn. (2026, November 1). *List of 22 acquisitions by Stripe (Nov 2026)*. [https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI)\n\nYahoo Finance. (n.d.). *Stripe exec says she's hiring new grads more than ever but she's 'sweating' about the Gen Z talent pipeline*. [https://finance.yahoo.com/news/stripe-exec-says-she-hiring-150353198.html](https://finance.yahoo.com/news/stripe-exec-says-she-hiring-150353198.html)",
+ "llm": {
+  "calls": 6,
+  "ok": 3,
+  "errors": 3,
+  "embedding_calls": 0,
+  "tokens_in": 10488,
+  "tokens_out": 8768,
+  "cost": 0.005433,
+  "fallbacks": 3,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
+    "title": "List of 22 Acquisitions by Stripe (Nov 2026) - Tracxn",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://www.facebook.com/techcrunch/videos/the-singularity-isnt-the-real-reason-stripe-paid-75b-for-openrouter/1815064876142968",
+    "title": "2.8K views | Stripe claims \"the singularity\" is here, and justifies its $7.5B acquisition of OpenRouter.\n\nThe truth, as the Equity podcast crew highlights, is much more practical, as unglamorous as token expense management may seem: http://spr.ly/6180B1m8FC | TechCrunch",
+    "published_date": null
+   },
+   {
+    "url": "https://www.parafin.com/blog/parafin-is-joining-stripe",
+    "title": "Parafin is joining Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "title": "Stripe News | November, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features",
+    "title": "Stripe presses ahead with building economic infrastructure for AI, unveils 288 new products and features - FX News Group",
+    "published_date": null
+   },
+   {
+    "url": "https://ffnews.com/news/stripe-sessions-50-announcements-including-ai-powered-payments-major-upgrades-to-connect-interoperability-and-more",
+    "title": "Stripe Sessions: 50+ Announcements, Including AI-Powered Payments, Major Upgrades to Connect, Interoperability, and More",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8F4XyWYqZi8",
+    "title": "Stripe Sessions 2026 keynote in 12 minutes",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.recruitingfromscratch.com/blog/stripe-hiring-2026",
+    "title": "Stripe Is Hiring 496 People: What That Signals (2026)",
+    "published_date": null
+   },
+   {
+    "url": "https://finance.yahoo.com/news/stripe-exec-says-she-hiring-150353198.html",
+    "title": "Stripe exec says she\u2019s hiring new grads more than ever but she\u2019s \u2018sweating\u2019 about the Gen Z talent pipeline\u2014and warns the era of skills is at risk",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/careers/listing/strategic-account-executive-ai-sales/8194397",
+    "title": "Strategic Account Executive, AI Sales - Stripe Careers",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/careers/search",
+    "title": "Stripe Careers | Open Roles",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "title": "Stripe News | November, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://www.fintechfutures.com/m-a/stripe-to-enhance-business-credit-offering-with-parafin-acquisition",
+    "title": "Stripe to enhance business credit offering with Parafin acquisition",
+    "published_date": null
+   },
+   {
+    "url": "https://thepaypers.com/payments/news/fedex-dataworks-and-stripe-partner-on-smb-financing-and-payments",
+    "title": "FedEx and Stripe team up on SMB financing | The Paypers",
+    "published_date": null
+   },
+   {
+    "url": "https://www.paymentsdive.com/news/stripe-tips-toward-staying-private/828572",
+    "title": "Stripe tips toward staying private",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/guides/preparing-for-peak-shopping-season-2026",
+    "title": "Preparing for Peak Shopping Season 2026: Data-backed Takeaways from Holiday Spending | Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "title": "Stripe News | November, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features",
+    "title": "Stripe presses ahead with building economic infrastructure for AI, unveils 288 new products and features - FX News Group",
+    "published_date": null
+   },
+   {
+    "url": "https://ffnews.com/news/stripe-sessions-50-announcements-including-ai-powered-payments-major-upgrades-to-connect-interoperability-and-more",
+    "title": "Stripe Sessions: 50+ Announcements, Including AI-Powered Payments, Major Upgrades to Connect, Interoperability, and More",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8F4XyWYqZi8",
+    "title": "Stripe Sessions 2026 keynote in 12 minutes",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:45:38.738027Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:45:38.74102Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 3387,
+   "tokens": 1106,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:45:42.265804Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 237,
+   "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:45:42.50891Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 3,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:45:42.510555Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 1223,
+   "tokens": 3071,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:45:45.575989Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 487,
+   "query": "Stripe news November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:45:45.576266Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1347,
+   "query": "Stripe hiring executive appointments 2026 announcements",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:45:45.576416Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 637,
+   "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:45:45.580184Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1494,
+   "query": "Stripe launches acquisitions partnerships October November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:45:48.968253Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 5,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:45:48.972715Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 32712,
+   "tokens": 15079,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 1579,
+  "cited": 9,
+  "verified": 9,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 9,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

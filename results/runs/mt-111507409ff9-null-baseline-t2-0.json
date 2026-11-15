@@ -1,0 +1,52 @@
+{
+ "run_id": "mt-111507409ff9-null-baseline-t2-0",
+ "agent": "null",
+ "condition": "baseline",
+ "task_id": "t2",
+ "company": "Stripe",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-null-baseline-t2-0",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 0.0,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "",
+ "llm": {
+  "calls": 0,
+  "ok": 0,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 0,
+  "tokens_out": 0,
+  "cost": 0,
+  "fallbacks": 0,
+  "providers": [],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 0,
+  "statuses": [],
+  "results": []
+ },
+ "timeline": [],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "NO_OUTPUT",
+  "words": 0,
+  "cited": 0,
+  "verified": 0,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 0,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": {
+  "diagnosis": "The run produced no briefing: the agent field is null, no model or search calls were made, and the output is empty, though the process exited with code 0.",
+  "category": "no_output",
+  "written_by": "anthropic/claude-haiku-5-5"
+ }
+}

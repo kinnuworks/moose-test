@@ -1,0 +1,261 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-baseline-t2-0",
+ "agent": "gpt-researcher",
+ "condition": "baseline",
+ "task_id": "t2",
+ "company": "Stripe",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-baseline-t2-0",
+ "exit_code": 0,
+ "stderr_tail": "0:30] Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.02425\nINFO:     [13:10:30] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:11:21] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 63.3,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Stripe Meeting Briefing: 17 November 2026\n\n**Prepared for:** Meeting with Stripe, 17 November 2026\n**Reporting window:** 16 October to 15 November 2026 (last 30 days)\n**Assessment date:** 15 November 2026\n\n## Scope, Method, and Source Reliability\n\nThis briefing covers developments in the 30 days before the assessment date. Background facts outside that window are labelled as context. Where a claim could not be verified against a source in the provided material, it is marked as unverified.\n\nSources were weighted as follows:\n\n- **Higher weight:** Wikipedia's Stripe entry, which carries its own citations; the Tracxn acquisitions listing, updated 1 November 2026; and a research note with a dated source list.\n- **Lower weight:** BlockEden and Forrester commentary, which is analytical rather than primary, and a recruiting firm's marketing page.\n- **Excluded:** Figures from the Mean CEO blog that lack a source URL (LinkedIn followers, GlobalData signals, sentiment score). Its secondary claims are used only where they cite a traceable source.\n\n## Executive Summary\n\n- **Verified activity in the window is product-led.** Launches dated 20 to 27 October 2026 included an F1 partnership, Treasury for Agents, Instinct, a Link agent-wallet balance, and Stripe Pay ([Tracxn, 2026](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI); [Insights4vc, 2026](https://insights4vc.substack.com/p/the-economics-of-stripes-ai-strategy)).\n- **No completed acquisition or verified hiring signal falls inside the window.** The OpenRouter deal was agreed in August but had not been announced as complete as of 28 October ([Insights4vc, 2026](https://insights4vc.substack.com/p/the-economics-of-stripes-ai-strategy)). The most recent hiring count located is from June 2026 ([Recruiting from Scratch, 2026](https://www.recruitingfromscratch.com/blog/stripe-hiring-2026)).\n- **Stripe remains privately held,** so no audited 2025 or 2026 financial results are publicly available ([Mean CEO, 2026](https://blog.mean.ceo/stripe-news-november-2026)).\n- **My assessment:** Stripe's near-term strategy centres on agentic commerce and stablecoin-based money movement. The most useful meeting outcomes will concern commercial terms, deal status, and lock-in risk, not headline news.\n\n## Company Snapshot (Background, Not Within the Window)\n\n| Metric | Value | Date | Source | Status |\n|---|---|---|---|---|\n| Valuation (tender offer) | US$159 billion, up from US$91.5 billion | February 2026 | [Stripe, Inc. (n.d.)](https://en.wikipedia.org/wiki/Stripe,_Inc.) | Verified in source excerpt |\n| Total payment volume | US$1.9 trillion, up 34% from 2024 | 2025 | [Stripe, Inc. (n.d.)](https://en.wikipedia.org/wiki/Stripe,_Inc.) | Verified in source excerpt |\n| Revenue | US$5.1 billion | 2024 | [Bonenkamp (2026)](https://blog.mean.ceo/stripe-news-november-2026) | Secondary claim citing Wikipedia; not in the excerpt provided |\n| Employees | About 8,500 | 2025 | [Bonenkamp (2026)](https://blog.mean.ceo/stripe-news-november-2026) | Secondary claim citing Wikipedia; not in the excerpt provided |\n| Acquisitions | 22 total; 4 in 2026 | As of 1 November 2026 | [Tracxn (2026)](https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI) | Count verified; price fields are garbled in the listing |\n| Founders | Patrick and John Collison, founded 2009 or 2010 | Historical | [Bonenkamp (2026)](https://blog.mean.ceo/stripe-news-november-2026) | Secondary claim |\n\nThe 2025 revenue and volume figures are the most recent verifiable financial data points. The 2024 revenue figure should be treated as dated.\n\n## What Changed in the Last 30 Days\n\n### Product and Platform Launches\n\n| Date (2026) | Development | Type | Source |\n|---|---|---|---|\n| 16 Oct | Ne",
+ "llm": {
+  "calls": 3,
+  "ok": 3,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 20393,
+  "tokens_out": 12425,
+  "cost": 0.008252,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://tracxn.com/d/acquisitions/acquisitions-by-stripe/__uahG_IGnVgsUsOG-f8otYHLkOkliWg7YFhJ5ZkNIkpI",
+    "title": "List of 22 Acquisitions by Stripe (Nov 2026) - Tracxn",
+    "published_date": null
+   },
+   {
+    "url": "https://www.recruitingfromscratch.com/blog/stripe-hiring-2026",
+    "title": "Stripe Is Hiring 496 People: What That Signals (2026)",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/igPwhNOUwEGy",
+    "title": "Stripe",
+    "published_date": null
+   },
+   {
+    "url": "https://en.wikipedia.org/wiki/Stripe,_Inc.",
+    "title": "Stripe, Inc. - Wikipedia",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/maryannazevedo_stripes-acquisition-pace-has-accelerated-activity-7483241042813808640-gYtt",
+    "title": "Stripe Makes 21 Known Acquisitions Since 2010 | Mary Ann Azevedo posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "title": "Stripe News | November, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://ffnews.com/news/stripe-sessions-50-announcements-including-ai-powered-payments-major-upgrades-to-connect-interoperability-and-more",
+    "title": "Stripe Sessions: 50+ Announcements, Including AI-Powered Payments, Major Upgrades to Connect, Interoperability, and More",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8F4XyWYqZi8",
+    "title": "Stripe Sessions 2026 keynote in 12 minutes",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.dlnews.com/articles/markets/paypal-and-stripe-amond-fintechs-muscling-into-crypto-in-2026",
+    "title": "PayPal, Stripe and other fintech giants flex crypto muscles \u2014 \u20182026 is going to be massive\u2019 - DL News",
+    "published_date": null
+   },
+   {
+    "url": "https://fxnewsgroup.com/forex-news/payments/stripe-presses-ahead-with-building-economic-infrastructure-for-ai-unveils-288-new-products-and-features",
+    "title": "Stripe presses ahead with building economic infrastructure for AI, unveils 288 new products and features - FX News Group",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8F4XyWYqZi8",
+    "title": "Stripe Sessions 2026 keynote in 12 minutes",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/edwarddurmorris_everything-we-announced-at-sessions-2026-activity-7455314031520944128--Jla",
+    "title": "Stripe Processes $1.9T in Payments, Launches New Features | Ed Morris posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://ffnews.com/news/stripe-sessions-50-announcements-including-ai-powered-payments-major-upgrades-to-connect-interoperability-and-more",
+    "title": "Stripe Sessions: 50+ Announcements, Including AI-Powered Payments, Major Upgrades to Connect, Interoperability, and More",
+    "published_date": null
+   },
+   {
+    "url": "https://insights4vc.substack.com/p/the-economics-of-stripes-ai-strategy",
+    "title": "Stripe Wants to Become the Financial Operating System for AI",
+    "published_date": null
+   },
+   {
+    "url": "https://www.forrester.com/blogs/stripe-sessions-2026-stripe-is-rearchitecting-payments-for-an-agentic-ai-economy",
+    "title": "Stripe Sessions 2026: Stripe Is Rearchitecting Payments For An Agentic AI Economy",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://blockeden.xyz/blog/2026/05/03/stripe-sessions-2026-288-launches-link-agent-wallet-bridge-stablecoin-cards",
+    "title": "Stripe Sessions 2026: 288 Launches, One Bet on AI-Native Money",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8F4XyWYqZi8",
+    "title": "Stripe Sessions 2026 keynote in 12 minutes",
+    "published_date": null
+   },
+   {
+    "url": "https://blog.mean.ceo/stripe-news-november-2026",
+    "title": "Stripe News | November, 2026 (STARTUP EDITION)",
+    "published_date": null
+   },
+   {
+    "url": "https://ffnews.com/news/stripe-sessions-50-announcements-including-ai-powered-payments-major-upgrades-to-connect-interoperability-and-more",
+    "title": "Stripe Sessions: 50+ Announcements, Including AI-Powered Payments, Major Upgrades to Connect, Interoperability, and More",
+    "published_date": null
+   },
+   {
+    "url": "https://www.youtube.com/watch?v=8F4XyWYqZi8",
+    "title": "Stripe Sessions 2026 keynote in 12 minutes",
+    "published_date": null
+   },
+   {
+    "url": "https://stripe.com/blog/everything-we-announced-at-sessions-2026",
+    "title": "Everything we announced at Sessions 2026",
+    "published_date": null
+   },
+   {
+    "url": "https://www.dlnews.com/articles/markets/paypal-and-stripe-amond-fintechs-muscling-into-crypto-in-2026",
+    "title": "PayPal, Stripe and other fintech giants flex crypto muscles \u2014 \u20182026 is going to be massive\u2019 - DL News",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:40:19.767654Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 2405,
+   "tokens": 935,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:40:22.278836Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 635,
+   "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:40:22.918356Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1176,
+   "tokens": 3065,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:40:26.417312Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1620,
+   "query": "Stripe Sessions 2026 announcements stablecoin Tempo Bridge OpenRouter deals",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:40:26.41877Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1549,
+   "query": "Stripe news November 2026 launches and announcements",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:40:26.418951Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 644,
+   "query": "Prepare a one-page briefing for a meeting with Stripe on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:40:26.419102Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1630,
+   "query": "Stripe acquisitions, partnerships and hiring news October November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:40:30.44863Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 51287,
+   "tokens": 28818,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 502,
+  "cited": 5,
+  "verified": 5,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 5,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

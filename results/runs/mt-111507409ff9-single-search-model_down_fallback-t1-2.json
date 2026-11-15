@@ -1,0 +1,128 @@
+{
+ "run_id": "mt-111507409ff9-single-search-model_down_fallback-t1-2",
+ "agent": "single-search",
+ "condition": "model_down_fallback",
+ "task_id": "t1",
+ "company": "Nvidia",
+ "repeat": 2,
+ "virtual_key": "mt-111507409ff9-single-search-model_down_fallback-t1-2",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 15.6,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: NVIDIA\n**Meeting date:** 17 November 2026\n**Basis:** Search results only. No hires were found in the results, and no sources were found for launches dated within the last 30 days.\n\n## Summary\nNVIDIA's CEO has changed in the days before the meeting. Jensen Huang resigned, and CFO Colette Kress is interim CEO. The company's first earnings call since the change is scheduled for the meeting date.\n\n## What changed (last 30 days)\n\n**Leadership**\n- Huang has left all his positions with immediate effect. Kress, CFO since September 2013, remains CFO until a successor is chosen. The board has started a search and will consider internal and external candidates (https://mezha.net/... no; see below). *Correction for citation:* this detail comes from Meteora Web (https://meteoraweb.com/en/news/nvidia-jensen-huang-steps-down-as-ceo).\n- Nvidia officially announced the change, ending Huang's 33 years as CEO, and named Kress interim CEO (https://mashable.com/tech/jensen-huang-affairs-nvidia-resignation-timeline). The company announcement is listed as \"NVIDIA Announces CEO Transition\" (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition).\n- On 8 November, the board said it had \"confidence in Jensen and his leadership team\" (https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors). Huang resigned four days later.\n- Before the resignation, the WSJ reported, citing people familiar with the matter, that the board was preparing to oust Huang after he had two extramarital affairs, one reportedly with a suspected Chinese spy (https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad).\n- Wired reported that Nvidia hired a crisis PR firm at least a year before Huang acknowledged the affair (https://mezha.net/eng/news/mezha-cbe54f11b05c0e59be5a05db_wired-_nvidia_hired). The affair allegations are reported by these outlets, not confirmed by Nvidia in the results.\n- The independent board members issued a statement on 10 November, but the results show only its title (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition).\n\n**Partnerships and deals**\n- On 8 November, Nvidia, Rebellions and SK Telecom announced a collaboration on sovereign AI infrastructure using NVLink Fusion (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition).\n- The most recent acquisition in the results is Hugging Face (1 Aug 2026, USD 12.90B), which is outside the 30-day window (https://tavily.com/knowledge/company/TXRhn2TKUD7t).\n\n**Products and roadmap**\n- An AWS and Nvidia announcement describes AWS deploying 2 million additional Blackwell Ultra, Rubin and Rubin Ultra GPUs across 2027 and 2028. Rubin reportedly moved into production shipments in H2 2026 (https://shattered.io/gpu-vs-tpu-vs-npu-ai-chip-camps-compared-2026).\n\n**Earnings**\n- Nvidia is scheduled to release Q3 results around 4:20 p.m. ET on 17 November, with a call at 5 p.m. ET. It is the first call since Huang's exit (https://mashable.com/tech/jensen-huang-affairs-nvidia-resignation-timeline).\n- The conference call was announced on 28 October (https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition).\n\n**Hires:** No hiring news was found in the results beyond the interim CEO appointment.\n\n## Open questions\n1. **Leadership:** What is the board's timeline for naming a permanent CEO, and how will Kress's dual role as interim CEO and CFO affect execution and guidance?\n2. **Roadmap:** Does the 2027\u20132028 AWS plan for 2 million Blackwell Ultra and Rubin GPUs still hold, and is Rubin's production ramp on schedule?\n3. **Governance and customers:** What did the board conclude about the affair allegations and the PR firm hire, and has this affected major customer or sovereign AI commitments?",
+ "llm": {
+  "calls": 2,
+  "ok": 1,
+  "errors": 1,
+  "embedding_calls": 0,
+  "tokens_in": 2954,
+  "tokens_out": 3121,
+  "cost": 0.001856,
+  "fallbacks": 1,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-ceo-transition",
+    "title": "NVIDIA Announces CEO Transition | NVIDIA Newsroom",
+    "published_date": "Thu, 12 Nov 2026 19:00:00 GMT"
+   },
+   {
+    "url": "https://mezha.net/eng/news/mezha-cbe54f11b05c0e59be5a05db_wired-_nvidia_hired",
+    "title": "Wired: Nvidia hired crisis PR firm at least a year before Huang acknowledged affair | \u041c\u0435\u0436\u0430",
+    "published_date": "Mon, 09 Nov 2026 23:53:42 GMT"
+   },
+   {
+    "url": "https://nvidianews.nvidia.com/news/statement-from-nvidia-board-of-directors",
+    "title": "Statement From NVIDIA Board of Directors | NVIDIA Newsroom",
+    "published_date": "Sun, 08 Nov 2026 19:00:00 GMT"
+   },
+   {
+    "url": "https://mashable.com/tech/jensen-huang-affairs-nvidia-resignation-timeline",
+    "title": "Jensen Huang resigns: A timeline of the Nvidia affair | Mashable",
+    "published_date": "Thu, 12 Nov 2026 17:09:04 GMT"
+   },
+   {
+    "url": "https://shattered.io/gpu-vs-tpu-vs-npu-ai-chip-camps-compared-2026",
+    "title": "GPU vs TPU vs NPU: 4 AI Chip Camps Compared [2026]",
+    "published_date": "Thu, 12 Nov 2026 05:38:56 GMT"
+   },
+   {
+    "url": "https://meteoraweb.com/en/news/nvidia-jensen-huang-steps-down-as-ceo",
+    "title": "NVIDIA, Jensen Huang Steps Down as CEO \u2022 Meteora Web",
+    "published_date": "Thu, 12 Nov 2026 14:11:43 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/TXRhn2TKUD7t",
+    "title": "NVIDIA",
+    "published_date": null
+   },
+   {
+    "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad",
+    "title": "Exclusive | Nvidia is Preparing to Oust Nvidia CEO Jensen Huang - WSJ",
+    "published_date": "Wed, 11 Nov 2026 22:28:00 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:49:21.075121Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 261,
+   "query": "Prepare a one-page briefing for a meeting with Nvidia on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:49:21.486941Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 6,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:49:21.490369Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 13487,
+   "tokens": 6075,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 485,
+  "cited": 9,
+  "verified": 8,
+  "unverified": 1,
+  "unverified_urls": [
+   "https://mezha.net"
+  ],
+  "recent_share": null,
+  "undated": 8,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

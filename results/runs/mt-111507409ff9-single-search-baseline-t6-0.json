@@ -1,0 +1,114 @@
+{
+ "run_id": "mt-111507409ff9-single-search-baseline-t6-0",
+ "agent": "single-search",
+ "condition": "baseline",
+ "task_id": "t6",
+ "company": "Razorpay",
+ "repeat": 0,
+ "virtual_key": "mt-111507409ff9-single-search-baseline-t6-0",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 11.0,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-meeting briefing: Razorpay, 17 November 2026\n\n**Scope:** Sources dated roughly 17 October to 17 November 2026, plus one undated company profile. Every fact is cited to the URL it came from.\n\n## What changed in the last 30 days\n\n**IPO approval (main development)**\n- Razorpay received market regulator approval for its IPO, according to a SEBI document shown on Friday, 13 November 2026 (https://www.thehindu.com/business/indian-fintech-firm-razorpay-gets-regulatory-nod-for-ipo/article71698143.ece).\n- SEBI issued its final observations on Razorpay's draft offer documents on 3 November, which clears the company to proceed to the next listing stages (https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms). Inc42 reported the SEBI nod on 4 November (https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%E2%82%B96000-cr-ipo). Note that the sources differ on the date: The Hindu and ET's second report tie the approval to 13 November (https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms). Confirm the date before quoting it.\n- Shareholders approved a fresh issue of shares worth Rs 2,700 crore, plus an offer for sale (OFS) that lets existing investors partly sell their holdings (https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms).\n- Axis Capital, JPMorgan, Citi and Kotak Mahindra Capital are advising on the offering (https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms).\n- The draft papers were filed confidentially in June, for an IPO reportedly sized at around $600 million (https://www.thehindu.com/business/indian-fintech-firm-razorpay-gets-regulatory-nod-for-ipo/article71698143.ece).\n- Earlier estimates put the raise at \u20b95,000 to \u20b96,000 crore, with final price band and structure pending the RHP filing (https://upstox.com/news/market-news/ipo/upcoming-ip-os-mahanadi-coalfields-oyo-cult-fit-carlsberg-india-are-among-big-ticket-ip-os-expected-after-jio-platforms-listing/article-202719, 30 October 2026).\n\n**Regulatory licence (deal/expansion)**\n- Razorpay received a final licence to expand cross-border payments from GIFT City (headline only, in a Business Standard page dated 9 November 2026) (https://www.business-standard.com/markets/news/ifsca-proposes-model-portfolios-in-gift-city-by-research-entities-126110900766_1.html). I could not find the article body, so details are unverified.\n\n**Hires and launches:** No hires or product launches were found in the sources provided.\n\n## Company baseline (undated)\n- Headquarters: Bangalore; B2B SaaS; privately held as of the profile (https://tavily.com/knowledge/company/aJrBNen1btW7).\n- Headcount listed at 4,033, down 23 over the quarter and down 16 over the year (https://tavily.com/knowledge/company/aJrBNen1btW7). This profile is undated, so treat the trend as indicative.\n\n## Open questions\n1. With the approval in hand, what are the final issue size, the split between the fresh issue (Rs 2,700 crore) and the OFS, and the expected price band, given earlier estimates of \u20b95,000 to \u20b96,000 crore?\n2. What is the timeline from here to the RHP filing and listing, and are there any remaining SEBI conditions we should track?\n3. Which cross-border corridors does the GIFT City licence cover, and when do you expect to launch them?",
+ "llm": {
+  "calls": 1,
+  "ok": 1,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 2912,
+  "tokens_out": 2324,
+  "cost": 0.001453,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.thehindu.com/business/indian-fintech-firm-razorpay-gets-regulatory-nod-for-ipo/article71698143.ece",
+    "title": "Indian fintech firm Razorpay gets regulatory nod for IPO - The Hindu",
+    "published_date": "Fri, 13 Nov 2026 13:10:18 GMT"
+   },
+   {
+    "url": "https://economictimes.indiatimes.com/tech/technology/razorpay-moves-closer-to-public-market-debut-as-sebi-gives-green-signal-to-ipo/articleshow/135809192.cms",
+    "title": "Razorpay moves closer to public market debut as Sebi gives green signal to IPO - The Economic Times",
+    "published_date": "Sat, 14 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://economictimes.indiatimes.com/markets/ipos/fpos/razorpay-sembcorp-green-infra-get-sebi-nod-to-float-ipos/articleshow/135803228.cms",
+    "title": "Razorpay, Sembcorp Green Infra get Sebi nod to float IPOs - The Economic Times",
+    "published_date": "Fri, 13 Nov 2026 12:00:00 GMT"
+   },
+   {
+    "url": "https://inc42.com/buzz/razorpay-gets-sebi-nod-for-%E2%82%B96000-cr-ipo",
+    "title": "Razorpay Gets SEBI Nod For \u20b96,000 Cr IPO",
+    "published_date": "Wed, 04 Nov 2026 05:38:13 GMT"
+   },
+   {
+    "url": "https://upstox.com/news/market-news/ipo/upcoming-ip-os-mahanadi-coalfields-oyo-cult-fit-carlsberg-india-are-among-big-ticket-ip-os-expected-after-jio-platforms-listing/article-202719",
+    "title": "Upcoming IPOs: Mahanadi Coalfields, OYO, Cult.fit, Carlsberg India are among big-ticket IPOs expected after Jio Platforms listing",
+    "published_date": "Fri, 30 Oct 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/aJrBNen1btW7",
+    "title": "Razorpay",
+    "published_date": null
+   },
+   {
+    "url": "https://www.business-standard.com/markets/news/ifsca-proposes-model-portfolios-in-gift-city-by-research-entities-126110900766_1.html",
+    "title": "IFSCA proposes model portfolios in GIFT City by research entities | Markets News - Business Standard",
+    "published_date": "Mon, 09 Nov 2026 12:00:00 GMT"
+   },
+   {
+    "url": "https://hdfcsky.com/news/top-gainers-losers-today-13-november-2026-at-3-30-pm",
+    "title": "Top Gainers & Losers Today, 13 November 2026 at 3:30 PM IST",
+    "published_date": "Fri, 13 Nov 2026 11:00:00 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:43:01.420696Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 243,
+   "query": "Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:43:01.719727Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 10296,
+   "tokens": 5236,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 390,
+  "cited": 7,
+  "verified": 7,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 7,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

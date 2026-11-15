@@ -1,0 +1,126 @@
+{
+ "run_id": "mt-111507409ff9-single-search-model_down_fallback-t5-1",
+ "agent": "single-search",
+ "condition": "model_down_fallback",
+ "task_id": "t5",
+ "company": "Canva",
+ "repeat": 1,
+ "virtual_key": "mt-111507409ff9-single-search-model_down_fallback-t5-1",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 14.7,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Canva on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Canva, 17 November 2026\n\n**Scope:** Developments from the last 30 days, based only on the search results provided. Every fact is cited to its source URL.\n\n## Restructuring and layoffs\n\n- Canva announced a restructure affecting 22% of its global workforce. CEO Melanie Perkins said \"small changes won't be enough\" and that the company needs to \"re-found Canva\" around small, empowered teams (https://www.abc.net.au/news/2026-11-04/canva-restructure-job-losses/107344304).\n- The cuts affect 1,271 employees, over one-fifth of the workforce. The company is flattening the org chart and consolidating teams (https://www.computerworld.com/article/3816579/tech-layoffs-this-year-a-timeline.html).\n- Canva is merging its product, growth and platform teams and reducing \"subspecialisation,\" so remaining staff may take on broader responsibilities (https://tech.yahoo.com/general/breaking-news/article/tech-layoffs-tracker-2026-all-the-job-losses-across-canva-squarespace-amazon-microsoft-apple-meta-and-others-141507340.html).\n- Severance includes at least six months' salary, retention of company MacBooks, a free year of LinkedIn Premium, and career coaching and healthcare support (https://m.economictimes.com/news/international/world-news/canva-layoffs-2026-meet-ceo-melanie-perkins-who-plans-to-give-away-80-of-her-billion-dollar-fortune-as-1271-jobs-are-cut/articleshow/135575689.cms; https://www.abc.net.au/news/2026-11-04/canva-restructure-job-losses/107344304). Departing staff can also apply for $US10,000 grants to start a business or pursue a community project (https://www.abc.net.au/news/2026-11-04/canva-restructure-job-losses/107344304).\n- Before the announcement, a Capital Brief report said Canva could cut jobs or freeze hiring in November amid a revised revenue growth outlook. Canva had not confirmed either at that time (https://www.peoplematters.in/news/strategic-hr/canva-layoffs-in-november-company-reportedly-weighs-job-cuts-or-hiring-freeze-53137).\n- Capital Brief also reported previously unreported finance-division cuts in January, with 32 roles made redundant (https://www.startupdaily.net/topic/business/canva-doubles-downw-with-openai-just-days-after-launching-its-2nd-in-house-ai-model).\n\n## Launches and partnerships\n\n- Canva expanded its OpenAI partnership, giving it broader access to OpenAI's GPT-6 Astra and GPT-5.6 models. The two companies will work on making them cheaper to run, though no savings or costs were disclosed. OpenAI already powers Canva Code (https://www.startupdaily.net/topic/business/canva-doubles-downw-with-openai-just-days-after-launching-its-2nd-in-house-ai-model).\n- The deal came days after Canva launched its second in-house AI model (https://www.startupdaily.net/topic/business/canva-doubles-downw-with-openai-just-days-after-launching-its-2nd-in-house-ai-model).\n- Canva unveiled a North America campaign, \"What Will You Canva Today?\", created by new agency GS&P. The first spot aired during NBC Sunday Night Football on 1 November (https://www.mediapost.com/publications/article/419113/canva-unveils-campaign-by-new-agency-gsp.html).\n\n## Hires and M&A\n\n- No hiring announcements or new executive appointments were found in the results.\n- The results list acquisitions (Ortto, SimTheory, Doohly, and others), but all are dated before the 30-day window, so they are excluded here (https://tavily.com/knowledge/company/wafeqPWRLzYp).\n\n## Limitations\n\n- Sources are mostly secondary coverage. No Canva primary statement was in the results beyond quotes reprinted in press coverage.\n- The results contain no information on the scope or timing of any further November cuts or a hiring freeze beyond the pre-announcement report.\n\n## Open questions\n\n1. Is any further redundancy round or hiring freeze still planned after the 3 November restructure, and if so, which teams are affected?\n2. What cost or performance targets are attached to the expanded OpenAI partnership, and which products will change first?\n3. With product, growth and platform teams merging, who will be our primary contact and decision-maker going forward?",
+ "llm": {
+  "calls": 2,
+  "ok": 1,
+  "errors": 1,
+  "embedding_calls": 0,
+  "tokens_in": 2841,
+  "tokens_out": 2883,
+  "cost": 0.001726,
+  "fallbacks": 1,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.peoplematters.in/news/strategic-hr/canva-layoffs-in-november-company-reportedly-weighs-job-cuts-or-hiring-freeze-53137",
+    "title": "Canva layoffs in November? Company reportedly weighs job cuts or hiring freeze",
+    "published_date": "Tue, 03 Nov 2026 03:14:27 GMT"
+   },
+   {
+    "url": "https://www.computerworld.com/article/3816579/tech-layoffs-this-year-a-timeline.html",
+    "title": "Tech layoffs: A 2026 timeline \u2013 Computerworld",
+    "published_date": "Wed, 04 Nov 2026 00:00:00 GMT"
+   },
+   {
+    "url": "https://m.economictimes.com/news/international/world-news/canva-layoffs-2026-meet-ceo-melanie-perkins-who-plans-to-give-away-80-of-her-billion-dollar-fortune-as-1271-jobs-are-cut/articleshow/135575689.cms",
+    "title": "Canva layoffs 2026: Meet CEO Melanie Perkins, who plans to give away 80% of her billion-dollar fortune as 1,271 jobs are cut - The Economic Times",
+    "published_date": "Thu, 05 Nov 2026 13:00:00 GMT"
+   },
+   {
+    "url": "https://tech.yahoo.com/general/breaking-news/article/tech-layoffs-tracker-2026-all-the-job-losses-across-canva-squarespace-amazon-microsoft-apple-meta-and-others-141507340.html",
+    "title": "Tech layoffs tracker 2026: All the job losses across Disney, Amazon, Microsoft, Apple, Meta and more",
+    "published_date": "Tue, 10 Nov 2026 08:00:00 GMT"
+   },
+   {
+    "url": "https://www.abc.net.au/news/2026-11-04/canva-restructure-job-losses/107344304",
+    "title": "Design giant Canva announces restructure affecting 22pc of global workforce - ABC News",
+    "published_date": "Tue, 03 Nov 2026 23:09:11 GMT"
+   },
+   {
+    "url": "https://www.startupdaily.net/topic/business/canva-doubles-downw-with-openai-just-days-after-launching-its-2nd-in-house-ai-model",
+    "title": "Canva doubles down with OpenAI just days after launching its 2nd in-house AI model - Startup Daily",
+    "published_date": "Tue, 03 Nov 2026 03:58:10 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/wafeqPWRLzYp",
+    "title": "Canva",
+    "published_date": null
+   },
+   {
+    "url": "https://www.mediapost.com/publications/article/419113/canva-unveils-campaign-by-new-agency-gsp.html",
+    "title": "Canva Unveils Campaign By New Agency GS&P",
+    "published_date": "Mon, 02 Nov 2026 00:00:00 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:47:16.268663Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 253,
+   "query": "Prepare a one-page briefing for a meeting with Canva on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:47:16.618768Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:47:16.619298Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 12772,
+   "tokens": 5724,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 443,
+  "cited": 8,
+  "verified": 8,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 8,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

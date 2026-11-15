@@ -1,0 +1,261 @@
+{
+ "run_id": "mt-111507409ff9-gpt-researcher-baseline-t6-1",
+ "agent": "gpt-researcher",
+ "condition": "baseline",
+ "task_id": "t6",
+ "company": "Razorpay",
+ "repeat": 1,
+ "virtual_key": "mt-111507409ff9-gpt-researcher-baseline-t6-1",
+ "exit_code": 0,
+ "stderr_tail": " Finalized research step.\n\ud83d\udcb8 Total Research Costs: $0.028835\nINFO:     [13:17:45] \u270d\ufe0f Writing report for 'Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'...\nINFO:     [13:18:27] \ud83d\udcdd Report written for 'Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.'\n",
+ "wall_s": 62.2,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Razorpay: Pre-Meeting Briefing for 17 November 2026\n\n*Prepared 15 November 2026. Review window: 16 October to 15 November 2026.*\n\n## Scope and Source Approach\n\nThis briefing uses only the material provided. Razorpay's own newsroom and blog are treated as primary sources for company claims. Trade press (The Paypers, Analytics India Magazine) is used for reported events, and these are labelled as reported where the company has not confirmed them. Awwwards is used only for event framing. Built In, a employee-review aggregator, is used only for background. Items whose publication date could not be verified are marked **[Unverified date]**. Items outside the 30-day window are presented as context only.\n\n## Summary Assessment\n\nIn my assessment, the most material verifiable event in the window is the final IFSCA licence for GIFT City, which gives Razorpay a regulated route for cross-border money movement. The most consequential reported event is a possible IPO, but it rests on press reports and has not been confirmed by the company. Product and AI announcements are numerous, but the sources provide almost no adoption or revenue data to test them. I would treat the AI-first positioning as a strategic direction rather than a proven commercial result until metrics are shared.\n\n## 1. Material Changes in the Last 30 Days\n\n### 1.1 Regulatory Milestone: GIFT City Licence\n\nOn 3 November 2026, Razorpay announced it had received its final IFSCA licence for GIFT City. The company says the licence brings global investing, international collections, settlements, and multi-currency capabilities under one regulated infrastructure ([Razorpay Newsroom, 2026](https://razorpay.com/newsroom/press)). Razorpay also states that integration timelines are cut from months to 2\u20133 weeks, and that key investment platforms will go live \"soon\" ([Razorpay Newsroom, 2026](https://razorpay.com/newsroom/press)). No go-live dates or partner names are given in the excerpt, so the commercial timing remains unclear.\n\n### 1.2 Leadership and Engineering Hires\n\nAnalytics India Magazine reports that Razorpay has added four senior engineering leaders from Microsoft, Salesforce, CRED, and Divyam.AI ([Analytics India Magazine, n.d.](https://www.linkedin.com/posts/analytics-india-magazine_razorpay-ai-fintech-activity-7490353347590311936-jESz)). The named hires are Sudhir Reddy (former CTO and Co-founder of Divyam.ai, leading AI and data architecture), Abhishek Agarwal (Microsoft), Bhavya S. (Salesforce), and Anuj Mathur (CRED). CTO and Co-founder Shashank Kumar said the hires support the goal of building AI-native financial infrastructure ([Analytics India Magazine, n.d.](https://www.linkedin.com/posts/analytics-india-magazine_razorpay-ai-fintech-activity-7490353347590311936-jESz)). **[Unverified date]**: the post carries no visible publication date, so I cannot confirm these hires fall within the window.\n\n### 1.3 Product Launches and Positioning\n\nRazorpay's Sprint26 is described as the company's annual product launch, with over 100 product updates across six verticals: Agentic Stack, International Payments, Payment Gateway, D2C, Marketing, and Business Banking ([Awwwards, 2026](https://www.awwwards.com/razorpay-sprint26-the-future-of-payments.html)). The Awwwards article is dated 12 November 2026, but the event date is not stated, so **[Unverified date]** applies to the launch timing.\n\nAt FTX 2026, Razorpay reportedly launched four agentic products: Agentic Platform, Agentic Payments, Agent Studio, and Agentic Business Banking ([Razorpay, n.d.](https://www.linkedin.com/posts/razorpay_keynote-reimagining-money-movement-activity-7437771494610411520-QuVn)). The keynote post is undated in the material **[Unverified date]**. The company describes RAY, its WhatsApp-based AI account manager, as able to answer business questions and fix payment issues ([Razorpay, n.d.](https://razorpay.com/m/gff2026)). That GFF page is tied to September events, so RAY itself predates the window.\n\n### 1.4 Reported IPO Activity\n\nThe Paypers reports that Razorpay has reportedly received SEBI approval for an IPO ([The Paypers, n.d.](https://thepaypers.com/payments/news/razorpay-reportedly-receives-sebi-approval-for-ipo)). A separate Paypers piece reports the company is rumoured to seek a USD 500 million IPO, placing it among new-age Indian firms preparing to list over the next 12 to 18 months ([The Paypers, n.d.](https://thepaypers.com/payments/news/razorpay-reportedly-plans-usd-500-mln-ipo-amid-digital-payments-surge)). **Both items are unconfirmed reports, and the publication dates are not visible in the material.** I would not treat either as fact until Razorpay confirms.\n\n### 1.5 Partnerships and Deals\n\nNo partnership announcement in the material is verifiably dated within the window. The OpenAI ChatGPT Ads partnership (5 October 2026) falls 41 days before the briefing date, so it is outside the window ([Razorpay Newsroom, 2026](https://razorpay.com/newsroom/press)). The Replit partnership, which makes Razorpay the India payments partner for Replit's AI platform, is listed on a page last updated 15 June 2026 ([Razorpay Newsroom, 2026](https://razorpay.com/newsroom/razorpay-becomes-the-india-payments-partner-for-replits-global-ai-platform)). **[Unverified date]** applies to the Replit item.\n\n## 2. Context Outside the 30-Day Window\n\n| Date | Event | Relevance | Source |\n|---|---|---|---|\n| 18 Aug 2026 | Vulcan, described as India's first AI payments foundation model, trained on 4Bn transactions | Core AI infrastructure claim | [Razorpay Newsroom, 2026](https://razorpay.com/newsroom/razorpay-launches-vulcan-indias-first-ai-payments-foundation-model-fueled-by-nvidia-and-aws-trained-on-4bn-transactions) |\n| 30 Sep 2026 | Apple Pay accepted online and in-store, with no card entry or OTPs | Checkout expansion | [Razorpay Newsroom, 2026](https://razorpay.com/newsroom/press) |\n| 2 Sep 2026 | RAY launched on WhatsApp with IndusInd Bank; Bajaj Finance among early adopters | Agentic service channel | [Razorpay Newsroom, 2026](https://razorpay.com/newsroom/press) |\n| 7 Sep 2026 | NBBL partnership; Banking Connect live with SBI, HDFC Bank, ICICI Bank and others | NetBanking modernisation | [Razorpay Newsroom, 2026](https://razorpay.com/newsroom/press) |\n| 15 May 2026 | Apuarv Sethi elevated to CMO across India and SEA | Senior marketing leadership | [Razorpay Newsroom, 2026](https://razorpay.com/newsroom/press) |\n| Mar 2026 | International Payments Checkout; plans for 3\u20134 more SEA markets by end-2026 | International expansion pace | [Built In, n.d.](https://builtin.com/company/razorpay/faq/stability-growth) |\n| 21 Dec 2021 | Series F of $375m at a $7.5bn valuation, co-led by Lone Pine, Alkeon and TCV | Last verified valuation in material | [Razorpay Newsroom, 2021](https://razorpay.com/newsroom/razorpay-raises-375-mn-led-by-lone-pine-capital-alkeon-capital-and-tcv-valuation-increases-to-7-5-bn) |\n\nBuilt In states that Razorpay has a leading share of India's online payment gateway market and that FY24 core gateway revenue grew, with acceleration into FY25 ([Built In, n.d.](https://builtin.com/company/razorpay/faq/stability-growth)). These claims come from an employee-review aggregator, so I rate them as directional rather than audited. The provided material contains no current revenue, TPV, or valuation figures for 2026.\n\n## 3. Merchant Offer Watch: 90-Day 0% Platform Fee\n\nRazorpay's blog describes a 90-day 0% platform fee offer for new merchants, with \u20b95,00,000 in Amount Credits auto-applied after activation ([Razorpay Blog, 2026](https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026)). Key conditions include:\n\n- KYC completion and activation on or after 1 July 2026 (Clause 1) ([Razorpay Blog, 2026](https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026)).\n- Only the first activated Merchant ID under a PAN or bank account qualifies (Clause 7) ([Razorpay Blog, 2026](https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026)).\n- Merchants who transacted on Razorpay before 1 July 2026 are disqualified (Clause 8) ([Razorpay Blog, 2026](https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026)).\n- Unused credits lapse at day 90 with no carry-forward or cash redemption (Clause 10) ([Razorpay Blog, 2026](https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026)).\n- Prepaid cards, corporate credit cards, AMEX, Diners Club, and all EMI-based methods are excluded (Clause 5) ([Razorpay Blog, 2026](https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026)).\n\nThe blog illustrates the stakes with a merchant at about \u20b91 lakh monthly GMV paying 2% plus 18% GST, roughly \u20b928,320 a year ([Razorpay Blog, 2026](https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026)). That figure checks out arithmetically: 2% of \u20b91,00,000 is \u20b92,000 a month, or \u20b924,000 a year, and 18% GST on that adds \u20b94,320. The blog's publication date is not visible, so **[Unverified date]** applies to the offer's current status. The blog also says the official terms govern and should be checked in the dashboard.\n\n**My view:** the exclusions and the one-MID rule suggest the offer is aimed at acquiring net-new small merchants and steering them toward UPI, rather than broadly lowering prices for existing clients. That is a sensible acquisition lever, but it also means the offer's economic value for larger merchants is limited.\n\n## 4. Analytical Assessment\n\n**Strengths.** The GIFT City licence is verifiable, primary-sourced, and strategically concrete. It extends the company's cross-border proposition from a product idea to a regulated capability.\n\n**Risks and gaps.** The agentic and AI narrative is heavily announced but thinly evidenced in the material. The sources give no adoption, success-rate, or revenue data for RAY, Vulcan, or Agent Studio. One LinkedIn repost cites success rates of up to 95% for transfers, but it comes from a third-party magazine and has no methodology, so I have not relied on it ([Razorpay, n.d.](https://www.linkedin.com/posts/razorpay_keynote-reimagining-money-movement-activity-7437771494610411520-QuVn)).\n\n**Leadership signal.** The reported engineering hires, if confirmed within the window, point to a deliberate build-out of AI and data architecture capacity. Given that the IPO is only reported, the company's disclosure posture in the coming months will matter.\n\n**Information quality.** Several in-window items are undated or unconfirmed. Before the meeting, the team should verify the IPO reports, the hire dates, and the Sprint26 event date against Razorpay's own channels.\n\n## 5. Information Gaps to Resolve Before the Meeting\n\n- Publication dates for the hires post, the FTX keynote post, the Sprint26 event, and the Replit announcement.\n- Whether the SEBI approval and USD 500 million IPO size have been confirmed by Razorpay or a regulator.\n- Go-live dates and partners for the GIFT City investment platforms.\n- Current revenue, TPV, and valuation figures, none of which appear in the provided material.\n\n## References\n\nAnalytics India Magazine. (n.d.). *Razorpay AI leadership hires* [LinkedIn post]. LinkedIn. https://www.linkedin.com/posts/analytics-india-magazine_razorpay-ai-fintech-activity-7490353347590311936-jESz\n\nAwwwards. (2026, November 12). *Razorpay Sprint26: The future of payments*. https://www.awwwards.com/razorpay-sprint26-the-future-of-payments.html\n\nBuilt In. (n.d.). *Razorpay company growth, stability & outlook 2026*. https://builtin.com/company/razorpay/faq/stability-growth\n\nRazorpay. (n.d.). *Keynote: Reimagining money movement* [LinkedIn post]. LinkedIn. https://www.linkedin.com/posts/razorpay_keynote-reimagining-money-movement-activity-7437771494610411520-QuVn\n\nRazorpay. (n.d.). *Razorpay at GFF 2026: Agentic payments revolution*. https://razorpay.com/m/gff2026\n\nRazorpay Blog. (2026). *Razorpay 0% platform fee offer: 90-day guide for new merchants (2026)*. https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026\n\nRazorpay Newsroom. (2021, December 20). *Razorpay raises $375 Mn led by Lone Pine Capital, Alkeon Capital and TCV; valuation increases to $7.5 Bn*. https://razorpay.com/newsroom/razorpay-raises-375-mn-led-by-lone-pine-capital-alkeon-capital-and-tcv-valuation-increases-to-7-5-bn\n\nRazorpay Newsroom. (2026). *Press releases*. https://razorpay.com/newsroom/press\n\nRazorpay Newsroom. (2026). *Razorpay becomes the India payments partner for Replit's global AI platform*. https://razorpay.com/newsroom/razorpay-becomes-the-india-payments-partner-for-replits-global-ai-platform\n\nRazorpay Newsroom. (2026). *Razorpay launches Vulcan, India's first AI payments foundation model, fueled by NVIDIA and AWS*. https://razorpay.com/newsroom/razorpay-launches-vulcan-indias-first-ai-payments-foundation-model-fueled-by-nvidia-and-aws-trained-on-4bn-transactions\n\nThe Paypers. (n.d.). *Razorpay reportedly gets Sebi nod for IPO*. https://thepaypers.com/payments/news/razorpay-reportedly-receives-sebi-approval-for-ipo\n\nThe Paypers. (n.d.). *Razorpay rumoured to seek USD 500 mln IPO*. https://thepaypers.com/payments/news/razorpay-reportedly-plans-usd-500-mln-ipo-amid-digital-payments-surge\n\n## Open Questions for Razorpay\n\n1. Can you confirm the status and timing of the reported SEBI approval and IPO, including the reported USD 500 million size, and what disclosure milestones we should expect?\n2. Following the final IFSCA licence for GIFT City, which investment platforms and cross-border collection products go live first, and which merchant segments and volumes are you targeting over the next two quarters?\n3. For RAY, Agentic Payments, and Agent Studio, which adoption and success metrics are you tracking, and how do the 0% platform-fee offer's exclusions fit with your UPI-led routing strategy?",
+ "llm": {
+  "calls": 3,
+  "ok": 3,
+  "errors": 0,
+  "embedding_calls": 0,
+  "tokens_in": 20061,
+  "tokens_out": 10861,
+  "cost": 0.007437,
+  "fallbacks": 0,
+  "providers": [
+   "anthropic"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 5,
+  "statuses": [
+   200,
+   200,
+   200,
+   200,
+   200
+  ],
+  "results": [
+   {
+    "url": "https://razorpay.com/newsroom/razorpay-launches-vulcan-indias-first-ai-payments-foundation-model-fueled-by-nvidia-and-aws-trained-on-4bn-transactions",
+    "title": "Razorpay Launches Vulcan, India's First AI Payments Foundation Model, Fueled by NVIDIA and AWS - Trained on 4Bn Transactions - Razorpay Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.awwwards.com/razorpay-sprint26-the-future-of-payments.html",
+    "title": "Razorpay Sprint26: The Future of Payments.",
+    "published_date": null
+   },
+   {
+    "url": "https://razorpay.com/m/gff2026",
+    "title": "Razorpay at GFF 2026 | Agentic Payments Revolution",
+    "published_date": null
+   },
+   {
+    "url": "https://thepaypers.com/payments/news/razorpay-reportedly-receives-sebi-approval-for-ipo",
+    "title": "Razorpay reportedly gets Sebi nod for IPO | The Paypers",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/razorpay_keynote-reimagining-money-movement-activity-7437771494610411520-QuVn",
+    "title": "Razorpay Unveils AI-First Fintech Platform at FTX 2026 | Razorpay posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://builtin.com/company/razorpay/faq/stability-growth",
+    "title": "Razorpay Company Growth, Stability & Outlook 2026 | Built In",
+    "published_date": null
+   },
+   {
+    "url": "https://razorpay.com/newsroom/press",
+    "title": "Press Releases - Razorpay Latest Information & News",
+    "published_date": null
+   },
+   {
+    "url": "https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026",
+    "title": "Razorpay 0% Platform Fee Offer: 90-Day Guide for New Merchants (2026) - Razorpay Blog",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/aJrBNen1btW7",
+    "title": "Razorpay",
+    "published_date": null
+   },
+   {
+    "url": "https://knok.work/blog/razorpay-software-engineer-interview.html",
+    "title": "Razorpay Software Engineer Interview: Questions & Prep (2026) | knok",
+    "published_date": null
+   },
+   {
+    "url": "https://www.wenhamcarter.com/razorpay-appoints-ceo-north-america-to-spearhead-expansion-redefining-payments-and-financial-services-for-u-s-smbs",
+    "title": "Razorpay appoints CEO, North America, to spearhead expansion, redefining payments and financial services for U.S. SMBs. - Wenham Carter",
+    "published_date": null
+   },
+   {
+    "url": "https://razorpay.com/newsroom/razorpay-raises-375-mn-led-by-lone-pine-capital-alkeon-capital-and-tcv-valuation-increases-to-7-5-bn",
+    "title": "Razorpay Raises $375 Mn Led by Lone Pine Capital, Alkeon Capital and TCV; Valuation Increases to $7.5 Bn - Razorpay Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://www.linkedin.com/posts/analytics-india-magazine_razorpay-ai-fintech-activity-7490353347590311936-jESz",
+    "title": "Razorpay Strengthens AI Leadership with Senior Hires | AIM posted on the topic | LinkedIn",
+    "published_date": null
+   },
+   {
+    "url": "https://thepaypers.com/payments/news/razorpay-reportedly-plans-usd-500-mln-ipo-amid-digital-payments-surge",
+    "title": "Razorpay rumoured to seek USD 500 mln IPO",
+    "published_date": null
+   },
+   {
+    "url": "https://www.fintechfutures.com/cross-border-payments/indian-paytech-razorpay-raises-375m-plans-international-expansion",
+    "title": "Indian paytech Razorpay raises $375m, plans international expansion",
+    "published_date": null
+   },
+   {
+    "url": "https://www.fintechfutures.com/cross-border-payments/indian-paytech-razorpay-raises-375m-plans-international-expansion",
+    "title": "Indian paytech Razorpay raises $375m, plans international expansion",
+    "published_date": null
+   },
+   {
+    "url": "https://www.bwdisrupt.com/article/razorpay-partners-with-openai-to-help-indian-brands-advertise-on-chatgpt-626982",
+    "title": "Razorpay Partners With OpenAI To Help Indian Brands Advertise On ChatGPT - BW Disrupt",
+    "published_date": null
+   },
+   {
+    "url": "https://razorpay.com/newsroom/razorpay-becomes-the-india-payments-partner-for-replits-global-ai-platform",
+    "title": "Razorpay Becomes the India Payments Partner for Replit\u2019s Global AI Platform - Razorpay Newsroom",
+    "published_date": null
+   },
+   {
+    "url": "https://razorpay.com/newsroom",
+    "title": "Newsroom Razorpay - Media Resources & Press Releases",
+    "published_date": null
+   },
+   {
+    "url": "https://analyticsindiamag.com/ai-news/razorpay-partners-with-openai-to-expand-chatgpt-ads-in-india",
+    "title": "Razorpay Partners With OpenAI to Expand ChatGPT Ads in India",
+    "published_date": null
+   },
+   {
+    "url": "https://builtin.com/company/razorpay/faq/stability-growth",
+    "title": "Razorpay Company Growth, Stability & Outlook 2026 | Built In",
+    "published_date": null
+   },
+   {
+    "url": "https://razorpay.com/newsroom/press",
+    "title": "Press Releases - Razorpay Latest Information & News",
+    "published_date": null
+   },
+   {
+    "url": "https://razorpay.com/blog/razorpay-0-percent-platform-fee-offer-90-days-new-merchants-2026",
+    "title": "Razorpay 0% Platform Fee Offer: 90-Day Guide for New Merchants (2026) - Razorpay Blog",
+    "published_date": null
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/aJrBNen1btW7",
+    "title": "Razorpay",
+    "published_date": null
+   },
+   {
+    "url": "https://knok.work/blog/razorpay-software-engineer-interview.html",
+    "title": "Razorpay Software Engineer Interview: Questions & Prep (2026) | knok",
+    "published_date": null
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:47:29.601691Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 7354,
+   "tokens": 1243,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:47:37.060169Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 2075,
+   "query": "Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:47:39.14652Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1278,
+   "tokens": 3096,
+   "error": null
+  },
+  {
+   "t": "2026-11-15T07:47:41.605623Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1217,
+   "query": "Razorpay press releases partnerships expansion announcements last 30 days",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:47:41.608345Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 250,
+   "query": "Prepare a one-page briefing for a meeting with Razorpay on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:47:41.60834Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1433,
+   "query": "Razorpay acquisitions funding and executive hires October 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:47:41.608355Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 1923,
+   "query": "Razorpay news and product launches November 2026",
+   "results": 5
+  },
+  {
+   "t": "2026-11-15T07:47:45.814551Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 41702,
+   "tokens": 26583,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 1676,
+  "cited": 12,
+  "verified": 12,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 12,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

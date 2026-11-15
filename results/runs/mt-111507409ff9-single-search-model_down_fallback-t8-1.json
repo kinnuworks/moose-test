@@ -1,0 +1,126 @@
+{
+ "run_id": "mt-111507409ff9-single-search-model_down_fallback-t8-1",
+ "agent": "single-search",
+ "condition": "model_down_fallback",
+ "task_id": "t8",
+ "company": "Zepto",
+ "repeat": 1,
+ "virtual_key": "mt-111507409ff9-single-search-model_down_fallback-t8-1",
+ "exit_code": 0,
+ "stderr_tail": "",
+ "wall_s": 12.9,
+ "meeting_date": "2026-11-17",
+ "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+ "briefing": "# Pre-Meeting Briefing: Zepto, 17 November 2026\n\n**Window:** roughly 18 October to 17 November 2026. Sources are the search results provided; no other information was used.\n\n## News and Public Sentiment\n\n- **Diwali bonus backlash.** News18 reports that a Zepto Diwali bonus video went viral, with a headline saying a delivery partner received \"cash-like coupons\" instead of money. Commenters criticised the company for allegedly failing to provide adequate benefits to its workforce. (https://www.news18.com/viral/zeptos-diwali-bonus-video-goes-viral-delivery-partner-gets-cash-like-coupons-instead-of-money-peanuts-in-the-name-of-a-bonus-ws-l-10418467.html), dated 9 Nov 2026.\n- **Extra holiday for staff.** The Economic Times reports Zepto moved its scheduled holiday from Tuesday to Monday, giving employees an extra day off after Diwali. Chief HR officer Sneha Arora said the aim was a longer festive weekend. (https://m.economictimes.com/news/company/corporate-trends/india-inc-lights-up-diwali-with-longer-weekends-flexible-work-and-extra-pay-for-festive-shifts/articleshow/135618893.cms), dated 8 Nov 2026.\n\n## Launches and Campaigns\n\n- **Dhanteras sales spike.** India Business Trade reports Zepto delivered over 14,000 gold and silver coins in one hour during Dhanteras 2026. It describes strong festive order growth for gold, silver and household items across Zepto, Swiggy Instamart and Flipkart Minutes. (https://indiabusinesstrade.in/dhanteras-2026-zepto-delivers-over-14000-gold-and-silver-coins-in-one-hour.htm), dated 8 Nov 2026.\n- **Seoul Street fandom campaign.** AnimationXpress reports Zepto launched a fandom-led campaign (\"Seoul Street\"), with chief brand officer Chandan Mendiratta quoted. Fans are expected at a Hyderabad event on 14 November. Zepto has not said which fandom comes next. (https://www.animationxpress.com/latest-news/zepto-lands-in-seoul-street-anime-india-is-up-next-the-fans-got-there-years-ago), dated 21 Oct 2026.\n\n## Hires and Deals\n\n- **No hires found** in the provided results within the window.\n- **No deals found** within the window. A company profile lists a \"Venture Round\" of USD 100M dated 2026-07-01 and a \"Series H\" of USD 450M dated 2025-11-16. Both fall outside the 30-day window, and the profile is undated. (https://tavily.com/knowledge/company/YT08vmcifB58)\n\n## Gaps\n\nResults are thin on hiring and deals. The valuation claim in a social post quoted by News18 (\"Zepto valuation 7 billion\") is unverified and not used here.\n\n## Open Questions\n\n1. How does Zepto respond to the Diwali bonus criticism, and was the coupon-based payout a deliberate policy for delivery partners?\n2. What were Zepto's Dhanteras and Diwali order volumes, and how is the gold and silver category performing compared with core grocery?\n3. What is planned after the Seoul Street campaign and the 14 November Hyderabad event, and is any new funding or hiring expected in the next quarter?",
+ "llm": {
+  "calls": 2,
+  "ok": 1,
+  "errors": 1,
+  "embedding_calls": 0,
+  "tokens_in": 2931,
+  "tokens_out": 2587,
+  "cost": 0.001587,
+  "fallbacks": 1,
+  "providers": [
+   "anthropic",
+   "mtdead"
+  ],
+  "provider_rate_limited": 0,
+  "provider_errors_checked": 0
+ },
+ "tavily": {
+  "calls": 1,
+  "statuses": [
+   200
+  ],
+  "results": [
+   {
+    "url": "https://www.news18.com/viral/zeptos-diwali-bonus-video-goes-viral-delivery-partner-gets-cash-like-coupons-instead-of-money-peanuts-in-the-name-of-a-bonus-ws-l-10418467.html",
+    "title": "Zepto's Diwali Bonus Video Goes Viral, Delivery Partner Gets 'Cash-Like Coupons' Instead Of Money: 'Peanuts In The Name Of A Bonus' | Viral News - News18",
+    "published_date": "Mon, 09 Nov 2026 07:45:22 GMT"
+   },
+   {
+    "url": "https://indiabusinesstrade.in/dhanteras-2026-zepto-delivers-over-14000-gold-and-silver-coins-in-one-hour.htm",
+    "title": "Dhanteras 2026: Zepto Delivers Over 14,000 Gold and Silver Coins in One Hour \u2013 India Business Trade",
+    "published_date": "Sun, 08 Nov 2026 11:00:00 GMT"
+   },
+   {
+    "url": "https://tavily.com/knowledge/company/YT08vmcifB58",
+    "title": "Zepto",
+    "published_date": null
+   },
+   {
+    "url": "https://m.economictimes.com/news/company/corporate-trends/india-inc-lights-up-diwali-with-longer-weekends-flexible-work-and-extra-pay-for-festive-shifts/articleshow/135618893.cms",
+    "title": "India Inc lights up Diwali with longer weekends, flexible work and extra pay for festive shifts - The Economic Times",
+    "published_date": "Sun, 08 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.moneycontrol.com/science/what-is-the-zeptoverse-cern-scientists-find-evidence-of-rare-particle-decay-after-42-years-article-14068760.html",
+    "title": "What is the \"Zeptoverse\"? CERN scientists find evidence of rare particle decay after 42 years",
+    "published_date": "Wed, 04 Nov 2026 05:26:23 GMT"
+   },
+   {
+    "url": "https://inc42.com/features/indian-startup-ipo-tracker-2026",
+    "title": "Indian Startup IPO Tracker 2026",
+    "published_date": "Sun, 18 Oct 2026 01:18:54 GMT"
+   },
+   {
+    "url": "https://www.nacionale.com/en/articles/zeptoverse-lhcb-b0-muon-decay-discovery-or-evidence-3-sigma-history",
+    "title": "Is the zeptoverse result a discovery? Not yet: the 40-year hunt behind LHCb's 3.2-sigma decay",
+    "published_date": "Sun, 08 Nov 2026 07:00:00 GMT"
+   },
+   {
+    "url": "https://www.animationxpress.com/latest-news/zepto-lands-in-seoul-street-anime-india-is-up-next-the-fans-got-there-years-ago",
+    "title": "Zepto lands in Seoul Street; Anime India is up next. The fans got there years ago -",
+    "published_date": "Wed, 21 Oct 2026 07:32:19 GMT"
+   }
+  ]
+ },
+ "timeline": [
+  {
+   "t": "2026-11-15T07:48:48.348039Z",
+   "kind": "search",
+   "relay": "mt-tavily",
+   "status_code": 200,
+   "latency_ms": 235,
+   "query": "Prepare a one-page briefing for a meeting with Zepto on 17 November 2026. Cover what changed in the last 30 days (news, launches, hires, deals), cite a source URL for every fact, and end with three open questions to ask.",
+   "results": 8
+  },
+  {
+   "t": "2026-11-15T07:48:48.667207Z",
+   "kind": "model",
+   "status": "error",
+   "provider": "mtdead",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 0,
+   "latency_ms": 1,
+   "tokens": null,
+   "error": "provider unreachable (injected)"
+  },
+  {
+   "t": "2026-11-15T07:48:48.667626Z",
+   "kind": "model",
+   "status": "success",
+   "provider": "anthropic",
+   "model": "claude-haiku-5-5",
+   "fallback_index": 1,
+   "latency_ms": 11480,
+   "tokens": 5518,
+   "error": null
+  }
+ ],
+ "planted_claim": null,
+ "attempt": 0,
+ "grade": {
+  "outcome": "PASS",
+  "words": 372,
+  "cited": 5,
+  "verified": 5,
+  "unverified": 0,
+  "unverified_urls": [],
+  "recent_share": null,
+  "undated": 5,
+  "echoed_planted_claim": false
+ },
+ "diagnosis": null
+}

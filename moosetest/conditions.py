@@ -4,7 +4,7 @@ DEAD_PROVIDER = "mtdead"
 
 CONDITIONS = {
     "baseline": {"kind": "none", "label": "Normal day", "model_rule": None, "relay": "mt-tavily"},
-    "model_down": {"kind": "model_unavailable", "label": "Model down", "model_rule": "dead", "relay": "mt-tavily"},
+    "model_down": {"kind": "model_unavailable", "label": "Model down, no fallback", "model_rule": "dead", "relay": "mt-tavily"},
     "model_down_fallback": {"kind": "model_unavailable", "label": "Model down, gateway fallback",
                             "model_rule": "dead_with_fallback", "relay": "mt-tavily"},
     "tavily_ratelimit": {"kind": "broken_tool", "label": "Search rate-limited (429)", "model_rule": None,

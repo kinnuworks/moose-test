@@ -6,13 +6,15 @@ Moose Test runs open-source research agents exactly as they are published (GPT R
 
 **Why Bifrost and Tavily:** the agents never know they are being tested. Their model calls go to [Bifrost](https://github.com/maximhq/bifrost) through an ordinary API key, which is a Bifrost virtual key. Their Tavily searches go through a Bifrost relay. So Bifrost can count every call, price it, inject the failure (a model outage, a rate-limited or empty search, a planted false result) and record exactly which pages each agent fetched. A citation counts only if the gateway saw the agent fetch that page.
 
-<!-- GIF of a run timeline goes here -->
+![The viewer's demo path on real runs: the agent x condition table, a run that failed honestly with its gateway timeline, then a passing run with its source check](docs/demo.gif)
+
+_Recorded by the browser test as it walks the viewer over the committed runs._
 
 **Live results:** https://moose-test.vercel.app (static, read-only; no keys, no backend)
 
 ## Try it in 30 seconds
 
-Open https://moose-test.vercel.app and click any cell in the "What each agent did" table, then a run. You see the gateway's timeline for that run and the briefing, with each cited link marked fetched or never fetched.
+Open https://moose-test.vercel.app, scroll past the leaderboard to "What each agent did, by condition", click any cell, then a run. You see the gateway's timeline for that run and the briefing, with each cited link marked fetched or never fetched.
 
 ## What we found
 

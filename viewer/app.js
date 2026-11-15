@@ -37,14 +37,17 @@ function agentTotals(agent) {
 
 function renderLeaderboard() {
   const rows = B.suite.agents.map((a) => [a, agentTotals(a)]);
-  rows.sort((x, y) => (y[1].normal ?? -1) - (x[1].normal ?? -1) || (y[1].safe ?? -1) - (x[1].safe ?? -1));
+  // real agents first, controls last; within each, by normal-day pass rate then behaviour under faults
+  rows.sort((x, y) => (CONTROLS.has(x[0]) - CONTROLS.has(y[0])) ||
+    (y[1].normal ?? -1) - (x[1].normal ?? -1) || (y[1].safe ?? -1) - (x[1].safe ?? -1));
   const tb = $("#leaderboard tbody");
   tb.replaceChildren();
   for (const [a, t] of rows) {
     const ci = t.normalCi ? ` (${pct(t.normalCi[0])}–${pct(t.normalCi[1])})` : "";
+    const notRun = t.normal == null ? "not run yet" : null;
     tb.append(el("tr", { class: CONTROLS.has(a) ? "control" : "" },
       el("td", {}, a + (CONTROLS.has(a) ? " (control)" : "")),
-      el("td", {}, pct(t.normal) + ci), el("td", {}, pct(t.passk)), el("td", {}, pct(t.safe)),
+      el("td", {}, notRun || pct(t.normal) + ci), el("td", {}, notRun || pct(t.passk)), el("td", {}, pct(t.safe)),
       el("td", {}, String(t.silent)), el("td", {}, money(t.costPerPass)), el("td", {}, money(t.costPerRun)),
       el("td", {}, Math.round(t.tokens).toLocaleString()),
       el("td", {}, t.llm.toFixed(1)), el("td", {}, t.tav.toFixed(1)), el("td", {}, supportText(a))));
@@ -99,7 +102,7 @@ function renderMatrix() {
           if (k) bar.append(el("span", { class: "seg " + o, style: `flex:${k}`, title: `${k} ${OUTCOME_TEXT[o]}` }));
         }
         td.append(bar, el("div", { class: "small" }, `${cell.pass}/${cell.n} passed`));
-      } else td.append("–");
+      } else td.append(el("span", { class: "small" }, "not run yet"));
       td.addEventListener("click", () => openCell(a, c));
       td.addEventListener("keydown", (e) => e.key === "Enter" && openCell(a, c));
       tr.append(td);

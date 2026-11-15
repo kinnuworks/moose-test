@@ -13,6 +13,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 from moosetest.grade import grade_run, summarize  # noqa: E402
 from moosetest.support import summarize_support  # noqa: E402
+from moosetest.conditions import CONDITIONS  # noqa: E402
 
 
 def main(paths):
@@ -35,6 +36,7 @@ def main(paths):
     labels = {}
     for s in suites:
         labels.update(s.get("condition_labels", {}))
+    labels.update({c: CONDITIONS[c]["label"] for c in labels if c in CONDITIONS})  # current wording
     tasks = {t["id"]: t for s in suites for t in s["tasks"]}
     if len({s["model"] for s in suites}) != 1:
         raise SystemExit("refusing to merge runs made with different models")

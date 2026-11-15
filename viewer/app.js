@@ -222,7 +222,7 @@ function openState(params) {
   }
   if (OUTCOME_STATES[state]) return run((r) => r.grade.outcome === OUTCOME_STATES[state]);
   if (state === "run-planted") return run((r) => r.grade.echoed_planted_claim);
-  if (state === "run-sourcecheck") return run((r) => (r.support || {}).items && r.support.items.length);
+  if (state === "run-sourcecheck" || state === "result") return run((r) => (r.support || {}).items && r.support.items.length);
   none();
 }
 

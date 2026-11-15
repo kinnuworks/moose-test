@@ -159,3 +159,22 @@ def test_summary_leaves_invalid_runs_out_and_counts_them():
     c = summarize(runs)["cells"]["a"]["baseline"]
     assert c["n"] == 2 and c["pass"] == 1 and c["invalid"] == 1
     assert "INVALID" not in c["outcomes"]
+
+
+def test_error_exit_with_nothing_reaching_the_gateway_is_invalid():
+    # seen for real: a search stalled on our machine before reaching Bifrost (no relay log) and
+    # the agent timed out; the agent was never tested, so the run is re-run, not scored
+    r = run("", exit_code=1)
+    r["llm"] = {"calls": 0}
+    r["tavily"] = {"calls": 0, "results": []}
+    assert grade_run(r)["outcome"] == "INVALID"
+    # the null control exits cleanly with no calls: that is its real result
+    r2 = run("", exit_code=0)
+    r2["llm"] = {"calls": 0}
+    r2["tavily"] = {"calls": 0, "results": []}
+    assert grade_run(r2)["outcome"] == "NO_OUTPUT"
+    # a crash after reaching the gateway is a real crash
+    r3 = run("", exit_code=1)
+    r3["llm"] = {"calls": 3}
+    r3["tavily"] = {"calls": 1, "results": []}
+    assert grade_run(r3)["outcome"] == "CRASH"

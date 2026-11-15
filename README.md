@@ -8,11 +8,11 @@ Moose Test runs open-source research agents exactly as they are published (GPT R
 
 <!-- GIF of a run timeline goes here -->
 
-**Live results:** _link added after deploy_
+**Live results:** https://moose-test.vercel.app (static, read-only; no keys, no backend)
 
 ## Try it in 30 seconds
 
-Open the live results and click any cell in the "What each agent did" table, then a run. You see the gateway's timeline for that run and the briefing, with each cited link marked fetched or never fetched.
+Open https://moose-test.vercel.app and click any cell in the "What each agent did" table, then a run. You see the gateway's timeline for that run and the briefing, with each cited link marked fetched or never fetched.
 
 ## What we found
 

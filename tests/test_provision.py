@@ -137,3 +137,12 @@ def test_relay_map_is_written_atomically(tmp_path):
     assert replaced and replaced[-1][1] == str(r.map_file)
     import json
     assert json.loads(r.map_file.read_text()) == {"k1": "mt-tavily-empty"}
+
+
+def test_home_paths_are_redacted_from_published_text():
+    # security review: stderr tails in published run records carried /Users/<name>/... paths
+    from moosetest.run import redact_home
+    t = 'File "/Users/someone/projects/x/.agents/odr/lib/site.py", line 3\n/home/someone/y and /Users/someone'
+    out = redact_home(t, home="/Users/someone")
+    assert "/Users/someone" not in out and out.count("~") == 2
+    assert "/home/someone/y" in redact_home("/home/someone/y", home="/Users/someone")  # other paths untouched

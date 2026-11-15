@@ -39,6 +39,8 @@ The `null` control writes nothing and is graded NO_OUTPUT every time, which chec
 
 ## Run it yourself
 
+Needs Python 3.11+, Node.js (Bifrost starts through `npx`) and [Ollama](https://ollama.com) for embeddings. Keys go in `.env`, which is git-ignored.
+
 ```bash
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 scripts/setup_agents.sh          # installs each agent under test, unmodified, in its own venv
@@ -47,6 +49,8 @@ scripts/up.sh                    # Bifrost on :8080, Tavily proxy on :8899, Olla
 .venv/bin/python -m moosetest.run suites/briefings.yaml --repeats 3
 .venv/bin/python scripts/build_viewer.py results/suite-*.json && python3 -m http.server -d viewer
 ```
+
+Checks: `.venv/bin/playwright install chromium` once, then `./check.sh` (unit tests, the viewer's demo path in a real browser, and a live smoke test through Bifrost with the real model and real Tavily).
 
 ## How it works
 

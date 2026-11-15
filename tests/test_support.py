@@ -98,4 +98,20 @@ def test_summary_over_runs():
             {"agent": "a", "condition": "baseline", "grade": {"outcome": "INVALID"},
              "support": {"counts": {"supported": 9, "not_in_source": 0, "contradicted": 9}}}]
     s = summarize_support(runs)["a"]["baseline"]
-    assert s == {"checked": 6, "supported": 4, "not_in_source": 1, "contradicted": 1, "runs_with_contradiction": 1}
+    assert s == {"checked": 6, "supported": 4, "not_in_source": 1, "contradicted": 1, "runs_with_contradiction": 1,
+                 "errored_runs": 0}
+
+
+def test_errored_checks_are_counted_in_the_summary():
+    runs = [{"agent": "a", "condition": "baseline", "grade": {"outcome": "PASS"},
+             "support": {"error": "reply could not be parsed", "counts": None, "items": []}},
+            {"agent": "a", "condition": "baseline", "grade": {"outcome": "PASS"},
+             "support": {"counts": {"supported": 2, "not_in_source": 0, "contradicted": 0}}}]
+    s = summarize_support(runs)["a"]["baseline"]
+    assert s["errored_runs"] == 1 and s["checked"] == 2
+
+
+def test_every_fetched_citation_is_checked_not_only_the_first_twelve():
+    lines = "\n".join(f"- claim {i} (https://n.example/{i})" for i in range(30))
+    sources = {f"https://n.example/{i}": "text" for i in range(30)}
+    assert len(claims_for(lines, sources)) == 30

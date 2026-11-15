@@ -35,6 +35,18 @@ class Bifrost:
             return []
         return r.json().get("keys") or []
 
+    def set_provider_limits(self, provider, concurrency, buffer_size, max_retries,
+                            backoff_initial_ms, backoff_max_ms):
+        """Gateway-side queue and retries for one provider: at most `concurrency` requests in
+        flight, the rest wait in Bifrost's buffer; provider 429s are retried with backoff. Keys
+        live behind their own endpoint and are not part of this update."""
+        cur = self._req("GET", f"/api/providers/{provider}")
+        net = {**(cur.get("network_config") or {}), "max_retries": max_retries,
+               "retry_backoff_initial": backoff_initial_ms, "retry_backoff_max": backoff_max_ms}
+        self._req("PUT", f"/api/providers/{provider}", json={
+            "network_config": net,
+            "concurrency_and_buffer_size": {"concurrency": concurrency, "buffer_size": buffer_size}})
+
     def ensure_custom_provider(self, name, base_url):
         """An OpenAI-compatible provider pointed at base_url (used for the dead provider)."""
         if not self.provider_keys(name):

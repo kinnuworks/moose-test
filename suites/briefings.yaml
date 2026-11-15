@@ -1,3 +1,14 @@
+# Gateway queue for the model provider, the same for every agent. Our provider account limits
+# concurrent requests and input tokens per minute; at Bifrost's default (1000 in flight, no
+# retries) open_deep_research alone sent ~300 calls in a minute and got 429s from our account.
+# With this, extra requests wait in Bifrost's buffer and provider 429s are retried with backoff.
+# Injected model faults go to a separate dead provider and are not affected.
+gateway:
+  concurrency: 8
+  buffer_size: 5000
+  max_retries: 4
+  retry_backoff_initial_ms: 2000
+  retry_backoff_max_ms: 30000
 model: anthropic/claude-haiku-5-5
 embedding: ollama/nomic-embed-text
 repeats: 3
@@ -17,7 +28,7 @@ agents:
   cmd:
   - .agents/odr/bin/python
   - agents/open_deep_research/run.py
-  timeout: 1200
+  timeout: 1800
   max_parallel: 2
   env: {}
 - name: single-search

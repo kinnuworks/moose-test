@@ -78,6 +78,10 @@ class Runner:
         self.provider_keys = self.b.provider_keys(self.provider)
         if not self.provider_keys:
             raise SystemExit(f"Bifrost has no keys for provider {self.provider}")
+        g = self.suite.get("gateway") or {}
+        if g:  # same queue and retries for every agent; see suites/*.yaml for why
+            self.b.set_provider_limits(self.provider, g["concurrency"], g["buffer_size"], g["max_retries"],
+                                       g["retry_backoff_initial_ms"], g["retry_backoff_max_ms"])
         self.embed_keys = self.b.provider_keys("ollama") if self.suite.get("embedding", "").startswith("ollama/") else []
         if not self.map_file.exists():
             self.map_file.write_text("{}")
